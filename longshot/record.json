@@ -1,0 +1,202 @@
+{
+ "pulled_az": "2026-11-05T16:45:01-07:00",
+ "slate": "2026-11-05",
+ "tz": "Arizona (MST)",
+ "sources": [
+  {
+   "name": "ESPN",
+   "use": "schedules, game odds, injuries, team leaders, player game logs, box scores",
+   "url": "https://www.espn.com"
+  },
+  {
+   "name": "Kalshi",
+   "use": "which player props are listed, their N+ thresholds and market tickers",
+   "url": "https://kalshi.com"
+  },
+  {
+   "name": "Action Network",
+   "use": "public betting splits (% of bets and % of money)",
+   "url": "https://www.actionnetwork.com"
+  }
+ ],
+ "thresholds": {
+  "green": 90,
+  "yellow": 75
+ },
+ "summary": {
+  "wins": 7,
+  "losses": 0,
+  "pending": 5,
+  "void": 0
+ },
+ "picks": [
+  {
+   "slate": "2026-11-05",
+   "sport": "nba",
+   "game": "ORL @ PHX",
+   "player": "Franz Wagner",
+   "team": "ORL",
+   "label": "4+ assists",
+   "line": 3.5,
+   "score": 100.0,
+   "posted_az": "2026-11-05T07:00:01-07:00",
+   "result": null,
+   "grade": null,
+   "graded_az": null
+  },
+  {
+   "slate": "2026-11-05",
+   "sport": "nba",
+   "game": "MIA @ GS",
+   "player": "Stephen Curry",
+   "team": "GS",
+   "label": "2+ rebounds",
+   "line": 1.5,
+   "score": 100.0,
+   "posted_az": "2026-11-05T07:00:01-07:00",
+   "result": null,
+   "grade": null,
+   "graded_az": null
+  },
+  {
+   "slate": "2026-11-05",
+   "sport": "nba",
+   "game": "MIA @ GS",
+   "player": "Draymond Green",
+   "team": "GS",
+   "label": "2+ assists",
+   "line": 1.5,
+   "score": 100.0,
+   "posted_az": "2026-11-05T07:00:01-07:00",
+   "result": null,
+   "grade": null,
+   "graded_az": null
+  },
+  {
+   "slate": "2026-11-05",
+   "sport": "nhl",
+   "game": "ANA @ EDM",
+   "player": "Connor McDavid",
+   "team": "EDM",
+   "label": "1+ points",
+   "line": 0.5,
+   "score": 99.8,
+   "posted_az": "2026-11-05T07:00:01-07:00",
+   "result": null,
+   "grade": null,
+   "graded_az": null
+  },
+  {
+   "slate": "2026-11-05",
+   "sport": "nhl",
+   "game": "VGK @ DET",
+   "player": "Mitch Marner",
+   "team": "VGK",
+   "label": "1+ points",
+   "line": 0.5,
+   "score": 91.0,
+   "posted_az": "2026-11-05T07:00:01-07:00",
+   "result": null,
+   "grade": null,
+   "graded_az": null
+  },
+  {
+   "slate": "2026-11-04",
+   "sport": "nba",
+   "game": "PHI @ DET",
+   "player": "Cade Cunningham",
+   "team": "DET",
+   "label": "4+ assists",
+   "line": 3.5,
+   "score": 100.0,
+   "posted_az": "2026-11-04T07:00:01-07:00",
+   "result": 11.0,
+   "grade": "win",
+   "graded_az": "2026-11-05T02:30:02-07:00"
+  },
+  {
+   "slate": "2026-11-04",
+   "sport": "nba",
+   "game": "UTAH @ NO",
+   "player": "Ace Bailey",
+   "team": "UTAH",
+   "label": "4+ rebounds",
+   "line": 3.5,
+   "score": 100.0,
+   "posted_az": "2026-11-04T07:00:01-07:00",
+   "result": 5.0,
+   "grade": "win",
+   "graded_az": "2026-11-05T02:30:03-07:00"
+  },
+  {
+   "slate": "2026-11-04",
+   "sport": "nba",
+   "game": "MIN @ HOU",
+   "player": "Alperen Sengun",
+   "team": "HOU",
+   "label": "4+ assists",
+   "line": 3.5,
+   "score": 100.0,
+   "posted_az": "2026-11-04T07:00:01-07:00",
+   "result": 10.0,
+   "grade": "win",
+   "graded_az": "2026-11-05T02:30:04-07:00"
+  },
+  {
+   "slate": "2026-11-04",
+   "sport": "nhl",
+   "game": "CHI @ FLA",
+   "player": "Connor Bedard",
+   "team": "CHI",
+   "label": "1+ points",
+   "line": 0.5,
+   "score": 91.1,
+   "posted_az": "2026-11-04T07:00:01-07:00",
+   "result": 2.0,
+   "grade": "win",
+   "graded_az": "2026-11-05T02:30:49-07:00"
+  },
+  {
+   "slate": "2026-11-03",
+   "sport": "nhl",
+   "game": "EDM @ NJ",
+   "player": "Connor McDavid",
+   "team": "EDM",
+   "label": "1+ points",
+   "line": 0.5,
+   "score": 99.6,
+   "posted_az": "2026-11-03T11:15:03-07:00",
+   "result": 1.0,
+   "grade": "win",
+   "graded_az": "2026-11-04T02:30:02-07:00"
+  },
+  {
+   "slate": "2026-11-03",
+   "sport": "nhl",
+   "game": "MIN @ PHI",
+   "player": "Kirill Kaprizov",
+   "team": "MIN",
+   "label": "1+ points",
+   "line": 0.5,
+   "score": 94.3,
+   "posted_az": "2026-11-03T11:15:03-07:00",
+   "result": 1.0,
+   "grade": "win",
+   "graded_az": "2026-11-04T02:30:02-07:00"
+  },
+  {
+   "slate": "2026-11-03",
+   "sport": "nhl",
+   "game": "MIN @ PHI",
+   "player": "Quinn Hughes",
+   "team": "MIN",
+   "label": "1+ points",
+   "line": 0.5,
+   "score": 92.5,
+   "posted_az": "2026-11-03T11:15:03-07:00",
+   "result": 1.0,
+   "grade": "win",
+   "graded_az": "2026-11-04T02:30:03-07:00"
+  }
+ ]
+}

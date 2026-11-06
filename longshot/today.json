@@ -1,0 +1,7477 @@
+{
+ "pulled_az": "2026-11-05T16:45:01-07:00",
+ "slate": "2026-11-05",
+ "tz": "Arizona (MST)",
+ "sources": [
+  {
+   "name": "ESPN",
+   "use": "schedules, game odds, injuries, team leaders, player game logs, box scores",
+   "url": "https://www.espn.com"
+  },
+  {
+   "name": "Kalshi",
+   "use": "which player props are listed, their N+ thresholds and market tickers",
+   "url": "https://kalshi.com"
+  },
+  {
+   "name": "Action Network",
+   "use": "public betting splits (% of bets and % of money)",
+   "url": "https://www.actionnetwork.com"
+  }
+ ],
+ "thresholds": {
+  "green": 90,
+  "yellow": 75
+ },
+ "top": {
+  "nba": [
+   {
+    "id": "2026-11-05:nba:4566434:assists",
+    "sport": "nba",
+    "event_id": "401909936",
+    "game": "ORL @ PHX",
+    "start_utc": "2026-11-06T02:00:00+00:00",
+    "start_az": "7:00 PM",
+    "athlete_id": "4566434",
+    "player": "Franz Wagner",
+    "team": "ORL",
+    "stat": "assists",
+    "label": "4+ assists",
+    "spread": "PHX -1.5",
+    "total": 222.5,
+    "line": 3.5,
+    "avg": 7.6,
+    "l5": [
+     6.0,
+     12.0,
+     11.0,
+     5.0,
+     9.0
+    ],
+    "hit_season": 1.0,
+    "hit_l5": 1.0,
+    "games": 7,
+    "score": 100,
+    "notes": [
+     "usage L5 105% of season"
+    ],
+    "kalshi": {
+     "ticker": "KXNBAAST-26NOV05ORLPHX-ORLFWAGNER22-4",
+     "event": "KXNBAAST-26NOV05ORLPHX",
+     "n": 4,
+     "implied_pct": 88
+    },
+    "kalshi_at": "2026-11-05T16:45:01-07:00",
+    "first_seen": "2026-11-05T07:00:01-07:00"
+   },
+   {
+    "id": "2026-11-05:nba:3975:totalRebounds",
+    "sport": "nba",
+    "event_id": "401909937",
+    "game": "MIA @ GS",
+    "start_utc": "2026-11-06T03:00:00+00:00",
+    "start_az": "8:00 PM",
+    "athlete_id": "3975",
+    "player": "Stephen Curry",
+    "team": "GS",
+    "stat": "totalRebounds",
+    "label": "2+ rebounds",
+    "spread": "GS -3.5",
+    "total": 235.5,
+    "line": 1.5,
+    "avg": 4.2,
+    "l5": [
+     6.0,
+     4.0,
+     8.0,
+     3.0,
+     2.0
+    ],
+    "hit_season": 1.0,
+    "hit_l5": 1.0,
+    "games": 6,
+    "score": 100,
+    "notes": [
+     "usage L5 106% of season"
+    ],
+    "kalshi": {
+     "ticker": "KXNBAREB-26NOV05MIAGSW-GSWSCURRY30-2",
+     "event": "KXNBAREB-26NOV05MIAGSW",
+     "n": 2,
+     "implied_pct": 82
+    },
+    "kalshi_at": "2026-11-05T16:45:01-07:00",
+    "first_seen": "2026-11-05T07:00:01-07:00"
+   },
+   {
+    "id": "2026-11-05:nba:6589:assists",
+    "sport": "nba",
+    "event_id": "401909937",
+    "game": "MIA @ GS",
+    "start_utc": "2026-11-06T03:00:00+00:00",
+    "start_az": "8:00 PM",
+    "athlete_id": "6589",
+    "player": "Draymond Green",
+    "team": "GS",
+    "stat": "assists",
+    "label": "2+ assists",
+    "spread": "GS -3.5",
+    "total": 235.5,
+    "line": 1.5,
+    "avg": 6.3,
+    "l5": [
+     2.0,
+     9.0,
+     6.0,
+     7.0,
+     6.0
+    ],
+    "hit_season": 1.0,
+    "hit_l5": 1.0,
+    "games": 6,
+    "score": 100,
+    "notes": [
+     "usage L5 104% of season"
+    ],
+    "kalshi": {
+     "ticker": "KXNBAAST-26NOV05MIAGSW-GSWDGREEN23-2",
+     "event": "KXNBAAST-26NOV05MIAGSW",
+     "n": 2,
+     "implied_pct": 94
+    },
+    "kalshi_at": "2026-11-05T16:45:01-07:00",
+    "first_seen": "2026-11-05T07:00:01-07:00"
+   }
+  ],
+  "nhl": [
+   {
+    "id": "2026-11-05:nhl:3895074:points",
+    "sport": "nhl",
+    "event_id": "401892657",
+    "game": "ANA @ EDM",
+    "start_utc": "2026-11-06T01:00:00+00:00",
+    "start_az": "6:00 PM",
+    "athlete_id": "3895074",
+    "player": "Connor McDavid",
+    "team": "EDM",
+    "stat": "points",
+    "label": "1+ points",
+    "spread": "EDM -192",
+    "total": 6.5,
+    "line": 0.5,
+    "avg": 2.5,
+    "l5": [
+     1.0,
+     2.0,
+     1.0,
+     2.0,
+     1.0
+    ],
+    "hit_season": 1.0,
+    "hit_l5": 1.0,
+    "games": 16,
+    "score": 99.8,
+    "notes": [
+     "usage L5 99% of season"
+    ],
+    "kalshi": {
+     "ticker": "KXNHLPTS-26NOV05ANAEDM-EDMCMCDAVID97-1",
+     "event": "KXNHLPTS-26NOV05ANAEDM",
+     "n": 1,
+     "implied_pct": 84
+    },
+    "kalshi_at": "2026-11-05T16:45:01-07:00",
+    "first_seen": "2026-11-05T07:00:01-07:00"
+   },
+   {
+    "id": "2026-11-05:nhl:3899937:points",
+    "sport": "nhl",
+    "event_id": "401892649",
+    "game": "VGK @ DET",
+    "start_utc": "2026-11-06T00:00:00+00:00",
+    "start_az": "5:00 PM",
+    "athlete_id": "3899937",
+    "player": "Mitch Marner",
+    "team": "VGK",
+    "stat": "points",
+    "label": "1+ points",
+    "spread": "VGK -142",
+    "total": 6.5,
+    "line": 0.5,
+    "avg": 1.2,
+    "l5": [
+     1.0,
+     2.0,
+     2.0,
+     1.0,
+     1.0
+    ],
+    "hit_season": 0.867,
+    "hit_l5": 1.0,
+    "games": 15,
+    "score": 91.0,
+    "notes": [
+     "usage L5 102% of season"
+    ],
+    "kalshi": {
+     "ticker": "KXNHLPTS-26NOV05VGKDET-VGKMMARNER93-1",
+     "event": "KXNHLPTS-26NOV05VGKDET",
+     "n": 1,
+     "implied_pct": 62
+    },
+    "kalshi_at": "2026-11-05T16:45:01-07:00",
+    "first_seen": "2026-11-05T07:00:01-07:00"
+   }
+  ],
+  "nfl": []
+ },
+ "legs": {
+  "nba": [
+   {
+    "id": "2026-11-05:nba:4566434:assists",
+    "sport": "nba",
+    "event_id": "401909936",
+    "game": "ORL @ PHX",
+    "start_utc": "2026-11-06T02:00:00+00:00",
+    "start_az": "7:00 PM",
+    "athlete_id": "4566434",
+    "player": "Franz Wagner",
+    "team": "ORL",
+    "stat": "assists",
+    "label": "4+ assists",
+    "spread": "PHX -1.5",
+    "total": 222.5,
+    "line": 3.5,
+    "avg": 7.6,
+    "l5": [
+     6.0,
+     12.0,
+     11.0,
+     5.0,
+     9.0
+    ],
+    "hit_season": 1.0,
+    "hit_l5": 1.0,
+    "games": 7,
+    "score": 100,
+    "notes": [
+     "usage L5 105% of season"
+    ],
+    "kalshi": {
+     "ticker": "KXNBAAST-26NOV05ORLPHX-ORLFWAGNER22-4",
+     "event": "KXNBAAST-26NOV05ORLPHX",
+     "n": 4,
+     "implied_pct": 88
+    },
+    "kalshi_at": "2026-11-05T16:45:01-07:00",
+    "first_seen": "2026-11-05T07:00:01-07:00"
+   },
+   {
+    "id": "2026-11-05:nba:3975:totalRebounds",
+    "sport": "nba",
+    "event_id": "401909937",
+    "game": "MIA @ GS",
+    "start_utc": "2026-11-06T03:00:00+00:00",
+    "start_az": "8:00 PM",
+    "athlete_id": "3975",
+    "player": "Stephen Curry",
+    "team": "GS",
+    "stat": "totalRebounds",
+    "label": "2+ rebounds",
+    "spread": "GS -3.5",
+    "total": 235.5,
+    "line": 1.5,
+    "avg": 4.2,
+    "l5": [
+     6.0,
+     4.0,
+     8.0,
+     3.0,
+     2.0
+    ],
+    "hit_season": 1.0,
+    "hit_l5": 1.0,
+    "games": 6,
+    "score": 100,
+    "notes": [
+     "usage L5 106% of season"
+    ],
+    "kalshi": {
+     "ticker": "KXNBAREB-26NOV05MIAGSW-GSWSCURRY30-2",
+     "event": "KXNBAREB-26NOV05MIAGSW",
+     "n": 2,
+     "implied_pct": 82
+    },
+    "kalshi_at": "2026-11-05T16:45:01-07:00",
+    "first_seen": "2026-11-05T07:00:01-07:00"
+   },
+   {
+    "id": "2026-11-05:nba:4566434:totalRebounds",
+    "sport": "nba",
+    "event_id": "401909936",
+    "game": "ORL @ PHX",
+    "start_utc": "2026-11-06T02:00:00+00:00",
+    "start_az": "7:00 PM",
+    "athlete_id": "4566434",
+    "player": "Franz Wagner",
+    "team": "ORL",
+    "stat": "totalRebounds",
+    "label": "2+ rebounds",
+    "spread": "PHX -1.5",
+    "total": 222.5,
+    "line": 1.5,
+    "avg": 6.1,
+    "l5": [
+     3.0,
+     6.0,
+     5.0,
+     4.0,
+     13.0
+    ],
+    "hit_season": 1.0,
+    "hit_l5": 1.0,
+    "games": 7,
+    "score": 100,
+    "notes": [
+     "usage L5 105% of season"
+    ],
+    "kalshi": {
+     "ticker": "KXNBAREB-26NOV05ORLPHX-ORLFWAGNER22-2",
+     "event": "KXNBAREB-26NOV05ORLPHX",
+     "n": 2,
+     "implied_pct": 96
+    },
+    "kalshi_at": "2026-11-05T16:45:01-07:00",
+    "first_seen": "2026-11-05T07:00:01-07:00"
+   },
+   {
+    "id": "2026-11-05:nba:6589:assists",
+    "sport": "nba",
+    "event_id": "401909937",
+    "game": "MIA @ GS",
+    "start_utc": "2026-11-06T03:00:00+00:00",
+    "start_az": "8:00 PM",
+    "athlete_id": "6589",
+    "player": "Draymond Green",
+    "team": "GS",
+    "stat": "assists",
+    "label": "2+ assists",
+    "spread": "GS -3.5",
+    "total": 235.5,
+    "line": 1.5,
+    "avg": 6.3,
+    "l5": [
+     2.0,
+     9.0,
+     6.0,
+     7.0,
+     6.0
+    ],
+    "hit_season": 1.0,
+    "hit_l5": 1.0,
+    "games": 6,
+    "score": 100,
+    "notes": [
+     "usage L5 104% of season"
+    ],
+    "kalshi": {
+     "ticker": "KXNBAAST-26NOV05MIAGSW-GSWDGREEN23-2",
+     "event": "KXNBAAST-26NOV05MIAGSW",
+     "n": 2,
+     "implied_pct": 94
+    },
+    "kalshi_at": "2026-11-05T16:45:01-07:00",
+    "first_seen": "2026-11-05T07:00:01-07:00"
+   },
+   {
+    "id": "2026-11-05:nba:5175737:threes",
+    "sport": "nba",
+    "event_id": "401909937",
+    "game": "MIA @ GS",
+    "start_utc": "2026-11-06T03:00:00+00:00",
+    "start_az": "8:00 PM",
+    "athlete_id": "5175737",
+    "player": "Yaxel Lendeborg",
+    "team": "GS",
+    "stat": "threes",
+    "label": "1+ threes",
+    "spread": "GS -3.5",
+    "total": 235.5,
+    "line": 0.5,
+    "avg": 2.5,
+    "l5": [
+     2.0,
+     6.0,
+     1.0,
+     2.0,
+     1.0
+    ],
+    "hit_season": 1.0,
+    "hit_l5": 1.0,
+    "games": 8,
+    "score": 99.4,
+    "notes": [
+     "usage L5 96% of season"
+    ],
+    "kalshi": {
+     "ticker": "KXNBA3PT-26NOV05MIAGSW-GSWYLENDEBORG1-1",
+     "event": "KXNBA3PT-26NOV05MIAGSW",
+     "n": 1,
+     "implied_pct": 84
+    },
+    "kalshi_at": "2026-11-05T16:45:01-07:00",
+    "first_seen": "2026-11-05T07:00:01-07:00"
+   },
+   {
+    "id": "2026-11-05:nba:4277847:totalRebounds",
+    "sport": "nba",
+    "event_id": "401909936",
+    "game": "ORL @ PHX",
+    "start_utc": "2026-11-06T02:00:00+00:00",
+    "start_az": "7:00 PM",
+    "athlete_id": "4277847",
+    "player": "Wendell Carter Jr.",
+    "team": "ORL",
+    "stat": "totalRebounds",
+    "label": "6+ rebounds",
+    "spread": "PHX -1.5",
+    "total": 222.5,
+    "line": 5.5,
+    "avg": 8.9,
+    "l5": [
+     9.0,
+     10.0,
+     7.0,
+     10.0,
+     10.0
+    ],
+    "hit_season": 1.0,
+    "hit_l5": 1.0,
+    "games": 7,
+    "score": 96.1,
+    "notes": [
+     "usage L5 103% of season"
+    ],
+    "kalshi": {
+     "ticker": "KXNBAREB-26NOV05ORLPHX-ORLWCARTER34-6",
+     "event": "KXNBAREB-26NOV05ORLPHX",
+     "n": 6,
+     "implied_pct": 82
+    },
+    "kalshi_at": "2026-11-05T16:45:01-07:00",
+    "first_seen": "2026-11-05T07:00:01-07:00"
+   },
+   {
+    "id": "2026-11-05:nba:3975:points",
+    "sport": "nba",
+    "event_id": "401909937",
+    "game": "MIA @ GS",
+    "start_utc": "2026-11-06T03:00:00+00:00",
+    "start_az": "8:00 PM",
+    "athlete_id": "3975",
+    "player": "Stephen Curry",
+    "team": "GS",
+    "stat": "points",
+    "label": "20+ points",
+    "spread": "GS -3.5",
+    "total": 235.5,
+    "line": 19.5,
+    "avg": 30.0,
+    "l5": [
+     34.0,
+     31.0,
+     44.0,
+     24.0,
+     24.0
+    ],
+    "hit_season": 1.0,
+    "hit_l5": 1.0,
+    "games": 6,
+    "score": 95.4,
+    "notes": [
+     "usage L5 106% of season"
+    ],
+    "kalshi": {
+     "ticker": "KXNBAPTS-26NOV05MIAGSW-GSWSCURRY30-20",
+     "event": "KXNBAPTS-26NOV05MIAGSW",
+     "n": 20,
+     "implied_pct": 85
+    },
+    "kalshi_at": "2026-11-05T16:45:01-07:00",
+    "first_seen": "2026-11-05T07:00:01-07:00"
+   },
+   {
+    "id": "2026-11-05:nba:3032977:totalRebounds",
+    "sport": "nba",
+    "event_id": "401909937",
+    "game": "MIA @ GS",
+    "start_utc": "2026-11-06T03:00:00+00:00",
+    "start_az": "8:00 PM",
+    "athlete_id": "3032977",
+    "player": "Giannis Antetokounmpo",
+    "team": "MIA",
+    "stat": "totalRebounds",
+    "label": "6+ rebounds",
+    "spread": "GS -3.5",
+    "total": 235.5,
+    "line": 5.5,
+    "avg": 12.5,
+    "l5": [
+     14.0,
+     12.0,
+     18.0,
+     18.0,
+     14.0
+    ],
+    "hit_season": 1.0,
+    "hit_l5": 1.0,
+    "games": 8,
+    "score": 95.0,
+    "notes": [
+     "usage L5 107% of season",
+     "back to back"
+    ],
+    "kalshi": {
+     "ticker": "KXNBAREB-26NOV05MIAGSW-MIAGANTETOKOUNMPO7-6",
+     "event": "KXNBAREB-26NOV05MIAGSW",
+     "n": 6,
+     "implied_pct": 90
+    },
+    "kalshi_at": "2026-11-05T16:45:01-07:00",
+    "first_seen": "2026-11-05T07:00:01-07:00"
+   },
+   {
+    "id": "2026-11-05:nba:4066383:totalRebounds",
+    "sport": "nba",
+    "event_id": "401909936",
+    "game": "ORL @ PHX",
+    "start_utc": "2026-11-06T02:00:00+00:00",
+    "start_az": "7:00 PM",
+    "athlete_id": "4066383",
+    "player": "Miles Bridges",
+    "team": "PHX",
+    "stat": "totalRebounds",
+    "label": "4+ rebounds",
+    "spread": "PHX -1.5",
+    "total": 222.5,
+    "line": 3.5,
+    "avg": 7.0,
+    "l5": [
+     7.0,
+     6.0,
+     10.0,
+     8.0,
+     7.0
+    ],
+    "hit_season": 1.0,
+    "hit_l5": 1.0,
+    "games": 6,
+    "score": 95.0,
+    "notes": [
+     "usage L5 102% of season",
+     "back to back"
+    ],
+    "kalshi": {
+     "ticker": "KXNBAREB-26NOV05ORLPHX-PHXMBRIDGES22-4",
+     "event": "KXNBAREB-26NOV05ORLPHX",
+     "n": 4,
+     "implied_pct": 81
+    },
+    "kalshi_at": "2026-11-05T16:45:01-07:00",
+    "first_seen": "2026-11-05T07:00:01-07:00"
+   },
+   {
+    "id": "2026-11-05:nba:3136193:assists",
+    "sport": "nba",
+    "event_id": "401909936",
+    "game": "ORL @ PHX",
+    "start_utc": "2026-11-06T02:00:00+00:00",
+    "start_az": "7:00 PM",
+    "athlete_id": "3136193",
+    "player": "Devin Booker",
+    "team": "PHX",
+    "stat": "assists",
+    "label": "2+ assists",
+    "spread": "PHX -1.5",
+    "total": 222.5,
+    "line": 1.5,
+    "avg": 4.7,
+    "l5": [
+     2.0,
+     5.0,
+     5.0,
+     7.0,
+     7.0
+    ],
+    "hit_season": 1.0,
+    "hit_l5": 1.0,
+    "games": 6,
+    "score": 95.0,
+    "notes": [
+     "usage L5 103% of season",
+     "back to back"
+    ],
+    "kalshi": {
+     "ticker": "KXNBAAST-26NOV05ORLPHX-PHXDBOOKER15-2",
+     "event": "KXNBAAST-26NOV05ORLPHX",
+     "n": 2,
+     "implied_pct": 94
+    },
+    "kalshi_at": "2026-11-05T16:45:01-07:00",
+    "first_seen": "2026-11-05T07:00:01-07:00"
+   },
+   {
+    "id": "2026-11-05:nba:6589:totalRebounds",
+    "sport": "nba",
+    "event_id": "401909937",
+    "game": "MIA @ GS",
+    "start_utc": "2026-11-06T03:00:00+00:00",
+    "start_az": "8:00 PM",
+    "athlete_id": "6589",
+    "player": "Draymond Green",
+    "team": "GS",
+    "stat": "totalRebounds",
+    "label": "4+ rebounds",
+    "spread": "GS -3.5",
+    "total": 235.5,
+    "line": 3.5,
+    "avg": 5.0,
+    "l5": [
+     4.0,
+     4.0,
+     9.0,
+     4.0,
+     5.0
+    ],
+    "hit_season": 1.0,
+    "hit_l5": 1.0,
+    "games": 6,
+    "score": 94.3,
+    "notes": [
+     "usage L5 104% of season"
+    ],
+    "kalshi": {
+     "ticker": "KXNBAREB-26NOV05MIAGSW-GSWDGREEN23-4",
+     "event": "KXNBAREB-26NOV05MIAGSW",
+     "n": 4,
+     "implied_pct": 76
+    },
+    "kalshi_at": "2026-11-05T16:45:01-07:00",
+    "first_seen": "2026-11-05T07:00:01-07:00"
+   },
+   {
+    "id": "2026-11-05:nba:3975:assists",
+    "sport": "nba",
+    "event_id": "401909937",
+    "game": "MIA @ GS",
+    "start_utc": "2026-11-06T03:00:00+00:00",
+    "start_az": "8:00 PM",
+    "athlete_id": "3975",
+    "player": "Stephen Curry",
+    "team": "GS",
+    "stat": "assists",
+    "label": "2+ assists",
+    "spread": "GS -3.5",
+    "total": 235.5,
+    "line": 1.5,
+    "avg": 4.5,
+    "l5": [
+     7.0,
+     6.0,
+     6.0,
+     3.0,
+     4.0
+    ],
+    "hit_season": 0.833,
+    "hit_l5": 1.0,
+    "games": 6,
+    "score": 92.5,
+    "notes": [
+     "usage L5 106% of season"
+    ],
+    "kalshi": {
+     "ticker": "KXNBAAST-26NOV05MIAGSW-GSWSCURRY30-2",
+     "event": "KXNBAAST-26NOV05MIAGSW",
+     "n": 2,
+     "implied_pct": 92
+    },
+    "kalshi_at": "2026-11-05T16:45:01-07:00",
+    "first_seen": "2026-11-05T07:00:01-07:00"
+   },
+   {
+    "id": "2026-11-05:nba:4278053:points",
+    "sport": "nba",
+    "event_id": "401909937",
+    "game": "MIA @ GS",
+    "start_utc": "2026-11-06T03:00:00+00:00",
+    "start_az": "8:00 PM",
+    "athlete_id": "4278053",
+    "player": "Davion Mitchell",
+    "team": "MIA",
+    "stat": "points",
+    "label": "10+ points",
+    "spread": "GS -3.5",
+    "total": 235.5,
+    "line": 9.5,
+    "avg": 15.4,
+    "l5": [
+     11.0,
+     15.0,
+     15.0,
+     10.0,
+     21.0
+    ],
+    "hit_season": 1.0,
+    "hit_l5": 1.0,
+    "games": 8,
+    "score": 91.2,
+    "notes": [
+     "usage L5 101% of season",
+     "back to back"
+    ],
+    "kalshi": {
+     "ticker": "KXNBAPTS-26NOV05MIAGSW-MIADMITCHELL2-10",
+     "event": "KXNBAPTS-26NOV05MIAGSW",
+     "n": 10,
+     "implied_pct": 65
+    },
+    "kalshi_at": "2026-11-05T16:45:01-07:00",
+    "first_seen": "2026-11-05T07:00:01-07:00"
+   },
+   {
+    "id": "2026-11-05:nba:3975:threes",
+    "sport": "nba",
+    "event_id": "401909937",
+    "game": "MIA @ GS",
+    "start_utc": "2026-11-06T03:00:00+00:00",
+    "start_az": "8:00 PM",
+    "athlete_id": "3975",
+    "player": "Stephen Curry",
+    "team": "GS",
+    "stat": "threes",
+    "label": "3+ threes",
+    "spread": "GS -3.5",
+    "total": 235.5,
+    "line": 2.5,
+    "avg": 4.5,
+    "l5": [
+     5.0,
+     8.0,
+     6.0,
+     3.0,
+     3.0
+    ],
+    "hit_season": 0.833,
+    "hit_l5": 1.0,
+    "games": 6,
+    "score": 90.5,
+    "notes": [
+     "usage L5 106% of season"
+    ],
+    "kalshi": {
+     "ticker": "KXNBA3PT-26NOV05MIAGSW-GSWSCURRY30-3",
+     "event": "KXNBA3PT-26NOV05MIAGSW",
+     "n": 3,
+     "implied_pct": 80
+    },
+    "kalshi_at": "2026-11-05T16:45:01-07:00",
+    "first_seen": "2026-11-05T07:00:01-07:00"
+   },
+   {
+    "id": "2026-11-05:nba:5175737:points",
+    "sport": "nba",
+    "event_id": "401909937",
+    "game": "MIA @ GS",
+    "start_utc": "2026-11-06T03:00:00+00:00",
+    "start_az": "8:00 PM",
+    "athlete_id": "5175737",
+    "player": "Yaxel Lendeborg",
+    "team": "GS",
+    "stat": "points",
+    "label": "10+ points",
+    "spread": "GS -3.5",
+    "total": 235.5,
+    "line": 9.5,
+    "avg": 21.5,
+    "l5": [
+     16.0,
+     37.0,
+     6.0,
+     26.0,
+     31.0
+    ],
+    "hit_season": 0.875,
+    "hit_l5": 0.8,
+    "games": 8,
+    "score": 87.8,
+    "notes": [
+     "usage L5 96% of season"
+    ],
+    "kalshi": {
+     "ticker": "KXNBAPTS-26NOV05MIAGSW-GSWYLENDEBORG1-10",
+     "event": "KXNBAPTS-26NOV05MIAGSW",
+     "n": 10,
+     "implied_pct": 92
+    },
+    "kalshi_at": "2026-11-05T16:45:01-07:00",
+    "first_seen": "2026-11-05T07:00:01-07:00"
+   },
+   {
+    "id": "2026-11-05:nba:4066383:threes",
+    "sport": "nba",
+    "event_id": "401909936",
+    "game": "ORL @ PHX",
+    "start_utc": "2026-11-06T02:00:00+00:00",
+    "start_az": "7:00 PM",
+    "athlete_id": "4066383",
+    "player": "Miles Bridges",
+    "team": "PHX",
+    "stat": "threes",
+    "label": "1+ threes",
+    "spread": "PHX -1.5",
+    "total": 222.5,
+    "line": 0.5,
+    "avg": 2.2,
+    "l5": [
+     4.0,
+     3.0,
+     2.0,
+     2.0,
+     2.0
+    ],
+    "hit_season": 0.833,
+    "hit_l5": 1.0,
+    "games": 6,
+    "score": 87.5,
+    "notes": [
+     "usage L5 102% of season",
+     "back to back"
+    ],
+    "kalshi": {
+     "ticker": "KXNBA3PT-26NOV05ORLPHX-PHXMBRIDGES22-1",
+     "event": "KXNBA3PT-26NOV05ORLPHX",
+     "n": 1,
+     "implied_pct": 84
+    },
+    "kalshi_at": "2026-11-05T16:45:01-07:00",
+    "first_seen": "2026-11-05T07:00:01-07:00"
+   },
+   {
+    "id": "2026-11-05:nba:4066383:assists",
+    "sport": "nba",
+    "event_id": "401909936",
+    "game": "ORL @ PHX",
+    "start_utc": "2026-11-06T02:00:00+00:00",
+    "start_az": "7:00 PM",
+    "athlete_id": "4066383",
+    "player": "Miles Bridges",
+    "team": "PHX",
+    "stat": "assists",
+    "label": "2+ assists",
+    "spread": "PHX -1.5",
+    "total": 222.5,
+    "line": 1.5,
+    "avg": 2.8,
+    "l5": [
+     5.0,
+     3.0,
+     2.0,
+     4.0,
+     3.0
+    ],
+    "hit_season": 0.833,
+    "hit_l5": 1.0,
+    "games": 6,
+    "score": 86.4,
+    "notes": [
+     "usage L5 102% of season",
+     "back to back"
+    ],
+    "kalshi": {
+     "ticker": "KXNBAAST-26NOV05ORLPHX-PHXMBRIDGES22-2",
+     "event": "KXNBAAST-26NOV05ORLPHX",
+     "n": 2,
+     "implied_pct": 76
+    },
+    "kalshi_at": "2026-11-05T16:45:01-07:00",
+    "first_seen": "2026-11-05T07:00:01-07:00"
+   },
+   {
+    "id": "2026-11-05:nba:4066383:points",
+    "sport": "nba",
+    "event_id": "401909936",
+    "game": "ORL @ PHX",
+    "start_utc": "2026-11-06T02:00:00+00:00",
+    "start_az": "7:00 PM",
+    "athlete_id": "4066383",
+    "player": "Miles Bridges",
+    "team": "PHX",
+    "stat": "points",
+    "label": "10+ points",
+    "spread": "PHX -1.5",
+    "total": 222.5,
+    "line": 9.5,
+    "avg": 17.3,
+    "l5": [
+     18.0,
+     21.0,
+     24.0,
+     17.0,
+     16.0
+    ],
+    "hit_season": 0.833,
+    "hit_l5": 1.0,
+    "games": 6,
+    "score": 85.7,
+    "notes": [
+     "usage L5 102% of season",
+     "back to back"
+    ],
+    "kalshi": {
+     "ticker": "KXNBAPTS-26NOV05ORLPHX-PHXMBRIDGES22-10",
+     "event": "KXNBAPTS-26NOV05ORLPHX",
+     "n": 10,
+     "implied_pct": 86
+    },
+    "kalshi_at": "2026-11-05T16:45:01-07:00",
+    "first_seen": "2026-11-05T07:00:01-07:00"
+   },
+   {
+    "id": "2026-11-05:nba:3032977:points",
+    "sport": "nba",
+    "event_id": "401909937",
+    "game": "MIA @ GS",
+    "start_utc": "2026-11-06T03:00:00+00:00",
+    "start_az": "8:00 PM",
+    "athlete_id": "3032977",
+    "player": "Giannis Antetokounmpo",
+    "team": "MIA",
+    "stat": "points",
+    "label": "20+ points",
+    "spread": "GS -3.5",
+    "total": 235.5,
+    "line": 19.5,
+    "avg": 28.2,
+    "l5": [
+     27.0,
+     30.0,
+     31.0,
+     24.0,
+     29.0
+    ],
+    "hit_season": 0.875,
+    "hit_l5": 1.0,
+    "games": 8,
+    "score": 83.9,
+    "notes": [
+     "usage L5 107% of season",
+     "back to back"
+    ],
+    "kalshi": {
+     "ticker": "KXNBAPTS-26NOV05MIAGSW-MIAGANTETOKOUNMPO7-20",
+     "event": "KXNBAPTS-26NOV05MIAGSW",
+     "n": 20,
+     "implied_pct": 86
+    },
+    "kalshi_at": "2026-11-05T16:45:01-07:00",
+    "first_seen": "2026-11-05T07:00:01-07:00"
+   },
+   {
+    "id": "2026-11-05:nba:4278053:assists",
+    "sport": "nba",
+    "event_id": "401909937",
+    "game": "MIA @ GS",
+    "start_utc": "2026-11-06T03:00:00+00:00",
+    "start_az": "8:00 PM",
+    "athlete_id": "4278053",
+    "player": "Davion Mitchell",
+    "team": "MIA",
+    "stat": "assists",
+    "label": "4+ assists",
+    "spread": "GS -3.5",
+    "total": 235.5,
+    "line": 3.5,
+    "avg": 8.2,
+    "l5": [
+     10.0,
+     7.0,
+     11.0,
+     10.0,
+     2.0
+    ],
+    "hit_season": 0.875,
+    "hit_l5": 0.8,
+    "games": 8,
+    "score": 83.4,
+    "notes": [
+     "usage L5 101% of season",
+     "back to back"
+    ],
+    "kalshi": {
+     "ticker": "KXNBAAST-26NOV05MIAGSW-MIADMITCHELL2-4",
+     "event": "KXNBAAST-26NOV05MIAGSW",
+     "n": 4,
+     "implied_pct": 88
+    },
+    "kalshi_at": "2026-11-05T16:45:01-07:00",
+    "first_seen": "2026-11-05T07:00:01-07:00"
+   },
+   {
+    "id": "2026-11-05:nba:5175737:totalRebounds",
+    "sport": "nba",
+    "event_id": "401909937",
+    "game": "MIA @ GS",
+    "start_utc": "2026-11-06T03:00:00+00:00",
+    "start_az": "8:00 PM",
+    "athlete_id": "5175737",
+    "player": "Yaxel Lendeborg",
+    "team": "GS",
+    "stat": "totalRebounds",
+    "label": "4+ rebounds",
+    "spread": "GS -3.5",
+    "total": 235.5,
+    "line": 3.5,
+    "avg": 7.0,
+    "l5": [
+     5.0,
+     4.0,
+     1.0,
+     9.0,
+     12.0
+    ],
+    "hit_season": 0.75,
+    "hit_l5": 0.8,
+    "games": 8,
+    "score": 82.2,
+    "notes": [
+     "usage L5 96% of season"
+    ],
+    "kalshi": {
+     "ticker": "KXNBAREB-26NOV05MIAGSW-GSWYLENDEBORG1-4",
+     "event": "KXNBAREB-26NOV05MIAGSW",
+     "n": 4,
+     "implied_pct": 86
+    },
+    "kalshi_at": "2026-11-05T16:45:01-07:00",
+    "first_seen": "2026-11-05T07:00:01-07:00"
+   },
+   {
+    "id": "2026-11-05:nba:4566434:points",
+    "sport": "nba",
+    "event_id": "401909936",
+    "game": "ORL @ PHX",
+    "start_utc": "2026-11-06T02:00:00+00:00",
+    "start_az": "7:00 PM",
+    "athlete_id": "4566434",
+    "player": "Franz Wagner",
+    "team": "ORL",
+    "stat": "points",
+    "label": "15+ points",
+    "spread": "PHX -1.5",
+    "total": 222.5,
+    "line": 14.5,
+    "avg": 20.3,
+    "l5": [
+     24.0,
+     14.0,
+     26.0,
+     15.0,
+     23.0
+    ],
+    "hit_season": 0.857,
+    "hit_l5": 0.8,
+    "games": 7,
+    "score": 81.6,
+    "notes": [
+     "usage L5 105% of season"
+    ],
+    "kalshi": {
+     "ticker": "KXNBAPTS-26NOV05ORLPHX-ORLFWAGNER22-15",
+     "event": "KXNBAPTS-26NOV05ORLPHX",
+     "n": 15,
+     "implied_pct": 88
+    },
+    "kalshi_at": "2026-11-05T16:45:01-07:00",
+    "first_seen": "2026-11-05T07:00:01-07:00"
+   },
+   {
+    "id": "2026-11-05:nba:3136193:totalRebounds",
+    "sport": "nba",
+    "event_id": "401909936",
+    "game": "ORL @ PHX",
+    "start_utc": "2026-11-06T02:00:00+00:00",
+    "start_az": "7:00 PM",
+    "athlete_id": "3136193",
+    "player": "Devin Booker",
+    "team": "PHX",
+    "stat": "totalRebounds",
+    "label": "2+ rebounds",
+    "spread": "PHX -1.5",
+    "total": 222.5,
+    "line": 1.5,
+    "avg": 3.2,
+    "l5": [
+     1.0,
+     3.0,
+     2.0,
+     2.0,
+     7.0
+    ],
+    "hit_season": 0.833,
+    "hit_l5": 0.8,
+    "games": 6,
+    "score": 81.5,
+    "notes": [
+     "usage L5 103% of season",
+     "back to back"
+    ],
+    "kalshi": {
+     "ticker": "KXNBAREB-26NOV05ORLPHX-PHXDBOOKER15-2",
+     "event": "KXNBAREB-26NOV05ORLPHX",
+     "n": 2,
+     "implied_pct": 88
+    },
+    "kalshi_at": "2026-11-05T16:45:01-07:00",
+    "first_seen": "2026-11-05T07:00:01-07:00"
+   },
+   {
+    "id": "2026-11-05:nba:3136193:points",
+    "sport": "nba",
+    "event_id": "401909936",
+    "game": "ORL @ PHX",
+    "start_utc": "2026-11-06T02:00:00+00:00",
+    "start_az": "7:00 PM",
+    "athlete_id": "3136193",
+    "player": "Devin Booker",
+    "team": "PHX",
+    "stat": "points",
+    "label": "15+ points",
+    "spread": "PHX -1.5",
+    "total": 222.5,
+    "line": 14.5,
+    "avg": 24.7,
+    "l5": [
+     33.0,
+     26.0,
+     20.0,
+     3.0,
+     43.0
+    ],
+    "hit_season": 0.833,
+    "hit_l5": 0.8,
+    "games": 6,
+    "score": 78.5,
+    "notes": [
+     "usage L5 103% of season",
+     "back to back"
+    ],
+    "kalshi": {
+     "ticker": "KXNBAPTS-26NOV05ORLPHX-PHXDBOOKER15-15",
+     "event": "KXNBAPTS-26NOV05ORLPHX",
+     "n": 15,
+     "implied_pct": 92
+    },
+    "kalshi_at": "2026-11-05T16:45:01-07:00",
+    "first_seen": "2026-11-05T07:00:01-07:00"
+   },
+   {
+    "id": "2026-11-05:nba:5175737:assists",
+    "sport": "nba",
+    "event_id": "401909937",
+    "game": "MIA @ GS",
+    "start_utc": "2026-11-06T03:00:00+00:00",
+    "start_az": "8:00 PM",
+    "athlete_id": "5175737",
+    "player": "Yaxel Lendeborg",
+    "team": "GS",
+    "stat": "assists",
+    "label": "2+ assists",
+    "spread": "GS -3.5",
+    "total": 235.5,
+    "line": 1.5,
+    "avg": 3.9,
+    "l5": [
+     5.0,
+     6.0,
+     0.0,
+     1.0,
+     6.0
+    ],
+    "hit_season": 0.75,
+    "hit_l5": 0.6,
+    "games": 8,
+    "score": 76.2,
+    "notes": [
+     "usage L5 96% of season"
+    ],
+    "kalshi": {
+     "ticker": "KXNBAAST-26NOV05MIAGSW-GSWYLENDEBORG1-2",
+     "event": "KXNBAAST-26NOV05MIAGSW",
+     "n": 2,
+     "implied_pct": 85
+    },
+    "kalshi_at": "2026-11-05T16:45:01-07:00",
+    "first_seen": "2026-11-05T07:00:01-07:00"
+   },
+   {
+    "id": "2026-11-05:nba:3136193:threes",
+    "sport": "nba",
+    "event_id": "401909936",
+    "game": "ORL @ PHX",
+    "start_utc": "2026-11-06T02:00:00+00:00",
+    "start_az": "7:00 PM",
+    "athlete_id": "3136193",
+    "player": "Devin Booker",
+    "team": "PHX",
+    "stat": "threes",
+    "label": "1+ threes",
+    "spread": "PHX -1.5",
+    "total": 222.5,
+    "line": 0.5,
+    "avg": 1.5,
+    "l5": [
+     2.0,
+     2.0,
+     3.0,
+     0.0,
+     2.0
+    ],
+    "hit_season": 0.667,
+    "hit_l5": 0.8,
+    "games": 6,
+    "score": 74.0,
+    "notes": [
+     "usage L5 103% of season",
+     "back to back"
+    ],
+    "kalshi": {
+     "ticker": "KXNBA3PT-26NOV05ORLPHX-PHXDBOOKER15-1",
+     "event": "KXNBA3PT-26NOV05ORLPHX",
+     "n": 1,
+     "implied_pct": 82
+    },
+    "kalshi_at": "2026-11-05T16:45:01-07:00",
+    "first_seen": "2026-11-05T07:00:01-07:00"
+   },
+   {
+    "id": "2026-11-05:nba:4278053:threes",
+    "sport": "nba",
+    "event_id": "401909937",
+    "game": "MIA @ GS",
+    "start_utc": "2026-11-06T03:00:00+00:00",
+    "start_az": "8:00 PM",
+    "athlete_id": "4278053",
+    "player": "Davion Mitchell",
+    "team": "MIA",
+    "stat": "threes",
+    "label": "1+ threes",
+    "spread": "GS -3.5",
+    "total": 235.5,
+    "line": 0.5,
+    "avg": 2.0,
+    "l5": [
+     0.0,
+     4.0,
+     3.0,
+     0.0,
+     2.0
+    ],
+    "hit_season": 0.75,
+    "hit_l5": 0.6,
+    "games": 8,
+    "score": 71.8,
+    "notes": [
+     "usage L5 101% of season",
+     "back to back"
+    ],
+    "kalshi": {
+     "ticker": "KXNBA3PT-26NOV05MIAGSW-MIADMITCHELL2-1",
+     "event": "KXNBA3PT-26NOV05MIAGSW",
+     "n": 1,
+     "implied_pct": 76
+    },
+    "kalshi_at": "2026-11-05T16:45:01-07:00",
+    "first_seen": "2026-11-05T07:00:01-07:00"
+   },
+   {
+    "id": "2026-11-05:nba:4566434:threes",
+    "sport": "nba",
+    "event_id": "401909936",
+    "game": "ORL @ PHX",
+    "start_utc": "2026-11-06T02:00:00+00:00",
+    "start_az": "7:00 PM",
+    "athlete_id": "4566434",
+    "player": "Franz Wagner",
+    "team": "ORL",
+    "stat": "threes",
+    "label": "1+ threes",
+    "spread": "PHX -1.5",
+    "total": 222.5,
+    "line": 0.5,
+    "avg": 1.0,
+    "l5": [
+     1.0,
+     1.0,
+     2.0,
+     0.0,
+     0.0
+    ],
+    "hit_season": 0.714,
+    "hit_l5": 0.6,
+    "games": 7,
+    "score": 70.1,
+    "notes": [
+     "usage L5 105% of season"
+    ],
+    "kalshi": {
+     "ticker": "KXNBA3PT-26NOV05ORLPHX-ORLFWAGNER22-1",
+     "event": "KXNBA3PT-26NOV05ORLPHX",
+     "n": 1,
+     "implied_pct": 73
+    },
+    "kalshi_at": "2026-11-05T16:45:01-07:00",
+    "first_seen": "2026-11-05T07:00:01-07:00"
+   },
+   {
+    "id": "2026-11-05:nba:3032977:assists",
+    "sport": "nba",
+    "event_id": "401909937",
+    "game": "MIA @ GS",
+    "start_utc": "2026-11-06T03:00:00+00:00",
+    "start_az": "8:00 PM",
+    "athlete_id": "3032977",
+    "player": "Giannis Antetokounmpo",
+    "team": "MIA",
+    "stat": "assists",
+    "label": "4+ assists",
+    "spread": "GS -3.5",
+    "total": 235.5,
+    "line": 3.5,
+    "avg": 5.8,
+    "l5": [
+     6.0,
+     7.0,
+     10.0,
+     3.0,
+     11.0
+    ],
+    "hit_season": 0.625,
+    "hit_l5": 0.8,
+    "games": 8,
+    "score": 68.6,
+    "notes": [
+     "usage L5 107% of season",
+     "back to back"
+    ],
+    "kalshi": {
+     "ticker": "KXNBAAST-26NOV05MIAGSW-MIAGANTETOKOUNMPO7-4",
+     "event": "KXNBAAST-26NOV05MIAGSW",
+     "n": 4,
+     "implied_pct": 82
+    },
+    "kalshi_at": "2026-11-05T16:45:01-07:00",
+    "first_seen": "2026-11-05T07:00:01-07:00"
+   },
+   {
+    "id": "2026-11-05:nba:4277847:threes",
+    "sport": "nba",
+    "event_id": "401909936",
+    "game": "ORL @ PHX",
+    "start_utc": "2026-11-06T02:00:00+00:00",
+    "start_az": "7:00 PM",
+    "athlete_id": "4277847",
+    "player": "Wendell Carter Jr.",
+    "team": "ORL",
+    "stat": "threes",
+    "label": "1+ threes",
+    "spread": "PHX -1.5",
+    "total": 222.5,
+    "line": 0.5,
+    "avg": 0.9,
+    "l5": [
+     0.0,
+     1.0,
+     1.0,
+     0.0,
+     0.0
+    ],
+    "hit_season": 0.571,
+    "hit_l5": 0.4,
+    "games": 7,
+    "score": 56.3,
+    "notes": [
+     "usage L5 103% of season"
+    ],
+    "kalshi": {
+     "ticker": "KXNBA3PT-26NOV05ORLPHX-ORLWCARTER34-1",
+     "event": "KXNBA3PT-26NOV05ORLPHX",
+     "n": 1,
+     "implied_pct": 55
+    },
+    "kalshi_at": "2026-11-05T16:45:01-07:00",
+    "first_seen": "2026-11-05T07:00:01-07:00"
+   },
+   {
+    "id": "2026-11-05:nba:4277847:points",
+    "sport": "nba",
+    "event_id": "401909936",
+    "game": "ORL @ PHX",
+    "start_utc": "2026-11-06T02:00:00+00:00",
+    "start_az": "7:00 PM",
+    "athlete_id": "4277847",
+    "player": "Wendell Carter Jr.",
+    "team": "ORL",
+    "stat": "points",
+    "label": "10+ points",
+    "spread": "PHX -1.5",
+    "total": 222.5,
+    "line": 9.5,
+    "avg": 12.4,
+    "l5": [
+     6.0,
+     7.0,
+     20.0,
+     3.0,
+     9.0
+    ],
+    "hit_season": 0.429,
+    "hit_l5": 0.2,
+    "games": 7,
+    "score": 43.4,
+    "notes": [
+     "usage L5 103% of season"
+    ],
+    "kalshi": {
+     "ticker": "KXNBAPTS-26NOV05ORLPHX-ORLWCARTER34-10",
+     "event": "KXNBAPTS-26NOV05ORLPHX",
+     "n": 10,
+     "implied_pct": 72
+    },
+    "kalshi_at": "2026-11-05T16:45:01-07:00",
+    "first_seen": "2026-11-05T07:00:01-07:00"
+   },
+   {
+    "id": "2026-11-05:nba:6589:threes",
+    "sport": "nba",
+    "event_id": "401909937",
+    "game": "MIA @ GS",
+    "start_utc": "2026-11-06T03:00:00+00:00",
+    "start_az": "8:00 PM",
+    "athlete_id": "6589",
+    "player": "Draymond Green",
+    "team": "GS",
+    "stat": "threes",
+    "label": "1+ threes",
+    "spread": "GS -3.5",
+    "total": 235.5,
+    "line": 0.5,
+    "avg": 0.3,
+    "l5": [
+     0.0,
+     0.0,
+     0.0,
+     1.0,
+     1.0
+    ],
+    "hit_season": 0.333,
+    "hit_l5": 0.4,
+    "games": 6,
+    "score": 40.3,
+    "notes": [
+     "usage L5 104% of season"
+    ],
+    "kalshi": {
+     "ticker": "KXNBA3PT-26NOV05MIAGSW-GSWDGREEN23-1",
+     "event": "KXNBA3PT-26NOV05MIAGSW",
+     "n": 1,
+     "implied_pct": 50
+    },
+    "kalshi_at": "2026-11-05T16:45:01-07:00",
+    "first_seen": "2026-11-05T15:30:01-07:00"
+   },
+   {
+    "id": "2026-11-05:nba:4278053:totalRebounds",
+    "sport": "nba",
+    "event_id": "401909937",
+    "game": "MIA @ GS",
+    "start_utc": "2026-11-06T03:00:00+00:00",
+    "start_az": "8:00 PM",
+    "athlete_id": "4278053",
+    "player": "Davion Mitchell",
+    "team": "MIA",
+    "stat": "totalRebounds",
+    "label": "2+ rebounds",
+    "spread": "GS -3.5",
+    "total": 235.5,
+    "line": 1.5,
+    "avg": 1.5,
+    "l5": [
+     2.0,
+     0.0,
+     6.0,
+     1.0,
+     0.0
+    ],
+    "hit_season": 0.375,
+    "hit_l5": 0.4,
+    "games": 8,
+    "score": 38.9,
+    "notes": [
+     "usage L5 101% of season",
+     "back to back"
+    ],
+    "kalshi": {
+     "ticker": "KXNBAREB-26NOV05MIAGSW-MIADMITCHELL2-2",
+     "event": "KXNBAREB-26NOV05MIAGSW",
+     "n": 2,
+     "implied_pct": 66
+    },
+    "kalshi_at": "2026-11-05T16:45:01-07:00",
+    "first_seen": "2026-11-05T07:00:01-07:00"
+   },
+   {
+    "id": "2026-11-05:nba:4277847:assists",
+    "sport": "nba",
+    "event_id": "401909936",
+    "game": "ORL @ PHX",
+    "start_utc": "2026-11-06T02:00:00+00:00",
+    "start_az": "7:00 PM",
+    "athlete_id": "4277847",
+    "player": "Wendell Carter Jr.",
+    "team": "ORL",
+    "stat": "assists",
+    "label": "2+ assists",
+    "spread": "PHX -1.5",
+    "total": 222.5,
+    "line": 1.5,
+    "avg": 1.0,
+    "l5": [
+     0.0,
+     0.0,
+     1.0,
+     3.0,
+     2.0
+    ],
+    "hit_season": 0.286,
+    "hit_l5": 0.4,
+    "games": 7,
+    "score": 36.5,
+    "notes": [
+     "usage L5 103% of season"
+    ],
+    "kalshi": {
+     "ticker": "KXNBAAST-26NOV05ORLPHX-ORLWCARTER34-2",
+     "event": "KXNBAAST-26NOV05ORLPHX",
+     "n": 2,
+     "implied_pct": 50
+    },
+    "kalshi_at": "2026-11-05T16:45:01-07:00",
+    "first_seen": "2026-11-05T07:00:01-07:00"
+   },
+   {
+    "id": "2026-11-05:nba:6589:points",
+    "sport": "nba",
+    "event_id": "401909937",
+    "game": "MIA @ GS",
+    "start_utc": "2026-11-06T03:00:00+00:00",
+    "start_az": "8:00 PM",
+    "athlete_id": "6589",
+    "player": "Draymond Green",
+    "team": "GS",
+    "stat": "points",
+    "label": "10+ points",
+    "spread": "GS -3.5",
+    "total": 235.5,
+    "line": 9.5,
+    "avg": 3.2,
+    "l5": [
+     4.0,
+     2.0,
+     3.0,
+     3.0,
+     5.0
+    ],
+    "hit_season": 0.0,
+    "hit_l5": 0.0,
+    "games": 6,
+    "score": 8.3,
+    "notes": [
+     "usage L5 104% of season"
+    ],
+    "kalshi": {
+     "ticker": "KXNBAPTS-26NOV05MIAGSW-GSWDGREEN23-10",
+     "event": "KXNBAPTS-26NOV05MIAGSW",
+     "n": 10,
+     "implied_pct": 18
+    },
+    "kalshi_at": "2026-11-05T16:45:01-07:00",
+    "first_seen": "2026-11-05T07:00:01-07:00"
+   }
+  ],
+  "nhl": [
+   {
+    "id": "2026-11-05:nhl:3895074:points",
+    "sport": "nhl",
+    "event_id": "401892657",
+    "game": "ANA @ EDM",
+    "start_utc": "2026-11-06T01:00:00+00:00",
+    "start_az": "6:00 PM",
+    "athlete_id": "3895074",
+    "player": "Connor McDavid",
+    "team": "EDM",
+    "stat": "points",
+    "label": "1+ points",
+    "spread": "EDM -192",
+    "total": 6.5,
+    "line": 0.5,
+    "avg": 2.5,
+    "l5": [
+     1.0,
+     2.0,
+     1.0,
+     2.0,
+     1.0
+    ],
+    "hit_season": 1.0,
+    "hit_l5": 1.0,
+    "games": 16,
+    "score": 99.8,
+    "notes": [
+     "usage L5 99% of season"
+    ],
+    "kalshi": {
+     "ticker": "KXNHLPTS-26NOV05ANAEDM-EDMCMCDAVID97-1",
+     "event": "KXNHLPTS-26NOV05ANAEDM",
+     "n": 1,
+     "implied_pct": 84
+    },
+    "kalshi_at": "2026-11-05T16:45:01-07:00",
+    "first_seen": "2026-11-05T07:00:01-07:00"
+   },
+   {
+    "id": "2026-11-05:nhl:3895074:assists",
+    "sport": "nhl",
+    "event_id": "401892657",
+    "game": "ANA @ EDM",
+    "start_utc": "2026-11-06T01:00:00+00:00",
+    "start_az": "6:00 PM",
+    "athlete_id": "3895074",
+    "player": "Connor McDavid",
+    "team": "EDM",
+    "stat": "assists",
+    "label": "1+ assists",
+    "spread": "EDM -192",
+    "total": 6.5,
+    "line": 0.5,
+    "avg": 1.9,
+    "l5": [
+     1.0,
+     1.0,
+     1.0,
+     2.0,
+     1.0
+    ],
+    "hit_season": 1.0,
+    "hit_l5": 1.0,
+    "games": 16,
+    "score": 99.8,
+    "notes": [
+     "usage L5 99% of season"
+    ],
+    "kalshi": {
+     "ticker": "KXNHLAST-26NOV05ANAEDM-EDMCMCDAVID97-1",
+     "event": "KXNHLAST-26NOV05ANAEDM",
+     "n": 1,
+     "implied_pct": 72
+    },
+    "kalshi_at": "2026-11-05T16:45:01-07:00",
+    "first_seen": "2026-11-05T07:00:01-07:00"
+   },
+   {
+    "id": "2026-11-05:nhl:3899937:points",
+    "sport": "nhl",
+    "event_id": "401892649",
+    "game": "VGK @ DET",
+    "start_utc": "2026-11-06T00:00:00+00:00",
+    "start_az": "5:00 PM",
+    "athlete_id": "3899937",
+    "player": "Mitch Marner",
+    "team": "VGK",
+    "stat": "points",
+    "label": "1+ points",
+    "spread": "VGK -142",
+    "total": 6.5,
+    "line": 0.5,
+    "avg": 1.2,
+    "l5": [
+     1.0,
+     2.0,
+     2.0,
+     1.0,
+     1.0
+    ],
+    "hit_season": 0.867,
+    "hit_l5": 1.0,
+    "games": 15,
+    "score": 91.0,
+    "notes": [
+     "usage L5 102% of season"
+    ],
+    "kalshi": {
+     "ticker": "KXNHLPTS-26NOV05VGKDET-VGKMMARNER93-1",
+     "event": "KXNHLPTS-26NOV05VGKDET",
+     "n": 1,
+     "implied_pct": 62
+    },
+    "kalshi_at": "2026-11-05T16:45:01-07:00",
+    "first_seen": "2026-11-05T07:00:01-07:00"
+   },
+   {
+    "id": "2026-11-05:nhl:3114727:points",
+    "sport": "nhl",
+    "event_id": "401892657",
+    "game": "ANA @ EDM",
+    "start_utc": "2026-11-06T01:00:00+00:00",
+    "start_az": "6:00 PM",
+    "athlete_id": "3114727",
+    "player": "Leon Draisaitl",
+    "team": "EDM",
+    "stat": "points",
+    "label": "1+ points",
+    "spread": "EDM -192",
+    "total": 6.5,
+    "line": 0.5,
+    "avg": 1.8,
+    "l5": [
+     1.0,
+     2.0,
+     2.0,
+     0.0,
+     1.0
+    ],
+    "hit_season": 0.875,
+    "hit_l5": 0.8,
+    "games": 16,
+    "score": 88.2,
+    "notes": [
+     "usage L5 99% of season"
+    ],
+    "kalshi": {
+     "ticker": "KXNHLPTS-26NOV05ANAEDM-EDMLDRAISAITL29-1",
+     "event": "KXNHLPTS-26NOV05ANAEDM",
+     "n": 1,
+     "implied_pct": 80
+    },
+    "kalshi_at": "2026-11-05T16:45:01-07:00",
+    "first_seen": "2026-11-05T07:00:01-07:00"
+   },
+   {
+    "id": "2026-11-05:nhl:3041969:points",
+    "sport": "nhl",
+    "event_id": "401892658",
+    "game": "NSH @ COL",
+    "start_utc": "2026-11-06T02:30:00+00:00",
+    "start_az": "7:30 PM",
+    "athlete_id": "3041969",
+    "player": "Nathan MacKinnon",
+    "team": "COL",
+    "stat": "points",
+    "label": "1+ points",
+    "spread": "COL -218",
+    "total": 6.5,
+    "line": 0.5,
+    "avg": 1.7,
+    "l5": [
+     2.0,
+     1.0,
+     2.0,
+     1.0,
+     1.0
+    ],
+    "hit_season": 0.75,
+    "hit_l5": 1.0,
+    "games": 16,
+    "score": 87.9,
+    "notes": [
+     "usage L5 94% of season"
+    ],
+    "kalshi": {
+     "ticker": "KXNHLPTS-26NOV05NSHCOL-COLNMACKINNON29-1",
+     "event": "KXNHLPTS-26NOV05NSHCOL",
+     "n": 1,
+     "implied_pct": 78
+    },
+    "kalshi_at": "2026-11-05T16:45:01-07:00",
+    "first_seen": "2026-11-05T15:30:01-07:00"
+   },
+   {
+    "id": "2026-11-05:nhl:5149153:points",
+    "sport": "nhl",
+    "event_id": "401892657",
+    "game": "ANA @ EDM",
+    "start_utc": "2026-11-06T01:00:00+00:00",
+    "start_az": "6:00 PM",
+    "athlete_id": "5149153",
+    "player": "Leo Carlsson",
+    "team": "ANA",
+    "stat": "points",
+    "label": "1+ points",
+    "spread": "EDM -192",
+    "total": 6.5,
+    "line": 0.5,
+    "avg": 1.5,
+    "l5": [
+     1.0,
+     3.0,
+     3.0,
+     2.0,
+     2.0
+    ],
+    "hit_season": 0.733,
+    "hit_l5": 1.0,
+    "games": 15,
+    "score": 87.7,
+    "notes": [
+     "usage L5 101% of season"
+    ],
+    "kalshi": {
+     "ticker": "KXNHLPTS-26NOV05ANAEDM-ANALCARLSSON91-1",
+     "event": "KXNHLPTS-26NOV05ANAEDM",
+     "n": 1,
+     "implied_pct": 62
+    },
+    "kalshi_at": "2026-11-05T16:45:01-07:00",
+    "first_seen": "2026-11-05T07:00:01-07:00"
+   },
+   {
+    "id": "2026-11-05:nhl:5149125:points",
+    "sport": "nhl",
+    "event_id": "401892650",
+    "game": "CHI @ TB",
+    "start_utc": "2026-11-06T00:00:00+00:00",
+    "start_az": "5:00 PM",
+    "athlete_id": "5149125",
+    "player": "Connor Bedard",
+    "team": "CHI",
+    "stat": "points",
+    "label": "1+ points",
+    "spread": "TB -470",
+    "total": 6.5,
+    "line": 0.5,
+    "avg": 1.2,
+    "l5": [
+     2.0,
+     1.0,
+     2.0,
+     1.0,
+     1.0
+    ],
+    "hit_season": 0.9,
+    "hit_l5": 1.0,
+    "games": 10,
+    "score": 87.5,
+    "notes": [
+     "usage L5 100% of season",
+     "back to back"
+    ],
+    "kalshi": {
+     "ticker": "KXNHLPTS-26NOV05CHITB-CHICBEDARD98-1",
+     "event": "KXNHLPTS-26NOV05CHITB",
+     "n": 1,
+     "implied_pct": 59
+    },
+    "kalshi_at": "2026-11-05T16:45:01-07:00",
+    "first_seen": "2026-11-05T07:00:01-07:00"
+   },
+   {
+    "id": "2026-11-05:nhl:3899937:assists",
+    "sport": "nhl",
+    "event_id": "401892649",
+    "game": "VGK @ DET",
+    "start_utc": "2026-11-06T00:00:00+00:00",
+    "start_az": "5:00 PM",
+    "athlete_id": "3899937",
+    "player": "Mitch Marner",
+    "team": "VGK",
+    "stat": "assists",
+    "label": "1+ assists",
+    "spread": "VGK -142",
+    "total": 6.5,
+    "line": 0.5,
+    "avg": 1.1,
+    "l5": [
+     1.0,
+     2.0,
+     2.0,
+     1.0,
+     1.0
+    ],
+    "hit_season": 0.8,
+    "hit_l5": 1.0,
+    "games": 15,
+    "score": 86.7,
+    "notes": [
+     "usage L5 102% of season"
+    ],
+    "kalshi": {
+     "ticker": "KXNHLAST-26NOV05VGKDET-VGKMMARNER93-1",
+     "event": "KXNHLAST-26NOV05VGKDET",
+     "n": 1,
+     "implied_pct": 52
+    },
+    "kalshi_at": "2026-11-05T16:45:01-07:00",
+    "first_seen": "2026-11-05T07:00:01-07:00"
+   },
+   {
+    "id": "2026-11-05:nhl:2968772:points",
+    "sport": "nhl",
+    "event_id": "401892658",
+    "game": "NSH @ COL",
+    "start_utc": "2026-11-06T02:30:00+00:00",
+    "start_az": "7:30 PM",
+    "athlete_id": "2968772",
+    "player": "Filip Forsberg",
+    "team": "NSH",
+    "stat": "points",
+    "label": "1+ points",
+    "spread": "COL -218",
+    "total": 6.5,
+    "line": 0.5,
+    "avg": 1.3,
+    "l5": [
+     2.0,
+     2.0,
+     2.0,
+     2.0,
+     3.0
+    ],
+    "hit_season": 0.733,
+    "hit_l5": 1.0,
+    "games": 15,
+    "score": 85.4,
+    "notes": [
+     "usage L5 99% of season"
+    ],
+    "kalshi": {
+     "ticker": "KXNHLPTS-26NOV05NSHCOL-NSHFFORSBERG9-1",
+     "event": "KXNHLPTS-26NOV05NSHCOL",
+     "n": 1,
+     "implied_pct": 60
+    },
+    "kalshi_at": "2026-11-05T16:45:01-07:00",
+    "first_seen": "2026-11-05T15:30:01-07:00"
+   },
+   {
+    "id": "2026-11-05:nhl:4781553:points",
+    "sport": "nhl",
+    "event_id": "401892655",
+    "game": "DAL @ CBJ",
+    "start_utc": "2026-11-06T00:00:00+00:00",
+    "start_az": "5:00 PM",
+    "athlete_id": "4781553",
+    "player": "Kent Johnson",
+    "team": "CBJ",
+    "stat": "points",
+    "label": "1+ points",
+    "spread": "DAL -130",
+    "total": 5.5,
+    "line": 0.5,
+    "avg": 1.0,
+    "l5": [
+     1.0,
+     1.0,
+     1.0,
+     3.0,
+     2.0
+    ],
+    "hit_season": 0.769,
+    "hit_l5": 1.0,
+    "games": 13,
+    "score": 84.6,
+    "notes": [
+     "usage L5 103% of season"
+    ],
+    "kalshi": {
+     "ticker": "KXNHLPTS-26NOV05DALCBJ-CBJKJOHNSON91-1",
+     "event": "KXNHLPTS-26NOV05DALCBJ",
+     "n": 1,
+     "implied_pct": 48
+    },
+    "kalshi_at": "2026-11-05T16:45:01-07:00",
+    "first_seen": "2026-11-05T07:00:01-07:00"
+   },
+   {
+    "id": "2026-11-05:nhl:4024857:points",
+    "sport": "nhl",
+    "event_id": "401892648",
+    "game": "UTA @ MTL",
+    "start_utc": "2026-11-06T00:00:00+00:00",
+    "start_az": "5:00 PM",
+    "athlete_id": "4024857",
+    "player": "Clayton Keller",
+    "team": "UTA",
+    "stat": "points",
+    "label": "1+ points",
+    "spread": "UTAH -122",
+    "total": 6.5,
+    "line": 0.5,
+    "avg": 1.3,
+    "l5": [
+     3.0,
+     2.0,
+     1.0,
+     0.0,
+     1.0
+    ],
+    "hit_season": 0.812,
+    "hit_l5": 0.8,
+    "games": 16,
+    "score": 83.7,
+    "notes": [
+     "usage L5 103% of season"
+    ],
+    "kalshi": {
+     "ticker": "KXNHLPTS-26NOV05UTAMTL-UTACKELLER9-1",
+     "event": "KXNHLPTS-26NOV05UTAMTL",
+     "n": 1,
+     "implied_pct": 66
+    },
+    "kalshi_at": "2026-11-05T16:45:01-07:00",
+    "first_seen": "2026-11-05T07:00:01-07:00"
+   },
+   {
+    "id": "2026-11-05:nhl:5103645:points",
+    "sport": "nhl",
+    "event_id": "401892652",
+    "game": "CAR @ NYI",
+    "start_utc": "2026-11-06T00:00:00+00:00",
+    "start_az": "5:00 PM",
+    "athlete_id": "5103645",
+    "player": "Jackson Blake",
+    "team": "CAR",
+    "stat": "points",
+    "label": "1+ points",
+    "spread": "CAR -198",
+    "total": 6.5,
+    "line": 0.5,
+    "avg": 1.0,
+    "l5": [
+     1.0,
+     1.0,
+     1.0,
+     1.0,
+     1.0
+    ],
+    "hit_season": 0.765,
+    "hit_l5": 1.0,
+    "games": 17,
+    "score": 83.6,
+    "notes": [
+     "usage L5 95% of season"
+    ],
+    "kalshi": {
+     "ticker": "KXNHLPTS-26NOV05CARNYI-CARJBLAKE53-1",
+     "event": "KXNHLPTS-26NOV05CARNYI",
+     "n": 1,
+     "implied_pct": 56
+    },
+    "kalshi_at": "2026-11-05T16:45:01-07:00",
+    "first_seen": "2026-11-05T07:00:01-07:00"
+   },
+   {
+    "id": "2026-11-05:nhl:2563060:points",
+    "sport": "nhl",
+    "event_id": "401892650",
+    "game": "CHI @ TB",
+    "start_utc": "2026-11-06T00:00:00+00:00",
+    "start_az": "5:00 PM",
+    "athlete_id": "2563060",
+    "player": "Nikita Kucherov",
+    "team": "TB",
+    "stat": "points",
+    "label": "1+ points",
+    "spread": "TB -470",
+    "total": 6.5,
+    "line": 0.5,
+    "avg": 1.4,
+    "l5": [
+     2.0,
+     3.0,
+     1.0,
+     1.0,
+     0.0
+    ],
+    "hit_season": 0.786,
+    "hit_l5": 0.8,
+    "games": 14,
+    "score": 83.2,
+    "notes": [
+     "usage L5 97% of season"
+    ],
+    "kalshi": {
+     "ticker": "KXNHLPTS-26NOV05CHITB-TBNKUCHEROV86-1",
+     "event": "KXNHLPTS-26NOV05CHITB",
+     "n": 1,
+     "implied_pct": 77
+    },
+    "kalshi_at": "2026-11-05T16:45:01-07:00",
+    "first_seen": "2026-11-05T07:00:01-07:00"
+   },
+   {
+    "id": "2026-11-05:nhl:5545:points",
+    "sport": "nhl",
+    "event_id": "401892649",
+    "game": "VGK @ DET",
+    "start_utc": "2026-11-06T00:00:00+00:00",
+    "start_az": "5:00 PM",
+    "athlete_id": "5545",
+    "player": "Mark Stone",
+    "team": "VGK",
+    "stat": "points",
+    "label": "1+ points",
+    "spread": "VGK -142",
+    "total": 6.5,
+    "line": 0.5,
+    "avg": 1.1,
+    "l5": [
+     1.0,
+     1.0,
+     1.0,
+     1.0,
+     0.0
+    ],
+    "hit_season": 0.765,
+    "hit_l5": 0.8,
+    "games": 17,
+    "score": 79.6,
+    "notes": [
+     "usage L5 107% of season"
+    ],
+    "kalshi": {
+     "ticker": "KXNHLPTS-26NOV05VGKDET-VGKMSTONE61-1",
+     "event": "KXNHLPTS-26NOV05VGKDET",
+     "n": 1,
+     "implied_pct": 62
+    },
+    "kalshi_at": "2026-11-05T16:45:01-07:00",
+    "first_seen": "2026-11-05T07:00:01-07:00"
+   },
+   {
+    "id": "2026-11-05:nhl:4565222:points",
+    "sport": "nhl",
+    "event_id": "401892651",
+    "game": "STL @ NJ",
+    "start_utc": "2026-11-06T00:00:00+00:00",
+    "start_az": "5:00 PM",
+    "athlete_id": "4565222",
+    "player": "Jack Hughes",
+    "team": "NJ",
+    "stat": "points",
+    "label": "1+ points",
+    "spread": "NJ -238",
+    "total": 5.5,
+    "line": 0.5,
+    "avg": 1.3,
+    "l5": [
+     3.0,
+     2.0,
+     0.0,
+     2.0,
+     1.0
+    ],
+    "hit_season": 0.733,
+    "hit_l5": 0.8,
+    "games": 15,
+    "score": 79.6,
+    "notes": [
+     "usage L5 100% of season"
+    ],
+    "kalshi": {
+     "ticker": "KXNHLPTS-26NOV05STLNJ-NJJHUGHES86-1",
+     "event": "KXNHLPTS-26NOV05STLNJ",
+     "n": 1,
+     "implied_pct": 72
+    },
+    "kalshi_at": "2026-11-05T16:45:01-07:00",
+    "first_seen": "2026-11-05T07:00:01-07:00"
+   },
+   {
+    "id": "2026-11-05:nhl:4197146:points",
+    "sport": "nhl",
+    "event_id": "401892653",
+    "game": "PHI @ NYR",
+    "start_utc": "2026-11-06T00:00:00+00:00",
+    "start_az": "5:00 PM",
+    "athlete_id": "4197146",
+    "player": "Adam Fox",
+    "team": "NYR",
+    "stat": "points",
+    "label": "1+ points",
+    "spread": "NYR -148",
+    "total": 5.5,
+    "line": 0.5,
+    "avg": 1.2,
+    "l5": [
+     2.0,
+     0.0,
+     1.0,
+     2.0,
+     4.0
+    ],
+    "hit_season": 0.75,
+    "hit_l5": 0.8,
+    "games": 16,
+    "score": 79.6,
+    "notes": [
+     "usage L5 108% of season"
+    ],
+    "kalshi": {
+     "ticker": "KXNHLPTS-26NOV05PHINYR-NYRAFOX23-1",
+     "event": "KXNHLPTS-26NOV05PHINYR",
+     "n": 1,
+     "implied_pct": 61
+    },
+    "kalshi_at": "2026-11-05T16:45:01-07:00",
+    "first_seen": "2026-11-05T07:00:01-07:00"
+   },
+   {
+    "id": "2026-11-05:nhl:4233566:points",
+    "sport": "nhl",
+    "event_id": "401892656",
+    "game": "VAN @ WPG",
+    "start_utc": "2026-11-06T01:00:00+00:00",
+    "start_az": "6:00 PM",
+    "athlete_id": "4233566",
+    "player": "Elias Pettersson",
+    "team": "VAN",
+    "stat": "points",
+    "label": "1+ points",
+    "spread": "WPG -218",
+    "total": 6.5,
+    "line": 0.5,
+    "avg": 1.1,
+    "l5": [
+     2.0,
+     0.0,
+     1.0,
+     2.0,
+     1.0
+    ],
+    "hit_season": 0.765,
+    "hit_l5": 0.8,
+    "games": 17,
+    "score": 79.0,
+    "notes": [
+     "usage L5 109% of season"
+    ],
+    "kalshi": {
+     "ticker": "KXNHLPTS-26NOV05VANWPG-VANEPETTERSSON40-1",
+     "event": "KXNHLPTS-26NOV05VANWPG",
+     "n": 1,
+     "implied_pct": 56
+    },
+    "kalshi_at": "2026-11-05T16:45:01-07:00",
+    "first_seen": "2026-11-05T07:00:01-07:00"
+   },
+   {
+    "id": "2026-11-05:nhl:4024857:assists",
+    "sport": "nhl",
+    "event_id": "401892648",
+    "game": "UTA @ MTL",
+    "start_utc": "2026-11-06T00:00:00+00:00",
+    "start_az": "5:00 PM",
+    "athlete_id": "4024857",
+    "player": "Clayton Keller",
+    "team": "UTA",
+    "stat": "assists",
+    "label": "1+ assists",
+    "spread": "UTAH -122",
+    "total": 6.5,
+    "line": 0.5,
+    "avg": 1.1,
+    "l5": [
+     3.0,
+     2.0,
+     1.0,
+     0.0,
+     1.0
+    ],
+    "hit_season": 0.75,
+    "hit_l5": 0.8,
+    "games": 16,
+    "score": 78.4,
+    "notes": [
+     "usage L5 103% of season"
+    ],
+    "kalshi": {
+     "ticker": "KXNHLAST-26NOV05UTAMTL-UTACKELLER9-1",
+     "event": "KXNHLAST-26NOV05UTAMTL",
+     "n": 1,
+     "implied_pct": 50
+    },
+    "kalshi_at": "2026-11-05T16:45:01-07:00",
+    "first_seen": "2026-11-05T07:00:01-07:00"
+   },
+   {
+    "id": "2026-11-05:nhl:3899938:points",
+    "sport": "nhl",
+    "event_id": "401892655",
+    "game": "DAL @ CBJ",
+    "start_utc": "2026-11-06T00:00:00+00:00",
+    "start_az": "5:00 PM",
+    "athlete_id": "3899938",
+    "player": "Mikko Rantanen",
+    "team": "DAL",
+    "stat": "points",
+    "label": "1+ points",
+    "spread": "DAL -130",
+    "total": 5.5,
+    "line": 0.5,
+    "avg": 1.2,
+    "l5": [
+     1.0,
+     1.0,
+     2.0,
+     0.0,
+     1.0
+    ],
+    "hit_season": 0.733,
+    "hit_l5": 0.8,
+    "games": 15,
+    "score": 78.3,
+    "notes": [
+     "usage L5 95% of season"
+    ],
+    "kalshi": {
+     "ticker": "KXNHLPTS-26NOV05DALCBJ-DALMRANTANEN96-1",
+     "event": "KXNHLPTS-26NOV05DALCBJ",
+     "n": 1,
+     "implied_pct": 62
+    },
+    "kalshi_at": "2026-11-05T16:45:01-07:00",
+    "first_seen": "2026-11-05T07:00:01-07:00"
+   },
+   {
+    "id": "2026-11-05:nhl:3114778:points",
+    "sport": "nhl",
+    "event_id": "401892654",
+    "game": "BOS @ PIT",
+    "start_utc": "2026-11-06T00:00:00+00:00",
+    "start_az": "5:00 PM",
+    "athlete_id": "3114778",
+    "player": "David Pastrnak",
+    "team": "BOS",
+    "stat": "points",
+    "label": "1+ points",
+    "spread": "BOS -108",
+    "total": 6.5,
+    "line": 0.5,
+    "avg": 1.2,
+    "l5": [
+     1.0,
+     1.0,
+     0.0,
+     1.0,
+     1.0
+    ],
+    "hit_season": 0.688,
+    "hit_l5": 0.8,
+    "games": 16,
+    "score": 77.4,
+    "notes": [
+     "usage L5 109% of season"
+    ],
+    "kalshi": {
+     "ticker": "KXNHLPTS-26NOV05BOSPIT-BOSDPASTRNAK88-1",
+     "event": "KXNHLPTS-26NOV05BOSPIT",
+     "n": 1,
+     "implied_pct": 66
+    },
+    "kalshi_at": "2026-11-05T16:45:01-07:00",
+    "first_seen": "2026-11-05T07:00:01-07:00"
+   },
+   {
+    "id": "2026-11-05:nhl:5080145:points",
+    "sport": "nhl",
+    "event_id": "401892657",
+    "game": "ANA @ EDM",
+    "start_utc": "2026-11-06T01:00:00+00:00",
+    "start_az": "6:00 PM",
+    "athlete_id": "5080145",
+    "player": "Cutter Gauthier",
+    "team": "ANA",
+    "stat": "points",
+    "label": "1+ points",
+    "spread": "EDM -192",
+    "total": 6.5,
+    "line": 0.5,
+    "avg": 1.1,
+    "l5": [
+     3.0,
+     3.0,
+     2.0,
+     1.0,
+     1.0
+    ],
+    "hit_season": 0.571,
+    "hit_l5": 1.0,
+    "games": 14,
+    "score": 76.4,
+    "notes": [
+     "usage L5 105% of season"
+    ],
+    "kalshi": {
+     "ticker": "KXNHLPTS-26NOV05ANAEDM-ANACGAUTHIER61-1",
+     "event": "KXNHLPTS-26NOV05ANAEDM",
+     "n": 1,
+     "implied_pct": 60
+    },
+    "kalshi_at": "2026-11-05T16:45:01-07:00",
+    "first_seen": "2026-11-05T07:00:01-07:00"
+   },
+   {
+    "id": "2026-11-05:nhl:5291933:points",
+    "sport": "nhl",
+    "event_id": "401892652",
+    "game": "CAR @ NYI",
+    "start_utc": "2026-11-06T00:00:00+00:00",
+    "start_az": "5:00 PM",
+    "athlete_id": "5291933",
+    "player": "Matthew Schaefer",
+    "team": "NYI",
+    "stat": "points",
+    "label": "1+ points",
+    "spread": "CAR -198",
+    "total": 6.5,
+    "line": 0.5,
+    "avg": 1.0,
+    "l5": [
+     0.0,
+     3.0,
+     1.0,
+     1.0,
+     1.0
+    ],
+    "hit_season": 0.714,
+    "hit_l5": 0.8,
+    "games": 14,
+    "score": 76.1,
+    "notes": [
+     "usage L5 106% of season"
+    ],
+    "kalshi": {
+     "ticker": "KXNHLPTS-26NOV05CARNYI-NYIMSCHAEFER48-1",
+     "event": "KXNHLPTS-26NOV05CARNYI",
+     "n": 1,
+     "implied_pct": 54
+    },
+    "kalshi_at": "2026-11-05T16:45:01-07:00",
+    "first_seen": "2026-11-05T07:00:01-07:00"
+   },
+   {
+    "id": "2026-11-05:nhl:4697385:points",
+    "sport": "nhl",
+    "event_id": "401892649",
+    "game": "VGK @ DET",
+    "start_utc": "2026-11-06T00:00:00+00:00",
+    "start_az": "5:00 PM",
+    "athlete_id": "4697385",
+    "player": "Lucas Raymond",
+    "team": "DET",
+    "stat": "points",
+    "label": "1+ points",
+    "spread": "VGK -142",
+    "total": 6.5,
+    "line": 0.5,
+    "avg": 1.0,
+    "l5": [
+     1.0,
+     1.0,
+     2.0,
+     1.0,
+     2.0
+    ],
+    "hit_season": 0.562,
+    "hit_l5": 1.0,
+    "games": 16,
+    "score": 74.7,
+    "notes": [
+     "usage L5 96% of season"
+    ],
+    "kalshi": {
+     "ticker": "KXNHLPTS-26NOV05VGKDET-DETLRAYMOND23-1",
+     "event": "KXNHLPTS-26NOV05VGKDET",
+     "n": 1,
+     "implied_pct": 60
+    },
+    "kalshi_at": "2026-11-05T16:45:01-07:00",
+    "first_seen": "2026-11-05T07:00:01-07:00"
+   },
+   {
+    "id": "2026-11-05:nhl:2563060:assists",
+    "sport": "nhl",
+    "event_id": "401892650",
+    "game": "CHI @ TB",
+    "start_utc": "2026-11-06T00:00:00+00:00",
+    "start_az": "5:00 PM",
+    "athlete_id": "2563060",
+    "player": "Nikita Kucherov",
+    "team": "TB",
+    "stat": "assists",
+    "label": "1+ assists",
+    "spread": "TB -470",
+    "total": 6.5,
+    "line": 0.5,
+    "avg": 1.1,
+    "l5": [
+     2.0,
+     3.0,
+     1.0,
+     1.0,
+     0.0
+    ],
+    "hit_season": 0.643,
+    "hit_l5": 0.8,
+    "games": 14,
+    "score": 74.0,
+    "notes": [
+     "usage L5 97% of season"
+    ],
+    "kalshi": {
+     "ticker": "KXNHLAST-26NOV05CHITB-TBNKUCHEROV86-1",
+     "event": "KXNHLAST-26NOV05CHITB",
+     "n": 1,
+     "implied_pct": 66
+    },
+    "kalshi_at": "2026-11-05T16:45:01-07:00",
+    "first_seen": "2026-11-05T07:00:01-07:00"
+   },
+   {
+    "id": "2026-11-05:nhl:3899972:points",
+    "sport": "nhl",
+    "event_id": "401892655",
+    "game": "DAL @ CBJ",
+    "start_utc": "2026-11-06T00:00:00+00:00",
+    "start_az": "5:00 PM",
+    "athlete_id": "3899972",
+    "player": "Zach Werenski",
+    "team": "CBJ",
+    "stat": "points",
+    "label": "1+ points",
+    "spread": "DAL -130",
+    "total": 5.5,
+    "line": 0.5,
+    "avg": 0.9,
+    "l5": [
+     2.0,
+     1.0,
+     1.0,
+     2.0,
+     0.0
+    ],
+    "hit_season": 0.692,
+    "hit_l5": 0.8,
+    "games": 13,
+    "score": 73.9,
+    "notes": [
+     "usage L5 97% of season"
+    ],
+    "kalshi": {
+     "ticker": "KXNHLPTS-26NOV05DALCBJ-CBJZWERENSKI8-1",
+     "event": "KXNHLPTS-26NOV05DALCBJ",
+     "n": 1,
+     "implied_pct": 60
+    },
+    "kalshi_at": "2026-11-05T16:45:01-07:00",
+    "first_seen": "2026-11-05T07:00:01-07:00"
+   },
+   {
+    "id": "2026-11-05:nhl:3899972:assists",
+    "sport": "nhl",
+    "event_id": "401892655",
+    "game": "DAL @ CBJ",
+    "start_utc": "2026-11-06T00:00:00+00:00",
+    "start_az": "5:00 PM",
+    "athlete_id": "3899972",
+    "player": "Zach Werenski",
+    "team": "CBJ",
+    "stat": "assists",
+    "label": "1+ assists",
+    "spread": "DAL -130",
+    "total": 5.5,
+    "line": 0.5,
+    "avg": 0.9,
+    "l5": [
+     2.0,
+     1.0,
+     1.0,
+     2.0,
+     0.0
+    ],
+    "hit_season": 0.692,
+    "hit_l5": 0.8,
+    "games": 13,
+    "score": 73.9,
+    "notes": [
+     "usage L5 97% of season"
+    ],
+    "kalshi": {
+     "ticker": "KXNHLAST-26NOV05DALCBJ-CBJZWERENSKI8-1",
+     "event": "KXNHLAST-26NOV05DALCBJ",
+     "n": 1,
+     "implied_pct": 49
+    },
+    "kalshi_at": "2026-11-05T16:45:01-07:00",
+    "first_seen": "2026-11-05T07:00:01-07:00"
+   },
+   {
+    "id": "2026-11-05:nhl:3042002:points",
+    "sport": "nhl",
+    "event_id": "401892652",
+    "game": "CAR @ NYI",
+    "start_utc": "2026-11-06T00:00:00+00:00",
+    "start_az": "5:00 PM",
+    "athlete_id": "3042002",
+    "player": "Bo Horvat",
+    "team": "NYI",
+    "stat": "points",
+    "label": "1+ points",
+    "spread": "CAR -198",
+    "total": 6.5,
+    "line": 0.5,
+    "avg": 1.0,
+    "l5": [
+     0.0,
+     1.0,
+     1.0,
+     2.0,
+     0.0
+    ],
+    "hit_season": 0.786,
+    "hit_l5": 0.6,
+    "games": 14,
+    "score": 73.4,
+    "notes": [
+     "usage L5 103% of season"
+    ],
+    "kalshi": {
+     "ticker": "KXNHLPTS-26NOV05CARNYI-NYIBHORVAT14-1",
+     "event": "KXNHLPTS-26NOV05CARNYI",
+     "n": 1,
+     "implied_pct": 55
+    },
+    "kalshi_at": "2026-11-05T16:45:01-07:00",
+    "first_seen": "2026-11-05T07:00:01-07:00"
+   },
+   {
+    "id": "2026-11-05:nhl:2968772:assists",
+    "sport": "nhl",
+    "event_id": "401892658",
+    "game": "NSH @ COL",
+    "start_utc": "2026-11-06T02:30:00+00:00",
+    "start_az": "7:30 PM",
+    "athlete_id": "2968772",
+    "player": "Filip Forsberg",
+    "team": "NSH",
+    "stat": "assists",
+    "label": "1+ assists",
+    "spread": "COL -218",
+    "total": 6.5,
+    "line": 0.5,
+    "avg": 0.9,
+    "l5": [
+     2.0,
+     2.0,
+     0.0,
+     1.0,
+     2.0
+    ],
+    "hit_season": 0.667,
+    "hit_l5": 0.8,
+    "games": 15,
+    "score": 73.1,
+    "notes": [
+     "usage L5 99% of season"
+    ],
+    "kalshi": {
+     "ticker": "KXNHLAST-26NOV05NSHCOL-NSHFFORSBERG9-1",
+     "event": "KXNHLAST-26NOV05NSHCOL",
+     "n": 1,
+     "implied_pct": 42
+    },
+    "kalshi_at": "2026-11-05T16:45:01-07:00",
+    "first_seen": "2026-11-05T15:30:01-07:00"
+   },
+   {
+    "id": "2026-11-05:nhl:5149153:assists",
+    "sport": "nhl",
+    "event_id": "401892657",
+    "game": "ANA @ EDM",
+    "start_utc": "2026-11-06T01:00:00+00:00",
+    "start_az": "6:00 PM",
+    "athlete_id": "5149153",
+    "player": "Leo Carlsson",
+    "team": "ANA",
+    "stat": "assists",
+    "label": "1+ assists",
+    "spread": "EDM -192",
+    "total": 6.5,
+    "line": 0.5,
+    "avg": 1.1,
+    "l5": [
+     0.0,
+     3.0,
+     3.0,
+     1.0,
+     1.0
+    ],
+    "hit_season": 0.6,
+    "hit_l5": 0.8,
+    "games": 15,
+    "score": 72.3,
+    "notes": [
+     "usage L5 101% of season"
+    ],
+    "kalshi": {
+     "ticker": "KXNHLAST-26NOV05ANAEDM-ANALCARLSSON91-1",
+     "event": "KXNHLAST-26NOV05ANAEDM",
+     "n": 1,
+     "implied_pct": 45
+    },
+    "kalshi_at": "2026-11-05T16:45:01-07:00",
+    "first_seen": "2026-11-05T07:00:01-07:00"
+   },
+   {
+    "id": "2026-11-05:nhl:3904173:points",
+    "sport": "nhl",
+    "event_id": "401892652",
+    "game": "CAR @ NYI",
+    "start_utc": "2026-11-06T00:00:00+00:00",
+    "start_az": "5:00 PM",
+    "athlete_id": "3904173",
+    "player": "Sebastian Aho",
+    "team": "CAR",
+    "stat": "points",
+    "label": "1+ points",
+    "spread": "CAR -198",
+    "total": 6.5,
+    "line": 0.5,
+    "avg": 1.2,
+    "l5": [
+     0.0,
+     2.0,
+     0.0,
+     1.0,
+     2.0
+    ],
+    "hit_season": 0.706,
+    "hit_l5": 0.6,
+    "games": 17,
+    "score": 71.8,
+    "notes": [
+     "usage L5 98% of season"
+    ],
+    "kalshi": {
+     "ticker": "KXNHLPTS-26NOV05CARNYI-CARSAHO20-1",
+     "event": "KXNHLPTS-26NOV05CARNYI",
+     "n": 1,
+     "implied_pct": 62
+    },
+    "kalshi_at": "2026-11-05T16:45:01-07:00",
+    "first_seen": "2026-11-05T07:00:01-07:00"
+   },
+   {
+    "id": "2026-11-05:nhl:5164:points",
+    "sport": "nhl",
+    "event_id": "401892654",
+    "game": "BOS @ PIT",
+    "start_utc": "2026-11-06T00:00:00+00:00",
+    "start_az": "5:00 PM",
+    "athlete_id": "5164",
+    "player": "Erik Karlsson",
+    "team": "PIT",
+    "stat": "points",
+    "label": "1+ points",
+    "spread": "BOS -108",
+    "total": 6.5,
+    "line": 0.5,
+    "avg": 1.1,
+    "l5": [
+     0.0,
+     3.0,
+     1.0,
+     1.0,
+     0.0
+    ],
+    "hit_season": 0.733,
+    "hit_l5": 0.6,
+    "games": 15,
+    "score": 71.7,
+    "notes": [
+     "usage L5 103% of season"
+    ],
+    "kalshi": {
+     "ticker": "KXNHLPTS-26NOV05BOSPIT-PITEKARLSSON65-1",
+     "event": "KXNHLPTS-26NOV05BOSPIT",
+     "n": 1,
+     "implied_pct": 59
+    },
+    "kalshi_at": "2026-11-05T16:45:01-07:00",
+    "first_seen": "2026-11-05T07:00:01-07:00"
+   },
+   {
+    "id": "2026-11-05:nhl:5037:points",
+    "sport": "nhl",
+    "event_id": "401892658",
+    "game": "NSH @ COL",
+    "start_utc": "2026-11-06T02:30:00+00:00",
+    "start_az": "7:30 PM",
+    "athlete_id": "5037",
+    "player": "Steven Stamkos",
+    "team": "NSH",
+    "stat": "points",
+    "label": "1+ points",
+    "spread": "COL -218",
+    "total": 6.5,
+    "line": 0.5,
+    "avg": 1.1,
+    "l5": [
+     0.0,
+     1.0,
+     0.0,
+     1.0,
+     3.0
+    ],
+    "hit_season": 0.733,
+    "hit_l5": 0.6,
+    "games": 15,
+    "score": 71.4,
+    "notes": [
+     "usage L5 98% of season"
+    ],
+    "kalshi": {
+     "ticker": "KXNHLPTS-26NOV05NSHCOL-NSHSSTAMKOS91-1",
+     "event": "KXNHLPTS-26NOV05NSHCOL",
+     "n": 1,
+     "implied_pct": 54
+    },
+    "kalshi_at": "2026-11-05T16:45:01-07:00",
+    "first_seen": "2026-11-05T15:30:01-07:00"
+   },
+   {
+    "id": "2026-11-05:nhl:3041969:assists",
+    "sport": "nhl",
+    "event_id": "401892658",
+    "game": "NSH @ COL",
+    "start_utc": "2026-11-06T02:30:00+00:00",
+    "start_az": "7:30 PM",
+    "athlete_id": "3041969",
+    "player": "Nathan MacKinnon",
+    "team": "COL",
+    "stat": "assists",
+    "label": "1+ assists",
+    "spread": "COL -218",
+    "total": 6.5,
+    "line": 0.5,
+    "avg": 1.1,
+    "l5": [
+     2.0,
+     1.0,
+     1.0,
+     0.0,
+     1.0
+    ],
+    "hit_season": 0.562,
+    "hit_l5": 0.8,
+    "games": 16,
+    "score": 69.7,
+    "notes": [
+     "usage L5 94% of season"
+    ],
+    "kalshi": {
+     "ticker": "KXNHLAST-26NOV05NSHCOL-COLNMACKINNON29-1",
+     "event": "KXNHLAST-26NOV05NSHCOL",
+     "n": 1,
+     "implied_pct": 61
+    },
+    "kalshi_at": "2026-11-05T16:45:01-07:00",
+    "first_seen": "2026-11-05T15:30:01-07:00"
+   },
+   {
+    "id": "2026-11-05:nhl:5080143:points",
+    "sport": "nhl",
+    "event_id": "401892648",
+    "game": "UTA @ MTL",
+    "start_utc": "2026-11-06T00:00:00+00:00",
+    "start_az": "5:00 PM",
+    "athlete_id": "5080143",
+    "player": "Logan Cooley",
+    "team": "UTA",
+    "stat": "points",
+    "label": "1+ points",
+    "spread": "UTAH -122",
+    "total": 6.5,
+    "line": 0.5,
+    "avg": 1.1,
+    "l5": [
+     0.0,
+     2.0,
+     3.0,
+     1.0,
+     0.0
+    ],
+    "hit_season": 0.688,
+    "hit_l5": 0.6,
+    "games": 16,
+    "score": 69.6,
+    "notes": [
+     "usage L5 104% of season"
+    ],
+    "kalshi": {
+     "ticker": "KXNHLPTS-26NOV05UTAMTL-UTALCOOLEY92-1",
+     "event": "KXNHLPTS-26NOV05UTAMTL",
+     "n": 1,
+     "implied_pct": 60
+    },
+    "kalshi_at": "2026-11-05T16:45:01-07:00",
+    "first_seen": "2026-11-05T07:00:01-07:00"
+   },
+   {
+    "id": "2026-11-05:nhl:4197146:assists",
+    "sport": "nhl",
+    "event_id": "401892653",
+    "game": "PHI @ NYR",
+    "start_utc": "2026-11-06T00:00:00+00:00",
+    "start_az": "5:00 PM",
+    "athlete_id": "4197146",
+    "player": "Adam Fox",
+    "team": "NYR",
+    "stat": "assists",
+    "label": "1+ assists",
+    "spread": "NYR -148",
+    "total": 5.5,
+    "line": 0.5,
+    "avg": 1.1,
+    "l5": [
+     1.0,
+     0.0,
+     0.0,
+     2.0,
+     4.0
+    ],
+    "hit_season": 0.688,
+    "hit_l5": 0.6,
+    "games": 16,
+    "score": 69.6,
+    "notes": [
+     "usage L5 108% of season"
+    ],
+    "kalshi": {
+     "ticker": "KXNHLAST-26NOV05PHINYR-NYRAFOX23-1",
+     "event": "KXNHLAST-26NOV05PHINYR",
+     "n": 1,
+     "implied_pct": 54
+    },
+    "kalshi_at": "2026-11-05T16:45:01-07:00",
+    "first_seen": "2026-11-05T07:00:01-07:00"
+   },
+   {
+    "id": "2026-11-05:nhl:4233875:points",
+    "sport": "nhl",
+    "event_id": "401892655",
+    "game": "DAL @ CBJ",
+    "start_utc": "2026-11-06T00:00:00+00:00",
+    "start_az": "5:00 PM",
+    "athlete_id": "4233875",
+    "player": "Jason Robertson",
+    "team": "DAL",
+    "stat": "points",
+    "label": "1+ points",
+    "spread": "DAL -130",
+    "total": 5.5,
+    "line": 0.5,
+    "avg": 1.2,
+    "l5": [
+     4.0,
+     1.0,
+     0.0,
+     0.0,
+     2.0
+    ],
+    "hit_season": 0.667,
+    "hit_l5": 0.6,
+    "games": 15,
+    "score": 69.2,
+    "notes": [
+     "usage L5 95% of season"
+    ],
+    "kalshi": {
+     "ticker": "KXNHLPTS-26NOV05DALCBJ-DALJROBERTSON21-1",
+     "event": "KXNHLPTS-26NOV05DALCBJ",
+     "n": 1,
+     "implied_pct": 64
+    },
+    "kalshi_at": "2026-11-05T16:45:01-07:00",
+    "first_seen": "2026-11-05T07:00:01-07:00"
+   },
+   {
+    "id": "2026-11-05:nhl:3042050:points",
+    "sport": "nhl",
+    "event_id": "401892658",
+    "game": "NSH @ COL",
+    "start_utc": "2026-11-06T02:30:00+00:00",
+    "start_az": "7:30 PM",
+    "athlete_id": "3042050",
+    "player": "Artturi Lehkonen",
+    "team": "COL",
+    "stat": "points",
+    "label": "1+ points",
+    "spread": "COL -218",
+    "total": 6.5,
+    "line": 0.5,
+    "avg": 1.1,
+    "l5": [
+     0.0,
+     0.0,
+     2.0,
+     1.0,
+     1.0
+    ],
+    "hit_season": 0.688,
+    "hit_l5": 0.6,
+    "games": 16,
+    "score": 69.2,
+    "notes": [
+     "usage L5 97% of season"
+    ],
+    "kalshi": {
+     "ticker": "KXNHLPTS-26NOV05NSHCOL-COLALEHKONEN62-1",
+     "event": "KXNHLPTS-26NOV05NSHCOL",
+     "n": 1,
+     "implied_pct": 54
+    },
+    "kalshi_at": "2026-11-05T16:45:01-07:00",
+    "first_seen": "2026-11-05T15:30:01-07:00"
+   },
+   {
+    "id": "2026-11-05:nhl:5080230:points",
+    "sport": "nhl",
+    "event_id": "401892648",
+    "game": "UTA @ MTL",
+    "start_utc": "2026-11-06T00:00:00+00:00",
+    "start_az": "5:00 PM",
+    "athlete_id": "5080230",
+    "player": "Lane Hutson",
+    "team": "MTL",
+    "stat": "points",
+    "label": "1+ points",
+    "spread": "UTAH -122",
+    "total": 6.5,
+    "line": 0.5,
+    "avg": 0.9,
+    "l5": [
+     1.0,
+     2.0,
+     1.0,
+     0.0,
+     1.0
+    ],
+    "hit_season": 0.6,
+    "hit_l5": 0.8,
+    "games": 15,
+    "score": 69.0,
+    "notes": [
+     "usage L5 91% of season"
+    ],
+    "kalshi": {
+     "ticker": "KXNHLPTS-26NOV05UTAMTL-MTLLHUTSON48-1",
+     "event": "KXNHLPTS-26NOV05UTAMTL",
+     "n": 1,
+     "implied_pct": 58
+    },
+    "kalshi_at": "2026-11-05T16:45:01-07:00",
+    "first_seen": "2026-11-05T07:00:01-07:00"
+   },
+   {
+    "id": "2026-11-05:nhl:5436:points",
+    "sport": "nhl",
+    "event_id": "401892658",
+    "game": "NSH @ COL",
+    "start_utc": "2026-11-06T02:30:00+00:00",
+    "start_az": "7:30 PM",
+    "athlete_id": "5436",
+    "player": "Roman Josi",
+    "team": "NSH",
+    "stat": "points",
+    "label": "1+ points",
+    "spread": "COL -218",
+    "total": 6.5,
+    "line": 0.5,
+    "avg": 1.1,
+    "l5": [
+     2.0,
+     0.0,
+     3.0,
+     0.0,
+     3.0
+    ],
+    "hit_season": 0.667,
+    "hit_l5": 0.6,
+    "games": 15,
+    "score": 68.8,
+    "notes": [
+     "usage L5 97% of season"
+    ],
+    "kalshi": {
+     "ticker": "KXNHLPTS-26NOV05NSHCOL-NSHRJOSI59-1",
+     "event": "KXNHLPTS-26NOV05NSHCOL",
+     "n": 1,
+     "implied_pct": 52
+    },
+    "kalshi_at": "2026-11-05T16:45:01-07:00",
+    "first_seen": "2026-11-05T15:30:01-07:00"
+   },
+   {
+    "id": "2026-11-05:nhl:4565230:points",
+    "sport": "nhl",
+    "event_id": "401892653",
+    "game": "PHI @ NYR",
+    "start_utc": "2026-11-06T00:00:00+00:00",
+    "start_az": "5:00 PM",
+    "athlete_id": "4565230",
+    "player": "Trevor Zegras",
+    "team": "PHI",
+    "stat": "points",
+    "label": "1+ points",
+    "spread": "NYR -148",
+    "total": 5.5,
+    "line": 0.5,
+    "avg": 0.8,
+    "l5": [
+     1.0,
+     0.0,
+     1.0,
+     2.0,
+     2.0
+    ],
+    "hit_season": 0.588,
+    "hit_l5": 0.8,
+    "games": 17,
+    "score": 68.7,
+    "notes": [
+     "usage L5 105% of season"
+    ],
+    "kalshi": {
+     "ticker": "KXNHLPTS-26NOV05PHINYR-PHITZEGRAS46-1",
+     "event": "KXNHLPTS-26NOV05PHINYR",
+     "n": 1,
+     "implied_pct": 53
+    },
+    "kalshi_at": "2026-11-05T16:45:01-07:00",
+    "first_seen": "2026-11-05T07:00:01-07:00"
+   },
+   {
+    "id": "2026-11-05:nhl:4233566:assists",
+    "sport": "nhl",
+    "event_id": "401892656",
+    "game": "VAN @ WPG",
+    "start_utc": "2026-11-06T01:00:00+00:00",
+    "start_az": "6:00 PM",
+    "athlete_id": "4233566",
+    "player": "Elias Pettersson",
+    "team": "VAN",
+    "stat": "assists",
+    "label": "1+ assists",
+    "spread": "WPG -218",
+    "total": 6.5,
+    "line": 0.5,
+    "avg": 0.8,
+    "l5": [
+     2.0,
+     0.0,
+     1.0,
+     2.0,
+     1.0
+    ],
+    "hit_season": 0.588,
+    "hit_l5": 0.8,
+    "games": 17,
+    "score": 68.7,
+    "notes": [
+     "usage L5 109% of season"
+    ],
+    "kalshi": {
+     "ticker": "KXNHLAST-26NOV05VANWPG-VANEPETTERSSON40-1",
+     "event": "KXNHLAST-26NOV05VANWPG",
+     "n": 1,
+     "implied_pct": 40
+    },
+    "kalshi_at": "2026-11-05T16:45:01-07:00",
+    "first_seen": "2026-11-05T07:00:01-07:00"
+   },
+   {
+    "id": "2026-11-05:nhl:4874899:points",
+    "sport": "nhl",
+    "event_id": "401892652",
+    "game": "CAR @ NYI",
+    "start_utc": "2026-11-06T00:00:00+00:00",
+    "start_az": "5:00 PM",
+    "athlete_id": "4874899",
+    "player": "Logan Stankoven",
+    "team": "CAR",
+    "stat": "points",
+    "label": "1+ points",
+    "spread": "CAR -198",
+    "total": 6.5,
+    "line": 0.5,
+    "avg": 0.9,
+    "l5": [
+     1.0,
+     3.0,
+     1.0,
+     0.0,
+     1.0
+    ],
+    "hit_season": 0.588,
+    "hit_l5": 0.8,
+    "games": 17,
+    "score": 68.6,
+    "notes": [
+     "usage L5 92% of season"
+    ],
+    "kalshi": {
+     "ticker": "KXNHLPTS-26NOV05CARNYI-CARLSTANKOVEN22-1",
+     "event": "KXNHLPTS-26NOV05CARNYI",
+     "n": 1,
+     "implied_pct": 50
+    },
+    "kalshi_at": "2026-11-05T16:45:01-07:00",
+    "first_seen": "2026-11-05T07:00:01-07:00"
+   },
+   {
+    "id": "2026-11-05:nhl:5149125:assists",
+    "sport": "nhl",
+    "event_id": "401892650",
+    "game": "CHI @ TB",
+    "start_utc": "2026-11-06T00:00:00+00:00",
+    "start_az": "5:00 PM",
+    "athlete_id": "5149125",
+    "player": "Connor Bedard",
+    "team": "CHI",
+    "stat": "assists",
+    "label": "1+ assists",
+    "spread": "TB -470",
+    "total": 6.5,
+    "line": 0.5,
+    "avg": 0.8,
+    "l5": [
+     2.0,
+     1.0,
+     1.0,
+     0.0,
+     1.0
+    ],
+    "hit_season": 0.7,
+    "hit_l5": 0.8,
+    "games": 10,
+    "score": 68.5,
+    "notes": [
+     "usage L5 100% of season",
+     "back to back"
+    ],
+    "kalshi": {
+     "ticker": "KXNHLAST-26NOV05CHITB-CHICBEDARD98-1",
+     "event": "KXNHLAST-26NOV05CHITB",
+     "n": 1,
+     "implied_pct": 41
+    },
+    "kalshi_at": "2026-11-05T16:45:01-07:00",
+    "first_seen": "2026-11-05T07:00:01-07:00"
+   },
+   {
+    "id": "2026-11-05:nhl:5149170:points",
+    "sport": "nhl",
+    "event_id": "401892653",
+    "game": "PHI @ NYR",
+    "start_utc": "2026-11-06T00:00:00+00:00",
+    "start_az": "5:00 PM",
+    "athlete_id": "5149170",
+    "player": "Matvei Michkov",
+    "team": "PHI",
+    "stat": "points",
+    "label": "1+ points",
+    "spread": "NYR -148",
+    "total": 5.5,
+    "line": 0.5,
+    "avg": 0.8,
+    "l5": [
+     1.0,
+     1.0,
+     1.0,
+     0.0,
+     2.0
+    ],
+    "hit_season": 0.588,
+    "hit_l5": 0.8,
+    "games": 17,
+    "score": 68.1,
+    "notes": [
+     "usage L5 112% of season"
+    ],
+    "kalshi": {
+     "ticker": "KXNHLPTS-26NOV05PHINYR-PHIMMICHKOV39-1",
+     "event": "KXNHLPTS-26NOV05PHINYR",
+     "n": 1,
+     "implied_pct": 48
+    },
+    "kalshi_at": "2026-11-05T16:45:01-07:00",
+    "first_seen": "2026-11-05T07:00:01-07:00"
+   },
+   {
+    "id": "2026-11-05:nhl:3899952:points",
+    "sport": "nhl",
+    "event_id": "401892656",
+    "game": "VAN @ WPG",
+    "start_utc": "2026-11-06T01:00:00+00:00",
+    "start_az": "6:00 PM",
+    "athlete_id": "3899952",
+    "player": "Kyle Connor",
+    "team": "WPG",
+    "stat": "points",
+    "label": "1+ points",
+    "spread": "WPG -218",
+    "total": 6.5,
+    "line": 0.5,
+    "avg": 1.1,
+    "l5": [
+     2.0,
+     0.0,
+     1.0,
+     2.0,
+     0.0
+    ],
+    "hit_season": 0.625,
+    "hit_l5": 0.6,
+    "games": 16,
+    "score": 66.8,
+    "notes": [
+     "usage L5 101% of season"
+    ],
+    "kalshi": {
+     "ticker": "KXNHLPTS-26NOV05VANWPG-WPGKCONNOR81-1",
+     "event": "KXNHLPTS-26NOV05VANWPG",
+     "n": 1,
+     "implied_pct": 71
+    },
+    "kalshi_at": "2026-11-05T16:45:01-07:00",
+    "first_seen": "2026-11-05T07:00:01-07:00"
+   },
+   {
+    "id": "2026-11-05:nhl:4063433:points",
+    "sport": "nhl",
+    "event_id": "401892649",
+    "game": "VGK @ DET",
+    "start_utc": "2026-11-06T00:00:00+00:00",
+    "start_az": "5:00 PM",
+    "athlete_id": "4063433",
+    "player": "Alex DeBrincat",
+    "team": "DET",
+    "stat": "points",
+    "label": "1+ points",
+    "spread": "VGK -142",
+    "total": 6.5,
+    "line": 0.5,
+    "avg": 1.0,
+    "l5": [
+     0.0,
+     1.0,
+     0.0,
+     2.0,
+     1.0
+    ],
+    "hit_season": 0.625,
+    "hit_l5": 0.6,
+    "games": 16,
+    "score": 65.8,
+    "notes": [
+     "usage L5 98% of season"
+    ],
+    "kalshi": {
+     "ticker": "KXNHLPTS-26NOV05VGKDET-DETADEBRINCAT93-1",
+     "event": "KXNHLPTS-26NOV05VGKDET",
+     "n": 1,
+     "implied_pct": 60
+    },
+    "kalshi_at": "2026-11-05T16:45:01-07:00",
+    "first_seen": "2026-11-05T07:00:01-07:00"
+   },
+   {
+    "id": "2026-11-05:nhl:4697382:points",
+    "sport": "nhl",
+    "event_id": "401892653",
+    "game": "PHI @ NYR",
+    "start_utc": "2026-11-06T00:00:00+00:00",
+    "start_az": "5:00 PM",
+    "athlete_id": "4697382",
+    "player": "Alexis Lafreniere",
+    "team": "NYR",
+    "stat": "points",
+    "label": "1+ points",
+    "spread": "NYR -148",
+    "total": 5.5,
+    "line": 0.5,
+    "avg": 1.0,
+    "l5": [
+     0.0,
+     0.0,
+     1.0,
+     1.0,
+     1.0
+    ],
+    "hit_season": 0.625,
+    "hit_l5": 0.6,
+    "games": 16,
+    "score": 65.6,
+    "notes": [
+     "usage L5 97% of season"
+    ],
+    "kalshi": {
+     "ticker": "KXNHLPTS-26NOV05PHINYR-NYRALAFRENIERE13-1",
+     "event": "KXNHLPTS-26NOV05PHINYR",
+     "n": 1,
+     "implied_pct": 55
+    },
+    "kalshi_at": "2026-11-05T16:45:01-07:00",
+    "first_seen": "2026-11-05T07:00:01-07:00"
+   },
+   {
+    "id": "2026-11-05:nhl:5436:assists",
+    "sport": "nhl",
+    "event_id": "401892658",
+    "game": "NSH @ COL",
+    "start_utc": "2026-11-06T02:30:00+00:00",
+    "start_az": "7:30 PM",
+    "athlete_id": "5436",
+    "player": "Roman Josi",
+    "team": "NSH",
+    "stat": "assists",
+    "label": "1+ assists",
+    "spread": "COL -218",
+    "total": 6.5,
+    "line": 0.5,
+    "avg": 1.0,
+    "l5": [
+     1.0,
+     0.0,
+     3.0,
+     0.0,
+     3.0
+    ],
+    "hit_season": 0.6,
+    "hit_l5": 0.6,
+    "games": 15,
+    "score": 64.5,
+    "notes": [
+     "usage L5 97% of season"
+    ],
+    "kalshi": {
+     "ticker": "KXNHLAST-26NOV05NSHCOL-NSHRJOSI59-1",
+     "event": "KXNHLAST-26NOV05NSHCOL",
+     "n": 1,
+     "implied_pct": 44
+    },
+    "kalshi_at": "2026-11-05T16:45:01-07:00",
+    "first_seen": "2026-11-05T15:30:01-07:00"
+   },
+   {
+    "id": "2026-11-05:nhl:3899952:goals",
+    "sport": "nhl",
+    "event_id": "401892656",
+    "game": "VAN @ WPG",
+    "start_utc": "2026-11-06T01:00:00+00:00",
+    "start_az": "6:00 PM",
+    "athlete_id": "3899952",
+    "player": "Kyle Connor",
+    "team": "WPG",
+    "stat": "goals",
+    "label": "1+ goals",
+    "spread": "WPG -218",
+    "total": 6.5,
+    "line": 0.5,
+    "avg": 0.8,
+    "l5": [
+     2.0,
+     0.0,
+     1.0,
+     1.0,
+     0.0
+    ],
+    "hit_season": 0.625,
+    "hit_l5": 0.6,
+    "games": 16,
+    "score": 64.2,
+    "notes": [
+     "usage L5 101% of season"
+    ],
+    "kalshi": {
+     "ticker": "KXNHLGOAL-26NOV05VANWPG-WPGKCONNOR81-1",
+     "event": "KXNHLGOAL-26NOV05VANWPG",
+     "n": 1,
+     "implied_pct": 45
+    },
+    "kalshi_at": "2026-11-05T16:45:01-07:00",
+    "first_seen": "2026-11-05T07:00:01-07:00"
+   },
+   {
+    "id": "2026-11-05:nhl:3648002:points",
+    "sport": "nhl",
+    "event_id": "401892649",
+    "game": "VGK @ DET",
+    "start_utc": "2026-11-06T00:00:00+00:00",
+    "start_az": "5:00 PM",
+    "athlete_id": "3648002",
+    "player": "Jack Eichel",
+    "team": "VGK",
+    "stat": "points",
+    "label": "1+ points",
+    "spread": "VGK -142",
+    "total": 6.5,
+    "line": 0.5,
+    "avg": 1.3,
+    "l5": [
+     2.0,
+     0.0,
+     0.0,
+     1.0,
+     0.0
+    ],
+    "hit_season": 0.647,
+    "hit_l5": 0.4,
+    "games": 17,
+    "score": 64.1,
+    "notes": [
+     "usage L5 105% of season"
+    ],
+    "kalshi": {
+     "ticker": "KXNHLPTS-26NOV05VGKDET-VGKJEICHEL9-1",
+     "event": "KXNHLPTS-26NOV05VGKDET",
+     "n": 1,
+     "implied_pct": 66
+    },
+    "kalshi_at": "2026-11-05T16:45:01-07:00",
+    "first_seen": "2026-11-05T07:00:01-07:00"
+   },
+   {
+    "id": "2026-11-05:nhl:3114727:assists",
+    "sport": "nhl",
+    "event_id": "401892657",
+    "game": "ANA @ EDM",
+    "start_utc": "2026-11-06T01:00:00+00:00",
+    "start_az": "6:00 PM",
+    "athlete_id": "3114727",
+    "player": "Leon Draisaitl",
+    "team": "EDM",
+    "stat": "assists",
+    "label": "1+ assists",
+    "spread": "EDM -192",
+    "total": 6.5,
+    "line": 0.5,
+    "avg": 1.0,
+    "l5": [
+     0.0,
+     2.0,
+     2.0,
+     0.0,
+     1.0
+    ],
+    "hit_season": 0.562,
+    "hit_l5": 0.6,
+    "games": 16,
+    "score": 63.2,
+    "notes": [
+     "usage L5 99% of season"
+    ],
+    "kalshi": {
+     "ticker": "KXNHLAST-26NOV05ANAEDM-EDMLDRAISAITL29-1",
+     "event": "KXNHLAST-26NOV05ANAEDM",
+     "n": 1,
+     "implied_pct": 62
+    },
+    "kalshi_at": "2026-11-05T16:45:01-07:00",
+    "first_seen": "2026-11-05T07:00:01-07:00"
+   },
+   {
+    "id": "2026-11-05:nhl:5149231:points",
+    "sport": "nhl",
+    "event_id": "401892650",
+    "game": "CHI @ TB",
+    "start_utc": "2026-11-06T00:00:00+00:00",
+    "start_az": "5:00 PM",
+    "athlete_id": "5149231",
+    "player": "Roman Kantserov",
+    "team": "CHI",
+    "stat": "points",
+    "label": "1+ points",
+    "spread": "TB -470",
+    "total": 6.5,
+    "line": 0.5,
+    "avg": 0.6,
+    "l5": [
+     1.0,
+     1.0,
+     1.0,
+     1.0,
+     1.0
+    ],
+    "hit_season": 0.5,
+    "hit_l5": 1.0,
+    "games": 16,
+    "score": 62.7,
+    "notes": [
+     "usage L5 97% of season",
+     "back to back"
+    ],
+    "kalshi": {
+     "ticker": "KXNHLPTS-26NOV05CHITB-CHIRKANTSEROV80-1",
+     "event": "KXNHLPTS-26NOV05CHITB",
+     "n": 1,
+     "implied_pct": 44
+    },
+    "kalshi_at": "2026-11-05T16:45:01-07:00",
+    "first_seen": "2026-11-05T07:00:01-07:00"
+   },
+   {
+    "id": "2026-11-05:nhl:3120307:points",
+    "sport": "nhl",
+    "event_id": "401892649",
+    "game": "VGK @ DET",
+    "start_utc": "2026-11-06T00:00:00+00:00",
+    "start_az": "5:00 PM",
+    "athlete_id": "3120307",
+    "player": "Viktor Arvidsson",
+    "team": "DET",
+    "stat": "points",
+    "label": "1+ points",
+    "spread": "VGK -142",
+    "total": 6.5,
+    "line": 0.5,
+    "avg": 0.9,
+    "l5": [
+     0.0,
+     1.0,
+     0.0,
+     4.0,
+     2.0
+    ],
+    "hit_season": 0.562,
+    "hit_l5": 0.6,
+    "games": 16,
+    "score": 62.6,
+    "notes": [
+     "usage L5 100% of season"
+    ],
+    "kalshi": {
+     "ticker": "KXNHLPTS-26NOV05VGKDET-DETVARVIDSSON33-1",
+     "event": "KXNHLPTS-26NOV05VGKDET",
+     "n": 1,
+     "implied_pct": 54
+    },
+    "kalshi_at": "2026-11-05T16:45:01-07:00",
+    "first_seen": "2026-11-05T07:00:01-07:00"
+   },
+   {
+    "id": "2026-11-05:nhl:4065019:points",
+    "sport": "nhl",
+    "event_id": "401892650",
+    "game": "CHI @ TB",
+    "start_utc": "2026-11-06T00:00:00+00:00",
+    "start_az": "5:00 PM",
+    "athlete_id": "4065019",
+    "player": "Brandon Hagel",
+    "team": "TB",
+    "stat": "points",
+    "label": "1+ points",
+    "spread": "TB -470",
+    "total": 6.5,
+    "line": 0.5,
+    "avg": 1.1,
+    "l5": [
+     0.0,
+     0.0,
+     3.0,
+     0.0,
+     1.0
+    ],
+    "hit_season": 0.643,
+    "hit_l5": 0.4,
+    "games": 14,
+    "score": 62.3,
+    "notes": [
+     "usage L5 100% of season"
+    ],
+    "kalshi": {
+     "ticker": "KXNHLPTS-26NOV05CHITB-TBBHAGEL38-1",
+     "event": "KXNHLPTS-26NOV05CHITB",
+     "n": 1,
+     "implied_pct": 66
+    },
+    "kalshi_at": "2026-11-05T16:45:01-07:00",
+    "first_seen": "2026-11-05T07:00:01-07:00"
+   },
+   {
+    "id": "2026-11-05:nhl:4565222:assists",
+    "sport": "nhl",
+    "event_id": "401892651",
+    "game": "STL @ NJ",
+    "start_utc": "2026-11-06T00:00:00+00:00",
+    "start_az": "5:00 PM",
+    "athlete_id": "4565222",
+    "player": "Jack Hughes",
+    "team": "NJ",
+    "stat": "assists",
+    "label": "1+ assists",
+    "spread": "NJ -238",
+    "total": 5.5,
+    "line": 0.5,
+    "avg": 0.7,
+    "l5": [
+     1.0,
+     0.0,
+     0.0,
+     1.0,
+     1.0
+    ],
+    "hit_season": 0.6,
+    "hit_l5": 0.6,
+    "games": 15,
+    "score": 62.3,
+    "notes": [
+     "usage L5 100% of season"
+    ],
+    "kalshi": {
+     "ticker": "KXNHLAST-26NOV05STLNJ-NJJHUGHES86-1",
+     "event": "KXNHLAST-26NOV05STLNJ",
+     "n": 1,
+     "implied_pct": 52
+    },
+    "kalshi_at": "2026-11-05T16:45:01-07:00",
+    "first_seen": "2026-11-05T07:00:01-07:00"
+   },
+   {
+    "id": "2026-11-05:nhl:5103645:assists",
+    "sport": "nhl",
+    "event_id": "401892652",
+    "game": "CAR @ NYI",
+    "start_utc": "2026-11-06T00:00:00+00:00",
+    "start_az": "5:00 PM",
+    "athlete_id": "5103645",
+    "player": "Jackson Blake",
+    "team": "CAR",
+    "stat": "assists",
+    "label": "1+ assists",
+    "spread": "CAR -198",
+    "total": 6.5,
+    "line": 0.5,
+    "avg": 0.8,
+    "l5": [
+     0.0,
+     1.0,
+     1.0,
+     0.0,
+     1.0
+    ],
+    "hit_season": 0.588,
+    "hit_l5": 0.6,
+    "games": 17,
+    "score": 61.3,
+    "notes": [
+     "usage L5 95% of season"
+    ],
+    "kalshi": {
+     "ticker": "KXNHLAST-26NOV05CARNYI-CARJBLAKE53-1",
+     "event": "KXNHLAST-26NOV05CARNYI",
+     "n": 1,
+     "implied_pct": 40
+    },
+    "kalshi_at": "2026-11-05T16:45:01-07:00",
+    "first_seen": "2026-11-05T07:00:01-07:00"
+   },
+   {
+    "id": "2026-11-05:nhl:5164:assists",
+    "sport": "nhl",
+    "event_id": "401892654",
+    "game": "BOS @ PIT",
+    "start_utc": "2026-11-06T00:00:00+00:00",
+    "start_az": "5:00 PM",
+    "athlete_id": "5164",
+    "player": "Erik Karlsson",
+    "team": "PIT",
+    "stat": "assists",
+    "label": "1+ assists",
+    "spread": "BOS -108",
+    "total": 6.5,
+    "line": 0.5,
+    "avg": 0.9,
+    "l5": [
+     0.0,
+     2.0,
+     0.0,
+     1.0,
+     0.0
+    ],
+    "hit_season": 0.667,
+    "hit_l5": 0.4,
+    "games": 15,
+    "score": 60.7,
+    "notes": [
+     "usage L5 103% of season"
+    ],
+    "kalshi": {
+     "ticker": "KXNHLAST-26NOV05BOSPIT-PITEKARLSSON65-1",
+     "event": "KXNHLAST-26NOV05BOSPIT",
+     "n": 1,
+     "implied_pct": 50
+    },
+    "kalshi_at": "2026-11-05T16:45:01-07:00",
+    "first_seen": "2026-11-05T07:00:01-07:00"
+   },
+   {
+    "id": "2026-11-05:nhl:2562632:points",
+    "sport": "nhl",
+    "event_id": "401892656",
+    "game": "VAN @ WPG",
+    "start_utc": "2026-11-06T01:00:00+00:00",
+    "start_az": "6:00 PM",
+    "athlete_id": "2562632",
+    "player": "Mark Scheifele",
+    "team": "WPG",
+    "stat": "points",
+    "label": "1+ points",
+    "spread": "WPG -218",
+    "total": 6.5,
+    "line": 0.5,
+    "avg": 0.9,
+    "l5": [
+     2.0,
+     0.0,
+     1.0,
+     3.0,
+     0.0
+    ],
+    "hit_season": 0.5,
+    "hit_l5": 0.6,
+    "games": 16,
+    "score": 59.2,
+    "notes": [
+     "usage L5 103% of season"
+    ],
+    "kalshi": {
+     "ticker": "KXNHLPTS-26NOV05VANWPG-WPGMSCHEIFELE55-1",
+     "event": "KXNHLPTS-26NOV05VANWPG",
+     "n": 1,
+     "implied_pct": 72
+    },
+    "kalshi_at": "2026-11-05T16:45:01-07:00",
+    "first_seen": "2026-11-05T07:00:01-07:00"
+   },
+   {
+    "id": "2026-11-05:nhl:3124:points",
+    "sport": "nhl",
+    "event_id": "401892654",
+    "game": "BOS @ PIT",
+    "start_utc": "2026-11-06T00:00:00+00:00",
+    "start_az": "5:00 PM",
+    "athlete_id": "3124",
+    "player": "Evgeni Malkin",
+    "team": "PIT",
+    "stat": "points",
+    "label": "1+ points",
+    "spread": "BOS -108",
+    "total": 6.5,
+    "line": 0.5,
+    "avg": 0.8,
+    "l5": [
+     0.0,
+     2.0,
+     2.0,
+     0.0,
+     1.0
+    ],
+    "hit_season": 0.538,
+    "hit_l5": 0.6,
+    "games": 13,
+    "score": 59.2,
+    "notes": [
+     "usage L5 90% of season"
+    ],
+    "kalshi": {
+     "ticker": "KXNHLPTS-26NOV05BOSPIT-PITEMALKIN71-1",
+     "event": "KXNHLPTS-26NOV05BOSPIT",
+     "n": 1,
+     "implied_pct": 50
+    },
+    "kalshi_at": "2026-11-05T16:45:01-07:00",
+    "first_seen": "2026-11-05T07:00:01-07:00"
+   },
+   {
+    "id": "2026-11-05:nhl:4565230:assists",
+    "sport": "nhl",
+    "event_id": "401892653",
+    "game": "PHI @ NYR",
+    "start_utc": "2026-11-06T00:00:00+00:00",
+    "start_az": "5:00 PM",
+    "athlete_id": "4565230",
+    "player": "Trevor Zegras",
+    "team": "PHI",
+    "stat": "assists",
+    "label": "1+ assists",
+    "spread": "NYR -148",
+    "total": 5.5,
+    "line": 0.5,
+    "avg": 0.6,
+    "l5": [
+     1.0,
+     0.0,
+     1.0,
+     1.0,
+     2.0
+    ],
+    "hit_season": 0.412,
+    "hit_l5": 0.8,
+    "games": 17,
+    "score": 58.4,
+    "notes": [
+     "usage L5 105% of season"
+    ],
+    "kalshi": {
+     "ticker": "KXNHLAST-26NOV05PHINYR-PHITZEGRAS46-1",
+     "event": "KXNHLAST-26NOV05PHINYR",
+     "n": 1,
+     "implied_pct": 38
+    },
+    "kalshi_at": "2026-11-05T16:45:01-07:00",
+    "first_seen": "2026-11-05T07:00:01-07:00"
+   },
+   {
+    "id": "2026-11-05:nhl:5080230:assists",
+    "sport": "nhl",
+    "event_id": "401892648",
+    "game": "UTA @ MTL",
+    "start_utc": "2026-11-06T00:00:00+00:00",
+    "start_az": "5:00 PM",
+    "athlete_id": "5080230",
+    "player": "Lane Hutson",
+    "team": "MTL",
+    "stat": "assists",
+    "label": "1+ assists",
+    "spread": "UTAH -122",
+    "total": 6.5,
+    "line": 0.5,
+    "avg": 0.7,
+    "l5": [
+     1.0,
+     2.0,
+     1.0,
+     0.0,
+     0.0
+    ],
+    "hit_season": 0.533,
+    "hit_l5": 0.6,
+    "games": 15,
+    "score": 58.0,
+    "notes": [
+     "usage L5 91% of season"
+    ],
+    "kalshi": {
+     "ticker": "KXNHLAST-26NOV05UTAMTL-MTLLHUTSON48-1",
+     "event": "KXNHLAST-26NOV05UTAMTL",
+     "n": 1,
+     "implied_pct": 54
+    },
+    "kalshi_at": "2026-11-05T16:45:01-07:00",
+    "first_seen": "2026-11-05T07:00:01-07:00"
+   },
+   {
+    "id": "2026-11-05:nhl:4565236:points",
+    "sport": "nhl",
+    "event_id": "401892648",
+    "game": "UTA @ MTL",
+    "start_utc": "2026-11-06T00:00:00+00:00",
+    "start_az": "5:00 PM",
+    "athlete_id": "4565236",
+    "player": "Cole Caufield",
+    "team": "MTL",
+    "stat": "points",
+    "label": "1+ points",
+    "spread": "UTAH -122",
+    "total": 6.5,
+    "line": 0.5,
+    "avg": 0.9,
+    "l5": [
+     2.0,
+     0.0,
+     2.0,
+     0.0,
+     2.0
+    ],
+    "hit_season": 0.467,
+    "hit_l5": 0.6,
+    "games": 15,
+    "score": 57.3,
+    "notes": [
+     "usage L5 93% of season"
+    ],
+    "kalshi": {
+     "ticker": "KXNHLPTS-26NOV05UTAMTL-MTLCCAUFIELD13-1",
+     "event": "KXNHLPTS-26NOV05UTAMTL",
+     "n": 1,
+     "implied_pct": 58
+    },
+    "kalshi_at": "2026-11-05T16:45:01-07:00",
+    "first_seen": "2026-11-05T07:00:01-07:00"
+   },
+   {
+    "id": "2026-11-05:nhl:5080159:points",
+    "sport": "nhl",
+    "event_id": "401892656",
+    "game": "VAN @ WPG",
+    "start_utc": "2026-11-06T01:00:00+00:00",
+    "start_az": "6:00 PM",
+    "athlete_id": "5080159",
+    "player": "Jonathan Lekkerimaki",
+    "team": "VAN",
+    "stat": "points",
+    "label": "1+ points",
+    "spread": "WPG -218",
+    "total": 6.5,
+    "line": 0.5,
+    "avg": 0.8,
+    "l5": [
+     0.0,
+     1.0,
+     0.0,
+     3.0,
+     0.0
+    ],
+    "hit_season": 0.588,
+    "hit_l5": 0.4,
+    "games": 17,
+    "score": 56.1,
+    "notes": [
+     "usage L5 111% of season"
+    ],
+    "kalshi": {
+     "ticker": "KXNHLPTS-26NOV05VANWPG-VANJLEKKERIMKI88-1",
+     "event": "KXNHLPTS-26NOV05VANWPG",
+     "n": 1,
+     "implied_pct": 40
+    },
+    "kalshi_at": "2026-11-05T16:45:01-07:00",
+    "first_seen": "2026-11-05T07:00:01-07:00"
+   },
+   {
+    "id": "2026-11-05:nhl:4781553:assists",
+    "sport": "nhl",
+    "event_id": "401892655",
+    "game": "DAL @ CBJ",
+    "start_utc": "2026-11-06T00:00:00+00:00",
+    "start_az": "5:00 PM",
+    "athlete_id": "4781553",
+    "player": "Kent Johnson",
+    "team": "CBJ",
+    "stat": "assists",
+    "label": "1+ assists",
+    "spread": "DAL -130",
+    "total": 5.5,
+    "line": 0.5,
+    "avg": 0.5,
+    "l5": [
+     1.0,
+     1.0,
+     0.0,
+     1.0,
+     2.0
+    ],
+    "hit_season": 0.385,
+    "hit_l5": 0.8,
+    "games": 13,
+    "score": 55.9,
+    "notes": [
+     "usage L5 103% of season"
+    ],
+    "kalshi": {
+     "ticker": "KXNHLAST-26NOV05DALCBJ-CBJKJOHNSON91-1",
+     "event": "KXNHLAST-26NOV05DALCBJ",
+     "n": 1,
+     "implied_pct": 32
+    },
+    "kalshi_at": "2026-11-05T16:45:01-07:00",
+    "first_seen": "2026-11-05T07:00:01-07:00"
+   },
+   {
+    "id": "2026-11-05:nhl:2562632:assists",
+    "sport": "nhl",
+    "event_id": "401892656",
+    "game": "VAN @ WPG",
+    "start_utc": "2026-11-06T01:00:00+00:00",
+    "start_az": "6:00 PM",
+    "athlete_id": "2562632",
+    "player": "Mark Scheifele",
+    "team": "WPG",
+    "stat": "assists",
+    "label": "1+ assists",
+    "spread": "WPG -218",
+    "total": 6.5,
+    "line": 0.5,
+    "avg": 0.8,
+    "l5": [
+     2.0,
+     0.0,
+     1.0,
+     3.0,
+     0.0
+    ],
+    "hit_season": 0.438,
+    "hit_l5": 0.6,
+    "games": 16,
+    "score": 55.2,
+    "notes": [
+     "usage L5 103% of season"
+    ],
+    "kalshi": {
+     "ticker": "KXNHLAST-26NOV05VANWPG-WPGMSCHEIFELE55-1",
+     "event": "KXNHLAST-26NOV05VANWPG",
+     "n": 1,
+     "implied_pct": 58
+    },
+    "kalshi_at": "2026-11-05T16:45:01-07:00",
+    "first_seen": "2026-11-05T07:00:01-07:00"
+   },
+   {
+    "id": "2026-11-05:nhl:5149170:goals",
+    "sport": "nhl",
+    "event_id": "401892653",
+    "game": "PHI @ NYR",
+    "start_utc": "2026-11-06T00:00:00+00:00",
+    "start_az": "5:00 PM",
+    "athlete_id": "5149170",
+    "player": "Matvei Michkov",
+    "team": "PHI",
+    "stat": "goals",
+    "label": "1+ goals",
+    "spread": "NYR -148",
+    "total": 5.5,
+    "line": 0.5,
+    "avg": 0.6,
+    "l5": [
+     0.0,
+     1.0,
+     1.0,
+     0.0,
+     2.0
+    ],
+    "hit_season": 0.471,
+    "hit_l5": 0.6,
+    "games": 17,
+    "score": 55.1,
+    "notes": [
+     "usage L5 112% of season"
+    ],
+    "kalshi": {
+     "ticker": "KXNHLGOAL-26NOV05PHINYR-PHIMMICHKOV39-1",
+     "event": "KXNHLGOAL-26NOV05PHINYR",
+     "n": 1,
+     "implied_pct": 26
+    },
+    "kalshi_at": "2026-11-05T16:45:01-07:00",
+    "first_seen": "2026-11-05T07:00:01-07:00"
+   },
+   {
+    "id": "2026-11-05:nhl:5291933:assists",
+    "sport": "nhl",
+    "event_id": "401892652",
+    "game": "CAR @ NYI",
+    "start_utc": "2026-11-06T00:00:00+00:00",
+    "start_az": "5:00 PM",
+    "athlete_id": "5291933",
+    "player": "Matthew Schaefer",
+    "team": "NYI",
+    "stat": "assists",
+    "label": "1+ assists",
+    "spread": "CAR -198",
+    "total": 6.5,
+    "line": 0.5,
+    "avg": 0.7,
+    "l5": [
+     0.0,
+     1.0,
+     1.0,
+     0.0,
+     0.0
+    ],
+    "hit_season": 0.571,
+    "hit_l5": 0.4,
+    "games": 14,
+    "score": 54.9,
+    "notes": [
+     "usage L5 106% of season"
+    ],
+    "kalshi": {
+     "ticker": "KXNHLAST-26NOV05CARNYI-NYIMSCHAEFER48-1",
+     "event": "KXNHLAST-26NOV05CARNYI",
+     "n": 1,
+     "implied_pct": 42
+    },
+    "kalshi_at": "2026-11-05T16:45:01-07:00",
+    "first_seen": "2026-11-05T07:00:01-07:00"
+   },
+   {
+    "id": "2026-11-05:nhl:3114778:assists",
+    "sport": "nhl",
+    "event_id": "401892654",
+    "game": "BOS @ PIT",
+    "start_utc": "2026-11-06T00:00:00+00:00",
+    "start_az": "5:00 PM",
+    "athlete_id": "3114778",
+    "player": "David Pastrnak",
+    "team": "BOS",
+    "stat": "assists",
+    "label": "1+ assists",
+    "spread": "BOS -108",
+    "total": 6.5,
+    "line": 0.5,
+    "avg": 0.8,
+    "l5": [
+     1.0,
+     0.0,
+     0.0,
+     1.0,
+     0.0
+    ],
+    "hit_season": 0.562,
+    "hit_l5": 0.4,
+    "games": 16,
+    "score": 54.8,
+    "notes": [
+     "usage L5 109% of season"
+    ],
+    "kalshi": {
+     "ticker": "KXNHLAST-26NOV05BOSPIT-BOSDPASTRNAK88-1",
+     "event": "KXNHLAST-26NOV05BOSPIT",
+     "n": 1,
+     "implied_pct": 55
+    },
+    "kalshi_at": "2026-11-05T16:45:01-07:00",
+    "first_seen": "2026-11-05T07:00:01-07:00"
+   },
+   {
+    "id": "2026-11-05:nhl:4697397:points",
+    "sport": "nhl",
+    "event_id": "401892651",
+    "game": "STL @ NJ",
+    "start_utc": "2026-11-06T00:00:00+00:00",
+    "start_az": "5:00 PM",
+    "athlete_id": "4697397",
+    "player": "Dylan Holloway",
+    "team": "STL",
+    "stat": "points",
+    "label": "1+ points",
+    "spread": "NJ -238",
+    "total": 5.5,
+    "line": 0.5,
+    "avg": 0.8,
+    "l5": [
+     0.0,
+     1.0,
+     1.0,
+     0.0,
+     0.0
+    ],
+    "hit_season": 0.533,
+    "hit_l5": 0.4,
+    "games": 15,
+    "score": 53.5,
+    "notes": [
+     "usage L5 97% of season"
+    ],
+    "kalshi": {
+     "ticker": "KXNHLPTS-26NOV05STLNJ-STLDHOLLOWAY81-1",
+     "event": "KXNHLPTS-26NOV05STLNJ",
+     "n": 1,
+     "implied_pct": 44
+    },
+    "kalshi_at": "2026-11-05T16:45:01-07:00",
+    "first_seen": "2026-11-05T07:00:01-07:00"
+   },
+   {
+    "id": "2026-11-05:nhl:4697385:assists",
+    "sport": "nhl",
+    "event_id": "401892649",
+    "game": "VGK @ DET",
+    "start_utc": "2026-11-06T00:00:00+00:00",
+    "start_az": "5:00 PM",
+    "athlete_id": "4697385",
+    "player": "Lucas Raymond",
+    "team": "DET",
+    "stat": "assists",
+    "label": "1+ assists",
+    "spread": "VGK -142",
+    "total": 6.5,
+    "line": 0.5,
+    "avg": 0.6,
+    "l5": [
+     0.0,
+     1.0,
+     1.0,
+     0.0,
+     2.0
+    ],
+    "hit_season": 0.438,
+    "hit_l5": 0.6,
+    "games": 16,
+    "score": 53.3,
+    "notes": [
+     "usage L5 96% of season"
+    ],
+    "kalshi": {
+     "ticker": "KXNHLAST-26NOV05VGKDET-DETLRAYMOND23-1",
+     "event": "KXNHLAST-26NOV05VGKDET",
+     "n": 1,
+     "implied_pct": 42
+    },
+    "kalshi_at": "2026-11-05T16:45:01-07:00",
+    "first_seen": "2026-11-05T07:00:01-07:00"
+   },
+   {
+    "id": "2026-11-05:nhl:3904173:assists",
+    "sport": "nhl",
+    "event_id": "401892652",
+    "game": "CAR @ NYI",
+    "start_utc": "2026-11-06T00:00:00+00:00",
+    "start_az": "5:00 PM",
+    "athlete_id": "3904173",
+    "player": "Sebastian Aho",
+    "team": "CAR",
+    "stat": "assists",
+    "label": "1+ assists",
+    "spread": "CAR -198",
+    "total": 6.5,
+    "line": 0.5,
+    "avg": 0.7,
+    "l5": [
+     0.0,
+     1.0,
+     0.0,
+     0.0,
+     2.0
+    ],
+    "hit_season": 0.529,
+    "hit_l5": 0.4,
+    "games": 17,
+    "score": 52.6,
+    "notes": [
+     "usage L5 98% of season"
+    ],
+    "kalshi": {
+     "ticker": "KXNHLAST-26NOV05CARNYI-CARSAHO20-1",
+     "event": "KXNHLAST-26NOV05CARNYI",
+     "n": 1,
+     "implied_pct": 44
+    },
+    "kalshi_at": "2026-11-05T16:45:01-07:00",
+    "first_seen": "2026-11-05T07:00:01-07:00"
+   },
+   {
+    "id": "2026-11-05:nhl:4233875:assists",
+    "sport": "nhl",
+    "event_id": "401892655",
+    "game": "DAL @ CBJ",
+    "start_utc": "2026-11-06T00:00:00+00:00",
+    "start_az": "5:00 PM",
+    "athlete_id": "4233875",
+    "player": "Jason Robertson",
+    "team": "DAL",
+    "stat": "assists",
+    "label": "1+ assists",
+    "spread": "DAL -130",
+    "total": 5.5,
+    "line": 0.5,
+    "avg": 0.7,
+    "l5": [
+     1.0,
+     1.0,
+     0.0,
+     0.0,
+     0.0
+    ],
+    "hit_season": 0.533,
+    "hit_l5": 0.4,
+    "games": 15,
+    "score": 51.9,
+    "notes": [
+     "usage L5 95% of season"
+    ],
+    "kalshi": {
+     "ticker": "KXNHLAST-26NOV05DALCBJ-DALJROBERTSON21-1",
+     "event": "KXNHLAST-26NOV05DALCBJ",
+     "n": 1,
+     "implied_pct": 43
+    },
+    "kalshi_at": "2026-11-05T16:45:01-07:00",
+    "first_seen": "2026-11-05T07:00:01-07:00"
+   },
+   {
+    "id": "2026-11-05:nhl:3042050:goals",
+    "sport": "nhl",
+    "event_id": "401892658",
+    "game": "NSH @ COL",
+    "start_utc": "2026-11-06T02:30:00+00:00",
+    "start_az": "7:30 PM",
+    "athlete_id": "3042050",
+    "player": "Artturi Lehkonen",
+    "team": "COL",
+    "stat": "goals",
+    "label": "1+ goals",
+    "spread": "COL -218",
+    "total": 6.5,
+    "line": 0.5,
+    "avg": 0.8,
+    "l5": [
+     0.0,
+     0.0,
+     2.0,
+     0.0,
+     1.0
+    ],
+    "hit_season": 0.5,
+    "hit_l5": 0.4,
+    "games": 16,
+    "score": 51.6,
+    "notes": [
+     "usage L5 97% of season"
+    ],
+    "kalshi": {
+     "ticker": "KXNHLGOAL-26NOV05NSHCOL-COLALEHKONEN62-1",
+     "event": "KXNHLGOAL-26NOV05NSHCOL",
+     "n": 1,
+     "implied_pct": 34
+    },
+    "kalshi_at": "2026-11-05T16:45:01-07:00",
+    "first_seen": "2026-11-05T15:30:01-07:00"
+   },
+   {
+    "id": "2026-11-05:nhl:4565222:goals",
+    "sport": "nhl",
+    "event_id": "401892651",
+    "game": "STL @ NJ",
+    "start_utc": "2026-11-06T00:00:00+00:00",
+    "start_az": "5:00 PM",
+    "athlete_id": "4565222",
+    "player": "Jack Hughes",
+    "team": "NJ",
+    "stat": "goals",
+    "label": "1+ goals",
+    "spread": "NJ -238",
+    "total": 5.5,
+    "line": 0.5,
+    "avg": 0.5,
+    "l5": [
+     2.0,
+     2.0,
+     0.0,
+     1.0,
+     0.0
+    ],
+    "hit_season": 0.4,
+    "hit_l5": 0.6,
+    "games": 15,
+    "score": 51.3,
+    "notes": [
+     "usage L5 100% of season"
+    ],
+    "kalshi": {
+     "ticker": "KXNHLGOAL-26NOV05STLNJ-NJJHUGHES86-1",
+     "event": "KXNHLGOAL-26NOV05STLNJ",
+     "n": 1,
+     "implied_pct": 42
+    },
+    "kalshi_at": "2026-11-05T16:45:01-07:00",
+    "first_seen": "2026-11-05T07:00:01-07:00"
+   },
+   {
+    "id": "2026-11-05:nhl:4874899:goals",
+    "sport": "nhl",
+    "event_id": "401892652",
+    "game": "CAR @ NYI",
+    "start_utc": "2026-11-06T00:00:00+00:00",
+    "start_az": "5:00 PM",
+    "athlete_id": "4874899",
+    "player": "Logan Stankoven",
+    "team": "CAR",
+    "stat": "goals",
+    "label": "1+ goals",
+    "spread": "CAR -198",
+    "total": 6.5,
+    "line": 0.5,
+    "avg": 0.6,
+    "l5": [
+     0.0,
+     1.0,
+     1.0,
+     0.0,
+     1.0
+    ],
+    "hit_season": 0.412,
+    "hit_l5": 0.6,
+    "games": 17,
+    "score": 51.2,
+    "notes": [
+     "usage L5 92% of season"
+    ],
+    "kalshi": {
+     "ticker": "KXNHLGOAL-26NOV05CARNYI-CARLSTANKOVEN22-1",
+     "event": "KXNHLGOAL-26NOV05CARNYI",
+     "n": 1,
+     "implied_pct": 29
+    },
+    "kalshi_at": "2026-11-05T16:45:01-07:00",
+    "first_seen": "2026-11-05T07:00:01-07:00"
+   },
+   {
+    "id": "2026-11-05:nhl:3899938:goals",
+    "sport": "nhl",
+    "event_id": "401892655",
+    "game": "DAL @ CBJ",
+    "start_utc": "2026-11-06T00:00:00+00:00",
+    "start_az": "5:00 PM",
+    "athlete_id": "3899938",
+    "player": "Mikko Rantanen",
+    "team": "DAL",
+    "stat": "goals",
+    "label": "1+ goals",
+    "spread": "DAL -130",
+    "total": 5.5,
+    "line": 0.5,
+    "avg": 0.5,
+    "l5": [
+     1.0,
+     1.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "hit_season": 0.4,
+    "hit_l5": 0.6,
+    "games": 15,
+    "score": 50.7,
+    "notes": [
+     "usage L5 95% of season"
+    ],
+    "kalshi": {
+     "ticker": "KXNHLGOAL-26NOV05DALCBJ-DALMRANTANEN96-1",
+     "event": "KXNHLGOAL-26NOV05DALCBJ",
+     "n": 1,
+     "implied_pct": 30
+    },
+    "kalshi_at": "2026-11-05T16:45:01-07:00",
+    "first_seen": "2026-11-05T07:00:01-07:00"
+   },
+   {
+    "id": "2026-11-05:nhl:5080171:points",
+    "sport": "nhl",
+    "event_id": "401892651",
+    "game": "STL @ NJ",
+    "start_utc": "2026-11-06T00:00:00+00:00",
+    "start_az": "5:00 PM",
+    "athlete_id": "5080171",
+    "player": "Jimmy Snuggerud",
+    "team": "STL",
+    "stat": "points",
+    "label": "1+ points",
+    "spread": "NJ -238",
+    "total": 5.5,
+    "line": 0.5,
+    "avg": 0.7,
+    "l5": [
+     0.0,
+     2.0,
+     1.0,
+     0.0,
+     0.0
+    ],
+    "hit_season": 0.467,
+    "hit_l5": 0.4,
+    "games": 15,
+    "score": 50.2,
+    "notes": [
+     "usage L5 99% of season"
+    ],
+    "kalshi": {
+     "ticker": "KXNHLPTS-26NOV05STLNJ-STLJSNUGGERUD21-1",
+     "event": "KXNHLPTS-26NOV05STLNJ",
+     "n": 1,
+     "implied_pct": 48
+    },
+    "kalshi_at": "2026-11-05T16:45:01-07:00",
+    "first_seen": "2026-11-05T07:00:01-07:00"
+   },
+   {
+    "id": "2026-11-05:nhl:4063433:assists",
+    "sport": "nhl",
+    "event_id": "401892649",
+    "game": "VGK @ DET",
+    "start_utc": "2026-11-06T00:00:00+00:00",
+    "start_az": "5:00 PM",
+    "athlete_id": "4063433",
+    "player": "Alex DeBrincat",
+    "team": "DET",
+    "stat": "assists",
+    "label": "1+ assists",
+    "spread": "VGK -142",
+    "total": 6.5,
+    "line": 0.5,
+    "avg": 0.6,
+    "l5": [
+     0.0,
+     0.0,
+     0.0,
+     2.0,
+     1.0
+    ],
+    "hit_season": 0.5,
+    "hit_l5": 0.4,
+    "games": 16,
+    "score": 49.8,
+    "notes": [
+     "usage L5 98% of season"
+    ],
+    "kalshi": {
+     "ticker": "KXNHLAST-26NOV05VGKDET-DETADEBRINCAT93-1",
+     "event": "KXNHLAST-26NOV05VGKDET",
+     "n": 1,
+     "implied_pct": 40
+    },
+    "kalshi_at": "2026-11-05T16:45:01-07:00",
+    "first_seen": "2026-11-05T07:00:01-07:00"
+   },
+   {
+    "id": "2026-11-05:nhl:3114727:goals",
+    "sport": "nhl",
+    "event_id": "401892657",
+    "game": "ANA @ EDM",
+    "start_utc": "2026-11-06T01:00:00+00:00",
+    "start_az": "6:00 PM",
+    "athlete_id": "3114727",
+    "player": "Leon Draisaitl",
+    "team": "EDM",
+    "stat": "goals",
+    "label": "1+ goals",
+    "spread": "EDM -192",
+    "total": 6.5,
+    "line": 0.5,
+    "avg": 0.8,
+    "l5": [
+     1.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0
+    ],
+    "hit_season": 0.562,
+    "hit_l5": 0.2,
+    "games": 16,
+    "score": 49.3,
+    "notes": [
+     "usage L5 99% of season"
+    ],
+    "kalshi": {
+     "ticker": "KXNHLGOAL-26NOV05ANAEDM-EDMLDRAISAITL29-1",
+     "event": "KXNHLGOAL-26NOV05ANAEDM",
+     "n": 1,
+     "implied_pct": 50
+    },
+    "kalshi_at": "2026-11-05T16:45:01-07:00",
+    "first_seen": "2026-11-05T07:00:01-07:00"
+   },
+   {
+    "id": "2026-11-05:nhl:3120307:assists",
+    "sport": "nhl",
+    "event_id": "401892649",
+    "game": "VGK @ DET",
+    "start_utc": "2026-11-06T00:00:00+00:00",
+    "start_az": "5:00 PM",
+    "athlete_id": "3120307",
+    "player": "Viktor Arvidsson",
+    "team": "DET",
+    "stat": "assists",
+    "label": "1+ assists",
+    "spread": "VGK -142",
+    "total": 6.5,
+    "line": 0.5,
+    "avg": 0.4,
+    "l5": [
+     0.0,
+     1.0,
+     0.0,
+     1.0,
+     1.0
+    ],
+    "hit_season": 0.375,
+    "hit_l5": 0.6,
+    "games": 16,
+    "score": 49.2,
+    "notes": [
+     "usage L5 100% of season"
+    ],
+    "kalshi": {
+     "ticker": "KXNHLAST-26NOV05VGKDET-DETVARVIDSSON33-1",
+     "event": "KXNHLAST-26NOV05VGKDET",
+     "n": 1,
+     "implied_pct": 35
+    },
+    "kalshi_at": "2026-11-05T16:45:01-07:00",
+    "first_seen": "2026-11-05T07:00:01-07:00"
+   },
+   {
+    "id": "2026-11-05:nhl:5545:goals",
+    "sport": "nhl",
+    "event_id": "401892649",
+    "game": "VGK @ DET",
+    "start_utc": "2026-11-06T00:00:00+00:00",
+    "start_az": "5:00 PM",
+    "athlete_id": "5545",
+    "player": "Mark Stone",
+    "team": "VGK",
+    "stat": "goals",
+    "label": "1+ goals",
+    "spread": "VGK -142",
+    "total": 6.5,
+    "line": 0.5,
+    "avg": 0.6,
+    "l5": [
+     0.0,
+     1.0,
+     1.0,
+     0.0,
+     0.0
+    ],
+    "hit_season": 0.471,
+    "hit_l5": 0.4,
+    "games": 17,
+    "score": 49.1,
+    "notes": [
+     "usage L5 107% of season"
+    ],
+    "kalshi": {
+     "ticker": "KXNHLGOAL-26NOV05VGKDET-VGKMSTONE61-1",
+     "event": "KXNHLGOAL-26NOV05VGKDET",
+     "n": 1,
+     "implied_pct": 32
+    },
+    "kalshi_at": "2026-11-05T16:45:01-07:00",
+    "first_seen": "2026-11-05T07:00:01-07:00"
+   },
+   {
+    "id": "2026-11-05:nhl:4697397:assists",
+    "sport": "nhl",
+    "event_id": "401892651",
+    "game": "STL @ NJ",
+    "start_utc": "2026-11-06T00:00:00+00:00",
+    "start_az": "5:00 PM",
+    "athlete_id": "4697397",
+    "player": "Dylan Holloway",
+    "team": "STL",
+    "stat": "assists",
+    "label": "1+ assists",
+    "spread": "NJ -238",
+    "total": 5.5,
+    "line": 0.5,
+    "avg": 0.6,
+    "l5": [
+     0.0,
+     1.0,
+     1.0,
+     0.0,
+     0.0
+    ],
+    "hit_season": 0.467,
+    "hit_l5": 0.4,
+    "games": 15,
+    "score": 48.5,
+    "notes": [
+     "usage L5 97% of season"
+    ],
+    "kalshi": {
+     "ticker": "KXNHLAST-26NOV05STLNJ-STLDHOLLOWAY81-1",
+     "event": "KXNHLAST-26NOV05STLNJ",
+     "n": 1,
+     "implied_pct": 28
+    },
+    "kalshi_at": "2026-11-05T16:45:01-07:00",
+    "first_seen": "2026-11-05T07:00:01-07:00"
+   },
+   {
+    "id": "2026-11-05:nhl:5080171:goals",
+    "sport": "nhl",
+    "event_id": "401892651",
+    "game": "STL @ NJ",
+    "start_utc": "2026-11-06T00:00:00+00:00",
+    "start_az": "5:00 PM",
+    "athlete_id": "5080171",
+    "player": "Jimmy Snuggerud",
+    "team": "STL",
+    "stat": "goals",
+    "label": "1+ goals",
+    "spread": "NJ -238",
+    "total": 5.5,
+    "line": 0.5,
+    "avg": 0.5,
+    "l5": [
+     0.0,
+     1.0,
+     1.0,
+     0.0,
+     0.0
+    ],
+    "hit_season": 0.467,
+    "hit_l5": 0.4,
+    "games": 15,
+    "score": 48.2,
+    "notes": [
+     "usage L5 99% of season"
+    ],
+    "kalshi": {
+     "ticker": "KXNHLGOAL-26NOV05STLNJ-STLJSNUGGERUD21-1",
+     "event": "KXNHLGOAL-26NOV05STLNJ",
+     "n": 1,
+     "implied_pct": 24
+    },
+    "kalshi_at": "2026-11-05T16:45:01-07:00",
+    "first_seen": "2026-11-05T07:00:01-07:00"
+   },
+   {
+    "id": "2026-11-05:nhl:4781553:goals",
+    "sport": "nhl",
+    "event_id": "401892655",
+    "game": "DAL @ CBJ",
+    "start_utc": "2026-11-06T00:00:00+00:00",
+    "start_az": "5:00 PM",
+    "athlete_id": "4781553",
+    "player": "Kent Johnson",
+    "team": "CBJ",
+    "stat": "goals",
+    "label": "1+ goals",
+    "spread": "DAL -130",
+    "total": 5.5,
+    "line": 0.5,
+    "avg": 0.5,
+    "l5": [
+     0.0,
+     0.0,
+     1.0,
+     2.0,
+     0.0
+    ],
+    "hit_season": 0.462,
+    "hit_l5": 0.4,
+    "games": 13,
+    "score": 48.2,
+    "notes": [
+     "usage L5 103% of season"
+    ],
+    "kalshi": {
+     "ticker": "KXNHLGOAL-26NOV05DALCBJ-CBJKJOHNSON91-1",
+     "event": "KXNHLGOAL-26NOV05DALCBJ",
+     "n": 1,
+     "implied_pct": 24
+    },
+    "kalshi_at": "2026-11-05T16:45:01-07:00",
+    "first_seen": "2026-11-05T07:00:01-07:00"
+   },
+   {
+    "id": "2026-11-05:nhl:3904173:goals",
+    "sport": "nhl",
+    "event_id": "401892652",
+    "game": "CAR @ NYI",
+    "start_utc": "2026-11-06T00:00:00+00:00",
+    "start_az": "5:00 PM",
+    "athlete_id": "3904173",
+    "player": "Sebastian Aho",
+    "team": "CAR",
+    "stat": "goals",
+    "label": "1+ goals",
+    "spread": "CAR -198",
+    "total": 6.5,
+    "line": 0.5,
+    "avg": 0.5,
+    "l5": [
+     0.0,
+     1.0,
+     0.0,
+     1.0,
+     0.0
+    ],
+    "hit_season": 0.471,
+    "hit_l5": 0.4,
+    "games": 17,
+    "score": 48.1,
+    "notes": [
+     "usage L5 98% of season"
+    ],
+    "kalshi": {
+     "ticker": "KXNHLGOAL-26NOV05CARNYI-CARSAHO20-1",
+     "event": "KXNHLGOAL-26NOV05CARNYI",
+     "n": 1,
+     "implied_pct": 34
+    },
+    "kalshi_at": "2026-11-05T16:45:01-07:00",
+    "first_seen": "2026-11-05T07:00:01-07:00"
+   },
+   {
+    "id": "2026-11-05:nhl:5080145:goals",
+    "sport": "nhl",
+    "event_id": "401892657",
+    "game": "ANA @ EDM",
+    "start_utc": "2026-11-06T01:00:00+00:00",
+    "start_az": "6:00 PM",
+    "athlete_id": "5080145",
+    "player": "Cutter Gauthier",
+    "team": "ANA",
+    "stat": "goals",
+    "label": "1+ goals",
+    "spread": "EDM -192",
+    "total": 6.5,
+    "line": 0.5,
+    "avg": 0.7,
+    "l5": [
+     3.0,
+     3.0,
+     2.0,
+     0.0,
+     0.0
+    ],
+    "hit_season": 0.286,
+    "hit_l5": 0.6,
+    "games": 14,
+    "score": 48.0,
+    "notes": [
+     "usage L5 105% of season"
+    ],
+    "kalshi": {
+     "ticker": "KXNHLGOAL-26NOV05ANAEDM-ANACGAUTHIER61-1",
+     "event": "KXNHLGOAL-26NOV05ANAEDM",
+     "n": 1,
+     "implied_pct": 38
+    },
+    "kalshi_at": "2026-11-05T16:45:01-07:00",
+    "first_seen": "2026-11-05T07:00:01-07:00"
+   },
+   {
+    "id": "2026-11-05:nhl:5080143:goals",
+    "sport": "nhl",
+    "event_id": "401892648",
+    "game": "UTA @ MTL",
+    "start_utc": "2026-11-06T00:00:00+00:00",
+    "start_az": "5:00 PM",
+    "athlete_id": "5080143",
+    "player": "Logan Cooley",
+    "team": "UTA",
+    "stat": "goals",
+    "label": "1+ goals",
+    "spread": "UTAH -122",
+    "total": 6.5,
+    "line": 0.5,
+    "avg": 0.5,
+    "l5": [
+     0.0,
+     1.0,
+     3.0,
+     1.0,
+     0.0
+    ],
+    "hit_season": 0.312,
+    "hit_l5": 0.6,
+    "games": 16,
+    "score": 47.1,
+    "notes": [
+     "usage L5 104% of season"
+    ],
+    "kalshi": {
+     "ticker": "KXNHLGOAL-26NOV05UTAMTL-UTALCOOLEY92-1",
+     "event": "KXNHLGOAL-26NOV05UTAMTL",
+     "n": 1,
+     "implied_pct": 30
+    },
+    "kalshi_at": "2026-11-05T16:45:01-07:00",
+    "first_seen": "2026-11-05T07:00:01-07:00"
+   },
+   {
+    "id": "2026-11-05:nhl:4065019:assists",
+    "sport": "nhl",
+    "event_id": "401892650",
+    "game": "CHI @ TB",
+    "start_utc": "2026-11-06T00:00:00+00:00",
+    "start_az": "5:00 PM",
+    "athlete_id": "4065019",
+    "player": "Brandon Hagel",
+    "team": "TB",
+    "stat": "assists",
+    "label": "1+ assists",
+    "spread": "TB -470",
+    "total": 6.5,
+    "line": 0.5,
+    "avg": 0.6,
+    "l5": [
+     0.0,
+     0.0,
+     2.0,
+     0.0,
+     1.0
+    ],
+    "hit_season": 0.429,
+    "hit_l5": 0.4,
+    "games": 14,
+    "score": 47.0,
+    "notes": [
+     "usage L5 100% of season"
+    ],
+    "kalshi": {
+     "ticker": "KXNHLAST-26NOV05CHITB-TBBHAGEL38-1",
+     "event": "KXNHLAST-26NOV05CHITB",
+     "n": 1,
+     "implied_pct": 46
+    },
+    "kalshi_at": "2026-11-05T16:45:01-07:00",
+    "first_seen": "2026-11-05T07:00:01-07:00"
+   },
+   {
+    "id": "2026-11-05:nhl:3041969:goals",
+    "sport": "nhl",
+    "event_id": "401892658",
+    "game": "NSH @ COL",
+    "start_utc": "2026-11-06T02:30:00+00:00",
+    "start_az": "7:30 PM",
+    "athlete_id": "3041969",
+    "player": "Nathan MacKinnon",
+    "team": "COL",
+    "stat": "goals",
+    "label": "1+ goals",
+    "spread": "COL -218",
+    "total": 6.5,
+    "line": 0.5,
+    "avg": 0.6,
+    "l5": [
+     0.0,
+     0.0,
+     1.0,
+     1.0,
+     0.0
+    ],
+    "hit_season": 0.438,
+    "hit_l5": 0.4,
+    "games": 16,
+    "score": 46.5,
+    "notes": [
+     "usage L5 94% of season"
+    ],
+    "kalshi": {
+     "ticker": "KXNHLGOAL-26NOV05NSHCOL-COLNMACKINNON29-1",
+     "event": "KXNHLGOAL-26NOV05NSHCOL",
+     "n": 1,
+     "implied_pct": 44
+    },
+    "kalshi_at": "2026-11-05T16:45:01-07:00",
+    "first_seen": "2026-11-05T15:30:01-07:00"
+   },
+   {
+    "id": "2026-11-05:nhl:3042002:goals",
+    "sport": "nhl",
+    "event_id": "401892652",
+    "game": "CAR @ NYI",
+    "start_utc": "2026-11-06T00:00:00+00:00",
+    "start_az": "5:00 PM",
+    "athlete_id": "3042002",
+    "player": "Bo Horvat",
+    "team": "NYI",
+    "stat": "goals",
+    "label": "1+ goals",
+    "spread": "CAR -198",
+    "total": 6.5,
+    "line": 0.5,
+    "avg": 0.5,
+    "l5": [
+     0.0,
+     1.0,
+     1.0,
+     0.0,
+     0.0
+    ],
+    "hit_season": 0.429,
+    "hit_l5": 0.4,
+    "games": 14,
+    "score": 46.3,
+    "notes": [
+     "usage L5 103% of season"
+    ],
+    "kalshi": {
+     "ticker": "KXNHLGOAL-26NOV05CARNYI-NYIBHORVAT14-1",
+     "event": "KXNHLGOAL-26NOV05CARNYI",
+     "n": 1,
+     "implied_pct": 34
+    },
+    "kalshi_at": "2026-11-05T16:45:01-07:00",
+    "first_seen": "2026-11-05T07:00:01-07:00"
+   },
+   {
+    "id": "2026-11-05:nhl:5149153:goals",
+    "sport": "nhl",
+    "event_id": "401892657",
+    "game": "ANA @ EDM",
+    "start_utc": "2026-11-06T01:00:00+00:00",
+    "start_az": "6:00 PM",
+    "athlete_id": "5149153",
+    "player": "Leo Carlsson",
+    "team": "ANA",
+    "stat": "goals",
+    "label": "1+ goals",
+    "spread": "EDM -192",
+    "total": 6.5,
+    "line": 0.5,
+    "avg": 0.3,
+    "l5": [
+     1.0,
+     0.0,
+     0.0,
+     1.0,
+     1.0
+    ],
+    "hit_season": 0.333,
+    "hit_l5": 0.6,
+    "games": 15,
+    "score": 46.3,
+    "notes": [
+     "usage L5 101% of season"
+    ],
+    "kalshi": {
+     "ticker": "KXNHLGOAL-26NOV05ANAEDM-ANALCARLSSON91-1",
+     "event": "KXNHLGOAL-26NOV05ANAEDM",
+     "n": 1,
+     "implied_pct": 29
+    },
+    "kalshi_at": "2026-11-05T16:45:01-07:00",
+    "first_seen": "2026-11-05T07:00:01-07:00"
+   },
+   {
+    "id": "2026-11-05:nhl:3648002:assists",
+    "sport": "nhl",
+    "event_id": "401892649",
+    "game": "VGK @ DET",
+    "start_utc": "2026-11-06T00:00:00+00:00",
+    "start_az": "5:00 PM",
+    "athlete_id": "3648002",
+    "player": "Jack Eichel",
+    "team": "VGK",
+    "stat": "assists",
+    "label": "1+ assists",
+    "spread": "VGK -142",
+    "total": 6.5,
+    "line": 0.5,
+    "avg": 0.9,
+    "l5": [
+     2.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0
+    ],
+    "hit_season": 0.471,
+    "hit_l5": 0.2,
+    "games": 17,
+    "score": 46.0,
+    "notes": [
+     "usage L5 105% of season"
+    ],
+    "kalshi": {
+     "ticker": "KXNHLAST-26NOV05VGKDET-VGKJEICHEL9-1",
+     "event": "KXNHLAST-26NOV05VGKDET",
+     "n": 1,
+     "implied_pct": 53
+    },
+    "kalshi_at": "2026-11-05T16:45:01-07:00",
+    "first_seen": "2026-11-05T07:00:01-07:00"
+   },
+   {
+    "id": "2026-11-05:nhl:3124:goals",
+    "sport": "nhl",
+    "event_id": "401892654",
+    "game": "BOS @ PIT",
+    "start_utc": "2026-11-06T00:00:00+00:00",
+    "start_az": "5:00 PM",
+    "athlete_id": "3124",
+    "player": "Evgeni Malkin",
+    "team": "PIT",
+    "stat": "goals",
+    "label": "1+ goals",
+    "spread": "BOS -108",
+    "total": 6.5,
+    "line": 0.5,
+    "avg": 0.5,
+    "l5": [
+     0.0,
+     0.0,
+     1.0,
+     0.0,
+     1.0
+    ],
+    "hit_season": 0.462,
+    "hit_l5": 0.4,
+    "games": 13,
+    "score": 45.9,
+    "notes": [
+     "usage L5 90% of season"
+    ],
+    "kalshi": {
+     "ticker": "KXNHLGOAL-26NOV05BOSPIT-PITEMALKIN71-1",
+     "event": "KXNHLGOAL-26NOV05BOSPIT",
+     "n": 1,
+     "implied_pct": 26
+    },
+    "kalshi_at": "2026-11-05T16:45:01-07:00",
+    "first_seen": "2026-11-05T07:00:01-07:00"
+   },
+   {
+    "id": "2026-11-05:nhl:5545:assists",
+    "sport": "nhl",
+    "event_id": "401892649",
+    "game": "VGK @ DET",
+    "start_utc": "2026-11-06T00:00:00+00:00",
+    "start_az": "5:00 PM",
+    "athlete_id": "5545",
+    "player": "Mark Stone",
+    "team": "VGK",
+    "stat": "assists",
+    "label": "1+ assists",
+    "spread": "VGK -142",
+    "total": 6.5,
+    "line": 0.5,
+    "avg": 0.5,
+    "l5": [
+     1.0,
+     0.0,
+     0.0,
+     1.0,
+     0.0
+    ],
+    "hit_season": 0.412,
+    "hit_l5": 0.4,
+    "games": 17,
+    "score": 45.8,
+    "notes": [
+     "usage L5 107% of season"
+    ],
+    "kalshi": {
+     "ticker": "KXNHLAST-26NOV05VGKDET-VGKMSTONE61-1",
+     "event": "KXNHLAST-26NOV05VGKDET",
+     "n": 1,
+     "implied_pct": 44
+    },
+    "kalshi_at": "2026-11-05T16:45:01-07:00",
+    "first_seen": "2026-11-05T07:00:01-07:00"
+   },
+   {
+    "id": "2026-11-05:nhl:4565236:goals",
+    "sport": "nhl",
+    "event_id": "401892648",
+    "game": "UTA @ MTL",
+    "start_utc": "2026-11-06T00:00:00+00:00",
+    "start_az": "5:00 PM",
+    "athlete_id": "4565236",
+    "player": "Cole Caufield",
+    "team": "MTL",
+    "stat": "goals",
+    "label": "1+ goals",
+    "spread": "UTAH -122",
+    "total": 6.5,
+    "line": 0.5,
+    "avg": 0.7,
+    "l5": [
+     2.0,
+     0.0,
+     2.0,
+     0.0,
+     0.0
+    ],
+    "hit_season": 0.4,
+    "hit_l5": 0.4,
+    "games": 15,
+    "score": 45.6,
+    "notes": [
+     "usage L5 93% of season"
+    ],
+    "kalshi": {
+     "ticker": "KXNHLGOAL-26NOV05UTAMTL-MTLCCAUFIELD13-1",
+     "event": "KXNHLGOAL-26NOV05UTAMTL",
+     "n": 1,
+     "implied_pct": 40
+    },
+    "kalshi_at": "2026-11-05T16:45:01-07:00",
+    "first_seen": "2026-11-05T07:00:01-07:00"
+   },
+   {
+    "id": "2026-11-05:nhl:4697385:goals",
+    "sport": "nhl",
+    "event_id": "401892649",
+    "game": "VGK @ DET",
+    "start_utc": "2026-11-06T00:00:00+00:00",
+    "start_az": "5:00 PM",
+    "athlete_id": "4697385",
+    "player": "Lucas Raymond",
+    "team": "DET",
+    "stat": "goals",
+    "label": "1+ goals",
+    "spread": "VGK -142",
+    "total": 6.5,
+    "line": 0.5,
+    "avg": 0.4,
+    "l5": [
+     1.0,
+     0.0,
+     1.0,
+     1.0,
+     0.0
+    ],
+    "hit_season": 0.312,
+    "hit_l5": 0.6,
+    "games": 16,
+    "score": 45.2,
+    "notes": [
+     "usage L5 96% of season"
+    ],
+    "kalshi": {
+     "ticker": "KXNHLGOAL-26NOV05VGKDET-DETLRAYMOND23-1",
+     "event": "KXNHLGOAL-26NOV05VGKDET",
+     "n": 1,
+     "implied_pct": 26
+    },
+    "kalshi_at": "2026-11-05T16:45:01-07:00",
+    "first_seen": "2026-11-05T07:00:01-07:00"
+   },
+   {
+    "id": "2026-11-05:nhl:5037:goals",
+    "sport": "nhl",
+    "event_id": "401892658",
+    "game": "NSH @ COL",
+    "start_utc": "2026-11-06T02:30:00+00:00",
+    "start_az": "7:30 PM",
+    "athlete_id": "5037",
+    "player": "Steven Stamkos",
+    "team": "NSH",
+    "stat": "goals",
+    "label": "1+ goals",
+    "spread": "COL -218",
+    "total": 6.5,
+    "line": 0.5,
+    "avg": 0.5,
+    "l5": [
+     0.0,
+     1.0,
+     0.0,
+     0.0,
+     2.0
+    ],
+    "hit_season": 0.4,
+    "hit_l5": 0.4,
+    "games": 15,
+    "score": 45.1,
+    "notes": [
+     "usage L5 98% of season"
+    ],
+    "kalshi": {
+     "ticker": "KXNHLGOAL-26NOV05NSHCOL-NSHSSTAMKOS91-1",
+     "event": "KXNHLGOAL-26NOV05NSHCOL",
+     "n": 1,
+     "implied_pct": 32
+    },
+    "kalshi_at": "2026-11-05T16:45:01-07:00",
+    "first_seen": "2026-11-05T15:30:01-07:00"
+   },
+   {
+    "id": "2026-11-05:nhl:5037:assists",
+    "sport": "nhl",
+    "event_id": "401892658",
+    "game": "NSH @ COL",
+    "start_utc": "2026-11-06T02:30:00+00:00",
+    "start_az": "7:30 PM",
+    "athlete_id": "5037",
+    "player": "Steven Stamkos",
+    "team": "NSH",
+    "stat": "assists",
+    "label": "1+ assists",
+    "spread": "COL -218",
+    "total": 6.5,
+    "line": 0.5,
+    "avg": 0.5,
+    "l5": [
+     0.0,
+     0.0,
+     0.0,
+     1.0,
+     1.0
+    ],
+    "hit_season": 0.4,
+    "hit_l5": 0.4,
+    "games": 15,
+    "score": 45.1,
+    "notes": [
+     "usage L5 98% of season"
+    ],
+    "kalshi": {
+     "ticker": "KXNHLAST-26NOV05NSHCOL-NSHSSTAMKOS91-1",
+     "event": "KXNHLAST-26NOV05NSHCOL",
+     "n": 1,
+     "implied_pct": 32
+    },
+    "kalshi_at": "2026-11-05T16:45:01-07:00",
+    "first_seen": "2026-11-05T15:30:01-07:00"
+   },
+   {
+    "id": "2026-11-05:nhl:5080159:assists",
+    "sport": "nhl",
+    "event_id": "401892656",
+    "game": "VAN @ WPG",
+    "start_utc": "2026-11-06T01:00:00+00:00",
+    "start_az": "6:00 PM",
+    "athlete_id": "5080159",
+    "player": "Jonathan Lekkerimaki",
+    "team": "VAN",
+    "stat": "assists",
+    "label": "1+ assists",
+    "spread": "WPG -218",
+    "total": 6.5,
+    "line": 0.5,
+    "avg": 0.4,
+    "l5": [
+     0.0,
+     1.0,
+     0.0,
+     1.0,
+     0.0
+    ],
+    "hit_season": 0.412,
+    "hit_l5": 0.4,
+    "games": 17,
+    "score": 44.6,
+    "notes": [
+     "usage L5 111% of season"
+    ],
+    "kalshi": {
+     "ticker": "KXNHLAST-26NOV05VANWPG-VANJLEKKERIMKI88-1",
+     "event": "KXNHLAST-26NOV05VANWPG",
+     "n": 1,
+     "implied_pct": 26
+    },
+    "kalshi_at": "2026-11-05T16:45:01-07:00",
+    "first_seen": "2026-11-05T07:00:01-07:00"
+   },
+   {
+    "id": "2026-11-05:nhl:5080143:assists",
+    "sport": "nhl",
+    "event_id": "401892648",
+    "game": "UTA @ MTL",
+    "start_utc": "2026-11-06T00:00:00+00:00",
+    "start_az": "5:00 PM",
+    "athlete_id": "5080143",
+    "player": "Logan Cooley",
+    "team": "UTA",
+    "stat": "assists",
+    "label": "1+ assists",
+    "spread": "UTAH -122",
+    "total": 6.5,
+    "line": 0.5,
+    "avg": 0.6,
+    "l5": [
+     0.0,
+     1.0,
+     0.0,
+     0.0,
+     0.0
+    ],
+    "hit_season": 0.5,
+    "hit_l5": 0.2,
+    "games": 16,
+    "score": 44.1,
+    "notes": [
+     "usage L5 104% of season"
+    ],
+    "kalshi": {
+     "ticker": "KXNHLAST-26NOV05UTAMTL-UTALCOOLEY92-1",
+     "event": "KXNHLAST-26NOV05UTAMTL",
+     "n": 1,
+     "implied_pct": 38
+    },
+    "kalshi_at": "2026-11-05T16:45:01-07:00",
+    "first_seen": "2026-11-05T07:00:01-07:00"
+   },
+   {
+    "id": "2026-11-05:nhl:4697382:goals",
+    "sport": "nhl",
+    "event_id": "401892653",
+    "game": "PHI @ NYR",
+    "start_utc": "2026-11-06T00:00:00+00:00",
+    "start_az": "5:00 PM",
+    "athlete_id": "4697382",
+    "player": "Alexis Lafreniere",
+    "team": "NYR",
+    "stat": "goals",
+    "label": "1+ goals",
+    "spread": "NYR -148",
+    "total": 5.5,
+    "line": 0.5,
+    "avg": 0.6,
+    "l5": [
+     0.0,
+     0.0,
+     0.0,
+     1.0,
+     1.0
+    ],
+    "hit_season": 0.375,
+    "hit_l5": 0.4,
+    "games": 16,
+    "score": 44.0,
+    "notes": [
+     "usage L5 97% of season"
+    ],
+    "kalshi": {
+     "ticker": "KXNHLGOAL-26NOV05PHINYR-NYRALAFRENIERE13-1",
+     "event": "KXNHLGOAL-26NOV05PHINYR",
+     "n": 1,
+     "implied_pct": 30
+    },
+    "kalshi_at": "2026-11-05T16:45:01-07:00",
+    "first_seen": "2026-11-05T07:00:01-07:00"
+   },
+   {
+    "id": "2026-11-05:nhl:5149231:goals",
+    "sport": "nhl",
+    "event_id": "401892650",
+    "game": "CHI @ TB",
+    "start_utc": "2026-11-06T00:00:00+00:00",
+    "start_az": "5:00 PM",
+    "athlete_id": "5149231",
+    "player": "Roman Kantserov",
+    "team": "CHI",
+    "stat": "goals",
+    "label": "1+ goals",
+    "spread": "TB -470",
+    "total": 6.5,
+    "line": 0.5,
+    "avg": 0.4,
+    "l5": [
+     1.0,
+     1.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "hit_season": 0.375,
+    "hit_l5": 0.6,
+    "games": 16,
+    "score": 43.9,
+    "notes": [
+     "usage L5 97% of season",
+     "back to back"
+    ],
+    "kalshi": {
+     "ticker": "KXNHLGOAL-26NOV05CHITB-CHIRKANTSEROV80-1",
+     "event": "KXNHLGOAL-26NOV05CHITB",
+     "n": 1,
+     "implied_pct": 22
+    },
+    "kalshi_at": "2026-11-05T16:45:01-07:00",
+    "first_seen": "2026-11-05T07:00:01-07:00"
+   },
+   {
+    "id": "2026-11-05:nhl:3114778:goals",
+    "sport": "nhl",
+    "event_id": "401892654",
+    "game": "BOS @ PIT",
+    "start_utc": "2026-11-06T00:00:00+00:00",
+    "start_az": "5:00 PM",
+    "athlete_id": "3114778",
+    "player": "David Pastrnak",
+    "team": "BOS",
+    "stat": "goals",
+    "label": "1+ goals",
+    "spread": "BOS -108",
+    "total": 6.5,
+    "line": 0.5,
+    "avg": 0.5,
+    "l5": [
+     0.0,
+     1.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "hit_season": 0.375,
+    "hit_l5": 0.4,
+    "games": 16,
+    "score": 43.9,
+    "notes": [
+     "usage L5 109% of season"
+    ],
+    "kalshi": {
+     "ticker": "KXNHLGOAL-26NOV05BOSPIT-BOSDPASTRNAK88-1",
+     "event": "KXNHLGOAL-26NOV05BOSPIT",
+     "n": 1,
+     "implied_pct": 38
+    },
+    "kalshi_at": "2026-11-05T16:45:01-07:00",
+    "first_seen": "2026-11-05T07:00:01-07:00"
+   },
+   {
+    "id": "2026-11-05:nhl:3120307:goals",
+    "sport": "nhl",
+    "event_id": "401892649",
+    "game": "VGK @ DET",
+    "start_utc": "2026-11-06T00:00:00+00:00",
+    "start_az": "5:00 PM",
+    "athlete_id": "3120307",
+    "player": "Viktor Arvidsson",
+    "team": "DET",
+    "stat": "goals",
+    "label": "1+ goals",
+    "spread": "VGK -142",
+    "total": 6.5,
+    "line": 0.5,
+    "avg": 0.5,
+    "l5": [
+     0.0,
+     0.0,
+     0.0,
+     3.0,
+     1.0
+    ],
+    "hit_season": 0.375,
+    "hit_l5": 0.4,
+    "games": 16,
+    "score": 43.8,
+    "notes": [
+     "usage L5 100% of season"
+    ],
+    "kalshi": {
+     "ticker": "KXNHLGOAL-26NOV05VGKDET-DETVARVIDSSON33-1",
+     "event": "KXNHLGOAL-26NOV05VGKDET",
+     "n": 1,
+     "implied_pct": 30
+    },
+    "kalshi_at": "2026-11-05T16:45:01-07:00",
+    "first_seen": "2026-11-05T07:00:01-07:00"
+   },
+   {
+    "id": "2026-11-05:nhl:2968772:goals",
+    "sport": "nhl",
+    "event_id": "401892658",
+    "game": "NSH @ COL",
+    "start_utc": "2026-11-06T02:30:00+00:00",
+    "start_az": "7:30 PM",
+    "athlete_id": "2968772",
+    "player": "Filip Forsberg",
+    "team": "NSH",
+    "stat": "goals",
+    "label": "1+ goals",
+    "spread": "COL -218",
+    "total": 6.5,
+    "line": 0.5,
+    "avg": 0.3,
+    "l5": [
+     0.0,
+     0.0,
+     2.0,
+     1.0,
+     1.0
+    ],
+    "hit_season": 0.267,
+    "hit_l5": 0.6,
+    "games": 15,
+    "score": 43.1,
+    "notes": [
+     "usage L5 99% of season"
+    ],
+    "kalshi": {
+     "ticker": "KXNHLGOAL-26NOV05NSHCOL-NSHFFORSBERG9-1",
+     "event": "KXNHLGOAL-26NOV05NSHCOL",
+     "n": 1,
+     "implied_pct": 30
+    },
+    "kalshi_at": "2026-11-05T16:45:01-07:00",
+    "first_seen": "2026-11-05T15:30:01-07:00"
+   },
+   {
+    "id": "2026-11-05:nhl:5080145:assists",
+    "sport": "nhl",
+    "event_id": "401892657",
+    "game": "ANA @ EDM",
+    "start_utc": "2026-11-06T01:00:00+00:00",
+    "start_az": "6:00 PM",
+    "athlete_id": "5080145",
+    "player": "Cutter Gauthier",
+    "team": "ANA",
+    "stat": "assists",
+    "label": "1+ assists",
+    "spread": "EDM -192",
+    "total": 6.5,
+    "line": 0.5,
+    "avg": 0.4,
+    "l5": [
+     0.0,
+     0.0,
+     0.0,
+     1.0,
+     1.0
+    ],
+    "hit_season": 0.357,
+    "hit_l5": 0.4,
+    "games": 14,
+    "score": 41.6,
+    "notes": [
+     "usage L5 105% of season"
+    ],
+    "kalshi": {
+     "ticker": "KXNHLAST-26NOV05ANAEDM-ANACGAUTHIER61-1",
+     "event": "KXNHLAST-26NOV05ANAEDM",
+     "n": 1,
+     "implied_pct": 32
+    },
+    "kalshi_at": "2026-11-05T16:45:01-07:00",
+    "first_seen": "2026-11-05T07:00:01-07:00"
+   },
+   {
+    "id": "2026-11-05:nhl:4233875:goals",
+    "sport": "nhl",
+    "event_id": "401892655",
+    "game": "DAL @ CBJ",
+    "start_utc": "2026-11-06T00:00:00+00:00",
+    "start_az": "5:00 PM",
+    "athlete_id": "4233875",
+    "player": "Jason Robertson",
+    "team": "DAL",
+    "stat": "goals",
+    "label": "1+ goals",
+    "spread": "DAL -130",
+    "total": 5.5,
+    "line": 0.5,
+    "avg": 0.5,
+    "l5": [
+     3.0,
+     0.0,
+     0.0,
+     0.0,
+     2.0
+    ],
+    "hit_season": 0.333,
+    "hit_l5": 0.4,
+    "games": 15,
+    "score": 41.5,
+    "notes": [
+     "usage L5 95% of season"
+    ],
+    "kalshi": {
+     "ticker": "KXNHLGOAL-26NOV05DALCBJ-DALJROBERTSON21-1",
+     "event": "KXNHLGOAL-26NOV05DALCBJ",
+     "n": 1,
+     "implied_pct": 39
+    },
+    "kalshi_at": "2026-11-05T16:45:01-07:00",
+    "first_seen": "2026-11-05T07:00:01-07:00"
+   },
+   {
+    "id": "2026-11-05:nhl:3895074:goals",
+    "sport": "nhl",
+    "event_id": "401892657",
+    "game": "ANA @ EDM",
+    "start_utc": "2026-11-06T01:00:00+00:00",
+    "start_az": "6:00 PM",
+    "athlete_id": "3895074",
+    "player": "Connor McDavid",
+    "team": "EDM",
+    "stat": "goals",
+    "label": "1+ goals",
+    "spread": "EDM -192",
+    "total": 6.5,
+    "line": 0.5,
+    "avg": 0.6,
+    "l5": [
+     0.0,
+     1.0,
+     0.0,
+     0.0,
+     0.0
+    ],
+    "hit_season": 0.438,
+    "hit_l5": 0.2,
+    "games": 16,
+    "score": 41.1,
+    "notes": [
+     "usage L5 99% of season"
+    ],
+    "kalshi": {
+     "ticker": "KXNHLGOAL-26NOV05ANAEDM-EDMCMCDAVID97-1",
+     "event": "KXNHLGOAL-26NOV05ANAEDM",
+     "n": 1,
+     "implied_pct": 48
+    },
+    "kalshi_at": "2026-11-05T16:45:01-07:00",
+    "first_seen": "2026-11-05T07:00:01-07:00"
+   },
+   {
+    "id": "2026-11-05:nhl:5291933:goals",
+    "sport": "nhl",
+    "event_id": "401892652",
+    "game": "CAR @ NYI",
+    "start_utc": "2026-11-06T00:00:00+00:00",
+    "start_az": "5:00 PM",
+    "athlete_id": "5291933",
+    "player": "Matthew Schaefer",
+    "team": "NYI",
+    "stat": "goals",
+    "label": "1+ goals",
+    "spread": "CAR -198",
+    "total": 6.5,
+    "line": 0.5,
+    "avg": 0.3,
+    "l5": [
+     0.0,
+     2.0,
+     0.0,
+     1.0,
+     1.0
+    ],
+    "hit_season": 0.214,
+    "hit_l5": 0.6,
+    "games": 14,
+    "score": 40.5,
+    "notes": [
+     "usage L5 106% of season"
+    ],
+    "kalshi": {
+     "ticker": "KXNHLGOAL-26NOV05CARNYI-NYIMSCHAEFER48-1",
+     "event": "KXNHLGOAL-26NOV05CARNYI",
+     "n": 1,
+     "implied_pct": 20
+    },
+    "kalshi_at": "2026-11-05T16:45:01-07:00",
+    "first_seen": "2026-11-05T07:00:01-07:00"
+   },
+   {
+    "id": "2026-11-05:nhl:3042002:assists",
+    "sport": "nhl",
+    "event_id": "401892652",
+    "game": "CAR @ NYI",
+    "start_utc": "2026-11-06T00:00:00+00:00",
+    "start_az": "5:00 PM",
+    "athlete_id": "3042002",
+    "player": "Bo Horvat",
+    "team": "NYI",
+    "stat": "assists",
+    "label": "1+ assists",
+    "spread": "CAR -198",
+    "total": 6.5,
+    "line": 0.5,
+    "avg": 0.5,
+    "l5": [
+     0.0,
+     0.0,
+     0.0,
+     2.0,
+     0.0
+    ],
+    "hit_season": 0.429,
+    "hit_l5": 0.2,
+    "games": 14,
+    "score": 40.3,
+    "notes": [
+     "usage L5 103% of season"
+    ],
+    "kalshi": {
+     "ticker": "KXNHLAST-26NOV05CARNYI-NYIBHORVAT14-1",
+     "event": "KXNHLAST-26NOV05CARNYI",
+     "n": 1,
+     "implied_pct": 34
+    },
+    "kalshi_at": "2026-11-05T16:45:01-07:00",
+    "first_seen": "2026-11-05T07:00:01-07:00"
+   },
+   {
+    "id": "2026-11-05:nhl:3899938:assists",
+    "sport": "nhl",
+    "event_id": "401892655",
+    "game": "DAL @ CBJ",
+    "start_utc": "2026-11-06T00:00:00+00:00",
+    "start_az": "5:00 PM",
+    "athlete_id": "3899938",
+    "player": "Mikko Rantanen",
+    "team": "DAL",
+    "stat": "assists",
+    "label": "1+ assists",
+    "spread": "DAL -130",
+    "total": 5.5,
+    "line": 0.5,
+    "avg": 0.7,
+    "l5": [
+     0.0,
+     0.0,
+     2.0,
+     0.0,
+     0.0
+    ],
+    "hit_season": 0.4,
+    "hit_l5": 0.2,
+    "games": 15,
+    "score": 40.0,
+    "notes": [
+     "usage L5 95% of season"
+    ],
+    "kalshi": {
+     "ticker": "KXNHLAST-26NOV05DALCBJ-DALMRANTANEN96-1",
+     "event": "KXNHLAST-26NOV05DALCBJ",
+     "n": 1,
+     "implied_pct": 50
+    },
+    "kalshi_at": "2026-11-05T16:45:01-07:00",
+    "first_seen": "2026-11-05T07:00:01-07:00"
+   },
+   {
+    "id": "2026-11-05:nhl:5149125:goals",
+    "sport": "nhl",
+    "event_id": "401892650",
+    "game": "CHI @ TB",
+    "start_utc": "2026-11-06T00:00:00+00:00",
+    "start_az": "5:00 PM",
+    "athlete_id": "5149125",
+    "player": "Connor Bedard",
+    "team": "CHI",
+    "stat": "goals",
+    "label": "1+ goals",
+    "spread": "TB -470",
+    "total": 6.5,
+    "line": 0.5,
+    "avg": 0.4,
+    "l5": [
+     0.0,
+     0.0,
+     1.0,
+     1.0,
+     0.0
+    ],
+    "hit_season": 0.4,
+    "hit_l5": 0.4,
+    "games": 10,
+    "score": 39.0,
+    "notes": [
+     "usage L5 100% of season",
+     "back to back"
+    ],
+    "kalshi": {
+     "ticker": "KXNHLGOAL-26NOV05CHITB-CHICBEDARD98-1",
+     "event": "KXNHLGOAL-26NOV05CHITB",
+     "n": 1,
+     "implied_pct": 29
+    },
+    "kalshi_at": "2026-11-05T16:45:01-07:00",
+    "first_seen": "2026-11-05T07:00:01-07:00"
+   },
+   {
+    "id": "2026-11-05:nhl:3648002:goals",
+    "sport": "nhl",
+    "event_id": "401892649",
+    "game": "VGK @ DET",
+    "start_utc": "2026-11-06T00:00:00+00:00",
+    "start_az": "5:00 PM",
+    "athlete_id": "3648002",
+    "player": "Jack Eichel",
+    "team": "VGK",
+    "stat": "goals",
+    "label": "1+ goals",
+    "spread": "VGK -142",
+    "total": 6.5,
+    "line": 0.5,
+    "avg": 0.4,
+    "l5": [
+     0.0,
+     0.0,
+     0.0,
+     1.0,
+     0.0
+    ],
+    "hit_season": 0.412,
+    "hit_l5": 0.2,
+    "games": 17,
+    "score": 38.6,
+    "notes": [
+     "usage L5 105% of season"
+    ],
+    "kalshi": {
+     "ticker": "KXNHLGOAL-26NOV05VGKDET-VGKJEICHEL9-1",
+     "event": "KXNHLGOAL-26NOV05VGKDET",
+     "n": 1,
+     "implied_pct": 30
+    },
+    "kalshi_at": "2026-11-05T16:45:01-07:00",
+    "first_seen": "2026-11-05T07:00:01-07:00"
+   },
+   {
+    "id": "2026-11-05:nhl:4065019:goals",
+    "sport": "nhl",
+    "event_id": "401892650",
+    "game": "CHI @ TB",
+    "start_utc": "2026-11-06T00:00:00+00:00",
+    "start_az": "5:00 PM",
+    "athlete_id": "4065019",
+    "player": "Brandon Hagel",
+    "team": "TB",
+    "stat": "goals",
+    "label": "1+ goals",
+    "spread": "TB -470",
+    "total": 6.5,
+    "line": 0.5,
+    "avg": 0.6,
+    "l5": [
+     0.0,
+     0.0,
+     1.0,
+     0.0,
+     0.0
+    ],
+    "hit_season": 0.357,
+    "hit_l5": 0.2,
+    "games": 14,
+    "score": 37.8,
+    "notes": [
+     "usage L5 100% of season"
+    ],
+    "kalshi": {
+     "ticker": "KXNHLGOAL-26NOV05CHITB-TBBHAGEL38-1",
+     "event": "KXNHLGOAL-26NOV05CHITB",
+     "n": 1,
+     "implied_pct": 42
+    },
+    "kalshi_at": "2026-11-05T16:45:01-07:00",
+    "first_seen": "2026-11-05T07:00:01-07:00"
+   },
+   {
+    "id": "2026-11-05:nhl:4874899:assists",
+    "sport": "nhl",
+    "event_id": "401892652",
+    "game": "CAR @ NYI",
+    "start_utc": "2026-11-06T00:00:00+00:00",
+    "start_az": "5:00 PM",
+    "athlete_id": "4874899",
+    "player": "Logan Stankoven",
+    "team": "CAR",
+    "stat": "assists",
+    "label": "1+ assists",
+    "spread": "CAR -198",
+    "total": 6.5,
+    "line": 0.5,
+    "avg": 0.4,
+    "l5": [
+     1.0,
+     2.0,
+     0.0,
+     0.0,
+     0.0
+    ],
+    "hit_season": 0.294,
+    "hit_l5": 0.4,
+    "games": 17,
+    "score": 37.5,
+    "notes": [
+     "usage L5 92% of season"
+    ],
+    "kalshi": {
+     "ticker": "KXNHLAST-26NOV05CARNYI-CARLSTANKOVEN22-1",
+     "event": "KXNHLAST-26NOV05CARNYI",
+     "n": 1,
+     "implied_pct": 29
+    },
+    "kalshi_at": "2026-11-05T16:45:01-07:00",
+    "first_seen": "2026-11-05T07:00:01-07:00"
+   },
+   {
+    "id": "2026-11-05:nhl:4697382:assists",
+    "sport": "nhl",
+    "event_id": "401892653",
+    "game": "PHI @ NYR",
+    "start_utc": "2026-11-06T00:00:00+00:00",
+    "start_az": "5:00 PM",
+    "athlete_id": "4697382",
+    "player": "Alexis Lafreniere",
+    "team": "NYR",
+    "stat": "assists",
+    "label": "1+ assists",
+    "spread": "NYR -148",
+    "total": 5.5,
+    "line": 0.5,
+    "avg": 0.4,
+    "l5": [
+     0.0,
+     0.0,
+     1.0,
+     0.0,
+     0.0
+    ],
+    "hit_season": 0.375,
+    "hit_l5": 0.2,
+    "games": 16,
+    "score": 36.7,
+    "notes": [
+     "usage L5 97% of season"
+    ],
+    "kalshi": {
+     "ticker": "KXNHLAST-26NOV05PHINYR-NYRALAFRENIERE13-1",
+     "event": "KXNHLAST-26NOV05PHINYR",
+     "n": 1,
+     "implied_pct": 36
+    },
+    "kalshi_at": "2026-11-05T16:45:01-07:00",
+    "first_seen": "2026-11-05T07:00:01-07:00"
+   },
+   {
+    "id": "2026-11-05:nhl:3124:assists",
+    "sport": "nhl",
+    "event_id": "401892654",
+    "game": "BOS @ PIT",
+    "start_utc": "2026-11-06T00:00:00+00:00",
+    "start_az": "5:00 PM",
+    "athlete_id": "3124",
+    "player": "Evgeni Malkin",
+    "team": "PIT",
+    "stat": "assists",
+    "label": "1+ assists",
+    "spread": "BOS -108",
+    "total": 6.5,
+    "line": 0.5,
+    "avg": 0.4,
+    "l5": [
+     0.0,
+     2.0,
+     1.0,
+     0.0,
+     0.0
+    ],
+    "hit_season": 0.231,
+    "hit_l5": 0.4,
+    "games": 13,
+    "score": 34.7,
+    "notes": [
+     "usage L5 90% of season"
+    ],
+    "kalshi": {
+     "ticker": "KXNHLAST-26NOV05BOSPIT-PITEMALKIN71-1",
+     "event": "KXNHLAST-26NOV05BOSPIT",
+     "n": 1,
+     "implied_pct": 30
+    },
+    "kalshi_at": "2026-11-05T16:45:01-07:00",
+    "first_seen": "2026-11-05T07:00:01-07:00"
+   },
+   {
+    "id": "2026-11-05:nhl:5103645:goals",
+    "sport": "nhl",
+    "event_id": "401892652",
+    "game": "CAR @ NYI",
+    "start_utc": "2026-11-06T00:00:00+00:00",
+    "start_az": "5:00 PM",
+    "athlete_id": "5103645",
+    "player": "Jackson Blake",
+    "team": "CAR",
+    "stat": "goals",
+    "label": "1+ goals",
+    "spread": "CAR -198",
+    "total": 6.5,
+    "line": 0.5,
+    "avg": 0.2,
+    "l5": [
+     1.0,
+     0.0,
+     0.0,
+     1.0,
+     0.0
+    ],
+    "hit_season": 0.235,
+    "hit_l5": 0.4,
+    "games": 17,
+    "score": 34.2,
+    "notes": [
+     "usage L5 95% of season"
+    ],
+    "kalshi": {
+     "ticker": "KXNHLGOAL-26NOV05CARNYI-CARJBLAKE53-1",
+     "event": "KXNHLGOAL-26NOV05CARNYI",
+     "n": 1,
+     "implied_pct": 28
+    },
+    "kalshi_at": "2026-11-05T16:45:01-07:00",
+    "first_seen": "2026-11-05T07:00:01-07:00"
+   },
+   {
+    "id": "2026-11-05:nhl:4063433:goals",
+    "sport": "nhl",
+    "event_id": "401892649",
+    "game": "VGK @ DET",
+    "start_utc": "2026-11-06T00:00:00+00:00",
+    "start_az": "5:00 PM",
+    "athlete_id": "4063433",
+    "player": "Alex DeBrincat",
+    "team": "DET",
+    "stat": "goals",
+    "label": "1+ goals",
+    "spread": "VGK -142",
+    "total": 6.5,
+    "line": 0.5,
+    "avg": 0.4,
+    "l5": [
+     0.0,
+     1.0,
+     0.0,
+     0.0,
+     0.0
+    ],
+    "hit_season": 0.312,
+    "hit_l5": 0.2,
+    "games": 16,
+    "score": 34.1,
+    "notes": [
+     "usage L5 98% of season"
+    ],
+    "kalshi": {
+     "ticker": "KXNHLGOAL-26NOV05VGKDET-DETADEBRINCAT93-1",
+     "event": "KXNHLGOAL-26NOV05VGKDET",
+     "n": 1,
+     "implied_pct": 34
+    },
+    "kalshi_at": "2026-11-05T16:45:01-07:00",
+    "first_seen": "2026-11-05T07:00:01-07:00"
+   },
+   {
+    "id": "2026-11-05:nhl:5164:goals",
+    "sport": "nhl",
+    "event_id": "401892654",
+    "game": "BOS @ PIT",
+    "start_utc": "2026-11-06T00:00:00+00:00",
+    "start_az": "5:00 PM",
+    "athlete_id": "5164",
+    "player": "Erik Karlsson",
+    "team": "PIT",
+    "stat": "goals",
+    "label": "1+ goals",
+    "spread": "BOS -108",
+    "total": 6.5,
+    "line": 0.5,
+    "avg": 0.2,
+    "l5": [
+     0.0,
+     1.0,
+     1.0,
+     0.0,
+     0.0
+    ],
+    "hit_season": 0.2,
+    "hit_l5": 0.4,
+    "games": 15,
+    "score": 33.0,
+    "notes": [
+     "usage L5 103% of season"
+    ],
+    "kalshi": {
+     "ticker": "KXNHLGOAL-26NOV05BOSPIT-PITEKARLSSON65-1",
+     "event": "KXNHLGOAL-26NOV05BOSPIT",
+     "n": 1,
+     "implied_pct": 16
+    },
+    "kalshi_at": "2026-11-05T16:45:01-07:00",
+    "first_seen": "2026-11-05T07:00:01-07:00"
+   },
+   {
+    "id": "2026-11-05:nhl:5080159:goals",
+    "sport": "nhl",
+    "event_id": "401892656",
+    "game": "VAN @ WPG",
+    "start_utc": "2026-11-06T01:00:00+00:00",
+    "start_az": "6:00 PM",
+    "athlete_id": "5080159",
+    "player": "Jonathan Lekkerimaki",
+    "team": "VAN",
+    "stat": "goals",
+    "label": "1+ goals",
+    "spread": "WPG -218",
+    "total": 6.5,
+    "line": 0.5,
+    "avg": 0.4,
+    "l5": [
+     0.0,
+     0.0,
+     0.0,
+     2.0,
+     0.0
+    ],
+    "hit_season": 0.294,
+    "hit_l5": 0.2,
+    "games": 17,
+    "score": 32.8,
+    "notes": [
+     "usage L5 111% of season"
+    ],
+    "kalshi": {
+     "ticker": "KXNHLGOAL-26NOV05VANWPG-VANJLEKKERIMKI88-1",
+     "event": "KXNHLGOAL-26NOV05VANWPG",
+     "n": 1,
+     "implied_pct": 20
+    },
+    "kalshi_at": "2026-11-05T16:45:01-07:00",
+    "first_seen": "2026-11-05T07:00:01-07:00"
+   },
+   {
+    "id": "2026-11-05:nhl:3042050:assists",
+    "sport": "nhl",
+    "event_id": "401892658",
+    "game": "NSH @ COL",
+    "start_utc": "2026-11-06T02:30:00+00:00",
+    "start_az": "7:30 PM",
+    "athlete_id": "3042050",
+    "player": "Artturi Lehkonen",
+    "team": "COL",
+    "stat": "assists",
+    "label": "1+ assists",
+    "spread": "COL -218",
+    "total": 6.5,
+    "line": 0.5,
+    "avg": 0.3,
+    "l5": [
+     0.0,
+     0.0,
+     0.0,
+     1.0,
+     0.0
+    ],
+    "hit_season": 0.312,
+    "hit_l5": 0.2,
+    "games": 16,
+    "score": 32.8,
+    "notes": [
+     "usage L5 97% of season"
+    ],
+    "kalshi": {
+     "ticker": "KXNHLAST-26NOV05NSHCOL-COLALEHKONEN62-1",
+     "event": "KXNHLAST-26NOV05NSHCOL",
+     "n": 1,
+     "implied_pct": 30
+    },
+    "kalshi_at": "2026-11-05T16:45:01-07:00",
+    "first_seen": "2026-11-05T15:30:01-07:00"
+   },
+   {
+    "id": "2026-11-05:nhl:3899952:assists",
+    "sport": "nhl",
+    "event_id": "401892656",
+    "game": "VAN @ WPG",
+    "start_utc": "2026-11-06T01:00:00+00:00",
+    "start_az": "6:00 PM",
+    "athlete_id": "3899952",
+    "player": "Kyle Connor",
+    "team": "WPG",
+    "stat": "assists",
+    "label": "1+ assists",
+    "spread": "WPG -218",
+    "total": 6.5,
+    "line": 0.5,
+    "avg": 0.2,
+    "l5": [
+     0.0,
+     0.0,
+     0.0,
+     1.0,
+     0.0
+    ],
+    "hit_season": 0.25,
+    "hit_l5": 0.2,
+    "games": 16,
+    "score": 29.8,
+    "notes": [
+     "usage L5 101% of season"
+    ],
+    "kalshi": {
+     "ticker": "KXNHLAST-26NOV05VANWPG-WPGKCONNOR81-1",
+     "event": "KXNHLAST-26NOV05VANWPG",
+     "n": 1,
+     "implied_pct": 52
+    },
+    "kalshi_at": "2026-11-05T16:45:01-07:00",
+    "first_seen": "2026-11-05T07:00:01-07:00"
+   },
+   {
+    "id": "2026-11-05:nhl:4197146:goals",
+    "sport": "nhl",
+    "event_id": "401892653",
+    "game": "PHI @ NYR",
+    "start_utc": "2026-11-06T00:00:00+00:00",
+    "start_az": "5:00 PM",
+    "athlete_id": "4197146",
+    "player": "Adam Fox",
+    "team": "NYR",
+    "stat": "goals",
+    "label": "1+ goals",
+    "spread": "NYR -148",
+    "total": 5.5,
+    "line": 0.5,
+    "avg": 0.1,
+    "l5": [
+     1.0,
+     0.0,
+     1.0,
+     0.0,
+     0.0
+    ],
+    "hit_season": 0.125,
+    "hit_l5": 0.4,
+    "games": 16,
+    "score": 28.9,
+    "notes": [
+     "usage L5 108% of season"
+    ],
+    "kalshi": {
+     "ticker": "KXNHLGOAL-26NOV05PHINYR-NYRAFOX23-1",
+     "event": "KXNHLGOAL-26NOV05PHINYR",
+     "n": 1,
+     "implied_pct": 15
+    },
+    "kalshi_at": "2026-11-05T16:45:01-07:00",
+    "first_seen": "2026-11-05T07:00:01-07:00"
+   },
+   {
+    "id": "2026-11-05:nhl:4565230:goals",
+    "sport": "nhl",
+    "event_id": "401892653",
+    "game": "PHI @ NYR",
+    "start_utc": "2026-11-06T00:00:00+00:00",
+    "start_az": "5:00 PM",
+    "athlete_id": "4565230",
+    "player": "Trevor Zegras",
+    "team": "PHI",
+    "stat": "goals",
+    "label": "1+ goals",
+    "spread": "NYR -148",
+    "total": 5.5,
+    "line": 0.5,
+    "avg": 0.2,
+    "l5": [
+     0.0,
+     0.0,
+     0.0,
+     1.0,
+     0.0
+    ],
+    "hit_season": 0.235,
+    "hit_l5": 0.2,
+    "games": 17,
+    "score": 28.9,
+    "notes": [
+     "usage L5 105% of season"
+    ],
+    "kalshi": {
+     "ticker": "KXNHLGOAL-26NOV05PHINYR-PHITZEGRAS46-1",
+     "event": "KXNHLGOAL-26NOV05PHINYR",
+     "n": 1,
+     "implied_pct": 24
+    },
+    "kalshi_at": "2026-11-05T16:45:01-07:00",
+    "first_seen": "2026-11-05T07:00:01-07:00"
+   },
+   {
+    "id": "2026-11-05:nhl:5080171:assists",
+    "sport": "nhl",
+    "event_id": "401892651",
+    "game": "STL @ NJ",
+    "start_utc": "2026-11-06T00:00:00+00:00",
+    "start_az": "5:00 PM",
+    "athlete_id": "5080171",
+    "player": "Jimmy Snuggerud",
+    "team": "STL",
+    "stat": "assists",
+    "label": "1+ assists",
+    "spread": "NJ -238",
+    "total": 5.5,
+    "line": 0.5,
+    "avg": 0.2,
+    "l5": [
+     0.0,
+     1.0,
+     0.0,
+     0.0,
+     0.0
+    ],
+    "hit_season": 0.2,
+    "hit_l5": 0.2,
+    "games": 15,
+    "score": 26.9,
+    "notes": [
+     "usage L5 99% of season"
+    ],
+    "kalshi": {
+     "ticker": "KXNHLAST-26NOV05STLNJ-STLJSNUGGERUD21-1",
+     "event": "KXNHLAST-26NOV05STLNJ",
+     "n": 1,
+     "implied_pct": 30
+    },
+    "kalshi_at": "2026-11-05T16:45:01-07:00",
+    "first_seen": "2026-11-05T07:00:01-07:00"
+   },
+   {
+    "id": "2026-11-05:nhl:4565236:assists",
+    "sport": "nhl",
+    "event_id": "401892648",
+    "game": "UTA @ MTL",
+    "start_utc": "2026-11-06T00:00:00+00:00",
+    "start_az": "5:00 PM",
+    "athlete_id": "4565236",
+    "player": "Cole Caufield",
+    "team": "MTL",
+    "stat": "assists",
+    "label": "1+ assists",
+    "spread": "UTAH -122",
+    "total": 6.5,
+    "line": 0.5,
+    "avg": 0.3,
+    "l5": [
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     2.0
+    ],
+    "hit_season": 0.2,
+    "hit_l5": 0.2,
+    "games": 15,
+    "score": 26.6,
+    "notes": [
+     "usage L5 93% of season"
+    ],
+    "kalshi": {
+     "ticker": "KXNHLAST-26NOV05UTAMTL-MTLCCAUFIELD13-1",
+     "event": "KXNHLAST-26NOV05UTAMTL",
+     "n": 1,
+     "implied_pct": 32
+    },
+    "kalshi_at": "2026-11-05T16:45:01-07:00",
+    "first_seen": "2026-11-05T07:00:01-07:00"
+   },
+   {
+    "id": "2026-11-05:nhl:5080230:goals",
+    "sport": "nhl",
+    "event_id": "401892648",
+    "game": "UTA @ MTL",
+    "start_utc": "2026-11-06T00:00:00+00:00",
+    "start_az": "5:00 PM",
+    "athlete_id": "5080230",
+    "player": "Lane Hutson",
+    "team": "MTL",
+    "stat": "goals",
+    "label": "1+ goals",
+    "spread": "UTAH -122",
+    "total": 6.5,
+    "line": 0.5,
+    "avg": 0.2,
+    "l5": [
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "hit_season": 0.2,
+    "hit_l5": 0.2,
+    "games": 15,
+    "score": 25.7,
+    "notes": [
+     "usage L5 91% of season"
+    ],
+    "kalshi": {
+     "ticker": "KXNHLGOAL-26NOV05UTAMTL-MTLLHUTSON48-1",
+     "event": "KXNHLGOAL-26NOV05UTAMTL",
+     "n": 1,
+     "implied_pct": 13
+    },
+    "kalshi_at": "2026-11-05T16:45:01-07:00",
+    "first_seen": "2026-11-05T07:00:01-07:00"
+   },
+   {
+    "id": "2026-11-05:nhl:5149170:assists",
+    "sport": "nhl",
+    "event_id": "401892653",
+    "game": "PHI @ NYR",
+    "start_utc": "2026-11-06T00:00:00+00:00",
+    "start_az": "5:00 PM",
+    "athlete_id": "5149170",
+    "player": "Matvei Michkov",
+    "team": "PHI",
+    "stat": "assists",
+    "label": "1+ assists",
+    "spread": "NYR -148",
+    "total": 5.5,
+    "line": 0.5,
+    "avg": 0.2,
+    "l5": [
+     1.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0
+    ],
+    "hit_season": 0.176,
+    "hit_l5": 0.2,
+    "games": 17,
+    "score": 25.7,
+    "notes": [
+     "usage L5 112% of season"
+    ],
+    "kalshi": {
+     "ticker": "KXNHLAST-26NOV05PHINYR-PHIMMICHKOV39-1",
+     "event": "KXNHLAST-26NOV05PHINYR",
+     "n": 1,
+     "implied_pct": 28
+    },
+    "kalshi_at": "2026-11-05T16:45:01-07:00",
+    "first_seen": "2026-11-05T07:00:01-07:00"
+   },
+   {
+    "id": "2026-11-05:nhl:5149231:assists",
+    "sport": "nhl",
+    "event_id": "401892650",
+    "game": "CHI @ TB",
+    "start_utc": "2026-11-06T00:00:00+00:00",
+    "start_az": "5:00 PM",
+    "athlete_id": "5149231",
+    "player": "Roman Kantserov",
+    "team": "CHI",
+    "stat": "assists",
+    "label": "1+ assists",
+    "spread": "TB -470",
+    "total": 6.5,
+    "line": 0.5,
+    "avg": 0.1,
+    "l5": [
+     0.0,
+     0.0,
+     1.0,
+     1.0,
+     0.0
+    ],
+    "hit_season": 0.125,
+    "hit_l5": 0.4,
+    "games": 16,
+    "score": 23.5,
+    "notes": [
+     "usage L5 97% of season",
+     "back to back"
+    ],
+    "kalshi": {
+     "ticker": "KXNHLAST-26NOV05CHITB-CHIRKANTSEROV80-1",
+     "event": "KXNHLAST-26NOV05CHITB",
+     "n": 1,
+     "implied_pct": 29
+    },
+    "kalshi_at": "2026-11-05T16:45:01-07:00",
+    "first_seen": "2026-11-05T07:00:01-07:00"
+   },
+   {
+    "id": "2026-11-05:nhl:4233566:goals",
+    "sport": "nhl",
+    "event_id": "401892656",
+    "game": "VAN @ WPG",
+    "start_utc": "2026-11-06T01:00:00+00:00",
+    "start_az": "6:00 PM",
+    "athlete_id": "4233566",
+    "player": "Elias Pettersson",
+    "team": "VAN",
+    "stat": "goals",
+    "label": "1+ goals",
+    "spread": "WPG -218",
+    "total": 6.5,
+    "line": 0.5,
+    "avg": 0.2,
+    "l5": [
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0
+    ],
+    "hit_season": 0.235,
+    "hit_l5": 0.0,
+    "games": 17,
+    "score": 22.9,
+    "notes": [
+     "usage L5 109% of season"
+    ],
+    "kalshi": {
+     "ticker": "KXNHLGOAL-26NOV05VANWPG-VANEPETTERSSON40-1",
+     "event": "KXNHLGOAL-26NOV05VANWPG",
+     "n": 1,
+     "implied_pct": 14
+    },
+    "kalshi_at": "2026-11-05T16:45:01-07:00",
+    "first_seen": "2026-11-05T07:00:01-07:00"
+   },
+   {
+    "id": "2026-11-05:nhl:5436:goals",
+    "sport": "nhl",
+    "event_id": "401892658",
+    "game": "NSH @ COL",
+    "start_utc": "2026-11-06T02:30:00+00:00",
+    "start_az": "7:30 PM",
+    "athlete_id": "5436",
+    "player": "Roman Josi",
+    "team": "NSH",
+    "stat": "goals",
+    "label": "1+ goals",
+    "spread": "COL -218",
+    "total": 6.5,
+    "line": 0.5,
+    "avg": 0.1,
+    "l5": [
+     1.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0
+    ],
+    "hit_season": 0.133,
+    "hit_l5": 0.2,
+    "games": 15,
+    "score": 22.8,
+    "notes": [
+     "usage L5 97% of season"
+    ],
+    "kalshi": {
+     "ticker": "KXNHLGOAL-26NOV05NSHCOL-NSHRJOSI59-1",
+     "event": "KXNHLGOAL-26NOV05NSHCOL",
+     "n": 1,
+     "implied_pct": 14
+    },
+    "kalshi_at": "2026-11-05T16:45:01-07:00",
+    "first_seen": "2026-11-05T15:30:01-07:00"
+   },
+   {
+    "id": "2026-11-05:nhl:2563060:goals",
+    "sport": "nhl",
+    "event_id": "401892650",
+    "game": "CHI @ TB",
+    "start_utc": "2026-11-06T00:00:00+00:00",
+    "start_az": "5:00 PM",
+    "athlete_id": "2563060",
+    "player": "Nikita Kucherov",
+    "team": "TB",
+    "stat": "goals",
+    "label": "1+ goals",
+    "spread": "TB -470",
+    "total": 6.5,
+    "line": 0.5,
+    "avg": 0.3,
+    "l5": [
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0
+    ],
+    "hit_season": 0.214,
+    "hit_l5": 0.0,
+    "games": 14,
+    "score": 22.1,
+    "notes": [
+     "usage L5 97% of season"
+    ],
+    "kalshi": {
+     "ticker": "KXNHLGOAL-26NOV05CHITB-TBNKUCHEROV86-1",
+     "event": "KXNHLGOAL-26NOV05CHITB",
+     "n": 1,
+     "implied_pct": 42
+    },
+    "kalshi_at": "2026-11-05T16:45:01-07:00",
+    "first_seen": "2026-11-05T07:00:01-07:00"
+   },
+   {
+    "id": "2026-11-05:nhl:4024857:goals",
+    "sport": "nhl",
+    "event_id": "401892648",
+    "game": "UTA @ MTL",
+    "start_utc": "2026-11-06T00:00:00+00:00",
+    "start_az": "5:00 PM",
+    "athlete_id": "4024857",
+    "player": "Clayton Keller",
+    "team": "UTA",
+    "stat": "goals",
+    "label": "1+ goals",
+    "spread": "UTAH -122",
+    "total": 6.5,
+    "line": 0.5,
+    "avg": 0.2,
+    "l5": [
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0
+    ],
+    "hit_season": 0.188,
+    "hit_l5": 0.0,
+    "games": 16,
+    "score": 20.9,
+    "notes": [
+     "usage L5 103% of season"
+    ],
+    "kalshi": {
+     "ticker": "KXNHLGOAL-26NOV05UTAMTL-UTACKELLER9-1",
+     "event": "KXNHLGOAL-26NOV05UTAMTL",
+     "n": 1,
+     "implied_pct": 28
+    },
+    "kalshi_at": "2026-11-05T16:45:01-07:00",
+    "first_seen": "2026-11-05T07:00:01-07:00"
+   },
+   {
+    "id": "2026-11-05:nhl:4697397:goals",
+    "sport": "nhl",
+    "event_id": "401892651",
+    "game": "STL @ NJ",
+    "start_utc": "2026-11-06T00:00:00+00:00",
+    "start_az": "5:00 PM",
+    "athlete_id": "4697397",
+    "player": "Dylan Holloway",
+    "team": "STL",
+    "stat": "goals",
+    "label": "1+ goals",
+    "spread": "NJ -238",
+    "total": 5.5,
+    "line": 0.5,
+    "avg": 0.2,
+    "l5": [
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0
+    ],
+    "hit_season": 0.133,
+    "hit_l5": 0.0,
+    "games": 15,
+    "score": 17.5,
+    "notes": [
+     "usage L5 97% of season"
+    ],
+    "kalshi": {
+     "ticker": "KXNHLGOAL-26NOV05STLNJ-STLDHOLLOWAY81-1",
+     "event": "KXNHLGOAL-26NOV05STLNJ",
+     "n": 1,
+     "implied_pct": 22
+    },
+    "kalshi_at": "2026-11-05T16:45:01-07:00",
+    "first_seen": "2026-11-05T07:00:01-07:00"
+   },
+   {
+    "id": "2026-11-05:nhl:3899937:goals",
+    "sport": "nhl",
+    "event_id": "401892649",
+    "game": "VGK @ DET",
+    "start_utc": "2026-11-06T00:00:00+00:00",
+    "start_az": "5:00 PM",
+    "athlete_id": "3899937",
+    "player": "Mitch Marner",
+    "team": "VGK",
+    "stat": "goals",
+    "label": "1+ goals",
+    "spread": "VGK -142",
+    "total": 6.5,
+    "line": 0.5,
+    "avg": 0.1,
+    "l5": [
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0
+    ],
+    "hit_season": 0.133,
+    "hit_l5": 0.0,
+    "games": 15,
+    "score": 17.3,
+    "notes": [
+     "usage L5 102% of season"
+    ],
+    "kalshi": {
+     "ticker": "KXNHLGOAL-26NOV05VGKDET-VGKMMARNER93-1",
+     "event": "KXNHLGOAL-26NOV05VGKDET",
+     "n": 1,
+     "implied_pct": 26
+    },
+    "kalshi_at": "2026-11-05T16:45:01-07:00",
+    "first_seen": "2026-11-05T07:00:01-07:00"
+   },
+   {
+    "id": "2026-11-05:nhl:2562632:goals",
+    "sport": "nhl",
+    "event_id": "401892656",
+    "game": "VAN @ WPG",
+    "start_utc": "2026-11-06T01:00:00+00:00",
+    "start_az": "6:00 PM",
+    "athlete_id": "2562632",
+    "player": "Mark Scheifele",
+    "team": "WPG",
+    "stat": "goals",
+    "label": "1+ goals",
+    "spread": "WPG -218",
+    "total": 6.5,
+    "line": 0.5,
+    "avg": 0.1,
+    "l5": [
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0
+    ],
+    "hit_season": 0.125,
+    "hit_l5": 0.0,
+    "games": 16,
+    "score": 16.9,
+    "notes": [
+     "usage L5 103% of season"
+    ],
+    "kalshi": {
+     "ticker": "KXNHLGOAL-26NOV05VANWPG-WPGMSCHEIFELE55-1",
+     "event": "KXNHLGOAL-26NOV05VANWPG",
+     "n": 1,
+     "implied_pct": 35
+    },
+    "kalshi_at": "2026-11-05T16:45:01-07:00",
+    "first_seen": "2026-11-05T07:00:01-07:00"
+   },
+   {
+    "id": "2026-11-05:nhl:3899972:goals",
+    "sport": "nhl",
+    "event_id": "401892655",
+    "game": "DAL @ CBJ",
+    "start_utc": "2026-11-06T00:00:00+00:00",
+    "start_az": "5:00 PM",
+    "athlete_id": "3899972",
+    "player": "Zach Werenski",
+    "team": "CBJ",
+    "stat": "goals",
+    "label": "1+ goals",
+    "spread": "DAL -130",
+    "total": 5.5,
+    "line": 0.5,
+    "avg": 0.0,
+    "l5": [
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0
+    ],
+    "hit_season": 0.0,
+    "hit_l5": 0.0,
+    "games": 13,
+    "score": 9.5,
+    "notes": [
+     "usage L5 97% of season"
+    ],
+    "kalshi": {
+     "ticker": "KXNHLGOAL-26NOV05DALCBJ-CBJZWERENSKI8-1",
+     "event": "KXNHLGOAL-26NOV05DALCBJ",
+     "n": 1,
+     "implied_pct": 20
+    },
+    "kalshi_at": "2026-11-05T16:45:01-07:00",
+    "first_seen": "2026-11-05T07:00:01-07:00"
+   }
+  ],
+  "nfl": [
+   {
+    "id": "2026-11-05:nfl:3043078:rushingYards",
+    "sport": "nfl",
+    "event_id": "401873037",
+    "game": "JAX @ BAL",
+    "start_utc": "2026-11-06T01:15:00+00:00",
+    "start_az": "6:15 PM",
+    "athlete_id": "3043078",
+    "player": "Derrick Henry",
+    "team": "BAL",
+    "stat": "rushingYards",
+    "label": "40+ rushing yards",
+    "spread": "JAX -10",
+    "total": 39.5,
+    "line": 39.5,
+    "avg": 79.0,
+    "l5": [
+     53.0,
+     45.0,
+     58.0,
+     102.0,
+     73.0
+    ],
+    "hit_season": 1.0,
+    "hit_l5": 1.0,
+    "games": 8,
+    "score": 89.0,
+    "notes": [
+     "blowout risk (spread +10)"
+    ],
+    "kalshi": {
+     "ticker": "KXNFLRSHYDS-26NOV05JACBAL-BALDHENRY22-40",
+     "event": "KXNFLRSHYDS-26NOV05JACBAL",
+     "n": 40,
+     "implied_pct": 80
+    },
+    "kalshi_at": "2026-11-05T16:45:01-07:00",
+    "first_seen": "2026-11-05T07:00:01-07:00"
+   },
+   {
+    "id": "2026-11-05:nfl:4360310:passingYards",
+    "sport": "nfl",
+    "event_id": "401873037",
+    "game": "JAX @ BAL",
+    "start_utc": "2026-11-06T01:15:00+00:00",
+    "start_az": "6:15 PM",
+    "athlete_id": "4360310",
+    "player": "Trevor Lawrence",
+    "team": "JAX",
+    "stat": "passingYards",
+    "label": "175+ passing yards",
+    "spread": "JAX -10",
+    "total": 39.5,
+    "line": 174.5,
+    "avg": 241.4,
+    "l5": [
+     210.0,
+     306.0,
+     331.0,
+     227.0,
+     182.0
+    ],
+    "hit_season": 1.0,
+    "hit_l5": 1.0,
+    "games": 7,
+    "score": 82.8,
+    "notes": [
+     "blowout risk (spread +10)"
+    ],
+    "kalshi": {
+     "ticker": "KXNFLPASSYDS-26NOV05JACBAL-JACTLAWRENCE16-175",
+     "event": "KXNFLPASSYDS-26NOV05JACBAL",
+     "n": 175,
+     "implied_pct": 84
+    },
+    "kalshi_at": "2026-11-05T16:45:01-07:00",
+    "first_seen": "2026-11-05T07:00:01-07:00"
+   },
+   {
+    "id": "2026-11-05:nfl:4360310:passingTouchdowns",
+    "sport": "nfl",
+    "event_id": "401873037",
+    "game": "JAX @ BAL",
+    "start_utc": "2026-11-06T01:15:00+00:00",
+    "start_az": "6:15 PM",
+    "athlete_id": "4360310",
+    "player": "Trevor Lawrence",
+    "team": "JAX",
+    "stat": "passingTouchdowns",
+    "label": "1+ passing TDs",
+    "spread": "JAX -10",
+    "total": 39.5,
+    "line": 0.5,
+    "avg": 2.4,
+    "l5": [
+     3.0,
+     4.0,
+     2.0,
+     1.0,
+     3.0
+    ],
+    "hit_season": 0.857,
+    "hit_l5": 1.0,
+    "games": 7,
+    "score": 82.6,
+    "notes": [
+     "blowout risk (spread +10)"
+    ],
+    "kalshi": {
+     "ticker": "KXNFLPASSTDS-26NOV05JACBAL-JACTLAWRENCE16-1",
+     "event": "KXNFLPASSTDS-26NOV05JACBAL",
+     "n": 1,
+     "implied_pct": 86
+    },
+    "kalshi_at": "2026-11-05T16:45:01-07:00",
+    "first_seen": "2026-11-05T07:00:01-07:00"
+   },
+   {
+    "id": "2026-11-05:nfl:4429615:receivingYards",
+    "sport": "nfl",
+    "event_id": "401873037",
+    "game": "JAX @ BAL",
+    "start_utc": "2026-11-06T01:15:00+00:00",
+    "start_az": "6:15 PM",
+    "athlete_id": "4429615",
+    "player": "Zay Flowers",
+    "team": "BAL",
+    "stat": "receivingYards",
+    "label": "15+ receiving yards",
+    "spread": "JAX -10",
+    "total": 39.5,
+    "line": 14.5,
+    "avg": 86.9,
+    "l5": [
+     0.0,
+     137.0,
+     66.0,
+     53.0,
+     118.0
+    ],
+    "hit_season": 0.857,
+    "hit_l5": 0.8,
+    "games": 7,
+    "score": 76.6,
+    "notes": [
+     "blowout risk (spread +10)"
+    ],
+    "kalshi": {
+     "ticker": "KXNFLRECYDS-26NOV05JACBAL-BALZFLOWERS4-15",
+     "event": "KXNFLRECYDS-26NOV05JACBAL",
+     "n": 15,
+     "implied_pct": 90
+    },
+    "kalshi_at": "2026-11-05T16:45:01-07:00",
+    "first_seen": "2026-11-05T07:00:01-07:00"
+   },
+   {
+    "id": "2026-11-05:nfl:4429615:receptions",
+    "sport": "nfl",
+    "event_id": "401873037",
+    "game": "JAX @ BAL",
+    "start_utc": "2026-11-06T01:15:00+00:00",
+    "start_az": "6:15 PM",
+    "athlete_id": "4429615",
+    "player": "Zay Flowers",
+    "team": "BAL",
+    "stat": "receptions",
+    "label": "2+ receptions",
+    "spread": "JAX -10",
+    "total": 39.5,
+    "line": 1.5,
+    "avg": 5.7,
+    "l5": [
+     0.0,
+     8.0,
+     6.0,
+     8.0,
+     8.0
+    ],
+    "hit_season": 0.857,
+    "hit_l5": 0.8,
+    "games": 7,
+    "score": 76.6,
+    "notes": [
+     "blowout risk (spread +10)"
+    ],
+    "kalshi": {
+     "ticker": "KXNFLREC-26NOV05JACBAL-BALZFLOWERS4-2",
+     "event": "KXNFLREC-26NOV05JACBAL",
+     "n": 2,
+     "implied_pct": 92
+    },
+    "kalshi_at": "2026-11-05T16:45:01-07:00",
+    "first_seen": "2026-11-05T07:00:01-07:00"
+   },
+   {
+    "id": "2026-11-05:nfl:4432620:receivingYards",
+    "sport": "nfl",
+    "event_id": "401873037",
+    "game": "JAX @ BAL",
+    "start_utc": "2026-11-06T01:15:00+00:00",
+    "start_az": "6:15 PM",
+    "athlete_id": "4432620",
+    "player": "Parker Washington",
+    "team": "JAX",
+    "stat": "receivingYards",
+    "label": "30+ receiving yards",
+    "spread": "JAX -10",
+    "total": 39.5,
+    "line": 29.5,
+    "avg": 61.7,
+    "l5": [
+     16.0,
+     64.0,
+     124.0,
+     7.0,
+     40.0
+    ],
+    "hit_season": 0.714,
+    "hit_l5": 0.6,
+    "games": 7,
+    "score": 64.1,
+    "notes": [
+     "blowout risk (spread +10)"
+    ],
+    "kalshi": {
+     "ticker": "KXNFLRECYDS-26NOV05JACBAL-JACPWASHINGTON11-30",
+     "event": "KXNFLRECYDS-26NOV05JACBAL",
+     "n": 30,
+     "implied_pct": 82
+    },
+    "kalshi_at": "2026-11-05T16:45:01-07:00",
+    "first_seen": "2026-11-05T07:00:01-07:00"
+   },
+   {
+    "id": "2026-11-05:nfl:4432620:receptions",
+    "sport": "nfl",
+    "event_id": "401873037",
+    "game": "JAX @ BAL",
+    "start_utc": "2026-11-06T01:15:00+00:00",
+    "start_az": "6:15 PM",
+    "athlete_id": "4432620",
+    "player": "Parker Washington",
+    "team": "JAX",
+    "stat": "receptions",
+    "label": "2+ receptions",
+    "spread": "JAX -10",
+    "total": 39.5,
+    "line": 1.5,
+    "avg": 3.9,
+    "l5": [
+     1.0,
+     4.0,
+     6.0,
+     1.0,
+     3.0
+    ],
+    "hit_season": 0.714,
+    "hit_l5": 0.6,
+    "games": 7,
+    "score": 64.1,
+    "notes": [
+     "blowout risk (spread +10)"
+    ],
+    "kalshi": {
+     "ticker": "KXNFLREC-26NOV05JACBAL-JACPWASHINGTON11-2",
+     "event": "KXNFLREC-26NOV05JACBAL",
+     "n": 2,
+     "implied_pct": 90
+    },
+    "kalshi_at": "2026-11-05T16:45:01-07:00",
+    "first_seen": "2026-11-05T07:00:01-07:00"
+   },
+   {
+    "id": "2026-11-05:nfl:4882093:receivingYards",
+    "sport": "nfl",
+    "event_id": "401873037",
+    "game": "JAX @ BAL",
+    "start_utc": "2026-11-06T01:15:00+00:00",
+    "start_az": "6:15 PM",
+    "athlete_id": "4882093",
+    "player": "Bhayshul Tuten",
+    "team": "JAX",
+    "stat": "receivingYards",
+    "label": "10+ receiving yards",
+    "spread": "JAX -10",
+    "total": 39.5,
+    "line": 9.5,
+    "avg": 25.9,
+    "l5": [
+     55.0,
+     48.0,
+     24.0,
+     18.0,
+     17.0
+    ],
+    "hit_season": 0.857,
+    "hit_l5": 1.0,
+    "games": 7,
+    "score": 57.6,
+    "notes": [
+     "injury: Questionable",
+     "blowout risk (spread +10)"
+    ],
+    "kalshi": {
+     "ticker": "KXNFLRECYDS-26NOV05JACBAL-JACBTUTEN33-10",
+     "event": "KXNFLRECYDS-26NOV05JACBAL",
+     "n": 10,
+     "implied_pct": 57
+    },
+    "kalshi_at": "2026-11-05T16:45:01-07:00",
+    "first_seen": "2026-11-05T07:00:01-07:00"
+   },
+   {
+    "id": "2026-11-05:nfl:4360310:rushingYards",
+    "sport": "nfl",
+    "event_id": "401873037",
+    "game": "JAX @ BAL",
+    "start_utc": "2026-11-06T01:15:00+00:00",
+    "start_az": "6:15 PM",
+    "athlete_id": "4360310",
+    "player": "Trevor Lawrence",
+    "team": "JAX",
+    "stat": "rushingYards",
+    "label": "10+ rushing yards",
+    "spread": "JAX -10",
+    "total": 39.5,
+    "line": 9.5,
+    "avg": 11.4,
+    "l5": [
+     10.0,
+     11.0,
+     25.0,
+     0.0,
+     25.0
+    ],
+    "hit_season": 0.571,
+    "hit_l5": 0.8,
+    "games": 7,
+    "score": 55.7,
+    "notes": [
+     "blowout risk (spread +10)"
+    ],
+    "kalshi": {
+     "ticker": "KXNFLRSHYDS-26NOV05JACBAL-JACTLAWRENCE16-10",
+     "event": "KXNFLRSHYDS-26NOV05JACBAL",
+     "n": 10,
+     "implied_pct": 57
+    },
+    "kalshi_at": "2026-11-05T16:45:01-07:00",
+    "first_seen": "2026-11-05T07:00:01-07:00"
+   },
+   {
+    "id": "2026-11-05:nfl:4882093:rushingYards",
+    "sport": "nfl",
+    "event_id": "401873037",
+    "game": "JAX @ BAL",
+    "start_utc": "2026-11-06T01:15:00+00:00",
+    "start_az": "6:15 PM",
+    "athlete_id": "4882093",
+    "player": "Bhayshul Tuten",
+    "team": "JAX",
+    "stat": "rushingYards",
+    "label": "40+ rushing yards",
+    "spread": "JAX -10",
+    "total": 39.5,
+    "line": 39.5,
+    "avg": 70.3,
+    "l5": [
+     104.0,
+     39.0,
+     72.0,
+     73.0,
+     73.0
+    ],
+    "hit_season": 0.857,
+    "hit_l5": 0.8,
+    "games": 7,
+    "score": 49.4,
+    "notes": [
+     "injury: Questionable",
+     "blowout risk (spread +10)"
+    ],
+    "kalshi": {
+     "ticker": "KXNFLRSHYDS-26NOV05JACBAL-JACBTUTEN33-40",
+     "event": "KXNFLRSHYDS-26NOV05JACBAL",
+     "n": 40,
+     "implied_pct": 75
+    },
+    "kalshi_at": "2026-11-05T16:45:01-07:00",
+    "first_seen": "2026-11-05T07:00:01-07:00"
+   },
+   {
+    "id": "2026-11-05:nfl:3043078:receptions",
+    "sport": "nfl",
+    "event_id": "401873037",
+    "game": "JAX @ BAL",
+    "start_utc": "2026-11-06T01:15:00+00:00",
+    "start_az": "6:15 PM",
+    "athlete_id": "3043078",
+    "player": "Derrick Henry",
+    "team": "BAL",
+    "stat": "receptions",
+    "label": "2+ receptions",
+    "spread": "JAX -10",
+    "total": 39.5,
+    "line": 1.5,
+    "avg": 1.5,
+    "l5": [
+     2.0,
+     1.0,
+     1.0,
+     1.0,
+     2.0
+    ],
+    "hit_season": 0.375,
+    "hit_l5": 0.4,
+    "games": 8,
+    "score": 32.9,
+    "notes": [
+     "blowout risk (spread +10)"
+    ],
+    "kalshi": {
+     "ticker": "KXNFLREC-26NOV05JACBAL-BALDHENRY22-2",
+     "event": "KXNFLREC-26NOV05JACBAL",
+     "n": 2,
+     "implied_pct": 44
+    },
+    "kalshi_at": "2026-11-05T16:45:01-07:00",
+    "first_seen": "2026-11-05T07:00:01-07:00"
+   },
+   {
+    "id": "2026-11-05:nfl:3043078:receivingYards",
+    "sport": "nfl",
+    "event_id": "401873037",
+    "game": "JAX @ BAL",
+    "start_utc": "2026-11-06T01:15:00+00:00",
+    "start_az": "6:15 PM",
+    "athlete_id": "3043078",
+    "player": "Derrick Henry",
+    "team": "BAL",
+    "stat": "receivingYards",
+    "label": "10+ receiving yards",
+    "spread": "JAX -10",
+    "total": 39.5,
+    "line": 9.5,
+    "avg": 9.4,
+    "l5": [
+     7.0,
+     4.0,
+     2.0,
+     18.0,
+     6.0
+    ],
+    "hit_season": 0.375,
+    "hit_l5": 0.2,
+    "games": 8,
+    "score": 26.7,
+    "notes": [
+     "blowout risk (spread +10)"
+    ],
+    "kalshi": {
+     "ticker": "KXNFLRECYDS-26NOV05JACBAL-BALDHENRY22-10",
+     "event": "KXNFLRECYDS-26NOV05JACBAL",
+     "n": 10,
+     "implied_pct": 40
+    },
+    "kalshi_at": "2026-11-05T16:45:01-07:00",
+    "first_seen": "2026-11-05T07:00:01-07:00"
+   }
+  ]
+ },
+ "top_note": {
+  "nfl": "No green legs among today's Kalshi player props."
+ }
+}
