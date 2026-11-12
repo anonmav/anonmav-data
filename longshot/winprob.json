@@ -1,5 +1,5 @@
 {
- "updated_az": "2026-11-11T22:09:25-07:00",
+ "updated_az": "2026-11-11T22:11:58-07:00",
  "day": "2026-11-11",
  "sports": {
   "nfl": {
@@ -244,6 +244,18 @@
        "home_pct": 55.2,
        "pm_home": 55.4,
        "n": 10
+      },
+      {
+       "t": "2026-11-11T22:11:39-07:00",
+       "home_pct": 55.2,
+       "pm_home": 55.4,
+       "n": 10
+      },
+      {
+       "t": "2026-11-11T22:11:58-07:00",
+       "home_pct": 55.2,
+       "pm_home": 55.4,
+       "n": 10
       }
      ],
      "move_pts": 0.0,
@@ -263,55 +275,6 @@
         "tier": "yellow",
         "val": 0.1,
         "text": "NYG allows 4.3 yds/carry (+0.10 vs avg), RB share 41% L3, committee"
-       },
-       {
-        "gid": "00-0031588",
-        "name": "Stefon Diggs",
-        "pos": "WR",
-        "tier": "red",
-        "val": 39,
-        "ace": 39,
-        "text": "ACE 39 est. wide right: 51% vs Deonte Banks, 26% vs Greg Newsome II. vs NYG 1 g: 4 tgt, 26 yds, 0 TD",
-        "detail": {
-         "role": "wide right",
-         "split": [
-          {
-           "vs": "Deonte Banks",
-           "pct": 51,
-           "pos": "LCB"
-          },
-          {
-           "vs": "Greg Newsome II",
-           "pct": 26,
-           "pos": "RCB"
-          },
-          {
-           "vs": "Andru Phillips",
-           "pct": 23,
-           "pos": "NB"
-          }
-         ],
-         "ability": {
-          "ypt": 6.2,
-          "ypt_l4": 7.4,
-          "tgt_share": 0.198,
-          "adot": 8.9
-         },
-         "vs_team": {
-          "games": 1,
-          "tgt": 4,
-          "yds": 26,
-          "td": 0
-         },
-         "vs_cb": {
-          "Andru Phillips": {
-           "tgt": 2,
-           "yds": 13
-          }
-         },
-         "matchup": -1.01,
-         "skill": -0.37
-        }
        },
        {
         "gid": "00-0041040",
@@ -364,6 +327,55 @@
          },
          "matchup": -0.76,
          "skill": -0.19
+        }
+       },
+       {
+        "gid": "00-0031588",
+        "name": "Stefon Diggs",
+        "pos": "WR",
+        "tier": "red",
+        "val": 39,
+        "ace": 39,
+        "text": "ACE 39 est. wide right: 51% vs Deonte Banks, 26% vs Greg Newsome II. vs NYG 1 g: 4 tgt, 26 yds, 0 TD",
+        "detail": {
+         "role": "wide right",
+         "split": [
+          {
+           "vs": "Deonte Banks",
+           "pct": 51,
+           "pos": "LCB"
+          },
+          {
+           "vs": "Greg Newsome II",
+           "pct": 26,
+           "pos": "RCB"
+          },
+          {
+           "vs": "Andru Phillips",
+           "pct": 23,
+           "pos": "NB"
+          }
+         ],
+         "ability": {
+          "ypt": 6.2,
+          "ypt_l4": 7.4,
+          "tgt_share": 0.198,
+          "adot": 8.9
+         },
+         "vs_team": {
+          "games": 1,
+          "tgt": 4,
+          "yds": 26,
+          "td": 0
+         },
+         "vs_cb": {
+          "Andru Phillips": {
+           "tgt": 2,
+           "yds": 13
+          }
+         },
+         "matchup": -1.01,
+         "skill": -0.37
         }
        },
        {
@@ -908,6 +920,18 @@
       },
       {
        "t": "2026-11-11T22:09:25-07:00",
+       "home_pct": 58.3,
+       "pm_home": 58.0,
+       "n": 10
+      },
+      {
+       "t": "2026-11-11T22:11:39-07:00",
+       "home_pct": 58.3,
+       "pm_home": 58.0,
+       "n": 10
+      },
+      {
+       "t": "2026-11-11T22:11:58-07:00",
        "home_pct": 58.3,
        "pm_home": 58.0,
        "n": 10
@@ -1543,6 +1567,18 @@
        "home_pct": 37.7,
        "pm_home": 37.3,
        "n": 10
+      },
+      {
+       "t": "2026-11-11T22:11:39-07:00",
+       "home_pct": 37.7,
+       "pm_home": 37.3,
+       "n": 10
+      },
+      {
+       "t": "2026-11-11T22:11:58-07:00",
+       "home_pct": 37.7,
+       "pm_home": 37.3,
+       "n": 10
       }
      ],
      "move_pts": 0.0,
@@ -2165,6 +2201,18 @@
        "home_pct": 33.0,
        "pm_home": 33.3,
        "n": 10
+      },
+      {
+       "t": "2026-11-11T22:11:39-07:00",
+       "home_pct": 33.0,
+       "pm_home": 33.3,
+       "n": 10
+      },
+      {
+       "t": "2026-11-11T22:11:58-07:00",
+       "home_pct": 33.0,
+       "pm_home": 33.3,
+       "n": 10
       }
      ],
      "move_pts": 0.0,
@@ -2284,47 +2332,47 @@
         }
        },
        {
-        "gid": "00-0038608",
-        "name": "Kayshon Boutte",
+        "gid": "00-0039849",
+        "name": "Marvin Harrison Jr.",
         "pos": "WR",
-        "tier": "green",
-        "val": 72,
-        "ace": 72,
-        "text": "ACE 72 est. wide left: 45% vs Tyson Campbell, 31% vs Denzel Ward. vs CLE 1 g: 5 tgt, 75 yds, 1 TD",
+        "tier": "red",
+        "val": 39,
+        "ace": 39,
+        "text": "ACE 39 est. wide left: 50% vs Tyson Campbell, 26% vs Myles Harden",
         "detail": {
          "role": "wide left",
          "split": [
           {
            "vs": "Tyson Campbell",
-           "pct": 45,
+           "pct": 50,
            "pos": "RCB"
           },
           {
-           "vs": "Denzel Ward",
-           "pct": 31,
-           "pos": "LCB"
+           "vs": "Myles Harden",
+           "pct": 26,
+           "pos": "NB"
           },
           {
-           "vs": "Myles Harden",
+           "vs": "Denzel Ward",
            "pct": 24,
-           "pos": "NB"
+           "pos": "LCB"
           }
          ],
          "ability": {
-          "ypt": 11.4,
-          "ypt_l4": 16.6,
-          "tgt_share": 0.104,
-          "adot": 13.2
+          "ypt": 6.0,
+          "ypt_l4": 5.5,
+          "tgt_share": 0.041,
+          "adot": 15.4
          },
          "vs_team": {
-          "games": 1,
-          "tgt": 5,
-          "yds": 75,
-          "td": 1
+          "games": 0,
+          "tgt": 0,
+          "yds": 0,
+          "td": 0
          },
          "vs_cb": {},
-         "matchup": 0.23,
-         "skill": 2.37
+         "matchup": 0.39,
+         "skill": -1.75
         }
        },
        {
@@ -2794,6 +2842,18 @@
       },
       {
        "t": "2026-11-11T22:09:25-07:00",
+       "home_pct": 59.8,
+       "pm_home": 60.0,
+       "n": 10
+      },
+      {
+       "t": "2026-11-11T22:11:39-07:00",
+       "home_pct": 59.8,
+       "pm_home": 60.0,
+       "n": 10
+      },
+      {
+       "t": "2026-11-11T22:11:58-07:00",
        "home_pct": 59.8,
        "pm_home": 60.0,
        "n": 10
@@ -3451,6 +3511,18 @@
        "home_pct": 17.9,
        "pm_home": 16.8,
        "n": 10
+      },
+      {
+       "t": "2026-11-11T22:11:39-07:00",
+       "home_pct": 17.9,
+       "pm_home": 16.8,
+       "n": 10
+      },
+      {
+       "t": "2026-11-11T22:11:58-07:00",
+       "home_pct": 17.9,
+       "pm_home": 16.8,
+       "n": 10
       }
      ],
      "move_pts": 0.0,
@@ -4083,6 +4155,18 @@
        "home_pct": 64.5,
        "pm_home": 65.3,
        "n": 10
+      },
+      {
+       "t": "2026-11-11T22:11:39-07:00",
+       "home_pct": 64.5,
+       "pm_home": 65.3,
+       "n": 10
+      },
+      {
+       "t": "2026-11-11T22:11:58-07:00",
+       "home_pct": 64.5,
+       "pm_home": 65.3,
+       "n": 10
       }
      ],
      "move_pts": 0.0,
@@ -4102,50 +4186,6 @@
         "tier": "green",
         "val": 0.5,
         "text": "IND allows 4.81 yds/carry (+0.50 vs avg), RB share 68% L3"
-       },
-       {
-        "gid": "00-0039880",
-        "name": "Malik Washington",
-        "pos": "WR",
-        "tier": "yellow",
-        "val": 55,
-        "ace": 55,
-        "text": "ACE 55 est. wide left: 51% vs Charvarius Ward, 30% vs Sauce Gardner. vs IND 1 g: 5 tgt, 20 yds, 0 TD",
-        "detail": {
-         "role": "wide left",
-         "split": [
-          {
-           "vs": "Charvarius Ward",
-           "pct": 51,
-           "pos": "RCB"
-          },
-          {
-           "vs": "Sauce Gardner",
-           "pct": 30,
-           "pos": "LCB"
-          },
-          {
-           "vs": "Kapena Gushiken",
-           "pct": 19,
-           "pos": "NB"
-          }
-         ],
-         "ability": {
-          "ypt": 7.3,
-          "ypt_l4": 7.3,
-          "tgt_share": 0.24,
-          "adot": 10.5
-         },
-         "vs_team": {
-          "games": 1,
-          "tgt": 5,
-          "yds": 20,
-          "td": 0
-         },
-         "vs_cb": {},
-         "matchup": 0.17,
-         "skill": 0.38
-        }
        },
        {
         "gid": "00-0041523",
@@ -4189,6 +4229,50 @@
          "vs_cb": {},
          "matchup": 0.57,
          "skill": 1.34
+        }
+       },
+       {
+        "gid": "00-0039880",
+        "name": "Malik Washington",
+        "pos": "WR",
+        "tier": "yellow",
+        "val": 55,
+        "ace": 55,
+        "text": "ACE 55 est. wide left: 51% vs Charvarius Ward, 30% vs Sauce Gardner. vs IND 1 g: 5 tgt, 20 yds, 0 TD",
+        "detail": {
+         "role": "wide left",
+         "split": [
+          {
+           "vs": "Charvarius Ward",
+           "pct": 51,
+           "pos": "RCB"
+          },
+          {
+           "vs": "Sauce Gardner",
+           "pct": 30,
+           "pos": "LCB"
+          },
+          {
+           "vs": "Kapena Gushiken",
+           "pct": 19,
+           "pos": "NB"
+          }
+         ],
+         "ability": {
+          "ypt": 7.3,
+          "ypt_l4": 7.3,
+          "tgt_share": 0.24,
+          "adot": 10.5
+         },
+         "vs_team": {
+          "games": 1,
+          "tgt": 5,
+          "yds": 20,
+          "td": 0
+         },
+         "vs_cb": {},
+         "matchup": 0.17,
+         "skill": 0.38
         }
        },
        {
@@ -4702,6 +4786,18 @@
       },
       {
        "t": "2026-11-11T22:09:25-07:00",
+       "home_pct": 55.4,
+       "pm_home": 55.4,
+       "n": 10
+      },
+      {
+       "t": "2026-11-11T22:11:39-07:00",
+       "home_pct": 55.4,
+       "pm_home": 55.4,
+       "n": 10
+      },
+      {
+       "t": "2026-11-11T22:11:58-07:00",
        "home_pct": 55.4,
        "pm_home": 55.4,
        "n": 10
@@ -5370,6 +5466,18 @@
        "home_pct": 21.4,
        "pm_home": 19.2,
        "n": 10
+      },
+      {
+       "t": "2026-11-11T22:11:39-07:00",
+       "home_pct": 21.4,
+       "pm_home": 19.2,
+       "n": 10
+      },
+      {
+       "t": "2026-11-11T22:11:58-07:00",
+       "home_pct": 21.4,
+       "pm_home": 19.2,
+       "n": 10
       }
      ],
      "move_pts": 0.0,
@@ -5435,50 +5543,6 @@
         }
        },
        {
-        "gid": "00-0034827",
-        "name": "DJ Moore",
-        "pos": "WR",
-        "tier": "yellow",
-        "val": 50,
-        "ace": 50,
-        "text": "ACE 50 est. wide left: 50% vs Brandon Stephens, 28% vs Azareye'h Thomas",
-        "detail": {
-         "role": "wide left",
-         "split": [
-          {
-           "vs": "Brandon Stephens",
-           "pct": 50,
-           "pos": "RCB"
-          },
-          {
-           "vs": "Azareye'h Thomas",
-           "pct": 28,
-           "pos": "LCB"
-          },
-          {
-           "vs": "Jarvis Brownlee Jr.",
-           "pct": 22,
-           "pos": "NB"
-          }
-         ],
-         "ability": {
-          "ypt": 8.9,
-          "ypt_l4": 8.9,
-          "tgt_share": 0.144,
-          "adot": 15.7
-         },
-         "vs_team": {
-          "games": 0,
-          "tgt": 0,
-          "yds": 0,
-          "td": 0
-         },
-         "vs_cb": {},
-         "matchup": -0.53,
-         "skill": 0.51
-        }
-       },
-       {
         "gid": "00-0039901",
         "name": "Keon Coleman",
         "pos": "WR",
@@ -5525,6 +5589,50 @@
          },
          "matchup": -0.54,
          "skill": 0.12
+        }
+       },
+       {
+        "gid": "00-0034827",
+        "name": "DJ Moore",
+        "pos": "WR",
+        "tier": "yellow",
+        "val": 50,
+        "ace": 50,
+        "text": "ACE 50 est. wide left: 50% vs Brandon Stephens, 28% vs Azareye'h Thomas",
+        "detail": {
+         "role": "wide left",
+         "split": [
+          {
+           "vs": "Brandon Stephens",
+           "pct": 50,
+           "pos": "RCB"
+          },
+          {
+           "vs": "Azareye'h Thomas",
+           "pct": 28,
+           "pos": "LCB"
+          },
+          {
+           "vs": "Jarvis Brownlee Jr.",
+           "pct": 22,
+           "pos": "NB"
+          }
+         ],
+         "ability": {
+          "ypt": 8.9,
+          "ypt_l4": 8.9,
+          "tgt_share": 0.144,
+          "adot": 15.7
+         },
+         "vs_team": {
+          "games": 0,
+          "tgt": 0,
+          "yds": 0,
+          "td": 0
+         },
+         "vs_cb": {},
+         "matchup": -0.53,
+         "skill": 0.51
         }
        },
        {
@@ -5589,6 +5697,50 @@
         "text": "BUF allows 3.79 yds/carry (-0.28 vs avg), RB share 58% L3, committee"
        },
        {
+        "gid": "00-0041511",
+        "name": "Omar Cooper Jr.",
+        "pos": "WR",
+        "tier": "yellow",
+        "val": 59,
+        "ace": 59,
+        "text": "ACE 59 est. slot: 39% vs Dee Alford, 34% vs Christian Benford",
+        "detail": {
+         "role": "slot",
+         "split": [
+          {
+           "vs": "Dee Alford",
+           "pct": 39,
+           "pos": "NB"
+          },
+          {
+           "vs": "Christian Benford",
+           "pct": 34,
+           "pos": "LCB"
+          },
+          {
+           "vs": "Davison Igbinosun",
+           "pct": 26,
+           "pos": "RCB"
+          }
+         ],
+         "ability": {
+          "ypt": 12.8,
+          "ypt_l4": 12.0,
+          "tgt_share": 0.093,
+          "adot": 6.9
+         },
+         "vs_team": {
+          "games": 0,
+          "tgt": 0,
+          "yds": 0,
+          "td": 0
+         },
+         "vs_cb": {},
+         "matchup": -0.48,
+         "skill": 1.62
+        }
+       },
+       {
         "gid": "00-0039890",
         "name": "Adonai Mitchell",
         "pos": "WR",
@@ -5635,50 +5787,6 @@
          },
          "matchup": -0.49,
          "skill": -0.23
-        }
-       },
-       {
-        "gid": "00-0041511",
-        "name": "Omar Cooper Jr.",
-        "pos": "WR",
-        "tier": "yellow",
-        "val": 59,
-        "ace": 59,
-        "text": "ACE 59 est. slot: 39% vs Dee Alford, 34% vs Christian Benford",
-        "detail": {
-         "role": "slot",
-         "split": [
-          {
-           "vs": "Dee Alford",
-           "pct": 39,
-           "pos": "NB"
-          },
-          {
-           "vs": "Christian Benford",
-           "pct": 34,
-           "pos": "LCB"
-          },
-          {
-           "vs": "Davison Igbinosun",
-           "pct": 26,
-           "pos": "RCB"
-          }
-         ],
-         "ability": {
-          "ypt": 12.8,
-          "ypt_l4": 12.0,
-          "tgt_share": 0.093,
-          "adot": 6.9
-         },
-         "vs_team": {
-          "games": 0,
-          "tgt": 0,
-          "yds": 0,
-          "td": 0
-         },
-         "vs_cb": {},
-         "matchup": -0.48,
-         "skill": 1.62
         }
        },
        {
@@ -6007,6 +6115,18 @@
        "home_pct": 28.2,
        "pm_home": 27.7,
        "n": 10
+      },
+      {
+       "t": "2026-11-11T22:11:39-07:00",
+       "home_pct": 28.2,
+       "pm_home": 27.7,
+       "n": 10
+      },
+      {
+       "t": "2026-11-11T22:11:58-07:00",
+       "home_pct": 28.2,
+       "pm_home": 27.7,
+       "n": 10
       }
      ],
      "move_pts": 0.0,
@@ -6220,21 +6340,21 @@
         "name": "Tre Tucker",
         "pos": "WR",
         "tier": "yellow",
-        "val": 50,
-        "ace": 50,
-        "text": "ACE 50 est. wide right: 47% vs Devon Witherspoon, 32% vs Nehemiah Pritchett",
+        "val": 51,
+        "ace": 51,
+        "text": "ACE 51 est. wide left: 52% vs Nehemiah Pritchett, 27% vs Devon Witherspoon",
         "detail": {
-         "role": "wide right",
+         "role": "wide left",
          "split": [
           {
-           "vs": "Devon Witherspoon",
-           "pct": 47,
-           "pos": "LCB"
+           "vs": "Nehemiah Pritchett",
+           "pct": 52,
+           "pos": "RCB"
           },
           {
-           "vs": "Nehemiah Pritchett",
-           "pct": 32,
-           "pos": "RCB"
+           "vs": "Devon Witherspoon",
+           "pct": 27,
+           "pos": "LCB"
           },
           {
            "vs": "Josh Jobe",
@@ -6255,7 +6375,7 @@
           "td": 0
          },
          "vs_cb": {},
-         "matchup": -1.32,
+         "matchup": -1.23,
          "skill": 1.32
         }
        },
@@ -6264,26 +6384,26 @@
         "name": "Jalen Nailor",
         "pos": "WR",
         "tier": "red",
-        "val": 23,
-        "ace": 23,
-        "text": "ACE 23 est. slot: 43% vs Josh Jobe, 32% vs Devon Witherspoon. vs SEA 1 g: 1 tgt, 0 yds, 0 TD",
+        "val": 21,
+        "ace": 21,
+        "text": "ACE 21 est. wide right: 52% vs Devon Witherspoon, 25% vs Nehemiah Pritchett. vs SEA 1 g: 1 tgt, 0 yds, 0 TD",
         "detail": {
-         "role": "slot",
+         "role": "wide right",
          "split": [
           {
-           "vs": "Josh Jobe",
-           "pct": 43,
-           "pos": "NB"
-          },
-          {
            "vs": "Devon Witherspoon",
-           "pct": 32,
+           "pct": 52,
            "pos": "LCB"
           },
           {
            "vs": "Nehemiah Pritchett",
            "pct": 25,
            "pos": "RCB"
+          },
+          {
+           "vs": "Josh Jobe",
+           "pct": 23,
+           "pos": "NB"
           }
          ],
          "ability": {
@@ -6299,42 +6419,42 @@
           "td": 0
          },
          "vs_cb": {},
-         "matchup": -1.09,
+         "matchup": -1.26,
          "skill": -2.19
         }
        },
        {
-        "gid": "00-0035891",
-        "name": "Cody White",
+        "gid": "00-0040729",
+        "name": "Jack Bech",
         "pos": "WR",
         "tier": "red",
-        "val": 23,
-        "ace": 23,
-        "text": "ACE 23 est. wide left: 56% vs Nehemiah Pritchett, 25% vs Devon Witherspoon",
+        "val": 31,
+        "ace": 31,
+        "text": "ACE 31 est. slot: 44% vs Josh Jobe, 33% vs Nehemiah Pritchett",
         "detail": {
-         "role": "wide left",
+         "role": "slot",
          "split": [
           {
+           "vs": "Josh Jobe",
+           "pct": 44,
+           "pos": "NB"
+          },
+          {
            "vs": "Nehemiah Pritchett",
-           "pct": 56,
+           "pct": 33,
            "pos": "RCB"
           },
           {
            "vs": "Devon Witherspoon",
-           "pct": 25,
+           "pct": 23,
            "pos": "LCB"
-          },
-          {
-           "vs": "Josh Jobe",
-           "pct": 19,
-           "pos": "NB"
           }
          ],
          "ability": {
-          "ypt": 5.9,
-          "ypt_l4": 0.8,
-          "tgt_share": 0.061,
-          "adot": 9.5
+          "ypt": 7.1,
+          "ypt_l4": 4.5,
+          "tgt_share": 0.026,
+          "adot": 5.9
          },
          "vs_team": {
           "games": 0,
@@ -6343,8 +6463,8 @@
           "td": 0
          },
          "vs_cb": {},
-         "matchup": -1.08,
-         "skill": -2.21
+         "matchup": -0.95,
+         "skill": -1.28
         }
        },
        {
@@ -6626,6 +6746,18 @@
       },
       {
        "t": "2026-11-11T22:09:25-07:00",
+       "home_pct": 20.3,
+       "pm_home": 20.6,
+       "n": 10
+      },
+      {
+       "t": "2026-11-11T22:11:39-07:00",
+       "home_pct": 20.3,
+       "pm_home": 20.6,
+       "n": 10
+      },
+      {
+       "t": "2026-11-11T22:11:58-07:00",
        "home_pct": 20.3,
        "pm_home": 20.6,
        "n": 10
@@ -7274,6 +7406,18 @@
        "home_pct": 35.0,
        "pm_home": 34.3,
        "n": 10
+      },
+      {
+       "t": "2026-11-11T22:11:39-07:00",
+       "home_pct": 35.0,
+       "pm_home": 34.3,
+       "n": 10
+      },
+      {
+       "t": "2026-11-11T22:11:58-07:00",
+       "home_pct": 35.0,
+       "pm_home": 34.3,
+       "n": 10
       }
      ],
      "move_pts": 0.0,
@@ -7339,50 +7483,6 @@
         }
        },
        {
-        "gid": "00-0039365",
-        "name": "Jacob Cowing",
-        "pos": "WR",
-        "tier": "red",
-        "val": 35,
-        "ace": 35,
-        "text": "ACE 35 est. wide right: 49% vs Cobie Durant, 31% vs Joey Porter Jr",
-        "detail": {
-         "role": "wide right",
-         "split": [
-          {
-           "vs": "Cobie Durant",
-           "pct": 49,
-           "pos": "LCB"
-          },
-          {
-           "vs": "Joey Porter Jr.",
-           "pct": 31,
-           "pos": "RCB"
-          },
-          {
-           "vs": "DaRon Bland",
-           "pct": 20,
-           "pos": "NB"
-          }
-         ],
-         "ability": {
-          "ypt": 4.7,
-          "ypt_l4": 7.2,
-          "tgt_share": 0.048,
-          "adot": 12.1
-         },
-         "vs_team": {
-          "games": 0,
-          "tgt": 0,
-          "yds": 0,
-          "td": 0
-         },
-         "vs_cb": {},
-         "matchup": -0.49,
-         "skill": -1.31
-        }
-       },
-       {
         "gid": "00-0031236",
         "name": "Brandin Cooks",
         "pos": "WR",
@@ -7429,6 +7529,55 @@
          },
          "matchup": -0.34,
          "skill": -1.13
+        }
+       },
+       {
+        "gid": "00-0032775",
+        "name": "Demarcus Robinson",
+        "pos": "WR",
+        "tier": "yellow",
+        "val": 41,
+        "ace": 41,
+        "text": "ACE 41 est. wide right: 50% vs Cobie Durant, 32% vs Joey Porter Jr",
+        "detail": {
+         "role": "wide right",
+         "split": [
+          {
+           "vs": "Cobie Durant",
+           "pct": 50,
+           "pos": "LCB"
+          },
+          {
+           "vs": "Joey Porter Jr.",
+           "pct": 32,
+           "pos": "RCB"
+          },
+          {
+           "vs": "DaRon Bland",
+           "pct": 19,
+           "pos": "NB"
+          }
+         ],
+         "ability": {
+          "ypt": 10.6,
+          "ypt_l4": 5.5,
+          "tgt_share": 0.044,
+          "adot": 10.7
+         },
+         "vs_team": {
+          "games": 0,
+          "tgt": 0,
+          "yds": 0,
+          "td": 0
+         },
+         "vs_cb": {
+          "Cobie Durant": {
+           "tgt": 3,
+           "yds": 27
+          }
+         },
+         "matchup": -0.49,
+         "skill": -0.59
         }
        },
        {
@@ -7532,50 +7681,6 @@
         }
        },
        {
-        "gid": "00-0037247",
-        "name": "George Pickens",
-        "pos": "WR",
-        "tier": "yellow",
-        "val": 50,
-        "ace": 50,
-        "text": "ACE 50 est. wide left: 55% vs Deommodore Lenoir, 29% vs Renardo Green",
-        "detail": {
-         "role": "wide left",
-         "split": [
-          {
-           "vs": "Deommodore Lenoir",
-           "pct": 55,
-           "pos": "RCB"
-          },
-          {
-           "vs": "Renardo Green",
-           "pct": 29,
-           "pos": "LCB"
-          },
-          {
-           "vs": "Upton Stout",
-           "pct": 16,
-           "pos": "NB"
-          }
-         ],
-         "ability": {
-          "ypt": 8.6,
-          "ypt_l4": 8.5,
-          "tgt_share": 0.189,
-          "adot": 11.6
-         },
-         "vs_team": {
-          "games": 0,
-          "tgt": 0,
-          "yds": 0,
-          "td": 0
-         },
-         "vs_cb": {},
-         "matchup": -0.72,
-         "skill": 0.76
-        }
-       },
-       {
         "gid": "00-0039410",
         "name": "Ryan Flournoy",
         "pos": "WR",
@@ -7617,6 +7722,50 @@
          "vs_cb": {},
          "matchup": -0.74,
          "skill": 0.68
+        }
+       },
+       {
+        "gid": "00-0037247",
+        "name": "George Pickens",
+        "pos": "WR",
+        "tier": "yellow",
+        "val": 50,
+        "ace": 50,
+        "text": "ACE 50 est. wide left: 55% vs Deommodore Lenoir, 29% vs Renardo Green",
+        "detail": {
+         "role": "wide left",
+         "split": [
+          {
+           "vs": "Deommodore Lenoir",
+           "pct": 55,
+           "pos": "RCB"
+          },
+          {
+           "vs": "Renardo Green",
+           "pct": 29,
+           "pos": "LCB"
+          },
+          {
+           "vs": "Upton Stout",
+           "pct": 16,
+           "pos": "NB"
+          }
+         ],
+         "ability": {
+          "ypt": 8.6,
+          "ypt_l4": 8.5,
+          "tgt_share": 0.189,
+          "adot": 11.6
+         },
+         "vs_team": {
+          "games": 0,
+          "tgt": 0,
+          "yds": 0,
+          "td": 0
+         },
+         "vs_cb": {},
+         "matchup": -0.72,
+         "skill": 0.76
         }
        },
        {
@@ -7901,6 +8050,18 @@
        "home_pct": 62.6,
        "pm_home": 62.7,
        "n": 10
+      },
+      {
+       "t": "2026-11-11T22:11:39-07:00",
+       "home_pct": 62.6,
+       "pm_home": 62.7,
+       "n": 10
+      },
+      {
+       "t": "2026-11-11T22:11:58-07:00",
+       "home_pct": 62.6,
+       "pm_home": 62.7,
+       "n": 10
       }
      ],
      "move_pts": 0.0,
@@ -7928,19 +8089,19 @@
         "tier": "red",
         "val": 38,
         "ace": 38,
-        "text": "ACE 38 est. wide right: 50% vs Josh Newton, 31% vs DJ Turner II. vs CIN 3 g: 18 tgt, 130 yds, 1 TD",
+        "text": "ACE 38 est. wide left: 51% vs DJ Turner II, 30% vs Josh Newton. vs CIN 3 g: 18 tgt, 130 yds, 1 TD",
         "detail": {
-         "role": "wide right",
+         "role": "wide left",
          "split": [
           {
-           "vs": "Josh Newton",
-           "pct": 50,
-           "pos": "LCB"
+           "vs": "DJ Turner II",
+           "pct": 51,
+           "pos": "RCB"
           },
           {
-           "vs": "DJ Turner II",
-           "pct": 31,
-           "pos": "RCB"
+           "vs": "Josh Newton",
+           "pct": 30,
+           "pos": "LCB"
           },
           {
            "vs": "Daxton Hill",
@@ -8015,47 +8176,47 @@
         }
        },
        {
-        "gid": "00-0036862",
-        "name": "Ben Skowronek",
+        "gid": "00-0036775",
+        "name": "Brandon Smith",
         "pos": "WR",
         "tier": "red",
-        "val": 37,
-        "ace": 37,
-        "text": "ACE 37 est. wide left: 51% vs DJ Turner II, 28% vs Josh Newton. vs CIN 1 g: 1 tgt, 23 yds, 1 TD",
+        "val": 39,
+        "ace": 39,
+        "text": "ACE 39 est. wide right: 50% vs Josh Newton, 27% vs DJ Turner II",
         "detail": {
-         "role": "wide left",
+         "role": "wide right",
          "split": [
           {
-           "vs": "DJ Turner II",
-           "pct": 51,
-           "pos": "RCB"
-          },
-          {
            "vs": "Josh Newton",
-           "pct": 28,
+           "pct": 50,
            "pos": "LCB"
           },
           {
+           "vs": "DJ Turner II",
+           "pct": 27,
+           "pos": "RCB"
+          },
+          {
            "vs": "Daxton Hill",
-           "pct": 21,
+           "pct": 23,
            "pos": "NB"
           }
          ],
          "ability": {
-          "ypt": 8.0,
-          "ypt_l4": 8.0,
-          "tgt_share": 0.015,
-          "adot": 7.2
+          "ypt": 12.0,
+          "ypt_l4": 12.0,
+          "tgt_share": 0.007,
+          "adot": 9.0
          },
          "vs_team": {
-          "games": 1,
-          "tgt": 1,
-          "yds": 23,
-          "td": 1
+          "games": 0,
+          "tgt": 0,
+          "yds": 0,
+          "td": 0
          },
          "vs_cb": {},
          "matchup": -0.61,
-         "skill": -0.95
+         "skill": -0.75
         }
        },
        {
@@ -8551,6 +8712,18 @@
        "home_pct": 65.3,
        "pm_home": 66.0,
        "n": 10
+      },
+      {
+       "t": "2026-11-11T22:11:39-07:00",
+       "home_pct": 65.3,
+       "pm_home": 66.0,
+       "n": 10
+      },
+      {
+       "t": "2026-11-11T22:11:58-07:00",
+       "home_pct": 65.3,
+       "pm_home": 66.0,
+       "n": 10
       }
      ],
      "move_pts": 0.0,
@@ -8570,50 +8743,6 @@
         "tier": "red",
         "val": -0.45,
         "text": "BAL allows 3.59 yds/carry (-0.45 vs avg), RB share 34% L3, committee"
-       },
-       {
-        "gid": "00-0040727",
-        "name": "Tre Harris",
-        "pos": "WR",
-        "tier": "yellow",
-        "val": 44,
-        "ace": 44,
-        "text": "ACE 44 est. wide right: 54% vs Nate Wiggins, 28% vs Chidobe Awuzie",
-        "detail": {
-         "role": "wide right",
-         "split": [
-          {
-           "vs": "Nate Wiggins",
-           "pct": 54,
-           "pos": "LCB"
-          },
-          {
-           "vs": "Chidobe Awuzie",
-           "pct": 28,
-           "pos": "RCB"
-          },
-          {
-           "vs": "Marlon Humphrey",
-           "pct": 18,
-           "pos": "NB"
-          }
-         ],
-         "ability": {
-          "ypt": 7.5,
-          "ypt_l4": 3.7,
-          "tgt_share": 0.15,
-          "adot": 10.7
-         },
-         "vs_team": {
-          "games": 0,
-          "tgt": 0,
-          "yds": 0,
-          "td": 0
-         },
-         "vs_cb": {},
-         "matchup": 0.32,
-         "skill": -1.01
-        }
        },
        {
         "gid": "00-0038544",
@@ -8657,6 +8786,50 @@
          "vs_cb": {},
          "matchup": 0.47,
          "skill": 1.28
+        }
+       },
+       {
+        "gid": "00-0040727",
+        "name": "Tre Harris",
+        "pos": "WR",
+        "tier": "yellow",
+        "val": 44,
+        "ace": 44,
+        "text": "ACE 44 est. wide right: 54% vs Nate Wiggins, 28% vs Chidobe Awuzie",
+        "detail": {
+         "role": "wide right",
+         "split": [
+          {
+           "vs": "Nate Wiggins",
+           "pct": 54,
+           "pos": "LCB"
+          },
+          {
+           "vs": "Chidobe Awuzie",
+           "pct": 28,
+           "pos": "RCB"
+          },
+          {
+           "vs": "Marlon Humphrey",
+           "pct": 18,
+           "pos": "NB"
+          }
+         ],
+         "ability": {
+          "ypt": 7.5,
+          "ypt_l4": 3.7,
+          "tgt_share": 0.15,
+          "adot": 10.7
+         },
+         "vs_team": {
+          "games": 0,
+          "tgt": 0,
+          "yds": 0,
+          "td": 0
+         },
+         "vs_cb": {},
+         "matchup": 0.32,
+         "skill": -1.01
         }
        },
        {
@@ -9164,6 +9337,18 @@
        "home_pct": 77.5,
        "pm_home": null,
        "n": 9
+      },
+      {
+       "t": "2026-11-11T22:11:39-07:00",
+       "home_pct": 77.5,
+       "pm_home": null,
+       "n": 9
+      },
+      {
+       "t": "2026-11-11T22:11:58-07:00",
+       "home_pct": 77.5,
+       "pm_home": null,
+       "n": 9
       }
      ],
      "move_pts": 0.1,
@@ -9461,6 +9646,18 @@
        "home_pct": 22.7,
        "pm_home": null,
        "n": 9
+      },
+      {
+       "t": "2026-11-11T22:11:39-07:00",
+       "home_pct": 22.7,
+       "pm_home": null,
+       "n": 9
+      },
+      {
+       "t": "2026-11-11T22:11:58-07:00",
+       "home_pct": 22.7,
+       "pm_home": null,
+       "n": 9
       }
      ],
      "move_pts": 0.3,
@@ -9738,6 +9935,18 @@
        "home_pct": 65.8,
        "pm_home": null,
        "n": 9
+      },
+      {
+       "t": "2026-11-11T22:11:39-07:00",
+       "home_pct": 65.8,
+       "pm_home": null,
+       "n": 9
+      },
+      {
+       "t": "2026-11-11T22:11:58-07:00",
+       "home_pct": 65.8,
+       "pm_home": null,
+       "n": 9
       }
      ],
      "move_pts": 0.8,
@@ -10012,6 +10221,18 @@
       },
       {
        "t": "2026-11-11T22:09:25-07:00",
+       "home_pct": 68.1,
+       "pm_home": null,
+       "n": 9
+      },
+      {
+       "t": "2026-11-11T22:11:39-07:00",
+       "home_pct": 68.1,
+       "pm_home": null,
+       "n": 9
+      },
+      {
+       "t": "2026-11-11T22:11:58-07:00",
        "home_pct": 68.1,
        "pm_home": null,
        "n": 9
@@ -10307,6 +10528,18 @@
        "home_pct": 28.2,
        "pm_home": null,
        "n": 9
+      },
+      {
+       "t": "2026-11-11T22:11:39-07:00",
+       "home_pct": 28.2,
+       "pm_home": null,
+       "n": 9
+      },
+      {
+       "t": "2026-11-11T22:11:58-07:00",
+       "home_pct": 28.2,
+       "pm_home": null,
+       "n": 9
       }
      ],
      "move_pts": 0.0,
@@ -10589,6 +10822,18 @@
        "home_pct": 53.1,
        "pm_home": null,
        "n": 9
+      },
+      {
+       "t": "2026-11-11T22:11:39-07:00",
+       "home_pct": 53.1,
+       "pm_home": null,
+       "n": 9
+      },
+      {
+       "t": "2026-11-11T22:11:58-07:00",
+       "home_pct": 53.1,
+       "pm_home": null,
+       "n": 9
       }
      ],
      "move_pts": 0.0,
@@ -10850,6 +11095,18 @@
       },
       {
        "t": "2026-11-11T22:09:25-07:00",
+       "home_pct": 39.6,
+       "pm_home": null,
+       "n": 9
+      },
+      {
+       "t": "2026-11-11T22:11:39-07:00",
+       "home_pct": 39.6,
+       "pm_home": null,
+       "n": 9
+      },
+      {
+       "t": "2026-11-11T22:11:58-07:00",
        "home_pct": 39.6,
        "pm_home": null,
        "n": 9
@@ -11117,6 +11374,18 @@
        "home_pct": 47.6,
        "pm_home": null,
        "n": 9
+      },
+      {
+       "t": "2026-11-11T22:11:39-07:00",
+       "home_pct": 47.6,
+       "pm_home": null,
+       "n": 9
+      },
+      {
+       "t": "2026-11-11T22:11:58-07:00",
+       "home_pct": 47.6,
+       "pm_home": null,
+       "n": 9
       }
      ],
      "move_pts": 0.0,
@@ -11381,6 +11650,18 @@
        "home_pct": 57.4,
        "pm_home": null,
        "n": 9
+      },
+      {
+       "t": "2026-11-11T22:11:39-07:00",
+       "home_pct": 57.4,
+       "pm_home": null,
+       "n": 9
+      },
+      {
+       "t": "2026-11-11T22:11:58-07:00",
+       "home_pct": 57.4,
+       "pm_home": null,
+       "n": 9
       }
      ],
      "move_pts": 0.0,
@@ -11642,6 +11923,18 @@
       },
       {
        "t": "2026-11-11T22:09:25-07:00",
+       "home_pct": 48.7,
+       "pm_home": null,
+       "n": 9
+      },
+      {
+       "t": "2026-11-11T22:11:39-07:00",
+       "home_pct": 48.7,
+       "pm_home": null,
+       "n": 9
+      },
+      {
+       "t": "2026-11-11T22:11:58-07:00",
        "home_pct": 48.7,
        "pm_home": null,
        "n": 9
@@ -11918,6 +12211,18 @@
        "home_pct": 61.1,
        "pm_home": null,
        "n": 9
+      },
+      {
+       "t": "2026-11-11T22:11:39-07:00",
+       "home_pct": 61.1,
+       "pm_home": null,
+       "n": 9
+      },
+      {
+       "t": "2026-11-11T22:11:58-07:00",
+       "home_pct": 61.1,
+       "pm_home": null,
+       "n": 9
       }
      ],
      "move_pts": 0.0,
@@ -12188,6 +12493,18 @@
       },
       {
        "t": "2026-11-11T22:09:25-07:00",
+       "home_pct": 42.6,
+       "pm_home": null,
+       "n": 9
+      },
+      {
+       "t": "2026-11-11T22:11:39-07:00",
+       "home_pct": 42.6,
+       "pm_home": null,
+       "n": 9
+      },
+      {
+       "t": "2026-11-11T22:11:58-07:00",
        "home_pct": 42.6,
        "pm_home": null,
        "n": 9
@@ -12464,6 +12781,18 @@
        "home_pct": 62.1,
        "pm_home": null,
        "n": 9
+      },
+      {
+       "t": "2026-11-11T22:11:39-07:00",
+       "home_pct": 62.1,
+       "pm_home": null,
+       "n": 9
+      },
+      {
+       "t": "2026-11-11T22:11:58-07:00",
+       "home_pct": 62.1,
+       "pm_home": null,
+       "n": 9
       }
      ],
      "move_pts": 0.0,
@@ -12737,6 +13066,18 @@
        "home_pct": 53.7,
        "pm_home": null,
        "n": 9
+      },
+      {
+       "t": "2026-11-11T22:11:39-07:00",
+       "home_pct": 53.7,
+       "pm_home": null,
+       "n": 9
+      },
+      {
+       "t": "2026-11-11T22:11:58-07:00",
+       "home_pct": 53.7,
+       "pm_home": null,
+       "n": 9
       }
      ],
      "move_pts": -0.4,
@@ -13007,6 +13348,18 @@
       },
       {
        "t": "2026-11-11T22:09:25-07:00",
+       "home_pct": 53.2,
+       "pm_home": null,
+       "n": 9
+      },
+      {
+       "t": "2026-11-11T22:11:39-07:00",
+       "home_pct": 53.2,
+       "pm_home": null,
+       "n": 9
+      },
+      {
+       "t": "2026-11-11T22:11:58-07:00",
        "home_pct": 53.2,
        "pm_home": null,
        "n": 9
