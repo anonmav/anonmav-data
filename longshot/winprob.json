@@ -1,0 +1,8405 @@
+{
+ "updated_az": "2026-11-11T21:45:58-07:00",
+ "day": "2026-11-11",
+ "sports": {
+  "nfl": {
+   "games": [
+    {
+     "sport": "nfl",
+     "game": "WSH @ NYG",
+     "event_id": "401873052",
+     "start_utc": "2026-11-13T01:15Z",
+     "away": "WSH",
+     "home": "NYG",
+     "fav": "NYG",
+     "boards_n": 10,
+     "books_n": 9,
+     "pm_in": true,
+     "teams": [
+      {
+       "team": "WSH",
+       "name": "Washington Commanders",
+       "pct": 44.8,
+       "lo": 43.7,
+       "hi": 46.0,
+       "spread_pts": 2.3,
+       "agree": "tight",
+       "pm_pct": 44.6,
+       "best": {
+        "board": "DraftKings",
+        "odds": 120
+       },
+       "value": []
+      },
+      {
+       "team": "NYG",
+       "name": "New York Giants",
+       "pct": 55.2,
+       "lo": 54.0,
+       "hi": 56.3,
+       "spread_pts": 2.3,
+       "agree": "tight",
+       "pm_pct": 55.4,
+       "best": {
+        "board": "BetRivers",
+        "odds": -130
+       },
+       "value": []
+      }
+     ],
+     "boards": [
+      {
+       "board": "DraftKings",
+       "kind": "book",
+       "fair": {
+        "WSH": 43.7,
+        "NYG": 56.3
+       },
+       "raw": {
+        "WSH": 45.5,
+        "NYG": 58.7
+       },
+       "odds": {
+        "WSH": 120,
+        "NYG": -142
+       },
+       "margin": 4.1
+      },
+      {
+       "board": "FanDuel",
+       "kind": "book",
+       "fair": {
+        "WSH": 44.9,
+        "NYG": 55.1
+       },
+       "raw": {
+        "WSH": 46.7,
+        "NYG": 57.3
+       },
+       "odds": {
+        "WSH": 114,
+        "NYG": -134
+       },
+       "margin": 4.0
+      },
+      {
+       "board": "BetRivers",
+       "kind": "book",
+       "fair": {
+        "WSH": 46.0,
+        "NYG": 54.0
+       },
+       "raw": {
+        "WSH": 48.1,
+        "NYG": 56.5
+       },
+       "odds": {
+        "WSH": 108,
+        "NYG": -130
+       },
+       "margin": 4.6
+      },
+      {
+       "board": "BetMGM",
+       "kind": "book",
+       "fair": {
+        "WSH": 44.4,
+        "NYG": 55.6
+       },
+       "raw": {
+        "WSH": 46.5,
+        "NYG": 58.3
+       },
+       "odds": {
+        "WSH": 115,
+        "NYG": -140
+       },
+       "margin": 4.8
+      },
+      {
+       "board": "bet365",
+       "kind": "book",
+       "fair": {
+        "WSH": 44.2,
+        "NYG": 55.8
+       },
+       "raw": {
+        "WSH": 45.9,
+        "NYG": 58.0
+       },
+       "odds": {
+        "WSH": 118,
+        "NYG": -138
+       },
+       "margin": 3.9
+      },
+      {
+       "board": "Caesars",
+       "kind": "book",
+       "fair": {
+        "WSH": 45.1,
+        "NYG": 54.9
+       },
+       "raw": {
+        "WSH": 46.9,
+        "NYG": 57.3
+       },
+       "odds": {
+        "WSH": 113,
+        "NYG": -134
+       },
+       "margin": 4.2
+      },
+      {
+       "board": "Unibet",
+       "kind": "book",
+       "fair": {
+        "WSH": 44.7,
+        "NYG": 55.3
+       },
+       "raw": {
+        "WSH": 46.7,
+        "NYG": 57.8
+       },
+       "odds": {
+        "WSH": 114,
+        "NYG": -137
+       },
+       "margin": 4.5
+      },
+      {
+       "board": "Bally Bet",
+       "kind": "book",
+       "fair": {
+        "WSH": 46.0,
+        "NYG": 54.0
+       },
+       "raw": {
+        "WSH": 48.1,
+        "NYG": 56.5
+       },
+       "odds": {
+        "WSH": 108,
+        "NYG": -130
+       },
+       "margin": 4.6
+      },
+      {
+       "board": "Fanatics",
+       "kind": "book",
+       "fair": {
+        "WSH": 45.7,
+        "NYG": 54.3
+       },
+       "raw": {
+        "WSH": 47.6,
+        "NYG": 56.5
+       },
+       "odds": {
+        "WSH": 110,
+        "NYG": -130
+       },
+       "margin": 4.1
+      },
+      {
+       "board": "Prediction market",
+       "kind": "pm",
+       "fair": {
+        "WSH": 44.6,
+        "NYG": 55.4
+       },
+       "raw": {
+        "WSH": 45,
+        "NYG": 56
+       },
+       "in_consensus": true
+      }
+     ],
+     "series": [
+      {
+       "t": "2026-11-11T21:45:26-07:00",
+       "home_pct": 55.2,
+       "pm_home": 55.4,
+       "n": 10
+      },
+      {
+       "t": "2026-11-11T21:45:58-07:00",
+       "home_pct": 55.2,
+       "pm_home": 55.4,
+       "n": 10
+      }
+     ],
+     "move_pts": 0.0,
+     "matchups": {
+      "WSH": [
+       {
+        "name": "Jayden Daniels",
+        "pos": "QB",
+        "tier": "yellow",
+        "val": 0.9,
+        "text": "NYG pressure 13% of dropbacks, his line allows 17% (lg 16%)"
+       },
+       {
+        "name": "Rachaad White",
+        "pos": "RB",
+        "tier": "yellow",
+        "val": 0.1,
+        "text": "NYG allows 4.3 yds/carry (+0.10 vs avg), RB share 41% L3, committee"
+       },
+       {
+        "name": "Stefon Diggs",
+        "pos": "WR",
+        "tier": "red",
+        "val": 37,
+        "ace": 37,
+        "text": "ACE 37 est. vs Greg Newsome II (right), 6.1 tgt/gm"
+       },
+       {
+        "name": "Antonio Williams",
+        "pos": "WR",
+        "tier": "red",
+        "val": 35,
+        "ace": 35,
+        "text": "ACE 35 est. vs Deonte Banks (left), 4.9 tgt/gm"
+       },
+       {
+        "name": "Treylon Burks",
+        "pos": "WR",
+        "tier": "red",
+        "val": 33,
+        "ace": 33,
+        "text": "ACE 33 est. vs Deonte Banks (left), 2.8 tgt/gm"
+       },
+       {
+        "name": "Chig Okonkwo",
+        "pos": "TE",
+        "tier": "red",
+        "val": 39,
+        "ace": 39,
+        "text": "ACE 39 est. vs Ar'Darius Washington (right), 3.9 tgt/gm"
+       }
+      ],
+      "NYG": [
+       {
+        "name": "J.J. McCarthy",
+        "pos": "QB",
+        "tier": "yellow",
+        "val": -1.0,
+        "text": "WSH pressure 14% of dropbacks, his line allows 19% (lg 16%)"
+       },
+       {
+        "name": "Devin Singletary",
+        "pos": "RB",
+        "tier": "red",
+        "val": -0.33,
+        "text": "WSH allows 3.73 yds/carry (-0.33 vs avg), RB share 38% L3, committee"
+       },
+       {
+        "name": "Malik Nabers",
+        "pos": "WR",
+        "tier": "red",
+        "val": 36,
+        "ace": 36,
+        "text": "ACE 36 est. vs Rasul Douglas (right), 9.8 tgt/gm"
+       },
+       {
+        "name": "Malachi Fields",
+        "pos": "WR",
+        "tier": "red",
+        "val": 36,
+        "ace": 36,
+        "text": "ACE 36 est. vs Rasul Douglas (right), 4.4 tgt/gm"
+       },
+       {
+        "name": "Darnell Mooney",
+        "pos": "WR",
+        "tier": "red",
+        "val": 35,
+        "ace": 35,
+        "text": "ACE 35 est. vs Amik Robertson (left), 3.2 tgt/gm"
+       },
+       {
+        "name": "Isaiah Likely",
+        "pos": "TE",
+        "tier": "yellow",
+        "val": 44,
+        "ace": 44,
+        "text": "ACE 44 est. vs Nick Cross (left), 8.6 tgt/gm"
+       }
+      ]
+     }
+    },
+    {
+     "sport": "nfl",
+     "game": "NE @ DET",
+     "event_id": "401873053",
+     "start_utc": "2026-11-15T14:30Z",
+     "away": "NE",
+     "home": "DET",
+     "fav": "DET",
+     "boards_n": 10,
+     "books_n": 9,
+     "pm_in": true,
+     "teams": [
+      {
+       "team": "NE",
+       "name": "New England Patriots",
+       "pct": 41.7,
+       "lo": 41.3,
+       "hi": 42.8,
+       "spread_pts": 1.5,
+       "agree": "tight",
+       "pm_pct": 42.0,
+       "best": {
+        "board": "BetRivers",
+        "odds": 130
+       },
+       "value": []
+      },
+      {
+       "team": "DET",
+       "name": "Detroit Lions",
+       "pct": 58.3,
+       "lo": 57.2,
+       "hi": 58.7,
+       "spread_pts": 1.5,
+       "agree": "tight",
+       "pm_pct": 58.0,
+       "best": {
+        "board": "DraftKings",
+        "odds": -148
+       },
+       "value": []
+      }
+     ],
+     "boards": [
+      {
+       "board": "DraftKings",
+       "kind": "book",
+       "fair": {
+        "NE": 42.8,
+        "DET": 57.2
+       },
+       "raw": {
+        "NE": 44.6,
+        "DET": 59.7
+       },
+       "odds": {
+        "NE": 124,
+        "DET": -148
+       },
+       "margin": 4.3
+      },
+      {
+       "board": "FanDuel",
+       "kind": "book",
+       "fair": {
+        "NE": 42.1,
+        "DET": 57.9
+       },
+       "raw": {
+        "NE": 43.9,
+        "DET": 60.3
+       },
+       "odds": {
+        "NE": 128,
+        "DET": -152
+       },
+       "margin": 4.2
+      },
+      {
+       "board": "BetRivers",
+       "kind": "book",
+       "fair": {
+        "NE": 41.3,
+        "DET": 58.7
+       },
+       "raw": {
+        "NE": 43.5,
+        "DET": 61.8
+       },
+       "odds": {
+        "NE": 130,
+        "DET": -162
+       },
+       "margin": 5.3
+      },
+      {
+       "board": "BetMGM",
+       "kind": "book",
+       "fair": {
+        "NE": 41.7,
+        "DET": 58.3
+       },
+       "raw": {
+        "NE": 43.5,
+        "DET": 60.8
+       },
+       "odds": {
+        "NE": 130,
+        "DET": -155
+       },
+       "margin": 4.3
+      },
+      {
+       "board": "bet365",
+       "kind": "book",
+       "fair": {
+        "NE": 41.7,
+        "DET": 58.3
+       },
+       "raw": {
+        "NE": 43.5,
+        "DET": 60.8
+       },
+       "odds": {
+        "NE": 130,
+        "DET": -155
+       },
+       "margin": 4.3
+      },
+      {
+       "board": "Caesars",
+       "kind": "book",
+       "fair": {
+        "NE": 41.8,
+        "DET": 58.2
+       },
+       "raw": {
+        "NE": 43.5,
+        "DET": 60.6
+       },
+       "odds": {
+        "NE": 130,
+        "DET": -154
+       },
+       "margin": 4.1
+      },
+      {
+       "board": "Unibet",
+       "kind": "book",
+       "fair": {
+        "NE": 41.6,
+        "DET": 58.4
+       },
+       "raw": {
+        "NE": 43.5,
+        "DET": 60.9
+       },
+       "odds": {
+        "NE": 130,
+        "DET": -156
+       },
+       "margin": 4.4
+      },
+      {
+       "board": "Bally Bet",
+       "kind": "book",
+       "fair": {
+        "NE": 41.3,
+        "DET": 58.7
+       },
+       "raw": {
+        "NE": 43.5,
+        "DET": 61.8
+       },
+       "odds": {
+        "NE": 130,
+        "DET": -162
+       },
+       "margin": 5.3
+      },
+      {
+       "board": "Fanatics",
+       "kind": "book",
+       "fair": {
+        "NE": 41.7,
+        "DET": 58.3
+       },
+       "raw": {
+        "NE": 43.5,
+        "DET": 60.8
+       },
+       "odds": {
+        "NE": 130,
+        "DET": -155
+       },
+       "margin": 4.3
+      },
+      {
+       "board": "Prediction market",
+       "kind": "pm",
+       "fair": {
+        "NE": 42.0,
+        "DET": 58.0
+       },
+       "raw": {
+        "NE": 42,
+        "DET": 58
+       },
+       "in_consensus": true
+      }
+     ],
+     "series": [
+      {
+       "t": "2026-11-11T21:45:26-07:00",
+       "home_pct": 58.3,
+       "pm_home": 58.0,
+       "n": 10
+      },
+      {
+       "t": "2026-11-11T21:45:58-07:00",
+       "home_pct": 58.3,
+       "pm_home": 58.0,
+       "n": 10
+      }
+     ],
+     "move_pts": 0.0,
+     "matchups": {
+      "NE": [
+       {
+        "name": "Drake Maye",
+        "pos": "QB",
+        "tier": "yellow",
+        "val": -1.2,
+        "text": "DET pressure 18% of dropbacks, his line allows 15% (lg 16%)"
+       },
+       {
+        "name": "Rhamondre Stevenson",
+        "pos": "RB",
+        "tier": "yellow",
+        "val": -0.18,
+        "text": "DET allows 3.92 yds/carry (-0.18 vs avg), RB share 49% L3, committee"
+       },
+       {
+        "name": "DeMario Douglas",
+        "pos": "WR",
+        "tier": "yellow",
+        "val": 51,
+        "ace": 51,
+        "text": "ACE 51 est. vs D.J. Reed (right), 5.1 tgt/gm"
+       },
+       {
+        "name": "Efton Chism III",
+        "pos": "WR",
+        "tier": "yellow",
+        "val": 51,
+        "ace": 51,
+        "text": "ACE 51 est. vs Ennis Rakestraw Jr. (left), 2.8 tgt/gm"
+       },
+       {
+        "name": "Mack Hollins",
+        "pos": "WR",
+        "tier": "yellow",
+        "val": 52,
+        "ace": 52,
+        "text": "ACE 52 est. vs D.J. Reed (right), 2.9 tgt/gm"
+       },
+       {
+        "name": "Hunter Henry",
+        "pos": "TE",
+        "tier": "green",
+        "val": 60,
+        "ace": 60,
+        "text": "ACE 60 est. vs Brian Branch (right), 4.1 tgt/gm"
+       }
+      ],
+      "DET": [
+       {
+        "name": "Jared Goff",
+        "pos": "QB",
+        "tier": "yellow",
+        "val": -0.9,
+        "text": "NE pressure 16% of dropbacks, his line allows 16% (lg 16%)"
+       },
+       {
+        "name": "Jahmyr Gibbs",
+        "pos": "RB",
+        "tier": "yellow",
+        "val": -0.22,
+        "text": "NE allows 3.89 yds/carry (-0.22 vs avg), RB share 75% L3"
+       },
+       {
+        "name": "Amon-Ra St. Brown",
+        "pos": "WR",
+        "tier": "green",
+        "val": 70,
+        "ace": 70,
+        "text": "ACE 70 est. vs Christian Gonzalez (left), 10.8 tgt/gm"
+       },
+       {
+        "name": "Jameson Williams",
+        "pos": "WR",
+        "tier": "green",
+        "val": 74,
+        "ace": 74,
+        "text": "ACE 74 est. vs Christian Gonzalez (left), 5.8 tgt/gm"
+       },
+       {
+        "name": "Isaac TeSlaa",
+        "pos": "WR",
+        "tier": "green",
+        "val": 70,
+        "ace": 70,
+        "text": "ACE 70 est. vs Christian Gonzalez (left), 2.9 tgt/gm"
+       },
+       {
+        "name": "Sam LaPorta",
+        "pos": "TE",
+        "tier": "yellow",
+        "val": 42,
+        "ace": 42,
+        "text": "ACE 42 est. vs Craig Woodson (right), 6.1 tgt/gm"
+       }
+      ]
+     }
+    },
+    {
+     "sport": "nfl",
+     "game": "KC @ ATL",
+     "event_id": "401873058",
+     "start_utc": "2026-11-15T18:00Z",
+     "away": "KC",
+     "home": "ATL",
+     "fav": "KC",
+     "boards_n": 10,
+     "books_n": 9,
+     "pm_in": true,
+     "teams": [
+      {
+       "team": "KC",
+       "name": "Kansas City Chiefs",
+       "pct": 62.3,
+       "lo": 61.5,
+       "hi": 62.7,
+       "spread_pts": 1.2,
+       "agree": "tight",
+       "pm_pct": 62.7,
+       "best": {
+        "board": "FanDuel",
+        "odds": -178
+       },
+       "value": []
+      },
+      {
+       "team": "ATL",
+       "name": "Atlanta Falcons",
+       "pct": 37.7,
+       "lo": 37.3,
+       "hi": 38.5,
+       "spread_pts": 1.2,
+       "agree": "tight",
+       "pm_pct": 37.3,
+       "best": {
+        "board": "BetRivers",
+        "odds": 155
+       },
+       "value": []
+      }
+     ],
+     "boards": [
+      {
+       "board": "DraftKings",
+       "kind": "book",
+       "fair": {
+        "KC": 62.2,
+        "ATL": 37.8
+       },
+       "raw": {
+        "KC": 64.9,
+        "ATL": 39.4
+       },
+       "odds": {
+        "KC": -185,
+        "ATL": 154
+       },
+       "margin": 4.3
+      },
+      {
+       "board": "FanDuel",
+       "kind": "book",
+       "fair": {
+        "KC": 61.5,
+        "ATL": 38.5
+       },
+       "raw": {
+        "KC": 64.0,
+        "ATL": 40.0
+       },
+       "odds": {
+        "KC": -178,
+        "ATL": 150
+       },
+       "margin": 4.0
+      },
+      {
+       "board": "BetRivers",
+       "kind": "book",
+       "fair": {
+        "KC": 62.4,
+        "ATL": 37.6
+       },
+       "raw": {
+        "KC": 65.0,
+        "ATL": 39.2
+       },
+       "odds": {
+        "KC": -186,
+        "ATL": 155
+       },
+       "margin": 4.3
+      },
+      {
+       "board": "BetMGM",
+       "kind": "book",
+       "fair": {
+        "KC": 62.6,
+        "ATL": 37.4
+       },
+       "raw": {
+        "KC": 65.5,
+        "ATL": 39.2
+       },
+       "odds": {
+        "KC": -190,
+        "ATL": 155
+       },
+       "margin": 4.7
+      },
+      {
+       "board": "bet365",
+       "kind": "book",
+       "fair": {
+        "KC": 61.8,
+        "ATL": 38.2
+       },
+       "raw": {
+        "KC": 64.4,
+        "ATL": 39.8
+       },
+       "odds": {
+        "KC": -181,
+        "ATL": 151
+       },
+       "margin": 4.3
+      },
+      {
+       "board": "Caesars",
+       "kind": "book",
+       "fair": {
+        "KC": 62.0,
+        "ATL": 38.0
+       },
+       "raw": {
+        "KC": 64.5,
+        "ATL": 39.5
+       },
+       "odds": {
+        "KC": -182,
+        "ATL": 153
+       },
+       "margin": 4.1
+      },
+      {
+       "board": "Unibet",
+       "kind": "book",
+       "fair": {
+        "KC": 61.7,
+        "ATL": 38.3
+       },
+       "raw": {
+        "KC": 64.5,
+        "ATL": 40.0
+       },
+       "odds": {
+        "KC": -182,
+        "ATL": 150
+       },
+       "margin": 4.5
+      },
+      {
+       "board": "Bally Bet",
+       "kind": "book",
+       "fair": {
+        "KC": 62.4,
+        "ATL": 37.6
+       },
+       "raw": {
+        "KC": 65.0,
+        "ATL": 39.2
+       },
+       "odds": {
+        "KC": -186,
+        "ATL": 155
+       },
+       "margin": 4.3
+      },
+      {
+       "board": "Fanatics",
+       "kind": "book",
+       "fair": {
+        "KC": 62.6,
+        "ATL": 37.4
+       },
+       "raw": {
+        "KC": 65.5,
+        "ATL": 39.2
+       },
+       "odds": {
+        "KC": -190,
+        "ATL": 155
+       },
+       "margin": 4.7
+      },
+      {
+       "board": "Prediction market",
+       "kind": "pm",
+       "fair": {
+        "KC": 62.7,
+        "ATL": 37.3
+       },
+       "raw": {
+        "KC": 64,
+        "ATL": 38
+       },
+       "in_consensus": true
+      }
+     ],
+     "series": [
+      {
+       "t": "2026-11-11T21:45:26-07:00",
+       "home_pct": 37.7,
+       "pm_home": 37.3,
+       "n": 10
+      },
+      {
+       "t": "2026-11-11T21:45:58-07:00",
+       "home_pct": 37.7,
+       "pm_home": 37.3,
+       "n": 10
+      }
+     ],
+     "move_pts": 0.0,
+     "matchups": {
+      "KC": [
+       {
+        "name": "Patrick Mahomes",
+        "pos": "QB",
+        "tier": "red",
+        "val": -2.2,
+        "text": "ATL pressure 17% of dropbacks, his line allows 17% (lg 16%)"
+       },
+       {
+        "name": "Kenneth Walker III",
+        "pos": "RB",
+        "tier": "green",
+        "val": 0.43,
+        "text": "ATL allows 4.73 yds/carry (+0.43 vs avg), RB share 70% L3"
+       },
+       {
+        "name": "Xavier Worthy",
+        "pos": "WR",
+        "tier": "yellow",
+        "val": 47,
+        "ace": 47,
+        "text": "ACE 47 est. vs A.J. Terrell Jr. (right), 5.9 tgt/gm"
+       },
+       {
+        "name": "Rashee Rice",
+        "pos": "WR",
+        "tier": "yellow",
+        "val": 49,
+        "ace": 49,
+        "text": "ACE 49 est. vs A.J. Terrell Jr. (right), 4.0 tgt/gm"
+       },
+       {
+        "name": "Jalen Royals",
+        "pos": "WR",
+        "tier": "yellow",
+        "val": 47,
+        "ace": 47,
+        "text": "ACE 47 est. vs A.J. Terrell Jr. (right), 1.8 tgt/gm"
+       },
+       {
+        "name": "Travis Kelce",
+        "pos": "TE",
+        "tier": "yellow",
+        "val": 47,
+        "ace": 47,
+        "text": "ACE 47 est. vs DeMarcco Hellams (right), 6.0 tgt/gm"
+       }
+      ],
+      "ATL": [
+       {
+        "name": "Michael Penix Jr.",
+        "pos": "QB",
+        "tier": "green",
+        "val": 6.8,
+        "text": "KC pressure 14% of dropbacks, his line allows 9% (lg 16%)"
+       },
+       {
+        "name": "Bijan Robinson",
+        "pos": "RB",
+        "tier": "red",
+        "val": -0.53,
+        "text": "KC allows 3.48 yds/carry (-0.53 vs avg), RB share 79% L3"
+       },
+       {
+        "name": "Drake London",
+        "pos": "WR",
+        "tier": "red",
+        "val": 34,
+        "ace": 34,
+        "text": "ACE 34 est. vs Nohl Williams (right), 7.4 tgt/gm"
+       },
+       {
+        "name": "Jahan Dotson",
+        "pos": "WR",
+        "tier": "red",
+        "val": 33,
+        "ace": 33,
+        "text": "ACE 33 est. vs Mansoor Delane (left), 3.6 tgt/gm"
+       },
+       {
+        "name": "Olamide Zaccheaus",
+        "pos": "WR",
+        "tier": "red",
+        "val": 37,
+        "ace": 37,
+        "text": "ACE 37 est. vs Mansoor Delane (left), 1.8 tgt/gm"
+       },
+       {
+        "name": "Kyle Pitts",
+        "pos": "TE",
+        "tier": "yellow",
+        "val": 47,
+        "ace": 47,
+        "text": "ACE 47 est. vs Chamarri Conner (right), 4.1 tgt/gm"
+       }
+      ]
+     }
+    },
+    {
+     "sport": "nfl",
+     "game": "HOU @ CLE",
+     "event_id": "401873056",
+     "start_utc": "2026-11-15T18:00Z",
+     "away": "HOU",
+     "home": "CLE",
+     "fav": "HOU",
+     "boards_n": 10,
+     "books_n": 9,
+     "pm_in": true,
+     "teams": [
+      {
+       "team": "HOU",
+       "name": "Houston Texans",
+       "pct": 67.0,
+       "lo": 66.7,
+       "hi": 67.8,
+       "spread_pts": 1.1,
+       "agree": "tight",
+       "pm_pct": 66.7,
+       "best": {
+        "board": "Unibet",
+        "odds": -227
+       },
+       "value": []
+      },
+      {
+       "team": "CLE",
+       "name": "Cleveland Browns",
+       "pct": 33.0,
+       "lo": 32.2,
+       "hi": 33.3,
+       "spread_pts": 1.1,
+       "agree": "tight",
+       "pm_pct": 33.3,
+       "best": {
+        "board": "FanDuel",
+        "odds": 198
+       },
+       "value": []
+      }
+     ],
+     "boards": [
+      {
+       "board": "DraftKings",
+       "kind": "book",
+       "fair": {
+        "HOU": 66.9,
+        "CLE": 33.1
+       },
+       "raw": {
+        "HOU": 69.7,
+        "CLE": 34.5
+       },
+       "odds": {
+        "HOU": -230,
+        "CLE": 190
+       },
+       "margin": 4.2
+      },
+      {
+       "board": "FanDuel",
+       "kind": "book",
+       "fair": {
+        "HOU": 67.8,
+        "CLE": 32.2
+       },
+       "raw": {
+        "HOU": 70.6,
+        "CLE": 33.6
+       },
+       "odds": {
+        "HOU": -240,
+        "CLE": 198
+       },
+       "margin": 4.1
+      },
+      {
+       "board": "BetRivers",
+       "kind": "book",
+       "fair": {
+        "HOU": 67.0,
+        "CLE": 33.0
+       },
+       "raw": {
+        "HOU": 70.1,
+        "CLE": 34.5
+       },
+       "odds": {
+        "HOU": -235,
+        "CLE": 190
+       },
+       "margin": 4.6
+      },
+      {
+       "board": "BetMGM",
+       "kind": "book",
+       "fair": {
+        "HOU": 67.4,
+        "CLE": 32.6
+       },
+       "raw": {
+        "HOU": 70.1,
+        "CLE": 33.9
+       },
+       "odds": {
+        "HOU": -235,
+        "CLE": 195
+       },
+       "margin": 4.0
+      },
+      {
+       "board": "bet365",
+       "kind": "book",
+       "fair": {
+        "HOU": 67.6,
+        "CLE": 32.4
+       },
+       "raw": {
+        "HOU": 70.6,
+        "CLE": 33.9
+       },
+       "odds": {
+        "HOU": -240,
+        "CLE": 195
+       },
+       "margin": 4.5
+      },
+      {
+       "board": "Caesars",
+       "kind": "book",
+       "fair": {
+        "HOU": 67.2,
+        "CLE": 32.8
+       },
+       "raw": {
+        "HOU": 70.1,
+        "CLE": 34.2
+       },
+       "odds": {
+        "HOU": -235,
+        "CLE": 192
+       },
+       "margin": 4.4
+      },
+      {
+       "board": "Unibet",
+       "kind": "book",
+       "fair": {
+        "HOU": 66.7,
+        "CLE": 33.3
+       },
+       "raw": {
+        "HOU": 69.4,
+        "CLE": 34.7
+       },
+       "odds": {
+        "HOU": -227,
+        "CLE": 188
+       },
+       "margin": 4.1
+      },
+      {
+       "board": "Bally Bet",
+       "kind": "book",
+       "fair": {
+        "HOU": 67.0,
+        "CLE": 33.0
+       },
+       "raw": {
+        "HOU": 70.1,
+        "CLE": 34.5
+       },
+       "odds": {
+        "HOU": -235,
+        "CLE": 190
+       },
+       "margin": 4.6
+      },
+      {
+       "board": "Fanatics",
+       "kind": "book",
+       "fair": {
+        "HOU": 67.0,
+        "CLE": 33.0
+       },
+       "raw": {
+        "HOU": 70.1,
+        "CLE": 34.5
+       },
+       "odds": {
+        "HOU": -235,
+        "CLE": 190
+       },
+       "margin": 4.6
+      },
+      {
+       "board": "Prediction market",
+       "kind": "pm",
+       "fair": {
+        "HOU": 66.7,
+        "CLE": 33.3
+       },
+       "raw": {
+        "HOU": 68,
+        "CLE": 34
+       },
+       "in_consensus": true
+      }
+     ],
+     "series": [
+      {
+       "t": "2026-11-11T21:45:26-07:00",
+       "home_pct": 33.0,
+       "pm_home": 33.3,
+       "n": 10
+      },
+      {
+       "t": "2026-11-11T21:45:58-07:00",
+       "home_pct": 33.0,
+       "pm_home": 33.3,
+       "n": 10
+      }
+     ],
+     "move_pts": 0.0,
+     "matchups": {
+      "HOU": [
+       {
+        "name": "C.J. Stroud",
+        "pos": "QB",
+        "tier": "yellow",
+        "val": 1.1,
+        "text": "CLE pressure 17% of dropbacks, his line allows 13% (lg 16%)"
+       },
+       {
+        "name": "Woody Marks",
+        "pos": "RB",
+        "tier": "green",
+        "val": 0.52,
+        "text": "CLE allows 4.84 yds/carry (+0.52 vs avg), RB share 75% L3"
+       },
+       {
+        "name": "Xavier Hutchinson",
+        "pos": "WR",
+        "tier": "yellow",
+        "val": 48,
+        "ace": 48,
+        "text": "ACE 48 est. vs Denzel Ward (right), 5.6 tgt/gm"
+       },
+       {
+        "name": "Nico Collins",
+        "pos": "WR",
+        "tier": "yellow",
+        "val": 47,
+        "ace": 47,
+        "text": "ACE 47 est. vs Denzel Ward (right), 4.9 tgt/gm"
+       },
+       {
+        "name": "Kayshon Boutte",
+        "pos": "WR",
+        "tier": "yellow",
+        "val": 48,
+        "ace": 48,
+        "text": "ACE 48 est. vs Denzel Ward (right), 3.5 tgt/gm"
+       },
+       {
+        "name": "Dalton Schultz",
+        "pos": "TE",
+        "tier": "yellow",
+        "val": 48,
+        "ace": 48,
+        "text": "ACE 48 est. vs Grant Delpit (right), 5.9 tgt/gm"
+       }
+      ],
+      "CLE": [
+       {
+        "name": "Deshaun Watson",
+        "pos": "QB",
+        "tier": "red",
+        "val": -5.6,
+        "text": "HOU pressure 17% of dropbacks, his line allows 21% (lg 16%)"
+       },
+       {
+        "name": "Quinshon Judkins",
+        "pos": "RB",
+        "tier": "yellow",
+        "val": -0.06,
+        "text": "HOU allows 4.09 yds/carry (-0.06 vs avg), RB share 48% L3, committee"
+       },
+       {
+        "name": "Denzel Boston",
+        "pos": "WR",
+        "tier": "yellow",
+        "val": 48,
+        "ace": 48,
+        "text": "ACE 48 est. vs Kamari Lassiter (left), 6.7 tgt/gm"
+       },
+       {
+        "name": "KC Concepcion",
+        "pos": "WR",
+        "tier": "yellow",
+        "val": 49,
+        "ace": 49,
+        "text": "ACE 49 est. vs Kamari Lassiter (left), 6.1 tgt/gm"
+       },
+       {
+        "name": "Jerry Jeudy",
+        "pos": "WR",
+        "tier": "yellow",
+        "val": 50,
+        "ace": 50,
+        "text": "ACE 50 est. vs Kamari Lassiter (left), 3.1 tgt/gm"
+       },
+       {
+        "name": "Harold Fannin Jr.",
+        "pos": "TE",
+        "tier": "yellow",
+        "val": 50,
+        "ace": 50,
+        "text": "ACE 50 est. vs Reed Blankenship (left), 5.9 tgt/gm"
+       }
+      ]
+     }
+    },
+    {
+     "sport": "nfl",
+     "game": "MIN @ GB",
+     "event_id": "401873060",
+     "start_utc": "2026-11-15T18:00Z",
+     "away": "MIN",
+     "home": "GB",
+     "fav": "GB",
+     "boards_n": 10,
+     "books_n": 9,
+     "pm_in": true,
+     "teams": [
+      {
+       "team": "MIN",
+       "name": "Minnesota Vikings",
+       "pct": 40.2,
+       "lo": 39.5,
+       "hi": 41.8,
+       "spread_pts": 2.3,
+       "agree": "tight",
+       "pm_pct": 40.0,
+       "best": {
+        "board": "bet365",
+        "odds": 144
+       },
+       "value": []
+      },
+      {
+       "team": "GB",
+       "name": "Green Bay Packers",
+       "pct": 59.8,
+       "lo": 58.2,
+       "hi": 60.5,
+       "spread_pts": 2.3,
+       "agree": "tight",
+       "pm_pct": 60.0,
+       "best": {
+        "board": "BetRivers",
+        "odds": -157
+       },
+       "value": []
+      }
+     ],
+     "boards": [
+      {
+       "board": "DraftKings",
+       "kind": "book",
+       "fair": {
+        "MIN": 40.7,
+        "GB": 59.3
+       },
+       "raw": {
+        "MIN": 42.4,
+        "GB": 61.8
+       },
+       "odds": {
+        "MIN": 136,
+        "GB": -162
+       },
+       "margin": 4.2
+      },
+      {
+       "board": "FanDuel",
+       "kind": "book",
+       "fair": {
+        "MIN": 40.3,
+        "GB": 59.7
+       },
+       "raw": {
+        "MIN": 42.0,
+        "GB": 62.1
+       },
+       "odds": {
+        "MIN": 138,
+        "GB": -164
+       },
+       "margin": 4.1
+      },
+      {
+       "board": "BetRivers",
+       "kind": "book",
+       "fair": {
+        "MIN": 41.8,
+        "GB": 58.2
+       },
+       "raw": {
+        "MIN": 43.9,
+        "GB": 61.1
+       },
+       "odds": {
+        "MIN": 128,
+        "GB": -157
+       },
+       "margin": 4.9
+      },
+      {
+       "board": "BetMGM",
+       "kind": "book",
+       "fair": {
+        "MIN": 40.1,
+        "GB": 59.9
+       },
+       "raw": {
+        "MIN": 41.7,
+        "GB": 62.3
+       },
+       "odds": {
+        "MIN": 140,
+        "GB": -165
+       },
+       "margin": 3.9
+      },
+      {
+       "board": "bet365",
+       "kind": "book",
+       "fair": {
+        "MIN": 39.5,
+        "GB": 60.5
+       },
+       "raw": {
+        "MIN": 41.0,
+        "GB": 62.8
+       },
+       "odds": {
+        "MIN": 144,
+        "GB": -169
+       },
+       "margin": 3.8
+      },
+      {
+       "board": "Caesars",
+       "kind": "book",
+       "fair": {
+        "MIN": 40.2,
+        "GB": 59.8
+       },
+       "raw": {
+        "MIN": 41.8,
+        "GB": 62.1
+       },
+       "odds": {
+        "MIN": 139,
+        "GB": -164
+       },
+       "margin": 4.0
+      },
+      {
+       "board": "Unibet",
+       "kind": "book",
+       "fair": {
+        "MIN": 40.2,
+        "GB": 59.8
+       },
+       "raw": {
+        "MIN": 42.0,
+        "GB": 62.5
+       },
+       "odds": {
+        "MIN": 138,
+        "GB": -167
+       },
+       "margin": 4.6
+      },
+      {
+       "board": "Bally Bet",
+       "kind": "book",
+       "fair": {
+        "MIN": 41.8,
+        "GB": 58.2
+       },
+       "raw": {
+        "MIN": 43.9,
+        "GB": 61.1
+       },
+       "odds": {
+        "MIN": 128,
+        "GB": -157
+       },
+       "margin": 4.9
+      },
+      {
+       "board": "Fanatics",
+       "kind": "book",
+       "fair": {
+        "MIN": 39.8,
+        "GB": 60.2
+       },
+       "raw": {
+        "MIN": 41.7,
+        "GB": 63.0
+       },
+       "odds": {
+        "MIN": 140,
+        "GB": -170
+       },
+       "margin": 4.6
+      },
+      {
+       "board": "Prediction market",
+       "kind": "pm",
+       "fair": {
+        "MIN": 40.0,
+        "GB": 60.0
+       },
+       "raw": {
+        "MIN": 40,
+        "GB": 60
+       },
+       "in_consensus": true
+      }
+     ],
+     "series": [
+      {
+       "t": "2026-11-11T21:45:26-07:00",
+       "home_pct": 59.8,
+       "pm_home": 60.0,
+       "n": 10
+      },
+      {
+       "t": "2026-11-11T21:45:58-07:00",
+       "home_pct": 59.8,
+       "pm_home": 60.0,
+       "n": 10
+      }
+     ],
+     "move_pts": 0.0,
+     "matchups": {
+      "MIN": [
+       {
+        "name": "Kyler Murray",
+        "pos": "QB",
+        "tier": "yellow",
+        "val": -0.3,
+        "text": "GB pressure 15% of dropbacks, his line allows 17% (lg 16%)"
+       },
+       {
+        "name": "Jordan Mason",
+        "pos": "RB",
+        "tier": "yellow",
+        "val": -0.06,
+        "text": "GB allows 4.1 yds/carry (-0.06 vs avg), RB share 49% L3, committee"
+       },
+       {
+        "name": "Justin Jefferson",
+        "pos": "WR",
+        "tier": "yellow",
+        "val": 41,
+        "ace": 41,
+        "text": "ACE 41 est. vs Brandon Cisse (left), 6.4 tgt/gm"
+       },
+       {
+        "name": "Jordan Addison",
+        "pos": "WR",
+        "tier": "yellow",
+        "val": 43,
+        "ace": 43,
+        "text": "ACE 43 est. vs Brandon Cisse (left), 4.5 tgt/gm"
+       },
+       {
+        "name": "Myles Price",
+        "pos": "WR",
+        "tier": "yellow",
+        "val": 43,
+        "ace": 43,
+        "text": "ACE 43 est. vs Brandon Cisse (left), 1.4 tgt/gm"
+       },
+       {
+        "name": "T.J. Hockenson",
+        "pos": "TE",
+        "tier": "yellow",
+        "val": 43,
+        "ace": 43,
+        "text": "ACE 43 est. vs Evan Williams (right), 5.5 tgt/gm"
+       }
+      ],
+      "GB": [
+       {
+        "name": "Jordan Love",
+        "pos": "QB",
+        "tier": "red",
+        "val": -7.6,
+        "text": "MIN pressure 26% of dropbacks, his line allows 16% (lg 16%)"
+       },
+       {
+        "name": "Josh Jacobs",
+        "pos": "RB",
+        "tier": "yellow",
+        "val": 0.14,
+        "text": "MIN allows 4.35 yds/carry (+0.14 vs avg), RB share 51% L3, committee"
+       },
+       {
+        "name": "Matthew Golden",
+        "pos": "WR",
+        "tier": "red",
+        "val": 38,
+        "ace": 38,
+        "text": "ACE 38 est. vs Isaiah Rodgers (right), 10.2 tgt/gm"
+       },
+       {
+        "name": "Christian Watson",
+        "pos": "WR",
+        "tier": "red",
+        "val": 40,
+        "ace": 40,
+        "text": "ACE 40 est. vs Isaiah Rodgers (right), 8.2 tgt/gm"
+       },
+       {
+        "name": "Savion Williams",
+        "pos": "WR",
+        "tier": "yellow",
+        "val": 42,
+        "ace": 42,
+        "text": "ACE 42 est. vs James Pierre (left), 1.4 tgt/gm"
+       },
+       {
+        "name": "Tucker Kraft",
+        "pos": "TE",
+        "tier": "yellow",
+        "val": 55,
+        "ace": 55,
+        "text": "ACE 55 est. vs Joshua Metellus (right), 5.8 tgt/gm"
+       }
+      ]
+     }
+    },
+    {
+     "sport": "nfl",
+     "game": "JAX @ TEN",
+     "event_id": "401873057",
+     "start_utc": "2026-11-15T18:00Z",
+     "away": "JAX",
+     "home": "TEN",
+     "fav": "JAX",
+     "boards_n": 10,
+     "books_n": 9,
+     "pm_in": true,
+     "teams": [
+      {
+       "team": "JAX",
+       "name": "Jacksonville Jaguars",
+       "pct": 82.1,
+       "lo": 80.8,
+       "hi": 83.6,
+       "spread_pts": 2.8,
+       "agree": "tight",
+       "pm_pct": 83.2,
+       "best": {
+        "board": "DraftKings",
+        "odds": -535
+       },
+       "value": []
+      },
+      {
+       "team": "TEN",
+       "name": "Tennessee Titans",
+       "pct": 17.9,
+       "lo": 16.4,
+       "hi": 19.2,
+       "spread_pts": 2.8,
+       "agree": "tight",
+       "pm_pct": 16.8,
+       "best": {
+        "board": "BetRivers",
+        "odds": 480
+       },
+       "value": []
+      }
+     ],
+     "boards": [
+      {
+       "board": "DraftKings",
+       "kind": "book",
+       "fair": {
+        "JAX": 80.8,
+        "TEN": 19.2
+       },
+       "raw": {
+        "JAX": 84.3,
+        "TEN": 20.0
+       },
+       "odds": {
+        "JAX": -535,
+        "TEN": 400
+       },
+       "margin": 4.3
+      },
+      {
+       "board": "FanDuel",
+       "kind": "book",
+       "fair": {
+        "JAX": 82.5,
+        "TEN": 17.5
+       },
+       "raw": {
+        "JAX": 85.7,
+        "TEN": 18.2
+       },
+       "odds": {
+        "JAX": -600,
+        "TEN": 450
+       },
+       "margin": 3.9
+      },
+      {
+       "board": "BetRivers",
+       "kind": "book",
+       "fair": {
+        "JAX": 83.6,
+        "TEN": 16.4
+       },
+       "raw": {
+        "JAX": 87.7,
+        "TEN": 17.2
+       },
+       "odds": {
+        "JAX": -715,
+        "TEN": 480
+       },
+       "margin": 5.0
+      },
+      {
+       "board": "BetMGM",
+       "kind": "book",
+       "fair": {
+        "JAX": 81.6,
+        "TEN": 18.4
+       },
+       "raw": {
+        "JAX": 84.6,
+        "TEN": 19.0
+       },
+       "odds": {
+        "JAX": -550,
+        "TEN": 425
+       },
+       "margin": 3.7
+      },
+      {
+       "board": "bet365",
+       "kind": "book",
+       "fair": {
+        "JAX": 81.7,
+        "TEN": 18.3
+       },
+       "raw": {
+        "JAX": 85.2,
+        "TEN": 19.0
+       },
+       "odds": {
+        "JAX": -575,
+        "TEN": 425
+       },
+       "margin": 4.2
+      },
+      {
+       "board": "Caesars",
+       "kind": "book",
+       "fair": {
+        "JAX": 80.9,
+        "TEN": 19.1
+       },
+       "raw": {
+        "JAX": 84.8,
+        "TEN": 20.0
+       },
+       "odds": {
+        "JAX": -560,
+        "TEN": 400
+       },
+       "margin": 4.8
+      },
+      {
+       "board": "Unibet",
+       "kind": "book",
+       "fair": {
+        "JAX": 83.0,
+        "TEN": 17.0
+       },
+       "raw": {
+        "JAX": 87.0,
+        "TEN": 17.9
+       },
+       "odds": {
+        "JAX": -667,
+        "TEN": 460
+       },
+       "margin": 4.8
+      },
+      {
+       "board": "Bally Bet",
+       "kind": "book",
+       "fair": {
+        "JAX": 83.6,
+        "TEN": 16.4
+       },
+       "raw": {
+        "JAX": 87.7,
+        "TEN": 17.2
+       },
+       "odds": {
+        "JAX": -715,
+        "TEN": 480
+       },
+       "margin": 5.0
+      },
+      {
+       "board": "Fanatics",
+       "kind": "book",
+       "fair": {
+        "JAX": 81.6,
+        "TEN": 18.4
+       },
+       "raw": {
+        "JAX": 85.2,
+        "TEN": 19.2
+       },
+       "odds": {
+        "JAX": -575,
+        "TEN": 420
+       },
+       "margin": 4.4
+      },
+      {
+       "board": "Prediction market",
+       "kind": "pm",
+       "fair": {
+        "JAX": 83.2,
+        "TEN": 16.8
+       },
+       "raw": {
+        "JAX": 84,
+        "TEN": 17
+       },
+       "in_consensus": true
+      }
+     ],
+     "series": [
+      {
+       "t": "2026-11-11T21:45:26-07:00",
+       "home_pct": 17.9,
+       "pm_home": 16.8,
+       "n": 10
+      },
+      {
+       "t": "2026-11-11T21:45:58-07:00",
+       "home_pct": 17.9,
+       "pm_home": 16.8,
+       "n": 10
+      }
+     ],
+     "move_pts": 0.0,
+     "matchups": {
+      "JAX": [
+       {
+        "name": "Trevor Lawrence",
+        "pos": "QB",
+        "tier": "yellow",
+        "val": 0.8,
+        "text": "TEN pressure 16% of dropbacks, his line allows 15% (lg 16%)"
+       },
+       {
+        "name": "Bhayshul Tuten",
+        "pos": "RB",
+        "tier": "yellow",
+        "val": 0.0,
+        "text": "TEN allows 4.18 yds/carry (+0.00 vs avg), RB share 47% L3, committee"
+       },
+       {
+        "name": "Parker Washington",
+        "pos": "WR",
+        "tier": "green",
+        "val": 65,
+        "ace": 65,
+        "text": "ACE 65 est. vs Cor'Dale Flott (left), 6.9 tgt/gm"
+       },
+       {
+        "name": "Jakobi Meyers",
+        "pos": "WR",
+        "tier": "green",
+        "val": 61,
+        "ace": 61,
+        "text": "ACE 61 est. vs Cor'Dale Flott (left), 4.6 tgt/gm"
+       },
+       {
+        "name": "Brian Thomas Jr.",
+        "pos": "WR",
+        "tier": "green",
+        "val": 62,
+        "ace": 62,
+        "text": "ACE 62 est. vs Joshua Williams (right), 2.6 tgt/gm"
+       },
+       {
+        "name": "Brenton Strange",
+        "pos": "TE",
+        "tier": "yellow",
+        "val": 48,
+        "ace": 48,
+        "text": "ACE 48 est. vs Tony Adams (left), 4.6 tgt/gm"
+       }
+      ],
+      "TEN": [
+       {
+        "name": "Cam Ward",
+        "pos": "QB",
+        "tier": "yellow",
+        "val": 1.2,
+        "text": "JAX pressure 17% of dropbacks, his line allows 13% (lg 16%)"
+       },
+       {
+        "name": "Tony Pollard",
+        "pos": "RB",
+        "tier": "red",
+        "val": -0.3,
+        "text": "JAX allows 3.76 yds/carry (-0.30 vs avg), RB share 87% L3"
+       },
+       {
+        "name": "Wan'Dale Robinson",
+        "pos": "WR",
+        "tier": "yellow",
+        "val": 58,
+        "ace": 58,
+        "text": "ACE 58 est. vs Travis Hunter (right), 6.2 tgt/gm"
+       },
+       {
+        "name": "Carnell Tate",
+        "pos": "WR",
+        "tier": "yellow",
+        "val": 59,
+        "ace": 59,
+        "text": "ACE 59 est. vs Montaric Brown (left), 6.4 tgt/gm"
+       },
+       {
+        "name": "Elic Ayomanor",
+        "pos": "WR",
+        "tier": "green",
+        "val": 60,
+        "ace": 60,
+        "text": "ACE 60 est. vs Montaric Brown (left), 3.2 tgt/gm"
+       },
+       {
+        "name": "Gunnar Helm",
+        "pos": "TE",
+        "tier": "yellow",
+        "val": 46,
+        "ace": 46,
+        "text": "ACE 46 est. vs Jessie Bates III (left), 3.2 tgt/gm"
+       }
+      ]
+     }
+    },
+    {
+     "sport": "nfl",
+     "game": "MIA @ IND",
+     "event_id": "401873059",
+     "start_utc": "2026-11-15T18:00Z",
+     "away": "MIA",
+     "home": "IND",
+     "fav": "IND",
+     "boards_n": 10,
+     "books_n": 9,
+     "pm_in": true,
+     "teams": [
+      {
+       "team": "MIA",
+       "name": "Miami Dolphins",
+       "pct": 35.5,
+       "lo": 34.4,
+       "hi": 36.1,
+       "spread_pts": 1.8,
+       "agree": "tight",
+       "pm_pct": 34.7,
+       "best": {
+        "board": "FanDuel",
+        "odds": 180
+       },
+       "value": []
+      },
+      {
+       "team": "IND",
+       "name": "Indianapolis Colts",
+       "pct": 64.5,
+       "lo": 63.9,
+       "hi": 65.6,
+       "spread_pts": 1.8,
+       "agree": "tight",
+       "pm_pct": 65.3,
+       "best": {
+        "board": "DraftKings",
+        "odds": -205
+       },
+       "value": []
+      }
+     ],
+     "boards": [
+      {
+       "board": "DraftKings",
+       "kind": "book",
+       "fair": {
+        "MIA": 35.5,
+        "IND": 64.5
+       },
+       "raw": {
+        "MIA": 37.0,
+        "IND": 67.2
+       },
+       "odds": {
+        "MIA": 170,
+        "IND": -205
+       },
+       "margin": 4.3
+      },
+      {
+       "board": "FanDuel",
+       "kind": "book",
+       "fair": {
+        "MIA": 34.4,
+        "IND": 65.6
+       },
+       "raw": {
+        "MIA": 35.7,
+        "IND": 68.3
+       },
+       "odds": {
+        "MIA": 180,
+        "IND": -215
+       },
+       "margin": 4.0
+      },
+      {
+       "board": "BetRivers",
+       "kind": "book",
+       "fair": {
+        "MIA": 36.1,
+        "IND": 63.9
+       },
+       "raw": {
+        "MIA": 38.0,
+        "IND": 67.2
+       },
+       "odds": {
+        "MIA": 163,
+        "IND": -205
+       },
+       "margin": 5.2
+      },
+      {
+       "board": "BetMGM",
+       "kind": "book",
+       "fair": {
+        "MIA": 35.3,
+        "IND": 64.7
+       },
+       "raw": {
+        "MIA": 37.0,
+        "IND": 67.7
+       },
+       "odds": {
+        "MIA": 170,
+        "IND": -210
+       },
+       "margin": 4.8
+      },
+      {
+       "board": "bet365",
+       "kind": "book",
+       "fair": {
+        "MIA": 34.9,
+        "IND": 65.1
+       },
+       "raw": {
+        "MIA": 36.4,
+        "IND": 67.7
+       },
+       "odds": {
+        "MIA": 175,
+        "IND": -210
+       },
+       "margin": 4.1
+      },
+      {
+       "board": "Caesars",
+       "kind": "book",
+       "fair": {
+        "MIA": 35.6,
+        "IND": 64.4
+       },
+       "raw": {
+        "MIA": 37.2,
+        "IND": 67.2
+       },
+       "odds": {
+        "MIA": 169,
+        "IND": -205
+       },
+       "margin": 4.4
+      },
+      {
+       "board": "Unibet",
+       "kind": "book",
+       "fair": {
+        "MIA": 35.4,
+        "IND": 64.6
+       },
+       "raw": {
+        "MIA": 37.0,
+        "IND": 67.5
+       },
+       "odds": {
+        "MIA": 170,
+        "IND": -208
+       },
+       "margin": 4.6
+      },
+      {
+       "board": "Bally Bet",
+       "kind": "book",
+       "fair": {
+        "MIA": 36.1,
+        "IND": 63.9
+       },
+       "raw": {
+        "MIA": 38.0,
+        "IND": 67.2
+       },
+       "odds": {
+        "MIA": 163,
+        "IND": -205
+       },
+       "margin": 5.2
+      },
+      {
+       "board": "Fanatics",
+       "kind": "book",
+       "fair": {
+        "MIA": 35.5,
+        "IND": 64.5
+       },
+       "raw": {
+        "MIA": 37.0,
+        "IND": 67.2
+       },
+       "odds": {
+        "MIA": 170,
+        "IND": -205
+       },
+       "margin": 4.3
+      },
+      {
+       "board": "Prediction market",
+       "kind": "pm",
+       "fair": {
+        "MIA": 34.7,
+        "IND": 65.3
+       },
+       "raw": {
+        "MIA": 35,
+        "IND": 66
+       },
+       "in_consensus": true
+      }
+     ],
+     "series": [
+      {
+       "t": "2026-11-11T21:45:26-07:00",
+       "home_pct": 64.5,
+       "pm_home": 65.3,
+       "n": 10
+      },
+      {
+       "t": "2026-11-11T21:45:58-07:00",
+       "home_pct": 64.5,
+       "pm_home": 65.3,
+       "n": 10
+      }
+     ],
+     "move_pts": 0.0,
+     "matchups": {
+      "MIA": [
+       {
+        "name": "Malik Willis",
+        "pos": "QB",
+        "tier": "yellow",
+        "val": 1.5,
+        "text": "IND pressure 14% of dropbacks, his line allows 15% (lg 16%)"
+       },
+       {
+        "name": "Ollie Gordon II",
+        "pos": "RB",
+        "tier": "green",
+        "val": 0.5,
+        "text": "IND allows 4.81 yds/carry (+0.50 vs avg), RB share 68% L3"
+       },
+       {
+        "name": "Malik Washington",
+        "pos": "WR",
+        "tier": "green",
+        "val": 65,
+        "ace": 65,
+        "text": "ACE 65 est. vs Sauce Gardner (left), 6.0 tgt/gm"
+       },
+       {
+        "name": "Caleb Douglas",
+        "pos": "WR",
+        "tier": "green",
+        "val": 65,
+        "ace": 65,
+        "text": "ACE 65 est. vs Sauce Gardner (right), 3.4 tgt/gm"
+       },
+       {
+        "name": "Chris Bell",
+        "pos": "WR",
+        "tier": "green",
+        "val": 64,
+        "ace": 64,
+        "text": "ACE 64 est. vs Sauce Gardner (right), 3.1 tgt/gm"
+       },
+       {
+        "name": "Greg Dulcich",
+        "pos": "TE",
+        "tier": "green",
+        "val": 65,
+        "ace": 65,
+        "text": "ACE 65 est. vs A.J. Haulcy (right), 4.0 tgt/gm"
+       }
+      ],
+      "IND": [
+       {
+        "name": "Daniel Jones",
+        "pos": "QB",
+        "tier": "yellow",
+        "val": -1.6,
+        "text": "MIA pressure 15% of dropbacks, his line allows 18% (lg 16%)"
+       },
+       {
+        "name": "Jonathan Taylor",
+        "pos": "RB",
+        "tier": "yellow",
+        "val": -0.01,
+        "text": "MIA allows 4.15 yds/carry (-0.01 vs avg), RB share 55% L3, committee"
+       },
+       {
+        "name": "Keenan Allen",
+        "pos": "WR",
+        "tier": "green",
+        "val": 61,
+        "ace": 61,
+        "text": "ACE 61 est. vs JuJu Brents (left), 6.4 tgt/gm"
+       },
+       {
+        "name": "Josh Downs",
+        "pos": "WR",
+        "tier": "green",
+        "val": 62,
+        "ace": 62,
+        "text": "ACE 62 est. vs JuJu Brents (left), 6.3 tgt/gm"
+       },
+       {
+        "name": "Laquon Treadwell",
+        "pos": "WR",
+        "tier": "green",
+        "val": 63,
+        "ace": 63,
+        "text": "ACE 63 est. vs JuJu Brents (left), 3.2 tgt/gm"
+       },
+       {
+        "name": "Tyler Warren",
+        "pos": "TE",
+        "tier": "green",
+        "val": 65,
+        "ace": 65,
+        "text": "ACE 65 est. vs Dante Trader Jr. (left), 5.9 tgt/gm"
+       }
+      ]
+     }
+    },
+    {
+     "sport": "nfl",
+     "game": "CAR @ NO",
+     "event_id": "401873055",
+     "start_utc": "2026-11-15T18:00Z",
+     "away": "CAR",
+     "home": "NO",
+     "fav": "NO",
+     "boards_n": 10,
+     "books_n": 9,
+     "pm_in": true,
+     "teams": [
+      {
+       "team": "CAR",
+       "name": "Carolina Panthers",
+       "pct": 44.6,
+       "lo": 43.8,
+       "hi": 46.0,
+       "spread_pts": 2.2,
+       "agree": "tight",
+       "pm_pct": 44.6,
+       "best": {
+        "board": "bet365",
+        "odds": 120
+       },
+       "value": []
+      },
+      {
+       "team": "NO",
+       "name": "New Orleans Saints",
+       "pct": 55.4,
+       "lo": 54.0,
+       "hi": 56.2,
+       "spread_pts": 2.2,
+       "agree": "tight",
+       "pm_pct": 55.4,
+       "best": {
+        "board": "BetRivers",
+        "odds": -130
+       },
+       "value": []
+      }
+     ],
+     "boards": [
+      {
+       "board": "DraftKings",
+       "kind": "book",
+       "fair": {
+        "CAR": 44.9,
+        "NO": 55.1
+       },
+       "raw": {
+        "CAR": 46.7,
+        "NO": 57.4
+       },
+       "odds": {
+        "CAR": 114,
+        "NO": -135
+       },
+       "margin": 4.2
+      },
+      {
+       "board": "FanDuel",
+       "kind": "book",
+       "fair": {
+        "CAR": 44.2,
+        "NO": 55.8
+       },
+       "raw": {
+        "CAR": 45.9,
+        "NO": 58.0
+       },
+       "odds": {
+        "CAR": 118,
+        "NO": -138
+       },
+       "margin": 3.9
+      },
+      {
+       "board": "BetRivers",
+       "kind": "book",
+       "fair": {
+        "CAR": 46.0,
+        "NO": 54.0
+       },
+       "raw": {
+        "CAR": 48.1,
+        "NO": 56.5
+       },
+       "odds": {
+        "CAR": 108,
+        "NO": -130
+       },
+       "margin": 4.6
+      },
+      {
+       "board": "BetMGM",
+       "kind": "book",
+       "fair": {
+        "CAR": 44.4,
+        "NO": 55.6
+       },
+       "raw": {
+        "CAR": 46.5,
+        "NO": 58.3
+       },
+       "odds": {
+        "CAR": 115,
+        "NO": -140
+       },
+       "margin": 4.8
+      },
+      {
+       "board": "bet365",
+       "kind": "book",
+       "fair": {
+        "CAR": 43.8,
+        "NO": 56.2
+       },
+       "raw": {
+        "CAR": 45.5,
+        "NO": 58.3
+       },
+       "odds": {
+        "CAR": 120,
+        "NO": -140
+       },
+       "margin": 3.8
+      },
+      {
+       "board": "Caesars",
+       "kind": "book",
+       "fair": {
+        "CAR": 44.8,
+        "NO": 55.2
+       },
+       "raw": {
+        "CAR": 46.9,
+        "NO": 57.8
+       },
+       "odds": {
+        "CAR": 113,
+        "NO": -137
+       },
+       "margin": 4.8
+      },
+      {
+       "board": "Unibet",
+       "kind": "book",
+       "fair": {
+        "CAR": 44.6,
+        "NO": 55.4
+       },
+       "raw": {
+        "CAR": 46.5,
+        "NO": 57.8
+       },
+       "odds": {
+        "CAR": 115,
+        "NO": -137
+       },
+       "margin": 4.3
+      },
+      {
+       "board": "Bally Bet",
+       "kind": "book",
+       "fair": {
+        "CAR": 46.0,
+        "NO": 54.0
+       },
+       "raw": {
+        "CAR": 48.1,
+        "NO": 56.5
+       },
+       "odds": {
+        "CAR": 108,
+        "NO": -130
+       },
+       "margin": 4.6
+      },
+      {
+       "board": "Fanatics",
+       "kind": "book",
+       "fair": {
+        "CAR": 44.4,
+        "NO": 55.6
+       },
+       "raw": {
+        "CAR": 46.5,
+        "NO": 58.3
+       },
+       "odds": {
+        "CAR": 115,
+        "NO": -140
+       },
+       "margin": 4.8
+      },
+      {
+       "board": "Prediction market",
+       "kind": "pm",
+       "fair": {
+        "CAR": 44.6,
+        "NO": 55.4
+       },
+       "raw": {
+        "CAR": 45,
+        "NO": 56
+       },
+       "in_consensus": true
+      }
+     ],
+     "series": [
+      {
+       "t": "2026-11-11T21:45:26-07:00",
+       "home_pct": 55.4,
+       "pm_home": 55.4,
+       "n": 10
+      },
+      {
+       "t": "2026-11-11T21:45:58-07:00",
+       "home_pct": 55.4,
+       "pm_home": 55.4,
+       "n": 10
+      }
+     ],
+     "move_pts": 0.0,
+     "matchups": {
+      "CAR": [
+       {
+        "name": "Bryce Young",
+        "pos": "QB",
+        "tier": "yellow",
+        "val": 0.6,
+        "text": "NO pressure 15% of dropbacks, his line allows 16% (lg 16%)"
+       },
+       {
+        "name": "Chuba Hubbard",
+        "pos": "RB",
+        "tier": "green",
+        "val": 0.36,
+        "text": "NO allows 4.64 yds/carry (+0.36 vs avg), RB share 62% L3"
+       },
+       {
+        "name": "Tetairoa McMillan",
+        "pos": "WR",
+        "tier": "yellow",
+        "val": 59,
+        "ace": 59,
+        "text": "ACE 59 est. vs Martin Emerson Jr. (left), 8.9 tgt/gm"
+       },
+       {
+        "name": "Jalen Coker",
+        "pos": "WR",
+        "tier": "yellow",
+        "val": 59,
+        "ace": 59,
+        "text": "ACE 59 est. vs Martin Emerson Jr. (left), 6.1 tgt/gm"
+       },
+       {
+        "name": "John Metchie III",
+        "pos": "WR",
+        "tier": "yellow",
+        "val": 58,
+        "ace": 58,
+        "text": "ACE 58 est. vs Martin Emerson Jr. (left), 2.8 tgt/gm"
+       },
+       {
+        "name": "Darren Waller",
+        "pos": "TE",
+        "tier": "yellow",
+        "val": 55,
+        "ace": 55,
+        "text": "ACE 55 est. vs Justin Reid (right), 4.4 tgt/gm"
+       }
+      ],
+      "NO": [
+       {
+        "name": "Tyler Shough",
+        "pos": "QB",
+        "tier": "green",
+        "val": 5.3,
+        "text": "CAR pressure 10% of dropbacks, his line allows 14% (lg 16%)"
+       },
+       {
+        "name": "Kendre Miller",
+        "pos": "RB",
+        "tier": "yellow",
+        "val": 0.39,
+        "text": "CAR allows 4.68 yds/carry (+0.39 vs avg), RB share 34% L3, committee"
+       },
+       {
+        "name": "Chris Olave",
+        "pos": "WR",
+        "tier": "yellow",
+        "val": 47,
+        "ace": 47,
+        "text": "ACE 47 est. vs Will Lee III (left), 10.4 tgt/gm"
+       },
+       {
+        "name": "Devaughn Vele",
+        "pos": "WR",
+        "tier": "yellow",
+        "val": 48,
+        "ace": 48,
+        "text": "ACE 48 est. vs Will Lee III (left), 6.5 tgt/gm"
+       },
+       {
+        "name": "Bryce Lance",
+        "pos": "WR",
+        "tier": "yellow",
+        "val": 47,
+        "ace": 47,
+        "text": "ACE 47 est. vs Malcolm DeWalt IV (right), 2.9 tgt/gm"
+       },
+       {
+        "name": "Juwan Johnson",
+        "pos": "TE",
+        "tier": "yellow",
+        "val": 50,
+        "ace": 50,
+        "text": "ACE 50 est. vs Tre'von Moehrig (right), 4.9 tgt/gm"
+       }
+      ]
+     }
+    },
+    {
+     "sport": "nfl",
+     "game": "BUF @ NYJ",
+     "event_id": "401873054",
+     "start_utc": "2026-11-15T18:00Z",
+     "away": "BUF",
+     "home": "NYJ",
+     "fav": "BUF",
+     "boards_n": 10,
+     "books_n": 9,
+     "pm_in": true,
+     "teams": [
+      {
+       "team": "BUF",
+       "name": "Buffalo Bills",
+       "pct": 78.6,
+       "lo": 76.2,
+       "hi": 80.8,
+       "spread_pts": 4.6,
+       "agree": "mixed",
+       "pm_pct": 80.8,
+       "best": {
+        "board": "Unibet",
+        "odds": -400
+       },
+       "value": []
+      },
+      {
+       "team": "NYJ",
+       "name": "New York Jets",
+       "pct": 21.4,
+       "lo": 19.2,
+       "hi": 23.8,
+       "spread_pts": 4.6,
+       "agree": "mixed",
+       "pm_pct": 19.2,
+       "best": {
+        "board": "FanDuel",
+        "odds": 360
+       },
+       "value": []
+      }
+     ],
+     "boards": [
+      {
+       "board": "DraftKings",
+       "kind": "book",
+       "fair": {
+        "BUF": 78.2,
+        "NYJ": 21.8
+       },
+       "raw": {
+        "BUF": 81.5,
+        "NYJ": 22.7
+       },
+       "odds": {
+        "BUF": -440,
+        "NYJ": 340
+       },
+       "margin": 4.2
+      },
+      {
+       "board": "FanDuel",
+       "kind": "book",
+       "fair": {
+        "BUF": 79.1,
+        "NYJ": 20.9
+       },
+       "raw": {
+        "BUF": 82.1,
+        "NYJ": 21.7
+       },
+       "odds": {
+        "BUF": -460,
+        "NYJ": 360
+       },
+       "margin": 3.9
+      },
+      {
+       "board": "BetRivers",
+       "kind": "book",
+       "fair": {
+        "BUF": 78.7,
+        "NYJ": 21.3
+       },
+       "raw": {
+        "BUF": 82.0,
+        "NYJ": 22.2
+       },
+       "odds": {
+        "BUF": -455,
+        "NYJ": 350
+       },
+       "margin": 4.2
+      },
+      {
+       "board": "BetMGM",
+       "kind": "book",
+       "fair": {
+        "BUF": 78.6,
+        "NYJ": 21.4
+       },
+       "raw": {
+        "BUF": 81.8,
+        "NYJ": 22.2
+       },
+       "odds": {
+        "BUF": -450,
+        "NYJ": 350
+       },
+       "margin": 4.0
+      },
+      {
+       "board": "bet365",
+       "kind": "book",
+       "fair": {
+        "BUF": 78.6,
+        "NYJ": 21.4
+       },
+       "raw": {
+        "BUF": 81.8,
+        "NYJ": 22.2
+       },
+       "odds": {
+        "BUF": -450,
+        "NYJ": 350
+       },
+       "margin": 4.0
+      },
+      {
+       "board": "Caesars",
+       "kind": "book",
+       "fair": {
+        "BUF": 77.6,
+        "NYJ": 22.4
+       },
+       "raw": {
+        "BUF": 80.8,
+        "NYJ": 23.3
+       },
+       "odds": {
+        "BUF": -420,
+        "NYJ": 330
+       },
+       "margin": 4.0
+      },
+      {
+       "board": "Unibet",
+       "kind": "book",
+       "fair": {
+        "BUF": 76.2,
+        "NYJ": 23.8
+       },
+       "raw": {
+        "BUF": 80.0,
+        "NYJ": 25.0
+       },
+       "odds": {
+        "BUF": -400,
+        "NYJ": 300
+       },
+       "margin": 5.0
+      },
+      {
+       "board": "Bally Bet",
+       "kind": "book",
+       "fair": {
+        "BUF": 78.7,
+        "NYJ": 21.3
+       },
+       "raw": {
+        "BUF": 82.0,
+        "NYJ": 22.2
+       },
+       "odds": {
+        "BUF": -455,
+        "NYJ": 350
+       },
+       "margin": 4.2
+      },
+      {
+       "board": "Fanatics",
+       "kind": "book",
+       "fair": {
+        "BUF": 78.3,
+        "NYJ": 21.7
+       },
+       "raw": {
+        "BUF": 81.8,
+        "NYJ": 22.7
+       },
+       "odds": {
+        "BUF": -450,
+        "NYJ": 340
+       },
+       "margin": 4.5
+      },
+      {
+       "board": "Prediction market",
+       "kind": "pm",
+       "fair": {
+        "BUF": 80.8,
+        "NYJ": 19.2
+       },
+       "raw": {
+        "BUF": 80,
+        "NYJ": 19
+       },
+       "in_consensus": true
+      }
+     ],
+     "series": [
+      {
+       "t": "2026-11-11T21:45:26-07:00",
+       "home_pct": 21.4,
+       "pm_home": 19.2,
+       "n": 10
+      },
+      {
+       "t": "2026-11-11T21:45:58-07:00",
+       "home_pct": 21.4,
+       "pm_home": 19.2,
+       "n": 10
+      }
+     ],
+     "move_pts": 0.0,
+     "matchups": {
+      "BUF": [
+       {
+        "name": "Josh Allen",
+        "pos": "QB",
+        "tier": "yellow",
+        "val": -0.1,
+        "text": "NYJ pressure 16% of dropbacks, his line allows 15% (lg 16%)"
+       },
+       {
+        "name": "James Cook",
+        "pos": "RB",
+        "tier": "yellow",
+        "val": -0.0,
+        "text": "NYJ allows 4.17 yds/carry (-0.00 vs avg), RB share 69% L3"
+       },
+       {
+        "name": "Khalil Shakir",
+        "pos": "WR",
+        "tier": "yellow",
+        "val": 43,
+        "ace": 43,
+        "text": "ACE 43 est. vs Azareye'h Thomas (right), 5.2 tgt/gm"
+       },
+       {
+        "name": "DJ Moore",
+        "pos": "WR",
+        "tier": "yellow",
+        "val": 41,
+        "ace": 41,
+        "text": "ACE 41 est. vs Brandon Stephens (left), 4.0 tgt/gm"
+       },
+       {
+        "name": "Keon Coleman",
+        "pos": "WR",
+        "tier": "yellow",
+        "val": 41,
+        "ace": 41,
+        "text": "ACE 41 est. vs Azareye'h Thomas (right), 4.1 tgt/gm"
+       },
+       {
+        "name": "Dalton Kincaid",
+        "pos": "TE",
+        "tier": "yellow",
+        "val": 59,
+        "ace": 59,
+        "text": "ACE 59 est. vs Dane Belton (right), 4.8 tgt/gm"
+       }
+      ],
+      "NYJ": [
+       {
+        "name": "Geno Smith",
+        "pos": "QB",
+        "tier": "red",
+        "val": -4.3,
+        "text": "BUF pressure 20% of dropbacks, his line allows 17% (lg 16%)"
+       },
+       {
+        "name": "Braelon Allen",
+        "pos": "RB",
+        "tier": "red",
+        "val": -0.28,
+        "text": "BUF allows 3.79 yds/carry (-0.28 vs avg), RB share 58% L3, committee"
+       },
+       {
+        "name": "Garrett Wilson",
+        "pos": "WR",
+        "tier": "yellow",
+        "val": 42,
+        "ace": 42,
+        "text": "ACE 42 est. vs Christian Benford (right), 7.0 tgt/gm"
+       },
+       {
+        "name": "Adonai Mitchell",
+        "pos": "WR",
+        "tier": "yellow",
+        "val": 41,
+        "ace": 41,
+        "text": "ACE 41 est. vs Christian Benford (right), 3.8 tgt/gm"
+       },
+       {
+        "name": "Omar Cooper Jr.",
+        "pos": "WR",
+        "tier": "yellow",
+        "val": 43,
+        "ace": 43,
+        "text": "ACE 43 est. vs Christian Benford (right), 2.7 tgt/gm"
+       },
+       {
+        "name": "Kenyon Sadiq",
+        "pos": "TE",
+        "tier": "yellow",
+        "val": 45,
+        "ace": 45,
+        "text": "ACE 45 est. vs Terrel Bernard (right), 3.4 tgt/gm"
+       }
+      ]
+     }
+    },
+    {
+     "sport": "nfl",
+     "game": "SEA @ LV",
+     "event_id": "401873062",
+     "start_utc": "2026-11-15T21:05Z",
+     "away": "SEA",
+     "home": "LV",
+     "fav": "SEA",
+     "boards_n": 10,
+     "books_n": 9,
+     "pm_in": true,
+     "teams": [
+      {
+       "team": "SEA",
+       "name": "Seattle Seahawks",
+       "pct": 71.8,
+       "lo": 70.5,
+       "hi": 72.3,
+       "spread_pts": 1.8,
+       "agree": "tight",
+       "pm_pct": 72.3,
+       "best": {
+        "board": "BetRivers",
+        "odds": -278
+       },
+       "value": []
+      },
+      {
+       "team": "LV",
+       "name": "Las Vegas Raiders",
+       "pct": 28.2,
+       "lo": 27.7,
+       "hi": 29.5,
+       "spread_pts": 1.8,
+       "agree": "tight",
+       "pm_pct": 27.7,
+       "best": {
+        "board": "FanDuel",
+        "odds": 245
+       },
+       "value": []
+      }
+     ],
+     "boards": [
+      {
+       "board": "DraftKings",
+       "kind": "book",
+       "fair": {
+        "SEA": 71.4,
+        "LV": 28.6
+       },
+       "raw": {
+        "SEA": 74.4,
+        "LV": 29.9
+       },
+       "odds": {
+        "SEA": -290,
+        "LV": 235
+       },
+       "margin": 4.2
+      },
+      {
+       "board": "FanDuel",
+       "kind": "book",
+       "fair": {
+        "SEA": 72.1,
+        "LV": 27.9
+       },
+       "raw": {
+        "SEA": 75.0,
+        "LV": 29.0
+       },
+       "odds": {
+        "SEA": -300,
+        "LV": 245
+       },
+       "margin": 4.0
+      },
+      {
+       "board": "BetRivers",
+       "kind": "book",
+       "fair": {
+        "SEA": 70.5,
+        "LV": 29.5
+       },
+       "raw": {
+        "SEA": 73.5,
+        "LV": 30.8
+       },
+       "odds": {
+        "SEA": -278,
+        "LV": 225
+       },
+       "margin": 4.3
+      },
+      {
+       "board": "BetMGM",
+       "kind": "book",
+       "fair": {
+        "SEA": 71.7,
+        "LV": 28.3
+       },
+       "raw": {
+        "SEA": 74.7,
+        "LV": 29.4
+       },
+       "odds": {
+        "SEA": -295,
+        "LV": 240
+       },
+       "margin": 4.1
+      },
+      {
+       "board": "bet365",
+       "kind": "book",
+       "fair": {
+        "SEA": 71.8,
+        "LV": 28.2
+       },
+       "raw": {
+        "SEA": 75.0,
+        "LV": 29.4
+       },
+       "odds": {
+        "SEA": -300,
+        "LV": 240
+       },
+       "margin": 4.4
+      },
+      {
+       "board": "Caesars",
+       "kind": "book",
+       "fair": {
+        "SEA": 70.9,
+        "LV": 29.1
+       },
+       "raw": {
+        "SEA": 73.7,
+        "LV": 30.3
+       },
+       "odds": {
+        "SEA": -280,
+        "LV": 230
+       },
+       "margin": 4.0
+      },
+      {
+       "board": "Unibet",
+       "kind": "book",
+       "fair": {
+        "SEA": 71.9,
+        "LV": 28.1
+       },
+       "raw": {
+        "SEA": 75.2,
+        "LV": 29.4
+       },
+       "odds": {
+        "SEA": -303,
+        "LV": 240
+       },
+       "margin": 4.6
+      },
+      {
+       "board": "Bally Bet",
+       "kind": "book",
+       "fair": {
+        "SEA": 70.5,
+        "LV": 29.5
+       },
+       "raw": {
+        "SEA": 73.5,
+        "LV": 30.8
+       },
+       "odds": {
+        "SEA": -278,
+        "LV": 225
+       },
+       "margin": 4.3
+      },
+      {
+       "board": "Fanatics",
+       "kind": "book",
+       "fair": {
+        "SEA": 71.8,
+        "LV": 28.2
+       },
+       "raw": {
+        "SEA": 75.0,
+        "LV": 29.4
+       },
+       "odds": {
+        "SEA": -300,
+        "LV": 240
+       },
+       "margin": 4.4
+      },
+      {
+       "board": "Prediction market",
+       "kind": "pm",
+       "fair": {
+        "SEA": 72.3,
+        "LV": 27.7
+       },
+       "raw": {
+        "SEA": 73,
+        "LV": 28
+       },
+       "in_consensus": true
+      }
+     ],
+     "series": [
+      {
+       "t": "2026-11-11T21:45:26-07:00",
+       "home_pct": 28.2,
+       "pm_home": 27.7,
+       "n": 10
+      },
+      {
+       "t": "2026-11-11T21:45:58-07:00",
+       "home_pct": 28.2,
+       "pm_home": 27.7,
+       "n": 10
+      }
+     ],
+     "move_pts": 0.0,
+     "matchups": {
+      "SEA": [
+       {
+        "name": "Sam Darnold",
+        "pos": "QB",
+        "tier": "red",
+        "val": -2.8,
+        "text": "LV pressure 17% of dropbacks, his line allows 18% (lg 16%)"
+       },
+       {
+        "name": "Zach Charbonnet",
+        "pos": "RB",
+        "tier": "yellow",
+        "val": 0.83,
+        "text": "LV allows 5.21 yds/carry (+0.83 vs avg), RB share 29% L3, committee"
+       },
+       {
+        "name": "Jaxon Smith-Njigba",
+        "pos": "WR",
+        "tier": "yellow",
+        "val": 58,
+        "ace": 58,
+        "text": "ACE 58 est. vs Eric Stokes (right), 11.0 tgt/gm"
+       },
+       {
+        "name": "Cooper Kupp",
+        "pos": "WR",
+        "tier": "yellow",
+        "val": 58,
+        "ace": 58,
+        "text": "ACE 58 est. vs Darien Porter (left), 3.8 tgt/gm"
+       },
+       {
+        "name": "Rashid Shaheed",
+        "pos": "WR",
+        "tier": "yellow",
+        "val": 59,
+        "ace": 59,
+        "text": "ACE 59 est. vs Eric Stokes (right), 3.3 tgt/gm"
+       },
+       {
+        "name": "AJ Barner",
+        "pos": "TE",
+        "tier": "yellow",
+        "val": 43,
+        "ace": 43,
+        "text": "ACE 43 est. vs Jeremy Chinn (right), 4.2 tgt/gm"
+       }
+      ],
+      "LV": [
+       {
+        "name": "Kirk Cousins",
+        "pos": "QB",
+        "tier": "red",
+        "val": -3.2,
+        "text": "SEA pressure 19% of dropbacks, his line allows 17% (lg 16%)"
+       },
+       {
+        "name": "Mike Washington Jr.",
+        "pos": "RB",
+        "tier": "red",
+        "val": -0.63,
+        "text": "SEA allows 3.35 yds/carry (-0.63 vs avg), RB share 47% L3, committee"
+       },
+       {
+        "name": "Tre Tucker",
+        "pos": "WR",
+        "tier": "red",
+        "val": 32,
+        "ace": 32,
+        "text": "ACE 32 est. vs Josh Jobe (left), 6.1 tgt/gm"
+       },
+       {
+        "name": "Jalen Nailor",
+        "pos": "WR",
+        "tier": "red",
+        "val": 31,
+        "ace": 31,
+        "text": "ACE 31 est. vs Devon Witherspoon (right), 3.1 tgt/gm"
+       },
+       {
+        "name": "Cody White",
+        "pos": "WR",
+        "tier": "red",
+        "val": 35,
+        "ace": 35,
+        "text": "ACE 35 est. vs Josh Jobe (left), 2.1 tgt/gm"
+       },
+       {
+        "name": "Brock Bowers",
+        "pos": "TE",
+        "tier": "yellow",
+        "val": 45,
+        "ace": 45,
+        "text": "ACE 45 est. vs Julian Love (left), 7.7 tgt/gm"
+       }
+      ]
+     }
+    },
+    {
+     "sport": "nfl",
+     "game": "LAR @ ARI",
+     "event_id": "401873061",
+     "start_utc": "2026-11-15T21:05Z",
+     "away": "LAR",
+     "home": "ARI",
+     "fav": "LAR",
+     "boards_n": 10,
+     "books_n": 9,
+     "pm_in": true,
+     "teams": [
+      {
+       "team": "LAR",
+       "name": "Los Angeles Rams",
+       "pct": 79.6,
+       "lo": 78.5,
+       "hi": 81.2,
+       "spread_pts": 2.7,
+       "agree": "tight",
+       "pm_pct": 79.4,
+       "best": {
+        "board": "Fanatics",
+        "odds": -475
+       },
+       "value": []
+      },
+      {
+       "team": "ARI",
+       "name": "Arizona Cardinals",
+       "pct": 20.4,
+       "lo": 18.8,
+       "hi": 21.5,
+       "spread_pts": 2.7,
+       "agree": "tight",
+       "pm_pct": 20.6,
+       "best": {
+        "board": "FanDuel",
+        "odds": 410
+       },
+       "value": []
+      }
+     ],
+     "boards": [
+      {
+       "board": "DraftKings",
+       "kind": "book",
+       "fair": {
+        "LAR": 80.4,
+        "ARI": 19.6
+       },
+       "raw": {
+        "LAR": 83.9,
+        "ARI": 20.4
+       },
+       "odds": {
+        "LAR": -520,
+        "ARI": 390
+       },
+       "margin": 4.3
+      },
+      {
+       "board": "FanDuel",
+       "kind": "book",
+       "fair": {
+        "LAR": 81.2,
+        "ARI": 18.8
+       },
+       "raw": {
+        "LAR": 84.6,
+        "ARI": 19.6
+       },
+       "odds": {
+        "LAR": -550,
+        "ARI": 410
+       },
+       "margin": 4.2
+      },
+      {
+       "board": "BetRivers",
+       "kind": "book",
+       "fair": {
+        "LAR": 78.5,
+        "ARI": 21.5
+       },
+       "raw": {
+        "LAR": 82.8,
+        "ARI": 22.7
+       },
+       "odds": {
+        "LAR": -480,
+        "ARI": 340
+       },
+       "margin": 5.5
+      },
+      {
+       "board": "BetMGM",
+       "kind": "book",
+       "fair": {
+        "LAR": 80.0,
+        "ARI": 20.0
+       },
+       "raw": {
+        "LAR": 83.3,
+        "ARI": 20.8
+       },
+       "odds": {
+        "LAR": -500,
+        "ARI": 380
+       },
+       "margin": 4.2
+      },
+      {
+       "board": "bet365",
+       "kind": "book",
+       "fair": {
+        "LAR": 80.5,
+        "ARI": 19.5
+       },
+       "raw": {
+        "LAR": 84.0,
+        "ARI": 20.4
+       },
+       "odds": {
+        "LAR": -525,
+        "ARI": 390
+       },
+       "margin": 4.4
+      },
+      {
+       "board": "Caesars",
+       "kind": "book",
+       "fair": {
+        "LAR": 79.2,
+        "ARI": 20.8
+       },
+       "raw": {
+        "LAR": 82.8,
+        "ARI": 21.7
+       },
+       "odds": {
+        "LAR": -480,
+        "ARI": 360
+       },
+       "margin": 4.5
+      },
+      {
+       "board": "Unibet",
+       "kind": "book",
+       "fair": {
+        "LAR": 79.8,
+        "ARI": 20.2
+       },
+       "raw": {
+        "LAR": 83.3,
+        "ARI": 21.1
+       },
+       "odds": {
+        "LAR": -500,
+        "ARI": 375
+       },
+       "margin": 4.4
+      },
+      {
+       "board": "Bally Bet",
+       "kind": "book",
+       "fair": {
+        "LAR": 78.5,
+        "ARI": 21.5
+       },
+       "raw": {
+        "LAR": 82.8,
+        "ARI": 22.7
+       },
+       "odds": {
+        "LAR": -480,
+        "ARI": 340
+       },
+       "margin": 5.5
+      },
+      {
+       "board": "Fanatics",
+       "kind": "book",
+       "fair": {
+        "LAR": 79.2,
+        "ARI": 20.8
+       },
+       "raw": {
+        "LAR": 82.6,
+        "ARI": 21.7
+       },
+       "odds": {
+        "LAR": -475,
+        "ARI": 360
+       },
+       "margin": 4.3
+      },
+      {
+       "board": "Prediction market",
+       "kind": "pm",
+       "fair": {
+        "LAR": 79.4,
+        "ARI": 20.6
+       },
+       "raw": {
+        "LAR": 81,
+        "ARI": 21
+       },
+       "in_consensus": true
+      }
+     ],
+     "series": [
+      {
+       "t": "2026-11-11T21:45:26-07:00",
+       "home_pct": 20.4,
+       "pm_home": 20.6,
+       "n": 10
+      },
+      {
+       "t": "2026-11-11T21:45:58-07:00",
+       "home_pct": 20.4,
+       "pm_home": 20.6,
+       "n": 10
+      }
+     ],
+     "move_pts": 0.0,
+     "matchups": {
+      "LAR": [
+       {
+        "name": "Matthew Stafford",
+        "pos": "QB",
+        "tier": "green",
+        "val": 2.9,
+        "text": "ARI pressure 14% of dropbacks, his line allows 14% (lg 16%)"
+       },
+       {
+        "name": "Kyren Williams",
+        "pos": "RB",
+        "tier": "yellow",
+        "val": -0.19,
+        "text": "ARI allows 3.93 yds/carry (-0.19 vs avg), RB share 53% L3, committee"
+       },
+       {
+        "name": "Puka Nacua",
+        "pos": "WR",
+        "tier": "yellow",
+        "val": 52,
+        "ace": 52,
+        "text": "ACE 52 est. vs Kalen King (right), 10.3 tgt/gm"
+       },
+       {
+        "name": "Davante Adams",
+        "pos": "WR",
+        "tier": "yellow",
+        "val": 52,
+        "ace": 52,
+        "text": "ACE 52 est. vs Denzel Burke (left), 5.4 tgt/gm"
+       },
+       {
+        "name": "Konata Mumpfield",
+        "pos": "WR",
+        "tier": "yellow",
+        "val": 52,
+        "ace": 52,
+        "text": "ACE 52 est. vs Kalen King (right), 2.6 tgt/gm"
+       },
+       {
+        "name": "Tyler Higbee",
+        "pos": "TE",
+        "tier": "yellow",
+        "val": 58,
+        "ace": 58,
+        "text": "ACE 58 est. vs Budda Baker (right), 4.3 tgt/gm"
+       }
+      ],
+      "ARI": [
+       {
+        "name": "Gardner Minshew",
+        "pos": "QB",
+        "tier": "yellow",
+        "val": 1.9,
+        "text": "LAR pressure 12% of dropbacks, his line allows 17% (lg 16%)"
+       },
+       {
+        "name": "Tyler Allgeier",
+        "pos": "RB",
+        "tier": "red",
+        "val": -0.4,
+        "text": "LAR allows 3.65 yds/carry (-0.40 vs avg), RB share 49% L3, committee"
+       },
+       {
+        "name": "Michael Wilson",
+        "pos": "WR",
+        "tier": "yellow",
+        "val": 45,
+        "ace": 45,
+        "text": "ACE 45 est. vs Josh Wallace (right), 9.8 tgt/gm"
+       },
+       {
+        "name": "Kendrick Bourne",
+        "pos": "WR",
+        "tier": "red",
+        "val": 37,
+        "ace": 37,
+        "text": "ACE 37 est. vs Trent McDuffie (left), 4.2 tgt/gm"
+       },
+       {
+        "name": "Jalen Brooks",
+        "pos": "WR",
+        "tier": "yellow",
+        "val": 42,
+        "ace": 42,
+        "text": "ACE 42 est. vs Josh Wallace (right), 1.9 tgt/gm"
+       },
+       {
+        "name": "Trey McBride",
+        "pos": "TE",
+        "tier": "yellow",
+        "val": 52,
+        "ace": 52,
+        "text": "ACE 52 est. vs Kam Curl (right), 10.4 tgt/gm"
+       }
+      ]
+     }
+    },
+    {
+     "sport": "nfl",
+     "game": "SF @ DAL",
+     "event_id": "401873063",
+     "start_utc": "2026-11-15T21:25Z",
+     "away": "SF",
+     "home": "DAL",
+     "fav": "SF",
+     "boards_n": 10,
+     "books_n": 9,
+     "pm_in": true,
+     "teams": [
+      {
+       "team": "SF",
+       "name": "San Francisco 49ers",
+       "pct": 65.0,
+       "lo": 64.5,
+       "hi": 66.4,
+       "spread_pts": 1.9,
+       "agree": "tight",
+       "pm_pct": 65.7,
+       "best": {
+        "board": "DraftKings",
+        "odds": -205
+       },
+       "value": []
+      },
+      {
+       "team": "DAL",
+       "name": "Dallas Cowboys",
+       "pct": 35.0,
+       "lo": 33.6,
+       "hi": 35.5,
+       "spread_pts": 1.9,
+       "agree": "tight",
+       "pm_pct": 34.3,
+       "best": {
+        "board": "BetMGM",
+        "odds": 185
+       },
+       "value": []
+      }
+     ],
+     "boards": [
+      {
+       "board": "DraftKings",
+       "kind": "book",
+       "fair": {
+        "SF": 64.5,
+        "DAL": 35.5
+       },
+       "raw": {
+        "SF": 67.2,
+        "DAL": 37.0
+       },
+       "odds": {
+        "SF": -205,
+        "DAL": 170
+       },
+       "margin": 4.3
+      },
+      {
+       "board": "FanDuel",
+       "kind": "book",
+       "fair": {
+        "SF": 64.6,
+        "DAL": 35.4
+       },
+       "raw": {
+        "SF": 67.2,
+        "DAL": 36.8
+       },
+       "odds": {
+        "SF": -205,
+        "DAL": 172
+       },
+       "margin": 4.0
+      },
+      {
+       "board": "BetRivers",
+       "kind": "book",
+       "fair": {
+        "SF": 64.8,
+        "DAL": 35.2
+       },
+       "raw": {
+        "SF": 68.3,
+        "DAL": 37.0
+       },
+       "odds": {
+        "SF": -215,
+        "DAL": 170
+       },
+       "margin": 5.3
+      },
+      {
+       "board": "BetMGM",
+       "kind": "book",
+       "fair": {
+        "SF": 66.4,
+        "DAL": 33.6
+       },
+       "raw": {
+        "SF": 69.2,
+        "DAL": 35.1
+       },
+       "odds": {
+        "SF": -225,
+        "DAL": 185
+       },
+       "margin": 4.3
+      },
+      {
+       "board": "bet365",
+       "kind": "book",
+       "fair": {
+        "SF": 65.1,
+        "DAL": 34.9
+       },
+       "raw": {
+        "SF": 67.7,
+        "DAL": 36.4
+       },
+       "odds": {
+        "SF": -210,
+        "DAL": 175
+       },
+       "margin": 4.1
+      },
+      {
+       "board": "Caesars",
+       "kind": "book",
+       "fair": {
+        "SF": 66.0,
+        "DAL": 34.0
+       },
+       "raw": {
+        "SF": 68.6,
+        "DAL": 35.3
+       },
+       "odds": {
+        "SF": -218,
+        "DAL": 183
+       },
+       "margin": 3.9
+      },
+      {
+       "board": "Unibet",
+       "kind": "book",
+       "fair": {
+        "SF": 65.0,
+        "DAL": 35.0
+       },
+       "raw": {
+        "SF": 67.5,
+        "DAL": 36.4
+       },
+       "odds": {
+        "SF": -208,
+        "DAL": 175
+       },
+       "margin": 3.9
+      },
+      {
+       "board": "Bally Bet",
+       "kind": "book",
+       "fair": {
+        "SF": 64.8,
+        "DAL": 35.2
+       },
+       "raw": {
+        "SF": 68.3,
+        "DAL": 37.0
+       },
+       "odds": {
+        "SF": -215,
+        "DAL": 170
+       },
+       "margin": 5.3
+      },
+      {
+       "board": "Fanatics",
+       "kind": "book",
+       "fair": {
+        "SF": 65.2,
+        "DAL": 34.8
+       },
+       "raw": {
+        "SF": 68.3,
+        "DAL": 36.4
+       },
+       "odds": {
+        "SF": -215,
+        "DAL": 175
+       },
+       "margin": 4.6
+      },
+      {
+       "board": "Prediction market",
+       "kind": "pm",
+       "fair": {
+        "SF": 65.7,
+        "DAL": 34.3
+       },
+       "raw": {
+        "SF": 67,
+        "DAL": 35
+       },
+       "in_consensus": true
+      }
+     ],
+     "series": [
+      {
+       "t": "2026-11-11T21:45:26-07:00",
+       "home_pct": 35.0,
+       "pm_home": 34.3,
+       "n": 10
+      },
+      {
+       "t": "2026-11-11T21:45:58-07:00",
+       "home_pct": 35.0,
+       "pm_home": 34.3,
+       "n": 10
+      }
+     ],
+     "move_pts": 0.0,
+     "matchups": {
+      "SF": [
+       {
+        "name": "Brock Purdy",
+        "pos": "QB",
+        "tier": "green",
+        "val": 5.2,
+        "text": "DAL pressure 14% of dropbacks, his line allows 11% (lg 16%)"
+       },
+       {
+        "name": "Christian McCaffrey",
+        "pos": "RB",
+        "tier": "yellow",
+        "val": 0.58,
+        "text": "DAL allows 4.91 yds/carry (+0.58 vs avg), RB share 53% L3, committee"
+       },
+       {
+        "name": "Mike Evans",
+        "pos": "WR",
+        "tier": "yellow",
+        "val": 49,
+        "ace": 49,
+        "text": "ACE 49 est. vs DaRon Bland (left), 4.9 tgt/gm"
+       },
+       {
+        "name": "Jordan Watkins",
+        "pos": "WR",
+        "tier": "yellow",
+        "val": 48,
+        "ace": 48,
+        "text": "ACE 48 est. vs DaRon Bland (left), 1.6 tgt/gm"
+       },
+       {
+        "name": "Deebo Samuel Sr.",
+        "pos": "WR",
+        "tier": "yellow",
+        "val": 46,
+        "ace": 46,
+        "text": "ACE 46 est. vs Joey Porter Jr. (right), 2.5 tgt/gm"
+       },
+       {
+        "name": "George Kittle",
+        "pos": "TE",
+        "tier": "yellow",
+        "val": 50,
+        "ace": 50,
+        "text": "ACE 50 est. vs P.J. Locke (left), 6.6 tgt/gm"
+       }
+      ],
+      "DAL": [
+       {
+        "name": "Dak Prescott",
+        "pos": "QB",
+        "tier": "green",
+        "val": 2.8,
+        "text": "SF pressure 14% of dropbacks, his line allows 14% (lg 16%)"
+       },
+       {
+        "name": "Javonte Williams",
+        "pos": "RB",
+        "tier": "red",
+        "val": -0.47,
+        "text": "SF allows 3.54 yds/carry (-0.47 vs avg), RB share 64% L3"
+       },
+       {
+        "name": "CeeDee Lamb",
+        "pos": "WR",
+        "tier": "red",
+        "val": 37,
+        "ace": 37,
+        "text": "ACE 37 est. vs Renardo Green (right), 12.0 tgt/gm"
+       },
+       {
+        "name": "George Pickens",
+        "pos": "WR",
+        "tier": "red",
+        "val": 38,
+        "ace": 38,
+        "text": "ACE 38 est. vs Deommodore Lenoir (left), 6.9 tgt/gm"
+       },
+       {
+        "name": "Ryan Flournoy",
+        "pos": "WR",
+        "tier": "red",
+        "val": 38,
+        "ace": 38,
+        "text": "ACE 38 est. vs Deommodore Lenoir (left), 5.2 tgt/gm"
+       },
+       {
+        "name": "Brevyn Spann-Ford",
+        "pos": "TE",
+        "tier": "yellow",
+        "val": 49,
+        "ace": 49,
+        "text": "ACE 49 est. vs Malik Mustapha (right), 2.3 tgt/gm"
+       }
+      ]
+     }
+    },
+    {
+     "sport": "nfl",
+     "game": "PIT @ CIN",
+     "event_id": "401873064",
+     "start_utc": "2026-11-16T01:20Z",
+     "away": "PIT",
+     "home": "CIN",
+     "fav": "CIN",
+     "boards_n": 10,
+     "books_n": 9,
+     "pm_in": true,
+     "teams": [
+      {
+       "team": "PIT",
+       "name": "Pittsburgh Steelers",
+       "pct": 37.4,
+       "lo": 36.9,
+       "hi": 38.4,
+       "spread_pts": 1.5,
+       "agree": "tight",
+       "pm_pct": 37.3,
+       "best": {
+        "board": "Caesars",
+        "odds": 160
+       },
+       "value": []
+      },
+      {
+       "team": "CIN",
+       "name": "Cincinnati Bengals",
+       "pct": 62.6,
+       "lo": 61.6,
+       "hi": 63.1,
+       "spread_pts": 1.5,
+       "agree": "tight",
+       "pm_pct": 62.7,
+       "best": {
+        "board": "DraftKings",
+        "odds": -180
+       },
+       "value": []
+      }
+     ],
+     "boards": [
+      {
+       "board": "DraftKings",
+       "kind": "book",
+       "fair": {
+        "PIT": 38.4,
+        "CIN": 61.6
+       },
+       "raw": {
+        "PIT": 40.0,
+        "CIN": 64.3
+       },
+       "odds": {
+        "PIT": 150,
+        "CIN": -180
+       },
+       "margin": 4.3
+      },
+      {
+       "board": "FanDuel",
+       "kind": "book",
+       "fair": {
+        "PIT": 37.8,
+        "CIN": 62.2
+       },
+       "raw": {
+        "PIT": 39.4,
+        "CIN": 64.8
+       },
+       "odds": {
+        "PIT": 154,
+        "CIN": -184
+       },
+       "margin": 4.2
+      },
+      {
+       "board": "BetRivers",
+       "kind": "book",
+       "fair": {
+        "PIT": 37.2,
+        "CIN": 62.8
+       },
+       "raw": {
+        "PIT": 39.2,
+        "CIN": 66.1
+       },
+       "odds": {
+        "PIT": 155,
+        "CIN": -195
+       },
+       "margin": 5.3
+      },
+      {
+       "board": "BetMGM",
+       "kind": "book",
+       "fair": {
+        "PIT": 37.4,
+        "CIN": 62.6
+       },
+       "raw": {
+        "PIT": 39.2,
+        "CIN": 65.5
+       },
+       "odds": {
+        "PIT": 155,
+        "CIN": -190
+       },
+       "margin": 4.7
+      },
+      {
+       "board": "bet365",
+       "kind": "book",
+       "fair": {
+        "PIT": 37.4,
+        "CIN": 62.6
+       },
+       "raw": {
+        "PIT": 38.9,
+        "CIN": 65.2
+       },
+       "odds": {
+        "PIT": 157,
+        "CIN": -187
+       },
+       "margin": 4.1
+      },
+      {
+       "board": "Caesars",
+       "kind": "book",
+       "fair": {
+        "PIT": 36.9,
+        "CIN": 63.1
+       },
+       "raw": {
+        "PIT": 38.5,
+        "CIN": 65.9
+       },
+       "odds": {
+        "PIT": 160,
+        "CIN": -193
+       },
+       "margin": 4.3
+      },
+      {
+       "board": "Unibet",
+       "kind": "book",
+       "fair": {
+        "PIT": 37.7,
+        "CIN": 62.3
+       },
+       "raw": {
+        "PIT": 39.2,
+        "CIN": 64.9
+       },
+       "odds": {
+        "PIT": 155,
+        "CIN": -185
+       },
+       "margin": 4.1
+      },
+      {
+       "board": "Bally Bet",
+       "kind": "book",
+       "fair": {
+        "PIT": 37.2,
+        "CIN": 62.8
+       },
+       "raw": {
+        "PIT": 39.2,
+        "CIN": 66.1
+       },
+       "odds": {
+        "PIT": 155,
+        "CIN": -195
+       },
+       "margin": 5.3
+      },
+      {
+       "board": "Fanatics",
+       "kind": "book",
+       "fair": {
+        "PIT": 37.4,
+        "CIN": 62.6
+       },
+       "raw": {
+        "PIT": 39.2,
+        "CIN": 65.5
+       },
+       "odds": {
+        "PIT": 155,
+        "CIN": -190
+       },
+       "margin": 4.7
+      },
+      {
+       "board": "Prediction market",
+       "kind": "pm",
+       "fair": {
+        "PIT": 37.3,
+        "CIN": 62.7
+       },
+       "raw": {
+        "PIT": 38,
+        "CIN": 64
+       },
+       "in_consensus": true
+      }
+     ],
+     "series": [
+      {
+       "t": "2026-11-11T21:45:26-07:00",
+       "home_pct": 62.6,
+       "pm_home": 62.7,
+       "n": 10
+      },
+      {
+       "t": "2026-11-11T21:45:58-07:00",
+       "home_pct": 62.6,
+       "pm_home": 62.7,
+       "n": 10
+      }
+     ],
+     "move_pts": 0.0,
+     "matchups": {
+      "PIT": [
+       {
+        "name": "Aaron Rodgers",
+        "pos": "QB",
+        "tier": "yellow",
+        "val": 0.9,
+        "text": "CIN pressure 15% of dropbacks, his line allows 16% (lg 16%)"
+       },
+       {
+        "name": "Jaylen Warren",
+        "pos": "RB",
+        "tier": "yellow",
+        "val": 0.33,
+        "text": "CIN allows 4.62 yds/carry (+0.33 vs avg), RB share 49% L3, committee"
+       },
+       {
+        "name": "DK Metcalf",
+        "pos": "WR",
+        "tier": "red",
+        "val": 40,
+        "ace": 40,
+        "text": "ACE 40 est. vs DJ Turner II (left), 8.0 tgt/gm"
+       },
+       {
+        "name": "Germie Bernard",
+        "pos": "WR",
+        "tier": "yellow",
+        "val": 43,
+        "ace": 43,
+        "text": "ACE 43 est. vs Tacario Davis (right), 5.2 tgt/gm"
+       },
+       {
+        "name": "Roman Wilson",
+        "pos": "WR",
+        "tier": "yellow",
+        "val": 41,
+        "ace": 41,
+        "text": "ACE 41 est. vs Tacario Davis (right), 3.1 tgt/gm"
+       },
+       {
+        "name": "Pat Freiermuth",
+        "pos": "TE",
+        "tier": "green",
+        "val": 64,
+        "ace": 64,
+        "text": "ACE 64 est. vs Jordan Battle (left), 4.4 tgt/gm"
+       }
+      ],
+      "CIN": [
+       {
+        "name": "Joe Burrow",
+        "pos": "QB",
+        "tier": "yellow",
+        "val": -1.9,
+        "text": "PIT pressure 16% of dropbacks, his line allows 18% (lg 16%)"
+       },
+       {
+        "name": "Chase Brown",
+        "pos": "RB",
+        "tier": "red",
+        "val": -0.44,
+        "text": "PIT allows 3.57 yds/carry (-0.44 vs avg), RB share 60% L3, committee"
+       },
+       {
+        "name": "Ja'Marr Chase",
+        "pos": "WR",
+        "tier": "red",
+        "val": 38,
+        "ace": 38,
+        "text": "ACE 38 est. vs Asante Samuel Jr. (right), 9.1 tgt/gm"
+       },
+       {
+        "name": "Tee Higgins",
+        "pos": "WR",
+        "tier": "red",
+        "val": 38,
+        "ace": 38,
+        "text": "ACE 38 est. vs Asante Samuel Jr. (right), 8.4 tgt/gm"
+       },
+       {
+        "name": "Dohnte Meyers",
+        "pos": "WR",
+        "tier": "red",
+        "val": 38,
+        "ace": 38,
+        "text": "ACE 38 est. vs Asante Samuel Jr. (right), 3.2 tgt/gm"
+       },
+       {
+        "name": "Mike Gesicki",
+        "pos": "TE",
+        "tier": "yellow",
+        "val": 54,
+        "ace": 54,
+        "text": "ACE 54 est. vs DeShon Elliott (right), 3.2 tgt/gm"
+       }
+      ]
+     }
+    },
+    {
+     "sport": "nfl",
+     "game": "LAC @ BAL",
+     "event_id": "401873065",
+     "start_utc": "2026-11-17T01:15Z",
+     "away": "LAC",
+     "home": "BAL",
+     "fav": "BAL",
+     "boards_n": 10,
+     "books_n": 9,
+     "pm_in": true,
+     "teams": [
+      {
+       "team": "LAC",
+       "name": "Los Angeles Chargers",
+       "pct": 34.7,
+       "lo": 33.6,
+       "hi": 35.9,
+       "spread_pts": 2.2,
+       "agree": "tight",
+       "pm_pct": 34.0,
+       "best": {
+        "board": "DraftKings",
+        "odds": 185
+       },
+       "value": []
+      },
+      {
+       "team": "BAL",
+       "name": "Baltimore Ravens",
+       "pct": 65.3,
+       "lo": 64.1,
+       "hi": 66.4,
+       "spread_pts": 2.2,
+       "agree": "tight",
+       "pm_pct": 66.0,
+       "best": {
+        "board": "FanDuel",
+        "odds": -200
+       },
+       "value": []
+      }
+     ],
+     "boards": [
+      {
+       "board": "DraftKings",
+       "kind": "book",
+       "fair": {
+        "LAC": 33.6,
+        "BAL": 66.4
+       },
+       "raw": {
+        "LAC": 35.1,
+        "BAL": 69.2
+       },
+       "odds": {
+        "LAC": 185,
+        "BAL": -225
+       },
+       "margin": 4.3
+      },
+      {
+       "board": "FanDuel",
+       "kind": "book",
+       "fair": {
+        "LAC": 35.9,
+        "BAL": 64.1
+       },
+       "raw": {
+        "LAC": 37.3,
+        "BAL": 66.7
+       },
+       "odds": {
+        "LAC": 168,
+        "BAL": -200
+       },
+       "margin": 4.0
+      },
+      {
+       "board": "BetRivers",
+       "kind": "book",
+       "fair": {
+        "LAC": 35.3,
+        "BAL": 64.7
+       },
+       "raw": {
+        "LAC": 37.0,
+        "BAL": 67.7
+       },
+       "odds": {
+        "LAC": 170,
+        "BAL": -210
+       },
+       "margin": 4.8
+      },
+      {
+       "board": "BetMGM",
+       "kind": "book",
+       "fair": {
+        "LAC": 34.9,
+        "BAL": 65.1
+       },
+       "raw": {
+        "LAC": 36.4,
+        "BAL": 67.7
+       },
+       "odds": {
+        "LAC": 175,
+        "BAL": -210
+       },
+       "margin": 4.1
+      },
+      {
+       "board": "bet365",
+       "kind": "book",
+       "fair": {
+        "LAC": 34.2,
+        "BAL": 65.8
+       },
+       "raw": {
+        "LAC": 35.7,
+        "BAL": 68.8
+       },
+       "odds": {
+        "LAC": 180,
+        "BAL": -220
+       },
+       "margin": 4.5
+      },
+      {
+       "board": "Caesars",
+       "kind": "book",
+       "fair": {
+        "LAC": 34.6,
+        "BAL": 65.4
+       },
+       "raw": {
+        "LAC": 36.0,
+        "BAL": 68.1
+       },
+       "odds": {
+        "LAC": 178,
+        "BAL": -213
+       },
+       "margin": 4.0
+      },
+      {
+       "board": "Unibet",
+       "kind": "book",
+       "fair": {
+        "LAC": 34.1,
+        "BAL": 65.9
+       },
+       "raw": {
+        "LAC": 35.7,
+        "BAL": 68.9
+       },
+       "odds": {
+        "LAC": 180,
+        "BAL": -222
+       },
+       "margin": 4.7
+      },
+      {
+       "board": "Bally Bet",
+       "kind": "book",
+       "fair": {
+        "LAC": 35.3,
+        "BAL": 64.7
+       },
+       "raw": {
+        "LAC": 37.0,
+        "BAL": 67.7
+       },
+       "odds": {
+        "LAC": 170,
+        "BAL": -210
+       },
+       "margin": 4.8
+      },
+      {
+       "board": "Fanatics",
+       "kind": "book",
+       "fair": {
+        "LAC": 34.8,
+        "BAL": 65.2
+       },
+       "raw": {
+        "LAC": 36.4,
+        "BAL": 68.3
+       },
+       "odds": {
+        "LAC": 175,
+        "BAL": -215
+       },
+       "margin": 4.6
+      },
+      {
+       "board": "Prediction market",
+       "kind": "pm",
+       "fair": {
+        "LAC": 34.0,
+        "BAL": 66.0
+       },
+       "raw": {
+        "LAC": 34,
+        "BAL": 66
+       },
+       "in_consensus": true
+      }
+     ],
+     "series": [
+      {
+       "t": "2026-11-11T21:45:26-07:00",
+       "home_pct": 65.3,
+       "pm_home": 66.0,
+       "n": 10
+      },
+      {
+       "t": "2026-11-11T21:45:58-07:00",
+       "home_pct": 65.3,
+       "pm_home": 66.0,
+       "n": 10
+      }
+     ],
+     "move_pts": 0.0,
+     "matchups": {
+      "LAC": [
+       {
+        "name": "Justin Herbert",
+        "pos": "QB",
+        "tier": "red",
+        "val": -3.0,
+        "text": "BAL pressure 16% of dropbacks, his line allows 19% (lg 16%)"
+       },
+       {
+        "name": "Omarion Hampton",
+        "pos": "RB",
+        "tier": "red",
+        "val": -0.45,
+        "text": "BAL allows 3.59 yds/carry (-0.45 vs avg), RB share 34% L3, committee"
+       },
+       {
+        "name": "Tre Harris",
+        "pos": "WR",
+        "tier": "yellow",
+        "val": 57,
+        "ace": 57,
+        "text": "ACE 57 est. vs Nate Wiggins (right), 4.4 tgt/gm"
+       },
+       {
+        "name": "Quentin Johnston",
+        "pos": "WR",
+        "tier": "yellow",
+        "val": 58,
+        "ace": 58,
+        "text": "ACE 58 est. vs Nate Wiggins (right), 3.8 tgt/gm"
+       },
+       {
+        "name": "Ladd McConkey",
+        "pos": "WR",
+        "tier": "yellow",
+        "val": 58,
+        "ace": 58,
+        "text": "ACE 58 est. vs Nate Wiggins (right), 3.0 tgt/gm"
+       },
+       {
+        "name": "Oronde Gadsden II",
+        "pos": "TE",
+        "tier": "green",
+        "val": 62,
+        "ace": 62,
+        "text": "ACE 62 est. vs Jaylinn Hawkins (right), 3.6 tgt/gm"
+       }
+      ],
+      "BAL": [
+       {
+        "name": "Joe Fagnano",
+        "pos": "QB",
+        "tier": "red",
+        "val": -2.1,
+        "text": "LAC pressure 16% of dropbacks, his line allows 18% (lg 16%)"
+       },
+       {
+        "name": "Derrick Henry",
+        "pos": "RB",
+        "tier": "yellow",
+        "val": 0.11,
+        "text": "LAC allows 4.32 yds/carry (+0.11 vs avg), RB share 51% L3, committee"
+       },
+       {
+        "name": "Zay Flowers",
+        "pos": "WR",
+        "tier": "yellow",
+        "val": 55,
+        "ace": 55,
+        "text": "ACE 55 est. vs Cam Hart (right), 7.1 tgt/gm"
+       },
+       {
+        "name": "Rashod Bateman",
+        "pos": "WR",
+        "tier": "yellow",
+        "val": 58,
+        "ace": 58,
+        "text": "ACE 58 est. vs Donte Jackson (left), 3.4 tgt/gm"
+       },
+       {
+        "name": "Ja'Kobi Lane",
+        "pos": "WR",
+        "tier": "yellow",
+        "val": 56,
+        "ace": 56,
+        "text": "ACE 56 est. vs Cam Hart (right), 1.6 tgt/gm"
+       },
+       {
+        "name": "Mark Andrews",
+        "pos": "TE",
+        "tier": "yellow",
+        "val": 48,
+        "ace": 48,
+        "text": "ACE 48 est. vs Tony Jefferson (left), 4.8 tgt/gm"
+       }
+      ]
+     }
+    }
+   ]
+  },
+  "nba": {
+   "games": [
+    {
+     "sport": "nba",
+     "game": "TOR @ PHI",
+     "event_id": "401909976",
+     "start_utc": "2026-11-13T00:00Z",
+     "away": "TOR",
+     "home": "PHI",
+     "fav": "PHI",
+     "boards_n": 8,
+     "books_n": 8,
+     "pm_in": false,
+     "teams": [
+      {
+       "team": "TOR",
+       "name": "Toronto Raptors",
+       "pct": 22.6,
+       "lo": 20.5,
+       "hi": 23.2,
+       "spread_pts": 2.7,
+       "agree": "tight",
+       "pm_pct": null,
+       "best": {
+        "board": "FanDuel",
+        "odds": 370
+       },
+       "value": []
+      },
+      {
+       "team": "PHI",
+       "name": "Philadelphia 76ers",
+       "pct": 77.4,
+       "lo": 76.8,
+       "hi": 79.5,
+       "spread_pts": 2.7,
+       "agree": "tight",
+       "pm_pct": null,
+       "best": {
+        "board": "DraftKings",
+        "odds": -410
+       },
+       "value": []
+      }
+     ],
+     "boards": [
+      {
+       "board": "DraftKings",
+       "kind": "book",
+       "fair": {
+        "TOR": 22.8,
+        "PHI": 77.2
+       },
+       "raw": {
+        "TOR": 23.7,
+        "PHI": 80.4
+       },
+       "odds": {
+        "TOR": 322,
+        "PHI": -410
+       },
+       "margin": 4.1
+      },
+      {
+       "board": "FanDuel",
+       "kind": "book",
+       "fair": {
+        "TOR": 20.5,
+        "PHI": 79.5
+       },
+       "raw": {
+        "TOR": 21.3,
+        "PHI": 82.8
+       },
+       "odds": {
+        "TOR": 370,
+        "PHI": -480
+       },
+       "margin": 4.0
+      },
+      {
+       "board": "BetRivers",
+       "kind": "book",
+       "fair": {
+        "TOR": 23.2,
+        "PHI": 76.8
+       },
+       "raw": {
+        "TOR": 24.4,
+        "PHI": 80.8
+       },
+       "odds": {
+        "TOR": 310,
+        "PHI": -420
+       },
+       "margin": 5.2
+      },
+      {
+       "board": "bet365",
+       "kind": "book",
+       "fair": {
+        "TOR": 21.4,
+        "PHI": 78.6
+       },
+       "raw": {
+        "TOR": 22.2,
+        "PHI": 81.8
+       },
+       "odds": {
+        "TOR": 350,
+        "PHI": -450
+       },
+       "margin": 4.0
+      },
+      {
+       "board": "Caesars",
+       "kind": "book",
+       "fair": {
+        "TOR": 22.8,
+        "PHI": 77.2
+       },
+       "raw": {
+        "TOR": 23.8,
+        "PHI": 80.8
+       },
+       "odds": {
+        "TOR": 320,
+        "PHI": -420
+       },
+       "margin": 4.6
+      },
+      {
+       "board": "Unibet",
+       "kind": "book",
+       "fair": {
+        "TOR": 22.4,
+        "PHI": 77.6
+       },
+       "raw": {
+        "TOR": 23.3,
+        "PHI": 80.7
+       },
+       "odds": {
+        "TOR": 330,
+        "PHI": -417
+       },
+       "margin": 3.9
+      },
+      {
+       "board": "Bally Bet",
+       "kind": "book",
+       "fair": {
+        "TOR": 23.2,
+        "PHI": 76.8
+       },
+       "raw": {
+        "TOR": 24.4,
+        "PHI": 80.8
+       },
+       "odds": {
+        "TOR": 310,
+        "PHI": -420
+       },
+       "margin": 5.2
+      },
+      {
+       "board": "Fanatics",
+       "kind": "book",
+       "fair": {
+        "TOR": 22.5,
+        "PHI": 77.5
+       },
+       "raw": {
+        "TOR": 23.5,
+        "PHI": 81.0
+       },
+       "odds": {
+        "TOR": 325,
+        "PHI": -425
+       },
+       "margin": 4.5
+      }
+     ],
+     "series": [
+      {
+       "t": "2026-11-11T21:45:26-07:00",
+       "home_pct": 77.4,
+       "pm_home": null,
+       "n": 8
+      },
+      {
+       "t": "2026-11-11T21:45:58-07:00",
+       "home_pct": 77.4,
+       "pm_home": null,
+       "n": 8
+      }
+     ],
+     "move_pts": 0.0,
+     "matchups": {
+      "TOR": [
+       {
+        "id": "4395625",
+        "name": "RJ Barrett",
+        "pos": "F",
+        "stat": "pts",
+        "why": "21.3",
+        "tier": "green",
+        "val": 8.7,
+        "text": "PHI allows 23.5 points to SF/PF (+9% vs avg), game pace +0%"
+       },
+       {
+        "id": "3134908",
+        "name": "Jakob Poeltl",
+        "pos": "C",
+        "stat": "reb",
+        "why": "6.5",
+        "tier": "yellow",
+        "val": -1.0,
+        "text": "PHI allows 14.5 rebounds to C (-1% vs avg), game pace +0%"
+       },
+       {
+        "id": "4432241",
+        "name": "Jamal Shead",
+        "pos": "G",
+        "stat": "ast",
+        "why": "7.0",
+        "tier": "green",
+        "val": 8.2,
+        "text": "PHI allows 7.2 assists to PG/SG (+8% vs avg), game pace +0%"
+       }
+      ],
+      "PHI": [
+       {
+        "id": "4431678",
+        "name": "Tyrese Maxey",
+        "pos": "G",
+        "stat": "pts",
+        "why": "26.7",
+        "tier": "yellow",
+        "val": 1.8,
+        "text": "TOR allows 24.4 points to PG/SG (+2% vs avg), game pace +0%"
+       },
+       {
+        "id": "3059318",
+        "name": "Joel Embiid",
+        "pos": "C",
+        "stat": "reb",
+        "why": "9.3",
+        "tier": "green",
+        "val": 6.5,
+        "text": "TOR allows 15.6 rebounds to C (+6% vs avg), game pace +0%"
+       },
+       {
+        "id": "1966",
+        "name": "LeBron James",
+        "pos": "F",
+        "stat": "ast",
+        "why": "6.5",
+        "tier": "yellow",
+        "val": -3.3,
+        "text": "TOR allows 4.1 assists to SF/PF (-3% vs avg), game pace +0%"
+       }
+      ]
+     }
+    },
+    {
+     "sport": "nba",
+     "game": "DET @ WSH",
+     "event_id": "401909977",
+     "start_utc": "2026-11-13T00:00Z",
+     "away": "DET",
+     "home": "WSH",
+     "fav": "DET",
+     "boards_n": 9,
+     "books_n": 9,
+     "pm_in": false,
+     "teams": [
+      {
+       "team": "DET",
+       "name": "Detroit Pistons",
+       "pct": 77.6,
+       "lo": 75.8,
+       "hi": 78.0,
+       "spread_pts": 2.2,
+       "agree": "tight",
+       "pm_pct": null,
+       "best": {
+        "board": "BetRivers",
+        "odds": -385
+       },
+       "value": []
+      },
+      {
+       "team": "WSH",
+       "name": "Washington Wizards",
+       "pct": 22.4,
+       "lo": 22.0,
+       "hi": 24.2,
+       "spread_pts": 2.2,
+       "agree": "tight",
+       "pm_pct": null,
+       "best": {
+        "board": "BetMGM",
+        "odds": 333
+       },
+       "value": []
+      }
+     ],
+     "boards": [
+      {
+       "board": "DraftKings",
+       "kind": "book",
+       "fair": {
+        "DET": 77.7,
+        "WSH": 22.3
+       },
+       "raw": {
+        "DET": 80.9,
+        "WSH": 23.2
+       },
+       "odds": {
+        "DET": -423,
+        "WSH": 331
+       },
+       "margin": 4.1
+      },
+      {
+       "board": "FanDuel",
+       "kind": "book",
+       "fair": {
+        "DET": 77.6,
+        "WSH": 22.4
+       },
+       "raw": {
+        "DET": 80.8,
+        "WSH": 23.3
+       },
+       "odds": {
+        "DET": -420,
+        "WSH": 330
+       },
+       "margin": 4.0
+      },
+      {
+       "board": "BetRivers",
+       "kind": "book",
+       "fair": {
+        "DET": 75.8,
+        "WSH": 24.2
+       },
+       "raw": {
+        "DET": 79.4,
+        "WSH": 25.3
+       },
+       "odds": {
+        "DET": -385,
+        "WSH": 295
+       },
+       "margin": 4.7
+      },
+      {
+       "board": "BetMGM",
+       "kind": "book",
+       "fair": {
+        "DET": 78.0,
+        "WSH": 22.0
+       },
+       "raw": {
+        "DET": 81.8,
+        "WSH": 23.1
+       },
+       "odds": {
+        "DET": -450,
+        "WSH": 333
+       },
+       "margin": 4.9
+      },
+      {
+       "board": "bet365",
+       "kind": "book",
+       "fair": {
+        "DET": 77.6,
+        "WSH": 22.4
+       },
+       "raw": {
+        "DET": 80.8,
+        "WSH": 23.3
+       },
+       "odds": {
+        "DET": -420,
+        "WSH": 330
+       },
+       "margin": 4.0
+      },
+      {
+       "board": "Caesars",
+       "kind": "book",
+       "fair": {
+        "DET": 77.8,
+        "WSH": 22.2
+       },
+       "raw": {
+        "DET": 81.5,
+        "WSH": 23.3
+       },
+       "odds": {
+        "DET": -440,
+        "WSH": 330
+       },
+       "margin": 4.7
+      },
+      {
+       "board": "Unibet",
+       "kind": "book",
+       "fair": {
+        "DET": 77.4,
+        "WSH": 22.6
+       },
+       "raw": {
+        "DET": 80.7,
+        "WSH": 23.5
+       },
+       "odds": {
+        "DET": -417,
+        "WSH": 325
+       },
+       "margin": 4.2
+      },
+      {
+       "board": "Bally Bet",
+       "kind": "book",
+       "fair": {
+        "DET": 75.8,
+        "WSH": 24.2
+       },
+       "raw": {
+        "DET": 79.4,
+        "WSH": 25.3
+       },
+       "odds": {
+        "DET": -385,
+        "WSH": 295
+       },
+       "margin": 4.7
+      },
+      {
+       "board": "Fanatics",
+       "kind": "book",
+       "fair": {
+        "DET": 77.5,
+        "WSH": 22.5
+       },
+       "raw": {
+        "DET": 81.0,
+        "WSH": 23.5
+       },
+       "odds": {
+        "DET": -425,
+        "WSH": 325
+       },
+       "margin": 4.5
+      }
+     ],
+     "series": [
+      {
+       "t": "2026-11-11T21:45:26-07:00",
+       "home_pct": 22.4,
+       "pm_home": null,
+       "n": 9
+      },
+      {
+       "t": "2026-11-11T21:45:58-07:00",
+       "home_pct": 22.4,
+       "pm_home": null,
+       "n": 9
+      }
+     ],
+     "move_pts": 0.0,
+     "matchups": {
+      "DET": [
+       {
+        "id": "4432166",
+        "name": "Cade Cunningham",
+        "pos": "G",
+        "stat": "pts",
+        "why": "22.3",
+        "tier": "red",
+        "val": -7.8,
+        "text": "WSH allows 22.2 points to PG/SG (-7% vs avg), game pace -1%"
+       },
+       {
+        "id": "4684742",
+        "name": "Ausar Thompson",
+        "pos": "G",
+        "stat": "reb",
+        "why": "8.4",
+        "tier": "green",
+        "val": 6.3,
+        "text": "WSH allows 6.7 rebounds to PG/SG (+7% vs avg), game pace -1%"
+       }
+      ],
+      "WSH": [
+       {
+        "id": "6583",
+        "name": "Anthony Davis",
+        "pos": "F",
+        "stat": "pts",
+        "why": "25.7",
+        "tier": "red",
+        "val": -7.5,
+        "text": "DET allows 20.1 points to SF/PF (-7% vs avg), game pace -1%"
+       },
+       {
+        "id": "4277905",
+        "name": "Trae Young",
+        "pos": "G",
+        "stat": "ast",
+        "why": "8.7",
+        "tier": "red",
+        "val": -18.0,
+        "text": "DET allows 5.5 assists to PG/SG (-18% vs avg), game pace -1%"
+       }
+      ]
+     }
+    },
+    {
+     "sport": "nba",
+     "game": "DAL @ MIN",
+     "event_id": "401909978",
+     "start_utc": "2026-11-13T01:00Z",
+     "away": "DAL",
+     "home": "MIN",
+     "fav": "MIN",
+     "boards_n": 9,
+     "books_n": 9,
+     "pm_in": false,
+     "teams": [
+      {
+       "team": "DAL",
+       "name": "Dallas Mavericks",
+       "pct": 35.0,
+       "lo": 34.6,
+       "hi": 35.6,
+       "spread_pts": 1.0,
+       "agree": "tight",
+       "pm_pct": null,
+       "best": {
+        "board": "FanDuel",
+        "odds": 176
+       },
+       "value": []
+      },
+      {
+       "team": "MIN",
+       "name": "Minnesota Timberwolves",
+       "pct": 65.0,
+       "lo": 64.4,
+       "hi": 65.4,
+       "spread_pts": 1.0,
+       "agree": "tight",
+       "pm_pct": null,
+       "best": {
+        "board": "DraftKings",
+        "odds": -204
+       },
+       "value": []
+      }
+     ],
+     "boards": [
+      {
+       "board": "DraftKings",
+       "kind": "book",
+       "fair": {
+        "DAL": 35.6,
+        "MIN": 64.4
+       },
+       "raw": {
+        "DAL": 37.0,
+        "MIN": 67.1
+       },
+       "odds": {
+        "DAL": 170,
+        "MIN": -204
+       },
+       "margin": 4.1
+      },
+      {
+       "board": "FanDuel",
+       "kind": "book",
+       "fair": {
+        "DAL": 34.8,
+        "MIN": 65.2
+       },
+       "raw": {
+        "DAL": 36.2,
+        "MIN": 67.7
+       },
+       "odds": {
+        "DAL": 176,
+        "MIN": -210
+       },
+       "margin": 4.0
+      },
+      {
+       "board": "BetRivers",
+       "kind": "book",
+       "fair": {
+        "DAL": 34.8,
+        "MIN": 65.2
+       },
+       "raw": {
+        "DAL": 36.4,
+        "MIN": 68.3
+       },
+       "odds": {
+        "DAL": 175,
+        "MIN": -215
+       },
+       "margin": 4.6
+      },
+      {
+       "board": "BetMGM",
+       "kind": "book",
+       "fair": {
+        "DAL": 35.3,
+        "MIN": 64.7
+       },
+       "raw": {
+        "DAL": 37.0,
+        "MIN": 67.7
+       },
+       "odds": {
+        "DAL": 170,
+        "MIN": -210
+       },
+       "margin": 4.8
+      },
+      {
+       "board": "bet365",
+       "kind": "book",
+       "fair": {
+        "DAL": 34.9,
+        "MIN": 65.1
+       },
+       "raw": {
+        "DAL": 36.4,
+        "MIN": 67.7
+       },
+       "odds": {
+        "DAL": 175,
+        "MIN": -210
+       },
+       "margin": 4.1
+      },
+      {
+       "board": "Caesars",
+       "kind": "book",
+       "fair": {
+        "DAL": 35.5,
+        "MIN": 64.5
+       },
+       "raw": {
+        "DAL": 37.0,
+        "MIN": 67.2
+       },
+       "odds": {
+        "DAL": 170,
+        "MIN": -205
+       },
+       "margin": 4.3
+      },
+      {
+       "board": "Unibet",
+       "kind": "book",
+       "fair": {
+        "DAL": 35.0,
+        "MIN": 65.0
+       },
+       "raw": {
+        "DAL": 36.4,
+        "MIN": 67.5
+       },
+       "odds": {
+        "DAL": 175,
+        "MIN": -208
+       },
+       "margin": 3.9
+      },
+      {
+       "board": "Bally Bet",
+       "kind": "book",
+       "fair": {
+        "DAL": 34.6,
+        "MIN": 65.4
+       },
+       "raw": {
+        "DAL": 36.4,
+        "MIN": 68.8
+       },
+       "odds": {
+        "DAL": 175,
+        "MIN": -220
+       },
+       "margin": 5.1
+      },
+      {
+       "board": "Fanatics",
+       "kind": "book",
+       "fair": {
+        "DAL": 35.5,
+        "MIN": 64.5
+       },
+       "raw": {
+        "DAL": 37.0,
+        "MIN": 67.2
+       },
+       "odds": {
+        "DAL": 170,
+        "MIN": -205
+       },
+       "margin": 4.3
+      }
+     ],
+     "series": [
+      {
+       "t": "2026-11-11T21:45:26-07:00",
+       "home_pct": 65.0,
+       "pm_home": null,
+       "n": 9
+      },
+      {
+       "t": "2026-11-11T21:45:58-07:00",
+       "home_pct": 65.0,
+       "pm_home": null,
+       "n": 9
+      }
+     ],
+     "move_pts": 0.0,
+     "matchups": {
+      "DAL": [
+       {
+        "id": "5041939",
+        "name": "Cooper Flagg",
+        "pos": "F",
+        "stat": "pts",
+        "why": "25.9",
+        "tier": "red",
+        "val": -7.9,
+        "text": "MIN allows 19.9 points to SF/PF (-8% vs avg), game pace +1%"
+       },
+       {
+        "id": "4278078",
+        "name": "P.J. Washington",
+        "pos": "F",
+        "stat": "reb",
+        "why": "7.5",
+        "tier": "red",
+        "val": -7.6,
+        "text": "MIN allows 8.5 rebounds to SF/PF (-8% vs avg), game pace +1%"
+       }
+      ],
+      "MIN": [
+       {
+        "id": "4432816",
+        "name": "LaMelo Ball",
+        "pos": "G",
+        "stat": "pts",
+        "why": "18.3",
+        "tier": "red",
+        "val": -6.7,
+        "text": "DAL allows 22.3 points to PG/SG (-7% vs avg), game pace +1%"
+       },
+       {
+        "id": "3032976",
+        "name": "Rudy Gobert",
+        "pos": "C",
+        "stat": "reb",
+        "why": "12.1",
+        "tier": "red",
+        "val": -7.0,
+        "text": "DAL allows 13.6 rebounds to C (-7% vs avg), game pace +1%"
+       }
+      ]
+     }
+    },
+    {
+     "sport": "nba",
+     "game": "CHA @ PHX",
+     "event_id": "401909979",
+     "start_utc": "2026-11-13T02:00Z",
+     "away": "CHA",
+     "home": "PHX",
+     "fav": "PHX",
+     "boards_n": 9,
+     "books_n": 9,
+     "pm_in": false,
+     "teams": [
+      {
+       "team": "CHA",
+       "name": "Charlotte Hornets",
+       "pct": 31.9,
+       "lo": 31.5,
+       "hi": 32.7,
+       "spread_pts": 1.2,
+       "agree": "tight",
+       "pm_pct": null,
+       "best": {
+        "board": "FanDuel",
+        "odds": 205
+       },
+       "value": []
+      },
+      {
+       "team": "PHX",
+       "name": "Phoenix Suns",
+       "pct": 68.1,
+       "lo": 67.3,
+       "hi": 68.5,
+       "spread_pts": 1.2,
+       "agree": "tight",
+       "pm_pct": null,
+       "best": {
+        "board": "DraftKings",
+        "odds": -234
+       },
+       "value": []
+      }
+     ],
+     "boards": [
+      {
+       "board": "DraftKings",
+       "kind": "book",
+       "fair": {
+        "CHA": 32.7,
+        "PHX": 67.3
+       },
+       "raw": {
+        "CHA": 34.0,
+        "PHX": 70.1
+       },
+       "odds": {
+        "CHA": 194,
+        "PHX": -234
+       },
+       "margin": 4.1
+      },
+      {
+       "board": "FanDuel",
+       "kind": "book",
+       "fair": {
+        "CHA": 31.5,
+        "PHX": 68.5
+       },
+       "raw": {
+        "CHA": 32.8,
+        "PHX": 71.4
+       },
+       "odds": {
+        "CHA": 205,
+        "PHX": -250
+       },
+       "margin": 4.2
+      },
+      {
+       "board": "BetRivers",
+       "kind": "book",
+       "fair": {
+        "CHA": 32.7,
+        "PHX": 67.3
+       },
+       "raw": {
+        "CHA": 34.5,
+        "PHX": 71.0
+       },
+       "odds": {
+        "CHA": 190,
+        "PHX": -245
+       },
+       "margin": 5.5
+      },
+      {
+       "board": "BetMGM",
+       "kind": "book",
+       "fair": {
+        "CHA": 31.8,
+        "PHX": 68.2
+       },
+       "raw": {
+        "CHA": 33.3,
+        "PHX": 71.4
+       },
+       "odds": {
+        "CHA": 200,
+        "PHX": -250
+       },
+       "margin": 4.8
+      },
+      {
+       "board": "bet365",
+       "kind": "book",
+       "fair": {
+        "CHA": 31.9,
+        "PHX": 68.1
+       },
+       "raw": {
+        "CHA": 33.3,
+        "PHX": 71.0
+       },
+       "odds": {
+        "CHA": 200,
+        "PHX": -245
+       },
+       "margin": 4.3
+      },
+      {
+       "board": "Caesars",
+       "kind": "book",
+       "fair": {
+        "CHA": 31.5,
+        "PHX": 68.5
+       },
+       "raw": {
+        "CHA": 32.8,
+        "PHX": 71.4
+       },
+       "odds": {
+        "CHA": 205,
+        "PHX": -250
+       },
+       "margin": 4.2
+      },
+      {
+       "board": "Unibet",
+       "kind": "book",
+       "fair": {
+        "CHA": 31.5,
+        "PHX": 68.5
+       },
+       "raw": {
+        "CHA": 32.8,
+        "PHX": 71.4
+       },
+       "odds": {
+        "CHA": 205,
+        "PHX": -250
+       },
+       "margin": 4.2
+      },
+      {
+       "board": "Bally Bet",
+       "kind": "book",
+       "fair": {
+        "CHA": 32.7,
+        "PHX": 67.3
+       },
+       "raw": {
+        "CHA": 34.5,
+        "PHX": 71.0
+       },
+       "odds": {
+        "CHA": 190,
+        "PHX": -245
+       },
+       "margin": 5.5
+      },
+      {
+       "board": "Fanatics",
+       "kind": "book",
+       "fair": {
+        "CHA": 31.9,
+        "PHX": 68.1
+       },
+       "raw": {
+        "CHA": 33.3,
+        "PHX": 71.0
+       },
+       "odds": {
+        "CHA": 200,
+        "PHX": -245
+       },
+       "margin": 4.3
+      }
+     ],
+     "series": [
+      {
+       "t": "2026-11-11T21:45:26-07:00",
+       "home_pct": 68.1,
+       "pm_home": null,
+       "n": 9
+      },
+      {
+       "t": "2026-11-11T21:45:58-07:00",
+       "home_pct": 68.1,
+       "pm_home": null,
+       "n": 9
+      }
+     ],
+     "move_pts": 0.0,
+     "matchups": {
+      "CHA": [
+       {
+        "id": "4396971",
+        "name": "Naz Reid",
+        "pos": "C",
+        "stat": "pts",
+        "why": "17.4",
+        "tier": "green",
+        "val": 25.9,
+        "text": "PHX allows 26.4 points to C (+27% vs avg), game pace -2%"
+       },
+       {
+        "id": "4433249",
+        "name": "Moussa Diabate",
+        "pos": "F",
+        "stat": "reb",
+        "why": "9.1",
+        "tier": "green",
+        "val": 6.1,
+        "text": "PHX allows 9.9 rebounds to SF/PF (+7% vs avg), game pace -2%"
+       },
+       {
+        "id": "3135045",
+        "name": "Grayson Allen",
+        "pos": "G",
+        "stat": "ast",
+        "why": "3.0",
+        "tier": "red",
+        "val": -17.2,
+        "text": "PHX allows 5.6 assists to PG/SG (-16% vs avg), game pace -2%"
+       }
+      ],
+      "PHX": [
+       {
+        "id": "3136193",
+        "name": "Devin Booker",
+        "pos": "G",
+        "stat": "pts",
+        "why": "25.1",
+        "tier": "red",
+        "val": -7.8,
+        "text": "CHA allows 22.4 points to PG/SG (-7% vs avg), game pace -2%"
+       },
+       {
+        "id": "4066383",
+        "name": "Miles Bridges",
+        "pos": "F",
+        "stat": "reb",
+        "why": "7.4",
+        "tier": "red",
+        "val": -8.0,
+        "text": "CHA allows 8.6 rebounds to SF/PF (-7% vs avg), game pace -2%"
+       }
+      ]
+     }
+    }
+   ],
+   "day": "2026-11-12"
+  },
+  "nhl": {
+   "games": [
+    {
+     "sport": "nhl",
+     "game": "CAR @ SEA",
+     "event_id": "401891808",
+     "start_utc": "2026-11-12T17:00Z",
+     "away": "CAR",
+     "home": "SEA",
+     "fav": "CAR",
+     "boards_n": 9,
+     "books_n": 9,
+     "pm_in": false,
+     "teams": [
+      {
+       "team": "CAR",
+       "name": "Carolina Hurricanes",
+       "pct": 71.8,
+       "lo": 71.0,
+       "hi": 72.9,
+       "spread_pts": 2.0,
+       "agree": "tight",
+       "pm_pct": null,
+       "best": {
+        "board": "FanDuel",
+        "odds": -285
+       },
+       "value": []
+      },
+      {
+       "team": "SEA",
+       "name": "Seattle Kraken",
+       "pct": 28.2,
+       "lo": 27.1,
+       "hi": 29.0,
+       "spread_pts": 2.0,
+       "agree": "tight",
+       "pm_pct": null,
+       "best": {
+        "board": "Unibet",
+        "odds": 250
+       },
+       "value": []
+      }
+     ],
+     "boards": [
+      {
+       "board": "DraftKings",
+       "kind": "book",
+       "fair": {
+        "CAR": 71.4,
+        "SEA": 28.6
+       },
+       "raw": {
+        "CAR": 74.4,
+        "SEA": 29.9
+       },
+       "odds": {
+        "CAR": -290,
+        "SEA": 235
+       },
+       "margin": 4.2
+      },
+      {
+       "board": "FanDuel",
+       "kind": "book",
+       "fair": {
+        "CAR": 71.0,
+        "SEA": 29.0
+       },
+       "raw": {
+        "CAR": 74.0,
+        "SEA": 30.3
+       },
+       "odds": {
+        "CAR": -285,
+        "SEA": 230
+       },
+       "margin": 4.3
+      },
+      {
+       "board": "BetRivers",
+       "kind": "book",
+       "fair": {
+        "CAR": 72.2,
+        "SEA": 27.8
+       },
+       "raw": {
+        "CAR": 75.3,
+        "SEA": 29.0
+       },
+       "odds": {
+        "CAR": -305,
+        "SEA": 245
+       },
+       "margin": 4.3
+      },
+      {
+       "board": "BetMGM",
+       "kind": "book",
+       "fair": {
+        "CAR": 71.8,
+        "SEA": 28.2
+       },
+       "raw": {
+        "CAR": 75.0,
+        "SEA": 29.4
+       },
+       "odds": {
+        "CAR": -300,
+        "SEA": 240
+       },
+       "margin": 4.4
+      },
+      {
+       "board": "bet365",
+       "kind": "book",
+       "fair": {
+        "CAR": 71.4,
+        "SEA": 28.6
+       },
+       "raw": {
+        "CAR": 74.4,
+        "SEA": 29.9
+       },
+       "odds": {
+        "CAR": -290,
+        "SEA": 235
+       },
+       "margin": 4.2
+      },
+      {
+       "board": "Caesars",
+       "kind": "book",
+       "fair": {
+        "CAR": 71.4,
+        "SEA": 28.6
+       },
+       "raw": {
+        "CAR": 74.4,
+        "SEA": 29.9
+       },
+       "odds": {
+        "CAR": -290,
+        "SEA": 235
+       },
+       "margin": 4.2
+      },
+      {
+       "board": "Unibet",
+       "kind": "book",
+       "fair": {
+        "CAR": 72.9,
+        "SEA": 27.1
+       },
+       "raw": {
+        "CAR": 76.9,
+        "SEA": 28.6
+       },
+       "odds": {
+        "CAR": -333,
+        "SEA": 250
+       },
+       "margin": 5.5
+      },
+      {
+       "board": "Bally Bet",
+       "kind": "book",
+       "fair": {
+        "CAR": 72.2,
+        "SEA": 27.8
+       },
+       "raw": {
+        "CAR": 75.3,
+        "SEA": 29.0
+       },
+       "odds": {
+        "CAR": -305,
+        "SEA": 245
+       },
+       "margin": 4.3
+      },
+      {
+       "board": "Fanatics",
+       "kind": "book",
+       "fair": {
+        "CAR": 71.8,
+        "SEA": 28.2
+       },
+       "raw": {
+        "CAR": 75.0,
+        "SEA": 29.4
+       },
+       "odds": {
+        "CAR": -300,
+        "SEA": 240
+       },
+       "margin": 4.4
+      }
+     ],
+     "series": [
+      {
+       "t": "2026-11-11T21:45:26-07:00",
+       "home_pct": 28.2,
+       "pm_home": null,
+       "n": 9
+      },
+      {
+       "t": "2026-11-11T21:45:58-07:00",
+       "home_pct": 28.2,
+       "pm_home": null,
+       "n": 9
+      }
+     ],
+     "move_pts": 0.0,
+     "matchups": {
+      "CAR": [
+       {
+        "id": "4874899",
+        "name": "Logan Stankoven",
+        "pos": "C",
+        "why": "11 goals",
+        "tier": "green",
+        "val": 2.11,
+        "text": "likely goalie Joey Daccord 0.881 sv% (8 starts, lg 0.891), SEA allows 30.2 shots/gm (lg 27.4)"
+       },
+       {
+        "id": "3904173",
+        "name": "Sebastian Aho",
+        "pos": "C",
+        "why": "16 assists",
+        "tier": "green",
+        "val": 2.11,
+        "text": "likely goalie Joey Daccord 0.881 sv% (8 starts, lg 0.891), SEA allows 30.2 shots/gm (lg 27.4)"
+       }
+      ],
+      "SEA": [
+       {
+        "id": "3149649",
+        "name": "Frederick Gaudreau",
+        "pos": "C",
+        "why": "7 goals",
+        "tier": "red",
+        "val": -4.35,
+        "text": "likely goalie Pyotr Kochetkov 0.920 sv% (12 starts, lg 0.891), CAR allows 22.4 shots/gm (lg 27.4)"
+       },
+       {
+        "id": "3067858",
+        "name": "Chandler Stephenson",
+        "pos": "C",
+        "why": "11 assists",
+        "tier": "red",
+        "val": -4.35,
+        "text": "likely goalie Pyotr Kochetkov 0.920 sv% (12 starts, lg 0.891), CAR allows 22.4 shots/gm (lg 27.4)"
+       },
+       {
+        "id": "5216877",
+        "name": "Berkly Catton",
+        "pos": "C",
+        "why": "14 points",
+        "tier": "red",
+        "val": -4.35,
+        "text": "likely goalie Pyotr Kochetkov 0.920 sv% (12 starts, lg 0.891), CAR allows 22.4 shots/gm (lg 27.4)"
+       }
+      ]
+     }
+    },
+    {
+     "sport": "nhl",
+     "game": "MTL @ BOS",
+     "event_id": "401892696",
+     "start_utc": "2026-11-13T00:00Z",
+     "away": "MTL",
+     "home": "BOS",
+     "fav": "BOS",
+     "boards_n": 9,
+     "books_n": 9,
+     "pm_in": false,
+     "teams": [
+      {
+       "team": "MTL",
+       "name": "Montreal Canadiens",
+       "pct": 46.9,
+       "lo": 46.4,
+       "hi": 47.8,
+       "spread_pts": 1.5,
+       "agree": "tight",
+       "pm_pct": null,
+       "best": {
+        "board": "FanDuel",
+        "odds": 106
+       },
+       "value": []
+      },
+      {
+       "team": "BOS",
+       "name": "Boston Bruins",
+       "pct": 53.1,
+       "lo": 52.2,
+       "hi": 53.6,
+       "spread_pts": 1.5,
+       "agree": "tight",
+       "pm_pct": null,
+       "best": {
+        "board": "DraftKings",
+        "odds": -120
+       },
+       "value": []
+      }
+     ],
+     "boards": [
+      {
+       "board": "DraftKings",
+       "kind": "book",
+       "fair": {
+        "MTL": 47.8,
+        "BOS": 52.2
+       },
+       "raw": {
+        "MTL": 50.0,
+        "BOS": 54.5
+       },
+       "odds": {
+        "MTL": 100,
+        "BOS": -120
+       },
+       "margin": 4.5
+      },
+      {
+       "board": "FanDuel",
+       "kind": "book",
+       "fair": {
+        "MTL": 46.4,
+        "BOS": 53.6
+       },
+       "raw": {
+        "MTL": 48.5,
+        "BOS": 56.1
+       },
+       "odds": {
+        "MTL": 106,
+        "BOS": -128
+       },
+       "margin": 4.7
+      },
+      {
+       "board": "BetRivers",
+       "kind": "book",
+       "fair": {
+        "MTL": 47.5,
+        "BOS": 52.5
+       },
+       "raw": {
+        "MTL": 49.5,
+        "BOS": 54.8
+       },
+       "odds": {
+        "MTL": 102,
+        "BOS": -121
+       },
+       "margin": 4.3
+      },
+      {
+       "board": "BetMGM",
+       "kind": "book",
+       "fair": {
+        "MTL": 46.8,
+        "BOS": 53.2
+       },
+       "raw": {
+        "MTL": 48.8,
+        "BOS": 55.6
+       },
+       "odds": {
+        "MTL": 105,
+        "BOS": -125
+       },
+       "margin": 4.3
+      },
+      {
+       "board": "bet365",
+       "kind": "book",
+       "fair": {
+        "MTL": 46.8,
+        "BOS": 53.2
+       },
+       "raw": {
+        "MTL": 48.8,
+        "BOS": 55.6
+       },
+       "odds": {
+        "MTL": 105,
+        "BOS": -125
+       },
+       "margin": 4.3
+      },
+      {
+       "board": "Caesars",
+       "kind": "book",
+       "fair": {
+        "MTL": 47.4,
+        "BOS": 52.6
+       },
+       "raw": {
+        "MTL": 49.3,
+        "BOS": 54.8
+       },
+       "odds": {
+        "MTL": 103,
+        "BOS": -121
+       },
+       "margin": 4.0
+      },
+      {
+       "board": "Unibet",
+       "kind": "book",
+       "fair": {
+        "MTL": 46.9,
+        "BOS": 53.1
+       },
+       "raw": {
+        "MTL": 49.0,
+        "BOS": 55.6
+       },
+       "odds": {
+        "MTL": 104,
+        "BOS": -125
+       },
+       "margin": 4.6
+      },
+      {
+       "board": "Bally Bet",
+       "kind": "book",
+       "fair": {
+        "MTL": 47.5,
+        "BOS": 52.5
+       },
+       "raw": {
+        "MTL": 49.5,
+        "BOS": 54.8
+       },
+       "odds": {
+        "MTL": 102,
+        "BOS": -121
+       },
+       "margin": 4.3
+      },
+      {
+       "board": "Fanatics",
+       "kind": "book",
+       "fair": {
+        "MTL": 46.8,
+        "BOS": 53.2
+       },
+       "raw": {
+        "MTL": 48.8,
+        "BOS": 55.6
+       },
+       "odds": {
+        "MTL": 105,
+        "BOS": -125
+       },
+       "margin": 4.3
+      }
+     ],
+     "series": [
+      {
+       "t": "2026-11-11T21:45:26-07:00",
+       "home_pct": 53.1,
+       "pm_home": null,
+       "n": 9
+      },
+      {
+       "t": "2026-11-11T21:45:58-07:00",
+       "home_pct": 53.1,
+       "pm_home": null,
+       "n": 9
+      }
+     ],
+     "move_pts": 0.0,
+     "matchups": {
+      "MTL": [
+       {
+        "id": "4565236",
+        "name": "Cole Caufield",
+        "pos": "RW",
+        "why": "11 goals",
+        "tier": "red",
+        "val": -1.05,
+        "text": "likely goalie Jeremy Swayman 0.920 sv% (13 starts, lg 0.891), BOS allows 28.3 shots/gm (lg 27.4)"
+       },
+       {
+        "id": "5080230",
+        "name": "Lane Hutson",
+        "pos": "D",
+        "why": "15 assists",
+        "tier": "red",
+        "val": -1.05,
+        "text": "likely goalie Jeremy Swayman 0.920 sv% (13 starts, lg 0.891), BOS allows 28.3 shots/gm (lg 27.4)"
+       }
+      ],
+      "BOS": [
+       {
+        "id": "3114778",
+        "name": "David Pastrnak",
+        "pos": "RW",
+        "why": "8 goals",
+        "tier": "red",
+        "val": -1.35,
+        "text": "likely goalie Jacob Fowler 0.925 sv% (11 starts, lg 0.891), MTL allows 28.1 shots/gm (lg 27.4)"
+       }
+      ]
+     }
+    },
+    {
+     "sport": "nhl",
+     "game": "MIN @ TOR",
+     "event_id": "401892697",
+     "start_utc": "2026-11-13T00:00Z",
+     "away": "MIN",
+     "home": "TOR",
+     "fav": "MIN",
+     "boards_n": 9,
+     "books_n": 9,
+     "pm_in": false,
+     "teams": [
+      {
+       "team": "MIN",
+       "name": "Minnesota Wild",
+       "pct": 60.4,
+       "lo": 59.1,
+       "hi": 60.9,
+       "spread_pts": 1.9,
+       "agree": "tight",
+       "pm_pct": null,
+       "best": {
+        "board": "BetRivers",
+        "odds": -159
+       },
+       "value": []
+      },
+      {
+       "team": "TOR",
+       "name": "Toronto Maple Leafs",
+       "pct": 39.6,
+       "lo": 39.1,
+       "hi": 40.9,
+       "spread_pts": 1.9,
+       "agree": "tight",
+       "pm_pct": null,
+       "best": {
+        "board": "BetMGM",
+        "odds": 145
+       },
+       "value": []
+      }
+     ],
+     "boards": [
+      {
+       "board": "DraftKings",
+       "kind": "book",
+       "fair": {
+        "MIN": 60.4,
+        "TOR": 39.6
+       },
+       "raw": {
+        "MIN": 63.0,
+        "TOR": 41.3
+       },
+       "odds": {
+        "MIN": -170,
+        "TOR": 142
+       },
+       "margin": 4.3
+      },
+      {
+       "board": "FanDuel",
+       "kind": "book",
+       "fair": {
+        "MIN": 60.2,
+        "TOR": 39.8
+       },
+       "raw": {
+        "MIN": 63.0,
+        "TOR": 41.7
+       },
+       "odds": {
+        "MIN": -170,
+        "TOR": 140
+       },
+       "margin": 4.6
+      },
+      {
+       "board": "BetRivers",
+       "kind": "book",
+       "fair": {
+        "MIN": 59.1,
+        "TOR": 40.9
+       },
+       "raw": {
+        "MIN": 61.4,
+        "TOR": 42.6
+       },
+       "odds": {
+        "MIN": -159,
+        "TOR": 135
+       },
+       "margin": 3.9
+      },
+      {
+       "board": "BetMGM",
+       "kind": "book",
+       "fair": {
+        "MIN": 60.9,
+        "TOR": 39.1
+       },
+       "raw": {
+        "MIN": 63.6,
+        "TOR": 40.8
+       },
+       "odds": {
+        "MIN": -175,
+        "TOR": 145
+       },
+       "margin": 4.5
+      },
+      {
+       "board": "bet365",
+       "kind": "book",
+       "fair": {
+        "MIN": 60.5,
+        "TOR": 39.5
+       },
+       "raw": {
+        "MIN": 62.8,
+        "TOR": 41.0
+       },
+       "odds": {
+        "MIN": -169,
+        "TOR": 144
+       },
+       "margin": 3.8
+      },
+      {
+       "board": "Caesars",
+       "kind": "book",
+       "fair": {
+        "MIN": 60.6,
+        "TOR": 39.4
+       },
+       "raw": {
+        "MIN": 63.0,
+        "TOR": 41.0
+       },
+       "odds": {
+        "MIN": -170,
+        "TOR": 144
+       },
+       "margin": 3.9
+      },
+      {
+       "board": "Unibet",
+       "kind": "book",
+       "fair": {
+        "MIN": 59.8,
+        "TOR": 40.2
+       },
+       "raw": {
+        "MIN": 62.5,
+        "TOR": 42.0
+       },
+       "odds": {
+        "MIN": -167,
+        "TOR": 138
+       },
+       "margin": 4.6
+      },
+      {
+       "board": "Bally Bet",
+       "kind": "book",
+       "fair": {
+        "MIN": 59.1,
+        "TOR": 40.9
+       },
+       "raw": {
+        "MIN": 61.4,
+        "TOR": 42.6
+       },
+       "odds": {
+        "MIN": -159,
+        "TOR": 135
+       },
+       "margin": 3.9
+      },
+      {
+       "board": "Fanatics",
+       "kind": "book",
+       "fair": {
+        "MIN": 60.9,
+        "TOR": 39.1
+       },
+       "raw": {
+        "MIN": 63.6,
+        "TOR": 40.8
+       },
+       "odds": {
+        "MIN": -175,
+        "TOR": 145
+       },
+       "margin": 4.5
+      }
+     ],
+     "series": [
+      {
+       "t": "2026-11-11T21:45:26-07:00",
+       "home_pct": 39.6,
+       "pm_home": null,
+       "n": 9
+      },
+      {
+       "t": "2026-11-11T21:45:58-07:00",
+       "home_pct": 39.6,
+       "pm_home": null,
+       "n": 9
+      }
+     ],
+     "move_pts": 0.0,
+     "matchups": {
+      "MIN": [
+       {
+        "id": "3942335",
+        "name": "Kirill Kaprizov",
+        "pos": "LW",
+        "why": "17 goals",
+        "tier": "green",
+        "val": 1.82,
+        "text": "likely goalie Sergei Bobrovsky 0.881 sv% (13 starts, lg 0.891), TOR allows 29.5 shots/gm (lg 27.4)"
+       },
+       {
+        "id": "4320548",
+        "name": "Quinn Hughes",
+        "pos": "D",
+        "why": "21 assists",
+        "tier": "green",
+        "val": 1.82,
+        "text": "likely goalie Sergei Bobrovsky 0.881 sv% (13 starts, lg 0.891), TOR allows 29.5 shots/gm (lg 27.4)"
+       }
+      ],
+      "TOR": [
+       {
+        "id": "4024123",
+        "name": "Auston Matthews",
+        "pos": "C",
+        "why": "11 goals",
+        "tier": "red",
+        "val": -3.02,
+        "text": "likely goalie Jesper Wallstedt 0.925 sv% (17 starts, lg 0.891), MIN allows 25.8 shots/gm (lg 27.4)"
+       }
+      ]
+     }
+    },
+    {
+     "sport": "nhl",
+     "game": "COL @ OTT",
+     "event_id": "401892698",
+     "start_utc": "2026-11-13T00:00Z",
+     "away": "COL",
+     "home": "OTT",
+     "fav": "COL",
+     "boards_n": 9,
+     "books_n": 9,
+     "pm_in": false,
+     "teams": [
+      {
+       "team": "COL",
+       "name": "Colorado Avalanche",
+       "pct": 52.4,
+       "lo": 51.7,
+       "hi": 53.3,
+       "spread_pts": 1.6,
+       "agree": "tight",
+       "pm_pct": null,
+       "best": {
+        "board": "Unibet",
+        "odds": -118
+       },
+       "value": []
+      },
+      {
+       "team": "OTT",
+       "name": "Ottawa Senators",
+       "pct": 47.6,
+       "lo": 46.7,
+       "hi": 48.3,
+       "spread_pts": 1.6,
+       "agree": "tight",
+       "pm_pct": null,
+       "best": {
+        "board": "FanDuel",
+        "odds": 105
+       },
+       "value": []
+      }
+     ],
+     "boards": [
+      {
+       "board": "DraftKings",
+       "kind": "book",
+       "fair": {
+        "COL": 52.2,
+        "OTT": 47.8
+       },
+       "raw": {
+        "COL": 54.5,
+        "OTT": 50.0
+       },
+       "odds": {
+        "COL": -120,
+        "OTT": 100
+       },
+       "margin": 4.5
+      },
+      {
+       "board": "FanDuel",
+       "kind": "book",
+       "fair": {
+        "COL": 53.3,
+        "OTT": 46.7
+       },
+       "raw": {
+        "COL": 55.8,
+        "OTT": 48.8
+       },
+       "odds": {
+        "COL": -126,
+        "OTT": 105
+       },
+       "margin": 4.5
+      },
+      {
+       "board": "BetRivers",
+       "kind": "book",
+       "fair": {
+        "COL": 52.4,
+        "OTT": 47.6
+       },
+       "raw": {
+        "COL": 54.5,
+        "OTT": 49.5
+       },
+       "odds": {
+        "COL": -120,
+        "OTT": 102
+       },
+       "margin": 4.1
+      },
+      {
+       "board": "BetMGM",
+       "kind": "book",
+       "fair": {
+        "COL": 52.2,
+        "OTT": 47.8
+       },
+       "raw": {
+        "COL": 54.5,
+        "OTT": 50.0
+       },
+       "odds": {
+        "COL": -120,
+        "OTT": 100
+       },
+       "margin": 4.5
+      },
+      {
+       "board": "bet365",
+       "kind": "book",
+       "fair": {
+        "COL": 52.6,
+        "OTT": 47.4
+       },
+       "raw": {
+        "COL": 55.0,
+        "OTT": 49.5
+       },
+       "odds": {
+        "COL": -122,
+        "OTT": 102
+       },
+       "margin": 4.5
+      },
+      {
+       "board": "Caesars",
+       "kind": "book",
+       "fair": {
+        "COL": 52.5,
+        "OTT": 47.5
+       },
+       "raw": {
+        "COL": 54.8,
+        "OTT": 49.5
+       },
+       "odds": {
+        "COL": -121,
+        "OTT": 102
+       },
+       "margin": 4.3
+      },
+      {
+       "board": "Unibet",
+       "kind": "book",
+       "fair": {
+        "COL": 51.7,
+        "OTT": 48.3
+       },
+       "raw": {
+        "COL": 54.1,
+        "OTT": 50.5
+       },
+       "odds": {
+        "COL": -118,
+        "OTT": -102
+       },
+       "margin": 4.6
+      },
+      {
+       "board": "Bally Bet",
+       "kind": "book",
+       "fair": {
+        "COL": 52.4,
+        "OTT": 47.6
+       },
+       "raw": {
+        "COL": 54.5,
+        "OTT": 49.5
+       },
+       "odds": {
+        "COL": -120,
+        "OTT": 102
+       },
+       "margin": 4.1
+      },
+      {
+       "board": "Fanatics",
+       "kind": "book",
+       "fair": {
+        "COL": 52.2,
+        "OTT": 47.8
+       },
+       "raw": {
+        "COL": 54.5,
+        "OTT": 50.0
+       },
+       "odds": {
+        "COL": -120,
+        "OTT": 100
+       },
+       "margin": 4.5
+      }
+     ],
+     "series": [
+      {
+       "t": "2026-11-11T21:45:26-07:00",
+       "home_pct": 47.6,
+       "pm_home": null,
+       "n": 9
+      },
+      {
+       "t": "2026-11-11T21:45:58-07:00",
+       "home_pct": 47.6,
+       "pm_home": null,
+       "n": 9
+      }
+     ],
+     "move_pts": 0.0,
+     "matchups": {
+      "COL": [
+       {
+        "id": "3042050",
+        "name": "Artturi Lehkonen",
+        "pos": "LW",
+        "why": "13 goals",
+        "tier": "red",
+        "val": -2.39,
+        "text": "likely goalie Linus Ullmark 0.945 sv% (8 starts, lg 0.891), OTT allows 26.8 shots/gm (lg 27.4)"
+       },
+       {
+        "id": "3041969",
+        "name": "Nathan MacKinnon",
+        "pos": "C",
+        "why": "20 assists",
+        "tier": "red",
+        "val": -2.39,
+        "text": "likely goalie Linus Ullmark 0.945 sv% (8 starts, lg 0.891), OTT allows 26.8 shots/gm (lg 27.4)"
+       }
+      ],
+      "OTT": [
+       {
+        "id": "4697384",
+        "name": "Tim Stutzle",
+        "pos": "C",
+        "why": "9 goals",
+        "tier": "yellow",
+        "val": -0.55,
+        "text": "likely goalie Mackenzie Blackwood 0.901 sv% (14 starts, lg 0.891), COL allows 27.4 shots/gm (lg 27.4)"
+       }
+      ]
+     }
+    },
+    {
+     "sport": "nhl",
+     "game": "WSH @ NJ",
+     "event_id": "401892700",
+     "start_utc": "2026-11-13T00:00Z",
+     "away": "WSH",
+     "home": "NJ",
+     "fav": "NJ",
+     "boards_n": 9,
+     "books_n": 9,
+     "pm_in": false,
+     "teams": [
+      {
+       "team": "WSH",
+       "name": "Washington Capitals",
+       "pct": 42.6,
+       "lo": 40.9,
+       "hi": 43.1,
+       "spread_pts": 2.1,
+       "agree": "tight",
+       "pm_pct": null,
+       "best": {
+        "board": "BetRivers",
+        "odds": 135
+       },
+       "value": []
+      },
+      {
+       "team": "NJ",
+       "name": "New Jersey Devils",
+       "pct": 57.4,
+       "lo": 56.9,
+       "hi": 59.1,
+       "spread_pts": 2.1,
+       "agree": "tight",
+       "pm_pct": null,
+       "best": {
+        "board": "Unibet",
+        "odds": -147
+       },
+       "value": []
+      }
+     ],
+     "boards": [
+      {
+       "board": "DraftKings",
+       "kind": "book",
+       "fair": {
+        "WSH": 42.8,
+        "NJ": 57.2
+       },
+       "raw": {
+        "WSH": 44.6,
+        "NJ": 59.7
+       },
+       "odds": {
+        "WSH": 124,
+        "NJ": -148
+       },
+       "margin": 4.3
+      },
+      {
+       "board": "FanDuel",
+       "kind": "book",
+       "fair": {
+        "WSH": 42.1,
+        "NJ": 57.9
+       },
+       "raw": {
+        "WSH": 43.9,
+        "NJ": 60.3
+       },
+       "odds": {
+        "WSH": 128,
+        "NJ": -152
+       },
+       "margin": 4.2
+      },
+      {
+       "board": "BetRivers",
+       "kind": "book",
+       "fair": {
+        "WSH": 40.9,
+        "NJ": 59.1
+       },
+       "raw": {
+        "WSH": 42.6,
+        "NJ": 61.4
+       },
+       "odds": {
+        "WSH": 135,
+        "NJ": -159
+       },
+       "margin": 3.9
+      },
+      {
+       "board": "BetMGM",
+       "kind": "book",
+       "fair": {
+        "WSH": 42.6,
+        "NJ": 57.4
+       },
+       "raw": {
+        "WSH": 44.4,
+        "NJ": 60.0
+       },
+       "odds": {
+        "WSH": 125,
+        "NJ": -150
+       },
+       "margin": 4.4
+      },
+      {
+       "board": "bet365",
+       "kind": "book",
+       "fair": {
+        "WSH": 42.6,
+        "NJ": 57.4
+       },
+       "raw": {
+        "WSH": 44.4,
+        "NJ": 60.0
+       },
+       "odds": {
+        "WSH": 125,
+        "NJ": -150
+       },
+       "margin": 4.4
+      },
+      {
+       "board": "Caesars",
+       "kind": "book",
+       "fair": {
+        "WSH": 42.3,
+        "NJ": 57.7
+       },
+       "raw": {
+        "WSH": 44.1,
+        "NJ": 60.0
+       },
+       "odds": {
+        "WSH": 127,
+        "NJ": -150
+       },
+       "margin": 4.1
+      },
+      {
+       "board": "Unibet",
+       "kind": "book",
+       "fair": {
+        "WSH": 43.1,
+        "NJ": 56.9
+       },
+       "raw": {
+        "WSH": 45.0,
+        "NJ": 59.5
+       },
+       "odds": {
+        "WSH": 122,
+        "NJ": -147
+       },
+       "margin": 4.6
+      },
+      {
+       "board": "Bally Bet",
+       "kind": "book",
+       "fair": {
+        "WSH": 40.9,
+        "NJ": 59.1
+       },
+       "raw": {
+        "WSH": 42.6,
+        "NJ": 61.4
+       },
+       "odds": {
+        "WSH": 135,
+        "NJ": -159
+       },
+       "margin": 3.9
+      },
+      {
+       "board": "Fanatics",
+       "kind": "book",
+       "fair": {
+        "WSH": 42.6,
+        "NJ": 57.4
+       },
+       "raw": {
+        "WSH": 44.4,
+        "NJ": 60.0
+       },
+       "odds": {
+        "WSH": 125,
+        "NJ": -150
+       },
+       "margin": 4.4
+      }
+     ],
+     "series": [
+      {
+       "t": "2026-11-11T21:45:26-07:00",
+       "home_pct": 57.4,
+       "pm_home": null,
+       "n": 9
+      },
+      {
+       "t": "2026-11-11T21:45:58-07:00",
+       "home_pct": 57.4,
+       "pm_home": null,
+       "n": 9
+      }
+     ],
+     "move_pts": 0.0,
+     "matchups": {
+      "WSH": [
+       {
+        "id": "3114766",
+        "name": "Alex Tuch",
+        "pos": "RW",
+        "why": "11 goals",
+        "tier": "red",
+        "val": -1.1,
+        "text": "likely goalie Jake Allen 0.881 sv% (10 starts, lg 0.891), NJ allows 24.8 shots/gm (lg 27.4)"
+       },
+       {
+        "id": "3899933",
+        "name": "Dylan Strome",
+        "pos": "C",
+        "why": "12 assists",
+        "tier": "red",
+        "val": -1.1,
+        "text": "likely goalie Jake Allen 0.881 sv% (10 starts, lg 0.891), NJ allows 24.8 shots/gm (lg 27.4)"
+       }
+      ],
+      "NJ": [
+       {
+        "id": "4565222",
+        "name": "Jack Hughes",
+        "pos": "C",
+        "why": "9 goals",
+        "tier": "yellow",
+        "val": 0.17,
+        "text": "likely goalie Logan Thompson 0.891 sv% (12 starts, lg 0.891), WSH allows 27.7 shots/gm (lg 27.4)"
+       }
+      ]
+     }
+    },
+    {
+     "sport": "nhl",
+     "game": "TB @ CBJ",
+     "event_id": "401892701",
+     "start_utc": "2026-11-13T00:00Z",
+     "away": "TB",
+     "home": "CBJ",
+     "fav": "TB",
+     "boards_n": 9,
+     "books_n": 9,
+     "pm_in": false,
+     "teams": [
+      {
+       "team": "TB",
+       "name": "Tampa Bay Lightning",
+       "pct": 51.3,
+       "lo": 51.0,
+       "hi": 52.2,
+       "spread_pts": 1.2,
+       "agree": "tight",
+       "pm_pct": null,
+       "best": {
+        "board": "BetRivers",
+        "odds": -113
+       },
+       "value": []
+      },
+      {
+       "team": "CBJ",
+       "name": "Columbus Blue Jackets",
+       "pct": 48.7,
+       "lo": 47.8,
+       "hi": 49.0,
+       "spread_pts": 1.2,
+       "agree": "tight",
+       "pm_pct": null,
+       "best": {
+        "board": "Fanatics",
+        "odds": 100
+       },
+       "value": []
+      }
+     ],
+     "boards": [
+      {
+       "board": "DraftKings",
+       "kind": "book",
+       "fair": {
+        "TB": 51.7,
+        "CBJ": 48.3
+       },
+       "raw": {
+        "TB": 54.1,
+        "CBJ": 50.5
+       },
+       "odds": {
+        "TB": -118,
+        "CBJ": -102
+       },
+       "margin": 4.6
+      },
+      {
+       "board": "FanDuel",
+       "kind": "book",
+       "fair": {
+        "TB": 51.0,
+        "CBJ": 49.0
+       },
+       "raw": {
+        "TB": 53.3,
+        "CBJ": 51.2
+       },
+       "odds": {
+        "TB": -114,
+        "CBJ": -105
+       },
+       "margin": 4.5
+      },
+      {
+       "board": "BetRivers",
+       "kind": "book",
+       "fair": {
+        "TB": 51.0,
+        "CBJ": 49.0
+       },
+       "raw": {
+        "TB": 53.1,
+        "CBJ": 51.0
+       },
+       "odds": {
+        "TB": -113,
+        "CBJ": -104
+       },
+       "margin": 4.0
+      },
+      {
+       "board": "BetMGM",
+       "kind": "book",
+       "fair": {
+        "TB": 51.7,
+        "CBJ": 48.3
+       },
+       "raw": {
+        "TB": 54.1,
+        "CBJ": 50.5
+       },
+       "odds": {
+        "TB": -118,
+        "CBJ": -102
+       },
+       "margin": 4.6
+      },
+      {
+       "board": "bet365",
+       "kind": "book",
+       "fair": {
+        "TB": 51.3,
+        "CBJ": 48.7
+       },
+       "raw": {
+        "TB": 53.7,
+        "CBJ": 51.0
+       },
+       "odds": {
+        "TB": -116,
+        "CBJ": -104
+       },
+       "margin": 4.7
+      },
+      {
+       "board": "Caesars",
+       "kind": "book",
+       "fair": {
+        "TB": 51.3,
+        "CBJ": 48.7
+       },
+       "raw": {
+        "TB": 53.5,
+        "CBJ": 50.7
+       },
+       "odds": {
+        "TB": -115,
+        "CBJ": -103
+       },
+       "margin": 4.2
+      },
+      {
+       "board": "Unibet",
+       "kind": "book",
+       "fair": {
+        "TB": 51.7,
+        "CBJ": 48.3
+       },
+       "raw": {
+        "TB": 54.1,
+        "CBJ": 50.5
+       },
+       "odds": {
+        "TB": -118,
+        "CBJ": -102
+       },
+       "margin": 4.6
+      },
+      {
+       "board": "Bally Bet",
+       "kind": "book",
+       "fair": {
+        "TB": 51.0,
+        "CBJ": 49.0
+       },
+       "raw": {
+        "TB": 53.1,
+        "CBJ": 51.0
+       },
+       "odds": {
+        "TB": -113,
+        "CBJ": -104
+       },
+       "margin": 4.0
+      },
+      {
+       "board": "Fanatics",
+       "kind": "book",
+       "fair": {
+        "TB": 52.2,
+        "CBJ": 47.8
+       },
+       "raw": {
+        "TB": 54.5,
+        "CBJ": 50.0
+       },
+       "odds": {
+        "TB": -120,
+        "CBJ": 100
+       },
+       "margin": 4.5
+      }
+     ],
+     "series": [
+      {
+       "t": "2026-11-11T21:45:26-07:00",
+       "home_pct": 48.7,
+       "pm_home": null,
+       "n": 9
+      },
+      {
+       "t": "2026-11-11T21:45:58-07:00",
+       "home_pct": 48.7,
+       "pm_home": null,
+       "n": 9
+      }
+     ],
+     "move_pts": 0.0,
+     "matchups": {
+      "TB": [
+       {
+        "id": "4065019",
+        "name": "Brandon Hagel",
+        "pos": "LW",
+        "why": "11 goals",
+        "tier": "green",
+        "val": 0.95,
+        "text": "likely goalie Jet Greaves 0.880 sv% (8 starts, lg 0.891), CBJ allows 28.2 shots/gm (lg 27.4)"
+       },
+       {
+        "id": "2563060",
+        "name": "Nikita Kucherov",
+        "pos": "RW",
+        "why": "18 assists",
+        "tier": "green",
+        "val": 0.95,
+        "text": "likely goalie Jet Greaves 0.880 sv% (8 starts, lg 0.891), CBJ allows 28.2 shots/gm (lg 27.4)"
+       }
+      ],
+      "CBJ": [
+       {
+        "id": "4781553",
+        "name": "Kent Johnson",
+        "pos": "C",
+        "why": "8 goals",
+        "tier": "red",
+        "val": -1.11,
+        "text": "likely goalie Andrei Vasilevskiy 0.885 sv% (14 starts, lg 0.891), TB allows 25.1 shots/gm (lg 27.4)"
+       },
+       {
+        "id": "3899972",
+        "name": "Zach Werenski",
+        "pos": "D",
+        "why": "12 assists",
+        "tier": "red",
+        "val": -1.11,
+        "text": "likely goalie Andrei Vasilevskiy 0.885 sv% (14 starts, lg 0.891), TB allows 25.1 shots/gm (lg 27.4)"
+       }
+      ]
+     }
+    },
+    {
+     "sport": "nhl",
+     "game": "DET @ FLA",
+     "event_id": "401892699",
+     "start_utc": "2026-11-13T00:30Z",
+     "away": "DET",
+     "home": "FLA",
+     "fav": "FLA",
+     "boards_n": 9,
+     "books_n": 9,
+     "pm_in": false,
+     "teams": [
+      {
+       "team": "DET",
+       "name": "Detroit Red Wings",
+       "pct": 38.9,
+       "lo": 38.4,
+       "hi": 40.2,
+       "spread_pts": 1.8,
+       "agree": "tight",
+       "pm_pct": null,
+       "best": {
+        "board": "BetRivers",
+        "odds": 150
+       },
+       "value": []
+      },
+      {
+       "team": "FLA",
+       "name": "Florida Panthers",
+       "pct": 61.1,
+       "lo": 59.8,
+       "hi": 61.6,
+       "spread_pts": 1.8,
+       "agree": "tight",
+       "pm_pct": null,
+       "best": {
+        "board": "Unibet",
+        "odds": -167
+       },
+       "value": []
+      }
+     ],
+     "boards": [
+      {
+       "board": "DraftKings",
+       "kind": "book",
+       "fair": {
+        "DET": 39.6,
+        "FLA": 60.4
+       },
+       "raw": {
+        "DET": 41.3,
+        "FLA": 63.0
+       },
+       "odds": {
+        "DET": 142,
+        "FLA": -170
+       },
+       "margin": 4.3
+      },
+      {
+       "board": "FanDuel",
+       "kind": "book",
+       "fair": {
+        "DET": 38.8,
+        "FLA": 61.2
+       },
+       "raw": {
+        "DET": 40.7,
+        "FLA": 64.0
+       },
+       "odds": {
+        "DET": 146,
+        "FLA": -178
+       },
+       "margin": 4.7
+      },
+      {
+       "board": "BetRivers",
+       "kind": "book",
+       "fair": {
+        "DET": 38.4,
+        "FLA": 61.6
+       },
+       "raw": {
+        "DET": 40.0,
+        "FLA": 64.3
+       },
+       "odds": {
+        "DET": 150,
+        "FLA": -180
+       },
+       "margin": 4.3
+      },
+      {
+       "board": "BetMGM",
+       "kind": "book",
+       "fair": {
+        "DET": 39.1,
+        "FLA": 60.9
+       },
+       "raw": {
+        "DET": 40.8,
+        "FLA": 63.6
+       },
+       "odds": {
+        "DET": 145,
+        "FLA": -175
+       },
+       "margin": 4.5
+      },
+      {
+       "board": "bet365",
+       "kind": "book",
+       "fair": {
+        "DET": 38.9,
+        "FLA": 61.1
+       },
+       "raw": {
+        "DET": 40.5,
+        "FLA": 63.5
+       },
+       "odds": {
+        "DET": 147,
+        "FLA": -174
+       },
+       "margin": 4.0
+      },
+      {
+       "board": "Caesars",
+       "kind": "book",
+       "fair": {
+        "DET": 38.6,
+        "FLA": 61.4
+       },
+       "raw": {
+        "DET": 40.2,
+        "FLA": 63.8
+       },
+       "odds": {
+        "DET": 149,
+        "FLA": -176
+       },
+       "margin": 3.9
+      },
+      {
+       "board": "Unibet",
+       "kind": "book",
+       "fair": {
+        "DET": 40.2,
+        "FLA": 59.8
+       },
+       "raw": {
+        "DET": 42.0,
+        "FLA": 62.5
+       },
+       "odds": {
+        "DET": 138,
+        "FLA": -167
+       },
+       "margin": 4.6
+      },
+      {
+       "board": "Bally Bet",
+       "kind": "book",
+       "fair": {
+        "DET": 38.4,
+        "FLA": 61.6
+       },
+       "raw": {
+        "DET": 40.0,
+        "FLA": 64.3
+       },
+       "odds": {
+        "DET": 150,
+        "FLA": -180
+       },
+       "margin": 4.3
+      },
+      {
+       "board": "Fanatics",
+       "kind": "book",
+       "fair": {
+        "DET": 39.1,
+        "FLA": 60.9
+       },
+       "raw": {
+        "DET": 40.8,
+        "FLA": 63.6
+       },
+       "odds": {
+        "DET": 145,
+        "FLA": -175
+       },
+       "margin": 4.5
+      }
+     ],
+     "series": [
+      {
+       "t": "2026-11-11T21:45:26-07:00",
+       "home_pct": 61.1,
+       "pm_home": null,
+       "n": 9
+      },
+      {
+       "t": "2026-11-11T21:45:58-07:00",
+       "home_pct": 61.1,
+       "pm_home": null,
+       "n": 9
+      }
+     ],
+     "move_pts": 0.0,
+     "matchups": {
+      "DET": [
+       {
+        "id": "3120307",
+        "name": "Viktor Arvidsson",
+        "pos": "LW",
+        "why": "8 goals",
+        "tier": "red",
+        "val": -1.28,
+        "text": "likely goalie Jacob Markstrom 0.900 sv% (10 starts, lg 0.891), FLA allows 26.0 shots/gm (lg 27.4)"
+       },
+       {
+        "id": "4697385",
+        "name": "Lucas Raymond",
+        "pos": "LW",
+        "why": "12 assists",
+        "tier": "red",
+        "val": -1.28,
+        "text": "likely goalie Jacob Markstrom 0.900 sv% (10 starts, lg 0.891), FLA allows 26.0 shots/gm (lg 27.4)"
+       }
+      ],
+      "FLA": [
+       {
+        "id": "4319858",
+        "name": "Brady Tkachuk",
+        "pos": "LW",
+        "why": "10 goals",
+        "tier": "yellow",
+        "val": 0.21,
+        "text": "likely goalie John Gibson 0.866 sv% (12 starts, lg 0.891), DET allows 25.8 shots/gm (lg 27.4)"
+       },
+       {
+        "id": "4024854",
+        "name": "Matthew Tkachuk",
+        "pos": "LW",
+        "why": "23 assists",
+        "tier": "yellow",
+        "val": 0.21,
+        "text": "likely goalie John Gibson 0.866 sv% (12 starts, lg 0.891), DET allows 25.8 shots/gm (lg 27.4)"
+       }
+      ]
+     }
+    },
+    {
+     "sport": "nhl",
+     "game": "BUF @ CHI",
+     "event_id": "401892702",
+     "start_utc": "2026-11-13T01:00Z",
+     "away": "BUF",
+     "home": "CHI",
+     "fav": "BUF",
+     "boards_n": 9,
+     "books_n": 9,
+     "pm_in": false,
+     "teams": [
+      {
+       "team": "BUF",
+       "name": "Buffalo Sabres",
+       "pct": 57.4,
+       "lo": 56.4,
+       "hi": 58.9,
+       "spread_pts": 2.4,
+       "agree": "tight",
+       "pm_pct": null,
+       "best": {
+        "board": "Unibet",
+        "odds": -143
+       },
+       "value": []
+      },
+      {
+       "team": "CHI",
+       "name": "Chicago Blackhawks",
+       "pct": 42.6,
+       "lo": 41.1,
+       "hi": 43.6,
+       "spread_pts": 2.4,
+       "agree": "tight",
+       "pm_pct": null,
+       "best": {
+        "board": "BetRivers",
+        "odds": 133
+       },
+       "value": []
+      }
+     ],
+     "boards": [
+      {
+       "board": "DraftKings",
+       "kind": "book",
+       "fair": {
+        "BUF": 57.2,
+        "CHI": 42.8
+       },
+       "raw": {
+        "BUF": 59.7,
+        "CHI": 44.6
+       },
+       "odds": {
+        "BUF": -148,
+        "CHI": 124
+       },
+       "margin": 4.3
+      },
+      {
+       "board": "FanDuel",
+       "kind": "book",
+       "fair": {
+        "BUF": 57.7,
+        "CHI": 42.3
+       },
+       "raw": {
+        "BUF": 60.3,
+        "CHI": 44.2
+       },
+       "odds": {
+        "BUF": -152,
+        "CHI": 126
+       },
+       "margin": 4.6
+      },
+      {
+       "board": "BetRivers",
+       "kind": "book",
+       "fair": {
+        "BUF": 58.9,
+        "CHI": 41.1
+       },
+       "raw": {
+        "BUF": 61.4,
+        "CHI": 42.9
+       },
+       "odds": {
+        "BUF": -159,
+        "CHI": 133
+       },
+       "margin": 4.3
+      },
+      {
+       "board": "BetMGM",
+       "kind": "book",
+       "fair": {
+        "BUF": 57.8,
+        "CHI": 42.2
+       },
+       "raw": {
+        "BUF": 60.8,
+        "CHI": 44.4
+       },
+       "odds": {
+        "BUF": -155,
+        "CHI": 125
+       },
+       "margin": 5.2
+      },
+      {
+       "board": "bet365",
+       "kind": "book",
+       "fair": {
+        "BUF": 57.4,
+        "CHI": 42.6
+       },
+       "raw": {
+        "BUF": 60.0,
+        "CHI": 44.4
+       },
+       "odds": {
+        "BUF": -150,
+        "CHI": 125
+       },
+       "margin": 4.4
+      },
+      {
+       "board": "Caesars",
+       "kind": "book",
+       "fair": {
+        "BUF": 57.3,
+        "CHI": 42.7
+       },
+       "raw": {
+        "BUF": 59.7,
+        "CHI": 44.4
+       },
+       "odds": {
+        "BUF": -148,
+        "CHI": 125
+       },
+       "margin": 4.1
+      },
+      {
+       "board": "Unibet",
+       "kind": "book",
+       "fair": {
+        "BUF": 56.4,
+        "CHI": 43.6
+       },
+       "raw": {
+        "BUF": 58.8,
+        "CHI": 45.5
+       },
+       "odds": {
+        "BUF": -143,
+        "CHI": 120
+       },
+       "margin": 4.3
+      },
+      {
+       "board": "Bally Bet",
+       "kind": "book",
+       "fair": {
+        "BUF": 58.9,
+        "CHI": 41.1
+       },
+       "raw": {
+        "BUF": 61.4,
+        "CHI": 42.9
+       },
+       "odds": {
+        "BUF": -159,
+        "CHI": 133
+       },
+       "margin": 4.3
+      },
+      {
+       "board": "Fanatics",
+       "kind": "book",
+       "fair": {
+        "BUF": 57.4,
+        "CHI": 42.6
+       },
+       "raw": {
+        "BUF": 60.0,
+        "CHI": 44.4
+       },
+       "odds": {
+        "BUF": -150,
+        "CHI": 125
+       },
+       "margin": 4.4
+      }
+     ],
+     "series": [
+      {
+       "t": "2026-11-11T21:45:26-07:00",
+       "home_pct": 42.6,
+       "pm_home": null,
+       "n": 9
+      },
+      {
+       "t": "2026-11-11T21:45:58-07:00",
+       "home_pct": 42.6,
+       "pm_home": null,
+       "n": 9
+      }
+     ],
+     "move_pts": 0.0,
+     "matchups": {
+      "BUF": [
+       {
+        "id": "4024988",
+        "name": "Tage Thompson",
+        "pos": "C",
+        "why": "11 goals",
+        "tier": "green",
+        "val": 2.54,
+        "text": "likely goalie Spencer Knight 0.881 sv% (14 starts, lg 0.891), CHI allows 30.7 shots/gm (lg 27.4)"
+       },
+       {
+        "id": "5149186",
+        "name": "Zach Benson",
+        "pos": "LW",
+        "why": "13 assists",
+        "tier": "green",
+        "val": 2.54,
+        "text": "likely goalie Spencer Knight 0.881 sv% (14 starts, lg 0.891), CHI allows 30.7 shots/gm (lg 27.4)"
+       }
+      ],
+      "CHI": [
+       {
+        "id": "5149231",
+        "name": "Roman Kantserov",
+        "pos": "RW",
+        "why": "9 goals",
+        "tier": "green",
+        "val": 0.85,
+        "text": "likely goalie Ukko-Pekka Luukkonen 0.867 sv% (11 starts, lg 0.891), BUF allows 26.8 shots/gm (lg 27.4)"
+       },
+       {
+        "id": "5149125",
+        "name": "Connor Bedard",
+        "pos": "C",
+        "why": "9 assists",
+        "tier": "green",
+        "val": 0.85,
+        "text": "likely goalie Ukko-Pekka Luukkonen 0.867 sv% (11 starts, lg 0.891), BUF allows 26.8 shots/gm (lg 27.4)"
+       }
+      ]
+     }
+    },
+    {
+     "sport": "nhl",
+     "game": "WPG @ DAL",
+     "event_id": "401892703",
+     "start_utc": "2026-11-13T01:00Z",
+     "away": "WPG",
+     "home": "DAL",
+     "fav": "DAL",
+     "boards_n": 9,
+     "books_n": 9,
+     "pm_in": false,
+     "teams": [
+      {
+       "team": "WPG",
+       "name": "Winnipeg Jets",
+       "pct": 37.9,
+       "lo": 36.9,
+       "hi": 39.1,
+       "spread_pts": 2.2,
+       "agree": "tight",
+       "pm_pct": null,
+       "best": {
+        "board": "DraftKings",
+        "odds": 160
+       },
+       "value": []
+      },
+      {
+       "team": "DAL",
+       "name": "Dallas Stars",
+       "pct": 62.1,
+       "lo": 60.9,
+       "hi": 63.1,
+       "spread_pts": 2.2,
+       "agree": "tight",
+       "pm_pct": null,
+       "best": {
+        "board": "Unibet",
+        "odds": -175
+       },
+       "value": []
+      }
+     ],
+     "boards": [
+      {
+       "board": "DraftKings",
+       "kind": "book",
+       "fair": {
+        "WPG": 36.9,
+        "DAL": 63.1
+       },
+       "raw": {
+        "WPG": 38.5,
+        "DAL": 65.8
+       },
+       "odds": {
+        "WPG": 160,
+        "DAL": -192
+       },
+       "margin": 4.2
+      },
+      {
+       "board": "FanDuel",
+       "kind": "book",
+       "fair": {
+        "WPG": 38.3,
+        "DAL": 61.7
+       },
+       "raw": {
+        "WPG": 40.0,
+        "DAL": 64.5
+       },
+       "odds": {
+        "WPG": 150,
+        "DAL": -182
+       },
+       "margin": 4.5
+      },
+      {
+       "board": "BetRivers",
+       "kind": "book",
+       "fair": {
+        "WPG": 37.6,
+        "DAL": 62.4
+       },
+       "raw": {
+        "WPG": 39.2,
+        "DAL": 65.0
+       },
+       "odds": {
+        "WPG": 155,
+        "DAL": -186
+       },
+       "margin": 4.3
+      },
+      {
+       "board": "BetMGM",
+       "kind": "book",
+       "fair": {
+        "WPG": 38.1,
+        "DAL": 61.9
+       },
+       "raw": {
+        "WPG": 40.0,
+        "DAL": 64.9
+       },
+       "odds": {
+        "WPG": 150,
+        "DAL": -185
+       },
+       "margin": 4.9
+      },
+      {
+       "board": "bet365",
+       "kind": "book",
+       "fair": {
+        "WPG": 37.9,
+        "DAL": 62.1
+       },
+       "raw": {
+        "WPG": 39.5,
+        "DAL": 64.7
+       },
+       "odds": {
+        "WPG": 153,
+        "DAL": -183
+       },
+       "margin": 4.2
+      },
+      {
+       "board": "Caesars",
+       "kind": "book",
+       "fair": {
+        "WPG": 37.5,
+        "DAL": 62.5
+       },
+       "raw": {
+        "WPG": 39.4,
+        "DAL": 65.5
+       },
+       "odds": {
+        "WPG": 154,
+        "DAL": -190
+       },
+       "margin": 4.9
+      },
+      {
+       "board": "Unibet",
+       "kind": "book",
+       "fair": {
+        "WPG": 39.1,
+        "DAL": 60.9
+       },
+       "raw": {
+        "WPG": 40.8,
+        "DAL": 63.6
+       },
+       "odds": {
+        "WPG": 145,
+        "DAL": -175
+       },
+       "margin": 4.5
+      },
+      {
+       "board": "Bally Bet",
+       "kind": "book",
+       "fair": {
+        "WPG": 37.6,
+        "DAL": 62.4
+       },
+       "raw": {
+        "WPG": 39.2,
+        "DAL": 65.0
+       },
+       "odds": {
+        "WPG": 155,
+        "DAL": -186
+       },
+       "margin": 4.3
+      },
+      {
+       "board": "Fanatics",
+       "kind": "book",
+       "fair": {
+        "WPG": 38.4,
+        "DAL": 61.6
+       },
+       "raw": {
+        "WPG": 40.0,
+        "DAL": 64.3
+       },
+       "odds": {
+        "WPG": 150,
+        "DAL": -180
+       },
+       "margin": 4.3
+      }
+     ],
+     "series": [
+      {
+       "t": "2026-11-11T21:45:26-07:00",
+       "home_pct": 62.1,
+       "pm_home": null,
+       "n": 9
+      },
+      {
+       "t": "2026-11-11T21:45:58-07:00",
+       "home_pct": 62.1,
+       "pm_home": null,
+       "n": 9
+      }
+     ],
+     "move_pts": 0.0,
+     "matchups": {
+      "WPG": [
+       {
+        "id": "3899952",
+        "name": "Kyle Connor",
+        "pos": "LW",
+        "why": "15 goals",
+        "tier": "red",
+        "val": -3.44,
+        "text": "likely goalie Jake Oettinger 0.906 sv% (13 starts, lg 0.891), DAL allows 22.9 shots/gm (lg 27.4)"
+       },
+       {
+        "id": "2562632",
+        "name": "Mark Scheifele",
+        "pos": "C",
+        "why": "15 assists",
+        "tier": "red",
+        "val": -3.44,
+        "text": "likely goalie Jake Oettinger 0.906 sv% (13 starts, lg 0.891), DAL allows 22.9 shots/gm (lg 27.4)"
+       }
+      ],
+      "DAL": [
+       {
+        "id": "3899938",
+        "name": "Mikko Rantanen",
+        "pos": "RW",
+        "why": "9 goals",
+        "tier": "green",
+        "val": 0.9,
+        "text": "likely goalie Stuart Skinner 0.883 sv% (13 starts, lg 0.891), WPG allows 28.2 shots/gm (lg 27.4)"
+       },
+       {
+        "id": "4874740",
+        "name": "Wyatt Johnston",
+        "pos": "C",
+        "why": "13 assists",
+        "tier": "green",
+        "val": 0.9,
+        "text": "likely goalie Stuart Skinner 0.883 sv% (13 starts, lg 0.891), WPG allows 28.2 shots/gm (lg 27.4)"
+       }
+      ]
+     }
+    },
+    {
+     "sport": "nhl",
+     "game": "STL @ UTA",
+     "event_id": "401892704",
+     "start_utc": "2026-11-13T02:00Z",
+     "away": "STL",
+     "home": "UTA",
+     "fav": "UTA",
+     "boards_n": 9,
+     "books_n": 9,
+     "pm_in": false,
+     "teams": [
+      {
+       "team": "STL",
+       "name": "St. Louis Blues",
+       "pct": 45.9,
+       "lo": 44.7,
+       "hi": 47.4,
+       "spread_pts": 2.7,
+       "agree": "tight",
+       "pm_pct": null,
+       "best": {
+        "board": "Caesars",
+        "odds": 115
+       },
+       "value": []
+      },
+      {
+       "team": "UTA",
+       "name": "Utah Mammoth",
+       "pct": 54.1,
+       "lo": 52.6,
+       "hi": 55.3,
+       "spread_pts": 2.7,
+       "agree": "tight",
+       "pm_pct": null,
+       "best": {
+        "board": "FanDuel",
+        "odds": -122
+       },
+       "value": []
+      }
+     ],
+     "boards": [
+      {
+       "board": "DraftKings",
+       "kind": "book",
+       "fair": {
+        "STL": 44.9,
+        "UTA": 55.1
+       },
+       "raw": {
+        "STL": 46.7,
+        "UTA": 57.4
+       },
+       "odds": {
+        "STL": 114,
+        "UTA": -135
+       },
+       "margin": 4.2
+      },
+      {
+       "board": "FanDuel",
+       "kind": "book",
+       "fair": {
+        "STL": 47.4,
+        "UTA": 52.6
+       },
+       "raw": {
+        "STL": 49.5,
+        "UTA": 55.0
+       },
+       "odds": {
+        "STL": 102,
+        "UTA": -122
+       },
+       "margin": 4.5
+      },
+      {
+       "board": "BetRivers",
+       "kind": "book",
+       "fair": {
+        "STL": 47.4,
+        "UTA": 52.6
+       },
+       "raw": {
+        "STL": 49.5,
+        "UTA": 55.0
+       },
+       "odds": {
+        "STL": 102,
+        "UTA": -122
+       },
+       "margin": 4.5
+      },
+      {
+       "board": "BetMGM",
+       "kind": "book",
+       "fair": {
+        "STL": 45.3,
+        "UTA": 54.7
+       },
+       "raw": {
+        "STL": 47.6,
+        "UTA": 57.4
+       },
+       "odds": {
+        "STL": 110,
+        "UTA": -135
+       },
+       "margin": 5.1
+      },
+      {
+       "board": "bet365",
+       "kind": "book",
+       "fair": {
+        "STL": 45.9,
+        "UTA": 54.1
+       },
+       "raw": {
+        "STL": 47.8,
+        "UTA": 56.3
+       },
+       "odds": {
+        "STL": 109,
+        "UTA": -129
+       },
+       "margin": 4.2
+      },
+      {
+       "board": "Caesars",
+       "kind": "book",
+       "fair": {
+        "STL": 44.7,
+        "UTA": 55.3
+       },
+       "raw": {
+        "STL": 46.5,
+        "UTA": 57.6
+       },
+       "odds": {
+        "STL": 115,
+        "UTA": -136
+       },
+       "margin": 4.1
+      },
+      {
+       "board": "Unibet",
+       "kind": "book",
+       "fair": {
+        "STL": 46.1,
+        "UTA": 53.9
+       },
+       "raw": {
+        "STL": 48.1,
+        "UTA": 56.1
+       },
+       "odds": {
+        "STL": 108,
+        "UTA": -128
+       },
+       "margin": 4.2
+      },
+      {
+       "board": "Bally Bet",
+       "kind": "book",
+       "fair": {
+        "STL": 47.4,
+        "UTA": 52.6
+       },
+       "raw": {
+        "STL": 49.5,
+        "UTA": 55.0
+       },
+       "odds": {
+        "STL": 102,
+        "UTA": -122
+       },
+       "margin": 4.5
+      },
+      {
+       "board": "Fanatics",
+       "kind": "book",
+       "fair": {
+        "STL": 45.7,
+        "UTA": 54.3
+       },
+       "raw": {
+        "STL": 47.6,
+        "UTA": 56.5
+       },
+       "odds": {
+        "STL": 110,
+        "UTA": -130
+       },
+       "margin": 4.1
+      }
+     ],
+     "series": [
+      {
+       "t": "2026-11-11T21:45:26-07:00",
+       "home_pct": 54.1,
+       "pm_home": null,
+       "n": 9
+      },
+      {
+       "t": "2026-11-11T21:45:58-07:00",
+       "home_pct": 54.1,
+       "pm_home": null,
+       "n": 9
+      }
+     ],
+     "move_pts": 0.0,
+     "matchups": {
+      "STL": [
+       {
+        "id": "5080171",
+        "name": "Jimmy Snuggerud",
+        "pos": "RW",
+        "why": "10 goals",
+        "tier": "yellow",
+        "val": -0.37,
+        "text": "likely goalie Karel Vejmelka 0.870 sv% (12 starts, lg 0.891), UTA allows 25.1 shots/gm (lg 27.4)"
+       },
+       {
+        "id": "4233637",
+        "name": "Robert Thomas",
+        "pos": "C",
+        "why": "11 assists",
+        "tier": "yellow",
+        "val": -0.37,
+        "text": "likely goalie Karel Vejmelka 0.870 sv% (12 starts, lg 0.891), UTA allows 25.1 shots/gm (lg 27.4)"
+       }
+      ],
+      "UTA": [
+       {
+        "id": "3114770",
+        "name": "Nick Schmaltz",
+        "pos": "C",
+        "why": "9 goals",
+        "tier": "yellow",
+        "val": -0.71,
+        "text": "likely goalie Joel Hofer 0.920 sv% (13 starts, lg 0.891), STL allows 28.9 shots/gm (lg 27.4)"
+       },
+       {
+        "id": "4024857",
+        "name": "Clayton Keller",
+        "pos": "RW",
+        "why": "19 assists",
+        "tier": "yellow",
+        "val": -0.71,
+        "text": "likely goalie Joel Hofer 0.920 sv% (13 starts, lg 0.891), STL allows 28.9 shots/gm (lg 27.4)"
+       }
+      ]
+     }
+    },
+    {
+     "sport": "nhl",
+     "game": "NYI @ LA",
+     "event_id": "401892705",
+     "start_utc": "2026-11-13T03:00Z",
+     "away": "NYI",
+     "home": "LA",
+     "fav": "LA",
+     "boards_n": 9,
+     "books_n": 9,
+     "pm_in": false,
+     "teams": [
+      {
+       "team": "NYI",
+       "name": "New York Islanders",
+       "pct": 46.8,
+       "lo": 46.2,
+       "hi": 47.8,
+       "spread_pts": 1.6,
+       "agree": "tight",
+       "pm_pct": null,
+       "best": {
+        "board": "Caesars",
+        "odds": 108
+       },
+       "value": []
+      },
+      {
+       "team": "LA",
+       "name": "Los Angeles Kings",
+       "pct": 53.2,
+       "lo": 52.2,
+       "hi": 53.8,
+       "spread_pts": 1.6,
+       "agree": "tight",
+       "pm_pct": null,
+       "best": {
+        "board": "BetRivers",
+        "odds": -120
+       },
+       "value": []
+      }
+     ],
+     "boards": [
+      {
+       "board": "DraftKings",
+       "kind": "book",
+       "fair": {
+        "NYI": 46.8,
+        "LA": 53.2
+       },
+       "raw": {
+        "NYI": 48.8,
+        "LA": 55.6
+       },
+       "odds": {
+        "NYI": 105,
+        "LA": -125
+       },
+       "margin": 4.3
+      },
+      {
+       "board": "FanDuel",
+       "kind": "book",
+       "fair": {
+        "NYI": 46.9,
+        "LA": 53.1
+       },
+       "raw": {
+        "NYI": 49.0,
+        "LA": 55.6
+       },
+       "odds": {
+        "NYI": 104,
+        "LA": -125
+       },
+       "margin": 4.6
+      },
+      {
+       "board": "BetRivers",
+       "kind": "book",
+       "fair": {
+        "NYI": 47.8,
+        "LA": 52.2
+       },
+       "raw": {
+        "NYI": 50.0,
+        "LA": 54.5
+       },
+       "odds": {
+        "NYI": 100,
+        "LA": -120
+       },
+       "margin": 4.5
+      },
+      {
+       "board": "BetMGM",
+       "kind": "book",
+       "fair": {
+        "NYI": 46.8,
+        "LA": 53.2
+       },
+       "raw": {
+        "NYI": 48.8,
+        "LA": 55.6
+       },
+       "odds": {
+        "NYI": 105,
+        "LA": -125
+       },
+       "margin": 4.3
+      },
+      {
+       "board": "bet365",
+       "kind": "book",
+       "fair": {
+        "NYI": 46.5,
+        "LA": 53.5
+       },
+       "raw": {
+        "NYI": 48.5,
+        "LA": 55.8
+       },
+       "odds": {
+        "NYI": 106,
+        "LA": -126
+       },
+       "margin": 4.3
+      },
+      {
+       "board": "Caesars",
+       "kind": "book",
+       "fair": {
+        "NYI": 46.2,
+        "LA": 53.8
+       },
+       "raw": {
+        "NYI": 48.1,
+        "LA": 55.9
+       },
+       "odds": {
+        "NYI": 108,
+        "LA": -127
+       },
+       "margin": 4.0
+      },
+      {
+       "board": "Unibet",
+       "kind": "book",
+       "fair": {
+        "NYI": 46.9,
+        "LA": 53.1
+       },
+       "raw": {
+        "NYI": 49.0,
+        "LA": 55.6
+       },
+       "odds": {
+        "NYI": 104,
+        "LA": -125
+       },
+       "margin": 4.6
+      },
+      {
+       "board": "Bally Bet",
+       "kind": "book",
+       "fair": {
+        "NYI": 47.8,
+        "LA": 52.2
+       },
+       "raw": {
+        "NYI": 50.0,
+        "LA": 54.5
+       },
+       "odds": {
+        "NYI": 100,
+        "LA": -120
+       },
+       "margin": 4.5
+      },
+      {
+       "board": "Fanatics",
+       "kind": "book",
+       "fair": {
+        "NYI": 46.8,
+        "LA": 53.2
+       },
+       "raw": {
+        "NYI": 48.8,
+        "LA": 55.6
+       },
+       "odds": {
+        "NYI": 105,
+        "LA": -125
+       },
+       "margin": 4.3
+      }
+     ],
+     "series": [
+      {
+       "t": "2026-11-11T21:45:26-07:00",
+       "home_pct": 53.2,
+       "pm_home": null,
+       "n": 9
+      },
+      {
+       "t": "2026-11-11T21:45:58-07:00",
+       "home_pct": 53.2,
+       "pm_home": null,
+       "n": 9
+      }
+     ],
+     "move_pts": 0.0,
+     "matchups": {
+      "NYI": [
+       {
+        "id": "3042002",
+        "name": "Bo Horvat",
+        "pos": "C",
+        "why": "7 goals",
+        "tier": "green",
+        "val": 1.0,
+        "text": "likely goalie Darcy Kuemper 0.878 sv% (10 starts, lg 0.891), LA allows 28.1 shots/gm (lg 27.4)"
+       },
+       {
+        "id": "5291933",
+        "name": "Matthew Schaefer",
+        "pos": "D",
+        "why": "12 assists",
+        "tier": "green",
+        "val": 1.0,
+        "text": "likely goalie Darcy Kuemper 0.878 sv% (10 starts, lg 0.891), LA allows 28.1 shots/gm (lg 27.4)"
+       }
+      ],
+      "LA": [
+       {
+        "id": "3891952",
+        "name": "Artemi Panarin",
+        "pos": "LW",
+        "why": "8 goals",
+        "tier": "yellow",
+        "val": -0.17,
+        "text": "likely goalie Ilya Sorokin 0.914 sv% (12 starts, lg 0.891), NYI allows 29.2 shots/gm (lg 27.4)"
+       }
+      ]
+     }
+    }
+   ],
+   "day": "2026-11-12"
+  }
+ },
+ "gaps": [],
+ "method": "Win chance is the median of every board's no-margin chance: each sportsbook once, plus the prediction market when its game has $25k+ traded. Range is the lowest to highest board. Value means a board's price implies 3+ points less chance than the consensus. Player colors compare the matchup to league average and are context, not picks. NFL pass catcher scores are AnonMav Coverage Edge, estimated from public play by play."
+}
