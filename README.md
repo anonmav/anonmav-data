@@ -5,6 +5,7 @@ Public JSON for [anonmav.com](https://anonmav.com). Pages may load these files a
 ## Files
 
 - `ledger.json` — graded alerts and executed-bot records (schema 2). Earlier-run dollar amounts are not published; current-run net after fees may be.
+- `status.json` — public trading-bot status flag (`paused` true/false and a notice). Resume later by setting `paused` to false and pushing this file.
 - `longshot/today.json` — tonight's Long Shot board
 - `longshot/feed.json` — From X sports posts
 - `longshot/record.json` — Long Shot win/loss/pending record
