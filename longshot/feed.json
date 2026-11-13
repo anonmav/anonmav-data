@@ -1,114 +1,114 @@
 {
-  "pulled_az": "2026-11-05T16:37:32-07:00",
-  "tz": "Arizona (MST)",
-  "source": "X public posts from curated sports news accounts",
-  "accounts": [
-    "ShamsCharania",
-    "wojespn",
-    "AdamSchefter",
-    "RapSheet",
-    "FriedgeHNIC",
-    "TheSteinLine",
-    "NBA",
-    "NFL",
-    "NHL"
-  ],
-  "items": [
-    {
-      "id": "2118486105087791175",
-      "author": "NHL",
-      "handle": "NHL",
-      "text": "NHL Gametime is live on X! This is a dedicated place to follow each night's games!",
-      "created_az": "2026-11-05T16:30:21-07:00",
-      "url": "https://x.com/NHL/status/2118486105087791175"
-    },
-    {
-      "id": "2118485263873896529",
-      "author": "NFL",
-      "handle": "NFL",
-      "text": "Travis Hunter in prime time JAXvsBAL \u2013 8:15pm ET on Prime",
-      "created_az": "2026-11-05T16:27:01-07:00",
-      "url": "https://x.com/NFL/status/2118485263873896529"
-    },
-    {
-      "id": "2118483452718617016",
-      "author": "Ian Rapoport",
-      "handle": "RapSheet",
-      "text": "Bhayshul Tuten is, in fact, good to go after his workout. Excellent news for the #Jags.",
-      "created_az": "2026-11-05T16:19:49-07:00",
-      "url": "https://x.com/RapSheet/status/2118483452718617016"
-    },
-    {
-      "id": "2118455817326449107",
-      "author": "NBA",
-      "handle": "NBA",
-      "text": "Top-5 scorers battle it out. Klay returns to the Bay. Steph Curry (30.0 PPG, 3rd in NBA) and the Warriors seek their 6th straight win against Giannis Antetokounmpo (28.3 PPG, 5th) and the Heat MIA-GSW | 10pm/et on NBA TV",
-      "created_az": "2026-11-05T14:30:00-07:00",
-      "url": "https://x.com/NBA/status/2118455817326449107"
-    },
-    {
-      "id": "2118457308699406624",
-      "author": "Adam Schefter",
-      "handle": "AdamSchefter",
-      "text": "No practice again today for AJ Brown and TreVeyon Henderson.",
-      "created_az": "2026-11-05T14:35:56-07:00",
-      "url": "https://x.com/AdamSchefter/status/2118457308699406624"
-    },
-    {
-      "id": "2118449911989510248",
-      "author": "Ian Rapoport",
-      "handle": "RapSheet",
-      "text": "Austin Reed will be the backup tonight, with Lamar Jackson and Tyler Huntley on IR.",
-      "created_az": "2026-11-05T14:06:32-07:00",
-      "url": "https://x.com/RapSheet/status/2118449911989510248"
-    },
-    {
-      "id": "2118449635069153592",
-      "author": "Adam Schefter",
-      "handle": "AdamSchefter",
-      "text": "Ravens officially placed QBs Lamar Jackson and Tyler Huntley on injured reserve.",
-      "created_az": "2026-11-05T14:05:26-07:00",
-      "url": "https://x.com/AdamSchefter/status/2118449635069153592"
-    },
-    {
-      "id": "2118447126053077153",
-      "author": "Elliotte Friedman",
-      "handle": "FriedgeHNIC",
-      "text": "Cleared New: Reimer (NYR) Sorry for the delay, long drive",
-      "created_az": "2026-11-05T13:55:28-07:00",
-      "url": "https://x.com/FriedgeHNIC/status/2118447126053077153"
-    },
-    {
-      "id": "2118475530429411745",
-      "author": "NFL",
-      "handle": "NFL",
-      "text": "QB Joe Fagnano making his first NFL start tonight JAXvsBAL \u2013 8:15pm ET on Prime",
-      "created_az": "2026-11-05T15:48:20-07:00",
-      "url": "https://x.com/NFL/status/2118475530429411745"
-    },
-    {
-      "id": "2118450783226114100",
-      "author": "NBA",
-      "handle": "NBA",
-      "text": "NEW LEADER OUT WEST: THE BLAZERS (6-1) CONTINUE TO RISE It's Portland's best seven-game start since opening the season 6-1 in 1999-00.",
-      "created_az": "2026-11-05T14:10:00-07:00",
-      "url": "https://x.com/NBA/status/2118450783226114100"
-    },
-    {
-      "id": "2118470771060133966",
-      "author": "Marc Stein",
-      "handle": "TheSteinLine",
-      "text": "The Mavericks now list big man Santi Aldama as probable for Friday's home game against Utah. It would be Aldama's season debut after knee surgery in the spring if he is ultimately cleared to play.",
-      "created_az": "2026-11-05T15:29:25-07:00",
-      "url": "https://x.com/TheSteinLine/status/2118470771060133966"
-    },
-    {
-      "id": "2118455294468456772",
-      "author": "Adam Schefter",
-      "handle": "AdamSchefter",
-      "text": "Browns QB Deshaun Watson did not practice again Thursday while he remains in concussion protocol; Shedeur Sanders is in line to start Sunday vs. the Saints.",
-      "created_az": "2026-11-05T14:27:55-07:00",
-      "url": "https://x.com/AdamSchefter/status/2118455294468456772"
-    }
-  ]
+ "pulled_az": "2026-11-05T16:37:32-07:00",
+ "tz": "Arizona (MST)",
+ "source": "X public posts from curated sports news accounts",
+ "accounts": [
+  "ShamsCharania",
+  "wojespn",
+  "AdamSchefter",
+  "RapSheet",
+  "FriedgeHNIC",
+  "TheSteinLine",
+  "NBA",
+  "NFL",
+  "NHL"
+ ],
+ "items": [
+  {
+   "id": "2118486105087791175",
+   "author": "NHL",
+   "handle": "NHL",
+   "text": "NHL Gametime is live on X! This is a dedicated place to follow each night's games!",
+   "created_az": "2026-11-05T16:30:21-07:00",
+   "url": "https://x.com/NHL/status/2118486105087791175"
+  },
+  {
+   "id": "2118485263873896529",
+   "author": "NFL",
+   "handle": "NFL",
+   "text": "Travis Hunter in prime time JAXvsBAL \u2013 8:15pm ET on Prime",
+   "created_az": "2026-11-05T16:27:01-07:00",
+   "url": "https://x.com/NFL/status/2118485263873896529"
+  },
+  {
+   "id": "2118483452718617016",
+   "author": "Ian Rapoport",
+   "handle": "RapSheet",
+   "text": "Bhayshul Tuten is, in fact, good to go after his workout. Excellent news for the #Jags.",
+   "created_az": "2026-11-05T16:19:49-07:00",
+   "url": "https://x.com/RapSheet/status/2118483452718617016"
+  },
+  {
+   "id": "2118455817326449107",
+   "author": "NBA",
+   "handle": "NBA",
+   "text": "Top-5 scorers battle it out. Klay returns to the Bay. Steph Curry (30.0 PPG, 3rd in NBA) and the Warriors seek their 6th straight win against Giannis Antetokounmpo (28.3 PPG, 5th) and the Heat MIA-GSW | 10pm/et on NBA TV",
+   "created_az": "2026-11-05T14:30:00-07:00",
+   "url": "https://x.com/NBA/status/2118455817326449107"
+  },
+  {
+   "id": "2118457308699406624",
+   "author": "Adam Schefter",
+   "handle": "AdamSchefter",
+   "text": "No practice again today for AJ Brown and TreVeyon Henderson.",
+   "created_az": "2026-11-05T14:35:56-07:00",
+   "url": "https://x.com/AdamSchefter/status/2118457308699406624"
+  },
+  {
+   "id": "2118449911989510248",
+   "author": "Ian Rapoport",
+   "handle": "RapSheet",
+   "text": "Austin Reed will be the backup tonight, with Lamar Jackson and Tyler Huntley on IR.",
+   "created_az": "2026-11-05T14:06:32-07:00",
+   "url": "https://x.com/RapSheet/status/2118449911989510248"
+  },
+  {
+   "id": "2118449635069153592",
+   "author": "Adam Schefter",
+   "handle": "AdamSchefter",
+   "text": "Ravens officially placed QBs Lamar Jackson and Tyler Huntley on injured reserve.",
+   "created_az": "2026-11-05T14:05:26-07:00",
+   "url": "https://x.com/AdamSchefter/status/2118449635069153592"
+  },
+  {
+   "id": "2118447126053077153",
+   "author": "Elliotte Friedman",
+   "handle": "FriedgeHNIC",
+   "text": "Cleared New: Reimer (NYR) Sorry for the delay, long drive",
+   "created_az": "2026-11-05T13:55:28-07:00",
+   "url": "https://x.com/FriedgeHNIC/status/2118447126053077153"
+  },
+  {
+   "id": "2118475530429411745",
+   "author": "NFL",
+   "handle": "NFL",
+   "text": "QB Joe Fagnano making his first NFL start tonight JAXvsBAL \u2013 8:15pm ET on Prime",
+   "created_az": "2026-11-05T15:48:20-07:00",
+   "url": "https://x.com/NFL/status/2118475530429411745"
+  },
+  {
+   "id": "2118450783226114100",
+   "author": "NBA",
+   "handle": "NBA",
+   "text": "NEW LEADER OUT WEST: THE BLAZERS (6-1) CONTINUE TO RISE It's Portland's best seven-game start since opening the season 6-1 in 1999-00.",
+   "created_az": "2026-11-05T14:10:00-07:00",
+   "url": "https://x.com/NBA/status/2118450783226114100"
+  },
+  {
+   "id": "2118470771060133966",
+   "author": "Marc Stein",
+   "handle": "TheSteinLine",
+   "text": "The Mavericks now list big man Santi Aldama as probable for Friday's home game against Utah. It would be Aldama's season debut after knee surgery in the spring if he is ultimately cleared to play.",
+   "created_az": "2026-11-05T15:29:25-07:00",
+   "url": "https://x.com/TheSteinLine/status/2118470771060133966"
+  },
+  {
+   "id": "2118455294468456772",
+   "author": "Adam Schefter",
+   "handle": "AdamSchefter",
+   "text": "Browns QB Deshaun Watson did not practice again Thursday while he remains in concussion protocol; Shedeur Sanders is in line to start Sunday vs. the Saints.",
+   "created_az": "2026-11-05T14:27:55-07:00",
+   "url": "https://x.com/AdamSchefter/status/2118455294468456772"
+  }
+ ]
 }
