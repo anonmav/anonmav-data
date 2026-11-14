@@ -1,0 +1,230 @@
+{
+ "pulled_az": "2026-11-14T16:47:05-07:00",
+ "slate": "2026-11-14",
+ "tz": "Arizona (MST)",
+ "card": "Deep Floor",
+ "note": "Conservative listed thresholds. A pick needs a Floor Score of 90 or better. This card is separate from the model picks.",
+ "sources": [
+  {
+   "name": "ESPN",
+   "use": "schedules, game odds, injuries, team leaders, player game logs, box scores",
+   "url": "https://www.espn.com"
+  },
+  {
+   "name": "Prediction market",
+   "use": "listed N+ player prop thresholds and implied chance, shown as a whole percent only"
+  }
+ ],
+ "thresholds": {
+  "green": 90,
+  "yellow": 75
+ },
+ "top": {
+  "nba": [
+   {
+    "id": "deep:2026-11-14:nba:4684742:assists",
+    "sport": "nba",
+    "event_id": "401909982",
+    "game": "DET @ MIA",
+    "start_utc": "2026-11-15T01:00:00+00:00",
+    "start_az": "6:00 PM",
+    "athlete_id": "4684742",
+    "player": "Ausar Thompson",
+    "team": "DET",
+    "stat": "assists",
+    "spread": "DET -4.5",
+    "total": 228.5,
+    "label": "2+ assists",
+    "line": 1.5,
+    "avg": 5.1,
+    "l5": [
+     11.0,
+     4.0,
+     3.0,
+     3.0,
+     4.0
+    ],
+    "hit_season": 1.0,
+    "hit_l5": 1.0,
+    "games": 10,
+    "score": 100,
+    "notes": [
+     "usage L5 108% of season"
+    ],
+    "market_pct": 92,
+    "first_seen": "2026-11-14T16:47:05-07:00"
+   },
+   {
+    "id": "deep:2026-11-14:nba:5041939:totalRebounds",
+    "sport": "nba",
+    "event_id": "401909981",
+    "game": "DAL @ CLE",
+    "start_utc": "2026-11-15T00:30:00+00:00",
+    "start_az": "5:30 PM",
+    "athlete_id": "5041939",
+    "player": "Cooper Flagg",
+    "team": "DAL",
+    "stat": "totalRebounds",
+    "spread": "DAL -8.5",
+    "total": 227.5,
+    "label": "4+ rebounds",
+    "line": 3.5,
+    "avg": 6.9,
+    "l5": [
+     7.0,
+     10.0,
+     5.0,
+     10.0,
+     10.0
+    ],
+    "hit_season": 1.0,
+    "hit_l5": 1.0,
+    "games": 11,
+    "score": 99.7,
+    "notes": [
+     "usage L5 100% of season"
+    ],
+    "market_pct": 89,
+    "first_seen": "2026-11-14T16:47:05-07:00"
+   },
+   {
+    "id": "deep:2026-11-14:nba:3064514:assists",
+    "sport": "nba",
+    "event_id": "401909983",
+    "game": "BKN @ MEM",
+    "start_utc": "2026-11-15T01:00:00+00:00",
+    "start_az": "6:00 PM",
+    "athlete_id": "3064514",
+    "player": "Julius Randle",
+    "team": "BKN",
+    "stat": "assists",
+    "spread": "MEM -3.5",
+    "total": 225.5,
+    "label": "2+ assists",
+    "line": 1.5,
+    "avg": 5.0,
+    "l5": [
+     5.0,
+     4.0,
+     8.0,
+     4.0,
+     2.0
+    ],
+    "hit_season": 1.0,
+    "hit_l5": 1.0,
+    "games": 11,
+    "score": 99.5,
+    "notes": [
+     "usage L5 97% of season"
+    ],
+    "market_pct": 93,
+    "first_seen": "2026-11-14T16:47:05-07:00"
+   }
+  ],
+  "nhl": [
+   {
+    "id": "deep:2026-11-14:nhl:3895074:points",
+    "sport": "nhl",
+    "event_id": "401892710",
+    "game": "EDM @ TOR",
+    "start_utc": "2026-11-15T00:00:00+00:00",
+    "start_az": "5:00 PM",
+    "athlete_id": "3895074",
+    "player": "Connor McDavid",
+    "team": "EDM",
+    "stat": "points",
+    "spread": "EDM -155",
+    "total": 6.5,
+    "label": "1+ points",
+    "line": 0.5,
+    "avg": 2.5,
+    "l5": [
+     1.0,
+     1.0,
+     3.0,
+     4.0,
+     1.0
+    ],
+    "hit_season": 1.0,
+    "hit_l5": 1.0,
+    "games": 20,
+    "score": 100,
+    "notes": [
+     "usage L5 103% of season"
+    ],
+    "market_pct": 84,
+    "first_seen": "2026-11-14T16:47:05-07:00"
+   },
+   {
+    "id": "deep:2026-11-14:nhl:3114727:points",
+    "sport": "nhl",
+    "event_id": "401892710",
+    "game": "EDM @ TOR",
+    "start_utc": "2026-11-15T00:00:00+00:00",
+    "start_az": "5:00 PM",
+    "athlete_id": "3114727",
+    "player": "Leon Draisaitl",
+    "team": "EDM",
+    "stat": "points",
+    "spread": "EDM -155",
+    "total": 6.5,
+    "label": "1+ points",
+    "line": 0.5,
+    "avg": 1.9,
+    "l5": [
+     1.0,
+     2.0,
+     3.0,
+     2.0,
+     1.0
+    ],
+    "hit_season": 0.9,
+    "hit_l5": 1.0,
+    "games": 20,
+    "score": 95.5,
+    "notes": [
+     "usage L5 106% of season"
+    ],
+    "market_pct": 78,
+    "first_seen": "2026-11-14T16:47:05-07:00"
+   },
+   {
+    "id": "deep:2026-11-14:nhl:3942335:points",
+    "sport": "nhl",
+    "event_id": "401892709",
+    "game": "MIN @ BOS",
+    "start_utc": "2026-11-15T00:00:00+00:00",
+    "start_az": "5:00 PM",
+    "athlete_id": "3942335",
+    "player": "Kirill Kaprizov",
+    "team": "MIN",
+    "stat": "points",
+    "spread": "MIN -130",
+    "total": 5.5,
+    "label": "1+ points",
+    "line": 0.5,
+    "avg": 1.7,
+    "l5": [
+     3.0,
+     1.0,
+     1.0,
+     4.0,
+     1.0
+    ],
+    "hit_season": 0.905,
+    "hit_l5": 1.0,
+    "games": 21,
+    "score": 95.4,
+    "notes": [
+     "usage L5 98% of season"
+    ],
+    "market_pct": 71,
+    "first_seen": "2026-11-14T16:47:05-07:00"
+   }
+  ],
+  "nfl": []
+ },
+ "top_note": {
+  "nfl": "No listed Deep Floor thresholds for this sport on today's slate yet, so there are no legs to show."
+ }
+}
