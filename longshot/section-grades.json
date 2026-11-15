@@ -1,5 +1,5 @@
 {
- "pulled_az": "2026-11-15T13:02:36-07:00",
+ "pulled_az": "2026-11-15T13:02:54-07:00",
  "slate": "2026-11-15",
  "tz": "Arizona (MST)",
  "note": "Public graded record by card and by leg type. The model parlay uses the first scored public ticket each slate; the site record can reshuffle later. Sleeper flags: next-man-up backups tagged Sleeper, graded on a modest box-score floor once the game is final (NFL skill 25 rec / 30 rush yards, NBA 8+ points, NHL 1+ point). Contrarian tags: injury or rest news that cuts against the side with at least 10 points more of the traded action; a hit means that busy side lost. Floor Score, calibrated chance and these flags are estimates. Not betting advice. Sample sizes are still small.",
@@ -1563,16 +1563,115 @@
    "summary": {
     "wins": 0,
     "losses": 0,
-    "pending": 0,
+    "pending": 5,
     "void": 0,
     "n_graded": 0,
     "hit_rate": null,
-    "record": "0-0"
+    "record": "0-0 (5 pending)"
    },
-   "by_slate": [],
-   "by_leg_type": [],
+   "by_slate": [
+    {
+     "wins": 0,
+     "losses": 0,
+     "pending": 5,
+     "void": 0,
+     "n_graded": 0,
+     "hit_rate": null,
+     "record": "0-0 (5 pending)",
+     "slate": "2026-11-15",
+     "n": 5
+    }
+   ],
+   "by_leg_type": [
+    {
+     "wins": 0,
+     "losses": 0,
+     "pending": 2,
+     "void": 0,
+     "n_graded": 0,
+     "hit_rate": null,
+     "record": "0-0 (2 pending)",
+     "key": "nba:other"
+    },
+    {
+     "wins": 0,
+     "losses": 0,
+     "pending": 2,
+     "void": 0,
+     "n_graded": 0,
+     "hit_rate": null,
+     "record": "0-0 (2 pending)",
+     "key": "nfl:other"
+    },
+    {
+     "wins": 0,
+     "losses": 0,
+     "pending": 1,
+     "void": 0,
+     "n_graded": 0,
+     "hit_rate": null,
+     "record": "0-0 (1 pending)",
+     "key": "nhl:other"
+    }
+   ],
    "note": "Started 15 Nov 2026. A win means the busy side lost after news cut against it. Flags stay pending until the game is final.",
-   "flags": []
+   "flags": [
+    {
+     "kind": "contrarian",
+     "slate": "2026-11-15",
+     "sport": "nba",
+     "game": "IND @ PHI",
+     "team": "IND",
+     "effect": "helps",
+     "busy_team": "PHI",
+     "action_share_gap": 16,
+     "text": "Revenge spot: IND lost 114-109 to PHI on October 28."
+    },
+    {
+     "kind": "contrarian",
+     "slate": "2026-11-15",
+     "sport": "nba",
+     "game": "DAL @ BOS",
+     "team": "DAL",
+     "effect": "hurts",
+     "busy_team": "DAL",
+     "action_share_gap": 50,
+     "text": "DAL on the second night of a back-to-back, BOS rested 3 days."
+    },
+    {
+     "kind": "contrarian",
+     "slate": "2026-11-15",
+     "sport": "nfl",
+     "game": "PIT @ CIN",
+     "team": "PIT",
+     "effect": "hurts",
+     "busy_team": "PIT",
+     "action_share_gap": 26,
+     "text": "PIT TE Pat Freiermuth listed Questionable on the injury report."
+    },
+    {
+     "kind": "contrarian",
+     "slate": "2026-11-15",
+     "sport": "nfl",
+     "game": "PIT @ CIN",
+     "team": "CIN",
+     "effect": "helps",
+     "busy_team": "PIT",
+     "action_share_gap": 26,
+     "text": "Revenge spot: CIN lost 30-27 to PIT on September 27."
+    },
+    {
+     "kind": "contrarian",
+     "slate": "2026-11-15",
+     "sport": "nhl",
+     "game": "EDM @ PHI",
+     "team": "PHI",
+     "effect": "helps",
+     "busy_team": "EDM",
+     "action_share_gap": 58,
+     "text": "Revenge spot: PHI lost 3-2 to EDM on November 11."
+    }
+   ]
   }
  },
  "parlay": {
