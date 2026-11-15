@@ -1,6 +1,6 @@
 {
- "pulled_az": "2026-11-14T07:00:01-07:00",
- "slate": "2026-11-14",
+ "pulled_az": "2026-11-15T07:52:32-07:00",
+ "slate": "2026-11-15",
  "tz": "Arizona (MST)",
  "card": "Grudge",
  "note": "Quiet last game against a line the player usually clears. Season hit rate and Floor Score are estimates. This card is separate from the model picks and Deep Floor.",
@@ -27,85 +27,117 @@
   "yellow": 75
  },
  "top": {
-  "nba": [],
-  "nhl": [
+  "nba": [
    {
-    "id": "2026-11-14:nhl:4565262:points",
-    "sport": "nhl",
-    "event_id": "401892719",
-    "game": "NYI @ ANA",
-    "start_utc": "2026-11-15T03:00:00+00:00",
-    "start_az": "8:00 PM",
-    "athlete_id": "4565262",
-    "player": "Jackson LaCombe",
-    "team": "ANA",
-    "stat": "points",
-    "label": "Over 0.5 points",
-    "line": 0.5,
-    "avg": 1.16,
+    "id": "2026-11-15:nba:4433287:threes",
+    "sport": "nba",
+    "event_id": "401909987",
+    "game": "CHA @ LAC",
+    "start_utc": "2026-11-15T21:30:00+00:00",
+    "start_az": "2:30 PM",
+    "athlete_id": "4433287",
+    "player": "Brandon Miller",
+    "team": "CHA",
+    "stat": "threes",
+    "label": "Over 2.5 threes",
+    "line": 2.5,
+    "avg": 2.7,
     "last": 0.0,
     "l5": [
      0.0,
+     1.0,
      3.0,
-     1.0,
-     1.0,
-     2.0
-    ],
-    "hit_season": 0.842,
-    "hit_l5": 0.8,
-    "games": 19,
-    "score": 76.5,
-    "cushion": 0.7,
-    "notes": [
-     "L10 9/10 over",
-     "L5 4/5 over",
-     "usage L5 107% of season",
-     "blowout risk"
-    ],
-    "market_pct": 56,
-    "first_seen": "2026-11-14T07:00:01-07:00"
-   },
-   {
-    "id": "2026-11-14:nhl:4024857:assists",
-    "sport": "nhl",
-    "event_id": "401892718",
-    "game": "SJ @ UTA",
-    "start_utc": "2026-11-15T02:00:00+00:00",
-    "start_az": "7:00 PM",
-    "athlete_id": "4024857",
-    "player": "Clayton Keller",
-    "team": "UTA",
-    "stat": "assists",
-    "label": "Over 0.5 assists",
-    "line": 0.5,
-    "avg": 1.0,
-    "last": 0.0,
-    "l5": [
-     0.0,
-     1.0,
-     1.0,
-     1.0,
+     5.0,
      3.0
     ],
-    "hit_season": 0.75,
-    "hit_l5": 0.8,
-    "games": 20,
-    "score": 68.7,
-    "cushion": 0.5,
+    "hit_season": 0.7,
+    "hit_l5": 0.6,
+    "games": 10,
+    "score": 62.3,
+    "cushion": 0.2,
     "notes": [
-     "L10 8/10 over",
-     "L5 4/5 over",
-     "usage L5 112% of season",
-     "blowout risk"
+     "L10 7/10 over",
+     "L5 3/5 over",
+     "usage L5 91% of season"
     ],
-    "market_pct": 59,
-    "first_seen": "2026-11-14T07:00:01-07:00"
+    "market_pct": 57,
+    "first_seen": "2026-11-15T07:50:46-07:00"
    }
   ],
-  "nfl": []
+  "nhl": [],
+  "nfl": [
+   {
+    "id": "2026-11-15:nfl:3918298:anytimeTD",
+    "sport": "nfl",
+    "event_id": "401873054",
+    "game": "BUF @ NYJ",
+    "start_utc": "2026-11-15T18:00:00+00:00",
+    "start_az": "11:00 AM",
+    "athlete_id": "3918298",
+    "player": "Josh Allen",
+    "team": "BUF",
+    "stat": "anytimeTD",
+    "label": "Anytime TD",
+    "line": 0.5,
+    "avg": 1.12,
+    "last": 0,
+    "l5": [
+     0,
+     1.0,
+     0,
+     1.0,
+     1.0
+    ],
+    "hit_season": 0.75,
+    "hit_l5": 0.6,
+    "games": 8,
+    "score": 71.6,
+    "cushion": 0.6,
+    "notes": [
+     "L10 6/8 over",
+     "L5 3/5 over"
+    ],
+    "market_pct": 57,
+    "first_seen": "2026-11-15T07:50:46-07:00"
+   },
+   {
+    "id": "2026-11-15:nfl:4685247:rushingYards",
+    "sport": "nfl",
+    "event_id": "401873054",
+    "game": "BUF @ NYJ",
+    "start_utc": "2026-11-15T18:00:00+00:00",
+    "start_az": "11:00 AM",
+    "athlete_id": "4685247",
+    "player": "Braelon Allen",
+    "team": "NYJ",
+    "stat": "rushingYards",
+    "label": "Over 31.5 rushing yards",
+    "line": 31.5,
+    "avg": 66.44,
+    "last": 33.0,
+    "l5": [
+     33.0,
+     147.0,
+     104.0,
+     78.0,
+     116.0
+    ],
+    "hit_season": 0.778,
+    "hit_l5": 1.0,
+    "games": 9,
+    "score": 68.0,
+    "cushion": 34.9,
+    "notes": [
+     "L10 7/9 over",
+     "L5 5/5 over",
+     "RB committee"
+    ],
+    "market_pct": 50,
+    "first_seen": "2026-11-15T07:50:46-07:00"
+   }
+  ]
  },
  "top_note": {
-  "nba": "No Grudge legs left on this slate after dropping picks already on the model ticket or Deep Floor.",
-  "nfl": "No Grudge legs on this slate."
+  "nhl": "No Grudge legs left on this slate after dropping picks already on the model ticket or Deep Floor."
  }
 }

@@ -1,6 +1,6 @@
 {
- "pulled_az": "2026-11-14T16:47:05-07:00",
- "slate": "2026-11-14",
+ "pulled_az": "2026-11-15T07:51:47-07:00",
+ "slate": "2026-11-15",
  "tz": "Arizona (MST)",
  "card": "Deep Floor",
  "note": "Conservative listed thresholds. A pick needs a Floor Score of 90 or better. This card is separate from the model picks. Model picks are tracked separately. Losses are listed with their dates. No Deep Floor card was posted November 10-13, 2026, while the board used model lines.",
@@ -20,9 +20,9 @@
   "yellow": 75
  },
  "summary": {
-  "wins": 32,
+  "wins": 38,
   "losses": 4,
-  "pending": 6,
+  "pending": 8,
   "void": 0
  },
  "picks": [
@@ -540,9 +540,9 @@
    "line": 1.5,
    "score": 100.0,
    "posted_az": "2026-11-14T16:47:05-07:00",
-   "result": null,
-   "grade": null,
-   "graded_az": null
+   "result": 5.0,
+   "grade": "win",
+   "graded_az": "2026-11-15T02:31:27-07:00"
   },
   {
    "slate": "2026-11-14",
@@ -554,9 +554,9 @@
    "line": 3.5,
    "score": 99.7,
    "posted_az": "2026-11-14T16:47:05-07:00",
-   "result": null,
-   "grade": null,
-   "graded_az": null
+   "result": 8.0,
+   "grade": "win",
+   "graded_az": "2026-11-15T02:31:27-07:00"
   },
   {
    "slate": "2026-11-14",
@@ -568,9 +568,9 @@
    "line": 1.5,
    "score": 99.5,
    "posted_az": "2026-11-14T16:47:05-07:00",
-   "result": null,
-   "grade": null,
-   "graded_az": null
+   "result": 5.0,
+   "grade": "win",
+   "graded_az": "2026-11-15T02:31:28-07:00"
   },
   {
    "slate": "2026-11-14",
@@ -582,9 +582,9 @@
    "line": 0.5,
    "score": 100.0,
    "posted_az": "2026-11-14T16:47:05-07:00",
-   "result": null,
-   "grade": null,
-   "graded_az": null
+   "result": 1.0,
+   "grade": "win",
+   "graded_az": "2026-11-15T02:31:45-07:00"
   },
   {
    "slate": "2026-11-14",
@@ -596,9 +596,9 @@
    "line": 0.5,
    "score": 95.4,
    "posted_az": "2026-11-14T16:47:05-07:00",
-   "result": null,
-   "grade": null,
-   "graded_az": null
+   "result": 2.0,
+   "grade": "win",
+   "graded_az": "2026-11-15T02:31:46-07:00"
   },
   {
    "slate": "2026-11-14",
@@ -610,6 +610,118 @@
    "line": 0.5,
    "score": 95.5,
    "posted_az": "2026-11-14T16:47:05-07:00",
+   "result": 1.0,
+   "grade": "win",
+   "graded_az": "2026-11-15T02:31:45-07:00"
+  },
+  {
+   "slate": "2026-11-15",
+   "sport": "nba",
+   "game": "HOU @ WSH",
+   "player": "Alperen Sengun",
+   "team": "HOU",
+   "label": "4+ assists",
+   "line": 3.5,
+   "score": 100.0,
+   "posted_az": "2026-11-15T07:51:47-07:00",
+   "result": null,
+   "grade": null,
+   "graded_az": null
+  },
+  {
+   "slate": "2026-11-15",
+   "sport": "nba",
+   "game": "LAL @ PHX",
+   "player": "Luka Doncic",
+   "team": "LAL",
+   "label": "4+ rebounds",
+   "line": 3.5,
+   "score": 100.0,
+   "posted_az": "2026-11-15T07:51:47-07:00",
+   "result": null,
+   "grade": null,
+   "graded_az": null
+  },
+  {
+   "slate": "2026-11-15",
+   "sport": "nba",
+   "game": "NY @ TOR",
+   "player": "RJ Barrett",
+   "team": "TOR",
+   "label": "2+ rebounds",
+   "line": 1.5,
+   "score": 100.0,
+   "posted_az": "2026-11-15T07:51:47-07:00",
+   "result": null,
+   "grade": null,
+   "graded_az": null
+  },
+  {
+   "slate": "2026-11-15",
+   "sport": "nfl",
+   "game": "CAR @ NO",
+   "player": "Chris Olave",
+   "team": "NO",
+   "label": "40+ receiving yards",
+   "line": 39.5,
+   "score": 97.0,
+   "posted_az": "2026-11-15T07:51:47-07:00",
+   "result": null,
+   "grade": null,
+   "graded_az": null
+  },
+  {
+   "slate": "2026-11-15",
+   "sport": "nfl",
+   "game": "MIN @ GB",
+   "player": "Christian Watson",
+   "team": "GB",
+   "label": "40+ receiving yards",
+   "line": 39.5,
+   "score": 97.0,
+   "posted_az": "2026-11-15T07:51:47-07:00",
+   "result": null,
+   "grade": null,
+   "graded_az": null
+  },
+  {
+   "slate": "2026-11-15",
+   "sport": "nfl",
+   "game": "SEA @ LV",
+   "player": "Jaxon Smith-Njigba",
+   "team": "SEA",
+   "label": "50+ receiving yards",
+   "line": 49.5,
+   "score": 97.0,
+   "posted_az": "2026-11-15T07:51:47-07:00",
+   "result": null,
+   "grade": null,
+   "graded_az": null
+  },
+  {
+   "slate": "2026-11-15",
+   "sport": "nhl",
+   "game": "EDM @ PHI",
+   "player": "Connor McDavid",
+   "team": "EDM",
+   "label": "1+ points",
+   "line": 0.5,
+   "score": 95.0,
+   "posted_az": "2026-11-15T07:51:47-07:00",
+   "result": null,
+   "grade": null,
+   "graded_az": null
+  },
+  {
+   "slate": "2026-11-15",
+   "sport": "nhl",
+   "game": "EDM @ PHI",
+   "player": "Leon Draisaitl",
+   "team": "EDM",
+   "label": "1+ points",
+   "line": 0.5,
+   "score": 90.7,
+   "posted_az": "2026-11-15T07:51:47-07:00",
    "result": null,
    "grade": null,
    "graded_az": null
