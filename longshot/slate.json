@@ -3170,7 +3170,7 @@
    ]
   },
   "nfl": {
-   "label": "Week 10",
+   "label": "Tonight",
    "games": [
     {
      "event_id": "401873058",
@@ -5826,7 +5826,8 @@
      "rec_ypg": 8.0,
      "td": 0
     }
-   ]
+   ],
+   "week": 10
   }
  }
 }
