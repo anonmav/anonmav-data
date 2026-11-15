@@ -1,6 +1,6 @@
 {
- "updated_az": "2026-11-15T12:03:30-07:00",
- "note": "Estimates from public scores, closing lines, injury reports and our matchup engine. Not betting advice.",
+ "updated_az": "2026-11-15T12:38:28-07:00",
+ "note": "Estimates from public scores, closing lines, play by play, depth charts, injury reports and our matchup engine. Not betting advice.",
  "sports": {
   "nba": {
    "day": "2026-11-15",
@@ -157,18 +157,6 @@
        "effect": "helps",
        "tone": "up",
        "text": "Revenge spot: IND lost 114-109 to PHI on October 28."
-      },
-      {
-       "kind": "mismatch",
-       "team": "PHI",
-       "tone": "up",
-       "text": "VJ Edgecombe (PHI, 6.4 reb): IND allows 6.8 rebounds to PG/SG (+9% vs avg)."
-      },
-      {
-       "kind": "mismatch",
-       "team": "IND",
-       "tone": "down",
-       "text": "Aaron Nesmith (IND, 12.3 pts): PHI allows 22.0 points to PG/SG (-9% vs avg)."
       }
      ],
      "stories": [
@@ -178,6 +166,140 @@
        "effect": "helps",
        "tone": "up",
        "text": "Revenge spot: IND lost 114-109 to PHI on October 28."
+      }
+     ],
+     "grid": {
+      "IND": {
+       "n": 30,
+       "unit": "pts",
+       "cells": [
+        {
+         "k": "PG",
+         "v": 23.4,
+         "rank": 7,
+         "tier": "red"
+        },
+        {
+         "k": "SG",
+         "v": 23.1,
+         "rank": 23,
+         "tier": "green"
+        },
+        {
+         "k": "SF",
+         "v": 18.5,
+         "rank": 9,
+         "tier": "red"
+        },
+        {
+         "k": "PF",
+         "v": 23.8,
+         "rank": 25,
+         "tier": "green"
+        },
+        {
+         "k": "C",
+         "v": 24.8,
+         "rank": 26,
+         "tier": "green"
+        }
+       ],
+       "units": [
+        {
+         "k": "Pace",
+         "v": "103.6 possessions (14th fastest)",
+         "rank": null,
+         "tier": ""
+        }
+       ]
+      },
+      "PHI": {
+       "n": 30,
+       "unit": "pts",
+       "cells": [
+        {
+         "k": "PG",
+         "v": 23.3,
+         "rank": 6,
+         "tier": "red"
+        },
+        {
+         "k": "SG",
+         "v": 20.6,
+         "rank": 5,
+         "tier": "red"
+        },
+        {
+         "k": "SF",
+         "v": 22.6,
+         "rank": 19,
+         "tier": "yellow"
+        },
+        {
+         "k": "PF",
+         "v": 23.7,
+         "rank": 24,
+         "tier": "green"
+        },
+        {
+         "k": "C",
+         "v": 16.8,
+         "rank": 2,
+         "tier": "red"
+        }
+       ],
+       "units": [
+        {
+         "k": "Pace",
+         "v": "102.7 possessions (21st fastest)",
+         "rank": null,
+         "tier": ""
+        }
+       ]
+      }
+     },
+     "changes": [
+      {
+       "team": "IND",
+       "pos": "PG",
+       "name": "Andrew Nembhard",
+       "status": "Out"
+      },
+      {
+       "team": "PHI",
+       "pos": "C",
+       "name": "Joel Embiid",
+       "status": "Out"
+      }
+     ],
+     "next": [
+      {
+       "team": "IND",
+       "pos": "PG",
+       "out": "Andrew Nembhard",
+       "status": "Out",
+       "backup": "T.J. McConnell",
+       "def": "PHI",
+       "rank": 6,
+       "n": 30,
+       "v": 23.3,
+       "yds": null,
+       "unit": "pts",
+       "sleeper": false
+      },
+      {
+       "team": "PHI",
+       "pos": "C",
+       "out": "Joel Embiid",
+       "status": "Out",
+       "backup": "Jabari Walker",
+       "def": "IND",
+       "rank": 26,
+       "n": 30,
+       "v": 24.8,
+       "yds": null,
+       "unit": "pts",
+       "sleeper": true
       }
      ]
     },
@@ -340,7 +462,121 @@
        "text": "Quentin Grimes (LAL, 2.5 ast): PHX allows 5.7 assists to PG/SG (-14% vs avg)."
       }
      ],
-     "stories": []
+     "stories": [],
+     "grid": {
+      "LAL": {
+       "n": 30,
+       "unit": "pts",
+       "cells": [
+        {
+         "k": "PG",
+         "v": 26.2,
+         "rank": 17,
+         "tier": "yellow"
+        },
+        {
+         "k": "SG",
+         "v": 24.0,
+         "rank": 28,
+         "tier": "green"
+        },
+        {
+         "k": "SF",
+         "v": 21.6,
+         "rank": 17,
+         "tier": "yellow"
+        },
+        {
+         "k": "PF",
+         "v": 19.5,
+         "rank": 2,
+         "tier": "red"
+        },
+        {
+         "k": "C",
+         "v": 20.9,
+         "rank": 17,
+         "tier": "yellow"
+        }
+       ],
+       "units": [
+        {
+         "k": "Pace",
+         "v": "103.7 possessions (13th fastest)",
+         "rank": null,
+         "tier": ""
+        }
+       ]
+      },
+      "PHX": {
+       "n": 30,
+       "unit": "pts",
+       "cells": [
+        {
+         "k": "PG",
+         "v": 28.9,
+         "rank": 25,
+         "tier": "green"
+        },
+        {
+         "k": "SG",
+         "v": 20.4,
+         "rank": 3,
+         "tier": "red"
+        },
+        {
+         "k": "SF",
+         "v": 17.4,
+         "rank": 5,
+         "tier": "red"
+        },
+        {
+         "k": "PF",
+         "v": 23.6,
+         "rank": 23,
+         "tier": "green"
+        },
+        {
+         "k": "C",
+         "v": 25.2,
+         "rank": 29,
+         "tier": "green"
+        }
+       ],
+       "units": [
+        {
+         "k": "Pace",
+         "v": "102.1 possessions (25th fastest)",
+         "rank": null,
+         "tier": ""
+        }
+       ]
+      }
+     },
+     "changes": [
+      {
+       "team": "LAL",
+       "pos": "SG",
+       "name": "Austin Reaves",
+       "status": "Out"
+      }
+     ],
+     "next": [
+      {
+       "team": "LAL",
+       "pos": "SG",
+       "out": "Austin Reaves",
+       "status": "Out",
+       "backup": "Quentin Grimes",
+       "def": "PHX",
+       "rank": 3,
+       "n": 30,
+       "v": 20.4,
+       "yds": null,
+       "unit": "pts",
+       "sleeper": false
+      }
+     ]
     },
     "CHA @ LAC": {
      "trend": {
@@ -501,7 +737,97 @@
        "text": "Brandon Miller (CHA, 20.6 pts): LAC allows 19.0 points to SF/PF (-12% vs avg), game pace -2%."
       }
      ],
-     "stories": []
+     "stories": [],
+     "grid": {
+      "CHA": {
+       "n": 30,
+       "unit": "pts",
+       "cells": [
+        {
+         "k": "PG",
+         "v": 24.8,
+         "rank": 13,
+         "tier": "yellow"
+        },
+        {
+         "k": "SG",
+         "v": 20.7,
+         "rank": 7,
+         "tier": "red"
+        },
+        {
+         "k": "SF",
+         "v": 23.4,
+         "rank": 24,
+         "tier": "green"
+        },
+        {
+         "k": "PF",
+         "v": 19.7,
+         "rank": 3,
+         "tier": "red"
+        },
+        {
+         "k": "C",
+         "v": 20.0,
+         "rank": 14,
+         "tier": "yellow"
+        }
+       ],
+       "units": [
+        {
+         "k": "Pace",
+         "v": "99.4 possessions (30th fastest)",
+         "rank": null,
+         "tier": ""
+        }
+       ]
+      },
+      "LAC": {
+       "n": 30,
+       "unit": "pts",
+       "cells": [
+        {
+         "k": "PG",
+         "v": 29.5,
+         "rank": 27,
+         "tier": "green"
+        },
+        {
+         "k": "SG",
+         "v": 23.8,
+         "rank": 27,
+         "tier": "green"
+        },
+        {
+         "k": "SF",
+         "v": 16.1,
+         "rank": 3,
+         "tier": "red"
+        },
+        {
+         "k": "PF",
+         "v": 21.9,
+         "rank": 14,
+         "tier": "yellow"
+        },
+        {
+         "k": "C",
+         "v": 22.3,
+         "rank": 22,
+         "tier": "green"
+        }
+       ],
+       "units": [
+        {
+         "k": "Pace",
+         "v": "104.2 possessions (7th fastest)",
+         "rank": null,
+         "tier": ""
+        }
+       ]
+      }
+     }
     },
     "SA @ UTAH": {
      "trend": {
@@ -676,6 +1002,126 @@
        "effect": "helps",
        "tone": "up",
        "text": "Revenge spot: UTAH lost 119-97 to SA on November 2."
+      }
+     ],
+     "grid": {
+      "SA": {
+       "n": 30,
+       "unit": "pts",
+       "cells": [
+        {
+         "k": "PG",
+         "v": 25.6,
+         "rank": 15,
+         "tier": "yellow"
+        },
+        {
+         "k": "SG",
+         "v": 21.1,
+         "rank": 10,
+         "tier": "red"
+        },
+        {
+         "k": "SF",
+         "v": 16.9,
+         "rank": 4,
+         "tier": "red"
+        },
+        {
+         "k": "PF",
+         "v": 20.7,
+         "rank": 5,
+         "tier": "red"
+        },
+        {
+         "k": "C",
+         "v": 21.6,
+         "rank": 18,
+         "tier": "yellow"
+        }
+       ],
+       "units": [
+        {
+         "k": "Pace",
+         "v": "103.0 possessions (19th fastest)",
+         "rank": null,
+         "tier": ""
+        }
+       ]
+      },
+      "UTAH": {
+       "n": 30,
+       "unit": "pts",
+       "cells": [
+        {
+         "k": "PG",
+         "v": 29.3,
+         "rank": 26,
+         "tier": "green"
+        },
+        {
+         "k": "SG",
+         "v": 19.6,
+         "rank": 1,
+         "tier": "red"
+        },
+        {
+         "k": "SF",
+         "v": 20.1,
+         "rank": 13,
+         "tier": "yellow"
+        },
+        {
+         "k": "PF",
+         "v": 26.3,
+         "rank": 28,
+         "tier": "green"
+        },
+        {
+         "k": "C",
+         "v": 19.4,
+         "rank": 10,
+         "tier": "red"
+        }
+       ],
+       "units": [
+        {
+         "k": "Pace",
+         "v": "104.7 possessions (6th fastest)",
+         "rank": null,
+         "tier": ""
+        }
+       ]
+      }
+     },
+     "changes": [
+      {
+       "team": "SA",
+       "pos": "PG",
+       "name": "De'Aaron Fox",
+       "status": "Day-To-Day"
+      },
+      {
+       "team": "UTAH",
+       "pos": "C",
+       "name": "Jaxson Hayes",
+       "status": "Out"
+      }
+     ],
+     "next": [
+      {
+       "team": "UTAH",
+       "pos": "C",
+       "out": "Jaxson Hayes",
+       "status": "Out",
+       "backup": "Mo Bamba",
+       "def": "SA",
+       "rank": 18,
+       "n": 30,
+       "v": 21.6,
+       "yds": null,
+       "unit": "pts",
+       "sleeper": false
       }
      ]
     },
@@ -853,6 +1299,110 @@
        "tone": "down",
        "text": "DAL on the second night of a back-to-back, BOS rested 3 days."
       }
+     ],
+     "grid": {
+      "DAL": {
+       "n": 30,
+       "unit": "pts",
+       "cells": [
+        {
+         "k": "PG",
+         "v": 24.6,
+         "rank": 12,
+         "tier": "yellow"
+        },
+        {
+         "k": "SG",
+         "v": 22.4,
+         "rank": 18,
+         "tier": "yellow"
+        },
+        {
+         "k": "SF",
+         "v": 14.7,
+         "rank": 1,
+         "tier": "red"
+        },
+        {
+         "k": "PF",
+         "v": 28.0,
+         "rank": 30,
+         "tier": "green"
+        },
+        {
+         "k": "C",
+         "v": 17.6,
+         "rank": 4,
+         "tier": "red"
+        }
+       ],
+       "units": [
+        {
+         "k": "Pace",
+         "v": "103.3 possessions (18th fastest)",
+         "rank": null,
+         "tier": ""
+        }
+       ]
+      },
+      "BOS": {
+       "n": 30,
+       "unit": "pts",
+       "cells": [
+        {
+         "k": "PG",
+         "v": 22.8,
+         "rank": 5,
+         "tier": "red"
+        },
+        {
+         "k": "SG",
+         "v": 21.3,
+         "rank": 12,
+         "tier": "yellow"
+        },
+        {
+         "k": "SF",
+         "v": 19.2,
+         "rank": 12,
+         "tier": "yellow"
+        },
+        {
+         "k": "PF",
+         "v": 21.3,
+         "rank": 10,
+         "tier": "red"
+        },
+        {
+         "k": "C",
+         "v": 16.8,
+         "rank": 3,
+         "tier": "red"
+        }
+       ],
+       "units": [
+        {
+         "k": "Pace",
+         "v": "99.9 possessions (28th fastest)",
+         "rank": null,
+         "tier": ""
+        }
+       ]
+      }
+     },
+     "changes": [
+      {
+       "team": "DAL",
+       "pos": "PG",
+       "name": "Kyrie Irving",
+       "status": "Day-To-Day"
+      },
+      {
+       "team": "DAL",
+       "pos": "C",
+       "name": "Daniel Gafford",
+       "status": "Day-To-Day"
+      }
      ]
     },
     "NY @ TOR": {
@@ -1014,7 +1564,121 @@
        "text": "Jakob Poeltl (TOR, 6.6 reb): NY allows 12.2 rebounds to C (-16% vs avg), game pace -2%."
       }
      ],
-     "stories": []
+     "stories": [],
+     "grid": {
+      "NY": {
+       "n": 30,
+       "unit": "pts",
+       "cells": [
+        {
+         "k": "PG",
+         "v": 24.2,
+         "rank": 10,
+         "tier": "red"
+        },
+        {
+         "k": "SG",
+         "v": 21.0,
+         "rank": 8,
+         "tier": "red"
+        },
+        {
+         "k": "SF",
+         "v": 23.2,
+         "rank": 22,
+         "tier": "green"
+        },
+        {
+         "k": "PF",
+         "v": 18.3,
+         "rank": 1,
+         "tier": "red"
+        },
+        {
+         "k": "C",
+         "v": 15.9,
+         "rank": 1,
+         "tier": "red"
+        }
+       ],
+       "units": [
+        {
+         "k": "Pace",
+         "v": "99.4 possessions (29th fastest)",
+         "rank": null,
+         "tier": ""
+        }
+       ]
+      },
+      "TOR": {
+       "n": 30,
+       "unit": "pts",
+       "cells": [
+        {
+         "k": "PG",
+         "v": 28.3,
+         "rank": 23,
+         "tier": "green"
+        },
+        {
+         "k": "SG",
+         "v": 21.5,
+         "rank": 13,
+         "tier": "yellow"
+        },
+        {
+         "k": "SF",
+         "v": 23.3,
+         "rank": 23,
+         "tier": "green"
+        },
+        {
+         "k": "PF",
+         "v": 21.6,
+         "rank": 12,
+         "tier": "yellow"
+        },
+        {
+         "k": "C",
+         "v": 19.2,
+         "rank": 9,
+         "tier": "red"
+        }
+       ],
+       "units": [
+        {
+         "k": "Pace",
+         "v": "103.5 possessions (15th fastest)",
+         "rank": null,
+         "tier": ""
+        }
+       ]
+      }
+     },
+     "changes": [
+      {
+       "team": "TOR",
+       "pos": "PF",
+       "name": "Scottie Barnes",
+       "status": "Out"
+      }
+     ],
+     "next": [
+      {
+       "team": "TOR",
+       "pos": "PF",
+       "out": "Scottie Barnes",
+       "status": "Out",
+       "backup": "Collin Murray-Boyles",
+       "def": "NY",
+       "rank": 1,
+       "n": 30,
+       "v": 18.3,
+       "yds": null,
+       "unit": "pts",
+       "sleeper": false
+      }
+     ]
     },
     "HOU @ WSH": {
      "trend": {
@@ -1175,7 +1839,105 @@
        "text": "Alperen Sengun (HOU, 7.6 ast): WSH allows 3.3 assists to C (-20% vs avg), game pace -1%."
       }
      ],
-     "stories": []
+     "stories": [],
+     "grid": {
+      "HOU": {
+       "n": 30,
+       "unit": "pts",
+       "cells": [
+        {
+         "k": "PG",
+         "v": 25.9,
+         "rank": 16,
+         "tier": "yellow"
+        },
+        {
+         "k": "SG",
+         "v": 22.7,
+         "rank": 20,
+         "tier": "yellow"
+        },
+        {
+         "k": "SF",
+         "v": 18.0,
+         "rank": 8,
+         "tier": "red"
+        },
+        {
+         "k": "PF",
+         "v": 20.8,
+         "rank": 6,
+         "tier": "red"
+        },
+        {
+         "k": "C",
+         "v": 18.8,
+         "rank": 8,
+         "tier": "red"
+        }
+       ],
+       "units": [
+        {
+         "k": "Pace",
+         "v": "100.4 possessions (27th fastest)",
+         "rank": null,
+         "tier": ""
+        }
+       ]
+      },
+      "WSH": {
+       "n": 30,
+       "unit": "pts",
+       "cells": [
+        {
+         "k": "PG",
+         "v": 24.9,
+         "rank": 14,
+         "tier": "yellow"
+        },
+        {
+         "k": "SG",
+         "v": 21.6,
+         "rank": 14,
+         "tier": "yellow"
+        },
+        {
+         "k": "SF",
+         "v": 24.4,
+         "rank": 27,
+         "tier": "green"
+        },
+        {
+         "k": "PF",
+         "v": 22.0,
+         "rank": 16,
+         "tier": "yellow"
+        },
+        {
+         "k": "C",
+         "v": 19.6,
+         "rank": 12,
+         "tier": "yellow"
+        }
+       ],
+       "units": [
+        {
+         "k": "Pace",
+         "v": "103.8 possessions (10th fastest)",
+         "rank": null,
+         "tier": ""
+        }
+       ]
+      }
+     },
+     "changes": [
+      {
+       "team": "HOU",
+       "pos": "PG",
+       "name": "Fred VanVleet",
+       "status": "Out"
+      }
+     ]
     },
     "ATL @ MIL": {
      "trend": {
@@ -1336,7 +2098,127 @@
        "text": "Tyler Herro (MIL, 21.6 pts): ATL allows 22.2 points to PG/SG (-7% vs avg), game pace +1%."
       }
      ],
-     "stories": []
+     "stories": [],
+     "grid": {
+      "ATL": {
+       "n": 30,
+       "unit": "pts",
+       "cells": [
+        {
+         "k": "PG",
+         "v": 22.5,
+         "rank": 4,
+         "tier": "red"
+        },
+        {
+         "k": "SG",
+         "v": 22.0,
+         "rank": 17,
+         "tier": "yellow"
+        },
+        {
+         "k": "SF",
+         "v": 23.1,
+         "rank": 21,
+         "tier": "green"
+        },
+        {
+         "k": "PF",
+         "v": 23.3,
+         "rank": 20,
+         "tier": "yellow"
+        },
+        {
+         "k": "C",
+         "v": 25.4,
+         "rank": 30,
+         "tier": "green"
+        }
+       ],
+       "units": [
+        {
+         "k": "Pace",
+         "v": "107.3 possessions (2nd fastest)",
+         "rank": null,
+         "tier": ""
+        }
+       ]
+      },
+      "MIL": {
+       "n": 30,
+       "unit": "pts",
+       "cells": [
+        {
+         "k": "PG",
+         "v": 26.3,
+         "rank": 18,
+         "tier": "yellow"
+        },
+        {
+         "k": "SG",
+         "v": 22.9,
+         "rank": 22,
+         "tier": "green"
+        },
+        {
+         "k": "SF",
+         "v": 23.6,
+         "rank": 25,
+         "tier": "green"
+        },
+        {
+         "k": "PF",
+         "v": 23.3,
+         "rank": 21,
+         "tier": "green"
+        },
+        {
+         "k": "C",
+         "v": 24.7,
+         "rank": 25,
+         "tier": "green"
+        }
+       ],
+       "units": [
+        {
+         "k": "Pace",
+         "v": "102.5 possessions (22nd fastest)",
+         "rank": null,
+         "tier": ""
+        }
+       ]
+      }
+     },
+     "changes": [
+      {
+       "team": "ATL",
+       "pos": "PG",
+       "name": "Kingston Flemings",
+       "status": "Out"
+      },
+      {
+       "team": "MIL",
+       "pos": "PG",
+       "name": "Ryan Rollins",
+       "status": "Day-To-Day"
+      }
+     ],
+     "next": [
+      {
+       "team": "ATL",
+       "pos": "PG",
+       "out": "Kingston Flemings",
+       "status": "Out",
+       "backup": "CJ McCollum",
+       "def": "MIL",
+       "rank": 18,
+       "n": 30,
+       "v": 26.3,
+       "yds": null,
+       "unit": "pts",
+       "sleeper": false
+      }
+     ]
     },
     "OKC @ SAC": {
      "trend": {
@@ -1497,7 +2379,117 @@
        "text": "Darius Acuff Jr. (SAC, 7.2 ast): OKC allows 5.8 assists to PG/SG (-12% vs avg)."
       }
      ],
-     "stories": []
+     "stories": [],
+     "grid": {
+      "OKC": {
+       "n": 30,
+       "unit": "pts",
+       "cells": [
+        {
+         "k": "PG",
+         "v": 22.3,
+         "rank": 2,
+         "tier": "red"
+        },
+        {
+         "k": "SG",
+         "v": 21.0,
+         "rank": 9,
+         "tier": "red"
+        },
+        {
+         "k": "SF",
+         "v": 22.1,
+         "rank": 18,
+         "tier": "yellow"
+        },
+        {
+         "k": "PF",
+         "v": 21.8,
+         "rank": 13,
+         "tier": "yellow"
+        },
+        {
+         "k": "C",
+         "v": 19.8,
+         "rank": 13,
+         "tier": "yellow"
+        }
+       ],
+       "units": [
+        {
+         "k": "Pace",
+         "v": "102.4 possessions (24th fastest)",
+         "rank": null,
+         "tier": ""
+        }
+       ]
+      },
+      "SAC": {
+       "n": 30,
+       "unit": "pts",
+       "cells": [
+        {
+         "k": "PG",
+         "v": 27.8,
+         "rank": 22,
+         "tier": "green"
+        },
+        {
+         "k": "SG",
+         "v": 22.6,
+         "rank": 19,
+         "tier": "yellow"
+        },
+        {
+         "k": "SF",
+         "v": 21.5,
+         "rank": 16,
+         "tier": "yellow"
+        },
+        {
+         "k": "PF",
+         "v": 27.0,
+         "rank": 29,
+         "tier": "green"
+        },
+        {
+         "k": "C",
+         "v": 21.8,
+         "rank": 19,
+         "tier": "yellow"
+        }
+       ],
+       "units": [
+        {
+         "k": "Pace",
+         "v": "103.9 possessions (9th fastest)",
+         "rank": null,
+         "tier": ""
+        }
+       ]
+      }
+     },
+     "changes": [
+      {
+       "team": "OKC",
+       "pos": "PG",
+       "name": "Ajay Mitchell",
+       "status": "Day-To-Day"
+      },
+      {
+       "team": "SAC",
+       "pos": "PF",
+       "name": "Precious Achiuwa",
+       "status": "Day-To-Day"
+      },
+      {
+       "team": "SAC",
+       "pos": "PF",
+       "name": "Keegan Murray",
+       "status": "Day-To-Day"
+      }
+     ]
     }
    }
   },
@@ -1649,34 +2641,174 @@
        ]
       }
      },
-     "watch": [
+     "watch": [],
+     "stories": [],
+     "grid": {
+      "KC": {
+       "n": 32,
+       "unit": "pts",
+       "cells": [
+        {
+         "k": "QB",
+         "v": 12.4,
+         "yds": 236.1,
+         "rank": 4,
+         "tier": "red"
+        },
+        {
+         "k": "RB",
+         "v": 20.1,
+         "yds": 115.8,
+         "rank": 10,
+         "tier": "red"
+        },
+        {
+         "k": "WR",
+         "v": 23.5,
+         "yds": 121.1,
+         "rank": 2,
+         "tier": "red"
+        },
+        {
+         "k": "TE",
+         "v": 16.9,
+         "yds": 65.8,
+         "rank": 27,
+         "tier": "green"
+        }
+       ],
+       "units": [
+        {
+         "k": "CB",
+         "v": "7.3 y/tgt",
+         "rank": 6,
+         "tier": "red"
+        },
+        {
+         "k": "S",
+         "v": "9.2 y/tgt",
+         "rank": 8,
+         "tier": "red"
+        },
+        {
+         "k": "Rush",
+         "v": "13.5%",
+         "rank": 27,
+         "tier": "green"
+        },
+        {
+         "k": "Run D",
+         "v": "3.7 ypc",
+         "rank": 4,
+         "tier": "red"
+        }
+       ],
+       "scheme": "4-3 base, blitzes 27% of dropbacks (avg 32%)",
+       "games": 8
+      },
+      "ATL": {
+       "n": 32,
+       "unit": "pts",
+       "cells": [
+        {
+         "k": "QB",
+         "v": 17.3,
+         "yds": 248.4,
+         "rank": 16,
+         "tier": "yellow"
+        },
+        {
+         "k": "RB",
+         "v": 26.4,
+         "yds": 140.0,
+         "rank": 29,
+         "tier": "green"
+        },
+        {
+         "k": "WR",
+         "v": 33.6,
+         "yds": 162.3,
+         "rank": 20,
+         "tier": "yellow"
+        },
+        {
+         "k": "TE",
+         "v": 13.3,
+         "yds": 50.4,
+         "rank": 16,
+         "tier": "yellow"
+        }
+       ],
+       "units": [
+        {
+         "k": "CB",
+         "v": "9.1 y/tgt",
+         "rank": 21,
+         "tier": "yellow"
+        },
+        {
+         "k": "S",
+         "v": "9.6 y/tgt",
+         "rank": 11,
+         "tier": "yellow"
+        },
+        {
+         "k": "Rush",
+         "v": "17.2%",
+         "rank": 6,
+         "tier": "red"
+        },
+        {
+         "k": "Run D",
+         "v": "4.6 ypc",
+         "rank": 23,
+         "tier": "green"
+        }
+       ],
+       "scheme": "3-4 base, blitzes 25% of dropbacks (avg 32%)",
+       "games": 9
+      }
+     },
+     "changes": [
       {
-       "kind": "story",
        "team": "KC",
-       "effect": "hurts",
-       "tone": "down",
-       "text": "KC TE Travis Kelce listed Questionable on the injury report."
+       "pos": "RB",
+       "name": "Kenneth Walker III",
+       "status": "Out"
       },
       {
-       "kind": "mismatch",
+       "team": "KC",
+       "pos": "RG",
+       "name": "Trey Smith",
+       "status": "Questionable"
+      },
+      {
+       "team": "KC",
+       "pos": "RT",
+       "name": "Jaylon Moore",
+       "status": "Out"
+      },
+      {
        "team": "ATL",
-       "tone": "up",
-       "text": "Michael Penix Jr. (ATL, QB): KC pressure 14% of dropbacks, his line allows 9% (lg 16%)."
-      },
-      {
-       "kind": "mismatch",
-       "team": "KC",
-       "tone": "down",
-       "text": "Patrick Mahomes (KC, QB): ATL pressure 17% of dropbacks, his line allows 17% (lg 16%)."
+       "pos": "LB",
+       "name": "Divine Deablo",
+       "status": "Out"
       }
      ],
-     "stories": [
+     "next": [
       {
-       "kind": "story",
        "team": "KC",
-       "effect": "hurts",
-       "tone": "down",
-       "text": "KC TE Travis Kelce listed Questionable on the injury report."
+       "pos": "RB",
+       "out": "Kenneth Walker III",
+       "status": "Out",
+       "backup": "Emmett Johnson",
+       "def": "ATL",
+       "rank": 29,
+       "n": 32,
+       "v": 26.4,
+       "yds": 140.0,
+       "unit": "pts",
+       "sleeper": true
       }
      ]
     },
@@ -1825,21 +2957,167 @@
        ]
       }
      },
-     "watch": [
+     "watch": [],
+     "stories": [],
+     "grid": {
+      "HOU": {
+       "n": 32,
+       "unit": "pts",
+       "cells": [
+        {
+         "k": "QB",
+         "v": 18.3,
+         "yds": 264.8,
+         "rank": 22,
+         "tier": "yellow"
+        },
+        {
+         "k": "RB",
+         "v": 22.4,
+         "yds": 118.0,
+         "rank": 20,
+         "tier": "yellow"
+        },
+        {
+         "k": "WR",
+         "v": 38.4,
+         "yds": 186.5,
+         "rank": 30,
+         "tier": "green"
+        },
+        {
+         "k": "TE",
+         "v": 10.1,
+         "yds": 46.9,
+         "rank": 4,
+         "tier": "red"
+        }
+       ],
+       "units": [
+        {
+         "k": "CB",
+         "v": "8.7 y/tgt",
+         "rank": 17,
+         "tier": "yellow"
+        },
+        {
+         "k": "S",
+         "v": "8.5 y/tgt",
+         "rank": 3,
+         "tier": "red"
+        },
+        {
+         "k": "Rush",
+         "v": "17.0%",
+         "rank": 7,
+         "tier": "red"
+        },
+        {
+         "k": "Run D",
+         "v": "4.0 ypc",
+         "rank": 9,
+         "tier": "red"
+        }
+       ],
+       "scheme": "4-3 base, blitzes 25% of dropbacks (avg 32%)",
+       "games": 8
+      },
+      "CLE": {
+       "n": 32,
+       "unit": "pts",
+       "cells": [
+        {
+         "k": "QB",
+         "v": 14.2,
+         "yds": 234.2,
+         "rank": 8,
+         "tier": "red"
+        },
+        {
+         "k": "RB",
+         "v": 21.5,
+         "yds": 133.1,
+         "rank": 18,
+         "tier": "yellow"
+        },
+        {
+         "k": "WR",
+         "v": 30.2,
+         "yds": 146.4,
+         "rank": 13,
+         "tier": "yellow"
+        },
+        {
+         "k": "TE",
+         "v": 15.0,
+         "yds": 57.9,
+         "rank": 23,
+         "tier": "green"
+        }
+       ],
+       "units": [
+        {
+         "k": "CB",
+         "v": "10.1 y/tgt",
+         "rank": 29,
+         "tier": "green"
+        },
+        {
+         "k": "S",
+         "v": "9.0 y/tgt",
+         "rank": 6,
+         "tier": "red"
+        },
+        {
+         "k": "Rush",
+         "v": "16.7%",
+         "rank": 11,
+         "tier": "yellow"
+        },
+        {
+         "k": "Run D",
+         "v": "4.9 ypc",
+         "rank": 28,
+         "tier": "green"
+        }
+       ],
+       "scheme": "4-3 base, blitzes 25% of dropbacks (avg 32%)",
+       "games": 9
+      }
+     },
+     "changes": [
       {
-       "kind": "mismatch",
        "team": "HOU",
-       "tone": "up",
-       "text": "Woody Marks (HOU, RB): CLE allows 4.84 yds/carry (+0.52 vs avg), RB share 75% L3."
+       "pos": "LG",
+       "name": "Keylan Rutledge",
+       "status": "Out"
       },
       {
-       "kind": "mismatch",
+       "team": "HOU",
+       "pos": "DE",
+       "name": "Danielle Hunter",
+       "status": "Out"
+      },
+      {
+       "team": "HOU",
+       "pos": "LB",
+       "name": "Azeez Al-Shaair",
+       "status": "Out"
+      },
+      {
        "team": "CLE",
-       "tone": "down",
-       "text": "Deshaun Watson (CLE, QB): HOU pressure 17% of dropbacks, his line allows 21% (lg 16%)."
+       "pos": "QB",
+       "name": "Deshaun Watson",
+       "status": "New starter",
+       "prev": "Shedeur Sanders"
+      },
+      {
+       "team": "CLE",
+       "pos": "S",
+       "name": "Ronnie Hickman",
+       "status": "Out"
       }
-     ],
-     "stories": []
+     ]
     },
     "MIN @ GB": {
      "trend": {
@@ -1993,18 +3271,6 @@
        "effect": "helps",
        "tone": "up",
        "text": "Revenge spot: GB lost 39-22 to MIN on September 13."
-      },
-      {
-       "kind": "mismatch",
-       "team": "GB",
-       "tone": "up",
-       "text": "Christian Watson (GB) draws James Pierre on 47% of routes. ACE 68 est., edge."
-      },
-      {
-       "kind": "history",
-       "team": "GB",
-       "tone": "up",
-       "text": "Christian Watson (GB) vs this defense: 2 games, 196 yds, 2 TD (98 yds per game)."
       }
      ],
      "stories": [
@@ -2014,6 +3280,213 @@
        "effect": "helps",
        "tone": "up",
        "text": "Revenge spot: GB lost 39-22 to MIN on September 13."
+      }
+     ],
+     "grid": {
+      "MIN": {
+       "n": 32,
+       "unit": "pts",
+       "cells": [
+        {
+         "k": "QB",
+         "v": 9.0,
+         "yds": 199.2,
+         "rank": 1,
+         "tier": "red"
+        },
+        {
+         "k": "RB",
+         "v": 19.2,
+         "yds": 124.5,
+         "rank": 6,
+         "tier": "red"
+        },
+        {
+         "k": "WR",
+         "v": 25.2,
+         "yds": 122.2,
+         "rank": 3,
+         "tier": "red"
+        },
+        {
+         "k": "TE",
+         "v": 9.3,
+         "yds": 46.6,
+         "rank": 1,
+         "tier": "red"
+        }
+       ],
+       "units": [
+        {
+         "k": "CB",
+         "v": "8.7 y/tgt",
+         "rank": 18,
+         "tier": "yellow"
+        },
+        {
+         "k": "S",
+         "v": "9.5 y/tgt",
+         "rank": 10,
+         "tier": "red"
+        },
+        {
+         "k": "Rush",
+         "v": "25.5%",
+         "rank": 1,
+         "tier": "red"
+        },
+        {
+         "k": "Run D",
+         "v": "4.4 ypc",
+         "rank": 21,
+         "tier": "yellow"
+        }
+       ],
+       "scheme": "3-4 base, blitzes 73% of dropbacks (avg 32%)",
+       "games": 8
+      },
+      "GB": {
+       "n": 32,
+       "unit": "pts",
+       "cells": [
+        {
+         "k": "QB",
+         "v": 13.4,
+         "yds": 244.6,
+         "rank": 7,
+         "tier": "red"
+        },
+        {
+         "k": "RB",
+         "v": 26.0,
+         "yds": 127.6,
+         "rank": 27,
+         "tier": "green"
+        },
+        {
+         "k": "WR",
+         "v": 35.7,
+         "yds": 159.6,
+         "rank": 27,
+         "tier": "green"
+        },
+        {
+         "k": "TE",
+         "v": 9.7,
+         "yds": 41.0,
+         "rank": 2,
+         "tier": "red"
+        }
+       ],
+       "units": [
+        {
+         "k": "CB",
+         "v": "8.8 y/tgt",
+         "rank": 19,
+         "tier": "yellow"
+        },
+        {
+         "k": "S",
+         "v": "8.9 y/tgt",
+         "rank": 4,
+         "tier": "red"
+        },
+        {
+         "k": "Rush",
+         "v": "15.3%",
+         "rank": 19,
+         "tier": "yellow"
+        },
+        {
+         "k": "Run D",
+         "v": "4.1 ypc",
+         "rank": 12,
+         "tier": "yellow"
+        }
+       ],
+       "scheme": "3-4 base, blitzes 35% of dropbacks (avg 32%)",
+       "games": 9
+      }
+     },
+     "changes": [
+      {
+       "team": "MIN",
+       "pos": "QB",
+       "name": "Kirk Cousins",
+       "status": "New starter",
+       "prev": "Carson Wentz"
+      },
+      {
+       "team": "MIN",
+       "pos": "WR",
+       "name": "Jordan Addison",
+       "status": "Out"
+      },
+      {
+       "team": "MIN",
+       "pos": "WR",
+       "name": "Jauan Jennings",
+       "status": "Out"
+      },
+      {
+       "team": "MIN",
+       "pos": "TE",
+       "name": "T.J. Hockenson",
+       "status": "Out"
+      },
+      {
+       "team": "MIN",
+       "pos": "LB",
+       "name": "Blake Cashman",
+       "status": "Out"
+      },
+      {
+       "team": "GB",
+       "pos": "RB",
+       "name": "Josh Jacobs",
+       "status": "Out"
+      },
+      {
+       "team": "GB",
+       "pos": "C",
+       "name": "Sean Rhyan",
+       "status": "Out"
+      },
+      {
+       "team": "GB",
+       "pos": "LB",
+       "name": "Zaire Franklin",
+       "status": "Out"
+      }
+     ],
+     "next": [
+      {
+       "team": "MIN",
+       "pos": "WR",
+       "out": "Jordan Addison",
+       "status": "Out",
+       "backup": "Tai Felton",
+       "def": "GB",
+       "rank": 27,
+       "n": 32,
+       "v": 35.7,
+       "yds": 159.6,
+       "unit": "pts",
+       "sleeper": true
+      },
+      {
+       "team": "MIN",
+       "pos": "WR",
+       "out": "Jauan Jennings",
+       "status": "Out",
+       "backup": "Jeshaun Jones",
+       "def": "GB",
+       "rank": 27,
+       "n": 32,
+       "v": 35.7,
+       "yds": 159.6,
+       "unit": "pts",
+       "sleeper": true
       }
      ]
     },
@@ -2162,27 +3635,182 @@
        ]
       }
      },
-     "watch": [
+     "watch": [],
+     "stories": [],
+     "grid": {
+      "JAX": {
+       "n": 32,
+       "unit": "pts",
+       "cells": [
+        {
+         "k": "QB",
+         "v": 12.9,
+         "yds": 251.6,
+         "rank": 6,
+         "tier": "red"
+        },
+        {
+         "k": "RB",
+         "v": 18.1,
+         "yds": 100.9,
+         "rank": 3,
+         "tier": "red"
+        },
+        {
+         "k": "WR",
+         "v": 33.6,
+         "yds": 181.5,
+         "rank": 21,
+         "tier": "yellow"
+        },
+        {
+         "k": "TE",
+         "v": 10.3,
+         "yds": 32.6,
+         "rank": 5,
+         "tier": "red"
+        }
+       ],
+       "units": [
+        {
+         "k": "CB",
+         "v": "9.3 y/tgt",
+         "rank": 24,
+         "tier": "green"
+        },
+        {
+         "k": "S",
+         "v": "10.8 y/tgt",
+         "rank": 15,
+         "tier": "yellow"
+        },
+        {
+         "k": "Rush",
+         "v": "16.8%",
+         "rank": 8,
+         "tier": "red"
+        },
+        {
+         "k": "Run D",
+         "v": "3.8 ypc",
+         "rank": 6,
+         "tier": "red"
+        }
+       ],
+       "scheme": "4-3 base, blitzes 31% of dropbacks (avg 32%)",
+       "games": 8
+      },
+      "TEN": {
+       "n": 32,
+       "unit": "pts",
+       "cells": [
+        {
+         "k": "QB",
+         "v": 18.5,
+         "yds": 290.9,
+         "rank": 25,
+         "tier": "green"
+        },
+        {
+         "k": "RB",
+         "v": 22.1,
+         "yds": 134.9,
+         "rank": 19,
+         "tier": "yellow"
+        },
+        {
+         "k": "WR",
+         "v": 40.7,
+         "yds": 201.6,
+         "rank": 32,
+         "tier": "green"
+        },
+        {
+         "k": "TE",
+         "v": 12.8,
+         "yds": 43.2,
+         "rank": 12,
+         "tier": "yellow"
+        }
+       ],
+       "units": [
+        {
+         "k": "CB",
+         "v": "11.1 y/tgt",
+         "rank": 31,
+         "tier": "green"
+        },
+        {
+         "k": "S",
+         "v": "11.2 y/tgt",
+         "rank": 17,
+         "tier": "yellow"
+        },
+        {
+         "k": "Rush",
+         "v": "15.5%",
+         "rank": 17,
+         "tier": "yellow"
+        },
+        {
+         "k": "Run D",
+         "v": "4.3 ypc",
+         "rank": 18,
+         "tier": "yellow"
+        }
+       ],
+       "scheme": "4-3 base, blitzes 24% of dropbacks (avg 32%)",
+       "games": 8
+      }
+     },
+     "changes": [
       {
-       "kind": "mismatch",
        "team": "JAX",
-       "tone": "up",
-       "text": "Parker Washington (JAX) draws Cordale Flott on 58% of routes. ACE 68 est., edge."
+       "pos": "DT",
+       "name": "Jordan Davis",
+       "status": "Out"
       },
       {
-       "kind": "history",
        "team": "JAX",
-       "tone": "up",
-       "text": "Brenton Strange (JAX) vs this defense: 2 games, 97 yds, 2 TD (48 yds per game)."
+       "pos": "S",
+       "name": "Jessie Bates III",
+       "status": "Out"
       },
       {
-       "kind": "mismatch",
        "team": "TEN",
-       "tone": "down",
-       "text": "Tony Pollard (TEN, RB): JAX allows 3.76 yds/carry (-0.30 vs avg), RB share 87% L3."
+       "pos": "WR",
+       "name": "Carnell Tate",
+       "status": "Out"
+      },
+      {
+       "team": "TEN",
+       "pos": "LB",
+       "name": "Anthony Hill Jr.",
+       "status": "Out"
+      },
+      {
+       "team": "TEN",
+       "pos": "LB",
+       "name": "Cody Barton",
+       "status": "Out"
       }
      ],
-     "stories": []
+     "next": [
+      {
+       "team": "TEN",
+       "pos": "WR",
+       "out": "Carnell Tate",
+       "status": "Out",
+       "backup": "Elic Ayomanor",
+       "def": "JAX",
+       "rank": 21,
+       "n": 32,
+       "v": 33.6,
+       "yds": 181.5,
+       "unit": "pts",
+       "sleeper": false
+      }
+     ]
     },
     "MIA @ IND": {
      "trend": {
@@ -2329,15 +3957,179 @@
        ]
       }
      },
-     "watch": [
-      {
-       "kind": "mismatch",
-       "team": "MIA",
-       "tone": "up",
-       "text": "Greg Dulcich (MIA) draws Camryn Bynum on 60% of routes. ACE 65 est., edge."
+     "watch": [],
+     "stories": [],
+     "grid": {
+      "MIA": {
+       "n": 32,
+       "unit": "pts",
+       "cells": [
+        {
+         "k": "QB",
+         "v": 18.2,
+         "yds": 234.5,
+         "rank": 21,
+         "tier": "yellow"
+        },
+        {
+         "k": "RB",
+         "v": 25.6,
+         "yds": 140.0,
+         "rank": 26,
+         "tier": "green"
+        },
+        {
+         "k": "WR",
+         "v": 25.8,
+         "yds": 124.6,
+         "rank": 4,
+         "tier": "red"
+        },
+        {
+         "k": "TE",
+         "v": 17.4,
+         "yds": 64.4,
+         "rank": 28,
+         "tier": "green"
+        }
+       ],
+       "units": [
+        {
+         "k": "CB",
+         "v": "10.6 y/tgt",
+         "rank": 30,
+         "tier": "green"
+        },
+        {
+         "k": "S",
+         "v": "13.4 y/tgt",
+         "rank": 30,
+         "tier": "green"
+        },
+        {
+         "k": "Rush",
+         "v": "15.4%",
+         "rank": 18,
+         "tier": "yellow"
+        },
+        {
+         "k": "Run D",
+         "v": "4.2 ypc",
+         "rank": 14,
+         "tier": "yellow"
+        }
+       ],
+       "scheme": "4-3 base, blitzes 23% of dropbacks (avg 32%)",
+       "games": 8
+      },
+      "IND": {
+       "n": 32,
+       "unit": "pts",
+       "cells": [
+        {
+         "k": "QB",
+         "v": 19.0,
+         "yds": 259.2,
+         "rank": 27,
+         "tier": "green"
+        },
+        {
+         "k": "RB",
+         "v": 25.3,
+         "yds": 152.3,
+         "rank": 25,
+         "tier": "green"
+        },
+        {
+         "k": "WR",
+         "v": 29.5,
+         "yds": 151.0,
+         "rank": 11,
+         "tier": "yellow"
+        },
+        {
+         "k": "TE",
+         "v": 14.4,
+         "yds": 50.3,
+         "rank": 19,
+         "tier": "yellow"
+        }
+       ],
+       "units": [
+        {
+         "k": "CB",
+         "v": "8.5 y/tgt",
+         "rank": 15,
+         "tier": "yellow"
+        },
+        {
+         "k": "S",
+         "v": "13.5 y/tgt",
+         "rank": 31,
+         "tier": "green"
+        },
+        {
+         "k": "Rush",
+         "v": "14.1%",
+         "rank": 24,
+         "tier": "green"
+        },
+        {
+         "k": "Run D",
+         "v": "5.2 ypc",
+         "rank": 29,
+         "tier": "green"
+        }
+       ],
+       "scheme": "4-3 base, blitzes 21% of dropbacks (avg 32%)",
+       "games": 9
       }
-     ],
-     "stories": []
+     },
+     "changes": [
+      {
+       "team": "MIA",
+       "pos": "QB",
+       "name": "Kyle McCord",
+       "status": "New starter",
+       "prev": "Malik Willis"
+      },
+      {
+       "team": "MIA",
+       "pos": "WR",
+       "name": "Chris Bell",
+       "status": "Out"
+      },
+      {
+       "team": "MIA",
+       "pos": "C",
+       "name": "Aaron Brewer",
+       "status": "Out"
+      },
+      {
+       "team": "MIA",
+       "pos": "DT",
+       "name": "Jordan Phillips",
+       "status": "Questionable"
+      },
+      {
+       "team": "MIA",
+       "pos": "DT",
+       "name": "Zeek Biggers",
+       "status": "Questionable"
+      },
+      {
+       "team": "IND",
+       "pos": "LT",
+       "name": "Bernhard Raimann",
+       "status": "Questionable"
+      },
+      {
+       "team": "IND",
+       "pos": "RT",
+       "name": "Jalen Travis",
+       "status": "Out"
+      }
+     ]
     },
     "CAR @ NO": {
      "trend": {
@@ -2484,27 +4276,166 @@
        ]
       }
      },
-     "watch": [
-      {
-       "kind": "mismatch",
-       "team": "NO",
-       "tone": "up",
-       "text": "Tyler Shough (NO, QB): CAR pressure 10% of dropbacks, his line allows 14% (lg 16%)."
+     "watch": [],
+     "stories": [],
+     "grid": {
+      "CAR": {
+       "n": 32,
+       "unit": "pts",
+       "cells": [
+        {
+         "k": "QB",
+         "v": 17.0,
+         "yds": 240.8,
+         "rank": 12,
+         "tier": "yellow"
+        },
+        {
+         "k": "RB",
+         "v": 27.4,
+         "yds": 138.1,
+         "rank": 31,
+         "tier": "green"
+        },
+        {
+         "k": "WR",
+         "v": 31.9,
+         "yds": 150.2,
+         "rank": 18,
+         "tier": "yellow"
+        },
+        {
+         "k": "TE",
+         "v": 13.5,
+         "yds": 47.4,
+         "rank": 17,
+         "tier": "yellow"
+        }
+       ],
+       "units": [
+        {
+         "k": "CB",
+         "v": "8.6 y/tgt",
+         "rank": 16,
+         "tier": "yellow"
+        },
+        {
+         "k": "S",
+         "v": "8.3 y/tgt",
+         "rank": 2,
+         "tier": "red"
+        },
+        {
+         "k": "Rush",
+         "v": "10.5%",
+         "rank": 32,
+         "tier": "green"
+        },
+        {
+         "k": "Run D",
+         "v": "4.7 ypc",
+         "rank": 25,
+         "tier": "green"
+        }
+       ],
+       "scheme": "3-4 base, blitzes 34% of dropbacks (avg 32%)",
+       "games": 8
       },
-      {
-       "kind": "history",
-       "team": "NO",
-       "tone": "up",
-       "text": "Chris Olave (NO) vs this defense: 2 games, 189 yds, 2 TD (94 yds per game)."
-      },
-      {
-       "kind": "mismatch",
-       "team": "NO",
-       "tone": "down",
-       "text": "Bryce Lance (NO) draws Marco Wilson on 55% of routes. ACE 22 est., tough draw."
+      "NO": {
+       "n": 32,
+       "unit": "pts",
+       "cells": [
+        {
+         "k": "QB",
+         "v": 17.8,
+         "yds": 276.0,
+         "rank": 19,
+         "tier": "yellow"
+        },
+        {
+         "k": "RB",
+         "v": 28.6,
+         "yds": 150.0,
+         "rank": 32,
+         "tier": "green"
+        },
+        {
+         "k": "WR",
+         "v": 31.7,
+         "yds": 155.4,
+         "rank": 17,
+         "tier": "yellow"
+        },
+        {
+         "k": "TE",
+         "v": 16.1,
+         "yds": 65.1,
+         "rank": 26,
+         "tier": "green"
+        }
+       ],
+       "units": [
+        {
+         "k": "CB",
+         "v": "9.9 y/tgt",
+         "rank": 28,
+         "tier": "green"
+        },
+        {
+         "k": "S",
+         "v": "12.3 y/tgt",
+         "rank": 26,
+         "tier": "green"
+        },
+        {
+         "k": "Rush",
+         "v": "14.7%",
+         "rank": 20,
+         "tier": "yellow"
+        },
+        {
+         "k": "Run D",
+         "v": "4.8 ypc",
+         "rank": 27,
+         "tier": "green"
+        }
+       ],
+       "scheme": "3-4 base, blitzes 36% of dropbacks (avg 32%)",
+       "games": 8
       }
-     ],
-     "stories": []
+     },
+     "changes": [
+      {
+       "team": "CAR",
+       "pos": "LB",
+       "name": "Bobby Okereke",
+       "status": "Out"
+      },
+      {
+       "team": "CAR",
+       "pos": "CB",
+       "name": "Will Lee III",
+       "status": "Out"
+      },
+      {
+       "team": "NO",
+       "pos": "C",
+       "name": "Erik McCoy",
+       "status": "Out"
+      },
+      {
+       "team": "NO",
+       "pos": "RT",
+       "name": "Taliese Fuaga",
+       "status": "Out"
+      },
+      {
+       "team": "NO",
+       "pos": "LB",
+       "name": "Pete Werner",
+       "status": "Questionable"
+      }
+     ]
     },
     "BUF @ NYJ": {
      "trend": {
@@ -2651,34 +4582,174 @@
        ]
       }
      },
-     "watch": [
+     "watch": [],
+     "stories": [],
+     "grid": {
+      "BUF": {
+       "n": 32,
+       "unit": "pts",
+       "cells": [
+        {
+         "k": "QB",
+         "v": 17.3,
+         "yds": 265.1,
+         "rank": 17,
+         "tier": "yellow"
+        },
+        {
+         "k": "RB",
+         "v": 25.1,
+         "yds": 118.2,
+         "rank": 24,
+         "tier": "green"
+        },
+        {
+         "k": "WR",
+         "v": 34.3,
+         "yds": 148.2,
+         "rank": 24,
+         "tier": "green"
+        },
+        {
+         "k": "TE",
+         "v": 13.2,
+         "yds": 65.9,
+         "rank": 15,
+         "tier": "yellow"
+        }
+       ],
+       "units": [
+        {
+         "k": "CB",
+         "v": "8.0 y/tgt",
+         "rank": 7,
+         "tier": "red"
+        },
+        {
+         "k": "S",
+         "v": "12.6 y/tgt",
+         "rank": 28,
+         "tier": "green"
+        },
+        {
+         "k": "Rush",
+         "v": "19.6%",
+         "rank": 3,
+         "tier": "red"
+        },
+        {
+         "k": "Run D",
+         "v": "4.0 ypc",
+         "rank": 10,
+         "tier": "red"
+        }
+       ],
+       "scheme": "3-4 base, blitzes 37% of dropbacks (avg 32%)",
+       "games": 8
+      },
+      "NYJ": {
+       "n": 32,
+       "unit": "pts",
+       "cells": [
+        {
+         "k": "QB",
+         "v": 18.4,
+         "yds": 228.8,
+         "rank": 23,
+         "tier": "green"
+        },
+        {
+         "k": "RB",
+         "v": 24.7,
+         "yds": 138.8,
+         "rank": 23,
+         "tier": "green"
+        },
+        {
+         "k": "WR",
+         "v": 28.5,
+         "yds": 122.8,
+         "rank": 8,
+         "tier": "red"
+        },
+        {
+         "k": "TE",
+         "v": 14.6,
+         "yds": 63.1,
+         "rank": 21,
+         "tier": "yellow"
+        }
+       ],
+       "units": [
+        {
+         "k": "CB",
+         "v": "8.2 y/tgt",
+         "rank": 12,
+         "tier": "yellow"
+        },
+        {
+         "k": "S",
+         "v": "10.6 y/tgt",
+         "rank": 14,
+         "tier": "yellow"
+        },
+        {
+         "k": "Rush",
+         "v": "16.0%",
+         "rank": 16,
+         "tier": "yellow"
+        },
+        {
+         "k": "Run D",
+         "v": "4.3 ypc",
+         "rank": 19,
+         "tier": "yellow"
+        }
+       ],
+       "scheme": "4-3 base, blitzes 38% of dropbacks (avg 32%)",
+       "games": 9
+      }
+     },
+     "changes": [
       {
-       "kind": "story",
        "team": "NYJ",
-       "effect": "hurts",
-       "tone": "down",
-       "text": "NYJ WR Omar Cooper Jr. listed Questionable on the injury report."
+       "pos": "WR",
+       "name": "Omar Cooper Jr.",
+       "status": "Questionable"
       },
       {
-       "kind": "mismatch",
-       "team": "BUF",
-       "tone": "up",
-       "text": "Dalton Kincaid (BUF) draws Dane Belton on 70% of routes. ACE 71 est., edge."
+       "team": "NYJ",
+       "pos": "LG",
+       "name": "Dylan Parham",
+       "status": "Questionable"
       },
       {
-       "kind": "mismatch",
        "team": "NYJ",
-       "tone": "down",
-       "text": "Geno Smith (NYJ, QB): BUF pressure 20% of dropbacks, his line allows 17% (lg 16%)."
+       "pos": "LB",
+       "name": "Trevin Wallace",
+       "status": "Out"
+      },
+      {
+       "team": "NYJ",
+       "pos": "CB",
+       "name": "Jarvis Brownlee Jr.",
+       "status": "Out"
       }
      ],
-     "stories": [
+     "next": [
       {
-       "kind": "story",
        "team": "NYJ",
-       "effect": "hurts",
-       "tone": "down",
-       "text": "NYJ WR Omar Cooper Jr. listed Questionable on the injury report."
+       "pos": "WR",
+       "out": "Omar Cooper Jr.",
+       "status": "Questionable",
+       "backup": "Malik McClain",
+       "def": "BUF",
+       "rank": 24,
+       "n": 32,
+       "v": 34.3,
+       "yds": 148.2,
+       "unit": "pts",
+       "sleeper": true
       }
      ]
     },
@@ -2841,7 +4912,189 @@
        "text": "Kirk Cousins (LV, QB): SEA pressure 19% of dropbacks, his line allows 17% (lg 16%)."
       }
      ],
-     "stories": []
+     "stories": [],
+     "grid": {
+      "SEA": {
+       "n": 32,
+       "unit": "pts",
+       "cells": [
+        {
+         "k": "QB",
+         "v": 10.5,
+         "yds": 184.1,
+         "rank": 2,
+         "tier": "red"
+        },
+        {
+         "k": "RB",
+         "v": 20.5,
+         "yds": 97.0,
+         "rank": 13,
+         "tier": "yellow"
+        },
+        {
+         "k": "WR",
+         "v": 23.2,
+         "yds": 103.9,
+         "rank": 1,
+         "tier": "red"
+        },
+        {
+         "k": "TE",
+         "v": 11.1,
+         "yds": 42.3,
+         "rank": 9,
+         "tier": "red"
+        }
+       ],
+       "units": [
+        {
+         "k": "CB",
+         "v": "6.7 y/tgt",
+         "rank": 4,
+         "tier": "red"
+        },
+        {
+         "k": "S",
+         "v": "9.1 y/tgt",
+         "rank": 7,
+         "tier": "red"
+        },
+        {
+         "k": "Rush",
+         "v": "18.9%",
+         "rank": 4,
+         "tier": "red"
+        },
+        {
+         "k": "Run D",
+         "v": "3.6 ypc",
+         "rank": 2,
+         "tier": "red"
+        }
+       ],
+       "scheme": "3-4 base, blitzes 24% of dropbacks (avg 32%)",
+       "games": 9
+      },
+      "LV": {
+       "n": 32,
+       "unit": "pts",
+       "cells": [
+        {
+         "k": "QB",
+         "v": 21.0,
+         "yds": 265.9,
+         "rank": 31,
+         "tier": "green"
+        },
+        {
+         "k": "RB",
+         "v": 26.5,
+         "yds": 162.7,
+         "rank": 30,
+         "tier": "green"
+        },
+        {
+         "k": "WR",
+         "v": 33.8,
+         "yds": 162.9,
+         "rank": 22,
+         "tier": "yellow"
+        },
+        {
+         "k": "TE",
+         "v": 17.5,
+         "yds": 56.0,
+         "rank": 29,
+         "tier": "green"
+        }
+       ],
+       "units": [
+        {
+         "k": "CB",
+         "v": "9.2 y/tgt",
+         "rank": 22,
+         "tier": "yellow"
+        },
+        {
+         "k": "S",
+         "v": "13.5 y/tgt",
+         "rank": 32,
+         "tier": "green"
+        },
+        {
+         "k": "Rush",
+         "v": "16.8%",
+         "rank": 9,
+         "tier": "red"
+        },
+        {
+         "k": "Run D",
+         "v": "5.3 ypc",
+         "rank": 32,
+         "tier": "green"
+        }
+       ],
+       "scheme": "3-4 base, blitzes 26% of dropbacks (avg 32%)",
+       "games": 9
+      }
+     },
+     "changes": [
+      {
+       "team": "SEA",
+       "pos": "QB",
+       "name": "Sam Darnold",
+       "status": "New starter",
+       "prev": "Drew Lock"
+      },
+      {
+       "team": "SEA",
+       "pos": "QB",
+       "name": "Sam Darnold",
+       "status": "Out"
+      },
+      {
+       "team": "SEA",
+       "pos": "LT",
+       "name": "Charles Cross",
+       "status": "Out"
+      },
+      {
+       "team": "SEA",
+       "pos": "LG",
+       "name": "Quenton Nelson",
+       "status": "Out"
+      },
+      {
+       "team": "SEA",
+       "pos": "DE",
+       "name": "Leonard Williams",
+       "status": "Out"
+      },
+      {
+       "team": "LV",
+       "pos": "QB",
+       "name": "Fernando Mendoza",
+       "status": "New starter",
+       "prev": "Kirk Cousins"
+      }
+     ],
+     "next": [
+      {
+       "team": "SEA",
+       "pos": "QB",
+       "out": "Sam Darnold",
+       "status": "Out",
+       "backup": "Drew Lock",
+       "def": "LV",
+       "rank": 31,
+       "n": 32,
+       "v": 21.0,
+       "yds": 265.9,
+       "unit": "pts",
+       "sleeper": true
+      }
+     ]
     },
     "LAR @ ARI": {
      "trend": {
@@ -3017,6 +5270,183 @@
        "tone": "up",
        "text": "Revenge spot: LAR lost 18-16 to ARI on October 18."
       }
+     ],
+     "grid": {
+      "LAR": {
+       "n": 32,
+       "unit": "pts",
+       "cells": [
+        {
+         "k": "QB",
+         "v": 15.4,
+         "yds": 233.0,
+         "rank": 10,
+         "tier": "red"
+        },
+        {
+         "k": "RB",
+         "v": 19.5,
+         "yds": 122.0,
+         "rank": 7,
+         "tier": "red"
+        },
+        {
+         "k": "WR",
+         "v": 27.2,
+         "yds": 119.3,
+         "rank": 5,
+         "tier": "red"
+        },
+        {
+         "k": "TE",
+         "v": 10.6,
+         "yds": 47.4,
+         "rank": 7,
+         "tier": "red"
+        }
+       ],
+       "units": [
+        {
+         "k": "CB",
+         "v": "5.3 y/tgt",
+         "rank": 1,
+         "tier": "red"
+        },
+        {
+         "k": "S",
+         "v": "10.3 y/tgt",
+         "rank": 12,
+         "tier": "yellow"
+        },
+        {
+         "k": "Rush",
+         "v": "11.7%",
+         "rank": 30,
+         "tier": "green"
+        },
+        {
+         "k": "Run D",
+         "v": "4.0 ypc",
+         "rank": 11,
+         "tier": "yellow"
+        }
+       ],
+       "scheme": "3-4 base, blitzes 29% of dropbacks (avg 32%)",
+       "games": 9
+      },
+      "ARI": {
+       "n": 32,
+       "unit": "pts",
+       "cells": [
+        {
+         "k": "QB",
+         "v": 21.0,
+         "yds": 250.6,
+         "rank": 30,
+         "tier": "green"
+        },
+        {
+         "k": "RB",
+         "v": 21.3,
+         "yds": 133.2,
+         "rank": 16,
+         "tier": "yellow"
+        },
+        {
+         "k": "WR",
+         "v": 31.3,
+         "yds": 140.1,
+         "rank": 16,
+         "tier": "yellow"
+        },
+        {
+         "k": "TE",
+         "v": 15.6,
+         "yds": 51.1,
+         "rank": 25,
+         "tier": "green"
+        }
+       ],
+       "units": [
+        {
+         "k": "CB",
+         "v": "8.2 y/tgt",
+         "rank": 11,
+         "tier": "yellow"
+        },
+        {
+         "k": "S",
+         "v": "12.2 y/tgt",
+         "rank": 25,
+         "tier": "green"
+        },
+        {
+         "k": "Rush",
+         "v": "13.8%",
+         "rank": 25,
+         "tier": "green"
+        },
+        {
+         "k": "Run D",
+         "v": "4.3 ypc",
+         "rank": 16,
+         "tier": "yellow"
+        }
+       ],
+       "scheme": "4-3 base, blitzes 34% of dropbacks (avg 32%)",
+       "games": 9
+      }
+     },
+     "changes": [
+      {
+       "team": "LAR",
+       "pos": "LG",
+       "name": "Steve Avila",
+       "status": "Out"
+      },
+      {
+       "team": "LAR",
+       "pos": "LB",
+       "name": "Myles Garrett",
+       "status": "Questionable"
+      },
+      {
+       "team": "LAR",
+       "pos": "S",
+       "name": "Kam Curl",
+       "status": "Questionable"
+      },
+      {
+       "team": "LAR",
+       "pos": "CB",
+       "name": "Trent McDuffie",
+       "status": "Questionable"
+      },
+      {
+       "team": "ARI",
+       "pos": "QB",
+       "name": "Carson Beck",
+       "status": "New starter",
+       "prev": "Gardner Minshew II"
+      },
+      {
+       "team": "ARI",
+       "pos": "LT",
+       "name": "Jayden Williams",
+       "status": "Questionable"
+      },
+      {
+       "team": "ARI",
+       "pos": "C",
+       "name": "Hjalte Froholdt",
+       "status": "Out"
+      },
+      {
+       "team": "ARI",
+       "pos": "DT",
+       "name": "Roy Lopez",
+       "status": "Questionable"
+      }
      ]
     },
     "SF @ DAL": {
@@ -3178,7 +5608,213 @@
        "text": "Brandin Cooks (SF) draws DaRon Bland on 45% of routes. ACE 35 est., tough draw."
       }
      ],
-     "stories": []
+     "stories": [],
+     "grid": {
+      "SF": {
+       "n": 32,
+       "unit": "pts",
+       "cells": [
+        {
+         "k": "QB",
+         "v": 15.0,
+         "yds": 228.8,
+         "rank": 9,
+         "tier": "red"
+        },
+        {
+         "k": "RB",
+         "v": 21.1,
+         "yds": 113.4,
+         "rank": 15,
+         "tier": "yellow"
+        },
+        {
+         "k": "WR",
+         "v": 27.4,
+         "yds": 126.1,
+         "rank": 6,
+         "tier": "red"
+        },
+        {
+         "k": "TE",
+         "v": 14.5,
+         "yds": 57.2,
+         "rank": 20,
+         "tier": "yellow"
+        }
+       ],
+       "units": [
+        {
+         "k": "CB",
+         "v": "6.3 y/tgt",
+         "rank": 2,
+         "tier": "red"
+        },
+        {
+         "k": "S",
+         "v": "11.9 y/tgt",
+         "rank": 21,
+         "tier": "yellow"
+        },
+        {
+         "k": "Rush",
+         "v": "14.3%",
+         "rank": 22,
+         "tier": "yellow"
+        },
+        {
+         "k": "Run D",
+         "v": "3.4 ypc",
+         "rank": 1,
+         "tier": "red"
+        }
+       ],
+       "scheme": "4-3 base, blitzes 32% of dropbacks (avg 32%)",
+       "games": 8
+      },
+      "DAL": {
+       "n": 32,
+       "unit": "pts",
+       "cells": [
+        {
+         "k": "QB",
+         "v": 19.2,
+         "yds": 264.9,
+         "rank": 28,
+         "tier": "green"
+        },
+        {
+         "k": "RB",
+         "v": 26.3,
+         "yds": 138.1,
+         "rank": 28,
+         "tier": "green"
+        },
+        {
+         "k": "WR",
+         "v": 35.0,
+         "yds": 167.1,
+         "rank": 26,
+         "tier": "green"
+        },
+        {
+         "k": "TE",
+         "v": 13.1,
+         "yds": 50.2,
+         "rank": 14,
+         "tier": "yellow"
+        }
+       ],
+       "units": [
+        {
+         "k": "CB",
+         "v": "8.3 y/tgt",
+         "rank": 14,
+         "tier": "yellow"
+        },
+        {
+         "k": "S",
+         "v": "11.7 y/tgt",
+         "rank": 20,
+         "tier": "yellow"
+        },
+        {
+         "k": "Rush",
+         "v": "13.6%",
+         "rank": 26,
+         "tier": "green"
+        },
+        {
+         "k": "Run D",
+         "v": "5.2 ypc",
+         "rank": 30,
+         "tier": "green"
+        }
+       ],
+       "scheme": "3-4 base, blitzes 24% of dropbacks (avg 32%)",
+       "games": 9
+      }
+     },
+     "changes": [
+      {
+       "team": "SF",
+       "pos": "WR",
+       "name": "Mike Evans",
+       "status": "Out"
+      },
+      {
+       "team": "SF",
+       "pos": "LT",
+       "name": "Trent Williams",
+       "status": "Questionable"
+      },
+      {
+       "team": "SF",
+       "pos": "LB",
+       "name": "Dre Greenlaw",
+       "status": "Questionable"
+      },
+      {
+       "team": "SF",
+       "pos": "CB",
+       "name": "Renardo Green",
+       "status": "Questionable"
+      },
+      {
+       "team": "SF",
+       "pos": "CB",
+       "name": "Deommodore Lenoir",
+       "status": "Questionable"
+      },
+      {
+       "team": "SF",
+       "pos": "CB",
+       "name": "Upton Stout",
+       "status": "Questionable"
+      },
+      {
+       "team": "DAL",
+       "pos": "TE",
+       "name": "Jake Ferguson",
+       "status": "Out"
+      },
+      {
+       "team": "DAL",
+       "pos": "LB",
+       "name": "Donovan Ezeiruaku",
+       "status": "Out"
+      }
+     ],
+     "next": [
+      {
+       "team": "SF",
+       "pos": "WR",
+       "out": "Mike Evans",
+       "status": "Out",
+       "backup": "Demarcus Robinson",
+       "def": "DAL",
+       "rank": 26,
+       "n": 32,
+       "v": 35.0,
+       "yds": 167.1,
+       "unit": "pts",
+       "sleeper": true
+      },
+      {
+       "team": "DAL",
+       "pos": "TE",
+       "out": "Jake Ferguson",
+       "status": "Out",
+       "backup": "Brevyn Spann-Ford",
+       "def": "SF",
+       "rank": 20,
+       "n": 32,
+       "v": 14.5,
+       "yds": 57.2,
+       "unit": "pts",
+       "sleeper": false
+      }
+     ]
     },
     "PIT @ CIN": {
      "trend": {
@@ -3361,6 +5997,168 @@
        "tone": "up",
        "text": "Revenge spot: CIN lost 30-27 to PIT on September 27."
       }
+     ],
+     "grid": {
+      "PIT": {
+       "n": 32,
+       "unit": "pts",
+       "cells": [
+        {
+         "k": "QB",
+         "v": 12.8,
+         "yds": 255.8,
+         "rank": 5,
+         "tier": "red"
+        },
+        {
+         "k": "RB",
+         "v": 20.4,
+         "yds": 116.9,
+         "rank": 11,
+         "tier": "yellow"
+        },
+        {
+         "k": "WR",
+         "v": 28.9,
+         "yds": 139.2,
+         "rank": 9,
+         "tier": "red"
+        },
+        {
+         "k": "TE",
+         "v": 13.0,
+         "yds": 57.1,
+         "rank": 13,
+         "tier": "yellow"
+        }
+       ],
+       "units": [
+        {
+         "k": "CB",
+         "v": "8.3 y/tgt",
+         "rank": 13,
+         "tier": "yellow"
+        },
+        {
+         "k": "S",
+         "v": "11.3 y/tgt",
+         "rank": 18,
+         "tier": "yellow"
+        },
+        {
+         "k": "Rush",
+         "v": "16.0%",
+         "rank": 14,
+         "tier": "yellow"
+        },
+        {
+         "k": "Run D",
+         "v": "3.8 ypc",
+         "rank": 5,
+         "tier": "red"
+        }
+       ],
+       "scheme": "3-4 base, blitzes 27% of dropbacks (avg 32%)",
+       "games": 8
+      },
+      "CIN": {
+       "n": 32,
+       "unit": "pts",
+       "cells": [
+        {
+         "k": "QB",
+         "v": 17.8,
+         "yds": 280.0,
+         "rank": 20,
+         "tier": "yellow"
+        },
+        {
+         "k": "RB",
+         "v": 20.9,
+         "yds": 120.6,
+         "rank": 14,
+         "tier": "yellow"
+        },
+        {
+         "k": "WR",
+         "v": 31.1,
+         "yds": 143.1,
+         "rank": 15,
+         "tier": "yellow"
+        },
+        {
+         "k": "TE",
+         "v": 15.4,
+         "yds": 80.8,
+         "rank": 24,
+         "tier": "green"
+        }
+       ],
+       "units": [
+        {
+         "k": "CB",
+         "v": "8.1 y/tgt",
+         "rank": 10,
+         "tier": "red"
+        },
+        {
+         "k": "S",
+         "v": "12.5 y/tgt",
+         "rank": 27,
+         "tier": "green"
+        },
+        {
+         "k": "Rush",
+         "v": "14.7%",
+         "rank": 21,
+         "tier": "yellow"
+        },
+        {
+         "k": "Run D",
+         "v": "5.2 ypc",
+         "rank": 31,
+         "tier": "green"
+        }
+       ],
+       "scheme": "4-3 base, blitzes 18% of dropbacks (avg 32%)",
+       "games": 8
+      }
+     },
+     "changes": [
+      {
+       "team": "PIT",
+       "pos": "TE",
+       "name": "Pat Freiermuth",
+       "status": "Questionable"
+      },
+      {
+       "team": "PIT",
+       "pos": "DE",
+       "name": "Derrick Harmon",
+       "status": "Questionable"
+      },
+      {
+       "team": "CIN",
+       "pos": "RG",
+       "name": "Dalton Risner",
+       "status": "Questionable"
+      }
+     ],
+     "next": [
+      {
+       "team": "PIT",
+       "pos": "TE",
+       "out": "Pat Freiermuth",
+       "status": "Questionable",
+       "backup": "Darnell Washington",
+       "def": "CIN",
+       "rank": 24,
+       "n": 32,
+       "v": 15.4,
+       "yds": 80.8,
+       "unit": "pts",
+       "sleeper": true
+      }
      ]
     },
     "LAC @ BAL": {
@@ -3522,7 +6320,182 @@
        "text": "Justin Herbert (LAC, QB): BAL pressure 16% of dropbacks, his line allows 19% (lg 16%)."
       }
      ],
-     "stories": []
+     "stories": [],
+     "grid": {
+      "LAC": {
+       "n": 32,
+       "unit": "pts",
+       "cells": [
+        {
+         "k": "QB",
+         "v": 16.7,
+         "yds": 243.2,
+         "rank": 11,
+         "tier": "yellow"
+        },
+        {
+         "k": "RB",
+         "v": 22.8,
+         "yds": 127.0,
+         "rank": 21,
+         "tier": "yellow"
+        },
+        {
+         "k": "WR",
+         "v": 36.9,
+         "yds": 163.5,
+         "rank": 28,
+         "tier": "green"
+        },
+        {
+         "k": "TE",
+         "v": 10.0,
+         "yds": 51.1,
+         "rank": 3,
+         "tier": "red"
+        }
+       ],
+       "units": [
+        {
+         "k": "CB",
+         "v": "9.8 y/tgt",
+         "rank": 27,
+         "tier": "green"
+        },
+        {
+         "k": "S",
+         "v": "10.5 y/tgt",
+         "rank": 13,
+         "tier": "yellow"
+        },
+        {
+         "k": "Rush",
+         "v": "16.5%",
+         "rank": 12,
+         "tier": "yellow"
+        },
+        {
+         "k": "Run D",
+         "v": "4.4 ypc",
+         "rank": 20,
+         "tier": "yellow"
+        }
+       ],
+       "scheme": "3-4 base, blitzes 25% of dropbacks (avg 32%)",
+       "games": 8
+      },
+      "BAL": {
+       "n": 32,
+       "unit": "pts",
+       "cells": [
+        {
+         "k": "QB",
+         "v": 17.2,
+         "yds": 258.9,
+         "rank": 14,
+         "tier": "yellow"
+        },
+        {
+         "k": "RB",
+         "v": 19.9,
+         "yds": 98.8,
+         "rank": 9,
+         "tier": "red"
+        },
+        {
+         "k": "WR",
+         "v": 34.3,
+         "yds": 174.2,
+         "rank": 23,
+         "tier": "green"
+        },
+        {
+         "k": "TE",
+         "v": 13.8,
+         "yds": 52.2,
+         "rank": 18,
+         "tier": "yellow"
+        }
+       ],
+       "units": [
+        {
+         "k": "CB",
+         "v": "9.4 y/tgt",
+         "rank": 25,
+         "tier": "green"
+        },
+        {
+         "k": "S",
+         "v": "11.5 y/tgt",
+         "rank": 19,
+         "tier": "yellow"
+        },
+        {
+         "k": "Rush",
+         "v": "16.0%",
+         "rank": 15,
+         "tier": "yellow"
+        },
+        {
+         "k": "Run D",
+         "v": "3.7 ypc",
+         "rank": 3,
+         "tier": "red"
+        }
+       ],
+       "scheme": "3-4 base, blitzes 33% of dropbacks (avg 32%)",
+       "games": 9
+      }
+     },
+     "changes": [
+      {
+       "team": "LAC",
+       "pos": "WR",
+       "name": "Ladd McConkey",
+       "status": "Questionable"
+      },
+      {
+       "team": "LAC",
+       "pos": "LG",
+       "name": "Kayode Awosika",
+       "status": "Questionable"
+      },
+      {
+       "team": "LAC",
+       "pos": "DE",
+       "name": "Justin Eboigbe",
+       "status": "Questionable"
+      },
+      {
+       "team": "BAL",
+       "pos": "QB",
+       "name": "Jacoby Brissett",
+       "status": "New starter",
+       "prev": "Joe Fagnano"
+      },
+      {
+       "team": "BAL",
+       "pos": "S",
+       "name": "Jaylinn Hawkins",
+       "status": "Out"
+      }
+     ],
+     "next": [
+      {
+       "team": "LAC",
+       "pos": "WR",
+       "out": "Ladd McConkey",
+       "status": "Questionable",
+       "backup": "KeAndre Lambert-Smith",
+       "def": "BAL",
+       "rank": 23,
+       "n": 32,
+       "v": 34.3,
+       "yds": 174.2,
+       "unit": "pts",
+       "sleeper": true
+      }
+     ]
     }
    }
   },
@@ -3703,7 +6676,73 @@
        "tone": "up",
        "text": "Revenge spot: PHI lost 3-2 to EDM on November 11."
       }
-     ]
+     ],
+     "grid": {
+      "EDM": {
+       "n": 32,
+       "unit": "per game",
+       "cells": [
+        {
+         "k": "Goals",
+         "v": 2.67,
+         "rank": 7,
+         "tier": "red"
+        },
+        {
+         "k": "Shots",
+         "v": 26.5,
+         "rank": 12,
+         "tier": "yellow"
+        },
+        {
+         "k": "PK %",
+         "v": 77.0,
+         "rank": 18,
+         "tier": "yellow"
+        }
+       ],
+       "units": [
+        {
+         "k": "Likely goalie",
+         "v": "Devon Levi 0.906 sv%",
+         "rank": null,
+         "tier": ""
+        }
+       ]
+      },
+      "PHI": {
+       "n": 32,
+       "unit": "per game",
+       "cells": [
+        {
+         "k": "Goals",
+         "v": 3.23,
+         "rank": 19,
+         "tier": "yellow"
+        },
+        {
+         "k": "Shots",
+         "v": 28.5,
+         "rank": 23,
+         "tier": "green"
+        },
+        {
+         "k": "PK %",
+         "v": 80.0,
+         "rank": 12,
+         "tier": "yellow"
+        }
+       ],
+       "units": [
+        {
+         "k": "Likely goalie",
+         "v": "Dan Vladar 0.879 sv%",
+         "rank": null,
+         "tier": ""
+        }
+       ]
+      }
+     }
     },
     "FLA @ DAL": {
      "trend": {
@@ -3858,7 +6897,73 @@
        "text": "Matthew Tkachuk (FLA, 29 pts in 21 gp): likely goalie Jake Oettinger 0.902 sv% (15 starts, lg 0.892), DAL allows 23.3 shots/gm (lg 27.4)."
       }
      ],
-     "stories": []
+     "stories": [],
+     "grid": {
+      "FLA": {
+       "n": 32,
+       "unit": "per game",
+       "cells": [
+        {
+         "k": "Goals",
+         "v": 2.9,
+         "rank": 13,
+         "tier": "yellow"
+        },
+        {
+         "k": "Shots",
+         "v": 26.0,
+         "rank": 7,
+         "tier": "red"
+        },
+        {
+         "k": "PK %",
+         "v": 86.0,
+         "rank": 7,
+         "tier": "red"
+        }
+       ],
+       "units": [
+        {
+         "k": "Likely goalie",
+         "v": "Jacob Markstrom 0.906 sv%",
+         "rank": null,
+         "tier": ""
+        }
+       ]
+      },
+      "DAL": {
+       "n": 32,
+       "unit": "per game",
+       "cells": [
+        {
+         "k": "Goals",
+         "v": 2.47,
+         "rank": 3,
+         "tier": "red"
+        },
+        {
+         "k": "Shots",
+         "v": 23.3,
+         "rank": 2,
+         "tier": "red"
+        },
+        {
+         "k": "PK %",
+         "v": 89.0,
+         "rank": 2,
+         "tier": "red"
+        }
+       ],
+       "units": [
+        {
+         "k": "Likely goalie",
+         "v": "Jake Oettinger 0.902 sv%",
+         "rank": null,
+         "tier": ""
+        }
+       ]
+      }
+     }
     },
     "CGY @ ANA": {
      "trend": {
@@ -4028,7 +7133,73 @@
        "tone": "up",
        "text": "Revenge spot: CGY lost 5-3 to ANA on November 6."
       }
-     ]
+     ],
+     "grid": {
+      "CGY": {
+       "n": 32,
+       "unit": "per game",
+       "cells": [
+        {
+         "k": "Goals",
+         "v": 3.4,
+         "rank": 20,
+         "tier": "yellow"
+        },
+        {
+         "k": "Shots",
+         "v": 29.9,
+         "rank": 28,
+         "tier": "green"
+        },
+        {
+         "k": "PK %",
+         "v": 82.0,
+         "rank": 9,
+         "tier": "red"
+        }
+       ],
+       "units": [
+        {
+         "k": "Likely goalie",
+         "v": "Dustin Wolf 0.875 sv%",
+         "rank": null,
+         "tier": ""
+        }
+       ]
+      },
+      "ANA": {
+       "n": 32,
+       "unit": "per game",
+       "cells": [
+        {
+         "k": "Goals",
+         "v": 3.8,
+         "rank": 30,
+         "tier": "green"
+        },
+        {
+         "k": "Shots",
+         "v": 26.9,
+         "rank": 13,
+         "tier": "yellow"
+        },
+        {
+         "k": "PK %",
+         "v": 74.0,
+         "rank": 22,
+         "tier": "yellow"
+        }
+       ],
+       "units": [
+        {
+         "k": "Likely goalie",
+         "v": "Lukas Dostal 0.856 sv%",
+         "rank": null,
+         "tier": ""
+        }
+       ]
+      }
+     }
     },
     "VAN @ VGK": {
      "trend": {
@@ -4204,7 +7375,73 @@
        "tone": "up",
        "text": "Revenge spot: VAN lost 3-2 to VGK on October 4."
       }
-     ]
+     ],
+     "grid": {
+      "VAN": {
+       "n": 32,
+       "unit": "per game",
+       "cells": [
+        {
+         "k": "Goals",
+         "v": 4.52,
+         "rank": 32,
+         "tier": "green"
+        },
+        {
+         "k": "Shots",
+         "v": 30.4,
+         "rank": 30,
+         "tier": "green"
+        },
+        {
+         "k": "PK %",
+         "v": 63.0,
+         "rank": 32,
+         "tier": "green"
+        }
+       ],
+       "units": [
+        {
+         "k": "Likely goalie",
+         "v": "Leevi Merilainen 0.885 sv%",
+         "rank": null,
+         "tier": ""
+        }
+       ]
+      },
+      "VGK": {
+       "n": 32,
+       "unit": "per game",
+       "cells": [
+        {
+         "k": "Goals",
+         "v": 2.62,
+         "rank": 6,
+         "tier": "red"
+        },
+        {
+         "k": "Shots",
+         "v": 25.8,
+         "rank": 5,
+         "tier": "red"
+        },
+        {
+         "k": "PK %",
+         "v": 78.0,
+         "rank": 17,
+         "tier": "yellow"
+        }
+       ],
+       "units": [
+        {
+         "k": "Likely goalie",
+         "v": "Carter Hart 0.896 sv%",
+         "rank": null,
+         "tier": ""
+        }
+       ]
+      }
+     }
     },
     "NSH @ SJ": {
      "trend": {
@@ -4388,7 +7625,73 @@
        "tone": "up",
        "text": "Revenge spot: NSH lost 3-2 to SJ on October 15."
       }
-     ]
+     ],
+     "grid": {
+      "NSH": {
+       "n": 32,
+       "unit": "per game",
+       "cells": [
+        {
+         "k": "Goals",
+         "v": 2.6,
+         "rank": 4,
+         "tier": "red"
+        },
+        {
+         "k": "Shots",
+         "v": 29.6,
+         "rank": 27,
+         "tier": "green"
+        },
+        {
+         "k": "PK %",
+         "v": 90.0,
+         "rank": 1,
+         "tier": "red"
+        }
+       ],
+       "units": [
+        {
+         "k": "Likely goalie",
+         "v": "Juuse Saros 0.921 sv%",
+         "rank": null,
+         "tier": ""
+        }
+       ]
+      },
+      "SJ": {
+       "n": 32,
+       "unit": "per game",
+       "cells": [
+        {
+         "k": "Goals",
+         "v": 3.5,
+         "rank": 26,
+         "tier": "green"
+        },
+        {
+         "k": "Shots",
+         "v": 30.5,
+         "rank": 31,
+         "tier": "green"
+        },
+        {
+         "k": "PK %",
+         "v": 75.0,
+         "rank": 21,
+         "tier": "yellow"
+        }
+       ],
+       "units": [
+        {
+         "k": "Likely goalie",
+         "v": "Yaroslav Askarov 0.890 sv%",
+         "rank": null,
+         "tier": ""
+        }
+       ]
+      }
+     }
     }
    }
   }
