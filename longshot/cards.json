@@ -1,5 +1,5 @@
 {
- "updated_az": "2026-11-16T15:20:01-07:00",
+ "updated_az": "2026-11-16T16:50:02-07:00",
  "note": "Estimates from public scores, closing lines, play by play, depth charts, injury reports and our matchup engine. Not betting advice.",
  "sports": {
   "nba": {
@@ -156,7 +156,7 @@
        "team": "BOS",
        "effect": "hurts",
        "tone": "down",
-       "text": "BOS C Neemias Queta listed Out on the injury report."
+       "text": "BOS on the second night of a back-to-back, ORL rested 2 days."
       },
       {
        "kind": "mismatch",
@@ -172,13 +172,6 @@
       }
      ],
      "stories": [
-      {
-       "kind": "story",
-       "team": "BOS",
-       "effect": "hurts",
-       "tone": "down",
-       "text": "BOS C Neemias Queta listed Out on the injury report."
-      },
       {
        "kind": "story",
        "team": "BOS",
@@ -558,12 +551,6 @@
        "team": "CHI",
        "pos": "C",
        "name": "Jalen Smith",
-       "status": "Day-To-Day"
-      },
-      {
-       "team": "CLE",
-       "pos": "SG",
-       "name": "Jaylon Tyson",
        "status": "Day-To-Day"
       },
       {
