@@ -187,7 +187,9 @@
     "label": "4+ rebounds",
     "line": 3.5,
     "score": 100,
-    "posted_az": "2026-11-15T07:51:47-07:00"
+    "posted_az": "2026-11-15T07:51:47-07:00",
+    "event_id": "401909986",
+    "athlete_id": "3945274"
    },
    {
     "id": "deep:2026-11-15:nba:4871144:assists",
@@ -201,7 +203,9 @@
     "label": "4+ assists",
     "line": 3.5,
     "score": 100,
-    "posted_az": "2026-11-15T07:51:47-07:00"
+    "posted_az": "2026-11-15T07:51:47-07:00",
+    "event_id": "401909991",
+    "athlete_id": "4871144"
    },
    {
     "id": "deep:2026-11-15:nba:4395625:totalRebounds",
@@ -215,7 +219,9 @@
     "label": "2+ rebounds",
     "line": 1.5,
     "score": 100,
-    "posted_az": "2026-11-15T07:51:47-07:00"
+    "posted_az": "2026-11-15T07:51:47-07:00",
+    "event_id": "401909990",
+    "athlete_id": "4395625"
    }
   ]
  },
