@@ -1,5 +1,5 @@
 {
- "pulled_az": "2026-11-16T07:01:06-07:00",
+ "pulled_az": "2026-11-16T15:31:12-07:00",
  "slate": "2026-11-16",
  "tz": "Arizona (MST)",
  "note": "Public graded record by card and by leg type. Record counts the first-posted card. Starting November 15, the featured parlay is Deep Floor, capped at 3 legs by Floor Score, with NBA threes left out. Its record before November 15 is a backtest: the rule applied to earlier posted cards. The November 14 model ticket is graded from the morning card; Jamal Murray Over 2.5 threes was a loss, and a later swap to rebounds is not counted. Sleeper flags: next-man-up backups tagged Sleeper, graded on a modest box-score floor once the game is final (NFL skill 25 rec / 30 rush yards, NBA 8+ points, NHL 1+ point). Contrarian tags: injury or rest news that cuts against the side with at least 10 points more of the traded action; a hit means that busy side lost. Floor Score, calibrated chance and these flags are estimates. Not betting advice. Sample sizes are still small.",
@@ -1572,23 +1572,23 @@
    "summary": {
     "wins": 24,
     "losses": 9,
-    "pending": 1,
+    "pending": 2,
     "void": 0,
     "n_graded": 33,
     "hit_rate": 72.7,
-    "record": "24-9 (1 pending)"
+    "record": "24-9 (2 pending)"
    },
    "by_slate": [
     {
      "wins": 0,
      "losses": 0,
-     "pending": 1,
+     "pending": 2,
      "void": 0,
      "n_graded": 0,
      "hit_rate": null,
-     "record": "0-0 (1 pending)",
+     "record": "0-0 (2 pending)",
      "slate": "2026-11-16",
-     "n": 1
+     "n": 2
     },
     {
      "wins": 1,
@@ -1735,11 +1735,11 @@
     {
      "wins": 2,
      "losses": 0,
-     "pending": 0,
+     "pending": 1,
      "void": 0,
      "n_graded": 2,
      "hit_rate": 100.0,
-     "record": "2-0",
+     "record": "2-0 (1 pending)",
      "key": "nba:assists"
     },
     {
@@ -1979,23 +1979,23 @@
    "summary": {
     "wins": 2,
     "losses": 0,
-    "pending": 4,
+    "pending": 6,
     "void": 4,
     "n_graded": 2,
     "hit_rate": 100.0,
-    "record": "2-0 (4 pending)"
+    "record": "2-0 (6 pending)"
    },
    "by_slate": [
     {
      "wins": 0,
      "losses": 0,
-     "pending": 1,
+     "pending": 3,
      "void": 0,
      "n_graded": 0,
      "hit_rate": null,
-     "record": "0-0 (1 pending)",
+     "record": "0-0 (3 pending)",
      "slate": "2026-11-16",
-     "n": 1
+     "n": 3
     },
     {
      "wins": 2,
@@ -2029,6 +2029,16 @@
      "hit_rate": 100.0,
      "record": "1-0",
      "key": "nfl:receiving_yards"
+    },
+    {
+     "wins": 0,
+     "losses": 0,
+     "pending": 2,
+     "void": 0,
+     "n_graded": 0,
+     "hit_rate": null,
+     "record": "0-0 (2 pending)",
+     "key": "nba:other"
     },
     {
      "wins": 0,
@@ -2200,6 +2210,34 @@
      "def": "BAL",
      "rank": 23,
      "text": "KeAndre Lambert-Smith next up at WR if Ladd McConkey sits; BAL ranks 23 vs WR."
+    },
+    {
+     "kind": "sleeper",
+     "slate": "2026-11-16",
+     "sport": "nba",
+     "game": "CHI @ CLE",
+     "team": "CLE",
+     "player": "Mario Hezonja",
+     "pos": "PF",
+     "out": "Evan Mobley",
+     "status": "Out",
+     "def": "CHI",
+     "rank": 27,
+     "text": "Mario Hezonja next up at PF if Evan Mobley sits; CHI ranks 27 vs PF."
+    },
+    {
+     "kind": "sleeper",
+     "slate": "2026-11-16",
+     "sport": "nba",
+     "game": "GS @ NO",
+     "team": "NO",
+     "player": "Saddiq Bey",
+     "pos": "SF",
+     "out": "Trey Murphy III",
+     "status": "Out",
+     "def": "GS",
+     "rank": 22,
+     "text": "Saddiq Bey next up at SF if Trey Murphy III sits; GS ranks 22 vs SF."
     }
    ]
   },
@@ -2208,23 +2246,23 @@
    "summary": {
     "wins": 0,
     "losses": 1,
-    "pending": 8,
+    "pending": 15,
     "void": 0,
     "n_graded": 1,
     "hit_rate": 0.0,
-    "record": "0-1 (8 pending)"
+    "record": "0-1 (15 pending)"
    },
    "by_slate": [
     {
      "wins": 0,
      "losses": 0,
-     "pending": 3,
+     "pending": 10,
      "void": 0,
      "n_graded": 0,
      "hit_rate": null,
-     "record": "0-0 (3 pending)",
+     "record": "0-0 (10 pending)",
      "slate": "2026-11-16",
-     "n": 3
+     "n": 10
     },
     {
      "wins": 0,
@@ -2242,11 +2280,11 @@
     {
      "wins": 0,
      "losses": 1,
-     "pending": 1,
+     "pending": 8,
      "void": 0,
      "n_graded": 1,
      "hit_rate": 0.0,
-     "record": "0-1 (1 pending)",
+     "record": "0-1 (8 pending)",
      "key": "nba:other"
     },
     {
@@ -2373,6 +2411,83 @@
      "busy_team": "ANA",
      "action_share_gap": 64,
      "text": "Revenge spot: CGY lost 5-3 to ANA on November 6."
+    },
+    {
+     "kind": "contrarian",
+     "slate": "2026-11-16",
+     "sport": "nba",
+     "game": "ORL @ BOS",
+     "team": "BOS",
+     "effect": "hurts",
+     "busy_team": "BOS",
+     "action_share_gap": 64,
+     "text": "BOS C Neemias Queta listed Out on the injury report."
+    },
+    {
+     "kind": "contrarian",
+     "slate": "2026-11-16",
+     "sport": "nba",
+     "game": "ORL @ BOS",
+     "team": "BOS",
+     "effect": "hurts",
+     "busy_team": "BOS",
+     "action_share_gap": 64,
+     "text": "BOS on the second night of a back-to-back, ORL rested 2 days."
+    },
+    {
+     "kind": "contrarian",
+     "slate": "2026-11-16",
+     "sport": "nba",
+     "game": "ORL @ BOS",
+     "team": "ORL",
+     "effect": "helps",
+     "busy_team": "BOS",
+     "action_share_gap": 64,
+     "text": "Revenge spot: ORL lost 108-97 to BOS on November 1."
+    },
+    {
+     "kind": "contrarian",
+     "slate": "2026-11-16",
+     "sport": "nba",
+     "game": "MEM @ WSH",
+     "team": "WSH",
+     "effect": "hurts",
+     "busy_team": "WSH",
+     "action_share_gap": 26,
+     "text": "WSH on the second night of a back-to-back, MEM rested 1 day."
+    },
+    {
+     "kind": "contrarian",
+     "slate": "2026-11-16",
+     "sport": "nba",
+     "game": "PHI @ BKN",
+     "team": "PHI",
+     "effect": "hurts",
+     "busy_team": "PHI",
+     "action_share_gap": 36,
+     "text": "PHI on the second night of a back-to-back, BKN rested 1 day."
+    },
+    {
+     "kind": "contrarian",
+     "slate": "2026-11-16",
+     "sport": "nba",
+     "game": "GS @ NO",
+     "team": "NO",
+     "effect": "helps",
+     "busy_team": "GS",
+     "action_share_gap": 66,
+     "text": "Revenge spot: NO lost 138-87 to GS on November 9."
+    },
+    {
+     "kind": "contrarian",
+     "slate": "2026-11-16",
+     "sport": "nba",
+     "game": "PHX @ DEN",
+     "team": "PHX",
+     "effect": "helps",
+     "busy_team": "DEN",
+     "action_share_gap": 12,
+     "text": "Revenge spot: PHX lost 127-120 to DEN on October 30."
     }
    ]
   }
@@ -3647,11 +3762,11 @@
    {
     "wins": 2,
     "losses": 0,
-    "pending": 0,
+    "pending": 1,
     "void": 0,
     "n_graded": 2,
     "hit_rate": 100.0,
-    "record": "2-0",
+    "record": "2-0 (1 pending)",
     "key": "nba:assists"
    },
    {
