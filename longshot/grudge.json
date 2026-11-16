@@ -1,5 +1,5 @@
 {
- "pulled_az": "2026-11-15T07:52:32-07:00",
+ "pulled_az": "2026-11-15T15:31:11-07:00",
  "slate": "2026-11-15",
  "tz": "Arizona (MST)",
  "card": "Grudge",
@@ -29,6 +29,41 @@
  "top": {
   "nba": [
    {
+    "id": "2026-11-15:nba:4396971:threes",
+    "sport": "nba",
+    "event_id": "401909987",
+    "game": "CHA @ LAC",
+    "start_utc": "2026-11-15T21:30:00+00:00",
+    "start_az": "2:30 PM",
+    "athlete_id": "4396971",
+    "player": "Naz Reid",
+    "team": "CHA",
+    "stat": "threes",
+    "label": "Over 1.5 threes",
+    "line": 1.5,
+    "avg": 2.33,
+    "last": 1.0,
+    "l5": [
+     1.0,
+     4.0,
+     2.0,
+     2.0,
+     2.0
+    ],
+    "hit_season": 0.75,
+    "hit_l5": 0.8,
+    "games": 12,
+    "score": 73.1,
+    "cushion": 0.8,
+    "notes": [
+     "L10 7/10 over",
+     "L5 4/5 over",
+     "usage L5 104% of season"
+    ],
+    "market_pct": 61,
+    "first_seen": "2026-11-15T07:50:46-07:00"
+   },
+   {
     "id": "2026-11-15:nba:4433287:threes",
     "sport": "nba",
     "event_id": "401909987",
@@ -53,7 +88,7 @@
     "hit_season": 0.7,
     "hit_l5": 0.6,
     "games": 10,
-    "score": 62.3,
+    "score": 62.2,
     "cushion": 0.2,
     "notes": [
      "L10 7/10 over",
@@ -64,7 +99,45 @@
     "first_seen": "2026-11-15T07:50:46-07:00"
    }
   ],
-  "nhl": [],
+  "nhl": [
+   {
+    "id": "2026-11-15:nhl:3895074:assists",
+    "sport": "nhl",
+    "event_id": "401892721",
+    "game": "EDM @ PHI",
+    "start_utc": "2026-11-16T00:30:00+00:00",
+    "start_az": "5:30 PM",
+    "athlete_id": "3895074",
+    "player": "Connor McDavid",
+    "team": "EDM",
+    "stat": "assists",
+    "label": "Over 0.5 assists",
+    "line": 0.5,
+    "avg": 1.86,
+    "last": 1.0,
+    "l5": [
+     1.0,
+     1.0,
+     0.0,
+     3.0,
+     3.0
+    ],
+    "hit_season": 0.952,
+    "hit_l5": 0.8,
+    "games": 21,
+    "score": 78.1,
+    "cushion": 1.4,
+    "notes": [
+     "L10 9/10 over",
+     "L5 4/5 over",
+     "usage L5 102% of season",
+     "back to back",
+     "blowout risk"
+    ],
+    "market_pct": 64,
+    "first_seen": "2026-11-15T07:50:46-07:00"
+   }
+  ],
   "nfl": [
    {
     "id": "2026-11-15:nfl:3918298:anytimeTD",
@@ -111,8 +184,8 @@
     "player": "Braelon Allen",
     "team": "NYJ",
     "stat": "rushingYards",
-    "label": "Over 31.5 rushing yards",
-    "line": 31.5,
+    "label": "Over 32.5 rushing yards",
+    "line": 32.5,
     "avg": 66.44,
     "last": 33.0,
     "l5": [
@@ -126,7 +199,7 @@
     "hit_l5": 1.0,
     "games": 9,
     "score": 68.0,
-    "cushion": 34.9,
+    "cushion": 33.9,
     "notes": [
      "L10 7/9 over",
      "L5 5/5 over",
@@ -137,7 +210,5 @@
    }
   ]
  },
- "top_note": {
-  "nhl": "No Grudge legs left on this slate after dropping picks already on the model ticket or Deep Floor."
- }
+ "top_note": {}
 }
