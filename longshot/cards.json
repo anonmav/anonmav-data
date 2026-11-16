@@ -1,5 +1,5 @@
 {
- "updated_az": "2026-11-16T07:20:02-07:00",
+ "updated_az": "2026-11-16T11:20:01-07:00",
  "note": "Estimates from public scores, closing lines, play by play, depth charts, injury reports and our matchup engine. Not betting advice.",
  "sports": {
   "nba": {
@@ -162,7 +162,7 @@
        "kind": "mismatch",
        "team": "BOS",
        "tone": "up",
-       "text": "Jayson Tatum (BOS, 7.5 ast): ORL allows 4.8 assists to SF/PF (+12% vs avg), game pace -2%."
+       "text": "Jayson Tatum (BOS, 7.3 ast): ORL allows 4.8 assists to SF/PF (+12% vs avg), game pace -2%."
       },
       {
        "kind": "mismatch",
@@ -276,7 +276,15 @@
         }
        ]
       }
-     }
+     },
+     "changes": [
+      {
+       "team": "BOS",
+       "pos": "C",
+       "name": "Neemias Queta",
+       "status": "Day-To-Day"
+      }
+     ]
     },
     "CHI @ CLE": {
      "trend": {
@@ -728,7 +736,7 @@
        "kind": "mismatch",
        "team": "WSH",
        "tone": "down",
-       "text": "Trae Young (WSH, 8.8 ast): MEM allows 5.8 assists to PG/SG (-12% vs avg), game pace +1%."
+       "text": "Trae Young (WSH, 8.7 ast): MEM allows 5.8 assists to PG/SG (-12% vs avg), game pace +1%."
       }
      ],
      "stories": [
@@ -1012,13 +1020,13 @@
        "team": "PHI",
        "effect": "hurts",
        "tone": "down",
-       "text": "PHI on the second night of a back-to-back, BKN rested 1 day."
+       "text": "PHI F LeBron James listed Out on the injury report."
       },
       {
        "kind": "mismatch",
        "team": "PHI",
        "tone": "up",
-       "text": "LeBron James (PHI, 6.5 ast): BKN allows 4.8 assists to SF/PF (+12% vs avg)."
+       "text": "LeBron James (PHI, 6.9 ast): BKN allows 4.8 assists to SF/PF (+12% vs avg)."
       },
       {
        "kind": "mismatch",
@@ -1028,6 +1036,13 @@
       }
      ],
      "stories": [
+      {
+       "kind": "story",
+       "team": "PHI",
+       "effect": "hurts",
+       "tone": "down",
+       "text": "PHI F LeBron James listed Out on the injury report."
+      },
       {
        "kind": "story",
        "team": "PHI",
@@ -1129,9 +1144,31 @@
      "changes": [
       {
        "team": "PHI",
+       "pos": "PF",
+       "name": "LeBron James",
+       "status": "Out"
+      },
+      {
+       "team": "PHI",
        "pos": "C",
        "name": "Joel Embiid",
        "status": "Day-To-Day"
+      }
+     ],
+     "next": [
+      {
+       "team": "PHI",
+       "pos": "PF",
+       "out": "LeBron James",
+       "status": "Out",
+       "backup": "Dean Wade",
+       "def": "BKN",
+       "rank": 15,
+       "n": 30,
+       "v": 22.1,
+       "yds": null,
+       "unit": "pts",
+       "sleeper": false
       }
      ]
     },
@@ -1292,13 +1329,13 @@
        "kind": "mismatch",
        "team": "HOU",
        "tone": "up",
-       "text": "Amen Thompson (HOU, 7.0 reb): MIA allows 6.6 rebounds to PG/SG (+5% vs avg)."
+       "text": "Fred VanVleet (HOU, 5.4 ast): MIA allows 7.3 assists to PG/SG (+10% vs avg)."
       },
       {
        "kind": "mismatch",
        "team": "HOU",
        "tone": "down",
-       "text": "Alperen Sengun (HOU, 7.6 ast): MIA allows 2.7 assists to C (-35% vs avg)."
+       "text": "Alperen Sengun (HOU, 7.7 ast): MIA allows 2.7 assists to C (-35% vs avg)."
       }
      ],
      "stories": [
@@ -1404,8 +1441,8 @@
       {
        "team": "HOU",
        "pos": "PG",
-       "name": "Fred VanVleet",
-       "status": "Out"
+       "name": "Amen Thompson",
+       "status": "Day-To-Day"
       },
       {
        "team": "MIA",
@@ -1951,7 +1988,7 @@
        "pos": "SG",
        "out": "Dejounte Murray",
        "status": "Out",
-       "backup": "Jordan Poole",
+       "backup": "Herbert Jones",
        "def": "GS",
        "rank": 19,
        "n": 30,
@@ -2133,13 +2170,13 @@
        "kind": "mismatch",
        "team": "PHX",
        "tone": "up",
-       "text": "Dillon Brooks (PHX, 14.9 pts): DEN allows 24.4 points to SF/PF (+13% vs avg), game pace -1%."
+       "text": "Dillon Brooks (PHX, 13.8 pts): DEN allows 24.4 points to SF/PF (+13% vs avg), game pace -1%."
       },
       {
        "kind": "mismatch",
        "team": "PHX",
        "tone": "down",
-       "text": "Miles Bridges (PHX, 7.3 reb): DEN allows 7.8 rebounds to SF/PF (-16% vs avg), game pace -1%."
+       "text": "Miles Bridges (PHX, 6.9 reb): DEN allows 7.8 rebounds to SF/PF (-16% vs avg), game pace -1%."
       }
      ],
      "stories": [
