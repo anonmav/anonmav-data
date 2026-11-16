@@ -1,5 +1,5 @@
 {
- "updated_az": "2026-11-16T11:20:01-07:00",
+ "updated_az": "2026-11-16T15:20:01-07:00",
  "note": "Estimates from public scores, closing lines, play by play, depth charts, injury reports and our matchup engine. Not betting advice.",
  "sports": {
   "nba": {
@@ -156,7 +156,7 @@
        "team": "BOS",
        "effect": "hurts",
        "tone": "down",
-       "text": "BOS on the second night of a back-to-back, ORL rested 2 days."
+       "text": "BOS C Neemias Queta listed Out on the injury report."
       },
       {
        "kind": "mismatch",
@@ -172,6 +172,13 @@
       }
      ],
      "stories": [
+      {
+       "kind": "story",
+       "team": "BOS",
+       "effect": "hurts",
+       "tone": "down",
+       "text": "BOS C Neemias Queta listed Out on the injury report."
+      },
       {
        "kind": "story",
        "team": "BOS",
@@ -282,7 +289,23 @@
        "team": "BOS",
        "pos": "C",
        "name": "Neemias Queta",
-       "status": "Day-To-Day"
+       "status": "Out"
+      }
+     ],
+     "next": [
+      {
+       "team": "BOS",
+       "pos": "C",
+       "out": "Neemias Queta",
+       "status": "Out",
+       "backup": "Mitchell Robinson",
+       "def": "ORL",
+       "rank": 6,
+       "n": 30,
+       "v": 18.3,
+       "yds": null,
+       "unit": "pts",
+       "sleeper": false
       }
      ]
     },
@@ -1020,13 +1043,13 @@
        "team": "PHI",
        "effect": "hurts",
        "tone": "down",
-       "text": "PHI F LeBron James listed Out on the injury report."
+       "text": "PHI on the second night of a back-to-back, BKN rested 1 day."
       },
       {
        "kind": "mismatch",
-       "team": "PHI",
+       "team": "BKN",
        "tone": "up",
-       "text": "LeBron James (PHI, 6.9 ast): BKN allows 4.8 assists to SF/PF (+12% vs avg)."
+       "text": "Julius Randle (BKN, 19.9 pts): PHI allows 23.2 points to SF/PF (+8% vs avg)."
       },
       {
        "kind": "mismatch",
@@ -1036,13 +1059,6 @@
       }
      ],
      "stories": [
-      {
-       "kind": "story",
-       "team": "PHI",
-       "effect": "hurts",
-       "tone": "down",
-       "text": "PHI F LeBron James listed Out on the injury report."
-      },
       {
        "kind": "story",
        "team": "PHI",
