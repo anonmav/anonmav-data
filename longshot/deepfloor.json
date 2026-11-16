@@ -173,7 +173,7 @@
   "slate": "2026-11-15",
   "posted_az": "2026-11-15T07:51:47-07:00",
   "methodology": "Record counts the first-posted card.",
-  "note": "Featured parlay is the Deep Floor card, capped at 3 legs by Floor Score, with NBA threes left out. Record counts the first-posted card.",
+  "note": "Featured parlay is the Deep Floor card, capped at 3 legs by Floor Score, with NBA threes left out. Record counts the first-posted card. Past results apply this rule to earlier posted cards. Featured live from November 15.",
   "legs": [
    {
     "id": "deep:2026-11-15:nba:3945274:totalRebounds",

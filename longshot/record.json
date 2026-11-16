@@ -19,7 +19,7 @@
   }
  ],
  "methodology": "Record counts the first-posted card.",
- "note": "Record counts the first-posted card. Later republishes do not swap legs for the official record. Starting November 15, NBA threes are left out of the live model card.",
+ "note": "Record counts the first-posted card. Later republishes do not swap legs for the official record. Starting November 16, NBA threes are left out of the live model card. The November 15 first-posted card included Devin Booker and Naz Reid Over 1.5 threes, and they count.",
  "thresholds": {
   "model": "default-2026-11-09",
   "calib": "calib-2026-11-09",
