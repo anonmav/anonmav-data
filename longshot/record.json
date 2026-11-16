@@ -1,6 +1,6 @@
 {
- "pulled_az": "2026-11-15T15:30:02-07:00",
- "slate": "2026-11-15",
+ "pulled_az": "2026-11-16T07:00:01-07:00",
+ "slate": "2026-11-16",
  "tz": "Arizona (MST)",
  "sources": [
   {
@@ -22,25 +22,101 @@
  "note": "Record counts the first-posted card. Later republishes do not swap legs for the official record. Starting November 16, NBA threes are left out of the live model card. The November 15 first-posted card included Devin Booker and Naz Reid Over 1.5 threes, and they count.",
  "thresholds": {
   "model": "default-2026-11-09",
-  "calib": "calib-2026-11-09",
+  "calib": "calib-2026-11-16",
   "green_p": 0.6,
   "yellow_p": 0.5,
   "legacy_green": 90
  },
  "model_status": {
   "beats_market": false,
-  "calibrated_logloss": 0.6671,
-  "market_logloss": 0.6613,
-  "n_train": 1303,
+  "calibrated_logloss": 0.6649,
+  "market_logloss": 0.6643,
+  "n_train": 2712,
   "text": "The market is still more accurate than our model on recent graded legs, so treat Edge as tracking only."
  },
  "summary": {
-  "wins": 48,
-  "losses": 14,
-  "pending": 9,
+  "wins": 54,
+  "losses": 17,
+  "pending": 4,
   "void": 0
  },
  "picks": [
+  {
+   "id": "2026-11-16:nhl:4565236:points",
+   "slate": "2026-11-16",
+   "sport": "nhl",
+   "event_id": "401892726",
+   "game": "MTL @ NYR",
+   "start_utc": "2026-11-17T00:30:00+00:00",
+   "start_az": "5:30 PM",
+   "athlete_id": "4565236",
+   "player": "Cole Caufield",
+   "team": "MTL",
+   "stat": "points",
+   "label": "Over 0.5 points",
+   "line": 0.5,
+   "score": 72.6,
+   "tier": "green",
+   "model": "default-2026-11-09",
+   "posted_az": "2026-11-16T07:00:01-07:00"
+  },
+  {
+   "id": "2026-11-16:nhl:4024857:assists",
+   "slate": "2026-11-16",
+   "sport": "nhl",
+   "event_id": "401892727",
+   "game": "VAN @ UTA",
+   "start_utc": "2026-11-17T02:30:00+00:00",
+   "start_az": "7:30 PM",
+   "athlete_id": "4024857",
+   "player": "Clayton Keller",
+   "team": "UTA",
+   "stat": "assists",
+   "label": "Over 0.5 assists",
+   "line": 0.5,
+   "score": 73.0,
+   "tier": "green",
+   "model": "default-2026-11-09",
+   "posted_az": "2026-11-16T07:00:01-07:00"
+  },
+  {
+   "id": "2026-11-16:nba:5105565:threes",
+   "slate": "2026-11-16",
+   "sport": "nba",
+   "event_id": "401909999",
+   "game": "POR @ MIN",
+   "start_utc": "2026-11-17T01:00:00+00:00",
+   "start_az": "6:00 PM",
+   "athlete_id": "5105565",
+   "player": "Donovan Clingan",
+   "team": "POR",
+   "stat": "threes",
+   "label": "Over 0.5 threes",
+   "line": 0.5,
+   "score": 73.6,
+   "tier": "green",
+   "model": "default-2026-11-09",
+   "posted_az": "2026-11-16T07:00:01-07:00"
+  },
+  {
+   "id": "2026-11-16:nba:4278053:threes",
+   "slate": "2026-11-16",
+   "sport": "nba",
+   "event_id": "401909998",
+   "game": "HOU @ MIA",
+   "start_utc": "2026-11-17T00:30:00+00:00",
+   "start_az": "5:30 PM",
+   "athlete_id": "4278053",
+   "player": "Davion Mitchell",
+   "team": "MIA",
+   "stat": "threes",
+   "label": "Over 1.5 threes",
+   "line": 1.5,
+   "score": 73.9,
+   "tier": "green",
+   "model": "default-2026-11-09",
+   "posted_az": "2026-11-16T07:00:01-07:00"
+  },
   {
    "id": "2026-11-15:nhl:5436:points",
    "slate": "2026-11-15",
@@ -58,7 +134,10 @@
    "score": 78.2,
    "tier": "green",
    "model": "default-2026-11-09",
-   "posted_az": "2026-11-15T07:50:46-07:00"
+   "posted_az": "2026-11-15T07:50:46-07:00",
+   "result": 0.0,
+   "grade": "loss",
+   "graded_az": "2026-11-16T02:30:41-07:00"
   },
   {
    "id": "2026-11-15:nhl:5080145:points",
@@ -77,7 +156,10 @@
    "score": 82.4,
    "tier": "green",
    "model": "default-2026-11-09",
-   "posted_az": "2026-11-15T07:50:46-07:00"
+   "posted_az": "2026-11-15T07:50:46-07:00",
+   "result": 1.0,
+   "grade": "win",
+   "graded_az": "2026-11-16T02:30:41-07:00"
   },
   {
    "id": "2026-11-15:nhl:3895074:assists",
@@ -96,7 +178,10 @@
    "score": 77.9,
    "tier": "green",
    "model": "default-2026-11-09",
-   "posted_az": "2026-11-15T07:50:46-07:00"
+   "posted_az": "2026-11-15T07:50:46-07:00",
+   "result": 2.0,
+   "grade": "win",
+   "graded_az": "2026-11-16T02:30:42-07:00"
   },
   {
    "id": "2026-11-15:nfl:4361579:anytimeTD",
@@ -115,7 +200,10 @@
    "score": 73.3,
    "tier": "green",
    "model": "default-2026-11-09",
-   "posted_az": "2026-11-15T07:50:46-07:00"
+   "posted_az": "2026-11-15T07:50:46-07:00",
+   "result": 0.0,
+   "grade": "loss",
+   "graded_az": "2026-11-16T02:31:04-07:00"
   },
   {
    "id": "2026-11-15:nfl:4379399:anytimeTD",
@@ -134,7 +222,10 @@
    "score": 75.0,
    "tier": "green",
    "model": "default-2026-11-09",
-   "posted_az": "2026-11-15T07:50:46-07:00"
+   "posted_az": "2026-11-15T07:50:46-07:00",
+   "result": 1.0,
+   "grade": "win",
+   "graded_az": "2026-11-16T02:31:04-07:00"
   },
   {
    "id": "2026-11-15:nfl:4361741:passingTouchdowns",
@@ -153,7 +244,10 @@
    "score": 76.5,
    "tier": "green",
    "model": "default-2026-11-09",
-   "posted_az": "2026-11-15T07:50:46-07:00"
+   "posted_az": "2026-11-15T07:50:46-07:00",
+   "result": 3.0,
+   "grade": "win",
+   "graded_az": "2026-11-16T02:31:03-07:00"
   },
   {
    "id": "2026-11-15:nba:4396971:threes",
@@ -172,7 +266,10 @@
    "score": 73.3,
    "tier": "green",
    "model": "default-2026-11-09",
-   "posted_az": "2026-11-15T07:50:46-07:00"
+   "posted_az": "2026-11-15T07:50:46-07:00",
+   "result": 3.0,
+   "grade": "win",
+   "graded_az": "2026-11-16T02:30:03-07:00"
   },
   {
    "id": "2026-11-15:nba:4433249:assists",
@@ -191,7 +288,10 @@
    "score": 68.2,
    "tier": "green",
    "model": "default-2026-11-09",
-   "posted_az": "2026-11-15T07:50:46-07:00"
+   "posted_az": "2026-11-15T07:50:46-07:00",
+   "result": 2.0,
+   "grade": "win",
+   "graded_az": "2026-11-16T02:30:03-07:00"
   },
   {
    "id": "2026-11-15:nba:3136193:threes",
@@ -210,7 +310,10 @@
    "score": 76.9,
    "tier": "green",
    "model": "default-2026-11-09",
-   "posted_az": "2026-11-15T07:50:46-07:00"
+   "posted_az": "2026-11-15T07:50:46-07:00",
+   "result": 0.0,
+   "grade": "loss",
+   "graded_az": "2026-11-16T02:30:02-07:00"
   },
   {
    "id": "2026-11-14:nhl:4320548:points",

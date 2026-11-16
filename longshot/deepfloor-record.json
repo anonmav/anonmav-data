@@ -1,6 +1,6 @@
 {
- "pulled_az": "2026-11-15T15:30:50-07:00",
- "slate": "2026-11-15",
+ "pulled_az": "2026-11-16T07:00:46-07:00",
+ "slate": "2026-11-16",
  "tz": "Arizona (MST)",
  "card": "Deep Floor",
  "note": "Conservative listed thresholds. A pick needs a Floor Score of 90 or better. This card is separate from the model picks. Record counts the first-posted card. Featured parlay is the Deep Floor card, capped at 3 legs by Floor Score, with NBA threes left out. Record counts the first-posted card. Past results apply this rule to earlier posted cards. Featured live from November 15. Model picks are tracked separately. Losses are listed with their dates. No Deep Floor card was posted November 10-13, 2026, while the board used model lines.",
@@ -21,9 +21,9 @@
   "yellow": 75
  },
  "summary": {
-  "wins": 38,
-  "losses": 4,
-  "pending": 8,
+  "wins": 43,
+  "losses": 7,
+  "pending": 6,
   "void": 0
  },
  "picks": [
@@ -666,7 +666,10 @@
    "label": "4+ assists",
    "line": 3.5,
    "score": 100,
-   "posted_az": "2026-11-15T07:51:47-07:00"
+   "posted_az": "2026-11-15T07:51:47-07:00",
+   "result": 8.0,
+   "grade": "win",
+   "graded_az": "2026-11-16T02:32:20-07:00"
   },
   {
    "id": "deep:2026-11-15:nba:3945274:totalRebounds",
@@ -683,7 +686,10 @@
    "label": "4+ rebounds",
    "line": 3.5,
    "score": 100,
-   "posted_az": "2026-11-15T07:51:47-07:00"
+   "posted_az": "2026-11-15T07:51:47-07:00",
+   "result": 3.0,
+   "grade": "loss",
+   "graded_az": "2026-11-16T02:32:19-07:00"
   },
   {
    "id": "deep:2026-11-15:nba:4395625:totalRebounds",
@@ -700,7 +706,10 @@
    "label": "2+ rebounds",
    "line": 1.5,
    "score": 100,
-   "posted_az": "2026-11-15T07:51:47-07:00"
+   "posted_az": "2026-11-15T07:51:47-07:00",
+   "result": 5.0,
+   "grade": "win",
+   "graded_az": "2026-11-16T02:32:20-07:00"
   },
   {
    "id": "deep:2026-11-15:nfl:4361370:receivingYards",
@@ -717,7 +726,10 @@
    "label": "40+ receiving yards",
    "line": 39.5,
    "score": 97.0,
-   "posted_az": "2026-11-15T07:51:47-07:00"
+   "posted_az": "2026-11-15T07:51:47-07:00",
+   "result": 30.0,
+   "grade": "loss",
+   "graded_az": "2026-11-16T02:33:19-07:00"
   },
   {
    "id": "deep:2026-11-15:nfl:4248528:receivingYards",
@@ -734,7 +746,10 @@
    "label": "40+ receiving yards",
    "line": 39.5,
    "score": 97.0,
-   "posted_az": "2026-11-15T07:51:47-07:00"
+   "posted_az": "2026-11-15T07:51:47-07:00",
+   "result": 37.0,
+   "grade": "loss",
+   "graded_az": "2026-11-16T02:33:17-07:00"
   },
   {
    "id": "deep:2026-11-15:nfl:4430878:receivingYards",
@@ -751,7 +766,10 @@
    "label": "50+ receiving yards",
    "line": 49.5,
    "score": 97.0,
-   "posted_az": "2026-11-15T07:51:47-07:00"
+   "posted_az": "2026-11-15T07:51:47-07:00",
+   "result": 171.0,
+   "grade": "win",
+   "graded_az": "2026-11-16T02:33:20-07:00"
   },
   {
    "id": "deep:2026-11-15:nhl:3895074:points",
@@ -768,7 +786,10 @@
    "label": "1+ points",
    "line": 0.5,
    "score": 95.0,
-   "posted_az": "2026-11-15T07:51:47-07:00"
+   "posted_az": "2026-11-15T07:51:47-07:00",
+   "result": 3.0,
+   "grade": "win",
+   "graded_az": "2026-11-16T02:32:56-07:00"
   },
   {
    "id": "deep:2026-11-15:nhl:3114727:points",
@@ -785,7 +806,112 @@
    "label": "1+ points",
    "line": 0.5,
    "score": 90.7,
-   "posted_az": "2026-11-15T07:51:47-07:00"
+   "posted_az": "2026-11-15T07:51:47-07:00",
+   "result": 3.0,
+   "grade": "win",
+   "graded_az": "2026-11-16T02:32:57-07:00"
+  },
+  {
+   "id": "deep:2026-11-16:nba:4683021:totalRebounds",
+   "slate": "2026-11-16",
+   "sport": "nba",
+   "event_id": "401909999",
+   "game": "POR @ MIN",
+   "start_utc": "2026-11-17T01:00:00+00:00",
+   "start_az": "6:00 PM",
+   "athlete_id": "4683021",
+   "player": "Deni Avdija",
+   "team": "POR",
+   "stat": "totalRebounds",
+   "label": "2+ rebounds",
+   "line": 1.5,
+   "score": 100,
+   "posted_az": "2026-11-16T07:00:46-07:00"
+  },
+  {
+   "id": "deep:2026-11-16:nba:3908809:totalRebounds",
+   "slate": "2026-11-16",
+   "sport": "nba",
+   "event_id": "401909995",
+   "game": "CHI @ CLE",
+   "start_utc": "2026-11-17T00:00:00+00:00",
+   "start_az": "5:00 PM",
+   "athlete_id": "3908809",
+   "player": "Donovan Mitchell",
+   "team": "CLE",
+   "stat": "totalRebounds",
+   "label": "2+ rebounds",
+   "line": 1.5,
+   "score": 99.8,
+   "posted_az": "2026-11-16T07:00:46-07:00"
+  },
+  {
+   "id": "deep:2026-11-16:nba:4871145:assists",
+   "slate": "2026-11-16",
+   "sport": "nba",
+   "event_id": "401909995",
+   "game": "CHI @ CLE",
+   "start_utc": "2026-11-17T00:00:00+00:00",
+   "start_az": "5:00 PM",
+   "athlete_id": "4871145",
+   "player": "Josh Giddey",
+   "team": "CHI",
+   "stat": "assists",
+   "label": "4+ assists",
+   "line": 3.5,
+   "score": 100,
+   "posted_az": "2026-11-16T07:00:46-07:00"
+  },
+  {
+   "id": "deep:2026-11-16:nfl:3043078:rushingYards",
+   "slate": "2026-11-16",
+   "sport": "nfl",
+   "event_id": "401873065",
+   "game": "LAC @ BAL",
+   "start_utc": "2026-11-17T01:15:00+00:00",
+   "start_az": "6:15 PM",
+   "athlete_id": "3043078",
+   "player": "Derrick Henry",
+   "team": "BAL",
+   "stat": "rushingYards",
+   "label": "40+ rushing yards",
+   "line": 39.5,
+   "score": 96.4,
+   "posted_az": "2026-11-16T07:00:46-07:00"
+  },
+  {
+   "id": "deep:2026-11-16:nfl:4685382:rushingYards",
+   "slate": "2026-11-16",
+   "sport": "nfl",
+   "event_id": "401873065",
+   "game": "LAC @ BAL",
+   "start_utc": "2026-11-17T01:15:00+00:00",
+   "start_az": "6:15 PM",
+   "athlete_id": "4685382",
+   "player": "Omarion Hampton",
+   "team": "LAC",
+   "stat": "rushingYards",
+   "label": "15+ rushing yards",
+   "line": 14.5,
+   "score": 97.0,
+   "posted_az": "2026-11-16T07:00:46-07:00"
+  },
+  {
+   "id": "deep:2026-11-16:nfl:4686612:receptions",
+   "slate": "2026-11-16",
+   "sport": "nfl",
+   "event_id": "401873065",
+   "game": "LAC @ BAL",
+   "start_utc": "2026-11-17T01:15:00+00:00",
+   "start_az": "6:15 PM",
+   "athlete_id": "4686612",
+   "player": "Tre' Harris",
+   "team": "LAC",
+   "stat": "receptions",
+   "label": "2+ receptions",
+   "line": 1.5,
+   "score": 90.6,
+   "posted_az": "2026-11-16T07:00:46-07:00"
   }
  ],
  "featured_parlay": {
