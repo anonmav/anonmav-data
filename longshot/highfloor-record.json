@@ -1,0 +1,64 @@
+{
+ "pulled_az": "2026-11-17T01:40:16-07:00",
+ "start": "2026-11-17",
+ "note": "High Floor forward test. Started November 17, 2026 at 0-0. Singles only, locked at publish, graded daily.",
+ "rule": [
+  "A test, not picks. Singles only: Over legs where the player cleared the line in at least 8 of the last 10 games and in at least 75% of this season's games, with a consensus line posted.",
+  "One leg per game and at most 5 a day. If more qualify, we keep the highest last 10 count, then the season hit rate. NBA threes are left out.",
+  "Legs lock at the 7 AM Arizona publish with the consensus line, odds and implied chance. No swaps and no backfill. The record starts at 0-0 on November 17, 2026.",
+  "Graded from the final box score. Losses are listed with their dates.",
+  "It needs about 300 graded legs, roughly 8 to 9 weeks. It passes only if the hit rate beats the market chance by about 4 to 5 points. If it does not, we retire it.",
+  "Floor scores, market chances and defense ranks are estimates. No stakes or profit are tracked. Not betting advice."
+ ],
+ "summary": {
+  "wins": 0,
+  "losses": 0,
+  "void": 0,
+  "pending": 0,
+  "graded": 0,
+  "target": 300,
+  "hit_rate": null,
+  "market_avg_pct": null,
+  "gap_pts": null
+ },
+ "splits": {
+  "soft_matchup": {
+   "wins": 0,
+   "losses": 0,
+   "void": 0,
+   "pending": 0,
+   "graded": 0,
+   "target": 300,
+   "hit_rate": null,
+   "market_avg_pct": null,
+   "gap_pts": null
+  },
+  "other_matchup": {
+   "wins": 0,
+   "losses": 0,
+   "void": 0,
+   "pending": 0,
+   "graded": 0,
+   "target": 300,
+   "hit_rate": null,
+   "market_avg_pct": null,
+   "gap_pts": null
+  },
+  "no_rank": {
+   "wins": 0,
+   "losses": 0,
+   "void": 0,
+   "pending": 0,
+   "graded": 0,
+   "target": 300,
+   "hit_rate": null,
+   "market_avg_pct": null,
+   "gap_pts": null
+  }
+ },
+ "by_sport": {},
+ "days": [],
+ "losses": [],
+ "legs": [],
+ "split_note": "Soft matchup means the opponent ranks in the softest ten of the league at the position (team level for NHL). Ranks are estimates."
+}
