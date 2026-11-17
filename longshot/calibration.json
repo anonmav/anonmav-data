@@ -1,5 +1,5 @@
 {
- "pulled_az": "2026-11-16T07:00:01-07:00",
+ "pulled_az": "2026-11-17T07:00:01-07:00",
  "model_status": {
   "beats_market": false,
   "calibrated_logloss": 0.6649,
@@ -8,9 +8,9 @@
   "text": "The market is still more accurate than our model on recent graded legs, so treat Edge as tracking only."
  },
  "weights_version": "default-2026-11-09",
- "graded": 3390,
- "hits": 1550,
- "hit_rate": 0.457,
+ "graded": 3564,
+ "hits": 1632,
+ "hit_rate": 0.458,
  "bands": [
   {
    "band": "90+",
@@ -32,29 +32,29 @@
   },
   {
    "band": "70-79",
-   "legs": 130,
-   "hits": 84,
-   "hit_rate": 0.646,
-   "avg_model": 0.699,
-   "avg_market": 0.611,
+   "legs": 135,
+   "hits": 85,
+   "hit_rate": 0.63,
+   "avg_model": 0.696,
+   "avg_market": 0.612,
    "early": false
   },
   {
    "band": "60-69",
-   "legs": 396,
-   "hits": 215,
-   "hit_rate": 0.543,
-   "avg_model": 0.618,
+   "legs": 415,
+   "hits": 229,
+   "hit_rate": 0.552,
+   "avg_model": 0.615,
    "avg_market": 0.558,
    "early": false
   },
   {
    "band": "<60",
-   "legs": 2847,
-   "hits": 1238,
+   "legs": 2997,
+   "hits": 1305,
    "hit_rate": 0.435,
-   "avg_model": 0.428,
-   "avg_market": 0.446,
+   "avg_model": 0.429,
+   "avg_market": 0.447,
    "early": false
   }
  ],
@@ -75,7 +75,8 @@
   "2026-11-12",
   "2026-11-13",
   "2026-11-14",
-  "2026-11-15"
+  "2026-11-15",
+  "2026-11-16"
  ],
  "note": "Nov 3 to 8 are a back-fill: the players we rated those days, re-scored with our starting weights against that day's real consensus line, then graded from the box score."
 }

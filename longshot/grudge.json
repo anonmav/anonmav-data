@@ -1,6 +1,6 @@
 {
- "pulled_az": "2026-11-16T07:01:06-07:00",
- "slate": "2026-11-16",
+ "pulled_az": "2026-11-17T07:01:29-07:00",
+ "slate": "2026-11-17",
  "tz": "Arizona (MST)",
  "card": "Grudge",
  "note": "Quiet last game against a line the player usually clears. Season hit rate and Floor Score are estimates. This card is separate from the model picks and Deep Floor.",
@@ -27,49 +27,49 @@
   "yellow": 75
  },
  "top": {
-  "nba": [
+  "nba": [],
+  "nhl": [
    {
-    "id": "2026-11-16:nba:3136193:threes",
-    "sport": "nba",
-    "event_id": "401910001",
-    "game": "PHX @ DEN",
-    "start_utc": "2026-11-17T02:00:00+00:00",
-    "start_az": "7:00 PM",
-    "athlete_id": "3136193",
-    "player": "Devin Booker",
-    "team": "PHX",
-    "stat": "threes",
-    "label": "Over 1.5 threes",
-    "line": 1.5,
-    "avg": 2.0,
+    "id": "2026-11-17:nhl:3899938:points",
+    "sport": "nhl",
+    "event_id": "401892737",
+    "game": "DAL @ VGK",
+    "start_utc": "2026-11-18T03:00:00+00:00",
+    "start_az": "8:00 PM",
+    "athlete_id": "3899938",
+    "player": "Mikko Rantanen",
+    "team": "DAL",
+    "stat": "points",
+    "label": "Over 0.5 points",
+    "line": 0.5,
+    "avg": 1.1,
     "last": 0.0,
     "l5": [
      0.0,
-     4.0,
+     1.0,
+     0.0,
      2.0,
-     3.0,
-     2.0
+     1.0
     ],
-    "hit_season": 0.75,
-    "hit_l5": 0.8,
-    "games": 12,
-    "score": 66.2,
-    "cushion": 0.5,
+    "hit_season": 0.7,
+    "hit_l5": 0.6,
+    "games": 20,
+    "score": 59.1,
+    "cushion": 0.6,
     "notes": [
-     "L10 8/10 over",
-     "L5 4/5 over",
-     "usage L5 96% of season",
-     "back to back"
+     "L10 7/10 over",
+     "L5 3/5 over",
+     "usage L5 93% of season",
+     "blowout risk"
     ],
-    "market_pct": 57,
-    "first_seen": "2026-11-16T07:00:01-07:00"
+    "market_pct": 61,
+    "first_seen": "2026-11-17T07:00:01-07:00"
    }
   ],
-  "nhl": [],
   "nfl": []
  },
  "top_note": {
-  "nhl": "No Grudge legs on this slate.",
+  "nba": "No Grudge legs on this slate.",
   "nfl": "No Grudge legs on this slate."
  }
 }
