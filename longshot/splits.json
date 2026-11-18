@@ -1,5 +1,5 @@
 {
- "pulled_az": "2026-11-18T07:00:01-07:00",
+ "pulled_az": "2026-11-18T15:30:01-07:00",
  "slate": "2026-11-18",
  "tz": "Arizona (MST)",
  "sources": [
@@ -36,7 +36,7 @@
  },
  "splits": {
   "nba": {
-   "pulled_az": "2026-11-18T07:00:01-07:00",
+   "pulled_az": "2026-11-18T15:30:01-07:00",
    "games": [
     {
      "game": "HOU @ IND",
@@ -46,48 +46,48 @@
        {
         "side": "HOU",
         "line": 0,
-        "odds": -300,
-        "bets_pct": 91,
-        "money_pct": 89
+        "odds": -320,
+        "bets_pct": 93,
+        "money_pct": 93
        },
        {
         "side": "IND",
         "line": 0,
-        "odds": 240,
-        "bets_pct": 9,
-        "money_pct": 11
+        "odds": 260,
+        "bets_pct": 7,
+        "money_pct": 7
        }
       ],
       "spread": [
        {
         "side": "IND",
         "line": 7.5,
-        "odds": -110,
-        "bets_pct": 28,
-        "money_pct": 33
+        "odds": -108,
+        "bets_pct": 33,
+        "money_pct": 39
        },
        {
         "side": "HOU",
         "line": -7.5,
-        "odds": -110,
-        "bets_pct": 72,
-        "money_pct": 67
+        "odds": -113,
+        "bets_pct": 67,
+        "money_pct": 61
        }
       ],
       "total": [
        {
         "side": "under",
-        "line": 224.5,
-        "odds": -110,
-        "bets_pct": 19,
-        "money_pct": 19
+        "line": 225.5,
+        "odds": -108,
+        "bets_pct": 17,
+        "money_pct": 18
        },
        {
         "side": "over",
-        "line": 224.5,
+        "line": 225.5,
         "odds": -110,
-        "bets_pct": 81,
-        "money_pct": 81
+        "bets_pct": 83,
+        "money_pct": 82
        }
       ]
      },
@@ -102,32 +102,32 @@
        {
         "side": "MIA",
         "line": 0,
-        "odds": -650,
-        "bets_pct": 96,
-        "money_pct": 91
+        "odds": -700,
+        "bets_pct": 97,
+        "money_pct": 95
        },
        {
         "side": "MIL",
         "line": 0,
-        "odds": 475,
-        "bets_pct": 4,
-        "money_pct": 9
+        "odds": 500,
+        "bets_pct": 3,
+        "money_pct": 5
        }
       ],
       "spread": [
        {
         "side": "MIL",
-        "line": 11.5,
-        "odds": -105,
-        "bets_pct": 23,
-        "money_pct": 17
+        "line": 12.5,
+        "odds": -115,
+        "bets_pct": 20,
+        "money_pct": 18
        },
        {
         "side": "MIA",
-        "line": -11.5,
-        "odds": -112,
-        "bets_pct": 77,
-        "money_pct": 83
+        "line": -12.5,
+        "odds": -105,
+        "bets_pct": 80,
+        "money_pct": 82
        }
       ],
       "total": [
@@ -135,15 +135,15 @@
         "side": "under",
         "line": 235.5,
         "odds": -110,
-        "bets_pct": 60,
-        "money_pct": 61
+        "bets_pct": 54,
+        "money_pct": 54
        },
        {
         "side": "over",
         "line": 235.5,
-        "odds": -110,
-        "bets_pct": 40,
-        "money_pct": 39
+        "odds": -115,
+        "bets_pct": 46,
+        "money_pct": 46
        }
       ]
      },
@@ -158,16 +158,16 @@
        {
         "side": "CLE",
         "line": 0,
-        "odds": -200,
-        "bets_pct": 83,
-        "money_pct": 85
+        "odds": -194,
+        "bets_pct": 85,
+        "money_pct": 90
        },
        {
         "side": "MEM",
         "line": 0,
-        "odds": 165,
-        "bets_pct": 17,
-        "money_pct": 15
+        "odds": 162,
+        "bets_pct": 15,
+        "money_pct": 10
        }
       ],
       "spread": [
@@ -175,31 +175,31 @@
         "side": "MEM",
         "line": 4.5,
         "odds": -105,
-        "bets_pct": 44,
-        "money_pct": 47
+        "bets_pct": 43,
+        "money_pct": 51
        },
        {
         "side": "CLE",
         "line": -4.5,
-        "odds": -114,
-        "bets_pct": 56,
-        "money_pct": 53
+        "odds": -115,
+        "bets_pct": 57,
+        "money_pct": 49
        }
       ],
       "total": [
        {
         "side": "over",
-        "line": 235,
-        "odds": -113,
-        "bets_pct": 74,
-        "money_pct": 70
+        "line": 238.5,
+        "odds": -105,
+        "bets_pct": 66,
+        "money_pct": 60
        },
        {
         "side": "under",
-        "line": 235,
+        "line": 238.5,
         "odds": -110,
-        "bets_pct": 26,
-        "money_pct": 30
+        "bets_pct": 34,
+        "money_pct": 40
        }
       ]
      },
@@ -214,53 +214,55 @@
        {
         "side": "PHI",
         "line": 0,
-        "odds": -125,
+        "odds": -110,
         "bets_pct": 87,
-        "money_pct": 88
+        "money_pct": 92
        },
        {
         "side": "ORL",
         "line": 0,
-        "odds": 105,
+        "odds": -109,
         "bets_pct": 13,
-        "money_pct": 12
+        "money_pct": 8
        }
       ],
       "spread": [
        {
         "side": "ORL",
         "line": 1.5,
-        "odds": -107,
-        "bets_pct": 17,
-        "money_pct": 21
+        "odds": -115,
+        "bets_pct": 20,
+        "money_pct": 44
        },
        {
         "side": "PHI",
         "line": -1.5,
-        "odds": -114,
-        "bets_pct": 83,
-        "money_pct": 79
+        "odds": -106,
+        "bets_pct": 80,
+        "money_pct": 56
        }
       ],
       "total": [
        {
         "side": "over",
-        "line": 222.5,
-        "odds": -105,
-        "bets_pct": 61,
-        "money_pct": 56
+        "line": 221.5,
+        "odds": -113,
+        "bets_pct": 71,
+        "money_pct": 66
        },
        {
         "side": "under",
-        "line": 222.5,
-        "odds": -110,
-        "bets_pct": 39,
-        "money_pct": 44
+        "line": 221.5,
+        "odds": -107,
+        "bets_pct": 29,
+        "money_pct": 34
        }
       ]
      },
      "public_side": "PHI",
-     "notes": []
+     "notes": [
+      "ORL: money well ahead of tickets"
+     ]
     },
     {
      "game": "WAS @ TOR",
@@ -270,53 +272,55 @@
        {
         "side": "TOR",
         "line": 0,
-        "odds": -250,
+        "odds": -200,
         "bets_pct": 88,
-        "money_pct": 79
+        "money_pct": 53
        },
        {
         "side": "WAS",
         "line": 0,
-        "odds": 205,
+        "odds": 165,
         "bets_pct": 12,
-        "money_pct": 21
+        "money_pct": 47
        }
       ],
       "spread": [
        {
         "side": "WAS",
-        "line": 6.5,
-        "odds": -109,
-        "bets_pct": 37,
-        "money_pct": 46
+        "line": 4.5,
+        "odds": -102,
+        "bets_pct": 38,
+        "money_pct": 72
        },
        {
         "side": "TOR",
-        "line": -6.5,
-        "odds": -110,
-        "bets_pct": 63,
-        "money_pct": 54
+        "line": -4.5,
+        "odds": -117,
+        "bets_pct": 62,
+        "money_pct": 28
        }
       ],
       "total": [
        {
         "side": "under",
-        "line": 227.5,
-        "odds": -108,
-        "bets_pct": 50,
-        "money_pct": 42
+        "line": 225.5,
+        "odds": -111,
+        "bets_pct": 29,
+        "money_pct": 28
        },
        {
         "side": "over",
-        "line": 227.5,
-        "odds": -107,
-        "bets_pct": 50,
-        "money_pct": 58
+        "line": 225.5,
+        "odds": -106,
+        "bets_pct": 71,
+        "money_pct": 72
        }
       ]
      },
      "public_side": "TOR",
-     "notes": []
+     "notes": [
+      "WAS: money well ahead of tickets"
+     ]
     },
     {
      "game": "CHI @ BKN",
@@ -326,48 +330,48 @@
        {
         "side": "BKN",
         "line": 0,
-        "odds": -152,
-        "bets_pct": 52,
-        "money_pct": 48
+        "odds": -128,
+        "bets_pct": 57,
+        "money_pct": 54
        },
        {
         "side": "CHI",
         "line": 0,
-        "odds": 125,
-        "bets_pct": 48,
-        "money_pct": 52
+        "odds": 105,
+        "bets_pct": 43,
+        "money_pct": 46
        }
       ],
       "spread": [
        {
         "side": "BKN",
-        "line": -2.5,
-        "odds": -110,
-        "bets_pct": 49,
-        "money_pct": 60
+        "line": -1.5,
+        "odds": -113,
+        "bets_pct": 36,
+        "money_pct": 39
        },
        {
         "side": "CHI",
-        "line": 2.5,
-        "odds": -110,
-        "bets_pct": 51,
-        "money_pct": 40
+        "line": 1.5,
+        "odds": -106,
+        "bets_pct": 64,
+        "money_pct": 61
        }
       ],
       "total": [
        {
         "side": "over",
         "line": 239.5,
-        "odds": -105,
-        "bets_pct": 60,
-        "money_pct": 64
+        "odds": -109,
+        "bets_pct": 51,
+        "money_pct": 55
        },
        {
         "side": "under",
         "line": 239.5,
-        "odds": -113,
-        "bets_pct": 40,
-        "money_pct": 36
+        "odds": -110,
+        "bets_pct": 49,
+        "money_pct": 45
        }
       ]
      },
@@ -382,53 +386,55 @@
        {
         "side": "NOP",
         "line": 0,
-        "odds": 220,
+        "odds": 155,
         "bets_pct": 5,
-        "money_pct": 8
+        "money_pct": 23
        },
        {
         "side": "DET",
         "line": 0,
-        "odds": -275,
+        "odds": -190,
         "bets_pct": 95,
-        "money_pct": 92
+        "money_pct": 77
        }
       ],
       "spread": [
        {
         "side": "NOP",
-        "line": 7,
-        "odds": -108,
-        "bets_pct": 25,
-        "money_pct": 38
+        "line": 4.5,
+        "odds": -110,
+        "bets_pct": 20,
+        "money_pct": 40
        },
        {
         "side": "DET",
-        "line": -7,
-        "odds": -112,
-        "bets_pct": 75,
-        "money_pct": 62
+        "line": -4.5,
+        "odds": -110,
+        "bets_pct": 80,
+        "money_pct": 60
        }
       ],
       "total": [
        {
         "side": "under",
-        "line": 227.5,
-        "odds": -110,
-        "bets_pct": 24,
-        "money_pct": 30
+        "line": 225.5,
+        "odds": -108,
+        "bets_pct": 21,
+        "money_pct": 25
        },
        {
         "side": "over",
-        "line": 227.5,
-        "odds": -110,
-        "bets_pct": 76,
-        "money_pct": 70
+        "line": 225.5,
+        "odds": -115,
+        "bets_pct": 79,
+        "money_pct": 75
        }
       ]
      },
      "public_side": "DET",
-     "notes": []
+     "notes": [
+      "NOP: money well ahead of tickets"
+     ]
     },
     {
      "game": "ATL @ OKC",
@@ -438,55 +444,53 @@
        {
         "side": "ATL",
         "line": 0,
-        "odds": 200,
-        "bets_pct": 8,
-        "money_pct": 12
+        "odds": 205,
+        "bets_pct": 7,
+        "money_pct": 6
        },
        {
         "side": "OKC",
         "line": 0,
         "odds": -250,
-        "bets_pct": 92,
-        "money_pct": 88
+        "bets_pct": 93,
+        "money_pct": 94
        }
       ],
       "spread": [
        {
         "side": "OKC",
         "line": -6.5,
-        "odds": -109,
-        "bets_pct": 63,
-        "money_pct": 30
+        "odds": -105,
+        "bets_pct": 54,
+        "money_pct": 50
        },
        {
         "side": "ATL",
         "line": 6.5,
-        "odds": -112,
-        "bets_pct": 37,
-        "money_pct": 70
+        "odds": -114,
+        "bets_pct": 46,
+        "money_pct": 50
        }
       ],
       "total": [
        {
         "side": "under",
-        "line": 227.5,
-        "odds": -106,
-        "bets_pct": 50,
-        "money_pct": 59
+        "line": 228.5,
+        "odds": -109,
+        "bets_pct": 36,
+        "money_pct": 46
        },
        {
         "side": "over",
-        "line": 227.5,
-        "odds": -115,
-        "bets_pct": 50,
-        "money_pct": 41
+        "line": 228.5,
+        "odds": -110,
+        "bets_pct": 64,
+        "money_pct": 54
        }
       ]
      },
      "public_side": "OKC",
-     "notes": [
-      "ATL: money well ahead of tickets"
-     ]
+     "notes": []
     },
     {
      "game": "GSW @ DAL",
@@ -496,55 +500,53 @@
        {
         "side": "DAL",
         "line": 0,
-        "odds": -200,
-        "bets_pct": 83,
-        "money_pct": 78
+        "odds": -194,
+        "bets_pct": 85,
+        "money_pct": 88
        },
        {
         "side": "GSW",
         "line": 0,
-        "odds": 165,
-        "bets_pct": 17,
-        "money_pct": 22
+        "odds": 162,
+        "bets_pct": 15,
+        "money_pct": 12
        }
       ],
       "spread": [
        {
         "side": "GSW",
         "line": 4.5,
-        "odds": -105,
-        "bets_pct": 26,
-        "money_pct": 59
+        "odds": -110,
+        "bets_pct": 36,
+        "money_pct": 48
        },
        {
         "side": "DAL",
         "line": -4.5,
-        "odds": -115,
-        "bets_pct": 74,
-        "money_pct": 41
+        "odds": -110,
+        "bets_pct": 64,
+        "money_pct": 52
        }
       ],
       "total": [
        {
         "side": "under",
-        "line": 222.5,
-        "odds": -110,
-        "bets_pct": 28,
-        "money_pct": 22
+        "line": 225.5,
+        "odds": -112,
+        "bets_pct": 30,
+        "money_pct": 27
        },
        {
         "side": "over",
-        "line": 222.5,
-        "odds": -110,
-        "bets_pct": 72,
-        "money_pct": 78
+        "line": 225.5,
+        "odds": -109,
+        "bets_pct": 70,
+        "money_pct": 73
        }
       ]
      },
      "public_side": "DAL",
-     "notes": [
-      "GSW: money well ahead of tickets"
-     ]
+     "notes": []
     },
     {
      "game": "BOS @ DEN",
@@ -554,16 +556,16 @@
        {
         "side": "DEN",
         "line": 0,
-        "odds": 118,
-        "bets_pct": 24,
-        "money_pct": 54
+        "odds": 120,
+        "bets_pct": 20,
+        "money_pct": 43
        },
        {
         "side": "BOS",
         "line": 0,
-        "odds": -140,
-        "bets_pct": 76,
-        "money_pct": 46
+        "odds": -145,
+        "bets_pct": 80,
+        "money_pct": 57
        }
       ],
       "spread": [
@@ -571,31 +573,31 @@
         "side": "DEN",
         "line": 2.5,
         "odds": -110,
-        "bets_pct": 30,
-        "money_pct": 24
+        "bets_pct": 38,
+        "money_pct": 34
        },
        {
         "side": "BOS",
         "line": -2.5,
         "odds": -110,
-        "bets_pct": 70,
-        "money_pct": 76
+        "bets_pct": 62,
+        "money_pct": 66
        }
       ],
       "total": [
        {
         "side": "under",
-        "line": 222.5,
+        "line": 219,
         "odds": -110,
-        "bets_pct": 39,
-        "money_pct": 39
+        "bets_pct": 23,
+        "money_pct": 31
        },
        {
         "side": "over",
-        "line": 222.5,
-        "odds": -110,
-        "bets_pct": 61,
-        "money_pct": 61
+        "line": 219,
+        "odds": -113,
+        "bets_pct": 77,
+        "money_pct": 69
        }
       ]
      },
@@ -612,48 +614,48 @@
        {
         "side": "UTA",
         "line": 0,
-        "odds": 340,
-        "bets_pct": 5,
-        "money_pct": 32
+        "odds": 425,
+        "bets_pct": 3,
+        "money_pct": 26
        },
        {
         "side": "LAL",
         "line": 0,
-        "odds": -450,
-        "bets_pct": 95,
-        "money_pct": 68
+        "odds": -590,
+        "bets_pct": 97,
+        "money_pct": 74
        }
       ],
       "spread": [
        {
         "side": "UTA",
-        "line": 10.5,
-        "odds": -114,
-        "bets_pct": 43,
-        "money_pct": 49
+        "line": 12.5,
+        "odds": -112,
+        "bets_pct": 31,
+        "money_pct": 29
        },
        {
         "side": "LAL",
-        "line": -10.5,
-        "odds": -106,
-        "bets_pct": 57,
-        "money_pct": 51
+        "line": -12.5,
+        "odds": -105,
+        "bets_pct": 69,
+        "money_pct": 71
        }
       ],
       "total": [
        {
         "side": "under",
-        "line": 228.5,
+        "line": 231.5,
         "odds": -110,
-        "bets_pct": 16,
-        "money_pct": 14
+        "bets_pct": 21,
+        "money_pct": 24
        },
        {
         "side": "over",
-        "line": 228.5,
+        "line": 231.5,
         "odds": -110,
-        "bets_pct": 84,
-        "money_pct": 86
+        "bets_pct": 79,
+        "money_pct": 76
        }
       ]
      },
@@ -670,48 +672,48 @@
        {
         "side": "SAC",
         "line": 0,
-        "odds": 220,
-        "bets_pct": 6,
-        "money_pct": 7
+        "odds": 221,
+        "bets_pct": 5,
+        "money_pct": 22
        },
        {
         "side": "PHX",
         "line": 0,
-        "odds": -269,
-        "bets_pct": 94,
-        "money_pct": 93
+        "odds": -270,
+        "bets_pct": 95,
+        "money_pct": 78
        }
       ],
       "spread": [
        {
         "side": "PHX",
         "line": -6.5,
-        "odds": -111,
-        "bets_pct": 83,
-        "money_pct": 48
+        "odds": -115,
+        "bets_pct": 78,
+        "money_pct": 76
        },
        {
         "side": "SAC",
         "line": 6.5,
-        "odds": -108,
-        "bets_pct": 17,
-        "money_pct": 52
+        "odds": -105,
+        "bets_pct": 22,
+        "money_pct": 24
        }
       ],
       "total": [
        {
         "side": "under",
-        "line": 227.5,
-        "odds": -112,
-        "bets_pct": 45,
-        "money_pct": 47
+        "line": 226.5,
+        "odds": -108,
+        "bets_pct": 37,
+        "money_pct": 46
        },
        {
         "side": "over",
-        "line": 227.5,
-        "odds": -109,
-        "bets_pct": 55,
-        "money_pct": 53
+        "line": 226.5,
+        "odds": -115,
+        "bets_pct": 63,
+        "money_pct": 54
        }
       ]
      },
@@ -723,7 +725,7 @@
    ]
   },
   "nhl": {
-   "pulled_az": "2026-11-18T07:00:01-07:00",
+   "pulled_az": "2026-11-18T15:30:01-07:00",
    "games": [
     {
      "game": "MTL @ NJ",
@@ -733,31 +735,31 @@
        {
         "side": "MTL",
         "line": 0,
-        "odds": 140,
-        "bets_pct": 13,
-        "money_pct": 33
+        "odds": 141,
+        "bets_pct": 14,
+        "money_pct": 32
        },
        {
         "side": "NJ",
         "line": 0,
-        "odds": -169,
-        "bets_pct": 87,
-        "money_pct": 67
+        "odds": -170,
+        "bets_pct": 86,
+        "money_pct": 68
        }
       ],
       "spread": [
        {
         "side": "MTL",
         "line": 1.5,
-        "odds": -179,
-        "bets_pct": 61,
+        "odds": -177,
+        "bets_pct": 48,
         "money_pct": 47
        },
        {
         "side": "NJ",
         "line": -1.5,
-        "odds": 148,
-        "bets_pct": 39,
+        "odds": 146,
+        "bets_pct": 52,
         "money_pct": 53
        }
       ],
@@ -765,16 +767,16 @@
        {
         "side": "over",
         "line": 6.5,
-        "odds": -104,
-        "bets_pct": 89,
-        "money_pct": 93
+        "odds": 108,
+        "bets_pct": 81,
+        "money_pct": 88
        },
        {
         "side": "under",
         "line": 6.5,
-        "odds": -115,
-        "bets_pct": 11,
-        "money_pct": 7
+        "odds": -129,
+        "bets_pct": 19,
+        "money_pct": 12
        }
       ]
      },
@@ -792,31 +794,31 @@
         "side": "BOS",
         "line": 0,
         "odds": -110,
-        "bets_pct": 48,
-        "money_pct": 82
+        "bets_pct": 57,
+        "money_pct": 81
        },
        {
         "side": "DET",
         "line": 0,
         "odds": -110,
-        "bets_pct": 52,
-        "money_pct": 18
+        "bets_pct": 43,
+        "money_pct": 19
        }
       ],
       "spread": [
        {
         "side": "BOS",
         "line": 1.5,
-        "odds": -270,
-        "bets_pct": 80,
-        "money_pct": 64
+        "odds": -280,
+        "bets_pct": 76,
+        "money_pct": 79
        },
        {
         "side": "DET",
         "line": -1.5,
-        "odds": 217,
-        "bets_pct": 20,
-        "money_pct": 36
+        "odds": 230,
+        "bets_pct": 24,
+        "money_pct": 21
        }
       ],
       "total": [
@@ -824,22 +826,21 @@
         "side": "under",
         "line": 5.5,
         "odds": 115,
-        "bets_pct": 19,
-        "money_pct": 34
+        "bets_pct": 24,
+        "money_pct": 29
        },
        {
         "side": "over",
         "line": 5.5,
-        "odds": -137,
-        "bets_pct": 81,
-        "money_pct": 66
+        "odds": -135,
+        "bets_pct": 76,
+        "money_pct": 71
        }
       ]
      },
-     "public_side": "DET",
+     "public_side": "BOS",
      "notes": [
-      "BOS: money well ahead of tickets",
-      "DET: money well ahead of tickets"
+      "BOS: money well ahead of tickets"
      ]
     },
     {
@@ -850,32 +851,32 @@
        {
         "side": "UTA",
         "line": 0,
-        "odds": -115,
-        "bets_pct": 41,
-        "money_pct": 83
+        "odds": -110,
+        "bets_pct": 36,
+        "money_pct": 62
        },
        {
         "side": "COL",
         "line": 0,
-        "odds": -105,
-        "bets_pct": 59,
-        "money_pct": 17
+        "odds": -110,
+        "bets_pct": 64,
+        "money_pct": 38
        }
       ],
       "spread": [
        {
         "side": "UTA",
         "line": -1.5,
-        "odds": 207,
-        "bets_pct": 19,
-        "money_pct": 24
+        "odds": 217,
+        "bets_pct": 23,
+        "money_pct": 12
        },
        {
         "side": "COL",
         "line": 1.5,
-        "odds": -259,
-        "bets_pct": 81,
-        "money_pct": 76
+        "odds": -257,
+        "bets_pct": 77,
+        "money_pct": 88
        }
       ],
       "total": [
@@ -883,15 +884,15 @@
         "side": "under",
         "line": 6.5,
         "odds": -118,
-        "bets_pct": 24,
-        "money_pct": 12
+        "bets_pct": 18,
+        "money_pct": 9
        },
        {
         "side": "over",
         "line": 6.5,
         "odds": -102,
-        "bets_pct": 76,
-        "money_pct": 88
+        "bets_pct": 82,
+        "money_pct": 91
        }
       ]
      },
@@ -903,7 +904,7 @@
    ]
   },
   "nfl": {
-   "pulled_az": "2026-11-18T07:00:01-07:00",
+   "pulled_az": "2026-11-18T15:30:01-07:00",
    "games": []
   }
  }
