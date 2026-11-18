@@ -1,5 +1,5 @@
 {
- "pulled_az": "2026-11-17T18:35:16-07:00",
+ "pulled_az": "2026-11-18T02:32:08-07:00",
  "start": "2026-11-17",
  "note": "High Floor forward test. Started November 17, 2026 at 0-0. Singles only, locked at publish, graded daily.",
  "rule": [
@@ -11,15 +11,15 @@
   "Floor scores, market chances and defense ranks are estimates. No stakes or profit are tracked. Not betting advice."
  ],
  "summary": {
-  "wins": 0,
-  "losses": 0,
+  "wins": 4,
+  "losses": 1,
   "void": 0,
-  "pending": 5,
-  "graded": 0,
+  "pending": 0,
+  "graded": 5,
   "target": 300,
-  "hit_rate": null,
-  "market_avg_pct": null,
-  "gap_pts": null
+  "hit_rate": 80.0,
+  "market_avg_pct": 60.8,
+  "gap_pts": 19.2
  },
  "splits": {
   "soft_matchup": {
@@ -34,15 +34,15 @@
    "gap_pts": null
   },
   "other_matchup": {
-   "wins": 0,
-   "losses": 0,
+   "wins": 4,
+   "losses": 1,
    "void": 0,
-   "pending": 5,
-   "graded": 0,
+   "pending": 0,
+   "graded": 5,
    "target": 300,
-   "hit_rate": null,
-   "market_avg_pct": null,
-   "gap_pts": null
+   "hit_rate": 80.0,
+   "market_avg_pct": 60.8,
+   "gap_pts": 19.2
   },
   "no_rank": {
    "wins": 0,
@@ -58,39 +58,48 @@
  },
  "by_sport": {
   "nba": {
-   "wins": 0,
+   "wins": 1,
    "losses": 0,
    "void": 0,
-   "pending": 1,
-   "graded": 0,
+   "pending": 0,
+   "graded": 1,
    "target": 300,
-   "hit_rate": null,
-   "market_avg_pct": null,
-   "gap_pts": null
+   "hit_rate": 100.0,
+   "market_avg_pct": 48.0,
+   "gap_pts": 52.0
   },
   "nhl": {
-   "wins": 0,
-   "losses": 0,
+   "wins": 3,
+   "losses": 1,
    "void": 0,
-   "pending": 4,
-   "graded": 0,
+   "pending": 0,
+   "graded": 4,
    "target": 300,
-   "hit_rate": null,
-   "market_avg_pct": null,
-   "gap_pts": null
+   "hit_rate": 75.0,
+   "market_avg_pct": 64.0,
+   "gap_pts": 11.0
   }
  },
  "days": [
   {
    "slate": "2026-11-17",
    "legs": 5,
-   "wins": 0,
-   "losses": 0,
+   "wins": 4,
+   "losses": 1,
    "void": 0,
-   "pending": 5
+   "pending": 0
   }
  ],
- "losses": [],
+ "losses": [
+  {
+   "slate": "2026-11-17",
+   "player": "Mitch Marner",
+   "label": "Over 0.5 points",
+   "result": 0.0,
+   "sport": "nhl",
+   "game": "DAL @ VGK"
+  }
+ ],
  "legs": [
   {
    "id": "2026-11-17:nhl:4320548:points",
@@ -131,7 +140,10 @@
     "soft": false,
     "text": "NSH goals allowed: 7 of 32 (32 = softest). Team level only, no NHL position rank."
    },
-   "def_logged_az": "2026-11-17T18:31:07-07:00"
+   "def_logged_az": "2026-11-17T18:31:07-07:00",
+   "grade": "win",
+   "result": 2.0,
+   "graded_az": "2026-11-18T02:30:20-07:00"
   },
   {
    "id": "2026-11-17:nhl:3895074:assists",
@@ -172,7 +184,10 @@
     "soft": false,
     "text": "FLA goals allowed: 10 of 32 (32 = softest). Team level only, no NHL position rank."
    },
-   "def_logged_az": "2026-11-17T18:31:07-07:00"
+   "def_logged_az": "2026-11-17T18:31:07-07:00",
+   "grade": "win",
+   "result": 1.0,
+   "graded_az": "2026-11-18T02:30:24-07:00"
   },
   {
    "id": "2026-11-17:nhl:5149125:points",
@@ -213,7 +228,10 @@
     "soft": false,
     "text": "TOR goals allowed: 20 of 32 (32 = softest). Team level only, no NHL position rank."
    },
-   "def_logged_az": "2026-11-17T18:31:07-07:00"
+   "def_logged_az": "2026-11-17T18:31:07-07:00",
+   "grade": "win",
+   "result": 1.0,
+   "graded_az": "2026-11-18T02:30:23-07:00"
   },
   {
    "id": "2026-11-17:nhl:3899937:points",
@@ -254,7 +272,10 @@
     "soft": false,
     "text": "DAL goals allowed: 3 of 32 (32 = softest). Team level only, no NHL position rank."
    },
-   "def_logged_az": "2026-11-17T18:31:07-07:00"
+   "def_logged_az": "2026-11-17T18:31:07-07:00",
+   "grade": "loss",
+   "result": 0.0,
+   "graded_az": "2026-11-18T02:30:21-07:00"
   },
   {
    "id": "2026-11-17:nba:4432241:assists",
@@ -300,7 +321,10 @@
     "soft": false,
     "text": "NY defense vs PG 14 and SG 3 of 30 on points allowed (30 = softest)"
    },
-   "def_logged_az": "2026-11-17T18:31:08-07:00"
+   "def_logged_az": "2026-11-17T18:31:08-07:00",
+   "grade": "win",
+   "result": 6.0,
+   "graded_az": "2026-11-18T02:30:03-07:00"
   }
  ],
  "split_note": "Soft matchup means the opponent ranks in the softest ten of the league at the position (team level for NHL). Ranks are estimates."
