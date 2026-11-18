@@ -1,15 +1,15 @@
 {
- "pulled_az": "2026-11-17T15:31:48-07:00",
+ "pulled_az": "2026-11-17T18:35:09-07:00",
  "slate": "2026-11-17",
  "tz": "Arizona (MST)",
- "note": "Public graded record by card and by leg type. Record counts the first-posted card. Starting November 15, the featured parlay is Deep Floor, capped at 3 legs by Floor Score, with NBA threes left out. Its record before November 15 is a backtest: the rule applied to earlier posted cards. The November 14 model ticket is graded from the morning card; Jamal Murray Over 2.5 threes was a loss, and a later swap to rebounds is not counted. Sleeper flags: next-man-up backups tagged Sleeper, graded on a modest box-score floor once the game is final (NFL skill 25 rec / 30 rush yards, NBA 8+ points, NHL 1+ point). Contrarian tags: injury or rest news that cuts against the side with at least 10 points more of the traded action; a hit means that busy side lost. Floor Score, calibrated chance and these flags are estimates. Not betting advice. Sample sizes are still small.",
- "methodology": "Record counts the first-posted card.",
+ "note": "Public graded record by card and by leg type. Starting November 15, the featured parlay is Deep Floor, capped at 3 legs by Floor Score, with NBA threes left out. Its record before November 15 is a backtest: the rule applied to earlier posted cards. The November 14 model ticket is graded from the morning card; Jamal Murray Over 2.5 threes was a loss, and a later swap to rebounds is not counted. Sleeper flags: next-man-up backups tagged Sleeper, graded on a modest box-score floor once the game is final (NFL skill 25 rec / 30 rush yards, NBA 8+ points, NHL 1+ point). Contrarian tags: injury or rest news that cuts against the side with at least 10 points more of the traded action; a hit means that busy side lost. Floor Score, calibrated chance and these flags are estimates. Not betting advice. Sample sizes are still small.",
+ "methodology": "Legs are never swapped after posting.",
  "featured_parlay": {
   "card": "Deep Floor",
   "label": "Featured parlay",
   "max_legs": 3,
   "featured": true,
-  "note": "Featured parlay is the Deep Floor card, capped at 3 legs by Floor Score, with NBA threes left out. Record counts the first-posted card. Past results apply this rule to earlier posted cards. Featured live from November 15.",
+  "note": "Past results apply this rule to earlier posted cards. Featured live from November 15.",
   "live_from": "2026-11-15",
   "live": "1-1 (1 pending)",
   "backtest": "6-2"
@@ -577,7 +577,7 @@
      }
     ]
    },
-   "note": "Official model record. Record counts the first-posted card. The November 14 morning ticket included Jamal Murray Over 2.5 threes, a loss. A later swap to rebounds is not counted.",
+   "note": "Official model record. The November 14 morning ticket included Jamal Murray Over 2.5 threes, a loss. A later swap to rebounds is not counted.",
    "site_reshuffle_summary": {
     "wins": 55,
     "losses": 20,
@@ -1548,7 +1548,7 @@
      }
     ]
    },
-   "note": "Conservative listed thresholds. A pick needs a Floor Score of 90 or better. Separate from the model card. Record counts the first-posted card.",
+   "note": "Conservative listed thresholds. A pick needs a Floor Score of 90 or better.",
    "featured_parlay": {
     "label": "featured parlay, Deep Floor, max 3 legs",
     "wins": 7,
@@ -2100,23 +2100,23 @@
    "summary": {
     "wins": 2,
     "losses": 0,
-    "pending": 6,
+    "pending": 12,
     "void": 7,
     "n_graded": 2,
     "hit_rate": 100.0,
-    "record": "2-0 (6 pending)"
+    "record": "2-0 (12 pending)"
    },
    "by_slate": [
     {
      "wins": 0,
      "losses": 0,
-     "pending": 2,
+     "pending": 8,
      "void": 1,
      "n_graded": 0,
      "hit_rate": null,
-     "record": "0-0 (2 pending)",
+     "record": "0-0 (8 pending)",
      "slate": "2026-11-17",
-     "n": 3
+     "n": 9
     },
     {
      "wins": 0,
@@ -2165,21 +2165,21 @@
     {
      "wins": 0,
      "losses": 0,
-     "pending": 4,
+     "pending": 5,
      "void": 0,
      "n_graded": 0,
      "hit_rate": null,
-     "record": "0-0 (4 pending)",
+     "record": "0-0 (5 pending)",
      "key": "nba:other"
     },
     {
      "wins": 0,
      "losses": 0,
-     "pending": 2,
+     "pending": 7,
      "void": 7,
      "n_graded": 0,
      "hit_rate": null,
-     "record": "0-0 (2 pending)",
+     "record": "0-0 (7 pending)",
      "key": "nfl:other"
     }
    ],
@@ -2418,6 +2418,90 @@
      "text": "KeAndre Lambert-Smith next up at WR if Ladd McConkey sits; BAL ranks 23 vs WR.",
      "grade": "void",
      "graded_az": "2026-11-17T07:01:32-07:00"
+    },
+    {
+     "kind": "sleeper",
+     "slate": "2026-11-17",
+     "sport": "nba",
+     "game": "UTAH @ LAC",
+     "team": "UTAH",
+     "player": "Mo Bamba",
+     "pos": "C",
+     "out": "Jaxson Hayes",
+     "status": "Out",
+     "def": "LAC",
+     "rank": 21,
+     "text": "Mo Bamba next up at C if Jaxson Hayes sits; LAC ranks 21 vs C."
+    },
+    {
+     "kind": "sleeper",
+     "slate": "2026-11-17",
+     "sport": "nfl",
+     "game": "IND @ HOU",
+     "team": "IND",
+     "player": "Quez Watkins",
+     "pos": "WR",
+     "out": "Anthony Gould",
+     "status": "Questionable",
+     "def": "HOU",
+     "rank": 29,
+     "text": "Quez Watkins next up at WR if Anthony Gould sits; HOU ranks 29 vs WR."
+    },
+    {
+     "kind": "sleeper",
+     "slate": "2026-11-17",
+     "sport": "nfl",
+     "game": "MIA @ BUF",
+     "team": "MIA",
+     "player": "Jared Wayne",
+     "pos": "WR",
+     "out": "Chris Bell",
+     "status": "Questionable",
+     "def": "BUF",
+     "rank": 23,
+     "text": "Jared Wayne next up at WR if Chris Bell sits; BUF ranks 23 vs WR."
+    },
+    {
+     "kind": "sleeper",
+     "slate": "2026-11-17",
+     "sport": "nfl",
+     "game": "TEN @ DAL",
+     "team": "TEN",
+     "player": "Xavier Restrepo",
+     "pos": "WR",
+     "out": "Carnell Tate",
+     "status": "Questionable",
+     "def": "DAL",
+     "rank": 26,
+     "text": "Xavier Restrepo next up at WR if Carnell Tate sits; DAL ranks 26 vs WR."
+    },
+    {
+     "kind": "sleeper",
+     "slate": "2026-11-17",
+     "sport": "nfl",
+     "game": "NYJ @ LAC",
+     "team": "NYJ",
+     "player": "Malik McClain",
+     "pos": "WR",
+     "out": "Omar Cooper Jr.",
+     "status": "Questionable",
+     "def": "LAC",
+     "rank": 28,
+     "text": "Malik McClain next up at WR if Omar Cooper Jr. sits; LAC ranks 28 vs WR."
+    },
+    {
+     "kind": "sleeper",
+     "slate": "2026-11-17",
+     "sport": "nfl",
+     "game": "LV @ DEN",
+     "team": "LV",
+     "player": "Michael Mayer",
+     "pos": "TE",
+     "out": "Brock Bowers",
+     "status": "Questionable",
+     "def": "DEN",
+     "rank": 30,
+     "text": "Michael Mayer next up at TE if Brock Bowers sits; DEN ranks 30 vs TE."
     }
    ]
   },
@@ -2426,23 +2510,23 @@
    "summary": {
     "wins": 0,
     "losses": 1,
-    "pending": 20,
+    "pending": 25,
     "void": 0,
     "n_graded": 1,
     "hit_rate": 0.0,
-    "record": "0-1 (20 pending)"
+    "record": "0-1 (25 pending)"
    },
    "by_slate": [
     {
      "wins": 0,
      "losses": 0,
-     "pending": 5,
+     "pending": 10,
      "void": 0,
      "n_graded": 0,
      "hit_rate": null,
-     "record": "0-0 (5 pending)",
+     "record": "0-0 (10 pending)",
      "slate": "2026-11-17",
-     "n": 5
+     "n": 10
     },
     {
      "wins": 0,
@@ -2471,31 +2555,31 @@
     {
      "wins": 0,
      "losses": 1,
-     "pending": 13,
+     "pending": 14,
      "void": 0,
      "n_graded": 1,
      "hit_rate": 0.0,
-     "record": "0-1 (13 pending)",
+     "record": "0-1 (14 pending)",
      "key": "nba:other"
     },
     {
      "wins": 0,
      "losses": 0,
-     "pending": 3,
+     "pending": 5,
      "void": 0,
      "n_graded": 0,
      "hit_rate": null,
-     "record": "0-0 (3 pending)",
+     "record": "0-0 (5 pending)",
      "key": "nfl:other"
     },
     {
      "wins": 0,
      "losses": 0,
-     "pending": 4,
+     "pending": 6,
      "void": 0,
      "n_graded": 0,
      "hit_rate": null,
-     "record": "0-0 (4 pending)",
+     "record": "0-0 (6 pending)",
      "key": "nhl:other"
     }
    ],
@@ -2734,6 +2818,61 @@
      "busy_team": "GS",
      "action_share_gap": 72,
      "text": "Revenge spot: NO lost 138-87 to GS on November 9."
+    },
+    {
+     "kind": "contrarian",
+     "slate": "2026-11-17",
+     "sport": "nba",
+     "game": "NY @ TOR",
+     "team": "TOR",
+     "effect": "helps",
+     "busy_team": "NY",
+     "action_share_gap": 38,
+     "text": "Revenge spot: TOR lost 112-108 to NY on November 15."
+    },
+    {
+     "kind": "contrarian",
+     "slate": "2026-11-17",
+     "sport": "nfl",
+     "game": "IND @ HOU",
+     "team": "IND",
+     "effect": "hurts",
+     "busy_team": "IND",
+     "action_share_gap": 60,
+     "text": "IND on a short week (4 days since last game), HOU had 4."
+    },
+    {
+     "kind": "contrarian",
+     "slate": "2026-11-17",
+     "sport": "nfl",
+     "game": "IND @ HOU",
+     "team": "HOU",
+     "effect": "helps",
+     "busy_team": "IND",
+     "action_share_gap": 60,
+     "text": "Revenge spot: HOU lost 19-17 to IND on September 27."
+    },
+    {
+     "kind": "contrarian",
+     "slate": "2026-11-17",
+     "sport": "nhl",
+     "game": "LA @ BOS",
+     "team": "LA",
+     "effect": "helps",
+     "busy_team": "BOS",
+     "action_share_gap": 78,
+     "text": "Revenge spot: LA lost 4-1 to BOS on October 17."
+    },
+    {
+     "kind": "contrarian",
+     "slate": "2026-11-17",
+     "sport": "nhl",
+     "game": "ANA @ STL",
+     "team": "ANA",
+     "effect": "hurts",
+     "busy_team": "ANA",
+     "action_share_gap": 86,
+     "text": "ANA RW Beckett Sennecke listed Out on the injury report."
     }
    ]
   }
