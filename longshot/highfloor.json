@@ -1,5 +1,5 @@
 {
- "pulled_az": "2026-11-18T07:01:32-07:00",
+ "pulled_az": "2026-11-18T07:21:01-07:00",
  "slate": "2026-11-18",
  "status": "locked",
  "start": "2026-11-17",
@@ -37,8 +37,28 @@
    "consensus_odds": -127,
    "market_pct": 52,
    "score": 63.8,
-   "pos": null,
-   "posted_az": "2026-11-18T07:00:01-07:00"
+   "pos": "G",
+   "posted_az": "2026-11-18T07:00:01-07:00",
+   "def": {
+    "level": "position",
+    "opp": "MIL",
+    "n": 30,
+    "cells": [
+     {
+      "k": "PG",
+      "rank": 17,
+      "tier": "yellow"
+     },
+     {
+      "k": "SG",
+      "rank": 23,
+      "tier": "green"
+     }
+    ],
+    "soft": false,
+    "text": "MIL defense vs PG 17 and SG 23 of 30 on points allowed (30 = softest)"
+   },
+   "def_logged_az": "2026-11-18T07:21:00-07:00"
   },
   {
    "id": "2026-11-18:nhl:4024857:assists",
@@ -64,7 +84,22 @@
    "market_pct": 53,
    "score": 66.9,
    "pos": null,
-   "posted_az": "2026-11-18T07:00:01-07:00"
+   "posted_az": "2026-11-18T07:00:01-07:00",
+   "def": {
+    "level": "team",
+    "opp": "COL",
+    "n": 32,
+    "cells": [
+     {
+      "k": "Goals",
+      "rank": 15,
+      "tier": "yellow"
+     }
+    ],
+    "soft": false,
+    "text": "COL goals allowed: 15 of 32 (32 = softest). Team level only, no NHL position rank."
+   },
+   "def_logged_az": "2026-11-18T07:21:00-07:00"
   }
  ],
  "empty_note": "No legs met the rule at lock time today. That is a valid result."
