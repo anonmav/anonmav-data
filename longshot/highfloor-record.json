@@ -1,5 +1,5 @@
 {
- "pulled_az": "2026-11-17T15:31:53-07:00",
+ "pulled_az": "2026-11-17T18:31:08-07:00",
  "start": "2026-11-17",
  "note": "High Floor forward test. Started November 17, 2026 at 0-0. Singles only, locked at publish, graded daily.",
  "rule": [
@@ -37,7 +37,7 @@
    "wins": 0,
    "losses": 0,
    "void": 0,
-   "pending": 0,
+   "pending": 5,
    "graded": 0,
    "target": 300,
    "hit_rate": null,
@@ -48,7 +48,7 @@
    "wins": 0,
    "losses": 0,
    "void": 0,
-   "pending": 5,
+   "pending": 0,
    "graded": 0,
    "target": 300,
    "hit_rate": null,
@@ -116,7 +116,22 @@
    "market_pct": 66,
    "score": 82.7,
    "pos": null,
-   "posted_az": "2026-11-17T07:00:01-07:00"
+   "posted_az": "2026-11-17T07:00:01-07:00",
+   "def": {
+    "level": "team",
+    "opp": "NSH",
+    "n": 32,
+    "cells": [
+     {
+      "k": "Goals",
+      "rank": 7,
+      "tier": "red"
+     }
+    ],
+    "soft": false,
+    "text": "NSH goals allowed: 7 of 32 (32 = softest). Team level only, no NHL position rank."
+   },
+   "def_logged_az": "2026-11-17T18:31:07-07:00"
   },
   {
    "id": "2026-11-17:nhl:3895074:assists",
@@ -142,7 +157,22 @@
    "market_pct": 62,
    "score": 74.2,
    "pos": null,
-   "posted_az": "2026-11-17T07:00:01-07:00"
+   "posted_az": "2026-11-17T07:00:01-07:00",
+   "def": {
+    "level": "team",
+    "opp": "FLA",
+    "n": 32,
+    "cells": [
+     {
+      "k": "Goals",
+      "rank": 10,
+      "tier": "red"
+     }
+    ],
+    "soft": false,
+    "text": "FLA goals allowed: 10 of 32 (32 = softest). Team level only, no NHL position rank."
+   },
+   "def_logged_az": "2026-11-17T18:31:07-07:00"
   },
   {
    "id": "2026-11-17:nhl:5149125:points",
@@ -168,7 +198,22 @@
    "market_pct": 65,
    "score": 76.8,
    "pos": null,
-   "posted_az": "2026-11-17T07:00:01-07:00"
+   "posted_az": "2026-11-17T07:00:01-07:00",
+   "def": {
+    "level": "team",
+    "opp": "TOR",
+    "n": 32,
+    "cells": [
+     {
+      "k": "Goals",
+      "rank": 20,
+      "tier": "yellow"
+     }
+    ],
+    "soft": false,
+    "text": "TOR goals allowed: 20 of 32 (32 = softest). Team level only, no NHL position rank."
+   },
+   "def_logged_az": "2026-11-17T18:31:07-07:00"
   },
   {
    "id": "2026-11-17:nhl:3899937:points",
@@ -194,7 +239,22 @@
    "market_pct": 63,
    "score": 78.7,
    "pos": null,
-   "posted_az": "2026-11-17T07:00:01-07:00"
+   "posted_az": "2026-11-17T07:00:01-07:00",
+   "def": {
+    "level": "team",
+    "opp": "DAL",
+    "n": 32,
+    "cells": [
+     {
+      "k": "Goals",
+      "rank": 3,
+      "tier": "red"
+     }
+    ],
+    "soft": false,
+    "text": "DAL goals allowed: 3 of 32 (32 = softest). Team level only, no NHL position rank."
+   },
+   "def_logged_az": "2026-11-17T18:31:07-07:00"
   },
   {
    "id": "2026-11-17:nba:4432241:assists",
@@ -219,8 +279,28 @@
    "consensus_odds": -105,
    "market_pct": 48,
    "score": 67.1,
-   "pos": null,
-   "posted_az": "2026-11-17T07:00:01-07:00"
+   "pos": "G",
+   "posted_az": "2026-11-17T07:00:01-07:00",
+   "def": {
+    "level": "position",
+    "opp": "NY",
+    "n": 30,
+    "cells": [
+     {
+      "k": "PG",
+      "rank": 14,
+      "tier": "yellow"
+     },
+     {
+      "k": "SG",
+      "rank": 3,
+      "tier": "red"
+     }
+    ],
+    "soft": false,
+    "text": "NY defense vs PG 14 and SG 3 of 30 on points allowed (30 = softest)"
+   },
+   "def_logged_az": "2026-11-17T18:31:08-07:00"
   }
  ],
  "split_note": "Soft matchup means the opponent ranks in the softest ten of the league at the position (team level for NHL). Ranks are estimates."
