@@ -1,5 +1,5 @@
 {
- "updated_az": "2026-11-18T15:20:01-07:00",
+ "updated_az": "2026-11-18T16:50:02-07:00",
  "note": "Estimates from public scores, closing lines, play by play, depth charts, injury reports and our matchup engine. Not betting advice.",
  "sports": {
   "nba": {
@@ -155,7 +155,7 @@
        "kind": "mismatch",
        "team": "CLE",
        "tone": "down",
-       "text": "Peyton Watson (CLE, 4.5 reb): MEM allows 5.3 rebounds to PG/SG (-14% vs avg), game pace +1%."
+       "text": "Sam Merrill (CLE, 3.4 reb): MEM allows 5.3 rebounds to PG/SG (-14% vs avg), game pace +1%."
       }
      ],
      "stories": [],
@@ -258,6 +258,12 @@
       },
       {
        "team": "CLE",
+       "pos": "SG",
+       "name": "Sam Merrill",
+       "status": "Out"
+      },
+      {
+       "team": "CLE",
        "pos": "SF",
        "name": "Peyton Watson",
        "status": "Day-To-Day"
@@ -286,14 +292,14 @@
       },
       {
        "team": "CLE",
-       "pos": "PF",
-       "out": "Evan Mobley",
+       "pos": "SG",
+       "out": "Sam Merrill",
        "status": "Out",
-       "backup": "Mario Hezonja",
+       "backup": "Donovan Mitchell",
        "def": "MEM",
-       "rank": 12,
+       "rank": 8,
        "n": 30,
-       "v": 21.6,
+       "v": 21.0,
        "yds": null,
        "unit": "pts",
        "sleeper": false
@@ -456,7 +462,7 @@
        "kind": "mismatch",
        "team": "IND",
        "tone": "down",
-       "text": "Andrew Nembhard (IND, 7.6 ast): HOU allows 5.8 assists to PG/SG (-14% vs avg), game pace -1%."
+       "text": "Quenton Jackson (IND, 3.1 ast): HOU allows 5.8 assists to PG/SG (-14% vs avg), game pace -1%."
       }
      ],
      "stories": [],
@@ -963,6 +969,13 @@
      },
      "watch": [
       {
+       "kind": "story",
+       "team": "PHI",
+       "effect": "hurts",
+       "tone": "down",
+       "text": "PHI G Tyrese Maxey listed Out on the injury report."
+      },
+      {
        "kind": "mismatch",
        "team": "PHI",
        "tone": "up",
@@ -975,7 +988,15 @@
        "text": "Franz Wagner (ORL, 8.3 ast): PHI allows 3.6 assists to SF/PF (-16% vs avg), game pace -1%."
       }
      ],
-     "stories": [],
+     "stories": [
+      {
+       "kind": "story",
+       "team": "PHI",
+       "effect": "hurts",
+       "tone": "down",
+       "text": "PHI G Tyrese Maxey listed Out on the injury report."
+      }
+     ],
      "grid": {
       "PHI": {
        "n": 30,
@@ -1072,12 +1093,6 @@
        "pos": "SF",
        "name": "Jaylen Brown",
        "status": "Out"
-      },
-      {
-       "team": "PHI",
-       "pos": "PF",
-       "name": "Dean Wade",
-       "status": "Day-To-Day"
       }
      ],
      "next": [
@@ -1617,7 +1632,7 @@
      "changes": [
       {
        "team": "TOR",
-       "pos": "SG",
+       "pos": "SF",
        "name": "RJ Barrett",
        "status": "Day-To-Day"
       },
@@ -3797,10 +3812,10 @@
      "watch": [
       {
        "kind": "story",
-       "team": "BUF",
+       "team": "MIA",
        "effect": "hurts",
        "tone": "down",
-       "text": "BUF TE Dalton Kincaid listed Questionable on the injury report."
+       "text": "MIA WR Caleb Douglas listed Questionable on the injury report."
       },
       {
        "kind": "mismatch",
@@ -3818,10 +3833,10 @@
      "stories": [
       {
        "kind": "story",
-       "team": "BUF",
+       "team": "MIA",
        "effect": "hurts",
        "tone": "down",
-       "text": "BUF TE Dalton Kincaid listed Questionable on the injury report."
+       "text": "MIA WR Caleb Douglas listed Questionable on the injury report."
       }
      ],
      "grid": {
@@ -6316,7 +6331,7 @@
        "team": "NYJ",
        "effect": "hurts",
        "tone": "down",
-       "text": "NYJ WR Omar Cooper Jr. listed Questionable on the injury report."
+       "text": "NYJ QB Geno Smith listed Questionable on the injury report."
       },
       {
        "kind": "mismatch",
@@ -6337,14 +6352,14 @@
        "team": "NYJ",
        "effect": "hurts",
        "tone": "down",
-       "text": "NYJ WR Omar Cooper Jr. listed Questionable on the injury report."
+       "text": "NYJ QB Geno Smith listed Questionable on the injury report."
       },
       {
        "kind": "story",
        "team": "NYJ",
        "effect": "hurts",
        "tone": "down",
-       "text": "NYJ QB Geno Smith listed Questionable on the injury report."
+       "text": "NYJ WR Omar Cooper Jr. listed Questionable on the injury report."
       }
      ],
      "grid": {
