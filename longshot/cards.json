@@ -1,268 +1,217 @@
 {
- "updated_az": "2026-11-16T16:50:02-07:00",
+ "updated_az": "2026-11-17T18:30:20-07:00",
  "note": "Estimates from public scores, closing lines, play by play, depth charts, injury reports and our matchup engine. Not betting advice.",
  "sports": {
   "nba": {
-   "day": "2026-11-16",
+   "day": "2026-11-17",
    "games": {
-    "ORL @ BOS": {
+    "NY @ TOR": {
      "trend": {
-      "ORL": {
+      "NY": {
        "games": [
         {
-         "d": "2026-11-06",
-         "opp": "PHX",
+         "d": "2026-11-08",
+         "opp": "CLE",
+         "home": false,
+         "w": true,
+         "s": "109-97",
+         "line": -4.5,
+         "role": "fav",
+         "cov": "c"
+        },
+        {
+         "d": "2026-11-11",
+         "opp": "MIL",
+         "home": true,
+         "w": true,
+         "s": "117-85",
+         "line": -14.5,
+         "role": "fav",
+         "cov": "c"
+        },
+        {
+         "d": "2026-11-12",
+         "opp": "CLE",
+         "home": true,
+         "w": false,
+         "s": "107-115",
+         "line": -4.5,
+         "role": "fav",
+         "cov": "n"
+        },
+        {
+         "d": "2026-11-14",
+         "opp": "IND",
          "home": false,
          "w": false,
-         "s": "104-117",
+         "s": "104-106",
+         "line": -7.5,
+         "role": "fav",
+         "cov": "n"
+        },
+        {
+         "d": "2026-11-15",
+         "opp": "TOR",
+         "home": false,
+         "w": true,
+         "s": "112-108",
+         "line": -4.5,
+         "role": "fav",
+         "cov": "n"
+        }
+       ],
+       "wl": [
+        3,
+        2
+       ],
+       "ats": [
+        2,
+        3,
+        0
+       ],
+       "fav": [
+        3,
+        2
+       ],
+       "dog": [
+        0,
+        0
+       ]
+      },
+      "TOR": {
+       "games": [
+        {
+         "d": "2026-11-07",
+         "opp": "MIL",
+         "home": false,
+         "w": true,
+         "s": "121-107",
+         "line": -3.5,
+         "role": "fav",
+         "cov": "c"
+        },
+        {
+         "d": "2026-11-10",
+         "opp": "MEM",
+         "home": true,
+         "w": false,
+         "s": "102-118",
          "line": 1.5,
          "role": "dog",
          "cov": "n"
         },
         {
-         "d": "2026-11-08",
-         "opp": "GS",
-         "home": false,
-         "w": false,
-         "s": "119-126",
-         "line": 7.5,
-         "role": "dog",
-         "cov": "c"
-        },
-        {
-         "d": "2026-11-11",
-         "opp": "SAC",
-         "home": false,
-         "w": true,
-         "s": "107-100",
-         "line": -5.5,
-         "role": "fav",
-         "cov": "c"
-        },
-        {
          "d": "2026-11-12",
-         "opp": "UTAH",
-         "home": false,
-         "w": true,
-         "s": "123-108",
-         "line": -4.5,
-         "role": "fav",
-         "cov": "c"
-        },
-        {
-         "d": "2026-11-14",
-         "opp": "MIL",
+         "opp": "BOS",
          "home": true,
-         "w": true,
-         "s": "107-99",
-         "line": -9.5,
-         "role": "fav",
+         "w": false,
+         "s": "93-98",
+         "line": 4.5,
+         "role": "dog",
          "cov": "n"
-        }
-       ],
-       "wl": [
-        3,
-        2
-       ],
-       "ats": [
-        3,
-        2,
-        0
-       ],
-       "fav": [
-        3,
-        0
-       ],
-       "dog": [
-        0,
-        2
-       ]
-      },
-      "BOS": {
-       "games": [
-        {
-         "d": "2026-11-07",
-         "opp": "CHA",
-         "home": false,
-         "w": true,
-         "s": "119-80",
-         "line": -10.5,
-         "role": "fav",
-         "cov": "c"
         },
         {
-         "d": "2026-11-09",
-         "opp": "MIL",
-         "home": false,
-         "w": true,
-         "s": "117-97",
-         "line": -13.5,
-         "role": "fav",
-         "cov": "c"
-        },
-        {
-         "d": "2026-11-11",
+         "d": "2026-11-13",
          "opp": "PHI",
          "home": false,
-         "w": true,
-         "s": "123-101",
-         "line": -1.5,
-         "role": "fav",
-         "cov": "c"
-        },
-        {
-         "d": "2026-11-12",
-         "opp": "TOR",
-         "home": false,
-         "w": true,
-         "s": "98-93",
-         "line": -4.5,
-         "role": "fav",
-         "cov": "c"
+         "w": false,
+         "s": "112-123",
+         "line": 7.5,
+         "role": "dog",
+         "cov": "n"
         },
         {
          "d": "2026-11-15",
-         "opp": "DAL",
+         "opp": "NY",
          "home": true,
-         "w": true,
-         "s": "131-94",
-         "line": -14.5,
-         "role": "fav",
+         "w": false,
+         "s": "108-112",
+         "line": 4.5,
+         "role": "dog",
          "cov": "c"
         }
        ],
        "wl": [
-        5,
-        0
+        1,
+        4
        ],
        "ats": [
-        5,
-        0,
+        2,
+        3,
         0
        ],
        "fav": [
-        5,
+        1,
         0
        ],
        "dog": [
         0,
-        0
+        4
        ]
       }
      },
      "watch": [
       {
        "kind": "story",
-       "team": "BOS",
-       "effect": "hurts",
-       "tone": "down",
-       "text": "BOS on the second night of a back-to-back, ORL rested 2 days."
-      },
-      {
-       "kind": "mismatch",
-       "team": "BOS",
+       "team": "TOR",
+       "effect": "helps",
        "tone": "up",
-       "text": "Jayson Tatum (BOS, 7.3 ast): ORL allows 4.8 assists to SF/PF (+12% vs avg), game pace -2%."
+       "text": "Revenge spot: TOR lost 112-108 to NY on November 15."
       },
       {
        "kind": "mismatch",
-       "team": "ORL",
+       "team": "NY",
+       "tone": "up",
+       "text": "Karl-Anthony Towns (NY, 13.9 reb): TOR allows 15.3 rebounds to C (+5% vs avg), game pace -1%."
+      },
+      {
+       "kind": "mismatch",
+       "team": "TOR",
        "tone": "down",
-       "text": "Wendell Carter Jr. (ORL, 9.3 reb): BOS allows 12.0 rebounds to C (-18% vs avg), game pace -2%."
+       "text": "Immanuel Quickley (TOR, 5.6 ast): NY allows 6.2 assists to PG/SG (-8% vs avg), game pace -1%."
       }
      ],
      "stories": [
       {
        "kind": "story",
-       "team": "BOS",
-       "effect": "hurts",
-       "tone": "down",
-       "text": "BOS on the second night of a back-to-back, ORL rested 2 days."
-      },
-      {
-       "kind": "story",
-       "team": "ORL",
+       "team": "TOR",
        "effect": "helps",
        "tone": "up",
-       "text": "Revenge spot: ORL lost 108-97 to BOS on November 1."
+       "text": "Revenge spot: TOR lost 112-108 to NY on November 15."
       }
      ],
      "grid": {
-      "ORL": {
+      "NY": {
        "n": 30,
        "unit": "pts",
        "cells": [
         {
          "k": "PG",
-         "v": 24.0,
-         "rank": 8,
-         "tier": "red"
-        },
-        {
-         "k": "SG",
-         "v": 21.7,
-         "rank": 13,
+         "v": 24.7,
+         "rank": 14,
          "tier": "yellow"
         },
         {
-         "k": "SF",
-         "v": 25.0,
-         "rank": 30,
-         "tier": "green"
-        },
-        {
-         "k": "PF",
-         "v": 21.3,
-         "rank": 10,
-         "tier": "red"
-        },
-        {
-         "k": "C",
-         "v": 18.3,
-         "rank": 6,
-         "tier": "red"
-        }
-       ],
-       "units": [
-        {
-         "k": "Pace",
-         "v": "102.4 possessions (25th fastest)",
-         "rank": null,
-         "tier": ""
-        }
-       ]
-      },
-      "BOS": {
-       "n": 30,
-       "unit": "pts",
-       "cells": [
-        {
-         "k": "PG",
-         "v": 22.7,
+         "k": "SG",
+         "v": 20.3,
          "rank": 3,
          "tier": "red"
         },
         {
-         "k": "SG",
-         "v": 21.1,
-         "rank": 11,
-         "tier": "yellow"
-        },
-        {
          "k": "SF",
-         "v": 19.8,
-         "rank": 13,
-         "tier": "yellow"
+         "v": 24.0,
+         "rank": 25,
+         "tier": "green"
         },
         {
          "k": "PF",
-         "v": 20.7,
-         "rank": 7,
+         "v": 17.1,
+         "rank": 1,
          "tier": "red"
         },
         {
          "k": "C",
-         "v": 16.4,
+         "v": 16.5,
          "rank": 1,
          "tier": "red"
         }
@@ -270,1205 +219,62 @@
        "units": [
         {
          "k": "Pace",
-         "v": "99.7 possessions (29th fastest)",
-         "rank": null,
-         "tier": ""
-        }
-       ]
-      }
-     },
-     "changes": [
-      {
-       "team": "BOS",
-       "pos": "C",
-       "name": "Neemias Queta",
-       "status": "Out"
-      }
-     ],
-     "next": [
-      {
-       "team": "BOS",
-       "pos": "C",
-       "out": "Neemias Queta",
-       "status": "Out",
-       "backup": "Mitchell Robinson",
-       "def": "ORL",
-       "rank": 6,
-       "n": 30,
-       "v": 18.3,
-       "yds": null,
-       "unit": "pts",
-       "sleeper": false
-      }
-     ]
-    },
-    "CHI @ CLE": {
-     "trend": {
-      "CHI": {
-       "games": [
-        {
-         "d": "2026-11-05",
-         "opp": "NY",
-         "home": false,
-         "w": false,
-         "s": "105-135",
-         "line": 11.5,
-         "role": "dog",
-         "cov": "n"
-        },
-        {
-         "d": "2026-11-08",
-         "opp": "PHI",
-         "home": true,
-         "w": false,
-         "s": "121-127",
-         "line": 9.5,
-         "role": "dog",
-         "cov": "c"
-        },
-        {
-         "d": "2026-11-12",
-         "opp": "SA",
-         "home": true,
-         "w": false,
-         "s": "119-124",
-         "line": 15.5,
-         "role": "dog",
-         "cov": "c"
-        },
-        {
-         "d": "2026-11-14",
-         "opp": "ATL",
-         "home": true,
-         "w": true,
-         "s": "125-117",
-         "line": 6.5,
-         "role": "dog",
-         "cov": "c"
-        },
-        {
-         "d": "2026-11-15",
-         "opp": "MIN",
-         "home": false,
-         "w": true,
-         "s": "117-106",
-         "line": 16.5,
-         "role": "dog",
-         "cov": "c"
-        }
-       ],
-       "wl": [
-        2,
-        3
-       ],
-       "ats": [
-        4,
-        1,
-        0
-       ],
-       "fav": [
-        0,
-        0
-       ],
-       "dog": [
-        2,
-        3
-       ]
-      },
-      "CLE": {
-       "games": [
-        {
-         "d": "2026-11-08",
-         "opp": "NY",
-         "home": true,
-         "w": false,
-         "s": "97-109",
-         "line": 4.5,
-         "role": "dog",
-         "cov": "n"
-        },
-        {
-         "d": "2026-11-10",
-         "opp": "CHA",
-         "home": false,
-         "w": false,
-         "s": "112-124",
-         "line": -8.5,
-         "role": "fav",
-         "cov": "n"
-        },
-        {
-         "d": "2026-11-12",
-         "opp": "NY",
-         "home": false,
-         "w": true,
-         "s": "115-107",
-         "line": 4.5,
-         "role": "dog",
-         "cov": "c"
-        },
-        {
-         "d": "2026-11-14",
-         "opp": "MIA",
-         "home": false,
-         "w": false,
-         "s": "121-133",
-         "line": 2.5,
-         "role": "dog",
-         "cov": "n"
-        },
-        {
-         "d": "2026-11-15",
-         "opp": "DAL",
-         "home": true,
-         "w": true,
-         "s": "127-117",
-         "line": 8.5,
-         "role": "dog",
-         "cov": "c"
-        }
-       ],
-       "wl": [
-        2,
-        3
-       ],
-       "ats": [
-        2,
-        3,
-        0
-       ],
-       "fav": [
-        0,
-        1
-       ],
-       "dog": [
-        2,
-        2
-       ]
-      }
-     },
-     "watch": [
-      {
-       "kind": "mismatch",
-       "team": "CLE",
-       "tone": "up",
-       "text": "Peyton Watson (CLE, 4.5 reb): CHI allows 7.2 rebounds to PG/SG (+14% vs avg), game pace +2%."
-      }
-     ],
-     "stories": [],
-     "grid": {
-      "CHI": {
-       "n": 30,
-       "unit": "pts",
-       "cells": [
-        {
-         "k": "PG",
-         "v": 29.8,
-         "rank": 26,
-         "tier": "green"
-        },
-        {
-         "k": "SG",
-         "v": 23.2,
-         "rank": 24,
-         "tier": "green"
-        },
-        {
-         "k": "SF",
-         "v": 24.7,
-         "rank": 27,
-         "tier": "green"
-        },
-        {
-         "k": "PF",
-         "v": 24.0,
-         "rank": 27,
-         "tier": "green"
-        },
-        {
-         "k": "C",
-         "v": 22.2,
-         "rank": 19,
-         "tier": "yellow"
-        }
-       ],
-       "units": [
-        {
-         "k": "Pace",
-         "v": "108.3 possessions (1st fastest)",
+         "v": "99.9 possessions (28th fastest)",
          "rank": null,
          "tier": ""
         }
        ]
       },
-      "CLE": {
+      "TOR": {
        "n": 30,
        "unit": "pts",
        "cells": [
         {
          "k": "PG",
-         "v": 26.7,
-         "rank": 20,
-         "tier": "yellow"
-        },
-        {
-         "k": "SG",
-         "v": 23.6,
-         "rank": 26,
-         "tier": "green"
-        },
-        {
-         "k": "SF",
-         "v": 18.6,
-         "rank": 9,
-         "tier": "red"
-        },
-        {
-         "k": "PF",
-         "v": 23.2,
-         "rank": 21,
-         "tier": "green"
-        },
-        {
-         "k": "C",
-         "v": 22.2,
-         "rank": 20,
-         "tier": "yellow"
-        }
-       ],
-       "units": [
-        {
-         "k": "Pace",
-         "v": "103.3 possessions (17th fastest)",
-         "rank": null,
-         "tier": ""
-        }
-       ]
-      }
-     },
-     "changes": [
-      {
-       "team": "CHI",
-       "pos": "C",
-       "name": "Jalen Smith",
-       "status": "Day-To-Day"
-      },
-      {
-       "team": "CLE",
-       "pos": "SF",
-       "name": "Peyton Watson",
-       "status": "Day-To-Day"
-      },
-      {
-       "team": "CLE",
-       "pos": "PF",
-       "name": "Evan Mobley",
-       "status": "Out"
-      }
-     ],
-     "next": [
-      {
-       "team": "CLE",
-       "pos": "PF",
-       "out": "Evan Mobley",
-       "status": "Out",
-       "backup": "Mario Hezonja",
-       "def": "CHI",
-       "rank": 27,
-       "n": 30,
-       "v": 24.0,
-       "yds": null,
-       "unit": "pts",
-       "sleeper": true
-      }
-     ]
-    },
-    "MEM @ WSH": {
-     "trend": {
-      "MEM": {
-       "games": [
-        {
-         "d": "2026-11-07",
-         "opp": "OKC",
-         "home": true,
-         "w": false,
-         "s": "97-128",
-         "line": 4.5,
-         "role": "dog",
-         "cov": "n"
-        },
-        {
-         "d": "2026-11-10",
-         "opp": "TOR",
-         "home": false,
-         "w": true,
-         "s": "118-102",
-         "line": -1.5,
-         "role": "fav",
-         "cov": "c"
-        },
-        {
-         "d": "2026-11-12",
-         "opp": "DEN",
-         "home": true,
-         "w": false,
-         "s": "118-123",
-         "line": 3.5,
-         "role": "dog",
-         "cov": "n"
-        },
-        {
-         "d": "2026-11-14",
-         "opp": "NO",
-         "home": false,
-         "w": true,
-         "s": "142-111",
-         "line": -3.5,
-         "role": "fav",
-         "cov": "c"
-        },
-        {
-         "d": "2026-11-15",
-         "opp": "BKN",
-         "home": true,
-         "w": true,
-         "s": "129-110",
-         "line": -4.5,
-         "role": "fav",
-         "cov": "c"
-        }
-       ],
-       "wl": [
-        3,
-        2
-       ],
-       "ats": [
-        3,
-        2,
-        0
-       ],
-       "fav": [
-        3,
-        0
-       ],
-       "dog": [
-        0,
-        2
-       ]
-      },
-      "WSH": {
-       "games": [
-        {
-         "d": "2026-11-08",
-         "opp": "OKC",
-         "home": false,
-         "w": false,
-         "s": "75-114",
-         "line": 12.5,
-         "role": "dog",
-         "cov": "n"
-        },
-        {
-         "d": "2026-11-10",
-         "opp": "DET",
-         "home": false,
-         "w": false,
-         "s": "111-122",
-         "line": 9.5,
-         "role": "dog",
-         "cov": "n"
-        },
-        {
-         "d": "2026-11-12",
-         "opp": "IND",
-         "home": false,
-         "w": false,
-         "s": "101-114",
-         "line": 3.5,
-         "role": "dog",
-         "cov": "n"
-        },
-        {
-         "d": "2026-11-13",
-         "opp": "DET",
-         "home": true,
-         "w": false,
-         "s": "140-144",
-         "line": 10.5,
-         "role": "dog",
-         "cov": "c"
-        },
-        {
-         "d": "2026-11-16",
-         "opp": "HOU",
-         "home": true,
-         "w": false,
-         "s": "119-147",
-         "line": 8.5,
-         "role": "dog",
-         "cov": "n"
-        }
-       ],
-       "wl": [
-        0,
-        5
-       ],
-       "ats": [
-        1,
-        4,
-        0
-       ],
-       "fav": [
-        0,
-        0
-       ],
-       "dog": [
-        0,
-        5
-       ]
-      }
-     },
-     "watch": [
-      {
-       "kind": "story",
-       "team": "WSH",
-       "effect": "hurts",
-       "tone": "down",
-       "text": "WSH on the second night of a back-to-back, MEM rested 1 day."
-      },
-      {
-       "kind": "mismatch",
-       "team": "MEM",
-       "tone": "up",
-       "text": "Cameron Boozer (MEM, 9.7 reb): WSH allows 10.6 rebounds to SF/PF (+15% vs avg), game pace +1%."
-      },
-      {
-       "kind": "mismatch",
-       "team": "WSH",
-       "tone": "down",
-       "text": "Trae Young (WSH, 8.7 ast): MEM allows 5.8 assists to PG/SG (-12% vs avg), game pace +1%."
-      }
-     ],
-     "stories": [
-      {
-       "kind": "story",
-       "team": "WSH",
-       "effect": "hurts",
-       "tone": "down",
-       "text": "WSH on the second night of a back-to-back, MEM rested 1 day."
-      }
-     ],
-     "grid": {
-      "MEM": {
-       "n": 30,
-       "unit": "pts",
-       "cells": [
-        {
-         "k": "PG",
-         "v": 27.8,
+         "v": 27.2,
          "rank": 22,
          "tier": "green"
         },
         {
          "k": "SG",
-         "v": 20.7,
-         "rank": 6,
-         "tier": "red"
-        },
-        {
-         "k": "SF",
-         "v": 18.5,
-         "rank": 8,
-         "tier": "red"
-        },
-        {
-         "k": "PF",
          "v": 21.9,
-         "rank": 13,
-         "tier": "yellow"
-        },
-        {
-         "k": "C",
-         "v": 20.3,
-         "rank": 14,
-         "tier": "yellow"
-        }
-       ],
-       "units": [
-        {
-         "k": "Pace",
-         "v": "104.1 possessions (7th fastest)",
-         "rank": null,
-         "tier": ""
-        }
-       ]
-      },
-      "WSH": {
-       "n": 30,
-       "unit": "pts",
-       "cells": [
-        {
-         "k": "PG",
-         "v": 24.6,
-         "rank": 12,
-         "tier": "yellow"
-        },
-        {
-         "k": "SG",
-         "v": 22.5,
-         "rank": 17,
-         "tier": "yellow"
-        },
-        {
-         "k": "SF",
-         "v": 24.9,
-         "rank": 29,
-         "tier": "green"
-        },
-        {
-         "k": "PF",
-         "v": 22.5,
-         "rank": 17,
-         "tier": "yellow"
-        },
-        {
-         "k": "C",
-         "v": 20.5,
-         "rank": 16,
-         "tier": "yellow"
-        }
-       ],
-       "units": [
-        {
-         "k": "Pace",
-         "v": "103.8 possessions (10th fastest)",
-         "rank": null,
-         "tier": ""
-        }
-       ]
-      }
-     },
-     "changes": [
-      {
-       "team": "MEM",
-       "pos": "PG",
-       "name": "Ty Jerome",
-       "status": "Out"
-      },
-      {
-       "team": "MEM",
-       "pos": "C",
-       "name": "Zach Edey",
-       "status": "Day-To-Day"
-      }
-     ],
-     "next": [
-      {
-       "team": "MEM",
-       "pos": "PG",
-       "out": "Ty Jerome",
-       "status": "Out",
-       "backup": "Cam Spencer",
-       "def": "WSH",
-       "rank": 12,
-       "n": 30,
-       "v": 24.6,
-       "yds": null,
-       "unit": "pts",
-       "sleeper": false
-      }
-     ]
-    },
-    "PHI @ BKN": {
-     "trend": {
-      "PHI": {
-       "games": [
-        {
-         "d": "2026-11-07",
-         "opp": "CLE",
-         "home": false,
-         "w": false,
-         "s": "95-119",
-         "line": -2.5,
-         "role": "fav",
-         "cov": "n"
-        },
-        {
-         "d": "2026-11-08",
-         "opp": "CHI",
-         "home": false,
-         "w": true,
-         "s": "127-121",
-         "line": -9.5,
-         "role": "fav",
-         "cov": "n"
-        },
-        {
-         "d": "2026-11-11",
-         "opp": "BOS",
-         "home": true,
-         "w": false,
-         "s": "101-123",
-         "line": 1.5,
-         "role": "dog",
-         "cov": "n"
-        },
-        {
-         "d": "2026-11-13",
-         "opp": "TOR",
-         "home": true,
-         "w": true,
-         "s": "123-112",
-         "line": -7.5,
-         "role": "fav",
-         "cov": "c"
-        },
-        {
-         "d": "2026-11-15",
-         "opp": "IND",
-         "home": true,
-         "w": true,
-         "s": "131-124",
-         "line": -7.5,
-         "role": "fav",
-         "cov": "n"
-        }
-       ],
-       "wl": [
-        3,
-        2
-       ],
-       "ats": [
-        1,
-        4,
-        0
-       ],
-       "fav": [
-        3,
-        1
-       ],
-       "dog": [
-        0,
-        1
-       ]
-      },
-      "BKN": {
-       "games": [
-        {
-         "d": "2026-11-05",
-         "opp": "CHA",
-         "home": true,
-         "w": true,
-         "s": "114-104",
-         "line": 3.5,
-         "role": "dog",
-         "cov": "c"
-        },
-        {
-         "d": "2026-11-08",
-         "opp": "ATL",
-         "home": false,
-         "w": false,
-         "s": "121-124",
-         "line": 6.5,
-         "role": "dog",
-         "cov": "c"
-        },
-        {
-         "d": "2026-11-09",
-         "opp": "DAL",
-         "home": false,
-         "w": false,
-         "s": "93-130",
-         "line": 7.5,
-         "role": "dog",
-         "cov": "n"
-        },
-        {
-         "d": "2026-11-12",
-         "opp": "NO",
-         "home": false,
-         "w": true,
-         "s": "145-111",
-         "line": 2.5,
-         "role": "dog",
-         "cov": "c"
-        },
-        {
-         "d": "2026-11-15",
-         "opp": "MEM",
-         "home": false,
-         "w": false,
-         "s": "110-129",
-         "line": 4.5,
-         "role": "dog",
-         "cov": "n"
-        }
-       ],
-       "wl": [
-        2,
-        3
-       ],
-       "ats": [
-        3,
-        2,
-        0
-       ],
-       "fav": [
-        0,
-        0
-       ],
-       "dog": [
-        2,
-        3
-       ]
-      }
-     },
-     "watch": [
-      {
-       "kind": "story",
-       "team": "PHI",
-       "effect": "hurts",
-       "tone": "down",
-       "text": "PHI on the second night of a back-to-back, BKN rested 1 day."
-      },
-      {
-       "kind": "mismatch",
-       "team": "BKN",
-       "tone": "up",
-       "text": "Julius Randle (BKN, 19.9 pts): PHI allows 23.2 points to SF/PF (+8% vs avg)."
-      },
-      {
-       "kind": "mismatch",
-       "team": "PHI",
-       "tone": "down",
-       "text": "Joel Embiid (PHI, 8.8 reb): BKN allows 11.3 rebounds to C (-22% vs avg)."
-      }
-     ],
-     "stories": [
-      {
-       "kind": "story",
-       "team": "PHI",
-       "effect": "hurts",
-       "tone": "down",
-       "text": "PHI on the second night of a back-to-back, BKN rested 1 day."
-      }
-     ],
-     "grid": {
-      "PHI": {
-       "n": 30,
-       "unit": "pts",
-       "cells": [
-        {
-         "k": "PG",
-         "v": 23.6,
-         "rank": 5,
-         "tier": "red"
-        },
-        {
-         "k": "SG",
-         "v": 20.7,
-         "rank": 5,
-         "tier": "red"
-        },
-        {
-         "k": "SF",
-         "v": 22.7,
-         "rank": 21,
-         "tier": "green"
-        },
-        {
-         "k": "PF",
-         "v": 23.8,
-         "rank": 25,
-         "tier": "green"
-        },
-        {
-         "k": "C",
-         "v": 17.5,
-         "rank": 4,
-         "tier": "red"
-        }
-       ],
-       "units": [
-        {
-         "k": "Pace",
-         "v": "102.8 possessions (20th fastest)",
-         "rank": null,
-         "tier": ""
-        }
-       ]
-      },
-      "BKN": {
-       "n": 30,
-       "unit": "pts",
-       "cells": [
-        {
-         "k": "PG",
-         "v": 22.4,
-         "rank": 2,
-         "tier": "red"
-        },
-        {
-         "k": "SG",
-         "v": 23.1,
-         "rank": 23,
-         "tier": "green"
-        },
-        {
-         "k": "SF",
-         "v": 24.1,
-         "rank": 26,
-         "tier": "green"
-        },
-        {
-         "k": "PF",
-         "v": 22.1,
-         "rank": 15,
-         "tier": "yellow"
-        },
-        {
-         "k": "C",
-         "v": 24.7,
-         "rank": 27,
-         "tier": "green"
-        }
-       ],
-       "units": [
-        {
-         "k": "Pace",
-         "v": "103.8 possessions (11th fastest)",
-         "rank": null,
-         "tier": ""
-        }
-       ]
-      }
-     },
-     "changes": [
-      {
-       "team": "PHI",
-       "pos": "PF",
-       "name": "LeBron James",
-       "status": "Out"
-      },
-      {
-       "team": "PHI",
-       "pos": "C",
-       "name": "Joel Embiid",
-       "status": "Day-To-Day"
-      }
-     ],
-     "next": [
-      {
-       "team": "PHI",
-       "pos": "PF",
-       "out": "LeBron James",
-       "status": "Out",
-       "backup": "Dean Wade",
-       "def": "BKN",
-       "rank": 15,
-       "n": 30,
-       "v": 22.1,
-       "yds": null,
-       "unit": "pts",
-       "sleeper": false
-      }
-     ]
-    },
-    "HOU @ MIA": {
-     "trend": {
-      "HOU": {
-       "games": [
-        {
-         "d": "2026-11-08",
-         "opp": "PHX",
-         "home": false,
-         "w": false,
-         "s": "99-102",
-         "line": -6.5,
-         "role": "fav",
-         "cov": "n"
-        },
-        {
-         "d": "2026-11-10",
-         "opp": "DEN",
-         "home": true,
-         "w": true,
-         "s": "110-100",
-         "line": -4.5,
-         "role": "fav",
-         "cov": "c"
-        },
-        {
-         "d": "2026-11-12",
-         "opp": "GS",
-         "home": true,
-         "w": true,
-         "s": "115-108",
-         "line": -6.5,
-         "role": "fav",
-         "cov": "c"
-        },
-        {
-         "d": "2026-11-14",
-         "opp": "UTAH",
-         "home": true,
-         "w": true,
-         "s": "125-118",
-         "line": -15.5,
-         "role": "fav",
-         "cov": "n"
-        },
-        {
-         "d": "2026-11-16",
-         "opp": "WSH",
-         "home": false,
-         "w": true,
-         "s": "147-119",
-         "line": -8.5,
-         "role": "fav",
-         "cov": "c"
-        }
-       ],
-       "wl": [
-        4,
-        1
-       ],
-       "ats": [
-        3,
-        2,
-        0
-       ],
-       "fav": [
-        4,
-        1
-       ],
-       "dog": [
-        0,
-        0
-       ]
-      },
-      "MIA": {
-       "games": [
-        {
-         "d": "2026-11-06",
-         "opp": "GS",
-         "home": false,
-         "w": false,
-         "s": "100-120",
-         "line": 3.5,
-         "role": "dog",
-         "cov": "n"
-        },
-        {
-         "d": "2026-11-09",
-         "opp": "SAC",
-         "home": false,
-         "w": true,
-         "s": "114-108",
-         "line": -11.5,
-         "role": "fav",
-         "cov": "n"
-        },
-        {
-         "d": "2026-11-11",
-         "opp": "UTAH",
-         "home": false,
-         "w": true,
-         "s": "115-109",
-         "line": -8.5,
-         "role": "fav",
-         "cov": "n"
-        },
-        {
-         "d": "2026-11-14",
-         "opp": "CLE",
-         "home": true,
-         "w": true,
-         "s": "133-121",
-         "line": -2.5,
-         "role": "fav",
-         "cov": "c"
-        },
-        {
-         "d": "2026-11-15",
-         "opp": "DET",
-         "home": true,
-         "w": true,
-         "s": "137-117",
-         "line": 4.5,
-         "role": "dog",
-         "cov": "c"
-        }
-       ],
-       "wl": [
-        4,
-        1
-       ],
-       "ats": [
-        2,
-        3,
-        0
-       ],
-       "fav": [
-        3,
-        0
-       ],
-       "dog": [
-        1,
-        1
-       ]
-      }
-     },
-     "watch": [
-      {
-       "kind": "story",
-       "team": "HOU",
-       "effect": "hurts",
-       "tone": "down",
-       "text": "HOU on the second night of a back-to-back, MIA rested 1 day."
-      },
-      {
-       "kind": "mismatch",
-       "team": "HOU",
-       "tone": "up",
-       "text": "Fred VanVleet (HOU, 5.4 ast): MIA allows 7.3 assists to PG/SG (+10% vs avg)."
-      },
-      {
-       "kind": "mismatch",
-       "team": "HOU",
-       "tone": "down",
-       "text": "Alperen Sengun (HOU, 7.7 ast): MIA allows 2.7 assists to C (-35% vs avg)."
-      }
-     ],
-     "stories": [
-      {
-       "kind": "story",
-       "team": "HOU",
-       "effect": "hurts",
-       "tone": "down",
-       "text": "HOU on the second night of a back-to-back, MIA rested 1 day."
-      }
-     ],
-     "grid": {
-      "HOU": {
-       "n": 30,
-       "unit": "pts",
-       "cells": [
-        {
-         "k": "PG",
-         "v": 24.8,
          "rank": 14,
          "tier": "yellow"
         },
         {
-         "k": "SG",
-         "v": 22.6,
+         "k": "SF",
+         "v": 21.4,
          "rank": 18,
          "tier": "yellow"
         },
         {
-         "k": "SF",
-         "v": 19.1,
-         "rank": 12,
-         "tier": "yellow"
-        },
-        {
          "k": "PF",
-         "v": 22.0,
-         "rank": 14,
+         "v": 22.3,
+         "rank": 16,
          "tier": "yellow"
         },
         {
          "k": "C",
-         "v": 18.8,
-         "rank": 8,
+         "v": 19.0,
+         "rank": 9,
          "tier": "red"
         }
        ],
        "units": [
         {
          "k": "Pace",
-         "v": "100.6 possessions (27th fastest)",
-         "rank": null,
-         "tier": ""
-        }
-       ]
-      },
-      "MIA": {
-       "n": 30,
-       "unit": "pts",
-       "cells": [
-        {
-         "k": "PG",
-         "v": 29.9,
-         "rank": 28,
-         "tier": "green"
-        },
-        {
-         "k": "SG",
-         "v": 26.7,
-         "rank": 30,
-         "tier": "green"
-        },
-        {
-         "k": "SF",
-         "v": 20.5,
-         "rank": 14,
-         "tier": "yellow"
-        },
-        {
-         "k": "PF",
-         "v": 20.1,
-         "rank": 4,
-         "tier": "red"
-        },
-        {
-         "k": "C",
-         "v": 19.4,
-         "rank": 11,
-         "tier": "yellow"
-        }
-       ],
-       "units": [
-        {
-         "k": "Pace",
-         "v": "106.4 possessions (4th fastest)",
+         "v": "103.7 possessions (14th fastest)",
          "rank": null,
          "tier": ""
         }
        ]
       }
-     },
-     "changes": [
-      {
-       "team": "HOU",
-       "pos": "PG",
-       "name": "Amen Thompson",
-       "status": "Day-To-Day"
-      },
-      {
-       "team": "MIA",
-       "pos": "SF",
-       "name": "Pelle Larsson",
-       "status": "Day-To-Day"
-      }
-     ]
+     }
     },
     "POR @ MIN": {
      "trend": {
       "POR": {
        "games": [
-        {
-         "d": "2026-11-07",
-         "opp": "LAL",
-         "home": false,
-         "w": false,
-         "s": "118-124",
-         "line": 3.5,
-         "role": "dog",
-         "cov": "n"
-        },
         {
          "d": "2026-11-08",
          "opp": "SA",
@@ -1508,6 +314,16 @@
          "line": -10.5,
          "role": "fav",
          "cov": "c"
+        },
+        {
+         "d": "2026-11-17",
+         "opp": "MIN",
+         "home": false,
+         "w": false,
+         "s": "98-106",
+         "line": 2.5,
+         "role": "dog",
+         "cov": "n"
         }
        ],
        "wl": [
@@ -1530,16 +346,6 @@
       },
       "MIN": {
        "games": [
-        {
-         "d": "2026-11-05",
-         "opp": "HOU",
-         "home": false,
-         "w": true,
-         "s": "117-107",
-         "line": 7.5,
-         "role": "dog",
-         "cov": "c"
-        },
         {
          "d": "2026-11-07",
          "opp": "NO",
@@ -1579,6 +385,16 @@
          "line": -16.5,
          "role": "fav",
          "cov": "n"
+        },
+        {
+         "d": "2026-11-17",
+         "opp": "POR",
+         "home": true,
+         "w": true,
+         "s": "106-98",
+         "line": -2.5,
+         "role": "fav",
+         "cov": "c"
         }
        ],
        "wl": [
@@ -1591,30 +407,45 @@
         0
        ],
        "fav": [
-        3,
+        4,
         1
        ],
        "dog": [
-        1,
+        0,
         0
        ]
       }
      },
      "watch": [
       {
+       "kind": "story",
+       "team": "POR",
+       "effect": "helps",
+       "tone": "up",
+       "text": "Revenge spot: POR lost 106-98 to MIN on November 16."
+      },
+      {
        "kind": "mismatch",
        "team": "MIN",
        "tone": "up",
-       "text": "Ayo Dosunmu (MIN, 18.5 pts): POR allows 25.2 points to PG/SG (+5% vs avg), game pace +1%."
+       "text": "Rudy Gobert (MIN, 11.7 reb): POR allows 15.5 rebounds to C (+6% vs avg), game pace +1%."
       },
       {
        "kind": "mismatch",
        "team": "MIN",
        "tone": "down",
-       "text": "LaMelo Ball (MIN, 6.2 ast): POR allows 5.3 assists to PG/SG (-19% vs avg), game pace +1%."
+       "text": "LaMelo Ball (MIN, 5.8 ast): POR allows 5.3 assists to PG/SG (-20% vs avg), game pace +1%."
       }
      ],
-     "stories": [],
+     "stories": [
+      {
+       "kind": "story",
+       "team": "POR",
+       "effect": "helps",
+       "tone": "up",
+       "text": "Revenge spot: POR lost 106-98 to MIN on November 16."
+      }
+     ],
      "grid": {
       "POR": {
        "n": 30,
@@ -1622,14 +453,14 @@
        "cells": [
         {
          "k": "PG",
-         "v": 28.6,
-         "rank": 24,
+         "v": 27.0,
+         "rank": 21,
          "tier": "green"
         },
         {
          "k": "SG",
-         "v": 21.9,
-         "rank": 15,
+         "v": 22.8,
+         "rank": 19,
          "tier": "yellow"
         },
         {
@@ -1646,15 +477,15 @@
         },
         {
          "k": "C",
-         "v": 25.1,
-         "rank": 30,
+         "v": 24.4,
+         "rank": 25,
          "tier": "green"
         }
        ],
        "units": [
         {
          "k": "Pace",
-         "v": "103.4 possessions (16th fastest)",
+         "v": "103.4 possessions (17th fastest)",
          "rank": null,
          "tier": ""
         }
@@ -1666,305 +497,39 @@
        "cells": [
         {
          "k": "PG",
-         "v": 26.7,
-         "rank": 19,
+         "v": 25.8,
+         "rank": 17,
          "tier": "yellow"
         },
         {
          "k": "SG",
-         "v": 20.5,
-         "rank": 4,
-         "tier": "red"
-        },
-        {
-         "k": "SF",
-         "v": 17.5,
-         "rank": 5,
-         "tier": "red"
-        },
-        {
-         "k": "PF",
-         "v": 23.4,
-         "rank": 23,
-         "tier": "green"
-        },
-        {
-         "k": "C",
-         "v": 18.1,
-         "rank": 5,
-         "tier": "red"
-        }
-       ],
-       "units": [
-        {
-         "k": "Pace",
-         "v": "104.9 possessions (5th fastest)",
-         "rank": null,
-         "tier": ""
-        }
-       ]
-      }
-     }
-    },
-    "GS @ NO": {
-     "trend": {
-      "GS": {
-       "games": [
-        {
-         "d": "2026-11-06",
-         "opp": "MIA",
-         "home": true,
-         "w": true,
-         "s": "120-100",
-         "line": -3.5,
-         "role": "fav",
-         "cov": "c"
-        },
-        {
-         "d": "2026-11-08",
-         "opp": "ORL",
-         "home": true,
-         "w": true,
-         "s": "126-119",
-         "line": -7.5,
-         "role": "fav",
-         "cov": "n"
-        },
-        {
-         "d": "2026-11-10",
-         "opp": "NO",
-         "home": true,
-         "w": true,
-         "s": "138-87",
-         "line": -10.5,
-         "role": "fav",
-         "cov": "c"
-        },
-        {
-         "d": "2026-11-12",
-         "opp": "HOU",
-         "home": false,
-         "w": false,
-         "s": "108-115",
-         "line": 6.5,
-         "role": "dog",
-         "cov": "n"
-        },
-        {
-         "d": "2026-11-14",
-         "opp": "SA",
-         "home": false,
-         "w": false,
-         "s": "85-123",
-         "line": 12.5,
-         "role": "dog",
-         "cov": "n"
-        }
-       ],
-       "wl": [
-        3,
-        2
-       ],
-       "ats": [
-        2,
-        3,
-        0
-       ],
-       "fav": [
-        3,
-        0
-       ],
-       "dog": [
-        0,
-        2
-       ]
-      },
-      "NO": {
-       "games": [
-        {
-         "d": "2026-11-09",
-         "opp": "LAC",
-         "home": false,
-         "w": false,
-         "s": "123-139",
-         "line": -1.5,
-         "role": "fav",
-         "cov": "n"
-        },
-        {
-         "d": "2026-11-10",
-         "opp": "GS",
-         "home": false,
-         "w": false,
-         "s": "87-138",
-         "line": 10.5,
-         "role": "dog",
-         "cov": "n"
-        },
-        {
-         "d": "2026-11-12",
-         "opp": "BKN",
-         "home": true,
-         "w": false,
-         "s": "111-145",
-         "line": -2.5,
-         "role": "fav",
-         "cov": "n"
-        },
-        {
-         "d": "2026-11-14",
-         "opp": "MEM",
-         "home": true,
-         "w": false,
-         "s": "111-142",
-         "line": 3.5,
-         "role": "dog",
-         "cov": "n"
-        },
-        {
-         "d": "2026-11-15",
-         "opp": "DEN",
-         "home": true,
-         "w": false,
-         "s": "108-116",
-         "line": 12.5,
-         "role": "dog",
-         "cov": "c"
-        }
-       ],
-       "wl": [
-        0,
-        5
-       ],
-       "ats": [
-        1,
-        4,
-        0
-       ],
-       "fav": [
-        0,
-        2
-       ],
-       "dog": [
-        0,
-        3
-       ]
-      }
-     },
-     "watch": [
-      {
-       "kind": "story",
-       "team": "NO",
-       "effect": "helps",
-       "tone": "up",
-       "text": "Revenge spot: NO lost 138-87 to GS on November 9."
-      },
-      {
-       "kind": "mismatch",
-       "team": "GS",
-       "tone": "up",
-       "text": "Brandin Podziemski (GS, 16.5 pts): NO allows 27.9 points to PG/SG (+16% vs avg), game pace +1%."
-      },
-      {
-       "kind": "mismatch",
-       "team": "GS",
-       "tone": "down",
-       "text": "De'Anthony Melton (GS, 4.2 reb): NO allows 5.1 rebounds to PG/SG (-19% vs avg), game pace +1%."
-      }
-     ],
-     "stories": [
-      {
-       "kind": "story",
-       "team": "NO",
-       "effect": "helps",
-       "tone": "up",
-       "text": "Revenge spot: NO lost 138-87 to GS on November 9."
-      }
-     ],
-     "grid": {
-      "GS": {
-       "n": 30,
-       "unit": "pts",
-       "cells": [
-        {
-         "k": "PG",
-         "v": 23.7,
-         "rank": 7,
-         "tier": "red"
-        },
-        {
-         "k": "SG",
-         "v": 22.7,
-         "rank": 19,
-         "tier": "yellow"
-        },
-        {
-         "k": "SF",
-         "v": 23.1,
-         "rank": 22,
-         "tier": "green"
-        },
-        {
-         "k": "PF",
-         "v": 21.0,
-         "rank": 8,
-         "tier": "red"
-        },
-        {
-         "k": "C",
-         "v": 20.3,
-         "rank": 15,
-         "tier": "yellow"
-        }
-       ],
-       "units": [
-        {
-         "k": "Pace",
-         "v": "102.9 possessions (19th fastest)",
-         "rank": null,
-         "tier": ""
-        }
-       ]
-      },
-      "NO": {
-       "n": 30,
-       "unit": "pts",
-       "cells": [
-        {
-         "k": "PG",
-         "v": 31.6,
-         "rank": 30,
-         "tier": "green"
-        },
-        {
-         "k": "SG",
-         "v": 24.2,
-         "rank": 28,
-         "tier": "green"
-        },
-        {
-         "k": "SF",
-         "v": 17.8,
+         "v": 20.7,
          "rank": 6,
+         "tier": "red"
+        },
+        {
+         "k": "SF",
+         "v": 18.1,
+         "rank": 7,
          "tier": "red"
         },
         {
          "k": "PF",
          "v": 23.2,
-         "rank": 20,
-         "tier": "yellow"
+         "rank": 21,
+         "tier": "green"
         },
         {
          "k": "C",
-         "v": 25.0,
-         "rank": 29,
-         "tier": "green"
+         "v": 17.5,
+         "rank": 5,
+         "tier": "red"
         }
        ],
        "units": [
         {
          "k": "Pace",
-         "v": "106.9 possessions (3rd fastest)",
+         "v": "104.8 possessions (5th fastest)",
          "rank": null,
          "tier": ""
         }
@@ -1973,101 +538,976 @@
      },
      "changes": [
       {
-       "team": "NO",
-       "pos": "SG",
-       "name": "Dejounte Murray",
+       "team": "POR",
+       "pos": "PF",
+       "name": "Deni Avdija",
        "status": "Out"
       },
       {
-       "team": "NO",
+       "team": "MIN",
        "pos": "SF",
-       "name": "Trey Murphy III",
+       "name": "Jonathan Kuminga",
+       "status": "Out"
+      }
+     ]
+    },
+    "DET @ SA": {
+     "trend": {
+      "DET": {
+       "games": [
+        {
+         "d": "2026-11-05",
+         "opp": "PHI",
+         "home": true,
+         "w": false,
+         "s": "106-112",
+         "line": -2.5,
+         "role": "fav",
+         "cov": "n"
+        },
+        {
+         "d": "2026-11-08",
+         "opp": "LAL",
+         "home": true,
+         "w": false,
+         "s": "116-121",
+         "line": -8.5,
+         "role": "fav",
+         "cov": "n"
+        },
+        {
+         "d": "2026-11-10",
+         "opp": "WSH",
+         "home": true,
+         "w": true,
+         "s": "122-111",
+         "line": -9.5,
+         "role": "fav",
+         "cov": "c"
+        },
+        {
+         "d": "2026-11-13",
+         "opp": "WSH",
+         "home": false,
+         "w": true,
+         "s": "144-140",
+         "line": -10.5,
+         "role": "fav",
+         "cov": "n"
+        },
+        {
+         "d": "2026-11-15",
+         "opp": "MIA",
+         "home": false,
+         "w": false,
+         "s": "117-137",
+         "line": -4.5,
+         "role": "fav",
+         "cov": "n"
+        }
+       ],
+       "wl": [
+        2,
+        3
+       ],
+       "ats": [
+        1,
+        4,
+        0
+       ],
+       "fav": [
+        2,
+        3
+       ],
+       "dog": [
+        0,
+        0
+       ]
+      },
+      "SA": {
+       "games": [
+        {
+         "d": "2026-11-08",
+         "opp": "POR",
+         "home": false,
+         "w": true,
+         "s": "125-103",
+         "line": -5.5,
+         "role": "fav",
+         "cov": "c"
+        },
+        {
+         "d": "2026-11-10",
+         "opp": "PHX",
+         "home": false,
+         "w": true,
+         "s": "122-96",
+         "line": -9.5,
+         "role": "fav",
+         "cov": "c"
+        },
+        {
+         "d": "2026-11-12",
+         "opp": "CHI",
+         "home": false,
+         "w": true,
+         "s": "124-119",
+         "line": -15.5,
+         "role": "fav",
+         "cov": "n"
+        },
+        {
+         "d": "2026-11-14",
+         "opp": "GS",
+         "home": true,
+         "w": true,
+         "s": "123-85",
+         "line": -12.5,
+         "role": "fav",
+         "cov": "c"
+        },
+        {
+         "d": "2026-11-15",
+         "opp": "UTAH",
+         "home": false,
+         "w": true,
+         "s": "110-102",
+         "line": -14.5,
+         "role": "fav",
+         "cov": "n"
+        }
+       ],
+       "wl": [
+        5,
+        0
+       ],
+       "ats": [
+        3,
+        2,
+        0
+       ],
+       "fav": [
+        5,
+        0
+       ],
+       "dog": [
+        0,
+        0
+       ]
+      }
+     },
+     "watch": [
+      {
+       "kind": "mismatch",
+       "team": "SA",
+       "tone": "up",
+       "text": "Victor Wembanyama (SA, 11.6 reb): DET allows 11.2 rebounds to SF/PF (+22% vs avg)."
+      },
+      {
+       "kind": "mismatch",
+       "team": "DET",
+       "tone": "down",
+       "text": "Paul Reed (DET, 7.8 reb): SA allows 8.1 rebounds to SF/PF (-12% vs avg)."
+      }
+     ],
+     "stories": [],
+     "grid": {
+      "DET": {
+       "n": 30,
+       "unit": "pts",
+       "cells": [
+        {
+         "k": "PG",
+         "v": 24.5,
+         "rank": 11,
+         "tier": "yellow"
+        },
+        {
+         "k": "SG",
+         "v": 19.6,
+         "rank": 2,
+         "tier": "red"
+        },
+        {
+         "k": "SF",
+         "v": 20.8,
+         "rank": 16,
+         "tier": "yellow"
+        },
+        {
+         "k": "PF",
+         "v": 21.2,
+         "rank": 8,
+         "tier": "red"
+        },
+        {
+         "k": "C",
+         "v": 23.3,
+         "rank": 23,
+         "tier": "green"
+        }
+       ],
+       "units": [
+        {
+         "k": "Pace",
+         "v": "103.7 possessions (13th fastest)",
+         "rank": null,
+         "tier": ""
+        }
+       ]
+      },
+      "SA": {
+       "n": 30,
+       "unit": "pts",
+       "cells": [
+        {
+         "k": "PG",
+         "v": 25.6,
+         "rank": 16,
+         "tier": "yellow"
+        },
+        {
+         "k": "SG",
+         "v": 20.8,
+         "rank": 8,
+         "tier": "red"
+        },
+        {
+         "k": "SF",
+         "v": 16.8,
+         "rank": 4,
+         "tier": "red"
+        },
+        {
+         "k": "PF",
+         "v": 20.7,
+         "rank": 5,
+         "tier": "red"
+        },
+        {
+         "k": "C",
+         "v": 22.5,
+         "rank": 22,
+         "tier": "green"
+        }
+       ],
+       "units": [
+        {
+         "k": "Pace",
+         "v": "102.5 possessions (22nd fastest)",
+         "rank": null,
+         "tier": ""
+        }
+       ]
+      }
+     },
+     "changes": [
+      {
+       "team": "DET",
+       "pos": "SF",
+       "name": "Duncan Robinson",
+       "status": "Out"
+      }
+     ]
+    },
+    "UTAH @ LAC": {
+     "trend": {
+      "UTAH": {
+       "games": [
+        {
+         "d": "2026-11-09",
+         "opp": "MIN",
+         "home": false,
+         "w": false,
+         "s": "100-115",
+         "line": 12.5,
+         "role": "dog",
+         "cov": "n"
+        },
+        {
+         "d": "2026-11-11",
+         "opp": "MIA",
+         "home": true,
+         "w": false,
+         "s": "109-115",
+         "line": 8.5,
+         "role": "dog",
+         "cov": "c"
+        },
+        {
+         "d": "2026-11-12",
+         "opp": "ORL",
+         "home": true,
+         "w": false,
+         "s": "108-123",
+         "line": 4.5,
+         "role": "dog",
+         "cov": "n"
+        },
+        {
+         "d": "2026-11-14",
+         "opp": "HOU",
+         "home": false,
+         "w": false,
+         "s": "118-125",
+         "line": 15.5,
+         "role": "dog",
+         "cov": "c"
+        },
+        {
+         "d": "2026-11-15",
+         "opp": "SA",
+         "home": true,
+         "w": false,
+         "s": "102-110",
+         "line": 14.5,
+         "role": "dog",
+         "cov": "c"
+        }
+       ],
+       "wl": [
+        0,
+        5
+       ],
+       "ats": [
+        3,
+        2,
+        0
+       ],
+       "fav": [
+        0,
+        0
+       ],
+       "dog": [
+        0,
+        5
+       ]
+      },
+      "LAC": {
+       "games": [
+        {
+         "d": "2026-11-05",
+         "opp": "MIA",
+         "home": true,
+         "w": false,
+         "s": "116-117",
+         "line": 6.5,
+         "role": "dog",
+         "cov": "c"
+        },
+        {
+         "d": "2026-11-09",
+         "opp": "NO",
+         "home": true,
+         "w": true,
+         "s": "139-123",
+         "line": 1.5,
+         "role": "dog",
+         "cov": "c"
+        },
+        {
+         "d": "2026-11-11",
+         "opp": "PHX",
+         "home": false,
+         "w": false,
+         "s": "110-133",
+         "line": 3.5,
+         "role": "dog",
+         "cov": "n"
+        },
+        {
+         "d": "2026-11-14",
+         "opp": "OKC",
+         "home": true,
+         "w": true,
+         "s": "113-112",
+         "line": 6.5,
+         "role": "dog",
+         "cov": "c"
+        },
+        {
+         "d": "2026-11-15",
+         "opp": "CHA",
+         "home": true,
+         "w": true,
+         "s": "113-105",
+         "line": -1.5,
+         "role": "fav",
+         "cov": "c"
+        }
+       ],
+       "wl": [
+        3,
+        2
+       ],
+       "ats": [
+        4,
+        1,
+        0
+       ],
+       "fav": [
+        1,
+        0
+       ],
+       "dog": [
+        2,
+        2
+       ]
+      }
+     },
+     "watch": [
+      {
+       "kind": "mismatch",
+       "team": "UTAH",
+       "tone": "up",
+       "text": "Darryn Peterson (UTAH, 17.1 pts): LAC allows 26.8 points to PG/SG (+11% vs avg), game pace +1%."
+      },
+      {
+       "kind": "mismatch",
+       "team": "LAC",
+       "tone": "down",
+       "text": "Brook Lopez (LAC, 14.1 pts): UTAH allows 19.1 points to C (-9% vs avg), game pace +1%."
+      }
+     ],
+     "stories": [],
+     "grid": {
+      "UTAH": {
+       "n": 30,
+       "unit": "pts",
+       "cells": [
+        {
+         "k": "PG",
+         "v": 29.8,
+         "rank": 27,
+         "tier": "green"
+        },
+        {
+         "k": "SG",
+         "v": 19.5,
+         "rank": 1,
+         "tier": "red"
+        },
+        {
+         "k": "SF",
+         "v": 19.0,
+         "rank": 9,
+         "tier": "red"
+        },
+        {
+         "k": "PF",
+         "v": 26.7,
+         "rank": 28,
+         "tier": "green"
+        },
+        {
+         "k": "C",
+         "v": 19.1,
+         "rank": 10,
+         "tier": "red"
+        }
+       ],
+       "units": [
+        {
+         "k": "Pace",
+         "v": "104.2 possessions (6th fastest)",
+         "rank": null,
+         "tier": ""
+        }
+       ]
+      },
+      "LAC": {
+       "n": 30,
+       "unit": "pts",
+       "cells": [
+        {
+         "k": "PG",
+         "v": 29.9,
+         "rank": 28,
+         "tier": "green"
+        },
+        {
+         "k": "SG",
+         "v": 23.6,
+         "rank": 24,
+         "tier": "green"
+        },
+        {
+         "k": "SF",
+         "v": 16.1,
+         "rank": 2,
+         "tier": "red"
+        },
+        {
+         "k": "PF",
+         "v": 21.4,
+         "rank": 10,
+         "tier": "red"
+        },
+        {
+         "k": "C",
+         "v": 22.4,
+         "rank": 21,
+         "tier": "green"
+        }
+       ],
+       "units": [
+        {
+         "k": "Pace",
+         "v": "103.7 possessions (15th fastest)",
+         "rank": null,
+         "tier": ""
+        }
+       ]
+      }
+     },
+     "changes": [
+      {
+       "team": "UTAH",
+       "pos": "C",
+       "name": "Jaxson Hayes",
        "status": "Out"
       }
      ],
      "next": [
       {
-       "team": "NO",
-       "pos": "SG",
-       "out": "Dejounte Murray",
+       "team": "UTAH",
+       "pos": "C",
+       "out": "Jaxson Hayes",
        "status": "Out",
-       "backup": "Herbert Jones",
-       "def": "GS",
-       "rank": 19,
+       "backup": "Mo Bamba",
+       "def": "LAC",
+       "rank": 21,
        "n": 30,
-       "v": 22.7,
-       "yds": null,
-       "unit": "pts",
-       "sleeper": false
-      },
-      {
-       "team": "NO",
-       "pos": "SF",
-       "out": "Trey Murphy III",
-       "status": "Out",
-       "backup": "Saddiq Bey",
-       "def": "GS",
-       "rank": 22,
-       "n": 30,
-       "v": 23.1,
+       "v": 22.4,
        "yds": null,
        "unit": "pts",
        "sleeper": true
       }
      ]
     },
-    "PHX @ DEN": {
+    "CHA @ LAL": {
      "trend": {
-      "PHX": {
+      "CHA": {
        "games": [
         {
-         "d": "2026-11-08",
-         "opp": "HOU",
+         "d": "2026-11-05",
+         "opp": "BKN",
+         "home": false,
+         "w": false,
+         "s": "104-114",
+         "line": -3.5,
+         "role": "fav",
+         "cov": "n"
+        },
+        {
+         "d": "2026-11-07",
+         "opp": "BOS",
+         "home": true,
+         "w": false,
+         "s": "80-119",
+         "line": 10.5,
+         "role": "dog",
+         "cov": "n"
+        },
+        {
+         "d": "2026-11-10",
+         "opp": "CLE",
          "home": true,
          "w": true,
-         "s": "102-99",
+         "s": "124-112",
+         "line": 8.5,
+         "role": "dog",
+         "cov": "c"
+        },
+        {
+         "d": "2026-11-13",
+         "opp": "PHX",
+         "home": false,
+         "w": false,
+         "s": "96-101",
          "line": 6.5,
          "role": "dog",
          "cov": "c"
         },
         {
-         "d": "2026-11-10",
-         "opp": "SA",
-         "home": true,
+         "d": "2026-11-15",
+         "opp": "LAC",
+         "home": false,
          "w": false,
-         "s": "96-122",
-         "line": 9.5,
+         "s": "105-113",
+         "line": 1.5,
          "role": "dog",
          "cov": "n"
-        },
+        }
+       ],
+       "wl": [
+        1,
+        4
+       ],
+       "ats": [
+        2,
+        3,
+        0
+       ],
+       "fav": [
+        0,
+        1
+       ],
+       "dog": [
+        1,
+        3
+       ]
+      },
+      "LAL": {
+       "games": [
         {
-         "d": "2026-11-11",
-         "opp": "LAC",
+         "d": "2026-11-07",
+         "opp": "POR",
          "home": true,
          "w": true,
-         "s": "133-110",
+         "s": "124-118",
          "line": -3.5,
          "role": "fav",
          "cov": "c"
         },
         {
-         "d": "2026-11-13",
-         "opp": "CHA",
-         "home": true,
+         "d": "2026-11-08",
+         "opp": "DET",
+         "home": false,
          "w": true,
-         "s": "101-96",
-         "line": -6.5,
+         "s": "121-116",
+         "line": 8.5,
+         "role": "dog",
+         "cov": "c"
+        },
+        {
+         "d": "2026-11-10",
+         "opp": "ATL",
+         "home": false,
+         "w": true,
+         "s": "124-114",
+         "line": 2.5,
+         "role": "dog",
+         "cov": "c"
+        },
+        {
+         "d": "2026-11-12",
+         "opp": "MIL",
+         "home": false,
+         "w": true,
+         "s": "123-112",
+         "line": -14.5,
          "role": "fav",
          "cov": "n"
         },
         {
          "d": "2026-11-15",
-         "opp": "LAL",
+         "opp": "PHX",
+         "home": false,
+         "w": true,
+         "s": "131-123",
+         "line": -3.5,
+         "role": "fav",
+         "cov": "c"
+        }
+       ],
+       "wl": [
+        5,
+        0
+       ],
+       "ats": [
+        4,
+        1,
+        0
+       ],
+       "fav": [
+        3,
+        0
+       ],
+       "dog": [
+        2,
+        0
+       ]
+      }
+     },
+     "watch": [
+      {
+       "kind": "mismatch",
+       "team": "CHA",
+       "tone": "up",
+       "text": "Grayson Allen (CHA, 14.9 pts): LAL allows 25.6 points to PG/SG (+6% vs avg), game pace -2%."
+      },
+      {
+       "kind": "mismatch",
+       "team": "LAL",
+       "tone": "down",
+       "text": "Jake LaRavia (LAL, 3.9 reb): CHA allows 8.4 rebounds to SF/PF (-9% vs avg), game pace -2%."
+      }
+     ],
+     "stories": [],
+     "grid": {
+      "CHA": {
+       "n": 30,
+       "unit": "pts",
+       "cells": [
+        {
+         "k": "PG",
+         "v": 25.3,
+         "rank": 15,
+         "tier": "yellow"
+        },
+        {
+         "k": "SG",
+         "v": 20.7,
+         "rank": 7,
+         "tier": "red"
+        },
+        {
+         "k": "SF",
+         "v": 23.4,
+         "rank": 23,
+         "tier": "green"
+        },
+        {
+         "k": "PF",
+         "v": 19.9,
+         "rank": 3,
+         "tier": "red"
+        },
+        {
+         "k": "C",
+         "v": 19.5,
+         "rank": 11,
+         "tier": "yellow"
+        }
+       ],
+       "units": [
+        {
+         "k": "Pace",
+         "v": "99.3 possessions (30th fastest)",
+         "rank": null,
+         "tier": ""
+        }
+       ]
+      },
+      "LAL": {
+       "n": 30,
+       "unit": "pts",
+       "cells": [
+        {
+         "k": "PG",
+         "v": 26.6,
+         "rank": 19,
+         "tier": "yellow"
+        },
+        {
+         "k": "SG",
+         "v": 24.5,
+         "rank": 29,
+         "tier": "green"
+        },
+        {
+         "k": "SF",
+         "v": 20.7,
+         "rank": 15,
+         "tier": "yellow"
+        },
+        {
+         "k": "PF",
+         "v": 19.8,
+         "rank": 2,
+         "tier": "red"
+        },
+        {
+         "k": "C",
+         "v": 21.1,
+         "rank": 15,
+         "tier": "yellow"
+        }
+       ],
+       "units": [
+        {
+         "k": "Pace",
+         "v": "104.0 possessions (8th fastest)",
+         "rank": null,
+         "tier": ""
+        }
+       ]
+      }
+     },
+     "changes": [
+      {
+       "team": "LAL",
+       "pos": "SG",
+       "name": "Austin Reaves",
+       "status": "Out"
+      },
+      {
+       "team": "LAL",
+       "pos": "C",
+       "name": "Walker Kessler",
+       "status": "Out"
+      }
+     ],
+     "next": [
+      {
+       "team": "LAL",
+       "pos": "SG",
+       "out": "Austin Reaves",
+       "status": "Out",
+       "backup": "Quentin Grimes",
+       "def": "CHA",
+       "rank": 7,
+       "n": 30,
+       "v": 20.7,
+       "yds": null,
+       "unit": "pts",
+       "sleeper": false
+      },
+      {
+       "team": "LAL",
+       "pos": "C",
+       "out": "Walker Kessler",
+       "status": "Out",
+       "backup": "Sandro Mamukelashvili",
+       "def": "CHA",
+       "rank": 11,
+       "n": 30,
+       "v": 19.5,
+       "yds": null,
+       "unit": "pts",
+       "sleeper": false
+      }
+     ]
+    }
+   }
+  },
+  "nfl": {
+   "day": "2026-11-19",
+   "games": {
+    "IND @ HOU": {
+     "trend": {
+      "IND": {
+       "games": [
+        {
+         "d": "2026-10-18",
+         "opp": "TEN",
          "home": true,
          "w": false,
-         "s": "123-131",
-         "line": 3.5,
+         "s": "20-26",
+         "line": -6.5,
+         "role": "fav",
+         "cov": "n"
+        },
+        {
+         "d": "2026-10-25",
+         "opp": "MIN",
+         "home": false,
+         "w": false,
+         "s": "10-16",
+         "line": 6.5,
          "role": "dog",
+         "cov": "c"
+        },
+        {
+         "d": "2026-11-01",
+         "opp": "JAX",
+         "home": false,
+         "w": false,
+         "s": "7-42",
+         "line": 10.5,
+         "role": "dog",
+         "cov": "n"
+        },
+        {
+         "d": "2026-11-08",
+         "opp": "DAL",
+         "home": true,
+         "w": false,
+         "s": "23-27",
+         "line": 4.5,
+         "role": "dog",
+         "cov": "c"
+        },
+        {
+         "d": "2026-11-15",
+         "opp": "MIA",
+         "home": true,
+         "w": true,
+         "s": "24-22",
+         "line": -5.5,
+         "role": "fav",
+         "cov": "n"
+        }
+       ],
+       "wl": [
+        1,
+        4
+       ],
+       "ats": [
+        2,
+        3,
+        0
+       ],
+       "fav": [
+        1,
+        1
+       ],
+       "dog": [
+        0,
+        3
+       ]
+      },
+      "HOU": {
+       "games": [
+        {
+         "d": "2026-10-11",
+         "opp": "TEN",
+         "home": false,
+         "w": true,
+         "s": "26-3",
+         "line": -6.5,
+         "role": "fav",
+         "cov": "c"
+        },
+        {
+         "d": "2026-10-18",
+         "opp": "JAX",
+         "home": false,
+         "w": true,
+         "s": "34-31",
+         "line": 2.5,
+         "role": "dog",
+         "cov": "c"
+        },
+        {
+         "d": "2026-10-25",
+         "opp": "NYG",
+         "home": true,
+         "w": false,
+         "s": "21-27",
+         "line": -10.0,
+         "role": "fav",
+         "cov": "n"
+        },
+        {
+         "d": "2026-11-08",
+         "opp": "LAC",
+         "home": false,
+         "w": true,
+         "s": "44-22",
+         "line": -5.5,
+         "role": "fav",
+         "cov": "c"
+        },
+        {
+         "d": "2026-11-15",
+         "opp": "CLE",
+         "home": false,
+         "w": false,
+         "s": "24-27",
+         "line": -4.5,
+         "role": "fav",
          "cov": "n"
         }
        ],
@@ -2076,8 +1516,637 @@
         2
        ],
        "ats": [
-        2,
         3,
+        2,
+        0
+       ],
+       "fav": [
+        2,
+        2
+       ],
+       "dog": [
+        1,
+        0
+       ]
+      }
+     },
+     "watch": [
+      {
+       "kind": "story",
+       "team": "IND",
+       "effect": "hurts",
+       "tone": "down",
+       "text": "IND on a short week (4 days since last game), HOU had 4."
+      },
+      {
+       "kind": "story",
+       "team": "HOU",
+       "effect": "hurts",
+       "tone": "down",
+       "text": "HOU on a short week (4 days since last game), IND had 4."
+      },
+      {
+       "kind": "story",
+       "team": "HOU",
+       "effect": "helps",
+       "tone": "up",
+       "text": "Revenge spot: HOU lost 19-17 to IND on September 27."
+      }
+     ],
+     "stories": [
+      {
+       "kind": "story",
+       "team": "IND",
+       "effect": "hurts",
+       "tone": "down",
+       "text": "IND on a short week (4 days since last game), HOU had 4."
+      },
+      {
+       "kind": "story",
+       "team": "HOU",
+       "effect": "hurts",
+       "tone": "down",
+       "text": "HOU on a short week (4 days since last game), IND had 4."
+      },
+      {
+       "kind": "story",
+       "team": "HOU",
+       "effect": "helps",
+       "tone": "up",
+       "text": "Revenge spot: HOU lost 19-17 to IND on September 27."
+      }
+     ],
+     "grid": {
+      "IND": {
+       "n": 32,
+       "unit": "pts",
+       "cells": [
+        {
+         "k": "QB",
+         "v": 19.1,
+         "yds": 258.0,
+         "rank": 26,
+         "tier": "green"
+        },
+        {
+         "k": "RB",
+         "v": 25.0,
+         "yds": 150.7,
+         "rank": 25,
+         "tier": "green"
+        },
+        {
+         "k": "WR",
+         "v": 29.9,
+         "yds": 153.5,
+         "rank": 11,
+         "tier": "yellow"
+        },
+        {
+         "k": "TE",
+         "v": 13.1,
+         "yds": 45.8,
+         "rank": 18,
+         "tier": "yellow"
+        }
+       ],
+       "units": [
+        {
+         "k": "CB",
+         "v": "8.4 y/tgt",
+         "rank": 12,
+         "tier": "yellow"
+        },
+        {
+         "k": "S",
+         "v": "13.8 y/tgt",
+         "rank": 32,
+         "tier": "green"
+        },
+        {
+         "k": "Rush",
+         "v": "15.0%",
+         "rank": 18,
+         "tier": "yellow"
+        },
+        {
+         "k": "Run D",
+         "v": "4.9 ypc",
+         "rank": 29,
+         "tier": "green"
+        }
+       ],
+       "scheme": "4-3 base, blitzes 21% of dropbacks (avg 32%)",
+       "games": 10
+      },
+      "HOU": {
+       "n": 32,
+       "unit": "pts",
+       "cells": [
+        {
+         "k": "QB",
+         "v": 18.7,
+         "yds": 275.6,
+         "rank": 23,
+         "tier": "green"
+        },
+        {
+         "k": "RB",
+         "v": 22.6,
+         "yds": 116.9,
+         "rank": 19,
+         "tier": "yellow"
+        },
+        {
+         "k": "WR",
+         "v": 37.8,
+         "yds": 183.9,
+         "rank": 29,
+         "tier": "green"
+        },
+        {
+         "k": "TE",
+         "v": 10.7,
+         "yds": 51.8,
+         "rank": 6,
+         "tier": "red"
+        }
+       ],
+       "units": [
+        {
+         "k": "CB",
+         "v": "8.5 y/tgt",
+         "rank": 15,
+         "tier": "yellow"
+        },
+        {
+         "k": "S",
+         "v": "9.0 y/tgt",
+         "rank": 5,
+         "tier": "red"
+        },
+        {
+         "k": "Rush",
+         "v": "16.8%",
+         "rank": 8,
+         "tier": "red"
+        },
+        {
+         "k": "Run D",
+         "v": "4.1 ypc",
+         "rank": 10,
+         "tier": "red"
+        }
+       ],
+       "scheme": "4-3 base, blitzes 24% of dropbacks (avg 32%)",
+       "games": 9
+      }
+     },
+     "changes": [
+      {
+       "team": "IND",
+       "pos": "WR",
+       "name": "Anthony Gould",
+       "status": "Questionable"
+      },
+      {
+       "team": "IND",
+       "pos": "LT",
+       "name": "Bernhard Raimann",
+       "status": "Questionable"
+      },
+      {
+       "team": "IND",
+       "pos": "RT",
+       "name": "Jalen Travis",
+       "status": "Doubtful"
+      },
+      {
+       "team": "IND",
+       "pos": "CB",
+       "name": "Sauce Gardner",
+       "status": "Questionable"
+      },
+      {
+       "team": "IND",
+       "pos": "CB",
+       "name": "Charvarius Ward",
+       "status": "Questionable"
+      },
+      {
+       "team": "HOU",
+       "pos": "DE",
+       "name": "Danielle Hunter",
+       "status": "Questionable"
+      },
+      {
+       "team": "HOU",
+       "pos": "CB",
+       "name": "Kamari Lassiter",
+       "status": "Questionable"
+      }
+     ],
+     "next": [
+      {
+       "team": "IND",
+       "pos": "WR",
+       "out": "Anthony Gould",
+       "status": "Questionable",
+       "backup": "Quez Watkins",
+       "def": "HOU",
+       "rank": 29,
+       "n": 32,
+       "v": 37.8,
+       "yds": 183.9,
+       "unit": "pts",
+       "sleeper": true
+      }
+     ]
+    },
+    "MIA @ BUF": {
+     "trend": {
+      "MIA": {
+       "games": [
+        {
+         "d": "2026-10-11",
+         "opp": "CIN",
+         "home": true,
+         "w": false,
+         "s": "24-31",
+         "line": 7.5,
+         "role": "dog",
+         "cov": "c"
+        },
+        {
+         "d": "2026-10-25",
+         "opp": "NYJ",
+         "home": false,
+         "w": true,
+         "s": "28-25",
+         "line": 3.5,
+         "role": "dog",
+         "cov": "c"
+        },
+        {
+         "d": "2026-11-01",
+         "opp": "NE",
+         "home": true,
+         "w": false,
+         "s": "19-24",
+         "line": 7.0,
+         "role": "dog",
+         "cov": "c"
+        },
+        {
+         "d": "2026-11-08",
+         "opp": "DET",
+         "home": true,
+         "w": false,
+         "s": "9-19",
+         "line": 6.5,
+         "role": "dog",
+         "cov": "n"
+        },
+        {
+         "d": "2026-11-15",
+         "opp": "IND",
+         "home": false,
+         "w": false,
+         "s": "22-24",
+         "line": 5.5,
+         "role": "dog",
+         "cov": "c"
+        }
+       ],
+       "wl": [
+        1,
+        4
+       ],
+       "ats": [
+        4,
+        1,
+        0
+       ],
+       "fav": [
+        0,
+        0
+       ],
+       "dog": [
+        1,
+        4
+       ]
+      },
+      "BUF": {
+       "games": [
+        {
+         "d": "2026-10-13",
+         "opp": "LAR",
+         "home": false,
+         "w": true,
+         "s": "37-34",
+         "line": 3.5,
+         "role": "dog",
+         "cov": "c"
+        },
+        {
+         "d": "2026-10-18",
+         "opp": "LV",
+         "home": false,
+         "w": true,
+         "s": "33-30",
+         "line": -5.5,
+         "role": "fav",
+         "cov": "n"
+        },
+        {
+         "d": "2026-11-01",
+         "opp": "BAL",
+         "home": true,
+         "w": true,
+         "s": "36-10",
+         "line": -3.0,
+         "role": "fav",
+         "cov": "c"
+        },
+        {
+         "d": "2026-11-10",
+         "opp": "MIN",
+         "home": false,
+         "w": true,
+         "s": "23-6",
+         "line": -3.5,
+         "role": "fav",
+         "cov": "c"
+        },
+        {
+         "d": "2026-11-15",
+         "opp": "NYJ",
+         "home": false,
+         "w": true,
+         "s": "31-12",
+         "line": -8.5,
+         "role": "fav",
+         "cov": "c"
+        }
+       ],
+       "wl": [
+        5,
+        0
+       ],
+       "ats": [
+        4,
+        1,
+        0
+       ],
+       "fav": [
+        4,
+        0
+       ],
+       "dog": [
+        1,
+        0
+       ]
+      }
+     },
+     "watch": [],
+     "stories": [],
+     "grid": {
+      "MIA": {
+       "n": 32,
+       "unit": "pts",
+       "cells": [
+        {
+         "k": "QB",
+         "v": 16.8,
+         "yds": 221.8,
+         "rank": 14,
+         "tier": "yellow"
+        },
+        {
+         "k": "RB",
+         "v": 25.7,
+         "yds": 144.4,
+         "rank": 27,
+         "tier": "green"
+        },
+        {
+         "k": "WR",
+         "v": 25.2,
+         "yds": 119.9,
+         "rank": 3,
+         "tier": "red"
+        },
+        {
+         "k": "TE",
+         "v": 15.9,
+         "yds": 58.2,
+         "rank": 26,
+         "tier": "green"
+        }
+       ],
+       "units": [
+        {
+         "k": "CB",
+         "v": "10.1 y/tgt",
+         "rank": 30,
+         "tier": "green"
+        },
+        {
+         "k": "S",
+         "v": "13.2 y/tgt",
+         "rank": 29,
+         "tier": "green"
+        },
+        {
+         "k": "Rush",
+         "v": "15.5%",
+         "rank": 15,
+         "tier": "yellow"
+        },
+        {
+         "k": "Run D",
+         "v": "4.3 ypc",
+         "rank": 19,
+         "tier": "yellow"
+        }
+       ],
+       "scheme": "4-3 base, blitzes 23% of dropbacks (avg 32%)",
+       "games": 9
+      },
+      "BUF": {
+       "n": 32,
+       "unit": "pts",
+       "cells": [
+        {
+         "k": "QB",
+         "v": 16.8,
+         "yds": 270.2,
+         "rank": 13,
+         "tier": "yellow"
+        },
+        {
+         "k": "RB",
+         "v": 24.6,
+         "yds": 122.4,
+         "rank": 23,
+         "tier": "green"
+        },
+        {
+         "k": "WR",
+         "v": 34.2,
+         "yds": 152.8,
+         "rank": 23,
+         "tier": "green"
+        },
+        {
+         "k": "TE",
+         "v": 12.6,
+         "yds": 61.1,
+         "rank": 12,
+         "tier": "yellow"
+        }
+       ],
+       "units": [
+        {
+         "k": "CB",
+         "v": "8.1 y/tgt",
+         "rank": 11,
+         "tier": "yellow"
+        },
+        {
+         "k": "S",
+         "v": "12.6 y/tgt",
+         "rank": 28,
+         "tier": "green"
+        },
+        {
+         "k": "Rush",
+         "v": "20.3%",
+         "rank": 3,
+         "tier": "red"
+        },
+        {
+         "k": "Run D",
+         "v": "4.0 ypc",
+         "rank": 8,
+         "tier": "red"
+        }
+       ],
+       "scheme": "3-4 base, blitzes 36% of dropbacks (avg 32%)",
+       "games": 9
+      }
+     },
+     "changes": [
+      {
+       "team": "MIA",
+       "pos": "WR",
+       "name": "Chris Bell",
+       "status": "Questionable"
+      },
+      {
+       "team": "MIA",
+       "pos": "C",
+       "name": "Aaron Brewer",
+       "status": "Questionable"
+      },
+      {
+       "team": "BUF",
+       "pos": "LB",
+       "name": "Dorian Williams",
+       "status": "Questionable"
+      },
+      {
+       "team": "BUF",
+       "pos": "CB",
+       "name": "Christian Benford",
+       "status": "Questionable"
+      },
+      {
+       "team": "BUF",
+       "pos": "CB",
+       "name": "Dee Alford",
+       "status": "Questionable"
+      }
+     ],
+     "next": [
+      {
+       "team": "MIA",
+       "pos": "WR",
+       "out": "Chris Bell",
+       "status": "Questionable",
+       "backup": "Jared Wayne",
+       "def": "BUF",
+       "rank": 23,
+       "n": 32,
+       "v": 34.2,
+       "yds": 152.8,
+       "unit": "pts",
+       "sleeper": true
+      }
+     ]
+    },
+    "NO @ CHI": {
+     "trend": {
+      "NO": {
+       "games": [
+        {
+         "d": "2026-10-11",
+         "opp": "MIN",
+         "home": true,
+         "w": false,
+         "s": "13-23",
+         "line": 2.5,
+         "role": "dog",
+         "cov": "n"
+        },
+        {
+         "d": "2026-10-18",
+         "opp": "NYG",
+         "home": false,
+         "w": true,
+         "s": "34-27",
+         "line": -1.5,
+         "role": "fav",
+         "cov": "c"
+        },
+        {
+         "d": "2026-10-25",
+         "opp": "PIT",
+         "home": true,
+         "w": false,
+         "s": "10-16",
+         "line": 3.0,
+         "role": "dog",
+         "cov": "n"
+        },
+        {
+         "d": "2026-11-08",
+         "opp": "CLE",
+         "home": true,
+         "w": true,
+         "s": "23-22",
+         "line": -4.5,
+         "role": "fav",
+         "cov": "n"
+        },
+        {
+         "d": "2026-11-15",
+         "opp": "CAR",
+         "home": true,
+         "w": false,
+         "s": "17-20",
+         "line": 1.5,
+         "role": "dog",
+         "cov": "n"
+        }
+       ],
+       "wl": [
+        2,
+        3
+       ],
+       "ats": [
+        1,
+        4,
         0
        ],
        "fav": [
@@ -2085,60 +2154,1105 @@
         0
        ],
        "dog": [
-        1,
-        2
+        0,
+        3
        ]
+      }
+     },
+     "watch": [],
+     "stories": [],
+     "grid": {
+      "NO": {
+       "n": 32,
+       "unit": "pts",
+       "cells": [
+        {
+         "k": "QB",
+         "v": 16.7,
+         "yds": 267.7,
+         "rank": 12,
+         "tier": "yellow"
+        },
+        {
+         "k": "RB",
+         "v": 29.6,
+         "yds": 153.6,
+         "rank": 32,
+         "tier": "green"
+        },
+        {
+         "k": "WR",
+         "v": 29.1,
+         "yds": 142.8,
+         "rank": 8,
+         "tier": "red"
+        },
+        {
+         "k": "TE",
+         "v": 15.8,
+         "yds": 65.9,
+         "rank": 25,
+         "tier": "green"
+        }
+       ],
+       "units": [
+        {
+         "k": "CB",
+         "v": "9.5 y/tgt",
+         "rank": 28,
+         "tier": "green"
+        },
+        {
+         "k": "S",
+         "v": "12.2 y/tgt",
+         "rank": 26,
+         "tier": "green"
+        },
+        {
+         "k": "Rush",
+         "v": "15.0%",
+         "rank": 19,
+         "tier": "yellow"
+        },
+        {
+         "k": "Run D",
+         "v": "4.6 ypc",
+         "rank": 25,
+         "tier": "green"
+        }
+       ],
+       "scheme": "3-4 base, blitzes 37% of dropbacks (avg 32%)",
+       "games": 9
       },
-      "DEN": {
+      "CHI": {
+       "n": 32,
+       "unit": "pts",
+       "cells": [
+        {
+         "k": "QB",
+         "v": 17.0,
+         "yds": 248.7,
+         "rank": 16,
+         "tier": "yellow"
+        },
+        {
+         "k": "RB",
+         "v": 20.4,
+         "yds": 115.3,
+         "rank": 12,
+         "tier": "yellow"
+        },
+        {
+         "k": "WR",
+         "v": 29.4,
+         "yds": 148.9,
+         "rank": 9,
+         "tier": "red"
+        },
+        {
+         "k": "TE",
+         "v": 11.4,
+         "yds": 49.6,
+         "rank": 10,
+         "tier": "red"
+        }
+       ],
+       "units": [
+        {
+         "k": "CB",
+         "v": "13.1 y/tgt",
+         "rank": 32,
+         "tier": "green"
+        },
+        {
+         "k": "S",
+         "v": "9.4 y/tgt",
+         "rank": 8,
+         "tier": "red"
+        },
+        {
+         "k": "Rush",
+         "v": "16.7%",
+         "rank": 11,
+         "tier": "yellow"
+        },
+        {
+         "k": "Run D",
+         "v": "4.5 ypc",
+         "rank": 22,
+         "tier": "yellow"
+        }
+       ],
+       "scheme": "blitzes 36% of dropbacks (avg 32%)",
+       "games": 9
+      }
+     },
+     "changes": [
+      {
+       "team": "NO",
+       "pos": "C",
+       "name": "Erik McCoy",
+       "status": "Doubtful"
+      },
+      {
+       "team": "NO",
+       "pos": "RT",
+       "name": "Taliese Fuaga",
+       "status": "Doubtful"
+      },
+      {
+       "team": "NO",
+       "pos": "LB",
+       "name": "Pete Werner",
+       "status": "Questionable"
+      }
+     ]
+    },
+    "TEN @ DAL": {
+     "trend": {
+      "TEN": {
        "games": [
         {
-         "d": "2026-11-05",
-         "opp": "TOR",
+         "d": "2026-10-11",
+         "opp": "HOU",
          "home": true,
+         "w": false,
+         "s": "3-26",
+         "line": 6.5,
+         "role": "dog",
+         "cov": "n"
+        },
+        {
+         "d": "2026-10-18",
+         "opp": "IND",
+         "home": false,
          "w": true,
-         "s": "128-109",
+         "s": "26-20",
+         "line": 6.5,
+         "role": "dog",
+         "cov": "c"
+        },
+        {
+         "d": "2026-10-25",
+         "opp": "CLE",
+         "home": true,
+         "w": false,
+         "s": "24-27",
+         "line": 2.5,
+         "role": "dog",
+         "cov": "n"
+        },
+        {
+         "d": "2026-11-01",
+         "opp": "CIN",
+         "home": false,
+         "w": false,
+         "s": "36-43",
+         "line": 13.5,
+         "role": "dog",
+         "cov": "c"
+        },
+        {
+         "d": "2026-11-15",
+         "opp": "JAX",
+         "home": true,
+         "w": false,
+         "s": "23-40",
+         "line": 10.5,
+         "role": "dog",
+         "cov": "n"
+        }
+       ],
+       "wl": [
+        1,
+        4
+       ],
+       "ats": [
+        2,
+        3,
+        0
+       ],
+       "fav": [
+        0,
+        0
+       ],
+       "dog": [
+        1,
+        4
+       ]
+      },
+      "DAL": {
+       "games": [
+        {
+         "d": "2026-10-19",
+         "opp": "GB",
+         "home": false,
+         "w": false,
+         "s": "13-23",
+         "line": -1.5,
+         "role": "fav",
+         "cov": "n"
+        },
+        {
+         "d": "2026-10-27",
+         "opp": "PHI",
+         "home": false,
+         "w": true,
+         "s": "38-21",
          "line": -4.5,
          "role": "fav",
          "cov": "c"
         },
         {
-         "d": "2026-11-07",
+         "d": "2026-11-01",
+         "opp": "ARI",
+         "home": true,
+         "w": false,
+         "s": "30-33",
+         "line": -7.0,
+         "role": "fav",
+         "cov": "n"
+        },
+        {
+         "d": "2026-11-08",
          "opp": "IND",
          "home": false,
          "w": true,
-         "s": "114-102",
-         "line": -8.5,
+         "s": "27-23",
+         "line": -4.5,
+         "role": "fav",
+         "cov": "n"
+        },
+        {
+         "d": "2026-11-15",
+         "opp": "SF",
+         "home": true,
+         "w": false,
+         "s": "40-46",
+         "line": 3.5,
+         "role": "dog",
+         "cov": "n"
+        }
+       ],
+       "wl": [
+        2,
+        3
+       ],
+       "ats": [
+        1,
+        4,
+        0
+       ],
+       "fav": [
+        2,
+        2
+       ],
+       "dog": [
+        0,
+        1
+       ]
+      }
+     },
+     "watch": [],
+     "stories": [],
+     "grid": {
+      "TEN": {
+       "n": 32,
+       "unit": "pts",
+       "cells": [
+        {
+         "k": "QB",
+         "v": 19.4,
+         "yds": 300.7,
+         "rank": 27,
+         "tier": "green"
+        },
+        {
+         "k": "RB",
+         "v": 22.0,
+         "yds": 133.0,
+         "rank": 16,
+         "tier": "yellow"
+        },
+        {
+         "k": "WR",
+         "v": 42.8,
+         "yds": 212.7,
+         "rank": 32,
+         "tier": "green"
+        },
+        {
+         "k": "TE",
+         "v": 12.8,
+         "yds": 41.7,
+         "rank": 14,
+         "tier": "yellow"
+        }
+       ],
+       "units": [
+        {
+         "k": "CB",
+         "v": "11.9 y/tgt",
+         "rank": 31,
+         "tier": "green"
+        },
+        {
+         "k": "S",
+         "v": "11.4 y/tgt",
+         "rank": 17,
+         "tier": "yellow"
+        },
+        {
+         "k": "Rush",
+         "v": "14.7%",
+         "rank": 23,
+         "tier": "green"
+        },
+        {
+         "k": "Run D",
+         "v": "4.2 ypc",
+         "rank": 16,
+         "tier": "yellow"
+        }
+       ],
+       "scheme": "4-3 base, blitzes 24% of dropbacks (avg 32%)",
+       "games": 9
+      },
+      "DAL": {
+       "n": 32,
+       "unit": "pts",
+       "cells": [
+        {
+         "k": "QB",
+         "v": 20.2,
+         "yds": 279.4,
+         "rank": 29,
+         "tier": "green"
+        },
+        {
+         "k": "RB",
+         "v": 29.5,
+         "yds": 153.2,
+         "rank": 31,
+         "tier": "green"
+        },
+        {
+         "k": "WR",
+         "v": 35.9,
+         "yds": 172.3,
+         "rank": 26,
+         "tier": "green"
+        },
+        {
+         "k": "TE",
+         "v": 13.2,
+         "yds": 52.6,
+         "rank": 19,
+         "tier": "yellow"
+        }
+       ],
+       "units": [
+        {
+         "k": "CB",
+         "v": "8.7 y/tgt",
+         "rank": 17,
+         "tier": "yellow"
+        },
+        {
+         "k": "S",
+         "v": "11.5 y/tgt",
+         "rank": 18,
+         "tier": "yellow"
+        },
+        {
+         "k": "Rush",
+         "v": "13.9%",
+         "rank": 26,
+         "tier": "green"
+        },
+        {
+         "k": "Run D",
+         "v": "5.4 ypc",
+         "rank": 32,
+         "tier": "green"
+        }
+       ],
+       "scheme": "3-4 base, blitzes 24% of dropbacks (avg 32%)",
+       "games": 10
+      }
+     },
+     "changes": [
+      {
+       "team": "TEN",
+       "pos": "WR",
+       "name": "Carnell Tate",
+       "status": "Questionable"
+      },
+      {
+       "team": "TEN",
+       "pos": "LB",
+       "name": "Anthony Hill Jr.",
+       "status": "Questionable"
+      },
+      {
+       "team": "TEN",
+       "pos": "LB",
+       "name": "Cody Barton",
+       "status": "Questionable"
+      },
+      {
+       "team": "TEN",
+       "pos": "S",
+       "name": "Tony Adams",
+       "status": "Questionable"
+      },
+      {
+       "team": "DAL",
+       "pos": "TE",
+       "name": "Jake Ferguson",
+       "status": "Out"
+      },
+      {
+       "team": "DAL",
+       "pos": "RG",
+       "name": "Tyler Booker",
+       "status": "Out"
+      },
+      {
+       "team": "DAL",
+       "pos": "LB",
+       "name": "Donovan Ezeiruaku",
+       "status": "Questionable"
+      },
+      {
+       "team": "DAL",
+       "pos": "S",
+       "name": "P.J. Locke",
+       "status": "Questionable"
+      }
+     ],
+     "next": [
+      {
+       "team": "TEN",
+       "pos": "WR",
+       "out": "Carnell Tate",
+       "status": "Questionable",
+       "backup": "Xavier Restrepo",
+       "def": "DAL",
+       "rank": 26,
+       "n": 32,
+       "v": 35.9,
+       "yds": 172.3,
+       "unit": "pts",
+       "sleeper": true
+      },
+      {
+       "team": "DAL",
+       "pos": "TE",
+       "out": "Jake Ferguson",
+       "status": "Out",
+       "backup": "Brevyn Spann-Ford",
+       "def": "TEN",
+       "rank": 14,
+       "n": 32,
+       "v": 12.8,
+       "yds": 41.7,
+       "unit": "pts",
+       "sleeper": false
+      }
+     ]
+    },
+    "TB @ DET": {
+     "trend": {
+      "DET": {
+       "games": [
+        {
+         "d": "2026-10-11",
+         "opp": "ARI",
+         "home": false,
+         "w": true,
+         "s": "45-21",
+         "line": -4.5,
          "role": "fav",
          "cov": "c"
         },
         {
-         "d": "2026-11-10",
-         "opp": "HOU",
-         "home": false,
-         "w": false,
-         "s": "100-110",
-         "line": 4.5,
-         "role": "dog",
+         "d": "2026-10-25",
+         "opp": "GB",
+         "home": true,
+         "w": true,
+         "s": "20-17",
+         "line": -3.5,
+         "role": "fav",
          "cov": "n"
         },
         {
-         "d": "2026-11-12",
-         "opp": "MEM",
-         "home": false,
+         "d": "2026-11-01",
+         "opp": "MIN",
+         "home": true,
          "w": true,
-         "s": "123-118",
+         "s": "19-15",
          "line": -3.5,
          "role": "fav",
          "cov": "c"
         },
         {
+         "d": "2026-11-08",
+         "opp": "MIA",
+         "home": false,
+         "w": true,
+         "s": "19-9",
+         "line": -6.5,
+         "role": "fav",
+         "cov": "c"
+        },
+        {
          "d": "2026-11-15",
+         "opp": "NE",
+         "home": true,
+         "w": true,
+         "s": "35-10",
+         "line": -2.5,
+         "role": "fav",
+         "cov": "c"
+        }
+       ],
+       "wl": [
+        5,
+        0
+       ],
+       "ats": [
+        4,
+        1,
+        0
+       ],
+       "fav": [
+        5,
+        0
+       ],
+       "dog": [
+        0,
+        0
+       ]
+      }
+     },
+     "watch": [],
+     "stories": [],
+     "grid": {
+      "TB": {
+       "n": 32,
+       "unit": "pts",
+       "cells": [
+        {
+         "k": "QB",
+         "v": 12.2,
+         "yds": 240.1,
+         "rank": 3,
+         "tier": "red"
+        },
+        {
+         "k": "RB",
+         "v": 15.9,
+         "yds": 95.6,
+         "rank": 1,
+         "tier": "red"
+        },
+        {
+         "k": "WR",
+         "v": 30.0,
+         "yds": 140.2,
+         "rank": 12,
+         "tier": "yellow"
+        },
+        {
+         "k": "TE",
+         "v": 14.7,
+         "yds": 58.8,
+         "rank": 23,
+         "tier": "green"
+        }
+       ],
+       "units": [
+        {
+         "k": "CB",
+         "v": "6.6 y/tgt",
+         "rank": 3,
+         "tier": "red"
+        },
+        {
+         "k": "S",
+         "v": "13.2 y/tgt",
+         "rank": 30,
+         "tier": "green"
+        },
+        {
+         "k": "Rush",
+         "v": "12.0%",
+         "rank": 29,
+         "tier": "green"
+        },
+        {
+         "k": "Run D",
+         "v": "3.8 ypc",
+         "rank": 6,
+         "tier": "red"
+        }
+       ],
+       "scheme": "blitzes 44% of dropbacks (avg 32%)",
+       "games": 9
+      },
+      "DET": {
+       "n": 32,
+       "unit": "pts",
+       "cells": [
+        {
+         "k": "QB",
+         "v": 21.0,
+         "yds": 287.3,
+         "rank": 32,
+         "tier": "green"
+        },
+        {
+         "k": "RB",
+         "v": 17.4,
+         "yds": 95.3,
+         "rank": 2,
+         "tier": "red"
+        },
+        {
+         "k": "WR",
+         "v": 32.6,
+         "yds": 158.1,
+         "rank": 19,
+         "tier": "yellow"
+        },
+        {
+         "k": "TE",
+         "v": 22.9,
+         "yds": 81.3,
+         "rank": 32,
+         "tier": "green"
+        }
+       ],
+       "units": [
+        {
+         "k": "CB",
+         "v": "9.3 y/tgt",
+         "rank": 25,
+         "tier": "green"
+        },
+        {
+         "k": "S",
+         "v": "9.0 y/tgt",
+         "rank": 7,
+         "tier": "red"
+        },
+        {
+         "k": "Rush",
+         "v": "18.1%",
+         "rank": 5,
+         "tier": "red"
+        },
+        {
+         "k": "Run D",
+         "v": "4.1 ypc",
+         "rank": 11,
+         "tier": "yellow"
+        }
+       ],
+       "scheme": "4-3 base, blitzes 29% of dropbacks (avg 32%)",
+       "games": 9
+      }
+     },
+     "changes": [
+      {
+       "team": "DET",
+       "pos": "C",
+       "name": "Cade Mays",
+       "status": "Doubtful"
+      },
+      {
+       "team": "DET",
+       "pos": "CB",
+       "name": "D.J. Reed",
+       "status": "Questionable"
+      }
+     ]
+    },
+    "ARI @ KC": {
+     "trend": {
+      "ARI": {
+       "games": [
+        {
+         "d": "2026-10-18",
+         "opp": "LAR",
+         "home": false,
+         "w": true,
+         "s": "18-16",
+         "line": 13.5,
+         "role": "dog",
+         "cov": "c"
+        },
+        {
+         "d": "2026-10-25",
+         "opp": "DEN",
+         "home": true,
+         "w": false,
+         "s": "16-30",
+         "line": 4.5,
+         "role": "dog",
+         "cov": "n"
+        },
+        {
+         "d": "2026-11-01",
+         "opp": "DAL",
+         "home": false,
+         "w": true,
+         "s": "33-30",
+         "line": 7.0,
+         "role": "dog",
+         "cov": "c"
+        },
+        {
+         "d": "2026-11-08",
+         "opp": "SEA",
+         "home": false,
+         "w": false,
+         "s": "3-17",
+         "line": 9.5,
+         "role": "dog",
+         "cov": "n"
+        },
+        {
+         "d": "2026-11-15",
+         "opp": "LAR",
+         "home": true,
+         "w": false,
+         "s": "6-34",
+         "line": 8.5,
+         "role": "dog",
+         "cov": "n"
+        }
+       ],
+       "wl": [
+        2,
+        3
+       ],
+       "ats": [
+        2,
+        3,
+        0
+       ],
+       "fav": [
+        0,
+        0
+       ],
+       "dog": [
+        2,
+        3
+       ]
+      },
+      "KC": {
+       "games": [
+        {
+         "d": "2026-10-18",
+         "opp": "LAC",
+         "home": true,
+         "w": true,
+         "s": "22-6",
+         "line": -7.5,
+         "role": "fav",
+         "cov": "c"
+        },
+        {
+         "d": "2026-10-26",
+         "opp": "SEA",
+         "home": false,
+         "w": false,
+         "s": "3-20",
+         "line": 3.0,
+         "role": "dog",
+         "cov": "n"
+        },
+        {
+         "d": "2026-11-01",
+         "opp": "DEN",
+         "home": false,
+         "w": false,
+         "s": "24-28",
+         "line": 1.5,
+         "role": "dog",
+         "cov": "n"
+        },
+        {
+         "d": "2026-11-08",
+         "opp": "NYJ",
+         "home": true,
+         "w": true,
+         "s": "35-12",
+         "line": -8.5,
+         "role": "fav",
+         "cov": "c"
+        },
+        {
+         "d": "2026-11-15",
+         "opp": "ATL",
+         "home": false,
+         "w": true,
+         "s": "35-13",
+         "line": -3.0,
+         "role": "fav",
+         "cov": "c"
+        }
+       ],
+       "wl": [
+        3,
+        2
+       ],
+       "ats": [
+        3,
+        2,
+        0
+       ],
+       "fav": [
+        3,
+        0
+       ],
+       "dog": [
+        0,
+        2
+       ]
+      }
+     },
+     "watch": [],
+     "stories": [],
+     "grid": {
+      "ARI": {
+       "n": 32,
+       "unit": "pts",
+       "cells": [
+        {
+         "k": "QB",
+         "v": 20.9,
+         "yds": 250.4,
+         "rank": 30,
+         "tier": "green"
+        },
+        {
+         "k": "RB",
+         "v": 22.6,
+         "yds": 143.1,
+         "rank": 18,
+         "tier": "yellow"
+        },
+        {
+         "k": "WR",
+         "v": 31.2,
+         "yds": 143.5,
+         "rank": 14,
+         "tier": "yellow"
+        },
+        {
+         "k": "TE",
+         "v": 16.3,
+         "yds": 50.7,
+         "rank": 28,
+         "tier": "green"
+        }
+       ],
+       "units": [
+        {
+         "k": "CB",
+         "v": "9.2 y/tgt",
+         "rank": 21,
+         "tier": "yellow"
+        },
+        {
+         "k": "S",
+         "v": "11.7 y/tgt",
+         "rank": 20,
+         "tier": "yellow"
+        },
+        {
+         "k": "Rush",
+         "v": "14.2%",
+         "rank": 24,
+         "tier": "green"
+        },
+        {
+         "k": "Run D",
+         "v": "4.4 ypc",
+         "rank": 20,
+         "tier": "yellow"
+        }
+       ],
+       "scheme": "4-3 base, blitzes 33% of dropbacks (avg 32%)",
+       "games": 10
+      },
+      "KC": {
+       "n": 32,
+       "unit": "pts",
+       "cells": [
+        {
+         "k": "QB",
+         "v": 12.4,
+         "yds": 244.9,
+         "rank": 4,
+         "tier": "red"
+        },
+        {
+         "k": "RB",
+         "v": 20.1,
+         "yds": 112.2,
+         "rank": 9,
+         "tier": "red"
+        },
+        {
+         "k": "WR",
+         "v": 24.6,
+         "yds": 131.6,
+         "rank": 2,
+         "tier": "red"
+        },
+        {
+         "k": "TE",
+         "v": 16.3,
+         "yds": 64.9,
+         "rank": 29,
+         "tier": "green"
+        }
+       ],
+       "units": [
+        {
+         "k": "CB",
+         "v": "7.5 y/tgt",
+         "rank": 6,
+         "tier": "red"
+        },
+        {
+         "k": "S",
+         "v": "9.7 y/tgt",
+         "rank": 9,
+         "tier": "red"
+        },
+        {
+         "k": "Rush",
+         "v": "12.8%",
+         "rank": 27,
+         "tier": "green"
+        },
+        {
+         "k": "Run D",
+         "v": "3.8 ypc",
+         "rank": 5,
+         "tier": "red"
+        }
+       ],
+       "scheme": "4-3 base, blitzes 27% of dropbacks (avg 32%)",
+       "games": 9
+      }
+     },
+     "changes": [
+      {
+       "team": "ARI",
+       "pos": "LT",
+       "name": "Jayden Williams",
+       "status": "Questionable"
+      },
+      {
+       "team": "ARI",
+       "pos": "C",
+       "name": "Hjalte Froholdt",
+       "status": "Questionable"
+      },
+      {
+       "team": "KC",
+       "pos": "RB",
+       "name": "Kenneth Walker III",
+       "status": "Questionable"
+      },
+      {
+       "team": "KC",
+       "pos": "RG",
+       "name": "Trey Smith",
+       "status": "Questionable"
+      },
+      {
+       "team": "KC",
+       "pos": "RT",
+       "name": "Jaylon Moore",
+       "status": "Questionable"
+      }
+     ],
+     "next": [
+      {
+       "team": "KC",
+       "pos": "RB",
+       "out": "Kenneth Walker III",
+       "status": "Questionable",
+       "backup": "Emmett Johnson",
+       "def": "ARI",
+       "rank": 18,
+       "n": 32,
+       "v": 22.6,
+       "yds": 143.1,
+       "unit": "pts",
+       "sleeper": false
+      }
+     ]
+    },
+    "PIT @ PHI": {
+     "trend": {
+      "PIT": {
+       "games": [
+        {
+         "d": "2026-10-11",
+         "opp": "IND",
+         "home": true,
+         "w": true,
+         "s": "34-22",
+         "line": -3.0,
+         "role": "fav",
+         "cov": "c"
+        },
+        {
+         "d": "2026-10-18",
+         "opp": "TB",
+         "home": false,
+         "w": true,
+         "s": "26-19",
+         "line": -2.5,
+         "role": "fav",
+         "cov": "c"
+        },
+        {
+         "d": "2026-10-25",
          "opp": "NO",
          "home": false,
          "w": true,
-         "s": "116-108",
-         "line": -12.5,
+         "s": "16-10",
+         "line": -3.0,
          "role": "fav",
+         "cov": "c"
+        },
+        {
+         "d": "2026-11-01",
+         "opp": "CLE",
+         "home": true,
+         "w": true,
+         "s": "27-6",
+         "line": -3.5,
+         "role": "fav",
+         "cov": "c"
+        },
+        {
+         "d": "2026-11-16",
+         "opp": "CIN",
+         "home": false,
+         "w": false,
+         "s": "18-38",
+         "line": 4.5,
+         "role": "dog",
          "cov": "n"
         }
        ],
@@ -2147,8 +3261,8 @@
         1
        ],
        "ats": [
-        3,
-        2,
+        4,
+        1,
         0
        ],
        "fav": [
@@ -2161,224 +3275,153 @@
        ]
       }
      },
-     "watch": [
-      {
-       "kind": "story",
-       "team": "PHX",
-       "effect": "hurts",
-       "tone": "down",
-       "text": "PHX on the second night of a back-to-back, DEN rested 1 day."
-      },
-      {
-       "kind": "mismatch",
-       "team": "PHX",
-       "tone": "up",
-       "text": "Dillon Brooks (PHX, 13.8 pts): DEN allows 24.4 points to SF/PF (+13% vs avg), game pace -1%."
-      },
-      {
-       "kind": "mismatch",
-       "team": "PHX",
-       "tone": "down",
-       "text": "Miles Bridges (PHX, 6.9 reb): DEN allows 7.8 rebounds to SF/PF (-16% vs avg), game pace -1%."
-      }
-     ],
-     "stories": [
-      {
-       "kind": "story",
-       "team": "PHX",
-       "effect": "hurts",
-       "tone": "down",
-       "text": "PHX on the second night of a back-to-back, DEN rested 1 day."
-      },
-      {
-       "kind": "story",
-       "team": "PHX",
-       "effect": "helps",
-       "tone": "up",
-       "text": "Revenge spot: PHX lost 127-120 to DEN on October 30."
-      }
-     ],
+     "watch": [],
+     "stories": [],
      "grid": {
-      "PHX": {
-       "n": 30,
+      "PIT": {
+       "n": 32,
        "unit": "pts",
        "cells": [
         {
-         "k": "PG",
-         "v": 30.4,
-         "rank": 29,
-         "tier": "green"
-        },
-        {
-         "k": "SG",
-         "v": 21.1,
-         "rank": 10,
+         "k": "QB",
+         "v": 15.1,
+         "yds": 273.7,
+         "rank": 9,
          "tier": "red"
         },
         {
-         "k": "SF",
-         "v": 17.2,
-         "rank": 4,
-         "tier": "red"
-        },
-        {
-         "k": "PF",
-         "v": 22.7,
-         "rank": 18,
+         "k": "RB",
+         "v": 23.0,
+         "yds": 118.8,
+         "rank": 20,
          "tier": "yellow"
         },
         {
-         "k": "C",
-         "v": 24.9,
-         "rank": 28,
-         "tier": "green"
+         "k": "WR",
+         "v": 31.9,
+         "yds": 159.0,
+         "rank": 17,
+         "tier": "yellow"
+        },
+        {
+         "k": "TE",
+         "v": 13.1,
+         "yds": 53.9,
+         "rank": 17,
+         "tier": "yellow"
         }
        ],
        "units": [
         {
-         "k": "Pace",
-         "v": "102.6 possessions (22nd fastest)",
-         "rank": null,
-         "tier": ""
-        }
-       ]
-      },
-      "DEN": {
-       "n": 30,
-       "unit": "pts",
-       "cells": [
-        {
-         "k": "PG",
-         "v": 22.0,
-         "rank": 1,
-         "tier": "red"
-        },
-        {
-         "k": "SG",
-         "v": 21.3,
-         "rank": 12,
+         "k": "CB",
+         "v": "9.0 y/tgt",
+         "rank": 20,
          "tier": "yellow"
         },
         {
-         "k": "SF",
-         "v": 24.9,
-         "rank": 28,
-         "tier": "green"
+         "k": "S",
+         "v": "11.9 y/tgt",
+         "rank": 21,
+         "tier": "yellow"
         },
         {
-         "k": "PF",
-         "v": 23.9,
-         "rank": 26,
-         "tier": "green"
+         "k": "Rush",
+         "v": "14.9%",
+         "rank": 20,
+         "tier": "yellow"
         },
         {
-         "k": "C",
-         "v": 18.6,
+         "k": "Run D",
+         "v": "3.8 ypc",
+         "rank": 3,
+         "tier": "red"
+        }
+       ],
+       "scheme": "3-4 base, blitzes 27% of dropbacks (avg 32%)",
+       "games": 9
+      },
+      "PHI": {
+       "n": 32,
+       "unit": "pts",
+       "cells": [
+        {
+         "k": "QB",
+         "v": 18.4,
+         "yds": 256.1,
+         "rank": 21,
+         "tier": "yellow"
+        },
+        {
+         "k": "RB",
+         "v": 19.7,
+         "yds": 126.3,
          "rank": 7,
          "tier": "red"
+        },
+        {
+         "k": "WR",
+         "v": 37.9,
+         "yds": 179.1,
+         "rank": 30,
+         "tier": "green"
+        },
+        {
+         "k": "TE",
+         "v": 10.5,
+         "yds": 43.0,
+         "rank": 4,
+         "tier": "red"
         }
        ],
        "units": [
         {
-         "k": "Pace",
-         "v": "101.1 possessions (26th fastest)",
-         "rank": null,
-         "tier": ""
+         "k": "CB",
+         "v": "9.2 y/tgt",
+         "rank": 23,
+         "tier": "green"
+        },
+        {
+         "k": "S",
+         "v": "11.9 y/tgt",
+         "rank": 23,
+         "tier": "green"
+        },
+        {
+         "k": "Rush",
+         "v": "11.7%",
+         "rank": 31,
+         "tier": "green"
+        },
+        {
+         "k": "Run D",
+         "v": "4.2 ypc",
+         "rank": 17,
+         "tier": "yellow"
         }
-       ]
+       ],
+       "scheme": "blitzes 28% of dropbacks (avg 32%)",
+       "games": 9
       }
-     }
-    }
-   }
-  },
-  "nfl": {
-   "day": "2026-11-16",
-   "games": {
-    "LAC @ BAL": {
-     "trend": {
-      "LAC": {
-       "games": [
-        {
-         "d": "2026-10-04",
-         "opp": "SEA",
-         "home": false,
-         "w": false,
-         "s": "23-30",
-         "line": 7.0,
-         "role": "dog",
-         "cov": "p"
-        },
-        {
-         "d": "2026-10-11",
-         "opp": "DEN",
-         "home": true,
-         "w": false,
-         "s": "17-23",
-         "line": 3.0,
-         "role": "dog",
-         "cov": "n"
-        },
-        {
-         "d": "2026-10-18",
-         "opp": "KC",
-         "home": false,
-         "w": false,
-         "s": "6-22",
-         "line": 7.5,
-         "role": "dog",
-         "cov": "n"
-        },
-        {
-         "d": "2026-11-01",
-         "opp": "LAR",
-         "home": false,
-         "w": false,
-         "s": "9-24",
-         "line": 6.5,
-         "role": "dog",
-         "cov": "n"
-        },
-        {
-         "d": "2026-11-08",
-         "opp": "HOU",
-         "home": true,
-         "w": false,
-         "s": "22-44",
-         "line": 5.5,
-         "role": "dog",
-         "cov": "n"
-        }
-       ],
-       "wl": [
-        0,
-        5
-       ],
-       "ats": [
-        0,
-        4,
-        1
-       ],
-       "fav": [
-        0,
-        0
-       ],
-       "dog": [
-        0,
-        5
-       ]
+     },
+     "changes": [
+      {
+       "team": "PIT",
+       "pos": "LG",
+       "name": "Mason McCormick",
+       "status": "Doubtful"
       },
+      {
+       "team": "PIT",
+       "pos": "S",
+       "name": "DeShon Elliott",
+       "status": "Questionable"
+      }
+     ]
+    },
+    "BAL @ CAR": {
+     "trend": {
       "BAL": {
        "games": [
-        {
-         "d": "2026-10-12",
-         "opp": "ATL",
-         "home": false,
-         "w": true,
-         "s": "30-23",
-         "line": 3.0,
-         "role": "dog",
-         "cov": "c"
-        },
         {
          "d": "2026-10-18",
          "opp": "CLE",
@@ -2418,567 +3461,321 @@
          "line": 9.5,
          "role": "dog",
          "cov": "n"
+        },
+        {
+         "d": "2026-11-17",
+         "opp": "LAC",
+         "home": true,
+         "w": false,
+         "s": "20-23",
+         "line": -3.5,
+         "role": "fav",
+         "cov": "n"
         }
        ],
        "wl": [
-        1,
-        4
+        0,
+        5
        ],
        "ats": [
-        1,
-        4,
+        0,
+        5,
         0
        ],
        "fav": [
         0,
+        2
+       ],
+       "dog": [
+        0,
+        3
+       ]
+      },
+      "CAR": {
+       "games": [
+        {
+         "d": "2026-10-18",
+         "opp": "PHI",
+         "home": false,
+         "w": true,
+         "s": "25-14",
+         "line": -3.0,
+         "role": "fav",
+         "cov": "c"
+        },
+        {
+         "d": "2026-10-25",
+         "opp": "TB",
+         "home": true,
+         "w": false,
+         "s": "13-43",
+         "line": -3.0,
+         "role": "fav",
+         "cov": "n"
+        },
+        {
+         "d": "2026-10-30",
+         "opp": "GB",
+         "home": false,
+         "w": false,
+         "s": "19-27",
+         "line": 3.5,
+         "role": "dog",
+         "cov": "n"
+        },
+        {
+         "d": "2026-11-08",
+         "opp": "DEN",
+         "home": true,
+         "w": false,
+         "s": "21-26",
+         "line": 3.0,
+         "role": "dog",
+         "cov": "n"
+        },
+        {
+         "d": "2026-11-15",
+         "opp": "NO",
+         "home": false,
+         "w": true,
+         "s": "20-17",
+         "line": -1.5,
+         "role": "fav",
+         "cov": "c"
+        }
+       ],
+       "wl": [
+        2,
+        3
+       ],
+       "ats": [
+        2,
+        3,
+        0
+       ],
+       "fav": [
+        2,
         1
        ],
        "dog": [
-        1,
-        3
+        0,
+        2
        ]
       }
      },
-     "watch": [
-      {
-       "kind": "mismatch",
-       "team": "BAL",
-       "tone": "up",
-       "text": "Zay Flowers (BAL) draws Tarheeb Still on 47% of routes. ACE 65 est., edge."
-      },
-      {
-       "kind": "mismatch",
-       "team": "LAC",
-       "tone": "down",
-       "text": "Justin Herbert (LAC, QB): BAL pressure 16% of dropbacks, his line allows 19% (lg 16%)."
-      }
-     ],
+     "watch": [],
      "stories": [],
      "grid": {
-      "LAC": {
-       "n": 32,
-       "unit": "pts",
-       "cells": [
-        {
-         "k": "QB",
-         "v": 16.7,
-         "yds": 243.2,
-         "rank": 11,
-         "tier": "yellow"
-        },
-        {
-         "k": "RB",
-         "v": 22.8,
-         "yds": 127.0,
-         "rank": 20,
-         "tier": "yellow"
-        },
-        {
-         "k": "WR",
-         "v": 36.9,
-         "yds": 163.5,
-         "rank": 28,
-         "tier": "green"
-        },
-        {
-         "k": "TE",
-         "v": 10.0,
-         "yds": 51.1,
-         "rank": 2,
-         "tier": "red"
-        }
-       ],
-       "units": [
-        {
-         "k": "CB",
-         "v": "9.8 y/tgt",
-         "rank": 29,
-         "tier": "green"
-        },
-        {
-         "k": "S",
-         "v": "10.5 y/tgt",
-         "rank": 14,
-         "tier": "yellow"
-        },
-        {
-         "k": "Rush",
-         "v": "16.5%",
-         "rank": 10,
-         "tier": "red"
-        },
-        {
-         "k": "Run D",
-         "v": "4.4 ypc",
-         "rank": 19,
-         "tier": "yellow"
-        }
-       ],
-       "scheme": "3-4 base, blitzes 25% of dropbacks (avg 32%)",
-       "games": 8
-      },
       "BAL": {
        "n": 32,
        "unit": "pts",
        "cells": [
         {
          "k": "QB",
-         "v": 17.2,
-         "yds": 258.9,
+         "v": 17.1,
+         "yds": 251.0,
          "rank": 17,
          "tier": "yellow"
         },
         {
          "k": "RB",
-         "v": 19.9,
-         "yds": 98.8,
+         "v": 20.0,
+         "yds": 101.2,
          "rank": 8,
          "tier": "red"
         },
         {
          "k": "WR",
-         "v": 34.3,
-         "yds": 174.2,
-         "rank": 23,
-         "tier": "green"
-        },
-        {
-         "k": "TE",
-         "v": 13.8,
-         "yds": 52.2,
-         "rank": 20,
-         "tier": "yellow"
-        }
-       ],
-       "units": [
-        {
-         "k": "CB",
-         "v": "9.4 y/tgt",
-         "rank": 26,
-         "tier": "green"
-        },
-        {
-         "k": "S",
-         "v": "11.5 y/tgt",
+         "v": 32.4,
+         "yds": 166.0,
          "rank": 18,
          "tier": "yellow"
         },
         {
-         "k": "Rush",
-         "v": "16.0%",
-         "rank": 12,
-         "tier": "yellow"
-        },
-        {
-         "k": "Run D",
-         "v": "3.7 ypc",
-         "rank": 3,
-         "tier": "red"
-        }
-       ],
-       "scheme": "3-4 base, blitzes 33% of dropbacks (avg 32%)",
-       "games": 9
-      }
-     },
-     "changes": [
-      {
-       "team": "LAC",
-       "pos": "WR",
-       "name": "Ladd McConkey",
-       "status": "Out"
-      },
-      {
-       "team": "LAC",
-       "pos": "LG",
-       "name": "Kayode Awosika",
-       "status": "Questionable"
-      },
-      {
-       "team": "LAC",
-       "pos": "DE",
-       "name": "Justin Eboigbe",
-       "status": "Questionable"
-      },
-      {
-       "team": "BAL",
-       "pos": "QB",
-       "name": "Jacoby Brissett",
-       "status": "New starter",
-       "prev": "Joe Fagnano"
-      },
-      {
-       "team": "BAL",
-       "pos": "S",
-       "name": "Jaylinn Hawkins",
-       "status": "Out"
-      }
-     ],
-     "next": [
-      {
-       "team": "LAC",
-       "pos": "WR",
-       "out": "Ladd McConkey",
-       "status": "Out",
-       "backup": "KeAndre Lambert-Smith",
-       "def": "BAL",
-       "rank": 23,
-       "n": 32,
-       "v": 34.3,
-       "yds": 174.2,
-       "unit": "pts",
-       "sleeper": true
-      }
-     ]
-    }
-   }
-  },
-  "nhl": {
-   "day": "2026-11-16",
-   "games": {
-    "MTL @ NYR": {
-     "trend": {
-      "MTL": {
-       "games": [
-        {
-         "d": "2026-11-06",
-         "opp": "UTA",
-         "home": true,
-         "w": true,
-         "s": "5-4",
-         "line": 1.5,
-         "role": "dog",
-         "cov": "c"
-        },
-        {
-         "d": "2026-11-08",
-         "opp": "TOR",
-         "home": false,
-         "w": true,
-         "s": "4-2",
-         "line": -1.5,
-         "role": "fav",
-         "cov": "c"
-        },
-        {
-         "d": "2026-11-11",
-         "opp": "MIN",
-         "home": true,
-         "w": false,
-         "s": "1-2",
-         "line": 1.5,
-         "role": "dog",
-         "cov": "c"
-        },
-        {
-         "d": "2026-11-13",
-         "opp": "BOS",
-         "home": false,
-         "w": true,
-         "s": "5-2",
-         "line": 1.5,
-         "role": "dog",
-         "cov": "c"
-        },
-        {
-         "d": "2026-11-15",
-         "opp": "COL",
-         "home": true,
-         "w": false,
-         "s": "1-4",
-         "line": -1.5,
-         "role": "fav",
-         "cov": "n"
-        }
-       ],
-       "wl": [
-        3,
-        2
-       ],
-       "ats": [
-        4,
-        1,
-        0
-       ],
-       "fav": [
-        1,
-        1
-       ],
-       "dog": [
-        2,
-        1
-       ]
-      },
-      "NYR": {
-       "games": [
-        {
-         "d": "2026-11-06",
-         "opp": "PHI",
-         "home": true,
-         "w": true,
-         "s": "3-2",
-         "line": -1.5,
-         "role": "fav",
-         "cov": "n"
-        },
-        {
-         "d": "2026-11-07",
-         "opp": "SEA",
-         "home": false,
-         "w": true,
-         "s": "4-3",
-         "line": -1.5,
-         "role": "fav",
-         "cov": "n"
-        },
-        {
-         "d": "2026-11-10",
-         "opp": "EDM",
-         "home": false,
-         "w": false,
-         "s": "1-3",
-         "line": 1.5,
-         "role": "dog",
-         "cov": "n"
-        },
-        {
-         "d": "2026-11-12",
-         "opp": "CGY",
-         "home": false,
-         "w": true,
-         "s": "3-1",
-         "line": -1.5,
-         "role": "fav",
-         "cov": "c"
-        },
-        {
-         "d": "2026-11-14",
-         "opp": "VAN",
-         "home": false,
-         "w": true,
-         "s": "5-1",
-         "line": -1.5,
-         "role": "fav",
-         "cov": "c"
-        }
-       ],
-       "wl": [
-        4,
-        1
-       ],
-       "ats": [
-        2,
-        3,
-        0
-       ],
-       "fav": [
-        4,
-        0
-       ],
-       "dog": [
-        0,
-        1
-       ]
-      }
-     },
-     "watch": [
-      {
-       "kind": "mismatch",
-       "team": "MTL",
-       "tone": "down",
-       "text": "Nick Suzuki (MTL, 17 pts in 14 gp): likely goalie Dylan Garand 0.910 sv% (13 starts, lg 0.892), NYR allows 26.5 shots/gm (lg 27.5)."
-      }
-     ],
-     "stories": [],
-     "grid": {
-      "MTL": {
-       "n": 32,
-       "unit": "per game",
-       "cells": [
-        {
-         "k": "Goals",
-         "v": 3.05,
-         "rank": 17,
-         "tier": "yellow"
-        },
-        {
-         "k": "Shots",
-         "v": 28.2,
-         "rank": 22,
-         "tier": "yellow"
-        },
-        {
-         "k": "PK %",
-         "v": 78.0,
+         "k": "TE",
+         "v": 12.9,
+         "yds": 49.3,
          "rank": 16,
          "tier": "yellow"
         }
        ],
        "units": [
         {
-         "k": "Likely goalie",
-         "v": "Jacob Fowler 0.926 sv%",
-         "rank": null,
-         "tier": ""
-        }
-       ]
-      },
-      "NYR": {
-       "n": 32,
-       "unit": "per game",
-       "cells": [
+         "k": "CB",
+         "v": "9.2 y/tgt",
+         "rank": 22,
+         "tier": "yellow"
+        },
         {
-         "k": "Goals",
-         "v": 2.71,
-         "rank": 7,
+         "k": "S",
+         "v": "11.9 y/tgt",
+         "rank": 22,
+         "tier": "yellow"
+        },
+        {
+         "k": "Rush",
+         "v": "16.7%",
+         "rank": 10,
          "tier": "red"
         },
         {
-         "k": "Shots",
-         "v": 26.5,
+         "k": "Run D",
+         "v": "3.8 ypc",
+         "rank": 4,
+         "tier": "red"
+        }
+       ],
+       "scheme": "3-4 base, blitzes 33% of dropbacks (avg 32%)",
+       "games": 10
+      },
+      "CAR": {
+       "n": 32,
+       "unit": "pts",
+       "cells": [
+        {
+         "k": "QB",
+         "v": 16.5,
+         "yds": 237.6,
          "rank": 11,
          "tier": "yellow"
         },
         {
-         "k": "PK %",
-         "v": 89.0,
-         "rank": 2,
-         "tier": "red"
+         "k": "RB",
+         "v": 27.2,
+         "yds": 129.3,
+         "rank": 29,
+         "tier": "green"
+        },
+        {
+         "k": "WR",
+         "v": 31.5,
+         "yds": 147.3,
+         "rank": 15,
+         "tier": "yellow"
+        },
+        {
+         "k": "TE",
+         "v": 12.5,
+         "yds": 45.2,
+         "rank": 11,
+         "tier": "yellow"
         }
        ],
        "units": [
         {
-         "k": "Likely goalie",
-         "v": "Dylan Garand 0.910 sv%",
-         "rank": null,
-         "tier": ""
+         "k": "CB",
+         "v": "8.0 y/tgt",
+         "rank": 8,
+         "tier": "red"
+        },
+        {
+         "k": "S",
+         "v": "8.3 y/tgt",
+         "rank": 2,
+         "tier": "red"
+        },
+        {
+         "k": "Rush",
+         "v": "11.5%",
+         "rank": 32,
+         "tier": "green"
+        },
+        {
+         "k": "Run D",
+         "v": "4.5 ypc",
+         "rank": 21,
+         "tier": "yellow"
         }
-       ]
+       ],
+       "scheme": "3-4 base, blitzes 32% of dropbacks (avg 32%)",
+       "games": 9
       }
-     }
-    },
-    "VAN @ UTA": {
-     "trend": {
-      "VAN": {
-       "games": [
-        {
-         "d": "2026-11-06",
-         "opp": "WPG",
-         "home": false,
-         "w": false,
-         "s": "2-6",
-         "line": 1.5,
-         "role": "dog",
-         "cov": "n"
-        },
-        {
-         "d": "2026-11-08",
-         "opp": "EDM",
-         "home": false,
-         "w": false,
-         "s": "2-4",
-         "line": 1.5,
-         "role": "dog",
-         "cov": "n"
-        },
-        {
-         "d": "2026-11-10",
-         "opp": "PHI",
-         "home": true,
-         "w": false,
-         "s": "1-3",
-         "line": 1.5,
-         "role": "dog",
-         "cov": "n"
-        },
-        {
-         "d": "2026-11-14",
-         "opp": "NYR",
-         "home": true,
-         "w": false,
-         "s": "1-5",
-         "line": 1.5,
-         "role": "dog",
-         "cov": "n"
-        },
-        {
-         "d": "2026-11-16",
-         "opp": "VGK",
-         "home": false,
-         "w": true,
-         "s": "6-3",
-         "line": 1.5,
-         "role": "dog",
-         "cov": "c"
-        }
-       ],
-       "wl": [
-        1,
-        4
-       ],
-       "ats": [
-        1,
-        4,
-        0
-       ],
-       "fav": [
-        0,
-        0
-       ],
-       "dog": [
-        1,
-        4
-       ]
+     },
+     "changes": [
+      {
+       "team": "BAL",
+       "pos": "RG",
+       "name": "Olaivavega Ioane",
+       "status": "Questionable"
       },
-      "UTA": {
+      {
+       "team": "BAL",
+       "pos": "DE",
+       "name": "Nnamdi Madubuike",
+       "status": "Questionable"
+      },
+      {
+       "team": "BAL",
+       "pos": "S",
+       "name": "Jaylinn Hawkins",
+       "status": "Questionable"
+      },
+      {
+       "team": "CAR",
+       "pos": "LB",
+       "name": "Bobby Okereke",
+       "status": "Questionable"
+      },
+      {
+       "team": "CAR",
+       "pos": "CB",
+       "name": "Will Lee III",
+       "status": "Questionable"
+      }
+     ]
+    },
+    "NYJ @ LAC": {
+     "trend": {
+      "NYJ": {
        "games": [
         {
-         "d": "2026-11-06",
-         "opp": "MTL",
+         "d": "2026-10-18",
+         "opp": "NE",
          "home": false,
          "w": false,
-         "s": "4-5",
+         "s": "19-26",
+         "line": 7.5,
+         "role": "dog",
+         "cov": "c"
+        },
+        {
+         "d": "2026-10-25",
+         "opp": "MIA",
+         "home": true,
+         "w": false,
+         "s": "25-28",
+         "line": -3.5,
+         "role": "fav",
+         "cov": "n"
+        },
+        {
+         "d": "2026-11-01",
+         "opp": "LV",
+         "home": true,
+         "w": false,
+         "s": "33-38",
          "line": -1.5,
          "role": "fav",
          "cov": "n"
         },
         {
          "d": "2026-11-08",
-         "opp": "OTT",
+         "opp": "KC",
          "home": false,
          "w": false,
-         "s": "2-4",
-         "line": -1.5,
-         "role": "fav",
-         "cov": "n"
-        },
-        {
-         "d": "2026-11-12",
-         "opp": "VGK",
-         "home": false,
-         "w": false,
-         "s": "3-5",
-         "line": 1.5,
+         "s": "12-35",
+         "line": 8.5,
          "role": "dog",
          "cov": "n"
-        },
-        {
-         "d": "2026-11-13",
-         "opp": "STL",
-         "home": true,
-         "w": false,
-         "s": "0-1",
-         "line": 1.5,
-         "role": "dog",
-         "cov": "c"
         },
         {
          "d": "2026-11-15",
-         "opp": "SJ",
+         "opp": "BUF",
          "home": true,
          "w": false,
-         "s": "5-6",
-         "line": -1.5,
-         "role": "fav",
+         "s": "12-31",
+         "line": 8.5,
+         "role": "dog",
          "cov": "n"
         }
        ],
@@ -2993,10 +3790,1902 @@
        ],
        "fav": [
         0,
-        3
+        2
        ],
        "dog": [
         0,
+        3
+       ]
+      },
+      "LAC": {
+       "games": [
+        {
+         "d": "2026-10-11",
+         "opp": "DEN",
+         "home": true,
+         "w": false,
+         "s": "17-23",
+         "line": 3.0,
+         "role": "dog",
+         "cov": "n"
+        },
+        {
+         "d": "2026-10-18",
+         "opp": "KC",
+         "home": false,
+         "w": false,
+         "s": "6-22",
+         "line": 7.5,
+         "role": "dog",
+         "cov": "n"
+        },
+        {
+         "d": "2026-11-01",
+         "opp": "LAR",
+         "home": false,
+         "w": false,
+         "s": "9-24",
+         "line": 6.5,
+         "role": "dog",
+         "cov": "n"
+        },
+        {
+         "d": "2026-11-08",
+         "opp": "HOU",
+         "home": true,
+         "w": false,
+         "s": "22-44",
+         "line": 5.5,
+         "role": "dog",
+         "cov": "n"
+        },
+        {
+         "d": "2026-11-17",
+         "opp": "BAL",
+         "home": false,
+         "w": true,
+         "s": "23-20",
+         "line": 3.5,
+         "role": "dog",
+         "cov": "c"
+        }
+       ],
+       "wl": [
+        1,
+        4
+       ],
+       "ats": [
+        1,
+        4,
+        0
+       ],
+       "fav": [
+        0,
+        0
+       ],
+       "dog": [
+        1,
+        4
+       ]
+      }
+     },
+     "watch": [],
+     "stories": [],
+     "grid": {
+      "NYJ": {
+       "n": 32,
+       "unit": "pts",
+       "cells": [
+        {
+         "k": "QB",
+         "v": 18.8,
+         "yds": 226.1,
+         "rank": 24,
+         "tier": "green"
+        },
+        {
+         "k": "RB",
+         "v": 24.6,
+         "yds": 141.8,
+         "rank": 24,
+         "tier": "green"
+        },
+        {
+         "k": "WR",
+         "v": 28.6,
+         "yds": 126.5,
+         "rank": 7,
+         "tier": "red"
+        },
+        {
+         "k": "TE",
+         "v": 14.1,
+         "yds": 63.3,
+         "rank": 21,
+         "tier": "yellow"
+        }
+       ],
+       "units": [
+        {
+         "k": "CB",
+         "v": "8.4 y/tgt",
+         "rank": 14,
+         "tier": "yellow"
+        },
+        {
+         "k": "S",
+         "v": "10.4 y/tgt",
+         "rank": 13,
+         "tier": "yellow"
+        },
+        {
+         "k": "Rush",
+         "v": "15.6%",
+         "rank": 14,
+         "tier": "yellow"
+        },
+        {
+         "k": "Run D",
+         "v": "4.6 ypc",
+         "rank": 26,
+         "tier": "green"
+        }
+       ],
+       "scheme": "4-3 base, blitzes 38% of dropbacks (avg 32%)",
+       "games": 10
+      },
+      "LAC": {
+       "n": 32,
+       "unit": "pts",
+       "cells": [
+        {
+         "k": "QB",
+         "v": 16.2,
+         "yds": 254.2,
+         "rank": 10,
+         "tier": "red"
+        },
+        {
+         "k": "RB",
+         "v": 23.4,
+         "yds": 119.3,
+         "rank": 21,
+         "tier": "yellow"
+        },
+        {
+         "k": "WR",
+         "v": 36.1,
+         "yds": 165.0,
+         "rank": 28,
+         "tier": "green"
+        },
+        {
+         "k": "TE",
+         "v": 11.4,
+         "yds": 58.7,
+         "rank": 9,
+         "tier": "red"
+        }
+       ],
+       "units": [
+        {
+         "k": "CB",
+         "v": "9.7 y/tgt",
+         "rank": 29,
+         "tier": "green"
+        },
+        {
+         "k": "S",
+         "v": "10.9 y/tgt",
+         "rank": 15,
+         "tier": "yellow"
+        },
+        {
+         "k": "Rush",
+         "v": "16.7%",
+         "rank": 9,
+         "tier": "red"
+        },
+        {
+         "k": "Run D",
+         "v": "4.2 ypc",
+         "rank": 13,
+         "tier": "yellow"
+        }
+       ],
+       "scheme": "3-4 base, blitzes 25% of dropbacks (avg 32%)",
+       "games": 9
+      }
+     },
+     "changes": [
+      {
+       "team": "NYJ",
+       "pos": "QB",
+       "name": "Geno Smith",
+       "status": "New starter",
+       "prev": "Cade Klubnik"
+      },
+      {
+       "team": "NYJ",
+       "pos": "WR",
+       "name": "Omar Cooper Jr.",
+       "status": "Questionable"
+      },
+      {
+       "team": "NYJ",
+       "pos": "QB",
+       "name": "Geno Smith",
+       "status": "Questionable"
+      },
+      {
+       "team": "NYJ",
+       "pos": "LG",
+       "name": "Dylan Parham",
+       "status": "Questionable"
+      },
+      {
+       "team": "NYJ",
+       "pos": "LB",
+       "name": "Trevin Wallace",
+       "status": "Questionable"
+      },
+      {
+       "team": "LAC",
+       "pos": "WR",
+       "name": "Ladd McConkey",
+       "status": "Questionable"
+      },
+      {
+       "team": "LAC",
+       "pos": "DE",
+       "name": "Justin Eboigbe",
+       "status": "Questionable"
+      }
+     ],
+     "next": [
+      {
+       "team": "NYJ",
+       "pos": "WR",
+       "out": "Omar Cooper Jr.",
+       "status": "Questionable",
+       "backup": "Malik McClain",
+       "def": "LAC",
+       "rank": 28,
+       "n": 32,
+       "v": 36.1,
+       "yds": 165.0,
+       "unit": "pts",
+       "sleeper": true
+      },
+      {
+       "team": "NYJ",
+       "pos": "QB",
+       "out": "Geno Smith",
+       "status": "Questionable",
+       "backup": "Cade Klubnik",
+       "def": "LAC",
+       "rank": 10,
+       "n": 32,
+       "v": 16.2,
+       "yds": 254.2,
+       "unit": "pts",
+       "sleeper": false
+      }
+     ]
+    },
+    "LV @ DEN": {
+     "trend": {
+      "LV": {
+       "games": [
+        {
+         "d": "2026-10-18",
+         "opp": "BUF",
+         "home": true,
+         "w": false,
+         "s": "30-33",
+         "line": 5.5,
+         "role": "dog",
+         "cov": "c"
+        },
+        {
+         "d": "2026-10-25",
+         "opp": "LAR",
+         "home": true,
+         "w": false,
+         "s": "21-35",
+         "line": 3.5,
+         "role": "dog",
+         "cov": "n"
+        },
+        {
+         "d": "2026-11-01",
+         "opp": "NYJ",
+         "home": false,
+         "w": true,
+         "s": "38-33",
+         "line": 1.5,
+         "role": "dog",
+         "cov": "c"
+        },
+        {
+         "d": "2026-11-08",
+         "opp": "SF",
+         "home": false,
+         "w": false,
+         "s": "17-38",
+         "line": 8.5,
+         "role": "dog",
+         "cov": "n"
+        },
+        {
+         "d": "2026-11-15",
+         "opp": "SEA",
+         "home": true,
+         "w": false,
+         "s": "13-21",
+         "line": 6.5,
+         "role": "dog",
+         "cov": "n"
+        }
+       ],
+       "wl": [
+        1,
+        4
+       ],
+       "ats": [
+        2,
+        3,
+        0
+       ],
+       "fav": [
+        0,
+        0
+       ],
+       "dog": [
+        1,
+        4
+       ]
+      }
+     },
+     "watch": [],
+     "stories": [],
+     "grid": {
+      "LV": {
+       "n": 32,
+       "unit": "pts",
+       "cells": [
+        {
+         "k": "QB",
+         "v": 20.9,
+         "yds": 265.6,
+         "rank": 31,
+         "tier": "green"
+        },
+        {
+         "k": "RB",
+         "v": 25.9,
+         "yds": 160.2,
+         "rank": 28,
+         "tier": "green"
+        },
+        {
+         "k": "WR",
+         "v": 34.8,
+         "yds": 167.9,
+         "rank": 24,
+         "tier": "green"
+        },
+        {
+         "k": "TE",
+         "v": 16.2,
+         "yds": 52.3,
+         "rank": 27,
+         "tier": "green"
+        }
+       ],
+       "units": [
+        {
+         "k": "CB",
+         "v": "9.3 y/tgt",
+         "rank": 24,
+         "tier": "green"
+        },
+        {
+         "k": "S",
+         "v": "13.4 y/tgt",
+         "rank": 31,
+         "tier": "green"
+        },
+        {
+         "k": "Rush",
+         "v": "16.9%",
+         "rank": 7,
+         "tier": "red"
+        },
+        {
+         "k": "Run D",
+         "v": "5.3 ypc",
+         "rank": 31,
+         "tier": "green"
+        }
+       ],
+       "scheme": "3-4 base, blitzes 28% of dropbacks (avg 32%)",
+       "games": 10
+      },
+      "DEN": {
+       "n": 32,
+       "unit": "pts",
+       "cells": [
+        {
+         "k": "QB",
+         "v": 17.2,
+         "yds": 270.4,
+         "rank": 18,
+         "tier": "yellow"
+        },
+        {
+         "k": "RB",
+         "v": 24.0,
+         "yds": 142.4,
+         "rank": 22,
+         "tier": "yellow"
+        },
+        {
+         "k": "WR",
+         "v": 27.6,
+         "yds": 135.8,
+         "rank": 6,
+         "tier": "red"
+        },
+        {
+         "k": "TE",
+         "v": 19.4,
+         "yds": 75.4,
+         "rank": 30,
+         "tier": "green"
+        }
+       ],
+       "units": [
+        {
+         "k": "CB",
+         "v": "8.0 y/tgt",
+         "rank": 10,
+         "tier": "red"
+        },
+        {
+         "k": "S",
+         "v": "12.1 y/tgt",
+         "rank": 25,
+         "tier": "green"
+        },
+        {
+         "k": "Rush",
+         "v": "20.7%",
+         "rank": 2,
+         "tier": "red"
+        },
+        {
+         "k": "Run D",
+         "v": "4.6 ypc",
+         "rank": 24,
+         "tier": "green"
+        }
+       ],
+       "scheme": "blitzes 33% of dropbacks (avg 32%)",
+       "games": 9
+      }
+     },
+     "changes": [
+      {
+       "team": "LV",
+       "pos": "TE",
+       "name": "Brock Bowers",
+       "status": "Questionable"
+      },
+      {
+       "team": "LV",
+       "pos": "LB",
+       "name": "Kwity Paye",
+       "status": "Questionable"
+      }
+     ],
+     "next": [
+      {
+       "team": "LV",
+       "pos": "TE",
+       "out": "Brock Bowers",
+       "status": "Questionable",
+       "backup": "Michael Mayer",
+       "def": "DEN",
+       "rank": 30,
+       "n": 32,
+       "v": 19.4,
+       "yds": 75.4,
+       "unit": "pts",
+       "sleeper": true
+      }
+     ]
+    },
+    "JAX @ NYG": {
+     "trend": {
+      "JAX": {
+       "games": [
+        {
+         "d": "2026-10-11",
+         "opp": "PHI",
+         "home": true,
+         "w": true,
+         "s": "19-17",
+         "line": -7.5,
+         "role": "fav",
+         "cov": "n"
+        },
+        {
+         "d": "2026-10-18",
+         "opp": "HOU",
+         "home": true,
+         "w": false,
+         "s": "31-34",
+         "line": -2.5,
+         "role": "fav",
+         "cov": "n"
+        },
+        {
+         "d": "2026-11-01",
+         "opp": "IND",
+         "home": true,
+         "w": true,
+         "s": "42-7",
+         "line": -10.5,
+         "role": "fav",
+         "cov": "c"
+        },
+        {
+         "d": "2026-11-06",
+         "opp": "BAL",
+         "home": false,
+         "w": true,
+         "s": "33-10",
+         "line": -9.5,
+         "role": "fav",
+         "cov": "c"
+        },
+        {
+         "d": "2026-11-15",
+         "opp": "TEN",
+         "home": false,
+         "w": true,
+         "s": "40-23",
+         "line": -10.5,
+         "role": "fav",
+         "cov": "c"
+        }
+       ],
+       "wl": [
+        4,
+        1
+       ],
+       "ats": [
+        3,
+        2,
+        0
+       ],
+       "fav": [
+        4,
+        1
+       ],
+       "dog": [
+        0,
+        0
+       ]
+      },
+      "NYG": {
+       "games": [
+        {
+         "d": "2026-10-11",
+         "opp": "WSH",
+         "home": false,
+         "w": false,
+         "s": "27-27",
+         "line": 3.5,
+         "role": "dog",
+         "cov": "c"
+        },
+        {
+         "d": "2026-10-18",
+         "opp": "NO",
+         "home": true,
+         "w": false,
+         "s": "27-34",
+         "line": 1.5,
+         "role": "dog",
+         "cov": "n"
+        },
+        {
+         "d": "2026-10-25",
+         "opp": "HOU",
+         "home": false,
+         "w": true,
+         "s": "27-21",
+         "line": 10.0,
+         "role": "dog",
+         "cov": "c"
+        },
+        {
+         "d": "2026-11-08",
+         "opp": "PHI",
+         "home": false,
+         "w": true,
+         "s": "19-11",
+         "line": -3.0,
+         "role": "fav",
+         "cov": "c"
+        },
+        {
+         "d": "2026-11-13",
+         "opp": "WSH",
+         "home": true,
+         "w": false,
+         "s": "21-24",
+         "line": -1.5,
+         "role": "fav",
+         "cov": "n"
+        }
+       ],
+       "wl": [
+        2,
+        3
+       ],
+       "ats": [
+        3,
+        2,
+        0
+       ],
+       "fav": [
+        1,
+        1
+       ],
+       "dog": [
+        1,
+        2
+       ]
+      }
+     },
+     "watch": [],
+     "stories": [],
+     "grid": {
+      "JAX": {
+       "n": 32,
+       "unit": "pts",
+       "cells": [
+        {
+         "k": "QB",
+         "v": 13.6,
+         "yds": 253.7,
+         "rank": 5,
+         "tier": "red"
+        },
+        {
+         "k": "RB",
+         "v": 19.2,
+         "yds": 103.8,
+         "rank": 5,
+         "tier": "red"
+        },
+        {
+         "k": "WR",
+         "v": 32.9,
+         "yds": 177.0,
+         "rank": 20,
+         "tier": "yellow"
+        },
+        {
+         "k": "TE",
+         "v": 10.8,
+         "yds": 32.2,
+         "rank": 7,
+         "tier": "red"
+        }
+       ],
+       "units": [
+        {
+         "k": "CB",
+         "v": "8.9 y/tgt",
+         "rank": 19,
+         "tier": "yellow"
+        },
+        {
+         "k": "S",
+         "v": "11.3 y/tgt",
+         "rank": 16,
+         "tier": "yellow"
+        },
+        {
+         "k": "Rush",
+         "v": "15.9%",
+         "rank": 13,
+         "tier": "yellow"
+        },
+        {
+         "k": "Run D",
+         "v": "4.0 ypc",
+         "rank": 9,
+         "tier": "red"
+        }
+       ],
+       "scheme": "4-3 base, blitzes 31% of dropbacks (avg 32%)",
+       "games": 9
+      },
+      "NYG": {
+       "n": 32,
+       "unit": "pts",
+       "cells": [
+        {
+         "k": "QB",
+         "v": 18.6,
+         "yds": 226.0,
+         "rank": 22,
+         "tier": "yellow"
+        },
+        {
+         "k": "RB",
+         "v": 19.2,
+         "yds": 112.3,
+         "rank": 6,
+         "tier": "red"
+        },
+        {
+         "k": "WR",
+         "v": 30.7,
+         "yds": 128.1,
+         "rank": 13,
+         "tier": "yellow"
+        },
+        {
+         "k": "TE",
+         "v": 12.8,
+         "yds": 47.7,
+         "rank": 13,
+         "tier": "yellow"
+        }
+       ],
+       "units": [
+        {
+         "k": "CB",
+         "v": "8.0 y/tgt",
+         "rank": 9,
+         "tier": "red"
+        },
+        {
+         "k": "S",
+         "v": "8.2 y/tgt",
+         "rank": 1,
+         "tier": "red"
+        },
+        {
+         "k": "Rush",
+         "v": "11.9%",
+         "rank": 30,
+         "tier": "green"
+        },
+        {
+         "k": "Run D",
+         "v": "4.7 ypc",
+         "rank": 27,
+         "tier": "green"
+        }
+       ],
+       "scheme": "3-4 base, blitzes 40% of dropbacks (avg 32%)",
+       "games": 9
+      }
+     },
+     "changes": [
+      {
+       "team": "JAX",
+       "pos": "C",
+       "name": "Robert Hainsey",
+       "status": "Questionable"
+      }
+     ]
+    },
+    "CIN @ WSH": {
+     "trend": {
+      "CIN": {
+       "games": [
+        {
+         "d": "2026-10-11",
+         "opp": "MIA",
+         "home": false,
+         "w": true,
+         "s": "31-24",
+         "line": -7.5,
+         "role": "fav",
+         "cov": "n"
+        },
+        {
+         "d": "2026-10-25",
+         "opp": "BAL",
+         "home": false,
+         "w": true,
+         "s": "35-13",
+         "line": -3.0,
+         "role": "fav",
+         "cov": "c"
+        },
+        {
+         "d": "2026-11-01",
+         "opp": "TEN",
+         "home": true,
+         "w": true,
+         "s": "43-36",
+         "line": -13.5,
+         "role": "fav",
+         "cov": "n"
+        },
+        {
+         "d": "2026-11-08",
+         "opp": "ATL",
+         "home": false,
+         "w": true,
+         "s": "34-17",
+         "line": -3.0,
+         "role": "fav",
+         "cov": "c"
+        },
+        {
+         "d": "2026-11-16",
+         "opp": "PIT",
+         "home": true,
+         "w": true,
+         "s": "38-18",
+         "line": -4.5,
+         "role": "fav",
+         "cov": "c"
+        }
+       ],
+       "wl": [
+        5,
+        0
+       ],
+       "ats": [
+        3,
+        2,
+        0
+       ],
+       "fav": [
+        5,
+        0
+       ],
+       "dog": [
+        0,
+        0
+       ]
+      },
+      "WSH": {
+       "games": [
+        {
+         "d": "2026-10-11",
+         "opp": "NYG",
+         "home": true,
+         "w": false,
+         "s": "27-27",
+         "line": -3.5,
+         "role": "fav",
+         "cov": "n"
+        },
+        {
+         "d": "2026-10-20",
+         "opp": "SF",
+         "home": false,
+         "w": false,
+         "s": "17-23",
+         "line": 7.5,
+         "role": "dog",
+         "cov": "c"
+        },
+        {
+         "d": "2026-11-02",
+         "opp": "PHI",
+         "home": true,
+         "w": true,
+         "s": "27-10",
+         "line": -5.5,
+         "role": "fav",
+         "cov": "c"
+        },
+        {
+         "d": "2026-11-08",
+         "opp": "LAR",
+         "home": true,
+         "w": false,
+         "s": "13-20",
+         "line": 4.5,
+         "role": "dog",
+         "cov": "n"
+        },
+        {
+         "d": "2026-11-13",
+         "opp": "NYG",
+         "home": false,
+         "w": true,
+         "s": "24-21",
+         "line": 1.5,
+         "role": "dog",
+         "cov": "c"
+        }
+       ],
+       "wl": [
+        2,
+        3
+       ],
+       "ats": [
+        3,
+        2,
+        0
+       ],
+       "fav": [
+        1,
+        1
+       ],
+       "dog": [
+        1,
+        2
+       ]
+      }
+     },
+     "watch": [],
+     "stories": [],
+     "grid": {
+      "CIN": {
+       "n": 32,
+       "unit": "pts",
+       "cells": [
+        {
+         "k": "QB",
+         "v": 17.5,
+         "yds": 266.0,
+         "rank": 19,
+         "tier": "yellow"
+        },
+        {
+         "k": "RB",
+         "v": 20.8,
+         "yds": 120.6,
+         "rank": 14,
+         "tier": "yellow"
+        },
+        {
+         "k": "WR",
+         "v": 29.7,
+         "yds": 136.0,
+         "rank": 10,
+         "tier": "red"
+        },
+        {
+         "k": "TE",
+         "v": 15.2,
+         "yds": 76.2,
+         "rank": 24,
+         "tier": "green"
+        }
+       ],
+       "units": [
+        {
+         "k": "CB",
+         "v": "7.6 y/tgt",
+         "rank": 7,
+         "tier": "red"
+        },
+        {
+         "k": "S",
+         "v": "12.4 y/tgt",
+         "rank": 27,
+         "tier": "green"
+        },
+        {
+         "k": "Rush",
+         "v": "14.9%",
+         "rank": 22,
+         "tier": "yellow"
+        },
+        {
+         "k": "Run D",
+         "v": "5.1 ypc",
+         "rank": 30,
+         "tier": "green"
+        }
+       ],
+       "scheme": "4-3 base, blitzes 17% of dropbacks (avg 32%)",
+       "games": 9
+      },
+      "WSH": {
+       "n": 32,
+       "unit": "pts",
+       "cells": [
+        {
+         "k": "QB",
+         "v": 19.6,
+         "yds": 282.8,
+         "rank": 28,
+         "tier": "green"
+        },
+        {
+         "k": "RB",
+         "v": 21.4,
+         "yds": 114.1,
+         "rank": 15,
+         "tier": "yellow"
+        },
+        {
+         "k": "WR",
+         "v": 33.4,
+         "yds": 151.6,
+         "rank": 21,
+         "tier": "yellow"
+        },
+        {
+         "k": "TE",
+         "v": 20.2,
+         "yds": 76.3,
+         "rank": 31,
+         "tier": "green"
+        }
+       ],
+       "units": [
+        {
+         "k": "CB",
+         "v": "7.2 y/tgt",
+         "rank": 5,
+         "tier": "red"
+        },
+        {
+         "k": "S",
+         "v": "11.9 y/tgt",
+         "rank": 24,
+         "tier": "green"
+        },
+        {
+         "k": "Rush",
+         "v": "14.2%",
+         "rank": 25,
+         "tier": "green"
+        },
+        {
+         "k": "Run D",
+         "v": "4.1 ypc",
+         "rank": 12,
+         "tier": "yellow"
+        }
+       ],
+       "scheme": "3-4 base, blitzes 43% of dropbacks (avg 32%)",
+       "games": 9
+      }
+     },
+     "changes": [
+      {
+       "team": "CIN",
+       "pos": "RG",
+       "name": "Dalton Risner",
+       "status": "Questionable"
+      },
+      {
+       "team": "CIN",
+       "pos": "LB",
+       "name": "Oren Burks",
+       "status": "Questionable"
+      },
+      {
+       "team": "WSH",
+       "pos": "C",
+       "name": "Lucas Patrick",
+       "status": "Questionable"
+      }
+     ]
+    }
+   }
+  },
+  "nhl": {
+   "day": "2026-11-17",
+   "games": {
+    "LA @ BOS": {
+     "trend": {
+      "LA": {
+       "games": [
+        {
+         "d": "2026-11-05",
+         "opp": "SJ",
+         "home": true,
+         "w": true,
+         "s": "7-2",
+         "line": -1.5,
+         "role": "fav",
+         "cov": "c"
+        },
+        {
+         "d": "2026-11-08",
+         "opp": "PIT",
+         "home": true,
+         "w": false,
+         "s": "2-5",
+         "line": -1.5,
+         "role": "fav",
+         "cov": "n"
+        },
+        {
+         "d": "2026-11-11",
+         "opp": "NSH",
+         "home": true,
+         "w": false,
+         "s": "0-3",
+         "line": -1.5,
+         "role": "fav",
+         "cov": "n"
+        },
+        {
+         "d": "2026-11-13",
+         "opp": "NYI",
+         "home": true,
+         "w": false,
+         "s": "2-5",
+         "line": -1.5,
+         "role": "fav",
+         "cov": "n"
+        },
+        {
+         "d": "2026-11-15",
+         "opp": "CGY",
+         "home": true,
+         "w": false,
+         "s": "2-3",
+         "line": -1.5,
+         "role": "fav",
+         "cov": "n"
+        }
+       ],
+       "wl": [
+        1,
+        4
+       ],
+       "ats": [
+        1,
+        4,
+        0
+       ],
+       "fav": [
+        1,
+        4
+       ],
+       "dog": [
+        0,
+        0
+       ]
+      },
+      "BOS": {
+       "games": [
+        {
+         "d": "2026-11-03",
+         "opp": "VGK",
+         "home": true,
+         "w": true,
+         "s": "3-2",
+         "line": 1.5,
+         "role": "dog",
+         "cov": "c"
+        },
+        {
+         "d": "2026-11-06",
+         "opp": "PIT",
+         "home": false,
+         "w": true,
+         "s": "6-2",
+         "line": -1.5,
+         "role": "fav",
+         "cov": "c"
+        },
+        {
+         "d": "2026-11-08",
+         "opp": "FLA",
+         "home": true,
+         "w": true,
+         "s": "4-1",
+         "line": -1.5,
+         "role": "fav",
+         "cov": "c"
+        },
+        {
+         "d": "2026-11-13",
+         "opp": "MTL",
+         "home": true,
+         "w": false,
+         "s": "2-5",
+         "line": -1.5,
+         "role": "fav",
+         "cov": "n"
+        },
+        {
+         "d": "2026-11-15",
+         "opp": "MIN",
+         "home": true,
+         "w": false,
+         "s": "2-6",
+         "line": 1.5,
+         "role": "dog",
+         "cov": "n"
+        }
+       ],
+       "wl": [
+        3,
+        2
+       ],
+       "ats": [
+        3,
+        2,
+        0
+       ],
+       "fav": [
+        2,
+        1
+       ],
+       "dog": [
+        1,
+        1
+       ]
+      }
+     },
+     "watch": [
+      {
+       "kind": "story",
+       "team": "LA",
+       "effect": "helps",
+       "tone": "up",
+       "text": "Revenge spot: LA lost 4-1 to BOS on October 17."
+      }
+     ],
+     "stories": [
+      {
+       "kind": "story",
+       "team": "LA",
+       "effect": "helps",
+       "tone": "up",
+       "text": "Revenge spot: LA lost 4-1 to BOS on October 17."
+      }
+     ],
+     "grid": {
+      "LA": {
+       "n": 32,
+       "unit": "per game",
+       "cells": [
+        {
+         "k": "Goals",
+         "v": 3.5,
+         "rank": 26,
+         "tier": "green"
+        },
+        {
+         "k": "Shots",
+         "v": 27.4,
+         "rank": 16,
+         "tier": "yellow"
+        },
+        {
+         "k": "PK %",
+         "v": 67.0,
+         "rank": 29,
+         "tier": "green"
+        }
+       ],
+       "units": [
+        {
+         "k": "Likely goalie",
+         "v": "Darcy Kuemper 0.873 sv%",
+         "rank": null,
+         "tier": ""
+        }
+       ]
+      },
+      "BOS": {
+       "n": 32,
+       "unit": "per game",
+       "cells": [
+        {
+         "k": "Goals",
+         "v": 2.6,
+         "rank": 4,
+         "tier": "red"
+        },
+        {
+         "k": "Shots",
+         "v": 28.2,
+         "rank": 23,
+         "tier": "green"
+        },
+        {
+         "k": "PK %",
+         "v": 80.0,
+         "rank": 11,
+         "tier": "yellow"
+        }
+       ],
+       "units": [
+        {
+         "k": "Likely goalie",
+         "v": "Jeremy Swayman 0.906 sv%",
+         "rank": null,
+         "tier": ""
+        }
+       ]
+      }
+     }
+    },
+    "EDM @ FLA": {
+     "trend": {
+      "EDM": {
+       "games": [
+        {
+         "d": "2026-11-08",
+         "opp": "VAN",
+         "home": true,
+         "w": true,
+         "s": "4-2",
+         "line": -1.5,
+         "role": "fav",
+         "cov": "c"
+        },
+        {
+         "d": "2026-11-10",
+         "opp": "NYR",
+         "home": true,
+         "w": true,
+         "s": "3-1",
+         "line": -1.5,
+         "role": "fav",
+         "cov": "c"
+        },
+        {
+         "d": "2026-11-12",
+         "opp": "PHI",
+         "home": true,
+         "w": true,
+         "s": "3-2",
+         "line": -1.5,
+         "role": "fav",
+         "cov": "n"
+        },
+        {
+         "d": "2026-11-15",
+         "opp": "TOR",
+         "home": false,
+         "w": true,
+         "s": "1-0",
+         "line": -1.5,
+         "role": "fav",
+         "cov": "n"
+        },
+        {
+         "d": "2026-11-16",
+         "opp": "PHI",
+         "home": false,
+         "w": true,
+         "s": "5-2",
+         "line": -1.5,
+         "role": "fav",
+         "cov": "c"
+        }
+       ],
+       "wl": [
+        5,
+        0
+       ],
+       "ats": [
+        3,
+        2,
+        0
+       ],
+       "fav": [
+        5,
+        0
+       ],
+       "dog": [
+        0,
+        0
+       ]
+      },
+      "FLA": {
+       "games": [
+        {
+         "d": "2026-11-08",
+         "opp": "BOS",
+         "home": false,
+         "w": false,
+         "s": "1-4",
+         "line": 1.5,
+         "role": "dog",
+         "cov": "n"
+        },
+        {
+         "d": "2026-11-11",
+         "opp": "CBJ",
+         "home": false,
+         "w": true,
+         "s": "4-1",
+         "line": -1.5,
+         "role": "fav",
+         "cov": "c"
+        },
+        {
+         "d": "2026-11-13",
+         "opp": "DET",
+         "home": true,
+         "w": true,
+         "s": "5-4",
+         "line": -1.5,
+         "role": "fav",
+         "cov": "n"
+        },
+        {
+         "d": "2026-11-15",
+         "opp": "STL",
+         "home": false,
+         "w": true,
+         "s": "4-1",
+         "line": 1.5,
+         "role": "dog",
+         "cov": "c"
+        },
+        {
+         "d": "2026-11-16",
+         "opp": "DAL",
+         "home": false,
+         "w": false,
+         "s": "1-2",
+         "line": 1.5,
+         "role": "dog",
+         "cov": "c"
+        }
+       ],
+       "wl": [
+        3,
+        2
+       ],
+       "ats": [
+        3,
+        2,
+        0
+       ],
+       "fav": [
+        2,
+        0
+       ],
+       "dog": [
+        1,
+        2
+       ]
+      }
+     },
+     "watch": [],
+     "stories": [],
+     "grid": {
+      "EDM": {
+       "n": 32,
+       "unit": "per game",
+       "cells": [
+        {
+         "k": "Goals",
+         "v": 2.64,
+         "rank": 6,
+         "tier": "red"
+        },
+        {
+         "k": "Shots",
+         "v": 27.0,
+         "rank": 14,
+         "tier": "yellow"
+        },
+        {
+         "k": "PK %",
+         "v": 80.0,
+         "rank": 12,
+         "tier": "yellow"
+        }
+       ],
+       "units": [
+        {
+         "k": "Likely goalie",
+         "v": "Tristan Jarry 0.912 sv%",
+         "rank": null,
+         "tier": ""
+        }
+       ]
+      },
+      "FLA": {
+       "n": 32,
+       "unit": "per game",
+       "cells": [
+        {
+         "k": "Goals",
+         "v": 2.86,
+         "rank": 10,
+         "tier": "red"
+        },
+        {
+         "k": "Shots",
+         "v": 25.9,
+         "rank": 6,
+         "tier": "red"
+        },
+        {
+         "k": "PK %",
+         "v": 86.0,
+         "rank": 6,
+         "tier": "red"
+        }
+       ],
+       "units": [
+        {
+         "k": "Likely goalie",
+         "v": "Jacob Markstrom 0.906 sv%",
+         "rank": null,
+         "tier": ""
+        }
+       ]
+      }
+     }
+    },
+    "CBJ @ NYI": {
+     "trend": {
+      "CBJ": {
+       "games": [
+        {
+         "d": "2026-11-06",
+         "opp": "DAL",
+         "home": true,
+         "w": true,
+         "s": "2-1",
+         "line": 1.5,
+         "role": "dog",
+         "cov": "c"
+        },
+        {
+         "d": "2026-11-07",
+         "opp": "BUF",
+         "home": false,
+         "w": false,
+         "s": "2-5",
+         "line": 1.5,
+         "role": "dog",
+         "cov": "n"
+        },
+        {
+         "d": "2026-11-11",
+         "opp": "FLA",
+         "home": true,
+         "w": false,
+         "s": "1-4",
+         "line": 1.5,
+         "role": "dog",
+         "cov": "n"
+        },
+        {
+         "d": "2026-11-13",
+         "opp": "TB",
+         "home": true,
+         "w": false,
+         "s": "1-3",
+         "line": -1.5,
+         "role": "fav",
+         "cov": "n"
+        },
+        {
+         "d": "2026-11-15",
+         "opp": "PHI",
+         "home": true,
+         "w": false,
+         "s": "3-4",
+         "line": -1.5,
+         "role": "fav",
+         "cov": "n"
+        }
+       ],
+       "wl": [
+        1,
+        4
+       ],
+       "ats": [
+        1,
+        4,
+        0
+       ],
+       "fav": [
+        0,
+        2
+       ],
+       "dog": [
+        1,
+        2
+       ]
+      },
+      "NYI": {
+       "games": [
+        {
+         "d": "2026-11-06",
+         "opp": "CAR",
+         "home": true,
+         "w": false,
+         "s": "3-5",
+         "line": 1.5,
+         "role": "dog",
+         "cov": "n"
+        },
+        {
+         "d": "2026-11-08",
+         "opp": "NJ",
+         "home": true,
+         "w": false,
+         "s": "4-5",
+         "line": 1.5,
+         "role": "dog",
+         "cov": "c"
+        },
+        {
+         "d": "2026-11-10",
+         "opp": "SJ",
+         "home": false,
+         "w": false,
+         "s": "2-3",
+         "line": -1.5,
+         "role": "fav",
+         "cov": "n"
+        },
+        {
+         "d": "2026-11-13",
+         "opp": "LA",
+         "home": false,
+         "w": true,
+         "s": "5-2",
+         "line": 1.5,
+         "role": "dog",
+         "cov": "c"
+        },
+        {
+         "d": "2026-11-15",
+         "opp": "ANA",
+         "home": false,
+         "w": true,
+         "s": "6-2",
+         "line": -1.5,
+         "role": "fav",
+         "cov": "c"
+        }
+       ],
+       "wl": [
+        2,
+        3
+       ],
+       "ats": [
+        3,
+        2,
+        0
+       ],
+       "fav": [
+        1,
+        1
+       ],
+       "dog": [
+        1,
+        2
+       ]
+      }
+     },
+     "watch": [],
+     "stories": [],
+     "grid": {
+      "CBJ": {
+       "n": 32,
+       "unit": "per game",
+       "cells": [
+        {
+         "k": "Goals",
+         "v": 3.22,
+         "rank": 18,
+         "tier": "yellow"
+        },
+        {
+         "k": "Shots",
+         "v": 27.8,
+         "rank": 17,
+         "tier": "yellow"
+        },
+        {
+         "k": "PK %",
+         "v": 73.0,
+         "rank": 23,
+         "tier": "green"
+        }
+       ],
+       "units": [
+        {
+         "k": "Likely goalie",
+         "v": "Jet Greaves 0.875 sv%",
+         "rank": null,
+         "tier": ""
+        }
+       ]
+      },
+      "NYI": {
+       "n": 32,
+       "unit": "per game",
+       "cells": [
+        {
+         "k": "Goals",
+         "v": 2.84,
+         "rank": 9,
+         "tier": "red"
+        },
+        {
+         "k": "Shots",
+         "v": 29.1,
+         "rank": 26,
+         "tier": "green"
+        },
+        {
+         "k": "PK %",
+         "v": 86.0,
+         "rank": 4,
+         "tier": "red"
+        }
+       ],
+       "units": [
+        {
+         "k": "Likely goalie",
+         "v": "Ilya Sorokin 0.915 sv%",
+         "rank": null,
+         "tier": ""
+        }
+       ]
+      }
+     }
+    },
+    "BUF @ PHI": {
+     "trend": {
+      "BUF": {
+       "games": [
+        {
+         "d": "2026-11-07",
+         "opp": "CBJ",
+         "home": true,
+         "w": true,
+         "s": "5-2",
+         "line": -1.5,
+         "role": "fav",
+         "cov": "c"
+        },
+        {
+         "d": "2026-11-08",
+         "opp": "VGK",
+         "home": true,
+         "w": false,
+         "s": "1-4",
+         "line": 1.5,
+         "role": "dog",
+         "cov": "n"
+        },
+        {
+         "d": "2026-11-12",
+         "opp": "TB",
+         "home": true,
+         "w": false,
+         "s": "3-8",
+         "line": 1.5,
+         "role": "dog",
+         "cov": "n"
+        },
+        {
+         "d": "2026-11-13",
+         "opp": "CHI",
+         "home": false,
+         "w": false,
+         "s": "2-3",
+         "line": -1.5,
+         "role": "fav",
+         "cov": "n"
+        },
+        {
+         "d": "2026-11-15",
+         "opp": "DAL",
+         "home": false,
+         "w": false,
+         "s": "0-2",
+         "line": 1.5,
+         "role": "dog",
+         "cov": "n"
+        }
+       ],
+       "wl": [
+        1,
+        4
+       ],
+       "ats": [
+        1,
+        4,
+        0
+       ],
+       "fav": [
+        1,
+        1
+       ],
+       "dog": [
+        0,
+        3
+       ]
+      },
+      "PHI": {
+       "games": [
+        {
+         "d": "2026-11-09",
+         "opp": "CGY",
+         "home": false,
+         "w": false,
+         "s": "3-4",
+         "line": -1.5,
+         "role": "fav",
+         "cov": "n"
+        },
+        {
+         "d": "2026-11-10",
+         "opp": "VAN",
+         "home": false,
+         "w": true,
+         "s": "3-1",
+         "line": -1.5,
+         "role": "fav",
+         "cov": "c"
+        },
+        {
+         "d": "2026-11-12",
+         "opp": "EDM",
+         "home": false,
+         "w": false,
+         "s": "2-3",
+         "line": 1.5,
+         "role": "dog",
+         "cov": "c"
+        },
+        {
+         "d": "2026-11-15",
+         "opp": "CBJ",
+         "home": false,
+         "w": true,
+         "s": "4-3",
+         "line": 1.5,
+         "role": "dog",
+         "cov": "c"
+        },
+        {
+         "d": "2026-11-16",
+         "opp": "EDM",
+         "home": true,
+         "w": false,
+         "s": "2-5",
+         "line": 1.5,
+         "role": "dog",
+         "cov": "n"
+        }
+       ],
+       "wl": [
+        2,
+        3
+       ],
+       "ats": [
+        3,
+        2,
+        0
+       ],
+       "fav": [
+        1,
+        1
+       ],
+       "dog": [
+        1,
         2
        ]
       }
@@ -3004,83 +5693,37 @@
      "watch": [
       {
        "kind": "story",
-       "team": "VAN",
-       "effect": "hurts",
-       "tone": "down",
-       "text": "VAN on the second night of a back-to-back, UTA rested 1 day."
-      },
-      {
-       "kind": "mismatch",
-       "team": "UTA",
+       "team": "BUF",
+       "effect": "helps",
        "tone": "up",
-       "text": "Clayton Keller (UTA, 27 pts in 21 gp): likely goalie Leevi Merilainen 0.887 sv% (14 starts, lg 0.892), VAN allows 30.7 shots/gm (lg 27.5)."
+       "text": "Revenge spot: BUF lost 3-1 to PHI on October 21."
       }
      ],
      "stories": [
       {
        "kind": "story",
-       "team": "VAN",
-       "effect": "hurts",
-       "tone": "down",
-       "text": "VAN on the second night of a back-to-back, UTA rested 1 day."
-      }
-     ],
-     "changes": [
-      {
-       "team": "UTA",
-       "pos": "C",
-       "name": "Logan Cooley",
-       "status": "Day-To-Day"
+       "team": "BUF",
+       "effect": "helps",
+       "tone": "up",
+       "text": "Revenge spot: BUF lost 3-1 to PHI on October 21."
       }
      ],
      "grid": {
-      "VAN": {
+      "BUF": {
        "n": 32,
        "unit": "per game",
        "cells": [
         {
          "k": "Goals",
-         "v": 4.45,
-         "rank": 32,
+         "v": 3.45,
+         "rank": 23,
          "tier": "green"
         },
         {
          "k": "Shots",
-         "v": 30.7,
-         "rank": 32,
-         "tier": "green"
-        },
-        {
-         "k": "PK %",
-         "v": 62.0,
-         "rank": 32,
-         "tier": "green"
-        }
-       ],
-       "units": [
-        {
-         "k": "Likely goalie",
-         "v": "Leevi Merilainen 0.887 sv%",
-         "rank": null,
-         "tier": ""
-        }
-       ]
-      },
-      "UTA": {
-       "n": 32,
-       "unit": "per game",
-       "cells": [
-        {
-         "k": "Goals",
-         "v": 3.48,
-         "rank": 24,
-         "tier": "green"
-        },
-        {
-         "k": "Shots",
-         "v": 24.9,
-         "rank": 3,
-         "tier": "red"
+         "v": 26.9,
+         "rank": 13,
+         "tier": "yellow"
         },
         {
          "k": "PK %",
@@ -3092,7 +5735,1653 @@
        "units": [
         {
          "k": "Likely goalie",
-         "v": "Karel Vejmelka 0.872 sv%",
+         "v": "Ukko-Pekka Luukkonen 0.867 sv%",
+         "rank": null,
+         "tier": ""
+        }
+       ]
+      },
+      "PHI": {
+       "n": 32,
+       "unit": "per game",
+       "cells": [
+        {
+         "k": "Goals",
+         "v": 3.3,
+         "rank": 19,
+         "tier": "yellow"
+        },
+        {
+         "k": "Shots",
+         "v": 28.2,
+         "rank": 22,
+         "tier": "yellow"
+        },
+        {
+         "k": "PK %",
+         "v": 78.0,
+         "rank": 17,
+         "tier": "yellow"
+        }
+       ],
+       "units": [
+        {
+         "k": "Likely goalie",
+         "v": "Dan Vladar 0.877 sv%",
+         "rank": null,
+         "tier": ""
+        }
+       ]
+      }
+     }
+    },
+    "OTT @ WPG": {
+     "trend": {
+      "OTT": {
+       "games": [
+        {
+         "d": "2026-11-05",
+         "opp": "BUF",
+         "home": false,
+         "w": true,
+         "s": "2-1",
+         "line": 1.5,
+         "role": "dog",
+         "cov": "c"
+        },
+        {
+         "d": "2026-11-08",
+         "opp": "UTA",
+         "home": true,
+         "w": true,
+         "s": "4-2",
+         "line": 1.5,
+         "role": "dog",
+         "cov": "c"
+        },
+        {
+         "d": "2026-11-11",
+         "opp": "WSH",
+         "home": true,
+         "w": false,
+         "s": "2-3",
+         "line": 1.5,
+         "role": "dog",
+         "cov": "c"
+        },
+        {
+         "d": "2026-11-13",
+         "opp": "COL",
+         "home": true,
+         "w": true,
+         "s": "4-3",
+         "line": -1.5,
+         "role": "fav",
+         "cov": "n"
+        },
+        {
+         "d": "2026-11-15",
+         "opp": "PIT",
+         "home": false,
+         "w": true,
+         "s": "4-1",
+         "line": -1.5,
+         "role": "fav",
+         "cov": "c"
+        }
+       ],
+       "wl": [
+        4,
+        1
+       ],
+       "ats": [
+        4,
+        1,
+        0
+       ],
+       "fav": [
+        2,
+        0
+       ],
+       "dog": [
+        2,
+        1
+       ]
+      },
+      "WPG": {
+       "games": [
+        {
+         "d": "2026-11-06",
+         "opp": "VAN",
+         "home": true,
+         "w": true,
+         "s": "6-2",
+         "line": -1.5,
+         "role": "fav",
+         "cov": "c"
+        },
+        {
+         "d": "2026-11-08",
+         "opp": "TB",
+         "home": true,
+         "w": true,
+         "s": "4-3",
+         "line": 1.5,
+         "role": "dog",
+         "cov": "c"
+        },
+        {
+         "d": "2026-11-11",
+         "opp": "NJ",
+         "home": true,
+         "w": true,
+         "s": "4-2",
+         "line": 1.5,
+         "role": "dog",
+         "cov": "c"
+        },
+        {
+         "d": "2026-11-13",
+         "opp": "DAL",
+         "home": false,
+         "w": true,
+         "s": "8-3",
+         "line": 1.5,
+         "role": "dog",
+         "cov": "c"
+        },
+        {
+         "d": "2026-11-14",
+         "opp": "CHI",
+         "home": false,
+         "w": true,
+         "s": "5-4",
+         "line": -1.5,
+         "role": "fav",
+         "cov": "n"
+        }
+       ],
+       "wl": [
+        5,
+        0
+       ],
+       "ats": [
+        4,
+        1,
+        0
+       ],
+       "fav": [
+        2,
+        0
+       ],
+       "dog": [
+        3,
+        0
+       ]
+      }
+     },
+     "watch": [],
+     "stories": [],
+     "grid": {
+      "OTT": {
+       "n": 32,
+       "unit": "per game",
+       "cells": [
+        {
+         "k": "Goals",
+         "v": 2.9,
+         "rank": 13,
+         "tier": "yellow"
+        },
+        {
+         "k": "Shots",
+         "v": 26.5,
+         "rank": 11,
+         "tier": "yellow"
+        },
+        {
+         "k": "PK %",
+         "v": 76.0,
+         "rank": 19,
+         "tier": "yellow"
+        }
+       ],
+       "units": [
+        {
+         "k": "Likely goalie",
+         "v": "Linus Ullmark 0.939 sv%",
+         "rank": null,
+         "tier": ""
+        }
+       ]
+      },
+      "WPG": {
+       "n": 32,
+       "unit": "per game",
+       "cells": [
+        {
+         "k": "Goals",
+         "v": 3.43,
+         "rank": 21,
+         "tier": "yellow"
+        },
+        {
+         "k": "Shots",
+         "v": 28.1,
+         "rank": 19,
+         "tier": "yellow"
+        },
+        {
+         "k": "PK %",
+         "v": 72.0,
+         "rank": 24,
+         "tier": "green"
+        }
+       ],
+       "units": [
+        {
+         "k": "Likely goalie",
+         "v": "Stuart Skinner 0.880 sv%",
+         "rank": null,
+         "tier": ""
+        }
+       ]
+      }
+     }
+    },
+    "WSH @ TB": {
+     "trend": {
+      "WSH": {
+       "games": [
+        {
+         "d": "2026-11-04",
+         "opp": "DAL",
+         "home": true,
+         "w": false,
+         "s": "5-6",
+         "line": -1.5,
+         "role": "fav",
+         "cov": "n"
+        },
+        {
+         "d": "2026-11-07",
+         "opp": "FLA",
+         "home": true,
+         "w": true,
+         "s": "4-3",
+         "line": -1.5,
+         "role": "fav",
+         "cov": "n"
+        },
+        {
+         "d": "2026-11-11",
+         "opp": "OTT",
+         "home": false,
+         "w": true,
+         "s": "3-2",
+         "line": -1.5,
+         "role": "fav",
+         "cov": "n"
+        },
+        {
+         "d": "2026-11-13",
+         "opp": "NJ",
+         "home": false,
+         "w": false,
+         "s": "2-5",
+         "line": 1.5,
+         "role": "dog",
+         "cov": "n"
+        },
+        {
+         "d": "2026-11-15",
+         "opp": "NJ",
+         "home": true,
+         "w": false,
+         "s": "4-7",
+         "line": 1.5,
+         "role": "dog",
+         "cov": "n"
+        }
+       ],
+       "wl": [
+        2,
+        3
+       ],
+       "ats": [
+        0,
+        5,
+        0
+       ],
+       "fav": [
+        2,
+        1
+       ],
+       "dog": [
+        0,
+        2
+       ]
+      },
+      "TB": {
+       "games": [
+        {
+         "d": "2026-11-08",
+         "opp": "MIN",
+         "home": false,
+         "w": true,
+         "s": "4-3",
+         "line": -1.5,
+         "role": "fav",
+         "cov": "n"
+        },
+        {
+         "d": "2026-11-08",
+         "opp": "WPG",
+         "home": false,
+         "w": false,
+         "s": "3-4",
+         "line": -1.5,
+         "role": "fav",
+         "cov": "n"
+        },
+        {
+         "d": "2026-11-12",
+         "opp": "BUF",
+         "home": false,
+         "w": true,
+         "s": "8-3",
+         "line": -1.5,
+         "role": "fav",
+         "cov": "c"
+        },
+        {
+         "d": "2026-11-13",
+         "opp": "CBJ",
+         "home": false,
+         "w": true,
+         "s": "3-1",
+         "line": 1.5,
+         "role": "dog",
+         "cov": "c"
+        },
+        {
+         "d": "2026-11-15",
+         "opp": "DET",
+         "home": true,
+         "w": false,
+         "s": "0-2",
+         "line": -1.5,
+         "role": "fav",
+         "cov": "n"
+        }
+       ],
+       "wl": [
+        3,
+        2
+       ],
+       "ats": [
+        2,
+        3,
+        0
+       ],
+       "fav": [
+        2,
+        2
+       ],
+       "dog": [
+        1,
+        0
+       ]
+      }
+     },
+     "watch": [
+      {
+       "kind": "story",
+       "team": "WSH",
+       "effect": "helps",
+       "tone": "up",
+       "text": "Revenge spot: WSH lost 3-1 to TB on October 3."
+      },
+      {
+       "kind": "mismatch",
+       "team": "WSH",
+       "tone": "down",
+       "text": "Pierre-Luc Dubois (WSH, 12 pts in 13 gp): likely goalie Andrei Vasilevskiy 0.889 sv% (15 starts, lg 0.892), TB allows 25.1 shots/gm (lg 27.5)."
+      }
+     ],
+     "stories": [
+      {
+       "kind": "story",
+       "team": "WSH",
+       "effect": "helps",
+       "tone": "up",
+       "text": "Revenge spot: WSH lost 3-1 to TB on October 3."
+      }
+     ],
+     "grid": {
+      "WSH": {
+       "n": 32,
+       "unit": "per game",
+       "cells": [
+        {
+         "k": "Goals",
+         "v": 3.61,
+         "rank": 28,
+         "tier": "green"
+        },
+        {
+         "k": "Shots",
+         "v": 28.1,
+         "rank": 18,
+         "tier": "yellow"
+        },
+        {
+         "k": "PK %",
+         "v": 75.0,
+         "rank": 20,
+         "tier": "yellow"
+        }
+       ],
+       "units": [
+        {
+         "k": "Likely goalie",
+         "v": "Logan Thompson 0.888 sv%",
+         "rank": null,
+         "tier": ""
+        }
+       ]
+      },
+      "TB": {
+       "n": 32,
+       "unit": "per game",
+       "cells": [
+        {
+         "k": "Goals",
+         "v": 2.9,
+         "rank": 11,
+         "tier": "yellow"
+        },
+        {
+         "k": "Shots",
+         "v": 25.1,
+         "rank": 4,
+         "tier": "red"
+        },
+        {
+         "k": "PK %",
+         "v": 72.0,
+         "rank": 25,
+         "tier": "green"
+        }
+       ],
+       "units": [
+        {
+         "k": "Likely goalie",
+         "v": "Andrei Vasilevskiy 0.889 sv%",
+         "rank": null,
+         "tier": ""
+        }
+       ]
+      }
+     }
+    },
+    "TOR @ CHI": {
+     "trend": {
+      "TOR": {
+       "games": [
+        {
+         "d": "2026-11-08",
+         "opp": "MTL",
+         "home": true,
+         "w": false,
+         "s": "2-4",
+         "line": 1.5,
+         "role": "dog",
+         "cov": "n"
+        },
+        {
+         "d": "2026-11-09",
+         "opp": "NJ",
+         "home": true,
+         "w": false,
+         "s": "0-4",
+         "line": 1.5,
+         "role": "dog",
+         "cov": "n"
+        },
+        {
+         "d": "2026-11-11",
+         "opp": "COL",
+         "home": true,
+         "w": false,
+         "s": "3-6",
+         "line": 1.5,
+         "role": "dog",
+         "cov": "n"
+        },
+        {
+         "d": "2026-11-13",
+         "opp": "MIN",
+         "home": true,
+         "w": false,
+         "s": "2-5",
+         "line": 1.5,
+         "role": "dog",
+         "cov": "n"
+        },
+        {
+         "d": "2026-11-15",
+         "opp": "EDM",
+         "home": true,
+         "w": false,
+         "s": "0-1",
+         "line": 1.5,
+         "role": "dog",
+         "cov": "c"
+        }
+       ],
+       "wl": [
+        0,
+        5
+       ],
+       "ats": [
+        1,
+        4,
+        0
+       ],
+       "fav": [
+        0,
+        0
+       ],
+       "dog": [
+        0,
+        5
+       ]
+      },
+      "CHI": {
+       "games": [
+        {
+         "d": "2026-11-05",
+         "opp": "FLA",
+         "home": false,
+         "w": false,
+         "s": "3-5",
+         "line": 1.5,
+         "role": "dog",
+         "cov": "n"
+        },
+        {
+         "d": "2026-11-06",
+         "opp": "TB",
+         "home": false,
+         "w": false,
+         "s": "1-4",
+         "line": 1.5,
+         "role": "dog",
+         "cov": "n"
+        },
+        {
+         "d": "2026-11-08",
+         "opp": "CAR",
+         "home": false,
+         "w": false,
+         "s": "2-9",
+         "line": 1.5,
+         "role": "dog",
+         "cov": "n"
+        },
+        {
+         "d": "2026-11-13",
+         "opp": "BUF",
+         "home": true,
+         "w": true,
+         "s": "3-2",
+         "line": 1.5,
+         "role": "dog",
+         "cov": "c"
+        },
+        {
+         "d": "2026-11-14",
+         "opp": "WPG",
+         "home": true,
+         "w": false,
+         "s": "4-5",
+         "line": 1.5,
+         "role": "dog",
+         "cov": "c"
+        }
+       ],
+       "wl": [
+        1,
+        4
+       ],
+       "ats": [
+        2,
+        3,
+        0
+       ],
+       "fav": [
+        0,
+        0
+       ],
+       "dog": [
+        1,
+        4
+       ]
+      }
+     },
+     "watch": [
+      {
+       "kind": "mismatch",
+       "team": "TOR",
+       "tone": "up",
+       "text": "Auston Matthews (TOR, 29 pts in 22 gp): likely goalie Spencer Knight 0.882 sv% (16 starts, lg 0.892), CHI allows 30.3 shots/gm (lg 27.5)."
+      }
+     ],
+     "stories": [],
+     "grid": {
+      "TOR": {
+       "n": 32,
+       "unit": "per game",
+       "cells": [
+        {
+         "k": "Goals",
+         "v": 3.41,
+         "rank": 20,
+         "tier": "yellow"
+        },
+        {
+         "k": "Shots",
+         "v": 29.0,
+         "rank": 25,
+         "tier": "green"
+        },
+        {
+         "k": "PK %",
+         "v": 86.0,
+         "rank": 7,
+         "tier": "red"
+        }
+       ],
+       "units": [
+        {
+         "k": "Likely goalie",
+         "v": "Sergei Bobrovsky 0.881 sv%",
+         "rank": null,
+         "tier": ""
+        }
+       ]
+      },
+      "CHI": {
+       "n": 32,
+       "unit": "per game",
+       "cells": [
+        {
+         "k": "Goals",
+         "v": 4.1,
+         "rank": 31,
+         "tier": "green"
+        },
+        {
+         "k": "Shots",
+         "v": 30.3,
+         "rank": 29,
+         "tier": "green"
+        },
+        {
+         "k": "PK %",
+         "v": 78.0,
+         "rank": 16,
+         "tier": "yellow"
+        }
+       ],
+       "units": [
+        {
+         "k": "Likely goalie",
+         "v": "Spencer Knight 0.882 sv%",
+         "rank": null,
+         "tier": ""
+        }
+       ]
+      }
+     }
+    },
+    "ANA @ STL": {
+     "trend": {
+      "ANA": {
+       "games": [
+        {
+         "d": "2026-11-07",
+         "opp": "CGY",
+         "home": false,
+         "w": true,
+         "s": "5-3",
+         "line": 1.5,
+         "role": "dog",
+         "cov": "c"
+        },
+        {
+         "d": "2026-11-09",
+         "opp": "PIT",
+         "home": true,
+         "w": true,
+         "s": "5-2",
+         "line": -1.5,
+         "role": "fav",
+         "cov": "c"
+        },
+        {
+         "d": "2026-11-12",
+         "opp": "NSH",
+         "home": true,
+         "w": false,
+         "s": "2-4",
+         "line": -1.5,
+         "role": "fav",
+         "cov": "n"
+        },
+        {
+         "d": "2026-11-15",
+         "opp": "NYI",
+         "home": true,
+         "w": false,
+         "s": "2-6",
+         "line": 1.5,
+         "role": "dog",
+         "cov": "n"
+        },
+        {
+         "d": "2026-11-16",
+         "opp": "CGY",
+         "home": true,
+         "w": true,
+         "s": "6-1",
+         "line": -1.5,
+         "role": "fav",
+         "cov": "c"
+        }
+       ],
+       "wl": [
+        3,
+        2
+       ],
+       "ats": [
+        3,
+        2,
+        0
+       ],
+       "fav": [
+        2,
+        1
+       ],
+       "dog": [
+        1,
+        1
+       ]
+      },
+      "STL": {
+       "games": [
+        {
+         "d": "2026-11-06",
+         "opp": "NJ",
+         "home": false,
+         "w": false,
+         "s": "4-5",
+         "line": 1.5,
+         "role": "dog",
+         "cov": "c"
+        },
+        {
+         "d": "2026-11-07",
+         "opp": "NSH",
+         "home": false,
+         "w": false,
+         "s": "1-3",
+         "line": -1.5,
+         "role": "fav",
+         "cov": "n"
+        },
+        {
+         "d": "2026-11-11",
+         "opp": "DET",
+         "home": true,
+         "w": true,
+         "s": "3-2",
+         "line": -1.5,
+         "role": "fav",
+         "cov": "n"
+        },
+        {
+         "d": "2026-11-13",
+         "opp": "UTA",
+         "home": false,
+         "w": true,
+         "s": "1-0",
+         "line": -1.5,
+         "role": "fav",
+         "cov": "n"
+        },
+        {
+         "d": "2026-11-15",
+         "opp": "FLA",
+         "home": true,
+         "w": false,
+         "s": "1-4",
+         "line": -1.5,
+         "role": "fav",
+         "cov": "n"
+        }
+       ],
+       "wl": [
+        2,
+        3
+       ],
+       "ats": [
+        1,
+        4,
+        0
+       ],
+       "fav": [
+        2,
+        2
+       ],
+       "dog": [
+        0,
+        1
+       ]
+      }
+     },
+     "watch": [
+      {
+       "kind": "story",
+       "team": "ANA",
+       "effect": "hurts",
+       "tone": "down",
+       "text": "ANA RW Beckett Sennecke listed Out on the injury report."
+      },
+      {
+       "kind": "mismatch",
+       "team": "STL",
+       "tone": "up",
+       "text": "Robert Thomas (STL, 14 pts in 20 gp): likely goalie Lukas Dostal 0.856 sv% (11 starts, lg 0.892), ANA allows 26.6 shots/gm (lg 27.5)."
+      },
+      {
+       "kind": "mismatch",
+       "team": "ANA",
+       "tone": "down",
+       "text": "Leo Carlsson (ANA, 27 pts in 21 gp): likely goalie Joel Hofer 0.921 sv% (15 starts, lg 0.892), STL allows 28.9 shots/gm (lg 27.5)."
+      }
+     ],
+     "stories": [
+      {
+       "kind": "story",
+       "team": "ANA",
+       "effect": "hurts",
+       "tone": "down",
+       "text": "ANA RW Beckett Sennecke listed Out on the injury report."
+      }
+     ],
+     "changes": [
+      {
+       "team": "ANA",
+       "pos": "RW",
+       "name": "Beckett Sennecke",
+       "status": "Out"
+      }
+     ],
+     "grid": {
+      "ANA": {
+       "n": 32,
+       "unit": "per game",
+       "cells": [
+        {
+         "k": "Goals",
+         "v": 3.67,
+         "rank": 29,
+         "tier": "green"
+        },
+        {
+         "k": "Shots",
+         "v": 26.6,
+         "rank": 12,
+         "tier": "yellow"
+        },
+        {
+         "k": "PK %",
+         "v": 74.0,
+         "rank": 22,
+         "tier": "yellow"
+        }
+       ],
+       "units": [
+        {
+         "k": "Likely goalie",
+         "v": "Lukas Dostal 0.856 sv%",
+         "rank": null,
+         "tier": ""
+        }
+       ]
+      },
+      "STL": {
+       "n": 32,
+       "unit": "per game",
+       "cells": [
+        {
+         "k": "Goals",
+         "v": 2.95,
+         "rank": 14,
+         "tier": "yellow"
+        },
+        {
+         "k": "Shots",
+         "v": 28.9,
+         "rank": 24,
+         "tier": "green"
+        },
+        {
+         "k": "PK %",
+         "v": 85.0,
+         "rank": 8,
+         "tier": "red"
+        }
+       ],
+       "units": [
+        {
+         "k": "Likely goalie",
+         "v": "Joel Hofer 0.921 sv%",
+         "rank": null,
+         "tier": ""
+        }
+       ]
+      }
+     }
+    },
+    "NSH @ MIN": {
+     "trend": {
+      "NSH": {
+       "games": [
+        {
+         "d": "2026-11-07",
+         "opp": "STL",
+         "home": true,
+         "w": true,
+         "s": "3-1",
+         "line": 1.5,
+         "role": "dog",
+         "cov": "c"
+        },
+        {
+         "d": "2026-11-11",
+         "opp": "LA",
+         "home": false,
+         "w": true,
+         "s": "3-0",
+         "line": 1.5,
+         "role": "dog",
+         "cov": "c"
+        },
+        {
+         "d": "2026-11-12",
+         "opp": "ANA",
+         "home": false,
+         "w": true,
+         "s": "4-2",
+         "line": 1.5,
+         "role": "dog",
+         "cov": "c"
+        },
+        {
+         "d": "2026-11-14",
+         "opp": "VGK",
+         "home": false,
+         "w": true,
+         "s": "3-2",
+         "line": 1.5,
+         "role": "dog",
+         "cov": "c"
+        },
+        {
+         "d": "2026-11-16",
+         "opp": "SJ",
+         "home": false,
+         "w": false,
+         "s": "2-4",
+         "line": -1.5,
+         "role": "fav",
+         "cov": "n"
+        }
+       ],
+       "wl": [
+        4,
+        1
+       ],
+       "ats": [
+        4,
+        1,
+        0
+       ],
+       "fav": [
+        0,
+        1
+       ],
+       "dog": [
+        4,
+        0
+       ]
+      },
+      "MIN": {
+       "games": [
+        {
+         "d": "2026-11-07",
+         "opp": "SJ",
+         "home": true,
+         "w": true,
+         "s": "4-1",
+         "line": -1.5,
+         "role": "fav",
+         "cov": "c"
+        },
+        {
+         "d": "2026-11-08",
+         "opp": "TB",
+         "home": true,
+         "w": false,
+         "s": "3-4",
+         "line": 1.5,
+         "role": "dog",
+         "cov": "c"
+        },
+        {
+         "d": "2026-11-11",
+         "opp": "MTL",
+         "home": false,
+         "w": true,
+         "s": "2-1",
+         "line": -1.5,
+         "role": "fav",
+         "cov": "n"
+        },
+        {
+         "d": "2026-11-13",
+         "opp": "TOR",
+         "home": false,
+         "w": true,
+         "s": "5-2",
+         "line": -1.5,
+         "role": "fav",
+         "cov": "c"
+        },
+        {
+         "d": "2026-11-15",
+         "opp": "BOS",
+         "home": false,
+         "w": true,
+         "s": "6-2",
+         "line": -1.5,
+         "role": "fav",
+         "cov": "c"
+        }
+       ],
+       "wl": [
+        4,
+        1
+       ],
+       "ats": [
+        4,
+        1,
+        0
+       ],
+       "fav": [
+        4,
+        0
+       ],
+       "dog": [
+        0,
+        1
+       ]
+      }
+     },
+     "watch": [
+      {
+       "kind": "story",
+       "team": "NSH",
+       "effect": "helps",
+       "tone": "up",
+       "text": "Revenge spot: NSH lost 3-1 to MIN on October 1."
+      },
+      {
+       "kind": "mismatch",
+       "team": "NSH",
+       "tone": "down",
+       "text": "Roman Josi (NSH, 23 pts in 21 gp): likely goalie Jesper Wallstedt 0.926 sv% (19 starts, lg 0.892), MIN allows 26.2 shots/gm (lg 27.5)."
+      }
+     ],
+     "stories": [
+      {
+       "kind": "story",
+       "team": "NSH",
+       "effect": "helps",
+       "tone": "up",
+       "text": "Revenge spot: NSH lost 3-1 to MIN on October 1."
+      }
+     ],
+     "grid": {
+      "NSH": {
+       "n": 32,
+       "unit": "per game",
+       "cells": [
+        {
+         "k": "Goals",
+         "v": 2.67,
+         "rank": 7,
+         "tier": "red"
+        },
+        {
+         "k": "Shots",
+         "v": 29.5,
+         "rank": 27,
+         "tier": "green"
+        },
+        {
+         "k": "PK %",
+         "v": 90.0,
+         "rank": 1,
+         "tier": "red"
+        }
+       ],
+       "units": [
+        {
+         "k": "Likely goalie",
+         "v": "Juuse Saros 0.917 sv%",
+         "rank": null,
+         "tier": ""
+        }
+       ]
+      },
+      "MIN": {
+       "n": 32,
+       "unit": "per game",
+       "cells": [
+        {
+         "k": "Goals",
+         "v": 2.18,
+         "rank": 1,
+         "tier": "red"
+        },
+        {
+         "k": "Shots",
+         "v": 26.2,
+         "rank": 8,
+         "tier": "red"
+        },
+        {
+         "k": "PK %",
+         "v": 79.0,
+         "rank": 14,
+         "tier": "yellow"
+        }
+       ],
+       "units": [
+        {
+         "k": "Likely goalie",
+         "v": "Jesper Wallstedt 0.926 sv%",
+         "rank": null,
+         "tier": ""
+        }
+       ]
+      }
+     }
+    },
+    "DAL @ VGK": {
+     "trend": {
+      "DAL": {
+       "games": [
+        {
+         "d": "2026-11-06",
+         "opp": "CBJ",
+         "home": false,
+         "w": false,
+         "s": "1-2",
+         "line": -1.5,
+         "role": "fav",
+         "cov": "n"
+        },
+        {
+         "d": "2026-11-08",
+         "opp": "SJ",
+         "home": true,
+         "w": true,
+         "s": "4-3",
+         "line": -1.5,
+         "role": "fav",
+         "cov": "n"
+        },
+        {
+         "d": "2026-11-13",
+         "opp": "WPG",
+         "home": true,
+         "w": false,
+         "s": "3-8",
+         "line": -1.5,
+         "role": "fav",
+         "cov": "n"
+        },
+        {
+         "d": "2026-11-15",
+         "opp": "BUF",
+         "home": true,
+         "w": true,
+         "s": "2-0",
+         "line": -1.5,
+         "role": "fav",
+         "cov": "c"
+        },
+        {
+         "d": "2026-11-16",
+         "opp": "FLA",
+         "home": true,
+         "w": true,
+         "s": "2-1",
+         "line": -1.5,
+         "role": "fav",
+         "cov": "n"
+        }
+       ],
+       "wl": [
+        3,
+        2
+       ],
+       "ats": [
+        1,
+        4,
+        0
+       ],
+       "fav": [
+        3,
+        2
+       ],
+       "dog": [
+        0,
+        0
+       ]
+      },
+      "VGK": {
+       "games": [
+        {
+         "d": "2026-11-06",
+         "opp": "DET",
+         "home": false,
+         "w": true,
+         "s": "2-1",
+         "line": -1.5,
+         "role": "fav",
+         "cov": "n"
+        },
+        {
+         "d": "2026-11-08",
+         "opp": "BUF",
+         "home": false,
+         "w": true,
+         "s": "4-1",
+         "line": -1.5,
+         "role": "fav",
+         "cov": "c"
+        },
+        {
+         "d": "2026-11-12",
+         "opp": "UTA",
+         "home": true,
+         "w": true,
+         "s": "5-3",
+         "line": -1.5,
+         "role": "fav",
+         "cov": "c"
+        },
+        {
+         "d": "2026-11-14",
+         "opp": "NSH",
+         "home": true,
+         "w": false,
+         "s": "2-3",
+         "line": -1.5,
+         "role": "fav",
+         "cov": "n"
+        },
+        {
+         "d": "2026-11-16",
+         "opp": "VAN",
+         "home": true,
+         "w": false,
+         "s": "3-6",
+         "line": -1.5,
+         "role": "fav",
+         "cov": "n"
+        }
+       ],
+       "wl": [
+        3,
+        2
+       ],
+       "ats": [
+        2,
+        3,
+        0
+       ],
+       "fav": [
+        3,
+        2
+       ],
+       "dog": [
+        0,
+        0
+       ]
+      }
+     },
+     "watch": [
+      {
+       "kind": "mismatch",
+       "team": "VGK",
+       "tone": "down",
+       "text": "Mitch Marner (VGK, 26 pts in 20 gp): likely goalie Jake Oettinger 0.902 sv% (15 starts, lg 0.892), DAL allows 23.4 shots/gm (lg 27.5)."
+      }
+     ],
+     "stories": [],
+     "grid": {
+      "DAL": {
+       "n": 32,
+       "unit": "per game",
+       "cells": [
+        {
+         "k": "Goals",
+         "v": 2.4,
+         "rank": 3,
+         "tier": "red"
+        },
+        {
+         "k": "Shots",
+         "v": 23.4,
+         "rank": 2,
+         "tier": "red"
+        },
+        {
+         "k": "PK %",
+         "v": 88.0,
+         "rank": 3,
+         "tier": "red"
+        }
+       ],
+       "units": [
+        {
+         "k": "Likely goalie",
+         "v": "Jake Oettinger 0.902 sv%",
+         "rank": null,
+         "tier": ""
+        }
+       ]
+      },
+      "VGK": {
+       "n": 32,
+       "unit": "per game",
+       "cells": [
+        {
+         "k": "Goals",
+         "v": 2.77,
+         "rank": 8,
+         "tier": "red"
+        },
+        {
+         "k": "Shots",
+         "v": 25.8,
+         "rank": 5,
+         "tier": "red"
+        },
+        {
+         "k": "PK %",
+         "v": 77.0,
+         "rank": 18,
+         "tier": "yellow"
+        }
+       ],
+       "units": [
+        {
+         "k": "Likely goalie",
+         "v": "Carter Hart 0.888 sv%",
+         "rank": null,
+         "tier": ""
+        }
+       ]
+      }
+     }
+    },
+    "CGY @ SJ": {
+     "trend": {
+      "CGY": {
+       "games": [
+        {
+         "d": "2026-11-07",
+         "opp": "ANA",
+         "home": true,
+         "w": false,
+         "s": "3-5",
+         "line": -1.5,
+         "role": "fav",
+         "cov": "n"
+        },
+        {
+         "d": "2026-11-09",
+         "opp": "PHI",
+         "home": true,
+         "w": true,
+         "s": "4-3",
+         "line": 1.5,
+         "role": "dog",
+         "cov": "c"
+        },
+        {
+         "d": "2026-11-12",
+         "opp": "NYR",
+         "home": true,
+         "w": false,
+         "s": "1-3",
+         "line": 1.5,
+         "role": "dog",
+         "cov": "n"
+        },
+        {
+         "d": "2026-11-15",
+         "opp": "LA",
+         "home": false,
+         "w": true,
+         "s": "3-2",
+         "line": 1.5,
+         "role": "dog",
+         "cov": "c"
+        },
+        {
+         "d": "2026-11-16",
+         "opp": "ANA",
+         "home": false,
+         "w": false,
+         "s": "1-6",
+         "line": 1.5,
+         "role": "dog",
+         "cov": "n"
+        }
+       ],
+       "wl": [
+        2,
+        3
+       ],
+       "ats": [
+        2,
+        3,
+        0
+       ],
+       "fav": [
+        0,
+        1
+       ],
+       "dog": [
+        2,
+        2
+       ]
+      },
+      "SJ": {
+       "games": [
+        {
+         "d": "2026-11-08",
+         "opp": "DAL",
+         "home": false,
+         "w": false,
+         "s": "3-4",
+         "line": 1.5,
+         "role": "dog",
+         "cov": "c"
+        },
+        {
+         "d": "2026-11-10",
+         "opp": "NYI",
+         "home": true,
+         "w": true,
+         "s": "3-2",
+         "line": 1.5,
+         "role": "dog",
+         "cov": "c"
+        },
+        {
+         "d": "2026-11-12",
+         "opp": "PIT",
+         "home": true,
+         "w": false,
+         "s": "2-3",
+         "line": 1.5,
+         "role": "dog",
+         "cov": "c"
+        },
+        {
+         "d": "2026-11-15",
+         "opp": "UTA",
+         "home": false,
+         "w": true,
+         "s": "6-5",
+         "line": 1.5,
+         "role": "dog",
+         "cov": "c"
+        },
+        {
+         "d": "2026-11-16",
+         "opp": "NSH",
+         "home": true,
+         "w": true,
+         "s": "4-2",
+         "line": 1.5,
+         "role": "dog",
+         "cov": "c"
+        }
+       ],
+       "wl": [
+        3,
+        2
+       ],
+       "ats": [
+        5,
+        0,
+        0
+       ],
+       "fav": [
+        0,
+        0
+       ],
+       "dog": [
+        3,
+        2
+       ]
+      }
+     },
+     "watch": [
+      {
+       "kind": "story",
+       "team": "SJ",
+       "effect": "helps",
+       "tone": "up",
+       "text": "Revenge spot: SJ lost 2-1 to CGY on November 2."
+      },
+      {
+       "kind": "mismatch",
+       "team": "CGY",
+       "tone": "up",
+       "text": "Joel Farabee (CGY, 17 pts in 21 gp): likely goalie Yaroslav Askarov 0.890 sv% (15 starts, lg 0.892), SJ allows 30.7 shots/gm (lg 27.5)."
+      }
+     ],
+     "stories": [
+      {
+       "kind": "story",
+       "team": "SJ",
+       "effect": "helps",
+       "tone": "up",
+       "text": "Revenge spot: SJ lost 2-1 to CGY on November 2."
+      }
+     ],
+     "grid": {
+      "CGY": {
+       "n": 32,
+       "unit": "per game",
+       "cells": [
+        {
+         "k": "Goals",
+         "v": 3.52,
+         "rank": 27,
+         "tier": "green"
+        },
+        {
+         "k": "Shots",
+         "v": 30.0,
+         "rank": 28,
+         "tier": "green"
+        },
+        {
+         "k": "PK %",
+         "v": 83.0,
+         "rank": 9,
+         "tier": "red"
+        }
+       ],
+       "units": [
+        {
+         "k": "Likely goalie",
+         "v": "Devin Cooley 0.906 sv%",
+         "rank": null,
+         "tier": ""
+        }
+       ]
+      },
+      "SJ": {
+       "n": 32,
+       "unit": "per game",
+       "cells": [
+        {
+         "k": "Goals",
+         "v": 3.43,
+         "rank": 22,
+         "tier": "yellow"
+        },
+        {
+         "k": "Shots",
+         "v": 30.7,
+         "rank": 31,
+         "tier": "green"
+        },
+        {
+         "k": "PK %",
+         "v": 75.0,
+         "rank": 21,
+         "tier": "yellow"
+        }
+       ],
+       "units": [
+        {
+         "k": "Likely goalie",
+         "v": "Yaroslav Askarov 0.890 sv%",
          "rank": null,
          "tier": ""
         }
@@ -3103,5 +7392,7 @@
    }
   }
  },
- "gaps": []
+ "gaps": [
+  "nfl slate not on the current ESPN week"
+ ]
 }
