@@ -1,10 +1,10 @@
 {
- "pulled_az": "2026-11-17T07:01:00-07:00",
+ "pulled_az": "2026-11-17T15:31:17-07:00",
  "slate": "2026-11-17",
  "tz": "Arizona (MST)",
  "card": "Deep Floor",
- "note": "Conservative listed thresholds. A pick needs a Floor Score of 90 or better. This card is separate from the model picks. Record counts the first-posted card.",
- "methodology": "Record counts the first-posted card.",
+ "note": "Conservative listed thresholds. A pick needs a Floor Score of 90 or better. Floor Scores are estimates.",
+ "methodology": "Legs are never swapped after posting.",
  "sources": [
   {
    "name": "ESPN",
@@ -23,6 +23,18 @@
  "top": {
   "nba": [
    {
+    "avg": 7.8,
+    "l5": [
+     9.0,
+     5.0,
+     10.0,
+     5.0,
+     7.0
+    ],
+    "hit_season": 1.0,
+    "hit_l5": 1.0,
+    "games": 12,
+    "market_pct": 94,
     "id": "deep:2026-11-17:nba:3945274:assists",
     "slate": "2026-11-17",
     "sport": "nba",
@@ -40,6 +52,18 @@
     "posted_az": "2026-11-17T07:01:00-07:00"
    },
    {
+    "avg": 8.2,
+    "l5": [
+     4.0,
+     8.0,
+     13.0,
+     6.0,
+     9.0
+    ],
+    "hit_season": 1.0,
+    "hit_l5": 1.0,
+    "games": 13,
+    "market_pct": 90,
     "id": "deep:2026-11-17:nba:4396971:totalRebounds",
     "slate": "2026-11-17",
     "sport": "nba",
@@ -57,6 +81,18 @@
     "posted_az": "2026-11-17T07:01:00-07:00"
    },
    {
+    "avg": 5.2,
+    "l5": [
+     5.0,
+     5.0,
+     3.0,
+     4.0,
+     7.0
+    ],
+    "hit_season": 1.0,
+    "hit_l5": 1.0,
+    "games": 12,
+    "market_pct": 94,
     "id": "deep:2026-11-17:nba:4432166:totalRebounds",
     "slate": "2026-11-17",
     "sport": "nba",
@@ -76,6 +112,18 @@
   ],
   "nhl": [
    {
+    "avg": 2.4,
+    "l5": [
+     3.0,
+     1.0,
+     1.0,
+     1.0,
+     3.0
+    ],
+    "hit_season": 1.0,
+    "hit_l5": 1.0,
+    "games": 22,
+    "market_pct": 80,
     "id": "deep:2026-11-17:nhl:3895074:points",
     "slate": "2026-11-17",
     "sport": "nhl",
@@ -93,6 +141,18 @@
     "posted_az": "2026-11-17T07:01:00-07:00"
    },
    {
+    "avg": 1.9,
+    "l5": [
+     3.0,
+     1.0,
+     1.0,
+     2.0,
+     3.0
+    ],
+    "hit_season": 0.909,
+    "hit_l5": 1.0,
+    "games": 22,
+    "market_pct": 74,
     "id": "deep:2026-11-17:nhl:3114727:points",
     "slate": "2026-11-17",
     "sport": "nhl",
@@ -110,6 +170,18 @@
     "posted_az": "2026-11-17T07:01:00-07:00"
    },
    {
+    "avg": 1.7,
+    "l5": [
+     2.0,
+     3.0,
+     1.0,
+     1.0,
+     4.0
+    ],
+    "hit_season": 0.909,
+    "hit_l5": 1.0,
+    "games": 22,
+    "market_pct": 74,
     "id": "deep:2026-11-17:nhl:3942335:points",
     "slate": "2026-11-17",
     "sport": "nhl",
@@ -131,66 +203,5 @@
  },
  "top_note": {
   "nfl": "No listed Deep Floor thresholds for this sport on today's slate yet, so there are no legs to show."
- },
- "featured_parlay": {
-  "featured": true,
-  "card": "Deep Floor",
-  "label": "Featured parlay",
-  "max_legs": 3,
-  "slate": "2026-11-17",
-  "posted_az": "2026-11-17T07:01:00-07:00",
-  "methodology": "Record counts the first-posted card.",
-  "note": "Featured parlay is the Deep Floor card, capped at 3 legs by Floor Score, with NBA threes left out. Record counts the first-posted card. Past results apply this rule to earlier posted cards. Featured live from November 15.",
-  "legs": [
-   {
-    "id": "deep:2026-11-17:nba:3945274:assists",
-    "sport": "nba",
-    "event_id": "401910005",
-    "athlete_id": "3945274",
-    "game": "CHA @ LAL",
-    "start_utc": "2026-11-18T04:00:00+00:00",
-    "start_az": "9:00 PM",
-    "player": "Luka Doncic",
-    "team": "LAL",
-    "stat": "assists",
-    "label": "4+ assists",
-    "line": 3.5,
-    "score": 100,
-    "posted_az": "2026-11-17T07:01:00-07:00"
-   },
-   {
-    "id": "deep:2026-11-17:nba:4396971:totalRebounds",
-    "sport": "nba",
-    "event_id": "401910005",
-    "athlete_id": "4396971",
-    "game": "CHA @ LAL",
-    "start_utc": "2026-11-18T04:00:00+00:00",
-    "start_az": "9:00 PM",
-    "player": "Naz Reid",
-    "team": "CHA",
-    "stat": "totalRebounds",
-    "label": "4+ rebounds",
-    "line": 3.5,
-    "score": 100,
-    "posted_az": "2026-11-17T07:01:00-07:00"
-   },
-   {
-    "id": "deep:2026-11-17:nba:4432166:totalRebounds",
-    "sport": "nba",
-    "event_id": "401910004",
-    "athlete_id": "4432166",
-    "game": "DET @ SA",
-    "start_utc": "2026-11-18T01:00:00+00:00",
-    "start_az": "6:00 PM",
-    "player": "Cade Cunningham",
-    "team": "DET",
-    "stat": "totalRebounds",
-    "label": "2+ rebounds",
-    "line": 1.5,
-    "score": 100,
-    "posted_az": "2026-11-17T07:01:00-07:00"
-   }
-  ]
- },
- "featured": true
+ }
 }

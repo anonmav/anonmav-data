@@ -1,10 +1,10 @@
 {
- "pulled_az": "2026-11-17T07:01:00-07:00",
+ "pulled_az": "2026-11-17T15:31:17-07:00",
  "slate": "2026-11-17",
  "tz": "Arizona (MST)",
  "card": "Deep Floor",
- "note": "Conservative listed thresholds. A pick needs a Floor Score of 90 or better. This card is separate from the model picks. Record counts the first-posted card. Featured parlay is the Deep Floor card, capped at 3 legs by Floor Score, with NBA threes left out. Record counts the first-posted card. Past results apply this rule to earlier posted cards. Featured live from November 15. Model picks are tracked separately. Losses are listed with their dates. No Deep Floor card was posted November 10-13, 2026, while the board used model lines.",
- "methodology": "Record counts the first-posted card.",
+ "note": "Conservative listed thresholds. A pick needs a Floor Score of 90 or better. Floor Scores are estimates. Losses are listed with their dates. No Deep Floor card was posted November 10-13, 2026, while the board used model lines.",
+ "methodology": "Legs are never swapped after posting.",
  "sources": [
   {
    "name": "ESPN",
@@ -1033,9 +1033,5 @@
    "score": 95.9,
    "posted_az": "2026-11-17T07:01:00-07:00"
   }
- ],
- "featured_parlay": {
-  "note": "Featured parlay is the Deep Floor card, capped at 3 legs by Floor Score, with NBA threes left out. Record counts the first-posted card. Past results apply this rule to earlier posted cards. Featured live from November 15.",
-  "methodology": "Record counts the first-posted card."
- }
+ ]
 }

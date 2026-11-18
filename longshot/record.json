@@ -1,5 +1,5 @@
 {
- "pulled_az": "2026-11-17T07:00:01-07:00",
+ "pulled_az": "2026-11-17T15:30:02-07:00",
  "slate": "2026-11-17",
  "tz": "Arizona (MST)",
  "sources": [
@@ -18,8 +18,8 @@
    "use": "implied chance on matching player prop thresholds, shown as a whole percent only"
   }
  ],
- "methodology": "Record counts the first-posted card.",
- "note": "Record counts the first-posted card. Later republishes do not swap legs for the official record. Starting November 16, NBA threes are left out of the live model card, and from November 17 they are left out of the first-posted card too. The November 15 first-posted card included Devin Booker and Naz Reid Over 1.5 threes, and the November 16 first-posted card included Davion Mitchell Over 1.5 threes and Donovan Clingan Over 0.5 threes. They count.",
+ "methodology": "Legs are never swapped after posting.",
+ "note": "Legs are never swapped after posting. Starting November 16, NBA threes are left out of the live model card. The November 15 card included Devin Booker and Naz Reid Over 1.5 threes, and the November 16 card included Davion Mitchell Over 1.5 threes and Donovan Clingan Over 0.5 threes. They count.",
  "thresholds": {
   "model": "default-2026-11-09",
   "calib": "calib-2026-11-16",
