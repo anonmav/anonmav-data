@@ -1,6 +1,6 @@
 {
- "pulled_az": "2026-11-17T15:30:02-07:00",
- "slate": "2026-11-17",
+ "pulled_az": "2026-11-18T07:00:01-07:00",
+ "slate": "2026-11-18",
  "tz": "Arizona (MST)",
  "sources": [
   {
@@ -35,12 +35,50 @@
   "text": "The market is still more accurate than our model on recent graded legs, so treat Edge as tracking only."
  },
  "summary": {
-  "wins": 55,
-  "losses": 20,
-  "pending": 3,
+  "wins": 57,
+  "losses": 21,
+  "pending": 2,
   "void": 0
  },
  "picks": [
+  {
+   "id": "2026-11-18:nhl:5080143:points",
+   "slate": "2026-11-18",
+   "sport": "nhl",
+   "event_id": "401892741",
+   "game": "COL @ UTA",
+   "start_utc": "2026-11-19T03:00:00+00:00",
+   "start_az": "8:00 PM",
+   "athlete_id": "5080143",
+   "player": "Logan Cooley",
+   "team": "UTA",
+   "stat": "points",
+   "label": "Over 0.5 points",
+   "line": 0.5,
+   "score": 72.4,
+   "tier": "green",
+   "model": "default-2026-11-09",
+   "posted_az": "2026-11-18T07:00:01-07:00"
+  },
+  {
+   "id": "2026-11-18:nba:4397189:assists",
+   "slate": "2026-11-18",
+   "sport": "nba",
+   "event_id": "401910011",
+   "game": "CHI @ BKN",
+   "start_utc": "2026-11-19T00:30:00+00:00",
+   "start_az": "5:30 PM",
+   "athlete_id": "4397189",
+   "player": "Jalen Smith",
+   "team": "CHI",
+   "stat": "assists",
+   "label": "Over 1.5 assists",
+   "line": 1.5,
+   "score": 72.3,
+   "tier": "green",
+   "model": "default-2026-11-09",
+   "posted_az": "2026-11-18T07:00:01-07:00"
+  },
   {
    "id": "2026-11-17:nhl:4320548:points",
    "slate": "2026-11-17",
@@ -58,7 +96,10 @@
    "score": 82.7,
    "tier": "green",
    "model": "default-2026-11-09",
-   "posted_az": "2026-11-17T07:00:01-07:00"
+   "posted_az": "2026-11-17T07:00:01-07:00",
+   "result": 2.0,
+   "grade": "win",
+   "graded_az": "2026-11-18T02:30:20-07:00"
   },
   {
    "id": "2026-11-17:nhl:3899937:points",
@@ -77,7 +118,10 @@
    "score": 78.7,
    "tier": "green",
    "model": "default-2026-11-09",
-   "posted_az": "2026-11-17T07:00:01-07:00"
+   "posted_az": "2026-11-17T07:00:01-07:00",
+   "result": 0.0,
+   "grade": "loss",
+   "graded_az": "2026-11-18T02:30:21-07:00"
   },
   {
    "id": "2026-11-17:nhl:5291933:points",
@@ -96,7 +140,10 @@
    "score": 78.8,
    "tier": "green",
    "model": "default-2026-11-09",
-   "posted_az": "2026-11-17T07:00:01-07:00"
+   "posted_az": "2026-11-17T07:00:01-07:00",
+   "result": 3.0,
+   "grade": "win",
+   "graded_az": "2026-11-18T02:30:21-07:00"
   },
   {
    "id": "2026-11-16:nhl:4565236:points",
