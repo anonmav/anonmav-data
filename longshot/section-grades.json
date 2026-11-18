@@ -1,5 +1,5 @@
 {
- "pulled_az": "2026-11-18T07:01:24-07:00",
+ "pulled_az": "2026-11-18T15:31:37-07:00",
  "slate": "2026-11-18",
  "tz": "Arizona (MST)",
  "note": "Public graded record by card and by leg type. Starting November 15, the featured parlay is Deep Floor, capped at 3 legs by Floor Score, with NBA threes left out. Its record before November 15 is a backtest: the rule applied to earlier posted cards. The November 14 model ticket is graded from the morning card; Jamal Murray Over 2.5 threes was a loss, and a later swap to rebounds is not counted. Sleeper flags: next-man-up backups tagged Sleeper, graded on a modest box-score floor once the game is final (NFL skill 25 rec / 30 rush yards, NBA 8+ points, NHL 1+ point). Contrarian tags: injury or rest news that cuts against the side with at least 10 points more of the traded action; a hit means that busy side lost. Floor Score, calibrated chance and these flags are estimates. Not betting advice. Sample sizes are still small.",
@@ -2195,23 +2195,23 @@
    "summary": {
     "wins": 2,
     "losses": 0,
-    "pending": 18,
+    "pending": 22,
     "void": 7,
     "n_graded": 2,
     "hit_rate": 100.0,
-    "record": "2-0 (18 pending)"
+    "record": "2-0 (22 pending)"
    },
    "by_slate": [
     {
      "wins": 0,
      "losses": 0,
-     "pending": 6,
+     "pending": 10,
      "void": 0,
      "n_graded": 0,
      "hit_rate": null,
-     "record": "0-0 (6 pending)",
+     "record": "0-0 (10 pending)",
      "slate": "2026-11-18",
-     "n": 6
+     "n": 10
     },
     {
      "wins": 0,
@@ -2271,21 +2271,21 @@
     {
      "wins": 0,
      "losses": 0,
-     "pending": 6,
+     "pending": 7,
      "void": 0,
      "n_graded": 0,
      "hit_rate": null,
-     "record": "0-0 (6 pending)",
+     "record": "0-0 (7 pending)",
      "key": "nba:other"
     },
     {
      "wins": 0,
      "losses": 0,
-     "pending": 12,
+     "pending": 15,
      "void": 7,
      "n_graded": 0,
      "hit_rate": null,
-     "record": "0-0 (12 pending)",
+     "record": "0-0 (15 pending)",
      "key": "nfl:other"
     }
    ],
@@ -2692,6 +2692,62 @@
      "def": "DEN",
      "rank": 30,
      "text": "Michael Mayer next up at TE if Brock Bowers sits; DEN ranks 30 vs TE."
+    },
+    {
+     "kind": "sleeper",
+     "slate": "2026-11-18",
+     "sport": "nba",
+     "game": "PHI @ ORL",
+     "team": "PHI",
+     "player": "Kentavious Caldwell-Pope",
+     "pos": "SF",
+     "out": "Jaylen Brown",
+     "status": "Out",
+     "def": "ORL",
+     "rank": 30,
+     "text": "Kentavious Caldwell-Pope next up at SF if Jaylen Brown sits; ORL ranks 30 vs SF."
+    },
+    {
+     "kind": "sleeper",
+     "slate": "2026-11-18",
+     "sport": "nfl",
+     "game": "MIA @ BUF",
+     "team": "MIA",
+     "player": "Jalen Tolbert",
+     "pos": "WR",
+     "out": "Caleb Douglas",
+     "status": "Questionable",
+     "def": "BUF",
+     "rank": 23,
+     "text": "Jalen Tolbert next up at WR if Caleb Douglas sits; BUF ranks 23 vs WR."
+    },
+    {
+     "kind": "sleeper",
+     "slate": "2026-11-18",
+     "sport": "nfl",
+     "game": "TB @ DET",
+     "team": "TB",
+     "player": "Jalon Daniels",
+     "pos": "QB",
+     "out": "Baker Mayfield",
+     "status": "Questionable",
+     "def": "DET",
+     "rank": 32,
+     "text": "Jalon Daniels next up at QB if Baker Mayfield sits; DET ranks 32 vs QB."
+    },
+    {
+     "kind": "sleeper",
+     "slate": "2026-11-18",
+     "sport": "nfl",
+     "game": "LV @ DEN",
+     "team": "DEN",
+     "player": "Troy Franklin",
+     "pos": "WR",
+     "out": "Jaylen Waddle",
+     "status": "Questionable",
+     "def": "LV",
+     "rank": 24,
+     "text": "Troy Franklin next up at WR if Jaylen Waddle sits; LV ranks 24 vs WR."
     }
    ]
   },
@@ -2700,23 +2756,23 @@
    "summary": {
     "wins": 0,
     "losses": 1,
-    "pending": 27,
+    "pending": 33,
     "void": 0,
     "n_graded": 1,
     "hit_rate": 0.0,
-    "record": "0-1 (27 pending)"
+    "record": "0-1 (33 pending)"
    },
    "by_slate": [
     {
      "wins": 0,
      "losses": 0,
-     "pending": 2,
+     "pending": 8,
      "void": 0,
      "n_graded": 0,
      "hit_rate": null,
-     "record": "0-0 (2 pending)",
+     "record": "0-0 (8 pending)",
      "slate": "2026-11-18",
-     "n": 2
+     "n": 8
     },
     {
      "wins": 0,
@@ -2756,12 +2812,22 @@
     {
      "wins": 0,
      "losses": 1,
-     "pending": 14,
+     "pending": 15,
      "void": 0,
      "n_graded": 1,
      "hit_rate": 0.0,
-     "record": "0-1 (14 pending)",
+     "record": "0-1 (15 pending)",
      "key": "nba:other"
+    },
+    {
+     "wins": 0,
+     "losses": 0,
+     "pending": 11,
+     "void": 0,
+     "n_graded": 0,
+     "hit_rate": null,
+     "record": "0-0 (11 pending)",
+     "key": "nfl:other"
     },
     {
      "wins": 0,
@@ -2771,16 +2837,6 @@
      "n_graded": 0,
      "hit_rate": null,
      "record": "0-0 (7 pending)",
-     "key": "nfl:other"
-    },
-    {
-     "wins": 0,
-     "losses": 0,
-     "pending": 6,
-     "void": 0,
-     "n_graded": 0,
-     "hit_rate": null,
-     "record": "0-0 (6 pending)",
      "key": "nhl:other"
     }
    ],
@@ -3096,6 +3152,72 @@
      "busy_team": "IND",
      "action_share_gap": 62,
      "text": "Revenge spot: HOU lost 19-17 to IND on September 27."
+    },
+    {
+     "kind": "contrarian",
+     "slate": "2026-11-18",
+     "sport": "nba",
+     "game": "UTAH @ LAL",
+     "team": "UTAH",
+     "effect": "helps",
+     "busy_team": "LAL",
+     "action_share_gap": 40,
+     "text": "Revenge spot: UTAH lost 132-123 to LAL on October 25."
+    },
+    {
+     "kind": "contrarian",
+     "slate": "2026-11-18",
+     "sport": "nfl",
+     "game": "IND @ HOU",
+     "team": "IND",
+     "effect": "hurts",
+     "busy_team": "IND",
+     "action_share_gap": 66,
+     "text": "IND WR Anthony Gould listed Questionable on the injury report."
+    },
+    {
+     "kind": "contrarian",
+     "slate": "2026-11-18",
+     "sport": "nfl",
+     "game": "BAL @ CAR",
+     "team": "CAR",
+     "effect": "hurts",
+     "busy_team": "CAR",
+     "action_share_gap": 40,
+     "text": "CAR TE Darren Waller listed Questionable on the injury report."
+    },
+    {
+     "kind": "contrarian",
+     "slate": "2026-11-18",
+     "sport": "nfl",
+     "game": "NYJ @ LAC",
+     "team": "NYJ",
+     "effect": "hurts",
+     "busy_team": "NYJ",
+     "action_share_gap": 26,
+     "text": "NYJ WR Omar Cooper Jr. listed Questionable on the injury report."
+    },
+    {
+     "kind": "contrarian",
+     "slate": "2026-11-18",
+     "sport": "nfl",
+     "game": "NYJ @ LAC",
+     "team": "NYJ",
+     "effect": "hurts",
+     "busy_team": "NYJ",
+     "action_share_gap": 26,
+     "text": "NYJ QB Geno Smith listed Questionable on the injury report."
+    },
+    {
+     "kind": "contrarian",
+     "slate": "2026-11-18",
+     "sport": "nhl",
+     "game": "BOS @ DET",
+     "team": "BOS",
+     "effect": "hurts",
+     "busy_team": "BOS",
+     "action_share_gap": 48,
+     "text": "BOS on the second night of a back-to-back, DET rested 3 days."
     }
    ]
   }
