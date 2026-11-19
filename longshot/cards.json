@@ -1,5 +1,5 @@
 {
- "updated_az": "2026-11-19T15:20:02-07:00",
+ "updated_az": "2026-11-19T16:50:01-07:00",
  "note": "Estimates from public scores, closing lines, play by play, depth charts, injury reports and our matchup engine. Not betting advice.",
  "sports": {
   "nba": {
@@ -1731,6 +1731,13 @@
        "effect": "hurts",
        "tone": "down",
        "text": "BUF TE Dalton Kincaid listed Questionable on the injury report."
+      },
+      {
+       "kind": "story",
+       "team": "MIA",
+       "effect": "hurts",
+       "tone": "down",
+       "text": "MIA WR Chris Bell listed Questionable on the injury report."
       },
       {
        "kind": "story",
