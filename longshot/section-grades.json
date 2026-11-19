@@ -1,5 +1,5 @@
 {
- "pulled_az": "2026-11-19T09:41:38-07:00",
+ "pulled_az": "2026-11-19T09:42:06-07:00",
  "slate": "2026-11-19",
  "tz": "Arizona (MST)",
  "note": "Public graded record by card and by leg type. Starting November 15, the featured parlay is Deep Floor, capped at 3 legs by Floor Score, with NBA threes left out. Its record before November 15 is a backtest: the rule applied to earlier posted cards. The November 14 model ticket is graded from the morning card; Jamal Murray Over 2.5 threes was a loss, and a later swap to rebounds is not counted. Sleeper flags: next-man-up backups tagged Sleeper, graded on a modest box-score floor once the game is final (NFL skill 25 rec / 30 rush yards, NBA 8+ points, NHL 1+ point). Contrarian tags: injury or rest news that cuts against the side with at least 10 points more of the traded action; a hit means that busy side lost. Floor Score, calibrated chance and these flags are estimates. Not betting advice. Sample sizes are still small.",
@@ -2960,23 +2960,23 @@
    "summary": {
     "wins": 0,
     "losses": 1,
-    "pending": 48,
+    "pending": 49,
     "void": 0,
     "n_graded": 1,
     "hit_rate": 0.0,
-    "record": "0-1 (48 pending)"
+    "record": "0-1 (49 pending)"
    },
    "by_slate": [
     {
      "wins": 0,
      "losses": 0,
-     "pending": 13,
+     "pending": 14,
      "void": 0,
      "n_graded": 0,
      "hit_rate": null,
-     "record": "0-0 (13 pending)",
+     "record": "0-0 (14 pending)",
      "slate": "2026-11-19",
-     "n": 13
+     "n": 14
     },
     {
      "wins": 0,
@@ -3027,11 +3027,11 @@
     {
      "wins": 0,
      "losses": 1,
-     "pending": 19,
+     "pending": 20,
      "void": 0,
      "n_graded": 1,
      "hit_rate": 0.0,
-     "record": "0-1 (19 pending)",
+     "record": "0-1 (20 pending)",
      "key": "nba:other"
     },
     {
@@ -3559,11 +3559,22 @@
      "kind": "contrarian",
      "slate": "2026-11-19",
      "sport": "nba",
+     "game": "GS @ MEM",
+     "team": "GS",
+     "effect": "helps",
+     "busy_team": "MEM",
+     "action_share_gap": 12,
+     "text": "Revenge spot: GS lost 111-108 to MEM on October 23."
+    },
+    {
+     "kind": "contrarian",
+     "slate": "2026-11-19",
+     "sport": "nba",
      "game": "POR @ MIL",
      "team": "MIL",
      "effect": "hurts",
      "busy_team": "MIL",
-     "action_share_gap": 16,
+     "action_share_gap": 14,
      "text": "MIL on the second night of a back-to-back, POR rested 1 day."
     },
     {
@@ -3596,7 +3607,7 @@
      "team": "VGK",
      "effect": "helps",
      "busy_team": "DAL",
-     "action_share_gap": 38,
+     "action_share_gap": 36,
      "text": "Revenge spot: VGK lost 4-3 to DAL on November 17."
     }
    ]
