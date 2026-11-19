@@ -1,5 +1,5 @@
 {
- "updated_az": "2026-11-19T11:20:01-07:00",
+ "updated_az": "2026-11-19T15:20:02-07:00",
  "note": "Estimates from public scores, closing lines, play by play, depth charts, injury reports and our matchup engine. Not betting advice.",
  "sports": {
   "nba": {
@@ -273,24 +273,44 @@
      "changes": [
       {
        "team": "GS",
-       "pos": "PF",
-       "name": "Draymond Green",
+       "pos": "PG",
+       "name": "LJ Cryer",
        "status": "Day-To-Day"
       },
       {
        "team": "GS",
-       "pos": "C",
-       "name": "Al Horford",
-       "status": "Day-To-Day"
+       "pos": "PF",
+       "name": "Draymond Green",
+       "status": "Out"
       },
       {
        "team": "MEM",
        "pos": "PG",
        "name": "Ty Jerome",
        "status": "Out"
+      },
+      {
+       "team": "MEM",
+       "pos": "C",
+       "name": "Zach Edey",
+       "status": "Out"
       }
      ],
      "next": [
+      {
+       "team": "GS",
+       "pos": "PF",
+       "out": "Draymond Green",
+       "status": "Out",
+       "backup": "Georges Niang",
+       "def": "MEM",
+       "rank": 9,
+       "n": 30,
+       "v": 21.3,
+       "yds": null,
+       "unit": "pts",
+       "sleeper": false
+      },
       {
        "team": "MEM",
        "pos": "PG",
@@ -587,9 +607,45 @@
       },
       {
        "team": "MIL",
-       "pos": "PG",
-       "name": "Ryan Rollins",
-       "status": "Day-To-Day"
+       "pos": "SF",
+       "name": "Kyle Kuzma",
+       "status": "Out"
+      },
+      {
+       "team": "MIL",
+       "pos": "PF",
+       "name": "Myles Turner",
+       "status": "Out"
+      }
+     ],
+     "next": [
+      {
+       "team": "MIL",
+       "pos": "SF",
+       "out": "Kyle Kuzma",
+       "status": "Out",
+       "backup": "Jaime Jaquez Jr.",
+       "def": "POR",
+       "rank": 1,
+       "n": 30,
+       "v": 15.8,
+       "yds": null,
+       "unit": "pts",
+       "sleeper": false
+      },
+      {
+       "team": "MIL",
+       "pos": "PF",
+       "out": "Myles Turner",
+       "status": "Out",
+       "backup": "Nate Ament",
+       "def": "POR",
+       "rank": 10,
+       "n": 30,
+       "v": 21.4,
+       "yds": null,
+       "unit": "pts",
+       "sleeper": false
       }
      ]
     },
@@ -1649,6 +1705,13 @@
      },
      "watch": [
       {
+       "kind": "story",
+       "team": "BUF",
+       "effect": "hurts",
+       "tone": "down",
+       "text": "BUF TE Dalton Kincaid listed Questionable on the injury report."
+      },
+      {
        "kind": "mismatch",
        "team": "BUF",
        "tone": "up",
@@ -1661,7 +1724,22 @@
        "text": "Kyle McCord (MIA, QB): BUF pressure 20% of dropbacks, his line allows 16% (lg 16%)."
       }
      ],
-     "stories": [],
+     "stories": [
+      {
+       "kind": "story",
+       "team": "BUF",
+       "effect": "hurts",
+       "tone": "down",
+       "text": "BUF TE Dalton Kincaid listed Questionable on the injury report."
+      },
+      {
+       "kind": "story",
+       "team": "MIA",
+       "effect": "hurts",
+       "tone": "down",
+       "text": "MIA WR Caleb Douglas listed Questionable on the injury report."
+      }
+     ],
      "grid": {
       "MIA": {
        "n": 32,
@@ -1827,14 +1905,14 @@
       },
       {
        "team": "BUF",
-       "pos": "LB",
-       "name": "Dorian Williams",
+       "pos": "DE",
+       "name": "T.J. Sanders",
        "status": "Questionable"
       },
       {
        "team": "BUF",
-       "pos": "CB",
-       "name": "Christian Benford",
+       "pos": "LB",
+       "name": "Dorian Williams",
        "status": "Questionable"
       }
      ],
@@ -2372,6 +2450,13 @@
      },
      "watch": [
       {
+       "kind": "story",
+       "team": "TEN",
+       "effect": "hurts",
+       "tone": "down",
+       "text": "TEN WR Carnell Tate listed Questionable on the injury report."
+      },
+      {
        "kind": "mismatch",
        "team": "TEN",
        "tone": "up",
@@ -2384,7 +2469,15 @@
        "text": "Brevyn Spann-Ford (DAL) draws Cody Barton on 50% of routes. ACE 35 est., tough draw."
       }
      ],
-     "stories": [],
+     "stories": [
+      {
+       "kind": "story",
+       "team": "TEN",
+       "effect": "hurts",
+       "tone": "down",
+       "text": "TEN WR Carnell Tate listed Questionable on the injury report."
+      }
+     ],
      "grid": {
       "TEN": {
        "n": 32,
@@ -2520,12 +2613,6 @@
       },
       {
        "team": "TEN",
-       "pos": "DT",
-       "name": "John Franklin-Myers",
-       "status": "Questionable"
-      },
-      {
-       "team": "TEN",
        "pos": "LB",
        "name": "Anthony Hill Jr.",
        "status": "Questionable"
@@ -2540,6 +2627,12 @@
        "team": "TEN",
        "pos": "S",
        "name": "Tony Adams",
+       "status": "Questionable"
+      },
+      {
+       "team": "TEN",
+       "pos": "S",
+       "name": "Kevin Winston Jr.",
        "status": "Questionable"
       },
       {
@@ -3089,6 +3182,13 @@
      },
      "watch": [
       {
+       "kind": "story",
+       "team": "KC",
+       "effect": "hurts",
+       "tone": "down",
+       "text": "KC RB Kenneth Walker III listed Questionable on the injury report."
+      },
+      {
        "kind": "mismatch",
        "team": "KC",
        "tone": "up",
@@ -3101,7 +3201,15 @@
        "text": "Reggie Virgil (ARI) draws Kristian Fulton on 49% of routes. ACE 28 est., tough draw."
       }
      ],
-     "stories": [],
+     "stories": [
+      {
+       "kind": "story",
+       "team": "KC",
+       "effect": "hurts",
+       "tone": "down",
+       "text": "KC RB Kenneth Walker III listed Questionable on the injury report."
+      }
+     ],
      "grid": {
       "ARI": {
        "n": 32,
@@ -3589,12 +3697,6 @@
        "status": "Questionable"
       },
       {
-       "team": "PIT",
-       "pos": "S",
-       "name": "DeShon Elliott",
-       "status": "Questionable"
-      },
-      {
        "team": "PHI",
        "pos": "WR",
        "name": "DeVonta Smith",
@@ -3952,12 +4054,6 @@
       }
      },
      "changes": [
-      {
-       "team": "BAL",
-       "pos": "RG",
-       "name": "Olaivavega Ioane",
-       "status": "Questionable"
-      },
       {
        "team": "BAL",
        "pos": "DE",
@@ -4952,6 +5048,13 @@
        "effect": "hurts",
        "tone": "down",
        "text": "JAX RB Bhayshul Tuten listed Questionable on the injury report."
+      },
+      {
+       "kind": "story",
+       "team": "JAX",
+       "effect": "hurts",
+       "tone": "down",
+       "text": "JAX WR Jakobi Meyers listed Questionable on the injury report."
       }
      ],
      "grid": {
@@ -5432,6 +5535,12 @@
      "changes": [
       {
        "team": "CIN",
+       "pos": "LG",
+       "name": "Dylan Fairchild",
+       "status": "Questionable"
+      },
+      {
+       "team": "CIN",
        "pos": "RG",
        "name": "Dalton Risner",
        "status": "Questionable"
@@ -5440,6 +5549,12 @@
        "team": "CIN",
        "pos": "LB",
        "name": "Oren Burks",
+       "status": "Questionable"
+      },
+      {
+       "team": "CIN",
+       "pos": "CB",
+       "name": "Dax Hill",
        "status": "Questionable"
       }
      ]
@@ -5843,14 +5958,6 @@
        "effect": "helps",
        "tone": "up",
        "text": "Revenge spot: OTT lost 3-1 to PHI on October 17."
-      }
-     ],
-     "changes": [
-      {
-       "team": "OTT",
-       "pos": "D",
-       "name": "Thomas Chabot",
-       "status": "Day-To-Day"
       }
      ],
      "grid": {
@@ -7719,14 +7826,6 @@
        "effect": "hurts",
        "tone": "down",
        "text": "COL on the second night of a back-to-back, ANA rested 1 day."
-      }
-     ],
-     "changes": [
-      {
-       "team": "ANA",
-       "pos": "RW",
-       "name": "Beckett Sennecke",
-       "status": "Day-To-Day"
       }
      ],
      "grid": {
