@@ -1,5 +1,5 @@
 {
- "pulled_az": "2026-11-18T15:31:43-07:00",
+ "pulled_az": "2026-11-19T02:32:32-07:00",
  "start": "2026-11-17",
  "note": "High Floor forward test. Started November 17, 2026 at 0-0. Singles only, locked at publish, graded daily.",
  "rule": [
@@ -11,15 +11,15 @@
   "Floor scores, market chances and defense ranks are estimates. No stakes or profit are tracked. Not betting advice."
  ],
  "summary": {
-  "wins": 4,
+  "wins": 6,
   "losses": 1,
   "void": 0,
-  "pending": 2,
-  "graded": 5,
+  "pending": 0,
+  "graded": 7,
   "target": 300,
-  "hit_rate": 80.0,
-  "market_avg_pct": 60.8,
-  "gap_pts": 19.2
+  "hit_rate": 85.7,
+  "market_avg_pct": 58.4,
+  "gap_pts": 27.3
  },
  "splits": {
   "soft_matchup": {
@@ -34,15 +34,15 @@
    "gap_pts": null
   },
   "other_matchup": {
-   "wins": 4,
+   "wins": 6,
    "losses": 1,
    "void": 0,
-   "pending": 2,
-   "graded": 5,
+   "pending": 0,
+   "graded": 7,
    "target": 300,
-   "hit_rate": 80.0,
-   "market_avg_pct": 60.8,
-   "gap_pts": 19.2
+   "hit_rate": 85.7,
+   "market_avg_pct": 58.4,
+   "gap_pts": 27.3
   },
   "no_rank": {
    "wins": 0,
@@ -58,26 +58,26 @@
  },
  "by_sport": {
   "nba": {
-   "wins": 1,
+   "wins": 2,
    "losses": 0,
    "void": 0,
-   "pending": 1,
-   "graded": 1,
+   "pending": 0,
+   "graded": 2,
    "target": 300,
    "hit_rate": 100.0,
-   "market_avg_pct": 48.0,
-   "gap_pts": 52.0
+   "market_avg_pct": 50.0,
+   "gap_pts": 50.0
   },
   "nhl": {
-   "wins": 3,
+   "wins": 4,
    "losses": 1,
    "void": 0,
-   "pending": 1,
-   "graded": 4,
+   "pending": 0,
+   "graded": 5,
    "target": 300,
-   "hit_rate": 75.0,
-   "market_avg_pct": 64.0,
-   "gap_pts": 11.0
+   "hit_rate": 80.0,
+   "market_avg_pct": 61.8,
+   "gap_pts": 18.2
   }
  },
  "days": [
@@ -92,10 +92,10 @@
   {
    "slate": "2026-11-18",
    "legs": 2,
-   "wins": 0,
+   "wins": 2,
    "losses": 0,
    "void": 0,
-   "pending": 2
+   "pending": 0
   }
  ],
  "losses": [
@@ -378,7 +378,10 @@
     "soft": false,
     "text": "MIL defense vs PG 17 and SG 23 of 30 on points allowed (30 = softest)"
    },
-   "def_logged_az": "2026-11-18T07:21:00-07:00"
+   "def_logged_az": "2026-11-18T07:21:00-07:00",
+   "grade": "win",
+   "result": 24.0,
+   "graded_az": "2026-11-19T02:30:07-07:00"
   },
   {
    "id": "2026-11-18:nhl:4024857:assists",
@@ -419,7 +422,10 @@
     "soft": false,
     "text": "COL goals allowed: 15 of 32 (32 = softest). Team level only, no NHL position rank."
    },
-   "def_logged_az": "2026-11-18T07:21:00-07:00"
+   "def_logged_az": "2026-11-18T07:21:00-07:00",
+   "grade": "win",
+   "result": 1.0,
+   "graded_az": "2026-11-19T02:30:56-07:00"
   }
  ],
  "split_note": "Soft matchup means the opponent ranks in the softest ten of the league at the position (team level for NHL). Ranks are estimates."
