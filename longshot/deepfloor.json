@@ -49,7 +49,19 @@
     "label": "10+ points",
     "line": 9.5,
     "score": 97.5,
-    "posted_az": "2026-11-19T07:01:07-07:00"
+    "posted_az": "2026-11-19T07:01:07-07:00",
+    "cushion": {
+     "threshold": 10,
+     "l10_min": 13.0,
+     "l10_p10": 13.0,
+     "exact_l5": 0,
+     "n": 10,
+     "thin": false,
+     "thin_reasons": []
+    },
+    "thin": false,
+    "injury": null,
+    "would_exclude": []
    },
    {
     "avg": 2.9,
@@ -78,7 +90,19 @@
     "label": "1+ threes",
     "line": 0.5,
     "score": 96.8,
-    "posted_az": "2026-11-19T07:01:07-07:00"
+    "posted_az": "2026-11-19T07:01:07-07:00",
+    "cushion": {
+     "threshold": 1,
+     "l10_min": 1.0,
+     "l10_p10": 2.8,
+     "exact_l5": 1,
+     "n": 10,
+     "thin": false,
+     "thin_reasons": []
+    },
+    "thin": false,
+    "injury": null,
+    "would_exclude": []
    },
    {
     "avg": 2.0,
@@ -107,7 +131,19 @@
     "label": "1+ threes",
     "line": 0.5,
     "score": 96.8,
-    "posted_az": "2026-11-19T07:01:07-07:00"
+    "posted_az": "2026-11-19T07:01:07-07:00",
+    "cushion": {
+     "threshold": 1,
+     "l10_min": 1.0,
+     "l10_p10": 1.0,
+     "exact_l5": 1,
+     "n": 10,
+     "thin": false,
+     "thin_reasons": []
+    },
+    "thin": false,
+    "injury": null,
+    "would_exclude": []
    }
   ],
   "nhl": [
@@ -138,7 +174,19 @@
     "label": "1+ points",
     "line": 0.5,
     "score": 99.7,
-    "posted_az": "2026-11-19T07:01:07-07:00"
+    "posted_az": "2026-11-19T07:01:07-07:00",
+    "cushion": {
+     "threshold": 1,
+     "l10_min": 1.0,
+     "l10_p10": 1.0,
+     "exact_l5": 3,
+     "n": 10,
+     "thin": false,
+     "thin_reasons": []
+    },
+    "thin": false,
+    "injury": null,
+    "would_exclude": []
    },
    {
     "avg": 1.9,
@@ -167,7 +215,19 @@
     "label": "1+ points",
     "line": 0.5,
     "score": 95.7,
-    "posted_az": "2026-11-19T07:01:07-07:00"
+    "posted_az": "2026-11-19T07:01:07-07:00",
+    "cushion": {
+     "threshold": 1,
+     "l10_min": 1.0,
+     "l10_p10": 1.0,
+     "exact_l5": 2,
+     "n": 10,
+     "thin": false,
+     "thin_reasons": []
+    },
+    "thin": false,
+    "injury": null,
+    "would_exclude": []
    },
    {
     "avg": 1.7,
@@ -196,7 +256,19 @@
     "label": "1+ points",
     "line": 0.5,
     "score": 95.5,
-    "posted_az": "2026-11-19T07:01:07-07:00"
+    "posted_az": "2026-11-19T07:01:07-07:00",
+    "cushion": {
+     "threshold": 1,
+     "l10_min": 1.0,
+     "l10_p10": 1.0,
+     "exact_l5": 2,
+     "n": 10,
+     "thin": false,
+     "thin_reasons": []
+    },
+    "thin": false,
+    "injury": null,
+    "would_exclude": []
    }
   ],
   "nfl": []

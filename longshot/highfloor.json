@@ -1,5 +1,5 @@
 {
- "pulled_az": "2026-11-19T07:20:58-07:00",
+ "pulled_az": "2026-11-19T09:40:37-07:00",
  "slate": "2026-11-19",
  "status": "locked",
  "start": "2026-11-17",
@@ -53,7 +53,20 @@
     "soft": false,
     "text": "TB goals allowed: 10 of 32 (32 = softest). Team level only, no NHL position rank."
    },
-   "def_logged_az": "2026-11-19T07:20:58-07:00"
+   "def_logged_az": "2026-11-19T07:20:58-07:00",
+   "cushion": {
+    "threshold": 1,
+    "l10_min": 0.0,
+    "l10_p10": 0.9,
+    "exact_l5": 3,
+    "n": 10,
+    "thin": false,
+    "thin_reasons": []
+   },
+   "thin": false,
+   "injury": null,
+   "would_exclude": [],
+   "flags_checked_az": "2026-11-19T09:40:32-07:00"
   },
   {
    "id": "2026-11-19:nhl:4320548:assists",
@@ -94,7 +107,20 @@
     "soft": true,
     "text": "CGY goals allowed: 23 of 32 (32 = softest). Team level only, no NHL position rank."
    },
-   "def_logged_az": "2026-11-19T07:20:58-07:00"
+   "def_logged_az": "2026-11-19T07:20:58-07:00",
+   "cushion": {
+    "threshold": 1,
+    "l10_min": 0.0,
+    "l10_p10": 0.9,
+    "exact_l5": 4,
+    "n": 10,
+    "thin": false,
+    "thin_reasons": []
+   },
+   "thin": false,
+   "injury": null,
+   "would_exclude": [],
+   "flags_checked_az": "2026-11-19T09:40:32-07:00"
   },
   {
    "id": "2026-11-19:nhl:5291933:points",
@@ -135,7 +161,20 @@
     "soft": false,
     "text": "WPG goals allowed: 22 of 32 (32 = softest). Team level only, no NHL position rank."
    },
-   "def_logged_az": "2026-11-19T07:20:58-07:00"
+   "def_logged_az": "2026-11-19T07:20:58-07:00",
+   "cushion": {
+    "threshold": 1,
+    "l10_min": 0.0,
+    "l10_p10": 0.9,
+    "exact_l5": 3,
+    "n": 10,
+    "thin": false,
+    "thin_reasons": []
+   },
+   "thin": false,
+   "injury": null,
+   "would_exclude": [],
+   "flags_checked_az": "2026-11-19T09:40:32-07:00"
   },
   {
    "id": "2026-11-19:nhl:4781553:points",
@@ -176,7 +215,20 @@
     "soft": true,
     "text": "CHI goals allowed: 31 of 32 (32 = softest). Team level only, no NHL position rank."
    },
-   "def_logged_az": "2026-11-19T07:20:58-07:00"
+   "def_logged_az": "2026-11-19T07:20:58-07:00",
+   "cushion": {
+    "threshold": 1,
+    "l10_min": 0.0,
+    "l10_p10": 0.9,
+    "exact_l5": 3,
+    "n": 10,
+    "thin": false,
+    "thin_reasons": []
+   },
+   "thin": false,
+   "injury": null,
+   "would_exclude": [],
+   "flags_checked_az": "2026-11-19T09:40:32-07:00"
   },
   {
    "id": "2026-11-19:nhl:3899937:points",
@@ -217,7 +269,20 @@
     "soft": false,
     "text": "DAL goals allowed: 3 of 32 (32 = softest). Team level only, no NHL position rank."
    },
-   "def_logged_az": "2026-11-19T07:20:58-07:00"
+   "def_logged_az": "2026-11-19T07:20:58-07:00",
+   "cushion": {
+    "threshold": 1,
+    "l10_min": 0.0,
+    "l10_p10": 0.0,
+    "exact_l5": 1,
+    "n": 10,
+    "thin": false,
+    "thin_reasons": []
+   },
+   "thin": false,
+   "injury": null,
+   "would_exclude": [],
+   "flags_checked_az": "2026-11-19T09:40:32-07:00"
   }
  ],
  "empty_note": "No legs met the rule at lock time today. That is a valid result."
