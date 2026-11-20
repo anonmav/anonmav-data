@@ -1,6 +1,6 @@
 {
- "pulled_az": "2026-11-20T06:30:37-07:00",
- "slate": "2026-11-19",
+ "pulled_az": "2026-11-20T07:01:03-07:00",
+ "slate": "2026-11-20",
  "tz": "Arizona (MST)",
  "note": "Public graded record by card and by leg type. Starting November 15, the featured parlay is Deep Floor, capped at 3 legs by Floor Score, with NBA threes left out. Its record before November 15 is a backtest: the rule applied to earlier posted cards. The November 14 model ticket is graded from the morning card; Jamal Murray Over 2.5 threes was a loss, and a later swap to rebounds is not counted. Sleeper flags: next-man-up backups tagged Sleeper, graded on a modest box-score floor once the game is final (NFL skill 25 rec / 30 rush yards, NBA 8+ points, NHL 1+ point). Contrarian tags: injury or rest news that cuts against the side with at least 10 points more of the traded action; a hit means that busy side lost. Floor Score, calibrated chance and these flags are estimates. Not betting advice. Sample sizes are still small.",
  "methodology": "Legs are never swapped after posting.",
@@ -11,7 +11,7 @@
   "featured": true,
   "note": "Past results apply this rule to earlier posted cards. Featured live from November 15.",
   "live_from": "2026-11-15",
-  "live": "3-2",
+  "live": "3-2 (1 pending)",
   "backtest": "6-2"
  },
  "sections": {
@@ -1282,13 +1282,24 @@
    "summary": {
     "wins": 61,
     "losses": 10,
-    "pending": 0,
+    "pending": 3,
     "void": 0,
     "n_graded": 71,
     "hit_rate": 85.9,
-    "record": "61-10"
+    "record": "61-10 (3 pending)"
    },
    "by_slate": [
+    {
+     "wins": 0,
+     "losses": 0,
+     "pending": 3,
+     "void": 0,
+     "n_graded": 0,
+     "hit_rate": null,
+     "record": "0-0 (3 pending)",
+     "slate": "2026-11-20",
+     "n": 3
+    },
     {
      "wins": 4,
      "losses": 2,
@@ -1447,11 +1458,11 @@
     {
      "wins": 12,
      "losses": 2,
-     "pending": 0,
+     "pending": 3,
      "void": 0,
      "n_graded": 14,
      "hit_rate": 85.7,
-     "record": "12-2",
+     "record": "12-2 (3 pending)",
      "key": "nba:rebounds"
     },
     {
@@ -1519,10 +1530,10 @@
     "label": "Deep Floor card",
     "wins": 7,
     "losses": 6,
-    "pending": 0,
+    "pending": 1,
     "n_decided": 13,
     "hit_rate": 53.8,
-    "record": "7-6",
+    "record": "7-6 (1 pending)",
     "killers_by_type": [
      {
       "key": "nba:rebounds",
@@ -1718,6 +1729,15 @@
         "leg_type": "nhl:1+ points"
        }
       ]
+     },
+     {
+      "slate": "2026-11-20",
+      "status": "pending",
+      "wins": 0,
+      "losses": 0,
+      "n_graded": 0,
+      "n_pending": 3,
+      "killers": []
      }
     ]
    },
@@ -1726,10 +1746,10 @@
     "label": "featured parlay, Deep Floor, max 3 legs",
     "wins": 9,
     "losses": 4,
-    "pending": 0,
+    "pending": 1,
     "n_decided": 13,
     "hit_rate": 69.2,
-    "record": "9-4",
+    "record": "9-4 (1 pending)",
     "killers_by_type": [
      {
       "key": "nba:rebounds",
@@ -1890,6 +1910,15 @@
         "leg_type": "nhl:1+ points"
        }
       ]
+     },
+     {
+      "slate": "2026-11-20",
+      "status": "pending",
+      "wins": 0,
+      "losses": 0,
+      "n_graded": 0,
+      "n_pending": 3,
+      "killers": []
      }
     ]
    }
@@ -1899,13 +1928,24 @@
    "summary": {
     "wins": 24,
     "losses": 9,
-    "pending": 0,
+    "pending": 1,
     "void": 0,
     "n_graded": 33,
     "hit_rate": 72.7,
-    "record": "24-9"
+    "record": "24-9 (1 pending)"
    },
    "by_slate": [
+    {
+     "wins": 0,
+     "losses": 0,
+     "pending": 1,
+     "void": 0,
+     "n_graded": 0,
+     "hit_rate": null,
+     "record": "0-0 (1 pending)",
+     "slate": "2026-11-20",
+     "n": 1
+    },
     {
      "wins": 1,
      "losses": 1,
@@ -2031,11 +2071,11 @@
     {
      "wins": 6,
      "losses": 1,
-     "pending": 0,
+     "pending": 1,
      "void": 0,
      "n_graded": 7,
      "hit_rate": 85.7,
-     "record": "6-1",
+     "record": "6-1 (1 pending)",
      "key": "nba:threes"
     },
     {
@@ -2293,15 +2333,26 @@
   "sleeper_flags": {
    "card": "Sleeper flags",
    "summary": {
-    "wins": 5,
+    "wins": 6,
     "losses": 0,
-    "pending": 28,
+    "pending": 35,
     "void": 7,
-    "n_graded": 5,
+    "n_graded": 6,
     "hit_rate": 100.0,
-    "record": "5-0 (28 pending)"
+    "record": "6-0 (35 pending)"
    },
    "by_slate": [
+    {
+     "wins": 1,
+     "losses": 0,
+     "pending": 7,
+     "void": 0,
+     "n_graded": 1,
+     "hit_rate": 100.0,
+     "record": "1-0 (7 pending)",
+     "slate": "2026-11-20",
+     "n": 8
+    },
     {
      "wins": 1,
      "losses": 0,
@@ -2360,13 +2411,13 @@
    ],
    "by_leg_type": [
     {
-     "wins": 4,
+     "wins": 5,
      "losses": 0,
      "pending": 0,
      "void": 0,
-     "n_graded": 4,
+     "n_graded": 5,
      "hit_rate": 100.0,
-     "record": "4-0",
+     "record": "5-0",
      "key": "nfl:receiving_yards"
     },
     {
@@ -2392,11 +2443,11 @@
     {
      "wins": 0,
      "losses": 0,
-     "pending": 20,
+     "pending": 27,
      "void": 7,
      "n_graded": 0,
      "hit_rate": null,
-     "record": "0-0 (20 pending)",
+     "record": "0-0 (27 pending)",
      "key": "nfl:other"
     }
    ],
@@ -3000,21 +3051,149 @@
      "def": "LV",
      "rank": 24,
      "text": "Troy Franklin next up at WR if Jaylen Waddle sits; LV ranks 24 vs WR."
+    },
+    {
+     "kind": "sleeper",
+     "slate": "2026-11-20",
+     "sport": "nfl",
+     "game": "IND @ HOU",
+     "team": "IND",
+     "player": "Quez Watkins",
+     "pos": "WR",
+     "out": "Anthony Gould",
+     "status": "Questionable",
+     "def": "HOU",
+     "rank": 29,
+     "text": "Quez Watkins next up at WR if Anthony Gould sits; HOU ranks 29 vs WR.",
+     "grade": "win",
+     "result": 26.0,
+     "line": 25,
+     "stat": "receivingYards",
+     "graded_az": "2026-11-20T07:01:09-07:00"
+    },
+    {
+     "kind": "sleeper",
+     "slate": "2026-11-20",
+     "sport": "nfl",
+     "game": "MIA @ BUF",
+     "team": "MIA",
+     "player": "Jalen Tolbert",
+     "pos": "WR",
+     "out": "Caleb Douglas",
+     "status": "Questionable",
+     "def": "BUF",
+     "rank": 23,
+     "text": "Jalen Tolbert next up at WR if Caleb Douglas sits; BUF ranks 23 vs WR."
+    },
+    {
+     "kind": "sleeper",
+     "slate": "2026-11-20",
+     "sport": "nfl",
+     "game": "MIA @ BUF",
+     "team": "MIA",
+     "player": "Jared Wayne",
+     "pos": "WR",
+     "out": "Chris Bell",
+     "status": "Questionable",
+     "def": "BUF",
+     "rank": 23,
+     "text": "Jared Wayne next up at WR if Chris Bell sits; BUF ranks 23 vs WR."
+    },
+    {
+     "kind": "sleeper",
+     "slate": "2026-11-20",
+     "sport": "nfl",
+     "game": "TEN @ DAL",
+     "team": "TEN",
+     "player": "Xavier Restrepo",
+     "pos": "WR",
+     "out": "Carnell Tate",
+     "status": "Questionable",
+     "def": "DAL",
+     "rank": 26,
+     "text": "Xavier Restrepo next up at WR if Carnell Tate sits; DAL ranks 26 vs WR."
+    },
+    {
+     "kind": "sleeper",
+     "slate": "2026-11-20",
+     "sport": "nfl",
+     "game": "TB @ DET",
+     "team": "TB",
+     "player": "Jalon Daniels",
+     "pos": "QB",
+     "out": "Baker Mayfield",
+     "status": "Questionable",
+     "def": "DET",
+     "rank": 32,
+     "text": "Jalon Daniels next up at QB if Baker Mayfield sits; DET ranks 32 vs QB."
+    },
+    {
+     "kind": "sleeper",
+     "slate": "2026-11-20",
+     "sport": "nfl",
+     "game": "NYJ @ LAC",
+     "team": "NYJ",
+     "player": "Malik McClain",
+     "pos": "WR",
+     "out": "Omar Cooper Jr.",
+     "status": "Questionable",
+     "def": "LAC",
+     "rank": 28,
+     "text": "Malik McClain next up at WR if Omar Cooper Jr. sits; LAC ranks 28 vs WR."
+    },
+    {
+     "kind": "sleeper",
+     "slate": "2026-11-20",
+     "sport": "nfl",
+     "game": "LV @ DEN",
+     "team": "LV",
+     "player": "Michael Mayer",
+     "pos": "TE",
+     "out": "Brock Bowers",
+     "status": "Questionable",
+     "def": "DEN",
+     "rank": 30,
+     "text": "Michael Mayer next up at TE if Brock Bowers sits; DEN ranks 30 vs TE."
+    },
+    {
+     "kind": "sleeper",
+     "slate": "2026-11-20",
+     "sport": "nfl",
+     "game": "LV @ DEN",
+     "team": "DEN",
+     "player": "Troy Franklin",
+     "pos": "WR",
+     "out": "Jaylen Waddle",
+     "status": "Questionable",
+     "def": "LV",
+     "rank": 24,
+     "text": "Troy Franklin next up at WR if Jaylen Waddle sits; LV ranks 24 vs WR."
     }
    ]
   },
   "contrarian_tags": {
    "card": "Contrarian tags",
    "summary": {
-    "wins": 10,
-    "losses": 3,
-    "pending": 40,
+    "wins": 14,
+    "losses": 4,
+    "pending": 47,
     "void": 0,
-    "n_graded": 13,
-    "hit_rate": 76.9,
-    "record": "10-3 (40 pending)"
+    "n_graded": 18,
+    "hit_rate": 77.8,
+    "record": "14-4 (47 pending)"
    },
    "by_slate": [
+    {
+     "wins": 4,
+     "losses": 1,
+     "pending": 7,
+     "void": 0,
+     "n_graded": 5,
+     "hit_rate": 80.0,
+     "record": "4-1 (7 pending)",
+     "slate": "2026-11-20",
+     "n": 12
+    },
     {
      "wins": 5,
      "losses": 2,
@@ -3073,33 +3252,33 @@
    ],
    "by_leg_type": [
     {
-     "wins": 8,
+     "wins": 10,
      "losses": 0,
-     "pending": 12,
+     "pending": 17,
      "void": 0,
-     "n_graded": 8,
+     "n_graded": 10,
      "hit_rate": 100.0,
-     "record": "8-0 (12 pending)",
+     "record": "10-0 (17 pending)",
      "key": "nfl:other"
     },
     {
-     "wins": 2,
-     "losses": 2,
+     "wins": 4,
+     "losses": 3,
      "pending": 8,
      "void": 0,
-     "n_graded": 4,
-     "hit_rate": 50.0,
-     "record": "2-2 (8 pending)",
+     "n_graded": 7,
+     "hit_rate": 57.1,
+     "record": "4-3 (8 pending)",
      "key": "nhl:other"
     },
     {
      "wins": 0,
      "losses": 1,
-     "pending": 20,
+     "pending": 22,
      "void": 0,
      "n_graded": 1,
      "hit_rate": 0.0,
-     "record": "0-1 (20 pending)",
+     "record": "0-1 (22 pending)",
      "key": "nba:other"
     }
    ],
@@ -3726,6 +3905,153 @@
      "busy_team": "LV",
      "action_share_gap": 10,
      "text": "LV TE Brock Bowers listed Questionable on the injury report."
+    },
+    {
+     "kind": "contrarian",
+     "slate": "2026-11-20",
+     "sport": "nba",
+     "game": "GS @ MEM",
+     "team": "GS",
+     "effect": "helps",
+     "busy_team": "MEM",
+     "action_share_gap": 28,
+     "text": "Revenge spot: GS lost 111-108 to MEM on October 23."
+    },
+    {
+     "kind": "contrarian",
+     "slate": "2026-11-20",
+     "sport": "nba",
+     "game": "POR @ MIL",
+     "team": "MIL",
+     "effect": "hurts",
+     "busy_team": "MIL",
+     "action_share_gap": 38,
+     "text": "MIL on the second night of a back-to-back, POR rested 1 day."
+    },
+    {
+     "kind": "contrarian",
+     "slate": "2026-11-20",
+     "sport": "nfl",
+     "game": "IND @ HOU",
+     "team": "IND",
+     "effect": "hurts",
+     "busy_team": "IND",
+     "action_share_gap": 64,
+     "text": "IND on a short week (4 days since last game), HOU had 4.",
+     "grade": "win",
+     "result": "HOU",
+     "graded_az": "2026-11-20T07:01:09-07:00"
+    },
+    {
+     "kind": "contrarian",
+     "slate": "2026-11-20",
+     "sport": "nfl",
+     "game": "IND @ HOU",
+     "team": "HOU",
+     "effect": "helps",
+     "busy_team": "IND",
+     "action_share_gap": 64,
+     "text": "Revenge spot: HOU lost 19-17 to IND on September 27.",
+     "grade": "win",
+     "result": "HOU",
+     "graded_az": "2026-11-20T07:01:09-07:00"
+    },
+    {
+     "kind": "contrarian",
+     "slate": "2026-11-20",
+     "sport": "nfl",
+     "game": "MIA @ BUF",
+     "team": "MIA",
+     "effect": "hurts",
+     "busy_team": "MIA",
+     "action_share_gap": 34,
+     "text": "MIA WR Chris Bell listed Questionable on the injury report."
+    },
+    {
+     "kind": "contrarian",
+     "slate": "2026-11-20",
+     "sport": "nfl",
+     "game": "MIA @ BUF",
+     "team": "MIA",
+     "effect": "hurts",
+     "busy_team": "MIA",
+     "action_share_gap": 34,
+     "text": "MIA WR Caleb Douglas listed Questionable on the injury report."
+    },
+    {
+     "kind": "contrarian",
+     "slate": "2026-11-20",
+     "sport": "nfl",
+     "game": "NYJ @ LAC",
+     "team": "NYJ",
+     "effect": "hurts",
+     "busy_team": "NYJ",
+     "action_share_gap": 24,
+     "text": "NYJ QB Geno Smith listed Questionable on the injury report."
+    },
+    {
+     "kind": "contrarian",
+     "slate": "2026-11-20",
+     "sport": "nfl",
+     "game": "NYJ @ LAC",
+     "team": "NYJ",
+     "effect": "hurts",
+     "busy_team": "NYJ",
+     "action_share_gap": 24,
+     "text": "NYJ WR Omar Cooper Jr. listed Questionable on the injury report."
+    },
+    {
+     "kind": "contrarian",
+     "slate": "2026-11-20",
+     "sport": "nfl",
+     "game": "LV @ DEN",
+     "team": "LV",
+     "effect": "hurts",
+     "busy_team": "LV",
+     "action_share_gap": 10,
+     "text": "LV TE Brock Bowers listed Questionable on the injury report."
+    },
+    {
+     "kind": "contrarian",
+     "slate": "2026-11-20",
+     "sport": "nhl",
+     "game": "PHI @ OTT",
+     "team": "OTT",
+     "effect": "helps",
+     "busy_team": "PHI",
+     "action_share_gap": 42,
+     "text": "Revenge spot: OTT lost 3-1 to PHI on October 17.",
+     "grade": "loss",
+     "result": "PHI",
+     "graded_az": "2026-11-20T07:01:10-07:00"
+    },
+    {
+     "kind": "contrarian",
+     "slate": "2026-11-20",
+     "sport": "nhl",
+     "game": "BUF @ WSH",
+     "team": "BUF",
+     "effect": "helps",
+     "busy_team": "WSH",
+     "action_share_gap": 50,
+     "text": "Revenge spot: BUF lost 4-3 to WSH on October 24.",
+     "grade": "win",
+     "result": "BUF",
+     "graded_az": "2026-11-20T07:01:10-07:00"
+    },
+    {
+     "kind": "contrarian",
+     "slate": "2026-11-20",
+     "sport": "nhl",
+     "game": "MTL @ CAR",
+     "team": "MTL",
+     "effect": "helps",
+     "busy_team": "CAR",
+     "action_share_gap": 74,
+     "text": "Revenge spot: MTL lost 6-4 to CAR on October 6.",
+     "grade": "win",
+     "result": "MTL",
+     "graded_az": "2026-11-20T07:01:11-07:00"
     }
    ]
   }
@@ -3735,10 +4061,10 @@
    "label": "featured parlay, Deep Floor, max 3 legs",
    "wins": 9,
    "losses": 4,
-   "pending": 0,
+   "pending": 1,
    "n_decided": 13,
    "hit_rate": 69.2,
-   "record": "9-4",
+   "record": "9-4 (1 pending)",
    "killers_by_type": [
     {
      "key": "nba:rebounds",
@@ -3899,6 +4225,15 @@
        "leg_type": "nhl:1+ points"
       }
      ]
+    },
+    {
+     "slate": "2026-11-20",
+     "status": "pending",
+     "wins": 0,
+     "losses": 0,
+     "n_graded": 0,
+     "n_pending": 3,
+     "killers": []
     }
    ]
   },
@@ -3906,10 +4241,10 @@
    "label": "featured parlay, live from November 15",
    "wins": 3,
    "losses": 2,
-   "pending": 0,
+   "pending": 1,
    "n_decided": 5,
    "hit_rate": 60.0,
-   "record": "3-2",
+   "record": "3-2 (1 pending)",
    "killers_by_type": [
     {
      "key": "nba:rebounds",
@@ -3982,6 +4317,15 @@
        "leg_type": "nhl:1+ points"
       }
      ]
+    },
+    {
+     "slate": "2026-11-20",
+     "status": "pending",
+     "wins": 0,
+     "losses": 0,
+     "n_graded": 0,
+     "n_pending": 3,
+     "killers": []
     }
    ]
   },
@@ -4094,10 +4438,10 @@
    "label": "Deep Floor card",
    "wins": 7,
    "losses": 6,
-   "pending": 0,
+   "pending": 1,
    "n_decided": 13,
    "hit_rate": 53.8,
-   "record": "7-6",
+   "record": "7-6 (1 pending)",
    "killers_by_type": [
     {
      "key": "nba:rebounds",
@@ -4293,6 +4637,15 @@
        "leg_type": "nhl:1+ points"
       }
      ]
+    },
+    {
+     "slate": "2026-11-20",
+     "status": "pending",
+     "wins": 0,
+     "losses": 0,
+     "n_graded": 0,
+     "n_pending": 3,
+     "killers": []
     }
    ]
   },
@@ -5104,11 +5457,11 @@
    {
     "wins": 12,
     "losses": 2,
-    "pending": 0,
+    "pending": 3,
     "void": 0,
     "n_graded": 14,
     "hit_rate": 85.7,
-    "record": "12-2",
+    "record": "12-2 (3 pending)",
     "key": "nba:rebounds"
    },
    {
@@ -5176,11 +5529,11 @@
    {
     "wins": 12,
     "losses": 2,
-    "pending": 0,
+    "pending": 3,
     "void": 0,
     "n_graded": 14,
     "hit_rate": 85.7,
-    "record": "12-2",
+    "record": "12-2 (3 pending)",
     "key": "nba:rebounds"
    },
    {
@@ -5228,11 +5581,11 @@
    {
     "wins": 6,
     "losses": 1,
-    "pending": 0,
+    "pending": 1,
     "void": 0,
     "n_graded": 7,
     "hit_rate": 85.7,
-    "record": "6-1",
+    "record": "6-1 (1 pending)",
     "key": "nba:threes"
    },
    {
