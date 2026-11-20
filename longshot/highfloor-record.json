@@ -1,5 +1,5 @@
 {
- "pulled_az": "2026-11-20T06:30:45-07:00",
+ "pulled_az": "2026-11-20T07:01:15-07:00",
  "start": "2026-11-17",
  "note": "High Floor forward test. Started November 17, 2026 at 0-0. Singles only, locked at publish, graded daily.",
  "rule": [
@@ -102,6 +102,14 @@
    "legs": 5,
    "wins": 2,
    "losses": 3,
+   "void": 0,
+   "pending": 0
+  },
+  {
+   "slate": "2026-11-20",
+   "legs": 0,
+   "wins": 0,
+   "losses": 0,
    "void": 0,
    "pending": 0
   }

@@ -1,9 +1,9 @@
 {
- "pulled_az": "2026-11-20T06:30:45-07:00",
+ "pulled_az": "2026-11-20T07:01:15-07:00",
  "slate": "2026-11-20",
- "status": "waiting",
+ "status": "locked",
  "start": "2026-11-17",
- "locked_az": null,
+ "locked_az": "2026-11-20T07:00:01-07:00",
  "note": "High Floor forward test. Started November 17, 2026 at 0-0. Singles only, locked at publish, graded daily.",
  "rule": [
   "A test, not picks. Singles only: Over legs where the player cleared the line in at least 8 of the last 10 games and in at least 75% of this season's games, with a consensus line posted.",
@@ -14,5 +14,5 @@
   "Floor scores, market chances and defense ranks are estimates. No stakes or profit are tracked. Not betting advice."
  ],
  "legs": [],
- "empty_note": "Legs lock at the 7 AM Arizona publish. The record starts at 0-0."
+ "empty_note": "No legs met the rule at lock time today. That is a valid result."
 }
