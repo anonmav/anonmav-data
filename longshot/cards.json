@@ -1,5 +1,5 @@
 {
- "updated_az": "2026-11-20T07:20:01-07:00",
+ "updated_az": "2026-11-20T11:20:01-07:00",
  "note": "Estimates from public scores, closing lines, play by play, depth charts, injury reports and our matchup engine. Not betting advice.",
  "sports": {
   "nba": {
@@ -1398,7 +1398,15 @@
         }
        ]
       }
-     }
+     },
+     "changes": [
+      {
+       "team": "CHI",
+       "pos": "C",
+       "name": "Jalen Smith",
+       "status": "Day-To-Day"
+      }
+     ]
     },
     "NO @ OKC": {
      "trend": {
@@ -2672,7 +2680,7 @@
        "team": "BUF",
        "effect": "hurts",
        "tone": "down",
-       "text": "BUF TE Dalton Kincaid listed Questionable on the injury report."
+       "text": "BUF TE Dalton Kincaid listed Doubtful on the injury report."
       },
       {
        "kind": "mismatch",
@@ -2693,14 +2701,7 @@
        "team": "BUF",
        "effect": "hurts",
        "tone": "down",
-       "text": "BUF TE Dalton Kincaid listed Questionable on the injury report."
-      },
-      {
-       "kind": "story",
-       "team": "MIA",
-       "effect": "hurts",
-       "tone": "down",
-       "text": "MIA WR Chris Bell listed Questionable on the injury report."
+       "text": "BUF TE Dalton Kincaid listed Doubtful on the injury report."
       },
       {
        "kind": "story",
@@ -2708,6 +2709,13 @@
        "effect": "hurts",
        "tone": "down",
        "text": "MIA WR Caleb Douglas listed Questionable on the injury report."
+      },
+      {
+       "kind": "story",
+       "team": "MIA",
+       "effect": "hurts",
+       "tone": "down",
+       "text": "MIA WR Chris Bell listed Questionable on the injury report."
       }
      ],
      "grid": {
@@ -2859,7 +2867,7 @@
        "team": "MIA",
        "pos": "S",
        "name": "Dante Trader Jr.",
-       "status": "Questionable"
+       "status": "Doubtful"
       },
       {
        "team": "MIA",
@@ -2871,7 +2879,7 @@
        "team": "BUF",
        "pos": "TE",
        "name": "Dalton Kincaid",
-       "status": "Questionable"
+       "status": "Doubtful"
       },
       {
        "team": "BUF",
@@ -3218,18 +3226,6 @@
        "pos": "WR",
        "name": "Jordyn Tyson",
        "status": "Questionable"
-      },
-      {
-       "team": "NO",
-       "pos": "C",
-       "name": "Erik McCoy",
-       "status": "Doubtful"
-      },
-      {
-       "team": "NO",
-       "pos": "RT",
-       "name": "Taliese Fuaga",
-       "status": "Doubtful"
       },
       {
        "team": "NO",
@@ -4330,18 +4326,6 @@
        "pos": "RB",
        "name": "Kenneth Walker III",
        "status": "Questionable"
-      },
-      {
-       "team": "KC",
-       "pos": "RG",
-       "name": "Trey Smith",
-       "status": "Questionable"
-      },
-      {
-       "team": "KC",
-       "pos": "RT",
-       "name": "Jaylon Moore",
-       "status": "Questionable"
       }
      ],
      "next": [
@@ -5040,7 +5024,7 @@
        "team": "CAR",
        "pos": "LB",
        "name": "Bobby Okereke",
-       "status": "Questionable"
+       "status": "Out"
       }
      ],
      "next": [
@@ -5233,13 +5217,6 @@
        "effect": "hurts",
        "tone": "down",
        "text": "NYJ QB Geno Smith listed Questionable on the injury report."
-      },
-      {
-       "kind": "story",
-       "team": "NYJ",
-       "effect": "hurts",
-       "tone": "down",
-       "text": "NYJ WR Omar Cooper Jr. listed Questionable on the injury report."
       }
      ],
      "grid": {
@@ -5380,7 +5357,7 @@
        "team": "NYJ",
        "pos": "WR",
        "name": "Omar Cooper Jr.",
-       "status": "Questionable"
+       "status": "Out"
       },
       {
        "team": "NYJ",
@@ -5424,7 +5401,7 @@
        "team": "NYJ",
        "pos": "WR",
        "out": "Omar Cooper Jr.",
-       "status": "Questionable",
+       "status": "Out",
        "backup": "Tim Patrick",
        "def": "LAC",
        "rank": 29,
@@ -6157,8 +6134,8 @@
       {
        "team": "JAX",
        "pos": "C",
-       "name": "Robert Hainsey",
-       "status": "Out"
+       "name": "Jonah Monheim",
+       "status": "Questionable"
       },
       {
        "team": "JAX",
@@ -9466,6 +9443,12 @@
       }
      ],
      "changes": [
+      {
+       "team": "MIN",
+       "pos": "C",
+       "name": "Yakov Trenin",
+       "status": "Day-To-Day"
+      },
       {
        "team": "MIN",
        "pos": "D",
