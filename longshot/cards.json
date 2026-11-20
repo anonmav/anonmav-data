@@ -1,5 +1,5 @@
 {
- "updated_az": "2026-11-20T15:20:01-07:00",
+ "updated_az": "2026-11-20T16:50:02-07:00",
  "note": "Estimates from public scores, closing lines, play by play, depth charts, injury reports and our matchup engine. Not betting advice.",
  "sports": {
   "nba": {
@@ -4725,13 +4725,6 @@
      },
      "watch": [
       {
-       "kind": "story",
-       "team": "CAR",
-       "effect": "hurts",
-       "tone": "down",
-       "text": "CAR TE Darren Waller listed Questionable on the injury report."
-      },
-      {
        "kind": "mismatch",
        "team": "CAR",
        "tone": "up",
@@ -4744,15 +4737,7 @@
        "text": "Ja'Kobi Lane (BAL) draws Marco Wilson on 52% of routes. ACE 34 est., tough draw."
       }
      ],
-     "stories": [
-      {
-       "kind": "story",
-       "team": "CAR",
-       "effect": "hurts",
-       "tone": "down",
-       "text": "CAR TE Darren Waller listed Questionable on the injury report."
-      }
-     ],
+     "stories": [],
      "grid": {
       "BAL": {
        "n": 32,
