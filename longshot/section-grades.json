@@ -1,5 +1,5 @@
 {
- "pulled_az": "2026-11-20T07:01:03-07:00",
+ "pulled_az": "2026-11-20T15:31:36-07:00",
  "slate": "2026-11-20",
  "tz": "Arizona (MST)",
  "note": "Public graded record by card and by leg type. Starting November 15, the featured parlay is Deep Floor, capped at 3 legs by Floor Score, with NBA threes left out. Its record before November 15 is a backtest: the rule applied to earlier posted cards. The November 14 model ticket is graded from the morning card; Jamal Murray Over 2.5 threes was a loss, and a later swap to rebounds is not counted. Sleeper flags: next-man-up backups tagged Sleeper, graded on a modest box-score floor once the game is final (NFL skill 25 rec / 30 rush yards, NBA 8+ points, NHL 1+ point). Contrarian tags: injury or rest news that cuts against the side with at least 10 points more of the traded action; a hit means that busy side lost. Floor Score, calibrated chance and these flags are estimates. Not betting advice. Sample sizes are still small.",
@@ -2335,23 +2335,23 @@
    "summary": {
     "wins": 6,
     "losses": 0,
-    "pending": 35,
+    "pending": 42,
     "void": 7,
     "n_graded": 6,
     "hit_rate": 100.0,
-    "record": "6-0 (35 pending)"
+    "record": "6-0 (42 pending)"
    },
    "by_slate": [
     {
      "wins": 1,
      "losses": 0,
-     "pending": 7,
+     "pending": 14,
      "void": 0,
      "n_graded": 1,
      "hit_rate": 100.0,
-     "record": "1-0 (7 pending)",
+     "record": "1-0 (14 pending)",
      "slate": "2026-11-20",
-     "n": 8
+     "n": 15
     },
     {
      "wins": 1,
@@ -2433,21 +2433,21 @@
     {
      "wins": 0,
      "losses": 0,
-     "pending": 8,
+     "pending": 12,
      "void": 0,
      "n_graded": 0,
      "hit_rate": null,
-     "record": "0-0 (8 pending)",
+     "record": "0-0 (12 pending)",
      "key": "nba:other"
     },
     {
      "wins": 0,
      "losses": 0,
-     "pending": 27,
+     "pending": 30,
      "void": 7,
      "n_graded": 0,
      "hit_rate": null,
-     "record": "0-0 (27 pending)",
+     "record": "0-0 (30 pending)",
      "key": "nfl:other"
     }
    ],
@@ -3168,6 +3168,104 @@
      "def": "LV",
      "rank": 24,
      "text": "Troy Franklin next up at WR if Jaylen Waddle sits; LV ranks 24 vs WR."
+    },
+    {
+     "kind": "sleeper",
+     "slate": "2026-11-20",
+     "sport": "nba",
+     "game": "CHA @ ATL",
+     "team": "CHA",
+     "player": "Sion James",
+     "pos": "SF",
+     "out": "Grant Williams",
+     "status": "Out",
+     "def": "ATL",
+     "rank": 21,
+     "text": "Sion James next up at SF if Grant Williams sits; ATL ranks 21 vs SF."
+    },
+    {
+     "kind": "sleeper",
+     "slate": "2026-11-20",
+     "sport": "nba",
+     "game": "IND @ CLE",
+     "team": "CLE",
+     "player": "Mario Hezonja",
+     "pos": "PF",
+     "out": "Evan Mobley",
+     "status": "Out",
+     "def": "IND",
+     "rank": 26,
+     "text": "Mario Hezonja next up at PF if Evan Mobley sits; IND ranks 26 vs PF."
+    },
+    {
+     "kind": "sleeper",
+     "slate": "2026-11-20",
+     "sport": "nba",
+     "game": "TOR @ DET",
+     "team": "TOR",
+     "player": "Jakob Poeltl",
+     "pos": "C",
+     "out": "Collin Murray-Boyles",
+     "status": "Out",
+     "def": "DET",
+     "rank": 23,
+     "text": "Jakob Poeltl next up at C if Collin Murray-Boyles sits; DET ranks 23 vs C."
+    },
+    {
+     "kind": "sleeper",
+     "slate": "2026-11-20",
+     "sport": "nba",
+     "game": "SAC @ LAL",
+     "team": "LAL",
+     "player": "Quentin Grimes",
+     "pos": "SG",
+     "out": "Austin Reaves",
+     "status": "Out",
+     "def": "SAC",
+     "rank": 23,
+     "text": "Quentin Grimes next up at SG if Austin Reaves sits; SAC ranks 23 vs SG."
+    },
+    {
+     "kind": "sleeper",
+     "slate": "2026-11-20",
+     "sport": "nfl",
+     "game": "MIA @ BUF",
+     "team": "BUF",
+     "player": "Dawson Knox",
+     "pos": "TE",
+     "out": "Dalton Kincaid",
+     "status": "Doubtful",
+     "def": "MIA",
+     "rank": 26,
+     "text": "Dawson Knox next up at TE if Dalton Kincaid sits; MIA ranks 26 vs TE."
+    },
+    {
+     "kind": "sleeper",
+     "slate": "2026-11-20",
+     "sport": "nfl",
+     "game": "TEN @ DAL",
+     "team": "TEN",
+     "player": "Xavier Restrepo",
+     "pos": "WR",
+     "out": "Carnell Tate",
+     "status": "Questionable",
+     "def": "DAL",
+     "rank": 27,
+     "text": "Xavier Restrepo next up at WR if Carnell Tate sits; DAL ranks 27 vs WR."
+    },
+    {
+     "kind": "sleeper",
+     "slate": "2026-11-20",
+     "sport": "nfl",
+     "game": "NYJ @ LAC",
+     "team": "NYJ",
+     "player": "Tim Patrick",
+     "pos": "WR",
+     "out": "Omar Cooper Jr.",
+     "status": "Out",
+     "def": "LAC",
+     "rank": 29,
+     "text": "Tim Patrick next up at WR if Omar Cooper Jr. sits; LAC ranks 29 vs WR."
     }
    ]
   },
@@ -3176,23 +3274,23 @@
    "summary": {
     "wins": 14,
     "losses": 4,
-    "pending": 47,
+    "pending": 56,
     "void": 0,
     "n_graded": 18,
     "hit_rate": 77.8,
-    "record": "14-4 (47 pending)"
+    "record": "14-4 (56 pending)"
    },
    "by_slate": [
     {
      "wins": 4,
      "losses": 1,
-     "pending": 7,
+     "pending": 16,
      "void": 0,
      "n_graded": 5,
      "hit_rate": 80.0,
-     "record": "4-1 (7 pending)",
+     "record": "4-1 (16 pending)",
      "slate": "2026-11-20",
-     "n": 12
+     "n": 21
     },
     {
      "wins": 5,
@@ -3254,31 +3352,31 @@
     {
      "wins": 10,
      "losses": 0,
-     "pending": 17,
+     "pending": 18,
      "void": 0,
      "n_graded": 10,
      "hit_rate": 100.0,
-     "record": "10-0 (17 pending)",
+     "record": "10-0 (18 pending)",
      "key": "nfl:other"
     },
     {
      "wins": 4,
      "losses": 3,
-     "pending": 8,
+     "pending": 13,
      "void": 0,
      "n_graded": 7,
      "hit_rate": 57.1,
-     "record": "4-3 (8 pending)",
+     "record": "4-3 (13 pending)",
      "key": "nhl:other"
     },
     {
      "wins": 0,
      "losses": 1,
-     "pending": 22,
+     "pending": 25,
      "void": 0,
      "n_graded": 1,
      "hit_rate": 0.0,
-     "record": "0-1 (22 pending)",
+     "record": "0-1 (25 pending)",
      "key": "nba:other"
     }
    ],
@@ -4052,6 +4150,105 @@
      "grade": "win",
      "result": "MTL",
      "graded_az": "2026-11-20T07:01:11-07:00"
+    },
+    {
+     "kind": "contrarian",
+     "slate": "2026-11-20",
+     "sport": "nba",
+     "game": "CHA @ ATL",
+     "team": "CHA",
+     "effect": "helps",
+     "busy_team": "ATL",
+     "action_share_gap": 32,
+     "text": "Revenge spot: CHA lost 128-81 to ATL on October 23."
+    },
+    {
+     "kind": "contrarian",
+     "slate": "2026-11-20",
+     "sport": "nba",
+     "game": "WSH @ CHI",
+     "team": "CHI",
+     "effect": "helps",
+     "busy_team": "WSH",
+     "action_share_gap": 46,
+     "text": "Revenge spot: CHI lost 124-120 to WSH on October 24."
+    },
+    {
+     "kind": "contrarian",
+     "slate": "2026-11-20",
+     "sport": "nba",
+     "game": "HOU @ DEN",
+     "team": "DEN",
+     "effect": "helps",
+     "busy_team": "HOU",
+     "action_share_gap": 10,
+     "text": "Revenge spot: DEN lost 110-100 to HOU on November 9."
+    },
+    {
+     "kind": "contrarian",
+     "slate": "2026-11-20",
+     "sport": "nfl",
+     "game": "BAL @ CAR",
+     "team": "CAR",
+     "effect": "hurts",
+     "busy_team": "CAR",
+     "action_share_gap": 64,
+     "text": "CAR TE Darren Waller listed Questionable on the injury report."
+    },
+    {
+     "kind": "contrarian",
+     "slate": "2026-11-20",
+     "sport": "nhl",
+     "game": "EDM @ CAR",
+     "team": "CAR",
+     "effect": "helps",
+     "busy_team": "EDM",
+     "action_share_gap": 46,
+     "text": "Revenge spot: CAR lost 6-5 to EDM on October 22."
+    },
+    {
+     "kind": "contrarian",
+     "slate": "2026-11-20",
+     "sport": "nhl",
+     "game": "BUF @ FLA",
+     "team": "FLA",
+     "effect": "helps",
+     "busy_team": "BUF",
+     "action_share_gap": 14,
+     "text": "Revenge spot: FLA lost 5-3 to BUF on October 12."
+    },
+    {
+     "kind": "contrarian",
+     "slate": "2026-11-20",
+     "sport": "nhl",
+     "game": "CBJ @ TOR",
+     "team": "CBJ",
+     "effect": "helps",
+     "busy_team": "TOR",
+     "action_share_gap": 78,
+     "text": "Revenge spot: CBJ lost 6-2 to TOR on October 20."
+    },
+    {
+     "kind": "contrarian",
+     "slate": "2026-11-20",
+     "sport": "nhl",
+     "game": "NJ @ STL",
+     "team": "STL",
+     "effect": "helps",
+     "busy_team": "NJ",
+     "action_share_gap": 56,
+     "text": "Revenge spot: STL lost 5-4 to NJ on November 5."
+    },
+    {
+     "kind": "contrarian",
+     "slate": "2026-11-20",
+     "sport": "nhl",
+     "game": "MIN @ VAN",
+     "team": "VAN",
+     "effect": "helps",
+     "busy_team": "MIN",
+     "action_share_gap": 26,
+     "text": "Revenge spot: VAN lost 4-2 to MIN on October 25."
     }
    ]
   }
