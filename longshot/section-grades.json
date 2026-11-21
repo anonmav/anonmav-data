@@ -1,5 +1,5 @@
 {
- "pulled_az": "2026-11-21T07:01:39-07:00",
+ "pulled_az": "2026-11-21T15:32:01-07:00",
  "slate": "2026-11-21",
  "tz": "Arizona (MST)",
  "note": "Public graded record by card and by leg type. Starting November 15, the featured parlay is Deep Floor, capped at 3 legs by Floor Score, with NBA threes left out. Its record before November 15 is a backtest: the rule applied to earlier posted cards. The November 14 model ticket is graded from the morning card; Jamal Murray Over 2.5 threes was a loss, and a later swap to rebounds is not counted. Sleeper flags: next-man-up backups tagged Sleeper, graded on a modest box-score floor once the game is final (NFL skill 25 rec / 30 rush yards, NBA 8+ points, NHL 1+ point). Contrarian tags: injury or rest news that cuts against the side with at least 10 points more of the traded action; a hit means that busy side lost. Floor Score, calibrated chance and these flags are estimates. Not betting advice. Sample sizes are still small.",
@@ -2412,25 +2412,25 @@
   "sleeper_flags": {
    "card": "Sleeper flags",
    "summary": {
-    "wins": 6,
+    "wins": 7,
     "losses": 0,
-    "pending": 51,
+    "pending": 54,
     "void": 7,
-    "n_graded": 6,
+    "n_graded": 7,
     "hit_rate": 100.0,
-    "record": "6-0 (51 pending)"
+    "record": "7-0 (54 pending)"
    },
    "by_slate": [
     {
-     "wins": 0,
+     "wins": 1,
      "losses": 0,
-     "pending": 9,
+     "pending": 12,
      "void": 0,
-     "n_graded": 0,
-     "hit_rate": null,
-     "record": "0-0 (9 pending)",
+     "n_graded": 1,
+     "hit_rate": 100.0,
+     "record": "1-0 (12 pending)",
      "slate": "2026-11-21",
-     "n": 9
+     "n": 13
     },
     {
      "wins": 1,
@@ -2511,33 +2511,33 @@
      "key": "nfl:receiving_yards"
     },
     {
-     "wins": 1,
+     "wins": 2,
      "losses": 0,
      "pending": 0,
      "void": 0,
-     "n_graded": 1,
+     "n_graded": 2,
      "hit_rate": 100.0,
-     "record": "1-0",
+     "record": "2-0",
      "key": "nba:points"
     },
     {
      "wins": 0,
      "losses": 0,
-     "pending": 16,
+     "pending": 18,
      "void": 0,
      "n_graded": 0,
      "hit_rate": null,
-     "record": "0-0 (16 pending)",
+     "record": "0-0 (18 pending)",
      "key": "nba:other"
     },
     {
      "wins": 0,
      "losses": 0,
-     "pending": 35,
+     "pending": 36,
      "void": 7,
      "n_graded": 0,
      "hit_rate": null,
-     "record": "0-0 (35 pending)",
+     "record": "0-0 (36 pending)",
      "key": "nfl:other"
     }
    ],
@@ -3482,40 +3482,101 @@
      "def": "DEN",
      "rank": 30,
      "text": "Michael Mayer next up at TE if Brock Bowers sits; DEN ranks 30 vs TE."
+    },
+    {
+     "kind": "sleeper",
+     "slate": "2026-11-21",
+     "sport": "nba",
+     "game": "MIL @ PHI",
+     "team": "PHI",
+     "player": "Kentavious Caldwell-Pope",
+     "pos": "SF",
+     "out": "Jaylen Brown",
+     "status": "Out",
+     "def": "MIL",
+     "rank": 22,
+     "text": "Kentavious Caldwell-Pope next up at SF if Jaylen Brown sits; MIL ranks 22 vs SF.",
+     "grade": "win",
+     "result": 11.0,
+     "line": 8,
+     "stat": "points",
+     "graded_az": "2026-11-21T15:32:09-07:00"
+    },
+    {
+     "kind": "sleeper",
+     "slate": "2026-11-21",
+     "sport": "nba",
+     "game": "MEM @ MIN",
+     "team": "MEM",
+     "player": "Taylor Hendricks",
+     "pos": "PF",
+     "out": "Cameron Boozer",
+     "status": "Out",
+     "def": "MIN",
+     "rank": 23,
+     "text": "Taylor Hendricks next up at PF if Cameron Boozer sits; MIN ranks 23 vs PF."
+    },
+    {
+     "kind": "sleeper",
+     "slate": "2026-11-21",
+     "sport": "nba",
+     "game": "BOS @ SAC",
+     "team": "BOS",
+     "player": "Payton Pritchard",
+     "pos": "PG",
+     "out": "Derrick White",
+     "status": "Out",
+     "def": "SAC",
+     "rank": 22,
+     "text": "Payton Pritchard next up at PG if Derrick White sits; SAC ranks 22 vs PG."
+    },
+    {
+     "kind": "sleeper",
+     "slate": "2026-11-21",
+     "sport": "nfl",
+     "game": "PIT @ PHI",
+     "team": "PIT",
+     "player": "Max Hurleman",
+     "pos": "WR",
+     "out": "Roman Wilson",
+     "status": "Questionable",
+     "def": "PHI",
+     "rank": 30,
+     "text": "Max Hurleman next up at WR if Roman Wilson sits; PHI ranks 30 vs WR."
     }
    ]
   },
   "contrarian_tags": {
    "card": "Contrarian tags",
    "summary": {
-    "wins": 14,
+    "wins": 16,
     "losses": 4,
-    "pending": 65,
+    "pending": 66,
     "void": 0,
-    "n_graded": 18,
-    "hit_rate": 77.8,
-    "record": "14-4 (65 pending)"
+    "n_graded": 20,
+    "hit_rate": 80.0,
+    "record": "16-4 (66 pending)"
    },
    "by_slate": [
     {
-     "wins": 0,
+     "wins": 1,
      "losses": 0,
-     "pending": 8,
+     "pending": 10,
      "void": 0,
-     "n_graded": 0,
-     "hit_rate": null,
-     "record": "0-0 (8 pending)",
+     "n_graded": 1,
+     "hit_rate": 100.0,
+     "record": "1-0 (10 pending)",
      "slate": "2026-11-21",
-     "n": 8
+     "n": 11
     },
     {
-     "wins": 4,
+     "wins": 5,
      "losses": 1,
-     "pending": 17,
+     "pending": 16,
      "void": 0,
-     "n_graded": 5,
-     "hit_rate": 80.0,
-     "record": "4-1 (17 pending)",
+     "n_graded": 6,
+     "hit_rate": 83.3,
+     "record": "5-1 (16 pending)",
      "slate": "2026-11-20",
      "n": 22
     },
@@ -3587,23 +3648,23 @@
      "key": "nfl:other"
     },
     {
-     "wins": 4,
+     "wins": 6,
      "losses": 3,
-     "pending": 16,
+     "pending": 15,
      "void": 0,
-     "n_graded": 7,
-     "hit_rate": 57.1,
-     "record": "4-3 (16 pending)",
+     "n_graded": 9,
+     "hit_rate": 66.7,
+     "record": "6-3 (15 pending)",
      "key": "nhl:other"
     },
     {
      "wins": 0,
      "losses": 1,
-     "pending": 28,
+     "pending": 30,
      "void": 0,
      "n_graded": 1,
      "hit_rate": 0.0,
-     "record": "0-1 (28 pending)",
+     "record": "0-1 (30 pending)",
      "key": "nba:other"
     }
    ],
@@ -4431,7 +4492,10 @@
      "effect": "helps",
      "busy_team": "EDM",
      "action_share_gap": 46,
-     "text": "Revenge spot: CAR lost 6-5 to EDM on October 22."
+     "text": "Revenge spot: CAR lost 6-5 to EDM on October 22.",
+     "grade": "win",
+     "result": "CAR",
+     "graded_az": "2026-11-21T15:32:08-07:00"
     },
     {
      "kind": "contrarian",
@@ -4552,7 +4616,10 @@
      "effect": "helps",
      "busy_team": "EDM",
      "action_share_gap": 50,
-     "text": "Revenge spot: CAR lost 6-5 to EDM on October 22."
+     "text": "Revenge spot: CAR lost 6-5 to EDM on October 22.",
+     "grade": "win",
+     "result": "CAR",
+     "graded_az": "2026-11-21T15:32:08-07:00"
     },
     {
      "kind": "contrarian",
@@ -4575,6 +4642,39 @@
      "busy_team": "NJ",
      "action_share_gap": 34,
      "text": "Revenge spot: STL lost 5-4 to NJ on November 5."
+    },
+    {
+     "kind": "contrarian",
+     "slate": "2026-11-21",
+     "sport": "nba",
+     "game": "NO @ SA",
+     "team": "NO",
+     "effect": "hurts",
+     "busy_team": "NO",
+     "action_share_gap": 70,
+     "text": "NO on the second night of a back-to-back, SA rested 1 day."
+    },
+    {
+     "kind": "contrarian",
+     "slate": "2026-11-21",
+     "sport": "nba",
+     "game": "BOS @ SAC",
+     "team": "SAC",
+     "effect": "hurts",
+     "busy_team": "SAC",
+     "action_share_gap": 60,
+     "text": "SAC on the second night of a back-to-back, BOS rested 2 days."
+    },
+    {
+     "kind": "contrarian",
+     "slate": "2026-11-21",
+     "sport": "nhl",
+     "game": "MIN @ VAN",
+     "team": "VAN",
+     "effect": "helps",
+     "busy_team": "MIN",
+     "action_share_gap": 62,
+     "text": "Revenge spot: VAN lost 4-2 to MIN on October 25."
     }
    ]
   }
