@@ -1,5 +1,5 @@
 {
- "updated_az": "2026-11-21T11:20:01-07:00",
+ "updated_az": "2026-11-21T15:20:01-07:00",
  "note": "Estimates from public scores, closing lines, play by play, depth charts, injury reports and our matchup engine. Not betting advice.",
  "sports": {
   "nba": {
@@ -9,16 +9,6 @@
      "trend": {
       "MIL": {
        "games": [
-        {
-         "d": "2026-11-12",
-         "opp": "LAL",
-         "home": true,
-         "w": false,
-         "s": "112-123",
-         "line": 14.5,
-         "role": "dog",
-         "cov": "c"
-        },
         {
          "d": "2026-11-14",
          "opp": "ORL",
@@ -58,6 +48,16 @@
          "line": 9.5,
          "role": "dog",
          "cov": "n"
+        },
+        {
+         "d": "2026-11-21",
+         "opp": "PHI",
+         "home": false,
+         "w": false,
+         "s": "129-132",
+         "line": 11.5,
+         "role": "dog",
+         "cov": "c"
         }
        ],
        "wl": [
@@ -80,16 +80,6 @@
       },
       "PHI": {
        "games": [
-        {
-         "d": "2026-11-11",
-         "opp": "BOS",
-         "home": true,
-         "w": false,
-         "s": "101-123",
-         "line": 1.5,
-         "role": "dog",
-         "cov": "n"
-        },
         {
          "d": "2026-11-13",
          "opp": "TOR",
@@ -129,11 +119,21 @@
          "line": 4.5,
          "role": "dog",
          "cov": "c"
+        },
+        {
+         "d": "2026-11-21",
+         "opp": "MIL",
+         "home": true,
+         "w": true,
+         "s": "132-129",
+         "line": -11.5,
+         "role": "fav",
+         "cov": "n"
         }
        ],
        "wl": [
-        4,
-        1
+        5,
+        0
        ],
        "ats": [
         3,
@@ -141,12 +141,12 @@
         0
        ],
        "fav": [
-        3,
+        4,
         0
        ],
        "dog": [
         1,
-        1
+        0
        ]
       }
      },
@@ -156,19 +156,7 @@
        "team": "MIL",
        "effect": "helps",
        "tone": "up",
-       "text": "Revenge spot: MIL lost 127-116 to PHI on October 24."
-      },
-      {
-       "kind": "mismatch",
-       "team": "PHI",
-       "tone": "up",
-       "text": "VJ Edgecombe (PHI, 6.5 reb): MIL allows 7.1 rebounds to PG/SG (+14% vs avg)."
-      },
-      {
-       "kind": "mismatch",
-       "team": "MIL",
-       "tone": "down",
-       "text": "Tyler Herro (MIL, 19.4 pts): PHI allows 22.0 points to PG/SG (-8% vs avg)."
+       "text": "Revenge spot: MIL lost 132-129 to PHI on November 21."
       }
      ],
      "stories": [
@@ -177,7 +165,7 @@
        "team": "MIL",
        "effect": "helps",
        "tone": "up",
-       "text": "Revenge spot: MIL lost 127-116 to PHI on October 24."
+       "text": "Revenge spot: MIL lost 132-129 to PHI on November 21."
       }
      ],
      "grid": {
@@ -556,13 +544,29 @@
        "team": "NY",
        "pos": "PF",
        "name": "OG Anunoby",
-       "status": "Day-To-Day"
+       "status": "Out"
       },
       {
        "team": "NY",
        "pos": "PF",
        "name": "Karl-Anthony Towns",
        "status": "Day-To-Day"
+      }
+     ],
+     "next": [
+      {
+       "team": "NY",
+       "pos": "PF",
+       "out": "OG Anunoby",
+       "status": "Out",
+       "backup": "Landry Shamet",
+       "def": "POR",
+       "rank": 6,
+       "n": 30,
+       "v": 21.0,
+       "yds": null,
+       "unit": "pts",
+       "sleeper": false
       }
      ]
     },
@@ -973,9 +977,9 @@
      "watch": [
       {
        "kind": "mismatch",
-       "team": "MEM",
+       "team": "MIN",
        "tone": "down",
-       "text": "Isaiah Stewart (MEM, 10.6 pts): MIN allows 17.5 points to C (-17% vs avg), game pace +1%."
+       "text": "LaMelo Ball (MIN, 5.7 ast): MEM allows 6.2 assists to PG/SG (-7% vs avg), game pace +1%."
       }
      ],
      "stories": [],
@@ -1072,32 +1076,12 @@
      "changes": [
       {
        "team": "MEM",
-       "pos": "PG",
-       "name": "Ty Jerome",
-       "status": "Out"
-      },
-      {
-       "team": "MEM",
        "pos": "PF",
        "name": "Cameron Boozer",
        "status": "Out"
       }
      ],
      "next": [
-      {
-       "team": "MEM",
-       "pos": "PG",
-       "out": "Ty Jerome",
-       "status": "Out",
-       "backup": "Cam Spencer",
-       "def": "MIN",
-       "rank": 18,
-       "n": 30,
-       "v": 26.3,
-       "yds": null,
-       "unit": "pts",
-       "sleeper": false
-      },
       {
        "team": "MEM",
        "pos": "PF",
@@ -1277,7 +1261,7 @@
        "kind": "mismatch",
        "team": "NO",
        "tone": "down",
-       "text": "Trey Murphy III (NO, 15.7 pts): SA allows 19.0 points to SF/PF (-12% vs avg), game pace +1%."
+       "text": "Zion Williamson (NO, 21.7 pts): SA allows 19.0 points to SF/PF (-12% vs avg), game pace +1%."
       }
      ],
      "stories": [
@@ -1387,6 +1371,12 @@
        "status": "Out"
       },
       {
+       "team": "NO",
+       "pos": "SF",
+       "name": "Trey Murphy III",
+       "status": "Out"
+      },
+      {
        "team": "SA",
        "pos": "SF",
        "name": "Dylan Harper",
@@ -1395,13 +1385,27 @@
      ],
      "next": [
       {
-       "team": "SA",
-       "pos": "SF",
-       "out": "Dylan Harper",
+       "team": "NO",
+       "pos": "SG",
+       "out": "Dejounte Murray",
        "status": "Out",
-       "backup": "Keldon Johnson",
-       "def": "NO",
-       "rank": 3,
+       "backup": "Herbert Jones",
+       "def": "SA",
+       "rank": 2,
+       "n": 30,
+       "v": 19.5,
+       "yds": null,
+       "unit": "pts",
+       "sleeper": false
+      },
+      {
+       "team": "NO",
+       "pos": "SF",
+       "out": "Trey Murphy III",
+       "status": "Out",
+       "backup": "Saddiq Bey",
+       "def": "SA",
+       "rank": 4,
        "n": 30,
        "v": 17.0,
        "yds": null,
@@ -1567,7 +1571,7 @@
        "kind": "mismatch",
        "team": "BOS",
        "tone": "up",
-       "text": "Derrick White (BOS, 5.0 ast): SAC allows 7.4 assists to PG/SG (+11% vs avg), game pace -1%."
+       "text": "Payton Pritchard (BOS, 3.8 ast): SAC allows 7.4 assists to PG/SG (+11% vs avg), game pace -1%."
       },
       {
        "kind": "mismatch",
@@ -1680,13 +1684,29 @@
        "team": "BOS",
        "pos": "PG",
        "name": "Derrick White",
-       "status": "Day-To-Day"
+       "status": "Out"
       },
       {
        "team": "BOS",
        "pos": "SF",
        "name": "Jayson Tatum",
-       "status": "Day-To-Day"
+       "status": "Out"
+      }
+     ],
+     "next": [
+      {
+       "team": "BOS",
+       "pos": "PG",
+       "out": "Derrick White",
+       "status": "Out",
+       "backup": "Payton Pritchard",
+       "def": "SAC",
+       "rank": 22,
+       "n": 30,
+       "v": 27.7,
+       "yds": null,
+       "unit": "pts",
+       "sleeper": true
       }
      ]
     }
@@ -2325,6 +2345,12 @@
      "changes": [
       {
        "team": "NO",
+       "pos": "RT",
+       "name": "Taliese Fuaga",
+       "status": "Out"
+      },
+      {
+       "team": "NO",
        "pos": "LB",
        "name": "Pete Werner",
        "status": "Questionable"
@@ -2658,12 +2684,6 @@
        "status": "Questionable"
       },
       {
-       "team": "TEN",
-       "pos": "S",
-       "name": "Tony Adams",
-       "status": "Questionable"
-      },
-      {
        "team": "DAL",
        "pos": "TE",
        "name": "Jake Ferguson",
@@ -2679,12 +2699,6 @@
        "team": "DAL",
        "pos": "S",
        "name": "P.J. Locke",
-       "status": "Out"
-      },
-      {
-       "team": "DAL",
-       "pos": "CB",
-       "name": "DaRon Bland",
        "status": "Out"
       }
      ],
@@ -3041,12 +3055,6 @@
       },
       {
        "team": "DET",
-       "pos": "C",
-       "name": "Cade Mays",
-       "status": "Out"
-      },
-      {
-       "team": "DET",
        "pos": "CB",
        "name": "D.J. Reed",
        "status": "Questionable"
@@ -3360,7 +3368,7 @@
        "team": "ARI",
        "pos": "QB",
        "name": "Carson Beck",
-       "status": "Questionable"
+       "status": "Out"
       },
       {
        "team": "KC",
@@ -3374,7 +3382,7 @@
        "team": "ARI",
        "pos": "QB",
        "out": "Carson Beck",
-       "status": "Questionable",
+       "status": "Out",
        "backup": "Josh Johnson",
        "def": "KC",
        "rank": 4,
@@ -3689,6 +3697,12 @@
      "changes": [
       {
        "team": "PIT",
+       "pos": "WR",
+       "name": "Roman Wilson",
+       "status": "Questionable"
+      },
+      {
+       "team": "PIT",
        "pos": "LB",
        "name": "Patrick Queen",
        "status": "Questionable"
@@ -3698,34 +3712,22 @@
        "pos": "S",
        "name": "DeShon Elliott",
        "status": "Questionable"
-      },
-      {
-       "team": "PHI",
-       "pos": "WR",
-       "name": "Dontayvion Wicks",
-       "status": "Out"
-      },
-      {
-       "team": "PHI",
-       "pos": "LB",
-       "name": "Zack Baun",
-       "status": "Out"
       }
      ],
      "next": [
       {
-       "team": "PHI",
+       "team": "PIT",
        "pos": "WR",
-       "out": "Dontayvion Wicks",
-       "status": "Out",
-       "backup": "Elijah Moore",
-       "def": "PIT",
-       "rank": 17,
+       "out": "Roman Wilson",
+       "status": "Questionable",
+       "backup": "Max Hurleman",
+       "def": "PHI",
+       "rank": 30,
        "n": 32,
-       "v": 31.9,
-       "yds": 159.0,
+       "v": 37.9,
+       "yds": 179.1,
        "unit": "pts",
-       "sleeper": false
+       "sleeper": true
       }
      ]
     },
@@ -3876,13 +3878,6 @@
      },
      "watch": [
       {
-       "kind": "story",
-       "team": "CAR",
-       "effect": "hurts",
-       "tone": "down",
-       "text": "CAR TE Darren Waller listed Questionable on the injury report."
-      },
-      {
        "kind": "mismatch",
        "team": "CAR",
        "tone": "up",
@@ -3895,15 +3890,7 @@
        "text": "Ja'Kobi Lane (BAL) draws Marco Wilson on 52% of routes. ACE 34 est., tough draw."
       }
      ],
-     "stories": [
-      {
-       "kind": "story",
-       "team": "CAR",
-       "effect": "hurts",
-       "tone": "down",
-       "text": "CAR TE Darren Waller listed Questionable on the injury report."
-      }
-     ],
+     "stories": [],
      "grid": {
       "BAL": {
        "n": 32,
@@ -4066,6 +4053,12 @@
        "pos": "LB",
        "name": "Bobby Okereke",
        "status": "Out"
+      },
+      {
+       "team": "CAR",
+       "pos": "CB",
+       "name": "Mike Jackson",
+       "status": "Questionable"
       }
      ],
      "next": [
@@ -4411,15 +4404,15 @@
       },
       {
        "team": "LAC",
-       "pos": "LB",
-       "name": "Daiyan Henley",
-       "status": "Out"
+       "pos": "LG",
+       "name": "Trey Pipkins III",
+       "status": "Questionable"
       },
       {
        "team": "LAC",
-       "pos": "CB",
-       "name": "Tarheeb Still",
-       "status": "Questionable"
+       "pos": "LB",
+       "name": "Daiyan Henley",
+       "status": "Out"
       }
      ],
      "next": [
@@ -5257,13 +5250,6 @@
        "effect": "hurts",
        "tone": "down",
        "text": "WSH RB Rachaad White listed Questionable on the injury report."
-      },
-      {
-       "kind": "story",
-       "team": "WSH",
-       "effect": "hurts",
-       "tone": "down",
-       "text": "WSH WR Treylon Burks listed Questionable on the injury report."
       }
      ],
      "grid": {
@@ -5413,14 +5399,20 @@
       },
       {
        "team": "WSH",
-       "pos": "WR",
-       "name": "Treylon Burks",
+       "pos": "RB",
+       "name": "Rachaad White",
        "status": "Questionable"
       },
       {
        "team": "WSH",
-       "pos": "RB",
-       "name": "Rachaad White",
+       "pos": "C",
+       "name": "Lucas Patrick",
+       "status": "Questionable"
+      },
+      {
+       "team": "WSH",
+       "pos": "CB",
+       "name": "Amik Robertson",
        "status": "Questionable"
       }
      ],
@@ -5450,16 +5442,6 @@
      "trend": {
       "EDM": {
        "games": [
-        {
-         "d": "2026-11-12",
-         "opp": "PHI",
-         "home": true,
-         "w": true,
-         "s": "3-2",
-         "line": -1.5,
-         "role": "fav",
-         "cov": "n"
-        },
         {
          "d": "2026-11-15",
          "opp": "TOR",
@@ -5499,11 +5481,21 @@
          "line": 1.5,
          "role": "dog",
          "cov": "n"
+        },
+        {
+         "d": "2026-11-21",
+         "opp": "CAR",
+         "home": false,
+         "w": false,
+         "s": "4-7",
+         "line": 1.5,
+         "role": "dog",
+         "cov": "n"
         }
        ],
        "wl": [
-        4,
-        1
+        3,
+        2
        ],
        "ats": [
         2,
@@ -5511,26 +5503,16 @@
         0
        ],
        "fav": [
-        3,
+        2,
         0
        ],
        "dog": [
         1,
-        1
+        2
        ]
       },
       "CAR": {
        "games": [
-        {
-         "d": "2026-11-06",
-         "opp": "NYI",
-         "home": false,
-         "w": true,
-         "s": "5-3",
-         "line": -1.5,
-         "role": "fav",
-         "cov": "c"
-        },
         {
          "d": "2026-11-08",
          "opp": "CHI",
@@ -5570,6 +5552,16 @@
          "line": -1.5,
          "role": "fav",
          "cov": "n"
+        },
+        {
+         "d": "2026-11-21",
+         "opp": "EDM",
+         "home": true,
+         "w": true,
+         "s": "7-4",
+         "line": -1.5,
+         "role": "fav",
+         "cov": "c"
         }
        ],
        "wl": [
@@ -5594,25 +5586,19 @@
      "watch": [
       {
        "kind": "story",
-       "team": "CAR",
+       "team": "EDM",
        "effect": "helps",
        "tone": "up",
-       "text": "Revenge spot: CAR lost 6-5 to EDM on October 22."
-      },
-      {
-       "kind": "mismatch",
-       "team": "EDM",
-       "tone": "down",
-       "text": "Alex Formenton (EDM, 5 pts in 24 gp): likely goalie Pyotr Kochetkov 0.920 sv% (14 starts, lg 0.892), CAR allows 21.6 shots/gm (lg 27.4)."
+       "text": "Revenge spot: EDM lost 7-4 to CAR on November 21."
       }
      ],
      "stories": [
       {
        "kind": "story",
-       "team": "CAR",
+       "team": "EDM",
        "effect": "helps",
        "tone": "up",
-       "text": "Revenge spot: CAR lost 6-5 to EDM on October 22."
+       "text": "Revenge spot: EDM lost 7-4 to CAR on November 21."
       }
      ],
      "grid": {
@@ -5827,14 +5813,7 @@
        ]
       }
      },
-     "watch": [
-      {
-       "kind": "mismatch",
-       "team": "CGY",
-       "tone": "up",
-       "text": "Zayne Parekh (CGY, 9 pts in 23 gp): likely goalie Spencer Knight 0.886 sv% (18 starts, lg 0.892), CHI allows 30.6 shots/gm (lg 27.4)."
-      }
-     ],
+     "watch": [],
      "stories": [],
      "grid": {
       "CHI": {
@@ -6775,14 +6754,6 @@
        "effect": "helps",
        "tone": "up",
        "text": "Revenge spot: CBJ lost 6-2 to TOR on October 20."
-      }
-     ],
-     "changes": [
-      {
-       "team": "CBJ",
-       "pos": "RW",
-       "name": "Mathieu Olivier",
-       "status": "Day-To-Day"
       }
      ],
      "grid": {
@@ -8377,7 +8348,7 @@
        "kind": "mismatch",
        "team": "MIN",
        "tone": "up",
-       "text": "Quinn Hughes (MIN, 34 pts in 24 gp): likely goalie Leevi Merilainen 0.889 sv% (15 starts, lg 0.892), VAN allows 31.5 shots/gm (lg 27.4)."
+       "text": "Nick Foligno (MIN, 3 pts in 9 gp): likely goalie Leevi Merilainen 0.889 sv% (15 starts, lg 0.892), VAN allows 31.5 shots/gm (lg 27.4)."
       },
       {
        "kind": "mismatch",
@@ -8393,20 +8364,6 @@
        "effect": "helps",
        "tone": "up",
        "text": "Revenge spot: VAN lost 4-2 to MIN on October 25."
-      }
-     ],
-     "changes": [
-      {
-       "team": "MIN",
-       "pos": "C",
-       "name": "Yakov Trenin",
-       "status": "Day-To-Day"
-      },
-      {
-       "team": "MIN",
-       "pos": "D",
-       "name": "Quinn Hughes",
-       "status": "Day-To-Day"
       }
      ],
      "grid": {
