@@ -1,5 +1,5 @@
 {
- "updated_az": "2026-11-21T07:20:01-07:00",
+ "updated_az": "2026-11-21T11:20:01-07:00",
  "note": "Estimates from public scores, closing lines, play by play, depth charts, injury reports and our matchup engine. Not betting advice.",
  "sports": {
   "nba": {
@@ -271,12 +271,6 @@
       }
      },
      "changes": [
-      {
-       "team": "PHI",
-       "pos": "PG",
-       "name": "Tyrese Maxey",
-       "status": "Day-To-Day"
-      },
       {
        "team": "PHI",
        "pos": "SF",
@@ -562,6 +556,12 @@
        "team": "NY",
        "pos": "PF",
        "name": "OG Anunoby",
+       "status": "Day-To-Day"
+      },
+      {
+       "team": "NY",
+       "pos": "PF",
+       "name": "Karl-Anthony Towns",
        "status": "Day-To-Day"
       }
      ]
@@ -1103,7 +1103,7 @@
        "pos": "PF",
        "out": "Cameron Boozer",
        "status": "Out",
-       "backup": "Isaiah Stewart",
+       "backup": "Taylor Hendricks",
        "def": "MIN",
        "rank": 23,
        "n": 30,
@@ -2004,6 +2004,12 @@
        "team": "BUF",
        "pos": "DE",
        "name": "T.J. Sanders",
+       "status": "Questionable"
+      },
+      {
+       "team": "BUF",
+       "pos": "DE",
+       "name": "Ed Oliver",
        "status": "Questionable"
       },
       {
@@ -5229,7 +5235,7 @@
        "team": "WSH",
        "effect": "hurts",
        "tone": "down",
-       "text": "WSH WR Treylon Burks listed Questionable on the injury report."
+       "text": "WSH RB Rachaad White listed Questionable on the injury report."
       },
       {
        "kind": "mismatch",
@@ -5250,14 +5256,14 @@
        "team": "WSH",
        "effect": "hurts",
        "tone": "down",
-       "text": "WSH WR Treylon Burks listed Questionable on the injury report."
+       "text": "WSH RB Rachaad White listed Questionable on the injury report."
       },
       {
        "kind": "story",
        "team": "WSH",
        "effect": "hurts",
        "tone": "down",
-       "text": "WSH RB Rachaad White listed Questionable on the injury report."
+       "text": "WSH WR Treylon Burks listed Questionable on the injury report."
       }
      ],
      "grid": {
@@ -5397,13 +5403,7 @@
        "team": "CIN",
        "pos": "RG",
        "name": "Dalton Risner",
-       "status": "Questionable"
-      },
-      {
-       "team": "CIN",
-       "pos": "LB",
-       "name": "Oren Burks",
-       "status": "Questionable"
+       "status": "Out"
       },
       {
        "team": "CIN",
