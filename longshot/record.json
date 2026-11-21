@@ -1,6 +1,6 @@
 {
- "pulled_az": "2026-11-20T07:00:01-07:00",
- "slate": "2026-11-20",
+ "pulled_az": "2026-11-21T07:00:01-07:00",
+ "slate": "2026-11-21",
  "tz": "Arizona (MST)",
  "sources": [
   {
@@ -37,10 +37,67 @@
  "summary": {
   "wins": 62,
   "losses": 22,
-  "pending": 0,
+  "pending": 3,
   "void": 0
  },
  "picks": [
+  {
+   "id": "2026-11-21:nhl:3114722:points",
+   "slate": "2026-11-21",
+   "sport": "nhl",
+   "event_id": "401892756",
+   "game": "BUF @ FLA",
+   "start_utc": "2026-11-21T23:00:00+00:00",
+   "start_az": "4:00 PM",
+   "athlete_id": "3114722",
+   "player": "Sam Reinhart",
+   "team": "FLA",
+   "stat": "points",
+   "label": "Over 0.5 points",
+   "line": 0.5,
+   "score": 77.9,
+   "tier": "green",
+   "model": "default-2026-11-09",
+   "posted_az": "2026-11-21T07:00:01-07:00"
+  },
+  {
+   "id": "2026-11-21:nhl:4024854:points",
+   "slate": "2026-11-21",
+   "sport": "nhl",
+   "event_id": "401892756",
+   "game": "BUF @ FLA",
+   "start_utc": "2026-11-21T23:00:00+00:00",
+   "start_az": "4:00 PM",
+   "athlete_id": "4024854",
+   "player": "Matthew Tkachuk",
+   "team": "FLA",
+   "stat": "points",
+   "label": "Over 0.5 points",
+   "line": 0.5,
+   "score": 79.0,
+   "tier": "green",
+   "model": "default-2026-11-09",
+   "posted_az": "2026-11-21T07:00:01-07:00"
+  },
+  {
+   "id": "2026-11-21:nhl:5080145:points",
+   "slate": "2026-11-21",
+   "sport": "nhl",
+   "event_id": "401892765",
+   "game": "ANA @ UTA",
+   "start_utc": "2026-11-22T02:00:00+00:00",
+   "start_az": "7:00 PM",
+   "athlete_id": "5080145",
+   "player": "Cutter Gauthier",
+   "team": "ANA",
+   "stat": "points",
+   "label": "Over 0.5 points",
+   "line": 0.5,
+   "score": 78.0,
+   "tier": "green",
+   "model": "default-2026-11-09",
+   "posted_az": "2026-11-21T07:00:01-07:00"
+  },
   {
    "id": "2026-11-19:nhl:2562632:points",
    "slate": "2026-11-19",
