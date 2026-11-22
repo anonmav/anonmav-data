@@ -1,6 +1,6 @@
 {
- "pulled_az": "2026-11-21T07:01:39-07:00",
- "slate": "2026-11-21",
+ "pulled_az": "2026-11-22T07:01:49-07:00",
+ "slate": "2026-11-22",
  "tz": "Arizona (MST)",
  "card": "Grudge",
  "note": "Quiet last game against a line the player usually clears. Season hit rate and Floor Score are estimates.",
@@ -27,120 +27,85 @@
   "yellow": 75
  },
  "top": {
-  "nba": [
+  "nba": [],
+  "nhl": [],
+  "nfl": [
    {
-    "id": "2026-11-21:nba:4431671:assists",
-    "sport": "nba",
-    "event_id": "401910026",
-    "game": "MEM @ MIN",
-    "start_utc": "2026-11-22T01:00:00+00:00",
-    "start_az": "6:00 PM",
-    "athlete_id": "4431671",
-    "player": "Jaden McDaniels",
-    "team": "MIN",
-    "stat": "assists",
-    "label": "Over 2.5 assists",
-    "line": 2.5,
-    "avg": 3.56,
-    "last": 1.0,
+    "id": "2026-11-22:nfl:15847:receivingYards",
+    "sport": "nfl",
+    "event_id": "401873067",
+    "game": "ARI @ KC",
+    "start_utc": "2026-11-22T18:00:00+00:00",
+    "start_az": "11:00 AM",
+    "athlete_id": "15847",
+    "player": "Travis Kelce",
+    "team": "KC",
+    "stat": "receivingYards",
+    "label": "Over 41.5 receiving yards",
+    "line": 41.5,
+    "avg": 56.89,
+    "last": 30.0,
     "l5": [
-     1.0,
-     4.0,
-     3.0,
-     6.0,
-     3.0
+     30.0,
+     72.0,
+     67.0,
+     44.0,
+     53.0
     ],
-    "hit_season": 0.875,
+    "hit_season": 0.778,
     "hit_l5": 0.8,
-    "games": 16,
-    "score": 68.7,
-    "cushion": 1.1,
+    "games": 9,
+    "score": 63.8,
+    "cushion": 15.4,
     "notes": [
-     "L10 9/10 over",
+     "L10 7/9 over",
      "L5 4/5 over",
-     "usage L5 100% of season"
+     "blowout risk",
+     "soft opponent defense"
     ],
-    "market_pct": 57,
-    "first_seen": "2026-11-21T07:00:01-07:00"
-   }
-  ],
-  "nhl": [
-   {
-    "id": "2026-11-21:nhl:4565222:points",
-    "sport": "nhl",
-    "event_id": "401892763",
-    "game": "NJ @ STL",
-    "start_utc": "2026-11-22T00:00:00+00:00",
-    "start_az": "5:00 PM",
-    "athlete_id": "4565222",
-    "player": "Jack Hughes",
-    "team": "NJ",
-    "stat": "points",
-    "label": "Over 0.5 points",
-    "line": 0.5,
-    "avg": 1.23,
-    "last": 0.0,
-    "l5": [
-     0.0,
-     0.0,
-     1.0,
-     1.0,
-     2.0
-    ],
-    "hit_season": 0.727,
-    "hit_l5": 0.6,
-    "games": 22,
-    "score": 77.5,
-    "cushion": 0.7,
-    "notes": [
-     "L10 7/10 over",
-     "L5 3/5 over",
-     "usage L5 101% of season",
-     "blowout risk"
-    ],
-    "market_pct": 67,
-    "first_seen": "2026-11-21T07:00:01-07:00"
+    "market_pct": 50,
+    "first_seen": "2026-11-22T07:00:01-07:00"
    },
    {
-    "id": "2026-11-21:nhl:3899937:points",
-    "sport": "nhl",
-    "event_id": "401892764",
-    "game": "VGK @ WPG",
-    "start_utc": "2026-11-22T00:00:00+00:00",
-    "start_az": "5:00 PM",
-    "athlete_id": "3899937",
-    "player": "Mitch Marner",
-    "team": "VGK",
-    "stat": "points",
-    "label": "Over 0.5 points",
-    "line": 0.5,
-    "avg": 1.18,
+    "id": "2026-11-22:nfl:4373626:receptions",
+    "sport": "nfl",
+    "event_id": "401873067",
+    "game": "ARI @ KC",
+    "start_utc": "2026-11-22T18:00:00+00:00",
+    "start_az": "11:00 AM",
+    "athlete_id": "4373626",
+    "player": "Tyler Allgeier",
+    "team": "ARI",
+    "stat": "receptions",
+    "label": "Over 1.5 receptions",
+    "line": 1.5,
+    "avg": 2.3,
     "last": 0.0,
     "l5": [
      0.0,
-     0.0,
      2.0,
-     1.0,
-     3.0
+     5.0,
+     3.0,
+     1.0
     ],
-    "hit_season": 0.773,
+    "hit_season": 0.8,
     "hit_l5": 0.6,
-    "games": 22,
-    "score": 76.7,
-    "cushion": 0.7,
+    "games": 10,
+    "score": 53.9,
+    "cushion": 0.8,
     "notes": [
-     "L10 7/10 over",
+     "L10 8/10 over",
      "L5 3/5 over",
-     "usage L5 104% of season",
-     "blowout risk"
+     "blowout risk",
+     "tough opponent defense"
     ],
-    "market_pct": 65,
-    "first_seen": "2026-11-21T07:00:01-07:00"
+    "market_pct": 51,
+    "first_seen": "2026-11-22T07:00:01-07:00"
    }
-  ],
-  "nfl": []
+  ]
  },
  "top_note": {
-  "nfl": "No Grudge legs on this slate."
+  "nba": "No Grudge legs on this slate.",
+  "nhl": "No Grudge legs on this slate."
  }
 }
