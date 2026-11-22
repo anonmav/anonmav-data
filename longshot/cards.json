@@ -1,5 +1,5 @@
 {
- "updated_az": "2026-11-22T11:20:01-07:00",
+ "updated_az": "2026-11-22T15:20:01-07:00",
  "note": "Estimates from public scores, closing lines, play by play, depth charts, injury reports and our matchup engine. Not betting advice.",
  "sports": {
   "nba": {
@@ -150,20 +150,7 @@
        ]
       }
      },
-     "watch": [
-      {
-       "kind": "mismatch",
-       "team": "ATL",
-       "tone": "up",
-       "text": "Onyeka Okongwu (ATL, 8.1 reb): DET allows 11.1 rebounds to SF/PF (+20% vs avg), game pace +1%."
-      },
-      {
-       "kind": "mismatch",
-       "team": "ATL",
-       "tone": "down",
-       "text": "Nickeil Alexander-Walker (ATL, 20.9 pts): DET allows 21.2 points to PG/SG (-11% vs avg), game pace +1%."
-      }
-     ],
+     "watch": [],
      "stories": [],
      "grid": {
       "DET": {
@@ -258,20 +245,8 @@
      "changes": [
       {
        "team": "DET",
-       "pos": "PG",
-       "name": "Cade Cunningham",
-       "status": "Day-To-Day"
-      },
-      {
-       "team": "DET",
        "pos": "SF",
        "name": "Duncan Robinson",
-       "status": "Out"
-      },
-      {
-       "team": "ATL",
-       "pos": "PG",
-       "name": "Kingston Flemings",
        "status": "Out"
       }
      ],
@@ -439,10 +414,17 @@
      },
      "watch": [
       {
+       "kind": "story",
+       "team": "MIA",
+       "effect": "hurts",
+       "tone": "down",
+       "text": "MIA F Giannis Antetokounmpo listed Out on the injury report."
+      },
+      {
        "kind": "mismatch",
        "team": "OKC",
        "tone": "up",
-       "text": "Shai Gilgeous-Alexander (OKC, 31.7 pts): MIA allows 27.6 points to PG/SG (+15% vs avg), game pace +2%."
+       "text": "Ajay Mitchell (OKC, 17.0 pts): MIA allows 27.6 points to PG/SG (+15% vs avg), game pace +2%."
       },
       {
        "kind": "mismatch",
@@ -451,7 +433,15 @@
        "text": "Davion Mitchell (MIA, 9.0 ast): OKC allows 6.1 assists to PG/SG (-8% vs avg), game pace +2%."
       }
      ],
-     "stories": [],
+     "stories": [
+      {
+       "kind": "story",
+       "team": "MIA",
+       "effect": "hurts",
+       "tone": "down",
+       "text": "MIA F Giannis Antetokounmpo listed Out on the injury report."
+      }
+     ],
      "grid": {
       "OKC": {
        "n": 30,
@@ -547,13 +537,43 @@
        "team": "OKC",
        "pos": "PG",
        "name": "Shai Gilgeous-Alexander",
-       "status": "Day-To-Day"
+       "status": "Out"
       },
       {
        "team": "MIA",
        "pos": "PF",
        "name": "Giannis Antetokounmpo",
-       "status": "Day-To-Day"
+       "status": "Out"
+      }
+     ],
+     "next": [
+      {
+       "team": "OKC",
+       "pos": "PG",
+       "out": "Shai Gilgeous-Alexander",
+       "status": "Out",
+       "backup": "Bennett Stirtz",
+       "def": "MIA",
+       "rank": 28,
+       "n": 30,
+       "v": 29.2,
+       "yds": null,
+       "unit": "pts",
+       "sleeper": true
+      },
+      {
+       "team": "MIA",
+       "pos": "PF",
+       "out": "Giannis Antetokounmpo",
+       "status": "Out",
+       "backup": "Bobby Portis",
+       "def": "OKC",
+       "rank": 6,
+       "n": 30,
+       "v": 20.7,
+       "yds": null,
+       "unit": "pts",
+       "sleeper": false
       }
      ]
     },
@@ -1079,18 +1099,6 @@
        "pos": "SG",
        "name": "Norman Powell",
        "status": "Out"
-      },
-      {
-       "team": "CHI",
-       "pos": "SF",
-       "name": "Patrick Williams",
-       "status": "Day-To-Day"
-      },
-      {
-       "team": "CHI",
-       "pos": "C",
-       "name": "Jalen Smith",
-       "status": "Day-To-Day"
       }
      ],
      "next": [
@@ -1542,7 +1550,7 @@
        "team": "NY",
        "effect": "hurts",
        "tone": "down",
-       "text": "NY F OG Anunoby listed Out on the injury report."
+       "text": "NY on the second night of a back-to-back, IND rested 1 day."
       },
       {
        "kind": "mismatch",
@@ -1558,13 +1566,6 @@
       }
      ],
      "stories": [
-      {
-       "kind": "story",
-       "team": "NY",
-       "effect": "hurts",
-       "tone": "down",
-       "text": "NY F OG Anunoby listed Out on the injury report."
-      },
       {
        "kind": "story",
        "team": "NY",
@@ -1975,15 +1976,25 @@
      "changes": [
       {
        "team": "BOS",
-       "pos": "PG",
-       "name": "Derrick White",
-       "status": "Day-To-Day"
-      },
+       "pos": "PF",
+       "name": "Paul George",
+       "status": "Out"
+      }
+     ],
+     "next": [
       {
        "team": "BOS",
-       "pos": "SF",
-       "name": "Jayson Tatum",
-       "status": "Day-To-Day"
+       "pos": "PF",
+       "out": "Paul George",
+       "status": "Out",
+       "backup": "Sam Hauser",
+       "def": "GS",
+       "rank": 20,
+       "n": 30,
+       "v": 23.1,
+       "yds": null,
+       "unit": "pts",
+       "sleeper": false
       }
      ]
     }
@@ -1996,16 +2007,6 @@
      "trend": {
       "MIA": {
        "games": [
-        {
-         "d": "2026-10-11",
-         "opp": "CIN",
-         "home": true,
-         "w": false,
-         "s": "24-31",
-         "line": 7.5,
-         "role": "dog",
-         "cov": "c"
-        },
         {
          "d": "2026-10-25",
          "opp": "NYJ",
@@ -2045,6 +2046,16 @@
          "line": 5.5,
          "role": "dog",
          "cov": "c"
+        },
+        {
+         "d": "2026-11-22",
+         "opp": "BUF",
+         "home": false,
+         "w": false,
+         "s": "9-26",
+         "line": 16.5,
+         "role": "dog",
+         "cov": "n"
         }
        ],
        "wl": [
@@ -2052,8 +2063,8 @@
         4
        ],
        "ats": [
-        4,
-        1,
+        3,
+        2,
         0
        ],
        "fav": [
@@ -2067,16 +2078,6 @@
       },
       "BUF": {
        "games": [
-        {
-         "d": "2026-10-13",
-         "opp": "LAR",
-         "home": false,
-         "w": true,
-         "s": "37-34",
-         "line": 3.5,
-         "role": "dog",
-         "cov": "c"
-        },
         {
          "d": "2026-10-18",
          "opp": "LV",
@@ -2116,6 +2117,16 @@
          "line": -8.5,
          "role": "fav",
          "cov": "c"
+        },
+        {
+         "d": "2026-11-22",
+         "opp": "MIA",
+         "home": true,
+         "w": true,
+         "s": "26-9",
+         "line": -16.5,
+         "role": "fav",
+         "cov": "c"
         }
        ],
        "wl": [
@@ -2128,30 +2139,61 @@
         0
        ],
        "fav": [
-        4,
+        5,
         0
        ],
        "dog": [
-        1,
+        0,
         0
        ]
       }
      },
      "watch": [
       {
-       "kind": "mismatch",
-       "team": "BUF",
-       "tone": "up",
-       "text": "Khalil Shakir (BUF) draws Chris Johnson on 46% of routes. ACE 63 est., edge."
+       "kind": "story",
+       "team": "MIA",
+       "effect": "hurts",
+       "tone": "down",
+       "text": "MIA on a short week (0 days since last game)."
       },
       {
-       "kind": "mismatch",
-       "team": "MIA",
+       "kind": "story",
+       "team": "BUF",
+       "effect": "hurts",
        "tone": "down",
-       "text": "Kyle McCord (MIA, QB): BUF pressure 20% of dropbacks, his line allows 16% (lg 16%)."
+       "text": "BUF on a short week (0 days since last game)."
+      },
+      {
+       "kind": "story",
+       "team": "MIA",
+       "effect": "helps",
+       "tone": "up",
+       "text": "Revenge spot: MIA lost 26-9 to BUF on November 22."
       }
      ],
-     "stories": [],
+     "stories": [
+      {
+       "kind": "story",
+       "team": "MIA",
+       "effect": "hurts",
+       "tone": "down",
+       "text": "MIA on a short week (0 days since last game)."
+      },
+      {
+       "kind": "story",
+       "team": "BUF",
+       "effect": "hurts",
+       "tone": "down",
+       "text": "BUF on a short week (0 days since last game)."
+      },
+      {
+       "kind": "story",
+       "team": "MIA",
+       "effect": "helps",
+       "tone": "up",
+       "text": "Revenge spot: MIA lost 26-9 to BUF on November 22."
+      }
+     ],
      "grid": {
       "MIA": {
        "n": 32,
@@ -2286,6 +2328,12 @@
        "status": "Out"
       },
       {
+       "team": "MIA",
+       "pos": "CB",
+       "name": "JuJu Brents",
+       "status": "Questionable"
+      },
+      {
        "team": "BUF",
        "pos": "TE",
        "name": "Dalton Kincaid",
@@ -2332,16 +2380,6 @@
       "NO": {
        "games": [
         {
-         "d": "2026-10-11",
-         "opp": "MIN",
-         "home": true,
-         "w": false,
-         "s": "13-23",
-         "line": 2.5,
-         "role": "dog",
-         "cov": "n"
-        },
-        {
          "d": "2026-10-18",
          "opp": "NYG",
          "home": false,
@@ -2380,6 +2418,16 @@
          "line": 1.5,
          "role": "dog",
          "cov": "n"
+        },
+        {
+         "d": "2026-11-22",
+         "opp": "CHI",
+         "home": false,
+         "w": false,
+         "s": "13-21",
+         "line": 12.5,
+         "role": "dog",
+         "cov": "c"
         }
        ],
        "wl": [
@@ -2387,8 +2435,8 @@
         3
        ],
        "ats": [
-        1,
-        4,
+        2,
+        3,
         0
        ],
        "fav": [
@@ -2402,16 +2450,6 @@
       },
       "CHI": {
        "games": [
-        {
-         "d": "2026-10-11",
-         "opp": "GB",
-         "home": false,
-         "w": false,
-         "s": "7-31",
-         "line": -1.5,
-         "role": "fav",
-         "cov": "n"
-        },
         {
          "d": "2026-10-18",
          "opp": "ATL",
@@ -2451,11 +2489,21 @@
          "line": -6.5,
          "role": "fav",
          "cov": "n"
+        },
+        {
+         "d": "2026-11-22",
+         "opp": "NO",
+         "home": true,
+         "w": true,
+         "s": "21-13",
+         "line": -12.5,
+         "role": "fav",
+         "cov": "n"
         }
        ],
        "wl": [
-        4,
-        1
+        5,
+        0
        ],
        "ats": [
         3,
@@ -2463,8 +2511,8 @@
         0
        ],
        "fav": [
-        3,
-        1
+        4,
+        0
        ],
        "dog": [
         1,
@@ -2474,13 +2522,50 @@
      },
      "watch": [
       {
-       "kind": "mismatch",
+       "kind": "story",
+       "team": "NO",
+       "effect": "hurts",
+       "tone": "down",
+       "text": "NO on a short week (0 days since last game)."
+      },
+      {
+       "kind": "story",
        "team": "CHI",
+       "effect": "hurts",
+       "tone": "down",
+       "text": "CHI on a short week (0 days since last game)."
+      },
+      {
+       "kind": "story",
+       "team": "NO",
+       "effect": "helps",
        "tone": "up",
-       "text": "Caleb Williams (CHI, QB): NO pressure 15% of dropbacks, his line allows 13% (lg 16%)."
+       "text": "Revenge spot: NO lost 21-13 to CHI on November 22."
       }
      ],
-     "stories": [],
+     "stories": [
+      {
+       "kind": "story",
+       "team": "NO",
+       "effect": "hurts",
+       "tone": "down",
+       "text": "NO on a short week (0 days since last game)."
+      },
+      {
+       "kind": "story",
+       "team": "CHI",
+       "effect": "hurts",
+       "tone": "down",
+       "text": "CHI on a short week (0 days since last game)."
+      },
+      {
+       "kind": "story",
+       "team": "NO",
+       "effect": "helps",
+       "tone": "up",
+       "text": "Revenge spot: NO lost 21-13 to CHI on November 22."
+      }
+     ],
      "grid": {
       "NO": {
        "n": 32,
@@ -2610,6 +2695,12 @@
      "changes": [
       {
        "team": "NO",
+       "pos": "TE",
+       "name": "Juwan Johnson",
+       "status": "Questionable"
+      },
+      {
+       "team": "NO",
        "pos": "C",
        "name": "Erik McCoy",
        "status": "Out"
@@ -2638,22 +2729,28 @@
        "name": "Kyler Gordon",
        "status": "Out"
       }
+     ],
+     "next": [
+      {
+       "team": "NO",
+       "pos": "TE",
+       "out": "Juwan Johnson",
+       "status": "Questionable",
+       "backup": "Noah Fant",
+       "def": "CHI",
+       "rank": 10,
+       "n": 32,
+       "v": 11.4,
+       "yds": 49.6,
+       "unit": "pts",
+       "sleeper": false
+      }
      ]
     },
     "TEN @ DAL": {
      "trend": {
       "TEN": {
        "games": [
-        {
-         "d": "2026-10-11",
-         "opp": "HOU",
-         "home": true,
-         "w": false,
-         "s": "3-26",
-         "line": 6.5,
-         "role": "dog",
-         "cov": "n"
-        },
         {
          "d": "2026-10-18",
          "opp": "IND",
@@ -2693,6 +2790,16 @@
          "line": 10.5,
          "role": "dog",
          "cov": "n"
+        },
+        {
+         "d": "2026-11-22",
+         "opp": "DAL",
+         "home": false,
+         "w": false,
+         "s": "30-51",
+         "line": 7.5,
+         "role": "dog",
+         "cov": "n"
         }
        ],
        "wl": [
@@ -2715,16 +2822,6 @@
       },
       "DAL": {
        "games": [
-        {
-         "d": "2026-10-19",
-         "opp": "GB",
-         "home": false,
-         "w": false,
-         "s": "13-23",
-         "line": -1.5,
-         "role": "fav",
-         "cov": "n"
-        },
         {
          "d": "2026-10-27",
          "opp": "PHI",
@@ -2764,20 +2861,30 @@
          "line": 3.5,
          "role": "dog",
          "cov": "n"
+        },
+        {
+         "d": "2026-11-22",
+         "opp": "TEN",
+         "home": true,
+         "w": true,
+         "s": "51-30",
+         "line": -7.5,
+         "role": "fav",
+         "cov": "c"
         }
        ],
        "wl": [
-        2,
-        3
+        3,
+        2
        ],
        "ats": [
-        1,
-        4,
+        2,
+        3,
         0
        ],
        "fav": [
-        2,
-        2
+        3,
+        1
        ],
        "dog": [
         0,
@@ -2787,19 +2894,50 @@
      },
      "watch": [
       {
-       "kind": "mismatch",
+       "kind": "story",
        "team": "TEN",
-       "tone": "up",
-       "text": "Cam Ward (TEN, QB): DAL pressure 14% of dropbacks, his line allows 12% (lg 16%)."
+       "effect": "hurts",
+       "tone": "down",
+       "text": "TEN on a short week (0 days since last game)."
       },
       {
-       "kind": "mismatch",
+       "kind": "story",
        "team": "DAL",
+       "effect": "hurts",
        "tone": "down",
-       "text": "Brevyn Spann-Ford (DAL) draws Cody Barton on 50% of routes. ACE 35 est., tough draw."
+       "text": "DAL on a short week (0 days since last game)."
+      },
+      {
+       "kind": "story",
+       "team": "TEN",
+       "effect": "helps",
+       "tone": "up",
+       "text": "Revenge spot: TEN lost 51-30 to DAL on November 22."
       }
      ],
-     "stories": [],
+     "stories": [
+      {
+       "kind": "story",
+       "team": "TEN",
+       "effect": "hurts",
+       "tone": "down",
+       "text": "TEN on a short week (0 days since last game)."
+      },
+      {
+       "kind": "story",
+       "team": "DAL",
+       "effect": "hurts",
+       "tone": "down",
+       "text": "DAL on a short week (0 days since last game)."
+      },
+      {
+       "kind": "story",
+       "team": "TEN",
+       "effect": "helps",
+       "tone": "up",
+       "text": "Revenge spot: TEN lost 51-30 to DAL on November 22."
+      }
+     ],
      "grid": {
       "TEN": {
        "n": 32,
@@ -2929,8 +3067,20 @@
      "changes": [
       {
        "team": "TEN",
+       "pos": "LT",
+       "name": "Dan Moore Jr.",
+       "status": "Questionable"
+      },
+      {
+       "team": "TEN",
        "pos": "S",
        "name": "Tony Adams",
+       "status": "Questionable"
+      },
+      {
+       "team": "TEN",
+       "pos": "CB",
+       "name": "Cor'Dale Flott",
        "status": "Questionable"
       },
       {
@@ -2944,6 +3094,12 @@
        "pos": "RG",
        "name": "Tyler Booker",
        "status": "Out"
+      },
+      {
+       "team": "DAL",
+       "pos": "LB",
+       "name": "Dee Winters",
+       "status": "Questionable"
       },
       {
        "team": "DAL",
@@ -2973,16 +3129,6 @@
      "trend": {
       "TB": {
        "games": [
-        {
-         "d": "2026-10-09",
-         "opp": "DAL",
-         "home": false,
-         "w": true,
-         "s": "24-16",
-         "line": 8.5,
-         "role": "dog",
-         "cov": "c"
-        },
         {
          "d": "2026-10-18",
          "opp": "PIT",
@@ -3022,15 +3168,25 @@
          "line": 6.5,
          "role": "dog",
          "cov": "c"
+        },
+        {
+         "d": "2026-11-22",
+         "opp": "DET",
+         "home": false,
+         "w": false,
+         "s": "21-31",
+         "line": 4.5,
+         "role": "dog",
+         "cov": "n"
         }
        ],
        "wl": [
-        3,
-        2
+        2,
+        3
        ],
        "ats": [
-        4,
-        1,
+        3,
+        2,
         0
        ],
        "fav": [
@@ -3038,22 +3194,12 @@
         0
        ],
        "dog": [
-        2,
-        2
+        1,
+        3
        ]
       },
       "DET": {
        "games": [
-        {
-         "d": "2026-10-11",
-         "opp": "ARI",
-         "home": false,
-         "w": true,
-         "s": "45-21",
-         "line": -4.5,
-         "role": "fav",
-         "cov": "c"
-        },
         {
          "d": "2026-10-25",
          "opp": "GB",
@@ -3093,6 +3239,16 @@
          "line": -2.5,
          "role": "fav",
          "cov": "c"
+        },
+        {
+         "d": "2026-11-22",
+         "opp": "TB",
+         "home": true,
+         "w": true,
+         "s": "31-21",
+         "line": -4.5,
+         "role": "fav",
+         "cov": "c"
         }
        ],
        "wl": [
@@ -3116,19 +3272,50 @@
      },
      "watch": [
       {
-       "kind": "mismatch",
-       "team": "DET",
-       "tone": "up",
-       "text": "Jared Goff (DET, QB): TB pressure 12% of dropbacks, his line allows 16% (lg 16%)."
+       "kind": "story",
+       "team": "TB",
+       "effect": "hurts",
+       "tone": "down",
+       "text": "TB on a short week (0 days since last game)."
       },
       {
-       "kind": "mismatch",
+       "kind": "story",
        "team": "DET",
+       "effect": "hurts",
        "tone": "down",
-       "text": "Isaac TeSlaa (DET) draws Zyon McCollum on 47% of routes. ACE 36 est., tough draw."
+       "text": "DET on a short week (0 days since last game)."
+      },
+      {
+       "kind": "story",
+       "team": "TB",
+       "effect": "helps",
+       "tone": "up",
+       "text": "Revenge spot: TB lost 31-21 to DET on November 22."
       }
      ],
-     "stories": [],
+     "stories": [
+      {
+       "kind": "story",
+       "team": "TB",
+       "effect": "hurts",
+       "tone": "down",
+       "text": "TB on a short week (0 days since last game)."
+      },
+      {
+       "kind": "story",
+       "team": "DET",
+       "effect": "hurts",
+       "tone": "down",
+       "text": "DET on a short week (0 days since last game)."
+      },
+      {
+       "kind": "story",
+       "team": "TB",
+       "effect": "helps",
+       "tone": "up",
+       "text": "Revenge spot: TB lost 31-21 to DET on November 22."
+      }
+     ],
      "grid": {
       "TB": {
        "n": 32,
@@ -3263,6 +3450,12 @@
        "status": "Out"
       },
       {
+       "team": "TB",
+       "pos": "CB",
+       "name": "Jacob Parrish",
+       "status": "Questionable"
+      },
+      {
        "team": "DET",
        "pos": "CB",
        "name": "D.J. Reed",
@@ -3274,16 +3467,6 @@
      "trend": {
       "ARI": {
        "games": [
-        {
-         "d": "2026-10-18",
-         "opp": "LAR",
-         "home": false,
-         "w": true,
-         "s": "18-16",
-         "line": 13.5,
-         "role": "dog",
-         "cov": "c"
-        },
         {
          "d": "2026-10-25",
          "opp": "DEN",
@@ -3323,15 +3506,25 @@
          "line": 8.5,
          "role": "dog",
          "cov": "n"
+        },
+        {
+         "d": "2026-11-22",
+         "opp": "KC",
+         "home": false,
+         "w": false,
+         "s": "7-34",
+         "line": 14.5,
+         "role": "dog",
+         "cov": "n"
         }
        ],
        "wl": [
-        2,
-        3
+        1,
+        4
        ],
        "ats": [
-        2,
-        3,
+        1,
+        4,
         0
        ],
        "fav": [
@@ -3339,22 +3532,12 @@
         0
        ],
        "dog": [
-        2,
-        3
+        1,
+        4
        ]
       },
       "KC": {
        "games": [
-        {
-         "d": "2026-10-18",
-         "opp": "LAC",
-         "home": true,
-         "w": true,
-         "s": "22-6",
-         "line": -7.5,
-         "role": "fav",
-         "cov": "c"
-        },
         {
          "d": "2026-10-26",
          "opp": "SEA",
@@ -3394,6 +3577,16 @@
          "line": -3.0,
          "role": "fav",
          "cov": "c"
+        },
+        {
+         "d": "2026-11-22",
+         "opp": "ARI",
+         "home": true,
+         "w": true,
+         "s": "34-7",
+         "line": -14.5,
+         "role": "fav",
+         "cov": "c"
         }
        ],
        "wl": [
@@ -3417,19 +3610,50 @@
      },
      "watch": [
       {
-       "kind": "mismatch",
-       "team": "KC",
-       "tone": "up",
-       "text": "Travis Kelce (KC) draws Mack Wilson on 54% of routes. ACE 69 est., edge."
+       "kind": "story",
+       "team": "ARI",
+       "effect": "hurts",
+       "tone": "down",
+       "text": "ARI on a short week (0 days since last game)."
       },
       {
-       "kind": "mismatch",
-       "team": "ARI",
+       "kind": "story",
+       "team": "KC",
+       "effect": "hurts",
        "tone": "down",
-       "text": "Reggie Virgil (ARI) draws Kristian Fulton on 49% of routes. ACE 28 est., tough draw."
+       "text": "KC on a short week (0 days since last game)."
+      },
+      {
+       "kind": "story",
+       "team": "ARI",
+       "effect": "helps",
+       "tone": "up",
+       "text": "Revenge spot: ARI lost 34-7 to KC on November 22."
       }
      ],
-     "stories": [],
+     "stories": [
+      {
+       "kind": "story",
+       "team": "ARI",
+       "effect": "hurts",
+       "tone": "down",
+       "text": "ARI on a short week (0 days since last game)."
+      },
+      {
+       "kind": "story",
+       "team": "KC",
+       "effect": "hurts",
+       "tone": "down",
+       "text": "KC on a short week (0 days since last game)."
+      },
+      {
+       "kind": "story",
+       "team": "ARI",
+       "effect": "helps",
+       "tone": "up",
+       "text": "Revenge spot: ARI lost 34-7 to KC on November 22."
+      }
+     ],
      "grid": {
       "ARI": {
        "n": 32,
@@ -3618,16 +3842,6 @@
       "PIT": {
        "games": [
         {
-         "d": "2026-10-11",
-         "opp": "IND",
-         "home": true,
-         "w": true,
-         "s": "34-22",
-         "line": -3.0,
-         "role": "fav",
-         "cov": "c"
-        },
-        {
          "d": "2026-10-18",
          "opp": "TB",
          "home": false,
@@ -3666,20 +3880,30 @@
          "line": 4.5,
          "role": "dog",
          "cov": "n"
+        },
+        {
+         "d": "2026-11-22",
+         "opp": "PHI",
+         "home": false,
+         "w": false,
+         "s": "16-19",
+         "line": -3.5,
+         "role": "fav",
+         "cov": "n"
         }
        ],
        "wl": [
-        4,
-        1
+        3,
+        2
        ],
        "ats": [
-        4,
-        1,
+        3,
+        2,
         0
        ],
        "fav": [
-        4,
-        0
+        3,
+        1
        ],
        "dog": [
         0,
@@ -3688,16 +3912,6 @@
       },
       "PHI": {
        "games": [
-        {
-         "d": "2026-10-11",
-         "opp": "JAX",
-         "home": false,
-         "w": false,
-         "s": "17-19",
-         "line": 7.5,
-         "role": "dog",
-         "cov": "c"
-        },
         {
          "d": "2026-10-18",
          "opp": "CAR",
@@ -3737,11 +3951,21 @@
          "line": 3.0,
          "role": "dog",
          "cov": "n"
+        },
+        {
+         "d": "2026-11-22",
+         "opp": "PIT",
+         "home": true,
+         "w": true,
+         "s": "19-16",
+         "line": 3.5,
+         "role": "dog",
+         "cov": "c"
         }
        ],
        "wl": [
-        0,
-        5
+        1,
+        4
        ],
        "ats": [
         1,
@@ -3753,26 +3977,57 @@
         0
        ],
        "dog": [
-        0,
-        5
+        1,
+        4
        ]
       }
      },
      "watch": [
       {
-       "kind": "mismatch",
+       "kind": "story",
        "team": "PIT",
-       "tone": "up",
-       "text": "Aaron Rodgers (PIT, QB): PHI pressure 12% of dropbacks, his line allows 16% (lg 16%)."
+       "effect": "hurts",
+       "tone": "down",
+       "text": "PIT on a short week (0 days since last game)."
       },
       {
-       "kind": "mismatch",
+       "kind": "story",
        "team": "PHI",
+       "effect": "hurts",
        "tone": "down",
-       "text": "Darius Cooper (PHI) draws Jalen Ramsey on 44% of routes. ACE 36 est., tough draw."
+       "text": "PHI on a short week (0 days since last game)."
+      },
+      {
+       "kind": "story",
+       "team": "PIT",
+       "effect": "helps",
+       "tone": "up",
+       "text": "Revenge spot: PIT lost 19-16 to PHI on November 22."
       }
      ],
-     "stories": [],
+     "stories": [
+      {
+       "kind": "story",
+       "team": "PIT",
+       "effect": "hurts",
+       "tone": "down",
+       "text": "PIT on a short week (0 days since last game)."
+      },
+      {
+       "kind": "story",
+       "team": "PHI",
+       "effect": "hurts",
+       "tone": "down",
+       "text": "PHI on a short week (0 days since last game)."
+      },
+      {
+       "kind": "story",
+       "team": "PIT",
+       "effect": "helps",
+       "tone": "up",
+       "text": "Revenge spot: PIT lost 19-16 to PHI on November 22."
+      }
+     ],
      "grid": {
       "PIT": {
        "n": 32,
@@ -3898,22 +4153,32 @@
        "scheme": "3-4 base, blitzes 28% of dropbacks (avg 32%)",
        "games": 9
       }
-     }
+     },
+     "changes": [
+      {
+       "team": "PIT",
+       "pos": "LB",
+       "name": "Alex Highsmith",
+       "status": "Questionable"
+      },
+      {
+       "team": "PHI",
+       "pos": "CB",
+       "name": "Jonathan Jones",
+       "status": "Questionable"
+      },
+      {
+       "team": "PHI",
+       "pos": "CB",
+       "name": "Quinyon Mitchell",
+       "status": "Questionable"
+      }
+     ]
     },
     "BAL @ CAR": {
      "trend": {
       "BAL": {
        "games": [
-        {
-         "d": "2026-10-18",
-         "opp": "CLE",
-         "home": false,
-         "w": false,
-         "s": "10-13",
-         "line": -3.0,
-         "role": "fav",
-         "cov": "n"
-        },
         {
          "d": "2026-10-25",
          "opp": "CIN",
@@ -3953,6 +4218,16 @@
          "line": -3.5,
          "role": "fav",
          "cov": "n"
+        },
+        {
+         "d": "2026-11-22",
+         "opp": "CAR",
+         "home": false,
+         "w": false,
+         "s": "33-35",
+         "line": 2.5,
+         "role": "dog",
+         "cov": "c"
         }
        ],
        "wl": [
@@ -3960,31 +4235,21 @@
         5
        ],
        "ats": [
-        0,
-        5,
+        1,
+        4,
         0
        ],
        "fav": [
         0,
-        2
+        1
        ],
        "dog": [
         0,
-        3
+        4
        ]
       },
       "CAR": {
        "games": [
-        {
-         "d": "2026-10-18",
-         "opp": "PHI",
-         "home": false,
-         "w": true,
-         "s": "25-14",
-         "line": -3.0,
-         "role": "fav",
-         "cov": "c"
-        },
         {
          "d": "2026-10-25",
          "opp": "TB",
@@ -4024,6 +4289,16 @@
          "line": -1.5,
          "role": "fav",
          "cov": "c"
+        },
+        {
+         "d": "2026-11-22",
+         "opp": "BAL",
+         "home": true,
+         "w": true,
+         "s": "35-33",
+         "line": -2.5,
+         "role": "fav",
+         "cov": "n"
         }
        ],
        "wl": [
@@ -4031,8 +4306,8 @@
         3
        ],
        "ats": [
-        2,
-        3,
+        1,
+        4,
         0
        ],
        "fav": [
@@ -4047,19 +4322,50 @@
      },
      "watch": [
       {
-       "kind": "mismatch",
-       "team": "CAR",
-       "tone": "up",
-       "text": "Tetairoa McMillan (CAR) draws Nate Wiggins on 49% of routes. ACE 65 est., edge."
+       "kind": "story",
+       "team": "BAL",
+       "effect": "hurts",
+       "tone": "down",
+       "text": "BAL on a short week (0 days since last game)."
       },
       {
-       "kind": "mismatch",
-       "team": "BAL",
+       "kind": "story",
+       "team": "CAR",
+       "effect": "hurts",
        "tone": "down",
-       "text": "Ja'Kobi Lane (BAL) draws Marco Wilson on 52% of routes. ACE 34 est., tough draw."
+       "text": "CAR on a short week (0 days since last game)."
+      },
+      {
+       "kind": "story",
+       "team": "BAL",
+       "effect": "helps",
+       "tone": "up",
+       "text": "Revenge spot: BAL lost 35-33 to CAR on November 22."
       }
      ],
-     "stories": [],
+     "stories": [
+      {
+       "kind": "story",
+       "team": "BAL",
+       "effect": "hurts",
+       "tone": "down",
+       "text": "BAL on a short week (0 days since last game)."
+      },
+      {
+       "kind": "story",
+       "team": "CAR",
+       "effect": "hurts",
+       "tone": "down",
+       "text": "CAR on a short week (0 days since last game)."
+      },
+      {
+       "kind": "story",
+       "team": "BAL",
+       "effect": "helps",
+       "tone": "up",
+       "text": "Revenge spot: BAL lost 35-33 to CAR on November 22."
+      }
+     ],
      "grid": {
       "BAL": {
        "n": 32,
@@ -4207,6 +4513,12 @@
       },
       {
        "team": "CAR",
+       "pos": "WR",
+       "name": "Jalen Coker",
+       "status": "Questionable"
+      },
+      {
+       "team": "CAR",
        "pos": "LB",
        "name": "Bobby Okereke",
        "status": "Out"
@@ -4216,6 +4528,22 @@
        "pos": "CB",
        "name": "Marco Wilson",
        "status": "Out"
+      }
+     ],
+     "next": [
+      {
+       "team": "CAR",
+       "pos": "WR",
+       "out": "Jalen Coker",
+       "status": "Questionable",
+       "backup": "Xavier Legette",
+       "def": "BAL",
+       "rank": 18,
+       "n": 32,
+       "v": 32.4,
+       "yds": 166.0,
+       "unit": "pts",
+       "sleeper": false
       }
      ]
     },
@@ -4521,38 +4849,20 @@
       },
       {
        "team": "NYJ",
-       "pos": "LG",
-       "name": "Dylan Parham",
-       "status": "Questionable"
-      },
-      {
-       "team": "NYJ",
        "pos": "LB",
        "name": "Trevin Wallace",
-       "status": "Questionable"
-      },
-      {
-       "team": "LAC",
-       "pos": "WR",
-       "name": "Ladd McConkey",
-       "status": "Questionable"
-      },
-      {
-       "team": "LAC",
-       "pos": "TE",
-       "name": "Charlie Kolar",
-       "status": "Questionable"
-      },
-      {
-       "team": "LAC",
-       "pos": "LG",
-       "name": "Trey Pipkins III",
-       "status": "Questionable"
+       "status": "Out"
       },
       {
        "team": "LAC",
        "pos": "LB",
        "name": "Daiyan Henley",
+       "status": "Out"
+      },
+      {
+       "team": "LAC",
+       "pos": "CB",
+       "name": "Tarheeb Still",
        "status": "Out"
       }
      ],
@@ -4570,20 +4880,6 @@
        "yds": 165.0,
        "unit": "pts",
        "sleeper": true
-      },
-      {
-       "team": "LAC",
-       "pos": "WR",
-       "out": "Ladd McConkey",
-       "status": "Questionable",
-       "backup": "Derius Davis",
-       "def": "NYJ",
-       "rank": 7,
-       "n": 32,
-       "v": 28.6,
-       "yds": 126.5,
-       "unit": "pts",
-       "sleeper": false
       }
      ]
     },
@@ -4734,13 +5030,6 @@
      },
      "watch": [
       {
-       "kind": "story",
-       "team": "LV",
-       "effect": "hurts",
-       "tone": "down",
-       "text": "LV TE Brock Bowers listed Questionable on the injury report."
-      },
-      {
        "kind": "mismatch",
        "team": "DEN",
        "tone": "up",
@@ -4753,15 +5042,7 @@
        "text": "Fernando Mendoza (LV, QB): DEN pressure 21% of dropbacks, his line allows 18% (lg 16%)."
       }
      ],
-     "stories": [
-      {
-       "kind": "story",
-       "team": "LV",
-       "effect": "hurts",
-       "tone": "down",
-       "text": "LV TE Brock Bowers listed Questionable on the injury report."
-      }
-     ],
+     "stories": [],
      "grid": {
       "LV": {
        "n": 32,
@@ -4893,13 +5174,7 @@
        "team": "LV",
        "pos": "TE",
        "name": "Brock Bowers",
-       "status": "Questionable"
-      },
-      {
-       "team": "LV",
-       "pos": "DE",
-       "name": "Folorunso Fatukasi",
-       "status": "Questionable"
+       "status": "Out"
       },
       {
        "team": "LV",
@@ -4911,7 +5186,7 @@
        "team": "DEN",
        "pos": "S",
        "name": "Brandon Jones",
-       "status": "Questionable"
+       "status": "Out"
       }
      ],
      "next": [
@@ -4919,7 +5194,7 @@
        "team": "LV",
        "pos": "TE",
        "out": "Brock Bowers",
-       "status": "Questionable",
+       "status": "Out",
        "backup": "Michael Mayer",
        "def": "DEN",
        "rank": 30,
@@ -5223,6 +5498,18 @@
        "pos": "C",
        "name": "Robert Hainsey",
        "status": "Out"
+      },
+      {
+       "team": "JAX",
+       "pos": "CB",
+       "name": "Jarrian Jones",
+       "status": "Questionable"
+      },
+      {
+       "team": "NYG",
+       "pos": "CB",
+       "name": "Greg Newsome II",
+       "status": "Questionable"
       }
      ]
     },
@@ -5536,6 +5823,12 @@
       },
       {
        "team": "CIN",
+       "pos": "RG",
+       "name": "Dalton Risner",
+       "status": "Out"
+      },
+      {
+       "team": "CIN",
        "pos": "CB",
        "name": "Dax Hill",
        "status": "Questionable"
@@ -5586,16 +5879,6 @@
       "CAR": {
        "games": [
         {
-         "d": "2026-11-08",
-         "opp": "CHI",
-         "home": true,
-         "w": true,
-         "s": "9-2",
-         "line": -1.5,
-         "role": "fav",
-         "cov": "c"
-        },
-        {
          "d": "2026-11-12",
          "opp": "SEA",
          "home": false,
@@ -5634,6 +5917,16 @@
          "line": -1.5,
          "role": "fav",
          "cov": "c"
+        },
+        {
+         "d": "2026-11-22",
+         "opp": "NYR",
+         "home": false,
+         "w": true,
+         "s": "5-2",
+         "line": -1.5,
+         "role": "fav",
+         "cov": "c"
         }
        ],
        "wl": [
@@ -5656,16 +5949,6 @@
       },
       "NYR": {
        "games": [
-        {
-         "d": "2026-11-07",
-         "opp": "SEA",
-         "home": false,
-         "w": true,
-         "s": "4-3",
-         "line": -1.5,
-         "role": "fav",
-         "cov": "n"
-        },
         {
          "d": "2026-11-10",
          "opp": "EDM",
@@ -5705,11 +5988,21 @@
          "line": 1.5,
          "role": "dog",
          "cov": "c"
+        },
+        {
+         "d": "2026-11-22",
+         "opp": "CAR",
+         "home": true,
+         "w": false,
+         "s": "2-5",
+         "line": 1.5,
+         "role": "dog",
+         "cov": "n"
         }
        ],
        "wl": [
-        4,
-        1
+        3,
+        2
        ],
        "ats": [
         3,
@@ -5717,37 +6010,31 @@
         0
        ],
        "fav": [
-        3,
+        2,
         0
        ],
        "dog": [
         1,
-        1
+        2
        ]
       }
      },
      "watch": [
       {
        "kind": "story",
-       "team": "CAR",
-       "effect": "hurts",
-       "tone": "down",
-       "text": "CAR on the second night of a back-to-back, NYR rested 5 days."
-      },
-      {
-       "kind": "mismatch",
        "team": "NYR",
-       "tone": "down",
-       "text": "Gabe Perreault (NYR, 11 pts in 22 gp): likely goalie Pyotr Kochetkov 0.911 sv% (15 starts, lg 0.890), CAR allows 21.3 shots/gm (lg 27.4)."
+       "effect": "helps",
+       "tone": "up",
+       "text": "Revenge spot: NYR lost 5-2 to CAR on November 22."
       }
      ],
      "stories": [
       {
        "kind": "story",
-       "team": "CAR",
-       "effect": "hurts",
-       "tone": "down",
-       "text": "CAR on the second night of a back-to-back, NYR rested 5 days."
+       "team": "NYR",
+       "effect": "helps",
+       "tone": "up",
+       "text": "Revenge spot: NYR lost 5-2 to CAR on November 22."
       }
      ],
      "grid": {
