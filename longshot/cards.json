@@ -1,5 +1,5 @@
 {
- "updated_az": "2026-11-22T07:20:02-07:00",
+ "updated_az": "2026-11-22T09:50:01-07:00",
  "note": "Estimates from public scores, closing lines, play by play, depth charts, injury reports and our matchup engine. Not betting advice.",
  "sports": {
   "nba": {
@@ -1082,6 +1082,12 @@
       },
       {
        "team": "CHI",
+       "pos": "SF",
+       "name": "Patrick Williams",
+       "status": "Day-To-Day"
+      },
+      {
+       "team": "CHI",
        "pos": "C",
        "name": "Jalen Smith",
        "status": "Day-To-Day"
@@ -1835,7 +1841,7 @@
        "kind": "mismatch",
        "team": "BOS",
        "tone": "up",
-       "text": "Paul George (BOS, 19.9 pts): GS allows 23.1 points to SF/PF (+7% vs avg), game pace -2%."
+       "text": "Jayson Tatum (BOS, 26.4 pts): GS allows 23.1 points to SF/PF (+7% vs avg), game pace -2%."
       },
       {
        "kind": "mismatch",
@@ -2786,13 +2792,6 @@
      },
      "watch": [
       {
-       "kind": "story",
-       "team": "TEN",
-       "effect": "hurts",
-       "tone": "down",
-       "text": "TEN WR Carnell Tate listed Questionable on the injury report."
-      },
-      {
        "kind": "mismatch",
        "team": "TEN",
        "tone": "up",
@@ -2805,15 +2804,7 @@
        "text": "Brevyn Spann-Ford (DAL) draws Cody Barton on 50% of routes. ACE 35 est., tough draw."
       }
      ],
-     "stories": [
-      {
-       "kind": "story",
-       "team": "TEN",
-       "effect": "hurts",
-       "tone": "down",
-       "text": "TEN WR Carnell Tate listed Questionable on the injury report."
-      }
-     ],
+     "stories": [],
      "grid": {
       "TEN": {
        "n": 32,
@@ -3150,13 +3141,6 @@
      },
      "watch": [
       {
-       "kind": "story",
-       "team": "TB",
-       "effect": "hurts",
-       "tone": "down",
-       "text": "TB QB Baker Mayfield listed Questionable on the injury report."
-      },
-      {
        "kind": "mismatch",
        "team": "DET",
        "tone": "up",
@@ -3169,15 +3153,7 @@
        "text": "Isaac TeSlaa (DET) draws Zyon McCollum on 47% of routes. ACE 36 est., tough draw."
       }
      ],
-     "stories": [
-      {
-       "kind": "story",
-       "team": "TB",
-       "effect": "hurts",
-       "tone": "down",
-       "text": "TB QB Baker Mayfield listed Questionable on the injury report."
-      }
-     ],
+     "stories": [],
      "grid": {
       "TB": {
        "n": 32,
