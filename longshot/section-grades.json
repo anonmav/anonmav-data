@@ -1,5 +1,5 @@
 {
- "pulled_az": "2026-11-22T07:01:49-07:00",
+ "pulled_az": "2026-11-22T09:32:06-07:00",
  "slate": "2026-11-22",
  "tz": "Arizona (MST)",
  "note": "Public graded record by card and by leg type. Starting November 15, the featured parlay is Deep Floor, capped at 3 legs by Floor Score, with NBA threes left out. Its record before November 15 is a backtest: the rule applied to earlier posted cards. The November 14 model ticket is graded from the morning card; Jamal Murray Over 2.5 threes was a loss, and a later swap to rebounds is not counted. Sleeper flags: next-man-up backups tagged Sleeper, graded on a modest box-score floor once the game is final (NFL skill 25 rec / 30 rush yards, NBA 8+ points, NHL 1+ point). Contrarian tags: injury or rest news that cuts against the side with at least 10 points more of the traded action; a hit means that busy side lost. Floor Score, calibrated chance and these flags are estimates. Not betting advice. Sample sizes are still small.",
@@ -2113,23 +2113,23 @@
    "summary": {
     "wins": 24,
     "losses": 9,
-    "pending": 6,
+    "pending": 8,
     "void": 0,
     "n_graded": 33,
     "hit_rate": 72.7,
-    "record": "24-9 (6 pending)"
+    "record": "24-9 (8 pending)"
    },
    "by_slate": [
     {
      "wins": 0,
      "losses": 0,
-     "pending": 6,
+     "pending": 8,
      "void": 0,
      "n_graded": 0,
      "hit_rate": null,
-     "record": "0-0 (6 pending)",
+     "record": "0-0 (8 pending)",
      "slate": "2026-11-22",
-     "n": 6
+     "n": 8
     },
     {
      "wins": 1,
@@ -2276,11 +2276,11 @@
     {
      "wins": 2,
      "losses": 0,
-     "pending": 0,
+     "pending": 1,
      "void": 0,
      "n_graded": 2,
      "hit_rate": 100.0,
-     "record": "2-0",
+     "record": "2-0 (1 pending)",
      "key": "nba:assists"
     },
     {
@@ -2296,11 +2296,11 @@
     {
      "wins": 1,
      "losses": 1,
-     "pending": 0,
+     "pending": 1,
      "void": 0,
      "n_graded": 2,
      "hit_rate": 50.0,
-     "record": "1-1",
+     "record": "1-1 (1 pending)",
      "key": "nfl:rushing_yards"
     },
     {
@@ -2530,23 +2530,23 @@
    "summary": {
     "wins": 7,
     "losses": 0,
-    "pending": 62,
+    "pending": 64,
     "void": 7,
     "n_graded": 7,
     "hit_rate": 100.0,
-    "record": "7-0 (62 pending)"
+    "record": "7-0 (64 pending)"
    },
    "by_slate": [
     {
      "wins": 0,
      "losses": 0,
-     "pending": 8,
+     "pending": 10,
      "void": 0,
      "n_graded": 0,
      "hit_rate": null,
-     "record": "0-0 (8 pending)",
+     "record": "0-0 (10 pending)",
      "slate": "2026-11-22",
-     "n": 8
+     "n": 10
     },
     {
      "wins": 1,
@@ -2650,11 +2650,11 @@
     {
      "wins": 0,
      "losses": 0,
-     "pending": 20,
+     "pending": 22,
      "void": 0,
      "n_graded": 0,
      "hit_rate": null,
-     "record": "0-0 (20 pending)",
+     "record": "0-0 (22 pending)",
      "key": "nba:other"
     },
     {
@@ -3782,6 +3782,34 @@
      "def": "DEN",
      "rank": 30,
      "text": "Michael Mayer next up at TE if Brock Bowers sits; DEN ranks 30 vs TE."
+    },
+    {
+     "kind": "sleeper",
+     "slate": "2026-11-22",
+     "sport": "nba",
+     "game": "DET @ ATL",
+     "team": "DET",
+     "player": "Isaiah Joe",
+     "pos": "SF",
+     "out": "Duncan Robinson",
+     "status": "Out",
+     "def": "ATL",
+     "rank": 21,
+     "text": "Isaiah Joe next up at SF if Duncan Robinson sits; ATL ranks 21 vs SF."
+    },
+    {
+     "kind": "sleeper",
+     "slate": "2026-11-22",
+     "sport": "nba",
+     "game": "DAL @ UTAH",
+     "team": "DAL",
+     "player": "Naji Marshall",
+     "pos": "PF",
+     "out": "P.J. Washington",
+     "status": "Out",
+     "def": "UTAH",
+     "rank": 28,
+     "text": "Naji Marshall next up at PF if P.J. Washington sits; UTAH ranks 28 vs PF."
     }
    ]
   },
@@ -3790,23 +3818,23 @@
    "summary": {
     "wins": 16,
     "losses": 4,
-    "pending": 72,
+    "pending": 78,
     "void": 0,
     "n_graded": 20,
     "hit_rate": 80.0,
-    "record": "16-4 (72 pending)"
+    "record": "16-4 (78 pending)"
    },
    "by_slate": [
     {
      "wins": 0,
      "losses": 0,
-     "pending": 6,
+     "pending": 12,
      "void": 0,
      "n_graded": 0,
      "hit_rate": null,
-     "record": "0-0 (6 pending)",
+     "record": "0-0 (12 pending)",
      "slate": "2026-11-22",
-     "n": 6
+     "n": 12
     },
     {
      "wins": 1,
@@ -3900,21 +3928,21 @@
     {
      "wins": 6,
      "losses": 3,
-     "pending": 18,
+     "pending": 19,
      "void": 0,
      "n_graded": 9,
      "hit_rate": 66.7,
-     "record": "6-3 (18 pending)",
+     "record": "6-3 (19 pending)",
      "key": "nhl:other"
     },
     {
      "wins": 0,
      "losses": 1,
-     "pending": 32,
+     "pending": 37,
      "void": 0,
      "n_graded": 1,
      "hit_rate": 0.0,
-     "record": "0-1 (32 pending)",
+     "record": "0-1 (37 pending)",
      "key": "nba:other"
     }
    ],
@@ -4991,6 +5019,72 @@
      "busy_team": "MIN",
      "action_share_gap": 42,
      "text": "Revenge spot: VAN lost 4-2 to MIN on October 25."
+    },
+    {
+     "kind": "contrarian",
+     "slate": "2026-11-22",
+     "sport": "nba",
+     "game": "ORL @ WSH",
+     "team": "ORL",
+     "effect": "helps",
+     "busy_team": "WSH",
+     "action_share_gap": 66,
+     "text": "Revenge spot: ORL lost 103-94 to WSH on November 2."
+    },
+    {
+     "kind": "contrarian",
+     "slate": "2026-11-22",
+     "sport": "nba",
+     "game": "DAL @ UTAH",
+     "team": "DAL",
+     "effect": "hurts",
+     "busy_team": "DAL",
+     "action_share_gap": 88,
+     "text": "DAL on the second night of a back-to-back, UTAH rested 1 day."
+    },
+    {
+     "kind": "contrarian",
+     "slate": "2026-11-22",
+     "sport": "nba",
+     "game": "DAL @ UTAH",
+     "team": "UTAH",
+     "effect": "helps",
+     "busy_team": "DAL",
+     "action_share_gap": 88,
+     "text": "Revenge spot: UTAH lost 112-100 to DAL on November 6."
+    },
+    {
+     "kind": "contrarian",
+     "slate": "2026-11-22",
+     "sport": "nba",
+     "game": "IND @ NY",
+     "team": "NY",
+     "effect": "helps",
+     "busy_team": "IND",
+     "action_share_gap": 14,
+     "text": "Revenge spot: NY lost 106-104 to IND on November 13."
+    },
+    {
+     "kind": "contrarian",
+     "slate": "2026-11-22",
+     "sport": "nba",
+     "game": "BOS @ GS",
+     "team": "BOS",
+     "effect": "hurts",
+     "busy_team": "BOS",
+     "action_share_gap": 12,
+     "text": "BOS on the second night of a back-to-back, GS rested 2 days."
+    },
+    {
+     "kind": "contrarian",
+     "slate": "2026-11-22",
+     "sport": "nhl",
+     "game": "BUF @ TB",
+     "team": "BUF",
+     "effect": "helps",
+     "busy_team": "TB",
+     "action_share_gap": 50,
+     "text": "Revenge spot: BUF lost 8-3 to TB on November 11."
     }
    ]
   }
@@ -6687,11 +6781,11 @@
    {
     "wins": 2,
     "losses": 0,
-    "pending": 0,
+    "pending": 1,
     "void": 0,
     "n_graded": 2,
     "hit_rate": 100.0,
-    "record": "2-0",
+    "record": "2-0 (1 pending)",
     "key": "nba:assists"
    },
    {
@@ -6707,11 +6801,11 @@
    {
     "wins": 1,
     "losses": 1,
-    "pending": 0,
+    "pending": 1,
     "void": 0,
     "n_graded": 2,
     "hit_rate": 50.0,
-    "record": "1-1",
+    "record": "1-1 (1 pending)",
     "key": "nfl:rushing_yards"
    },
    {
