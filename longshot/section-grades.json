@@ -1,5 +1,5 @@
 {
- "pulled_az": "2026-11-21T15:32:01-07:00",
+ "pulled_az": "2026-11-22T02:34:19-07:00",
  "slate": "2026-11-21",
  "tz": "Arizona (MST)",
  "note": "Public graded record by card and by leg type. Starting November 15, the featured parlay is Deep Floor, capped at 3 legs by Floor Score, with NBA threes left out. Its record before November 15 is a backtest: the rule applied to earlier posted cards. The November 14 model ticket is graded from the morning card; Jamal Murray Over 2.5 threes was a loss, and a later swap to rebounds is not counted. Sleeper flags: next-man-up backups tagged Sleeper, graded on a modest box-score floor once the game is final (NFL skill 25 rec / 30 rush yards, NBA 8+ points, NHL 1+ point). Contrarian tags: injury or rest news that cuts against the side with at least 10 points more of the traded action; a hit means that busy side lost. Floor Score, calibrated chance and these flags are estimates. Not betting advice. Sample sizes are still small.",
@@ -11,30 +11,30 @@
   "featured": true,
   "note": "Past results apply this rule to earlier posted cards. Featured live from November 15.",
   "live_from": "2026-11-15",
-  "live": "3-3 (1 pending)",
+  "live": "3-4",
   "backtest": "6-2"
  },
  "sections": {
   "model": {
    "card": "Model",
    "summary": {
-    "wins": 62,
-    "losses": 22,
-    "pending": 3,
+    "wins": 64,
+    "losses": 23,
+    "pending": 0,
     "void": 0,
-    "n_graded": 84,
-    "hit_rate": 73.8,
-    "record": "62-22 (3 pending)"
+    "n_graded": 87,
+    "hit_rate": 73.6,
+    "record": "64-23"
    },
    "by_slate": [
     {
-     "wins": 0,
-     "losses": 0,
-     "pending": 3,
+     "wins": 2,
+     "losses": 1,
+     "pending": 0,
      "void": 0,
-     "n_graded": 0,
-     "hit_rate": null,
-     "record": "0-0 (3 pending)",
+     "n_graded": 3,
+     "hit_rate": 66.7,
+     "record": "2-1",
      "slate": "2026-11-21",
      "n": 3
     },
@@ -228,13 +228,13 @@
    ],
    "by_leg_type": [
     {
-     "wins": 26,
-     "losses": 9,
-     "pending": 3,
+     "wins": 28,
+     "losses": 10,
+     "pending": 0,
      "void": 0,
-     "n_graded": 35,
-     "hit_rate": 74.3,
-     "record": "26-9 (3 pending)",
+     "n_graded": 38,
+     "hit_rate": 73.7,
+     "record": "28-10",
      "key": "nhl:1+ points"
     },
     {
@@ -331,15 +331,15 @@
    "parlay": {
     "label": "model ticket as posted",
     "wins": 5,
-    "losses": 12,
-    "pending": 1,
-    "n_decided": 17,
-    "hit_rate": 29.4,
-    "record": "5-12 (1 pending)",
+    "losses": 13,
+    "pending": 0,
+    "n_decided": 18,
+    "hit_rate": 27.8,
+    "record": "5-13",
     "killers_by_type": [
      {
       "key": "nhl:1+ points",
-      "slates_killed": 8
+      "slates_killed": 9
      },
      {
       "key": "nba:threes",
@@ -640,37 +640,43 @@
      },
      {
       "slate": "2026-11-21",
-      "status": "pending",
-      "wins": 0,
-      "losses": 0,
-      "n_graded": 0,
-      "n_pending": 3,
-      "killers": []
+      "status": "loss",
+      "wins": 2,
+      "losses": 1,
+      "n_graded": 3,
+      "n_pending": 0,
+      "killers": [
+       {
+        "player": "Matthew Tkachuk",
+        "label": "Over 0.5 points",
+        "leg_type": "nhl:1+ points"
+       }
+      ]
      }
     ]
    },
    "note": "Official model record. The November 14 morning ticket included Jamal Murray Over 2.5 threes, a loss. A later swap to rebounds is not counted.",
    "site_reshuffle_summary": {
-    "wins": 62,
-    "losses": 22,
-    "pending": 3,
+    "wins": 64,
+    "losses": 23,
+    "pending": 0,
     "void": 0,
-    "n_graded": 84,
-    "hit_rate": 73.8,
-    "record": "62-22 (3 pending)"
+    "n_graded": 87,
+    "hit_rate": 73.6,
+    "record": "64-23"
    },
    "site_reshuffle_parlay": {
     "label": "model site ticket, later reshuffles, not official",
     "wins": 5,
-    "losses": 12,
-    "pending": 1,
-    "n_decided": 17,
-    "hit_rate": 29.4,
-    "record": "5-12 (1 pending)",
+    "losses": 13,
+    "pending": 0,
+    "n_decided": 18,
+    "hit_rate": 27.8,
+    "record": "5-13",
     "killers_by_type": [
      {
       "key": "nhl:1+ points",
-      "slates_killed": 8
+      "slates_killed": 9
      },
      {
       "key": "nba:threes",
@@ -971,24 +977,30 @@
      },
      {
       "slate": "2026-11-21",
-      "status": "pending",
-      "wins": 0,
-      "losses": 0,
-      "n_graded": 0,
-      "n_pending": 3,
-      "killers": []
+      "status": "loss",
+      "wins": 2,
+      "losses": 1,
+      "n_graded": 3,
+      "n_pending": 0,
+      "killers": [
+       {
+        "player": "Matthew Tkachuk",
+        "label": "Over 0.5 points",
+        "leg_type": "nhl:1+ points"
+       }
+      ]
      }
     ]
    },
    "site_reshuffle_by_leg_type": [
     {
-     "wins": 26,
-     "losses": 9,
-     "pending": 3,
+     "wins": 28,
+     "losses": 10,
+     "pending": 0,
      "void": 0,
-     "n_graded": 35,
-     "hit_rate": 74.3,
-     "record": "26-9 (3 pending)",
+     "n_graded": 38,
+     "hit_rate": 73.7,
+     "record": "28-10",
      "key": "nhl:1+ points"
     },
     {
@@ -1083,29 +1095,29 @@
     }
    ],
    "model_era_summary": {
-    "wins": 31,
-    "losses": 18,
-    "pending": 3,
+    "wins": 33,
+    "losses": 19,
+    "pending": 0,
     "void": 0,
-    "n_graded": 49,
-    "hit_rate": 63.3,
-    "record": "31-18 (3 pending)"
+    "n_graded": 52,
+    "hit_rate": 63.5,
+    "record": "33-19"
    },
    "model_era_parlay": {
     "label": "model ticket as posted",
     "wins": 1,
-    "losses": 9,
-    "pending": 1,
-    "n_decided": 10,
-    "hit_rate": 10.0,
-    "record": "1-9 (1 pending)",
+    "losses": 10,
+    "pending": 0,
+    "n_decided": 11,
+    "hit_rate": 9.1,
+    "record": "1-10",
     "killers_by_type": [
      {
-      "key": "nba:threes",
-      "slates_killed": 7
+      "key": "nhl:1+ points",
+      "slates_killed": 8
      },
      {
-      "key": "nhl:1+ points",
+      "key": "nba:threes",
       "slates_killed": 7
      },
      {
@@ -1305,12 +1317,18 @@
      },
      {
       "slate": "2026-11-21",
-      "status": "pending",
-      "wins": 0,
-      "losses": 0,
-      "n_graded": 0,
-      "n_pending": 3,
-      "killers": []
+      "status": "loss",
+      "wins": 2,
+      "losses": 1,
+      "n_graded": 3,
+      "n_pending": 0,
+      "killers": [
+       {
+        "player": "Matthew Tkachuk",
+        "label": "Over 0.5 points",
+        "leg_type": "nhl:1+ points"
+       }
+      ]
      }
     ]
    }
@@ -1318,23 +1336,23 @@
   "deep_floor": {
    "card": "Deep Floor",
    "summary": {
-    "wins": 63,
-    "losses": 11,
-    "pending": 5,
+    "wins": 66,
+    "losses": 13,
+    "pending": 0,
     "void": 0,
-    "n_graded": 74,
-    "hit_rate": 85.1,
-    "record": "63-11 (5 pending)"
+    "n_graded": 79,
+    "hit_rate": 83.5,
+    "record": "66-13"
    },
    "by_slate": [
     {
-     "wins": 0,
-     "losses": 0,
-     "pending": 5,
+     "wins": 3,
+     "losses": 2,
+     "pending": 0,
      "void": 0,
-     "n_graded": 0,
-     "hit_rate": null,
-     "record": "0-0 (5 pending)",
+     "n_graded": 5,
+     "hit_rate": 60.0,
+     "record": "3-2",
      "slate": "2026-11-21",
      "n": 5
     },
@@ -1495,23 +1513,23 @@
    ],
    "by_leg_type": [
     {
-     "wins": 20,
-     "losses": 3,
-     "pending": 2,
+     "wins": 21,
+     "losses": 4,
+     "pending": 0,
      "void": 0,
-     "n_graded": 23,
-     "hit_rate": 87.0,
-     "record": "20-3 (2 pending)",
+     "n_graded": 25,
+     "hit_rate": 84.0,
+     "record": "21-4",
      "key": "nhl:1+ points"
     },
     {
-     "wins": 14,
+     "wins": 15,
      "losses": 3,
-     "pending": 1,
+     "pending": 0,
      "void": 0,
-     "n_graded": 17,
-     "hit_rate": 82.4,
-     "record": "14-3 (1 pending)",
+     "n_graded": 18,
+     "hit_rate": 83.3,
+     "record": "15-3",
      "key": "nba:rebounds"
     },
     {
@@ -1545,6 +1563,16 @@
      "key": "nfl:receiving_yards"
     },
     {
+     "wins": 4,
+     "losses": 1,
+     "pending": 0,
+     "void": 0,
+     "n_graded": 5,
+     "hit_rate": 80.0,
+     "record": "4-1",
+     "key": "nba:threes"
+    },
+    {
      "wins": 3,
      "losses": 2,
      "pending": 0,
@@ -1553,16 +1581,6 @@
      "hit_rate": 60.0,
      "record": "3-2",
      "key": "nfl:rushing_yards"
-    },
-    {
-     "wins": 3,
-     "losses": 0,
-     "pending": 2,
-     "void": 0,
-     "n_graded": 3,
-     "hit_rate": 100.0,
-     "record": "3-0 (2 pending)",
-     "key": "nba:threes"
     },
     {
      "wins": 1,
@@ -1578,11 +1596,11 @@
    "parlay": {
     "label": "Deep Floor card",
     "wins": 7,
-    "losses": 7,
-    "pending": 1,
-    "n_decided": 14,
-    "hit_rate": 50.0,
-    "record": "7-7 (1 pending)",
+    "losses": 8,
+    "pending": 0,
+    "n_decided": 15,
+    "hit_rate": 46.7,
+    "record": "7-8",
     "killers_by_type": [
      {
       "key": "nba:rebounds",
@@ -1590,7 +1608,7 @@
      },
      {
       "key": "nhl:1+ points",
-      "slates_killed": 2
+      "slates_killed": 3
      },
      {
       "key": "nfl:rushing_yards",
@@ -1602,6 +1620,10 @@
      },
      {
       "key": "nfl:receiving_yards",
+      "slates_killed": 1
+     },
+     {
+      "key": "nba:threes",
       "slates_killed": 1
      }
     ],
@@ -1796,12 +1818,23 @@
      },
      {
       "slate": "2026-11-21",
-      "status": "pending",
-      "wins": 0,
-      "losses": 0,
-      "n_graded": 0,
-      "n_pending": 5,
-      "killers": []
+      "status": "loss",
+      "wins": 3,
+      "losses": 2,
+      "n_graded": 5,
+      "n_pending": 0,
+      "killers": [
+       {
+        "player": "Cam Spencer",
+        "label": "1+ threes",
+        "leg_type": "nba:threes"
+       },
+       {
+        "player": "Matthew Tkachuk",
+        "label": "1+ points",
+        "leg_type": "nhl:1+ points"
+       }
+      ]
      }
     ]
    },
@@ -1809,22 +1842,22 @@
    "featured_parlay": {
     "label": "featured parlay, Deep Floor, max 3 legs",
     "wins": 9,
-    "losses": 5,
-    "pending": 1,
-    "n_decided": 14,
-    "hit_rate": 64.3,
-    "record": "9-5 (1 pending)",
+    "losses": 6,
+    "pending": 0,
+    "n_decided": 15,
+    "hit_rate": 60.0,
+    "record": "9-6",
     "killers_by_type": [
      {
       "key": "nba:rebounds",
       "slates_killed": 3
      },
      {
-      "key": "nba:points",
-      "slates_killed": 1
+      "key": "nhl:1+ points",
+      "slates_killed": 2
      },
      {
-      "key": "nhl:1+ points",
+      "key": "nba:points",
       "slates_killed": 1
      }
     ],
@@ -1992,12 +2025,18 @@
      },
      {
       "slate": "2026-11-21",
-      "status": "pending",
-      "wins": 0,
-      "losses": 0,
-      "n_graded": 0,
-      "n_pending": 3,
-      "killers": []
+      "status": "loss",
+      "wins": 2,
+      "losses": 1,
+      "n_graded": 3,
+      "n_pending": 0,
+      "killers": [
+       {
+        "player": "Matthew Tkachuk",
+        "label": "1+ points",
+        "leg_type": "nhl:1+ points"
+       }
+      ]
      }
     ]
    }
@@ -2007,24 +2046,13 @@
    "summary": {
     "wins": 24,
     "losses": 9,
-    "pending": 9,
+    "pending": 0,
     "void": 0,
     "n_graded": 33,
     "hit_rate": 72.7,
-    "record": "24-9 (9 pending)"
+    "record": "24-9"
    },
    "by_slate": [
-    {
-     "wins": 0,
-     "losses": 0,
-     "pending": 9,
-     "void": 0,
-     "n_graded": 0,
-     "hit_rate": null,
-     "record": "0-0 (9 pending)",
-     "slate": "2026-11-21",
-     "n": 9
-    },
     {
      "wins": 1,
      "losses": 1,
@@ -2140,11 +2168,11 @@
     {
      "wins": 7,
      "losses": 3,
-     "pending": 6,
+     "pending": 0,
      "void": 0,
      "n_graded": 10,
      "hit_rate": 70.0,
-     "record": "7-3 (6 pending)",
+     "record": "7-3",
      "key": "nhl:1+ points"
     },
     {
@@ -2170,11 +2198,11 @@
     {
      "wins": 2,
      "losses": 0,
-     "pending": 1,
+     "pending": 0,
      "void": 0,
      "n_graded": 2,
      "hit_rate": 100.0,
-     "record": "2-0 (1 pending)",
+     "record": "2-0",
      "key": "nba:assists"
     },
     {
@@ -2200,11 +2228,11 @@
     {
      "wins": 2,
      "losses": 0,
-     "pending": 2,
+     "pending": 0,
      "void": 0,
      "n_graded": 2,
      "hit_rate": 100.0,
-     "record": "2-0 (2 pending)",
+     "record": "2-0",
      "key": "nhl:assists"
     },
     {
@@ -4683,22 +4711,22 @@
   "featured": {
    "label": "featured parlay, Deep Floor, max 3 legs",
    "wins": 9,
-   "losses": 5,
-   "pending": 1,
-   "n_decided": 14,
-   "hit_rate": 64.3,
-   "record": "9-5 (1 pending)",
+   "losses": 6,
+   "pending": 0,
+   "n_decided": 15,
+   "hit_rate": 60.0,
+   "record": "9-6",
    "killers_by_type": [
     {
      "key": "nba:rebounds",
      "slates_killed": 3
     },
     {
-     "key": "nba:points",
-     "slates_killed": 1
+     "key": "nhl:1+ points",
+     "slates_killed": 2
     },
     {
-     "key": "nhl:1+ points",
+     "key": "nba:points",
      "slates_killed": 1
     }
    ],
@@ -4866,23 +4894,29 @@
     },
     {
      "slate": "2026-11-21",
-     "status": "pending",
-     "wins": 0,
-     "losses": 0,
-     "n_graded": 0,
-     "n_pending": 3,
-     "killers": []
+     "status": "loss",
+     "wins": 2,
+     "losses": 1,
+     "n_graded": 3,
+     "n_pending": 0,
+     "killers": [
+      {
+       "player": "Matthew Tkachuk",
+       "label": "1+ points",
+       "leg_type": "nhl:1+ points"
+      }
+     ]
     }
    ]
   },
   "featured_live": {
    "label": "featured parlay, live from November 15",
    "wins": 3,
-   "losses": 3,
-   "pending": 1,
-   "n_decided": 6,
-   "hit_rate": 50.0,
-   "record": "3-3 (1 pending)",
+   "losses": 4,
+   "pending": 0,
+   "n_decided": 7,
+   "hit_rate": 42.9,
+   "record": "3-4",
    "killers_by_type": [
     {
      "key": "nba:rebounds",
@@ -4890,7 +4924,7 @@
     },
     {
      "key": "nhl:1+ points",
-     "slates_killed": 1
+     "slates_killed": 2
     }
    ],
    "slates": [
@@ -4973,12 +5007,18 @@
     },
     {
      "slate": "2026-11-21",
-     "status": "pending",
-     "wins": 0,
-     "losses": 0,
-     "n_graded": 0,
-     "n_pending": 3,
-     "killers": []
+     "status": "loss",
+     "wins": 2,
+     "losses": 1,
+     "n_graded": 3,
+     "n_pending": 0,
+     "killers": [
+      {
+       "player": "Matthew Tkachuk",
+       "label": "1+ points",
+       "leg_type": "nhl:1+ points"
+      }
+     ]
     }
    ]
   },
@@ -5090,11 +5130,11 @@
   "deep_floor_card": {
    "label": "Deep Floor card",
    "wins": 7,
-   "losses": 7,
-   "pending": 1,
-   "n_decided": 14,
-   "hit_rate": 50.0,
-   "record": "7-7 (1 pending)",
+   "losses": 8,
+   "pending": 0,
+   "n_decided": 15,
+   "hit_rate": 46.7,
+   "record": "7-8",
    "killers_by_type": [
     {
      "key": "nba:rebounds",
@@ -5102,7 +5142,7 @@
     },
     {
      "key": "nhl:1+ points",
-     "slates_killed": 2
+     "slates_killed": 3
     },
     {
      "key": "nfl:rushing_yards",
@@ -5114,6 +5154,10 @@
     },
     {
      "key": "nfl:receiving_yards",
+     "slates_killed": 1
+    },
+    {
+     "key": "nba:threes",
      "slates_killed": 1
     }
    ],
@@ -5308,30 +5352,41 @@
     },
     {
      "slate": "2026-11-21",
-     "status": "pending",
-     "wins": 0,
-     "losses": 0,
-     "n_graded": 0,
-     "n_pending": 5,
-     "killers": []
+     "status": "loss",
+     "wins": 3,
+     "losses": 2,
+     "n_graded": 5,
+     "n_pending": 0,
+     "killers": [
+      {
+       "player": "Cam Spencer",
+       "label": "1+ threes",
+       "leg_type": "nba:threes"
+      },
+      {
+       "player": "Matthew Tkachuk",
+       "label": "1+ points",
+       "leg_type": "nhl:1+ points"
+      }
+     ]
     }
    ]
   },
   "model_first_posted": {
    "label": "model ticket as posted",
    "wins": 1,
-   "losses": 9,
-   "pending": 1,
-   "n_decided": 10,
-   "hit_rate": 10.0,
-   "record": "1-9 (1 pending)",
+   "losses": 10,
+   "pending": 0,
+   "n_decided": 11,
+   "hit_rate": 9.1,
+   "record": "1-10",
    "killers_by_type": [
     {
-     "key": "nba:threes",
-     "slates_killed": 7
+     "key": "nhl:1+ points",
+     "slates_killed": 8
     },
     {
-     "key": "nhl:1+ points",
+     "key": "nba:threes",
      "slates_killed": 7
     },
     {
@@ -5531,27 +5586,33 @@
     },
     {
      "slate": "2026-11-21",
-     "status": "pending",
-     "wins": 0,
-     "losses": 0,
-     "n_graded": 0,
-     "n_pending": 3,
-     "killers": []
+     "status": "loss",
+     "wins": 2,
+     "losses": 1,
+     "n_graded": 3,
+     "n_pending": 0,
+     "killers": [
+      {
+       "player": "Matthew Tkachuk",
+       "label": "Over 0.5 points",
+       "leg_type": "nhl:1+ points"
+      }
+     ]
     }
    ]
   },
   "model_site": {
    "label": "model site ticket, later reshuffles, not official",
    "wins": 5,
-   "losses": 12,
-   "pending": 1,
-   "n_decided": 17,
-   "hit_rate": 29.4,
-   "record": "5-12 (1 pending)",
+   "losses": 13,
+   "pending": 0,
+   "n_decided": 18,
+   "hit_rate": 27.8,
+   "record": "5-13",
    "killers_by_type": [
     {
      "key": "nhl:1+ points",
-     "slates_killed": 8
+     "slates_killed": 9
     },
     {
      "key": "nba:threes",
@@ -5852,12 +5913,18 @@
     },
     {
      "slate": "2026-11-21",
-     "status": "pending",
-     "wins": 0,
-     "losses": 0,
-     "n_graded": 0,
-     "n_pending": 3,
-     "killers": []
+     "status": "loss",
+     "wins": 2,
+     "losses": 1,
+     "n_graded": 3,
+     "n_pending": 0,
+     "killers": [
+      {
+       "player": "Matthew Tkachuk",
+       "label": "Over 0.5 points",
+       "leg_type": "nhl:1+ points"
+      }
+     ]
     }
    ]
   }
@@ -5865,13 +5932,13 @@
  "leg_types": {
   "model_first_posted": [
    {
-    "wins": 26,
-    "losses": 9,
-    "pending": 3,
+    "wins": 28,
+    "losses": 10,
+    "pending": 0,
     "void": 0,
-    "n_graded": 35,
-    "hit_rate": 74.3,
-    "record": "26-9 (3 pending)",
+    "n_graded": 38,
+    "hit_rate": 73.7,
+    "record": "28-10",
     "key": "nhl:1+ points"
    },
    {
@@ -5967,13 +6034,13 @@
   ],
   "model_era_first_posted": [
    {
-    "wins": 16,
-    "losses": 8,
-    "pending": 3,
+    "wins": 18,
+    "losses": 9,
+    "pending": 0,
     "void": 0,
-    "n_graded": 24,
+    "n_graded": 27,
     "hit_rate": 66.7,
-    "record": "16-8 (3 pending)",
+    "record": "18-9",
     "key": "nhl:1+ points"
    },
    {
@@ -6029,13 +6096,13 @@
   ],
   "model_site": [
    {
-    "wins": 26,
-    "losses": 9,
-    "pending": 3,
+    "wins": 28,
+    "losses": 10,
+    "pending": 0,
     "void": 0,
-    "n_graded": 35,
-    "hit_rate": 74.3,
-    "record": "26-9 (3 pending)",
+    "n_graded": 38,
+    "hit_rate": 73.7,
+    "record": "28-10",
     "key": "nhl:1+ points"
    },
    {
@@ -6131,23 +6198,23 @@
   ],
   "deep_floor": [
    {
-    "wins": 20,
-    "losses": 3,
-    "pending": 2,
+    "wins": 21,
+    "losses": 4,
+    "pending": 0,
     "void": 0,
-    "n_graded": 23,
-    "hit_rate": 87.0,
-    "record": "20-3 (2 pending)",
+    "n_graded": 25,
+    "hit_rate": 84.0,
+    "record": "21-4",
     "key": "nhl:1+ points"
    },
    {
-    "wins": 14,
+    "wins": 15,
     "losses": 3,
-    "pending": 1,
+    "pending": 0,
     "void": 0,
-    "n_graded": 17,
-    "hit_rate": 82.4,
-    "record": "14-3 (1 pending)",
+    "n_graded": 18,
+    "hit_rate": 83.3,
+    "record": "15-3",
     "key": "nba:rebounds"
    },
    {
@@ -6181,6 +6248,16 @@
     "key": "nfl:receiving_yards"
    },
    {
+    "wins": 4,
+    "losses": 1,
+    "pending": 0,
+    "void": 0,
+    "n_graded": 5,
+    "hit_rate": 80.0,
+    "record": "4-1",
+    "key": "nba:threes"
+   },
+   {
     "wins": 3,
     "losses": 2,
     "pending": 0,
@@ -6189,16 +6266,6 @@
     "hit_rate": 60.0,
     "record": "3-2",
     "key": "nfl:rushing_yards"
-   },
-   {
-    "wins": 3,
-    "losses": 0,
-    "pending": 2,
-    "void": 0,
-    "n_graded": 3,
-    "hit_rate": 100.0,
-    "record": "3-0 (2 pending)",
-    "key": "nba:threes"
    },
    {
     "wins": 1,
@@ -6213,13 +6280,13 @@
   ],
   "featured_parlay": [
    {
-    "wins": 14,
+    "wins": 15,
     "losses": 3,
-    "pending": 1,
+    "pending": 0,
     "void": 0,
-    "n_graded": 17,
-    "hit_rate": 82.4,
-    "record": "14-3 (1 pending)",
+    "n_graded": 18,
+    "hit_rate": 83.3,
+    "record": "15-3",
     "key": "nba:rebounds"
    },
    {
@@ -6233,13 +6300,13 @@
     "key": "nba:assists"
    },
    {
-    "wins": 5,
-    "losses": 2,
-    "pending": 2,
+    "wins": 6,
+    "losses": 3,
+    "pending": 0,
     "void": 0,
-    "n_graded": 7,
-    "hit_rate": 71.4,
-    "record": "5-2 (2 pending)",
+    "n_graded": 9,
+    "hit_rate": 66.7,
+    "record": "6-3",
     "key": "nhl:1+ points"
    },
    {
@@ -6257,11 +6324,11 @@
    {
     "wins": 7,
     "losses": 3,
-    "pending": 6,
+    "pending": 0,
     "void": 0,
     "n_graded": 10,
     "hit_rate": 70.0,
-    "record": "7-3 (6 pending)",
+    "record": "7-3",
     "key": "nhl:1+ points"
    },
    {
@@ -6287,11 +6354,11 @@
    {
     "wins": 2,
     "losses": 0,
-    "pending": 1,
+    "pending": 0,
     "void": 0,
     "n_graded": 2,
     "hit_rate": 100.0,
-    "record": "2-0 (1 pending)",
+    "record": "2-0",
     "key": "nba:assists"
    },
    {
@@ -6317,11 +6384,11 @@
    {
     "wins": 2,
     "losses": 0,
-    "pending": 2,
+    "pending": 0,
     "void": 0,
     "n_graded": 2,
     "hit_rate": 100.0,
-    "record": "2-0 (2 pending)",
+    "record": "2-0",
     "key": "nhl:assists"
    },
    {
