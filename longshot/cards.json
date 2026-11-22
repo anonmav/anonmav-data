@@ -1,5 +1,5 @@
 {
- "updated_az": "2026-11-22T09:50:01-07:00",
+ "updated_az": "2026-11-22T11:20:01-07:00",
  "note": "Estimates from public scores, closing lines, play by play, depth charts, injury reports and our matchup engine. Not betting advice.",
  "sports": {
   "nba": {
@@ -1078,7 +1078,7 @@
        "team": "CHI",
        "pos": "SG",
        "name": "Norman Powell",
-       "status": "Day-To-Day"
+       "status": "Out"
       },
       {
        "team": "CHI",
@@ -1091,6 +1091,22 @@
        "pos": "C",
        "name": "Jalen Smith",
        "status": "Day-To-Day"
+      }
+     ],
+     "next": [
+      {
+       "team": "CHI",
+       "pos": "SG",
+       "out": "Norman Powell",
+       "status": "Out",
+       "backup": "Buddy Hield",
+       "def": "DEN",
+       "rank": 14,
+       "n": 30,
+       "v": 22.1,
+       "yds": null,
+       "unit": "pts",
+       "sleeper": false
       }
      ]
     },
@@ -1371,23 +1387,7 @@
        "team": "DAL",
        "pos": "PF",
        "name": "P.J. Washington",
-       "status": "Out"
-      }
-     ],
-     "next": [
-      {
-       "team": "DAL",
-       "pos": "PF",
-       "out": "P.J. Washington",
-       "status": "Out",
-       "backup": "Naji Marshall",
-       "def": "UTAH",
-       "rank": 28,
-       "n": 30,
-       "v": 25.1,
-       "yds": null,
-       "unit": "pts",
-       "sleeper": true
+       "status": "Day-To-Day"
       }
      ]
     },
@@ -1542,7 +1542,7 @@
        "team": "NY",
        "effect": "hurts",
        "tone": "down",
-       "text": "NY on the second night of a back-to-back, IND rested 1 day."
+       "text": "NY F OG Anunoby listed Out on the injury report."
       },
       {
        "kind": "mismatch",
@@ -1558,6 +1558,13 @@
       }
      ],
      "stories": [
+      {
+       "kind": "story",
+       "team": "NY",
+       "effect": "hurts",
+       "tone": "down",
+       "text": "NY F OG Anunoby listed Out on the injury report."
+      },
       {
        "kind": "story",
        "team": "NY",
@@ -1674,13 +1681,29 @@
        "team": "NY",
        "pos": "PF",
        "name": "OG Anunoby",
-       "status": "Day-To-Day"
+       "status": "Out"
       },
       {
        "team": "NY",
        "pos": "PF",
        "name": "Karl-Anthony Towns",
        "status": "Day-To-Day"
+      }
+     ],
+     "next": [
+      {
+       "team": "NY",
+       "pos": "PF",
+       "out": "OG Anunoby",
+       "status": "Out",
+       "backup": "Landry Shamet",
+       "def": "IND",
+       "rank": 24,
+       "n": 30,
+       "v": 23.8,
+       "yds": null,
+       "unit": "pts",
+       "sleeper": true
       }
      ]
     },
@@ -1954,29 +1977,13 @@
        "team": "BOS",
        "pos": "PG",
        "name": "Derrick White",
-       "status": "Out"
+       "status": "Day-To-Day"
       },
       {
        "team": "BOS",
        "pos": "SF",
        "name": "Jayson Tatum",
-       "status": "Out"
-      }
-     ],
-     "next": [
-      {
-       "team": "BOS",
-       "pos": "PG",
-       "out": "Derrick White",
-       "status": "Out",
-       "backup": "Payton Pritchard",
-       "def": "GS",
-       "rank": 7,
-       "n": 30,
-       "v": 23.5,
-       "yds": null,
-       "unit": "pts",
-       "sleeper": false
+       "status": "Day-To-Day"
       }
      ]
     }
@@ -2274,33 +2281,21 @@
      "changes": [
       {
        "team": "MIA",
-       "pos": "C",
-       "name": "Aaron Brewer",
-       "status": "Questionable"
-      },
-      {
-       "team": "MIA",
        "pos": "S",
        "name": "Dante Trader Jr.",
-       "status": "Doubtful"
+       "status": "Out"
       },
       {
        "team": "BUF",
        "pos": "TE",
        "name": "Dalton Kincaid",
-       "status": "Doubtful"
+       "status": "Out"
       },
       {
        "team": "BUF",
        "pos": "DE",
        "name": "T.J. Sanders",
-       "status": "Questionable"
-      },
-      {
-       "team": "BUF",
-       "pos": "DE",
-       "name": "Ed Oliver",
-       "status": "Questionable"
+       "status": "Out"
       },
       {
        "team": "BUF",
@@ -2320,7 +2315,7 @@
        "team": "BUF",
        "pos": "TE",
        "out": "Dalton Kincaid",
-       "status": "Doubtful",
+       "status": "Out",
        "backup": "Dawson Knox",
        "def": "MIA",
        "rank": 26,
@@ -2629,7 +2624,7 @@
        "team": "NO",
        "pos": "LB",
        "name": "Pete Werner",
-       "status": "Questionable"
+       "status": "Out"
       },
       {
        "team": "NO",
@@ -2934,14 +2929,8 @@
      "changes": [
       {
        "team": "TEN",
-       "pos": "WR",
-       "name": "Carnell Tate",
-       "status": "Questionable"
-      },
-      {
-       "team": "TEN",
-       "pos": "LB",
-       "name": "Anthony Hill Jr.",
+       "pos": "S",
+       "name": "Tony Adams",
        "status": "Questionable"
       },
       {
@@ -2964,20 +2953,6 @@
       }
      ],
      "next": [
-      {
-       "team": "TEN",
-       "pos": "WR",
-       "out": "Carnell Tate",
-       "status": "Questionable",
-       "backup": "Xavier Restrepo",
-       "def": "DAL",
-       "rank": 27,
-       "n": 32,
-       "v": 35.9,
-       "yds": 172.3,
-       "unit": "pts",
-       "sleeper": true
-      },
       {
        "team": "DAL",
        "pos": "TE",
@@ -3283,18 +3258,6 @@
      "changes": [
       {
        "team": "TB",
-       "pos": "QB",
-       "name": "Baker Mayfield",
-       "status": "Questionable"
-      },
-      {
-       "team": "TB",
-       "pos": "LB",
-       "name": "Yaya Diaby",
-       "status": "Questionable"
-      },
-      {
-       "team": "TB",
        "pos": "S",
        "name": "Antoine Winfield Jr.",
        "status": "Out"
@@ -3303,23 +3266,7 @@
        "team": "DET",
        "pos": "CB",
        "name": "D.J. Reed",
-       "status": "Questionable"
-      }
-     ],
-     "next": [
-      {
-       "team": "TB",
-       "pos": "QB",
-       "out": "Baker Mayfield",
-       "status": "Questionable",
-       "backup": "Jalon Daniels",
-       "def": "DET",
-       "rank": 32,
-       "n": 32,
-       "v": 21.0,
-       "yds": 287.3,
-       "unit": "pts",
-       "sleeper": true
+       "status": "Out"
       }
      ]
     },
@@ -3620,6 +3567,18 @@
        "team": "KC",
        "pos": "RB",
        "name": "Kenneth Walker III",
+       "status": "Out"
+      },
+      {
+       "team": "KC",
+       "pos": "RG",
+       "name": "Trey Smith",
+       "status": "Out"
+      },
+      {
+       "team": "KC",
+       "pos": "RT",
+       "name": "Jaylon Moore",
        "status": "Out"
       }
      ],
@@ -3939,43 +3898,7 @@
        "scheme": "3-4 base, blitzes 28% of dropbacks (avg 32%)",
        "games": 9
       }
-     },
-     "changes": [
-      {
-       "team": "PIT",
-       "pos": "WR",
-       "name": "Roman Wilson",
-       "status": "Questionable"
-      },
-      {
-       "team": "PIT",
-       "pos": "LB",
-       "name": "Patrick Queen",
-       "status": "Questionable"
-      },
-      {
-       "team": "PIT",
-       "pos": "S",
-       "name": "DeShon Elliott",
-       "status": "Questionable"
-      }
-     ],
-     "next": [
-      {
-       "team": "PIT",
-       "pos": "WR",
-       "out": "Roman Wilson",
-       "status": "Questionable",
-       "backup": "Max Hurleman",
-       "def": "PHI",
-       "rank": 30,
-       "n": 32,
-       "v": 37.9,
-       "yds": 179.1,
-       "unit": "pts",
-       "sleeper": true
-      }
-     ]
+     }
     },
     "BAL @ CAR": {
      "trend": {
@@ -4284,18 +4207,6 @@
       },
       {
        "team": "CAR",
-       "pos": "TE",
-       "name": "Tommy Tremble",
-       "status": "Questionable"
-      },
-      {
-       "team": "CAR",
-       "pos": "TE",
-       "name": "Darren Waller",
-       "status": "Questionable"
-      },
-      {
-       "team": "CAR",
        "pos": "LB",
        "name": "Bobby Okereke",
        "status": "Out"
@@ -4303,24 +4214,8 @@
       {
        "team": "CAR",
        "pos": "CB",
-       "name": "Mike Jackson",
-       "status": "Questionable"
-      }
-     ],
-     "next": [
-      {
-       "team": "CAR",
-       "pos": "TE",
-       "out": "Tommy Tremble",
-       "status": "Questionable",
-       "backup": "Darren Waller",
-       "def": "BAL",
-       "rank": 16,
-       "n": 32,
-       "v": 12.9,
-       "yds": 49.3,
-       "unit": "pts",
-       "sleeper": false
+       "name": "Marco Wilson",
+       "status": "Out"
       }
      ]
     },
@@ -5321,7 +5216,15 @@
        "scheme": "3-4 base, blitzes 40% of dropbacks (avg 32%)",
        "games": 9
       }
-     }
+     },
+     "changes": [
+      {
+       "team": "JAX",
+       "pos": "C",
+       "name": "Robert Hainsey",
+       "status": "Out"
+      }
+     ]
     },
     "CIN @ WSH": {
      "trend": {
@@ -5630,12 +5533,6 @@
        "pos": "LG",
        "name": "Dylan Fairchild",
        "status": "Questionable"
-      },
-      {
-       "team": "CIN",
-       "pos": "RG",
-       "name": "Dalton Risner",
-       "status": "Out"
       },
       {
        "team": "CIN",
