@@ -1,5 +1,5 @@
 {
- "pulled_az": "2026-11-22T15:31:25-07:00",
+ "pulled_az": "2026-11-23T02:35:37-07:00",
  "start": "2026-11-17",
  "note": "High Floor forward test. Started November 17, 2026 at 0-0. Singles only, locked at publish, graded daily.",
  "rule": [
@@ -11,38 +11,38 @@
   "Floor scores, market chances and defense ranks are estimates. No stakes or profit are tracked. Not betting advice."
  ],
  "summary": {
-  "wins": 11,
-  "losses": 5,
+  "wins": 14,
+  "losses": 6,
   "void": 1,
-  "pending": 4,
-  "graded": 16,
+  "pending": 0,
+  "graded": 20,
   "target": 300,
-  "hit_rate": 68.8,
-  "market_avg_pct": 58.4,
-  "gap_pts": 10.4
+  "hit_rate": 70.0,
+  "market_avg_pct": 58.5,
+  "gap_pts": 11.5
  },
  "splits": {
   "soft_matchup": {
-   "wins": 3,
+   "wins": 5,
    "losses": 1,
    "void": 1,
-   "pending": 2,
-   "graded": 4,
+   "pending": 0,
+   "graded": 6,
    "target": 300,
-   "hit_rate": 75.0,
-   "market_avg_pct": 59.5,
-   "gap_pts": 15.5
+   "hit_rate": 83.3,
+   "market_avg_pct": 59.3,
+   "gap_pts": 24.0
   },
   "other_matchup": {
-   "wins": 8,
-   "losses": 4,
+   "wins": 9,
+   "losses": 5,
    "void": 0,
-   "pending": 2,
-   "graded": 12,
+   "pending": 0,
+   "graded": 14,
    "target": 300,
-   "hit_rate": 66.7,
+   "hit_rate": 64.3,
    "market_avg_pct": 58.1,
-   "gap_pts": 8.6
+   "gap_pts": 6.2
   },
   "no_rank": {
    "wins": 0,
@@ -59,36 +59,36 @@
  "by_sport": {
   "nba": {
    "wins": 2,
-   "losses": 0,
+   "losses": 1,
    "void": 0,
-   "pending": 1,
-   "graded": 2,
+   "pending": 0,
+   "graded": 3,
    "target": 300,
-   "hit_rate": 100.0,
-   "market_avg_pct": 50.0,
-   "gap_pts": 50.0
+   "hit_rate": 66.7,
+   "market_avg_pct": 50.3,
+   "gap_pts": 16.4
   },
   "nhl": {
-   "wins": 9,
+   "wins": 11,
    "losses": 5,
    "void": 1,
-   "pending": 2,
-   "graded": 14,
+   "pending": 0,
+   "graded": 16,
    "target": 300,
-   "hit_rate": 64.3,
-   "market_avg_pct": 59.6,
-   "gap_pts": 4.7
+   "hit_rate": 68.8,
+   "market_avg_pct": 60.1,
+   "gap_pts": 8.7
   },
   "nfl": {
-   "wins": 0,
+   "wins": 1,
    "losses": 0,
    "void": 0,
-   "pending": 1,
-   "graded": 0,
+   "pending": 0,
+   "graded": 1,
    "target": 300,
-   "hit_rate": null,
-   "market_avg_pct": null,
-   "gap_pts": null
+   "hit_rate": 100.0,
+   "market_avg_pct": 56.0,
+   "gap_pts": 44.0
   }
  },
  "days": [
@@ -135,10 +135,10 @@
   {
    "slate": "2026-11-22",
    "legs": 4,
-   "wins": 0,
-   "losses": 0,
+   "wins": 3,
+   "losses": 1,
    "void": 0,
-   "pending": 4
+   "pending": 0
   }
  ],
  "losses": [
@@ -181,6 +181,14 @@
    "result": 0.0,
    "sport": "nhl",
    "game": "BUF @ FLA"
+  },
+  {
+   "slate": "2026-11-22",
+   "player": "Davion Mitchell",
+   "label": "Over 14.5 points",
+   "result": 14.0,
+   "sport": "nba",
+   "game": "OKC @ MIA"
   }
  ],
  "legs": [
@@ -1123,7 +1131,10 @@
     "soft": true,
     "text": "CHI goals allowed: 31 of 32 (32 = softest). Team level only, no NHL position rank."
    },
-   "def_logged_az": "2026-11-22T07:20:49-07:00"
+   "def_logged_az": "2026-11-22T07:20:49-07:00",
+   "grade": "win",
+   "result": 1.0,
+   "graded_az": "2026-11-23T02:30:29-07:00"
   },
   {
    "id": "2026-11-22:nfl:4361307:receptions",
@@ -1177,7 +1188,10 @@
    },
    "def_logged_az": "2026-11-22T07:01:58-07:00",
    "would_exclude": [],
-   "flags_checked_az": "2026-11-22T07:01:58-07:00"
+   "flags_checked_az": "2026-11-22T07:01:58-07:00",
+   "grade": "win",
+   "result": 9.0,
+   "graded_az": "2026-11-23T02:31:00-07:00"
   },
   {
    "id": "2026-11-22:nba:4278053:points",
@@ -1236,7 +1250,10 @@
     "soft": false,
     "text": "OKC defense vs PG 3 and SG 10 of 30 on points allowed (30 = softest)"
    },
-   "def_logged_az": "2026-11-22T07:20:50-07:00"
+   "def_logged_az": "2026-11-22T07:20:50-07:00",
+   "grade": "loss",
+   "result": 14.0,
+   "graded_az": "2026-11-23T02:30:08-07:00"
   },
   {
    "id": "2026-11-22:nhl:3895074:assists",
@@ -1290,7 +1307,10 @@
     "soft": false,
     "text": "STL goals allowed: 17 of 32 (32 = softest). Team level only, no NHL position rank."
    },
-   "def_logged_az": "2026-11-22T07:20:50-07:00"
+   "def_logged_az": "2026-11-22T07:20:50-07:00",
+   "grade": "win",
+   "result": 1.0,
+   "graded_az": "2026-11-23T02:30:31-07:00"
   }
  ],
  "split_note": "Soft matchup means the opponent ranks in the softest ten of the league at the position (team level for NHL). Ranks are estimates."
