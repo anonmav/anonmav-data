@@ -1,5 +1,5 @@
 {
- "updated_az": "2026-11-23T11:20:02-07:00",
+ "updated_az": "2026-11-23T15:20:01-07:00",
  "note": "Estimates from public scores, closing lines, play by play, depth charts, injury reports and our matchup engine. Not betting advice.",
  "sports": {
   "nba": {
@@ -255,12 +255,6 @@
        "pos": "PF",
        "name": "Cameron Boozer",
        "status": "Out"
-      },
-      {
-       "team": "CHA",
-       "pos": "SG",
-       "name": "Brandon Miller",
-       "status": "Day-To-Day"
       },
       {
        "team": "CHA",
@@ -818,15 +812,51 @@
      "changes": [
       {
        "team": "OKC",
-       "pos": "PG",
-       "name": "Shai Gilgeous-Alexander",
-       "status": "Day-To-Day"
+       "pos": "PF",
+       "name": "Aday Mara",
+       "status": "Out"
       },
+      {
+       "team": "IND",
+       "pos": "SF",
+       "name": "Aaron Nesmith",
+       "status": "Out"
+      },
+      {
+       "team": "IND",
+       "pos": "PF",
+       "name": "Pascal Siakam",
+       "status": "Day-To-Day"
+      }
+     ],
+     "next": [
       {
        "team": "OKC",
        "pos": "PF",
-       "name": "Aday Mara",
-       "status": "Day-To-Day"
+       "out": "Aday Mara",
+       "status": "Out",
+       "backup": "Kenrich Williams",
+       "def": "IND",
+       "rank": 26,
+       "n": 30,
+       "v": 24.4,
+       "yds": null,
+       "unit": "pts",
+       "sleeper": true
+      },
+      {
+       "team": "IND",
+       "pos": "SF",
+       "out": "Aaron Nesmith",
+       "status": "Out",
+       "backup": "Jarace Walker",
+       "def": "OKC",
+       "rank": 21,
+       "n": 30,
+       "v": 22.6,
+       "yds": null,
+       "unit": "pts",
+       "sleeper": true
       }
      ]
     },
@@ -1640,6 +1670,12 @@
        "pos": "SG",
        "name": "Norman Powell",
        "status": "Out"
+      },
+      {
+       "team": "CHI",
+       "pos": "C",
+       "name": "Jalen Smith",
+       "status": "Day-To-Day"
       }
      ],
      "next": [
@@ -1929,12 +1965,6 @@
        "pos": "SG",
        "name": "Dejounte Murray",
        "status": "Out"
-      },
-      {
-       "team": "NO",
-       "pos": "SG",
-       "name": "Trey Murphy III",
-       "status": "Day-To-Day"
       },
       {
        "team": "NO",
@@ -2352,7 +2382,7 @@
        "kind": "mismatch",
        "team": "UTAH",
        "tone": "up",
-       "text": "Jaxson Hayes (UTAH, 6.4 reb): LAL allows 15.9 rebounds to C (+9% vs avg), game pace +1%."
+       "text": "Mo Bamba (UTAH, 6.9 reb): LAL allows 15.9 rebounds to C (+9% vs avg), game pace +1%."
       },
       {
        "kind": "mismatch",
@@ -2472,7 +2502,7 @@
        "team": "UTAH",
        "pos": "C",
        "name": "Jaxson Hayes",
-       "status": "Day-To-Day"
+       "status": "Out"
       },
       {
        "team": "LAL",
@@ -2482,6 +2512,20 @@
       }
      ],
      "next": [
+      {
+       "team": "UTAH",
+       "pos": "C",
+       "out": "Jaxson Hayes",
+       "status": "Out",
+       "backup": "Mo Bamba",
+       "def": "LAL",
+       "rank": 14,
+       "n": 30,
+       "v": 20.5,
+       "yds": null,
+       "unit": "pts",
+       "sleeper": false
+      },
       {
        "team": "LAL",
        "pos": "SG",
@@ -3142,22 +3186,6 @@
        "pos": "CB",
        "name": "Amik Robertson",
        "status": "Questionable"
-      }
-     ],
-     "next": [
-      {
-       "team": "WSH",
-       "pos": "RB",
-       "out": "Rachaad White",
-       "status": "Questionable",
-       "backup": "Austin Ekeler",
-       "def": "CIN",
-       "rank": 14,
-       "n": 32,
-       "v": 20.8,
-       "yds": 120.6,
-       "unit": "pts",
-       "sleeper": false
       }
      ]
     }
