@@ -1,5 +1,5 @@
 {
- "updated_az": "2026-11-23T07:20:02-07:00",
+ "updated_az": "2026-11-23T11:20:02-07:00",
  "note": "Estimates from public scores, closing lines, play by play, depth charts, injury reports and our matchup engine. Not betting advice.",
  "sports": {
   "nba": {
@@ -556,6 +556,12 @@
        "pos": "SF",
        "name": "Jaylen Brown",
        "status": "Day-To-Day"
+      },
+      {
+       "team": "PHI",
+       "pos": "C",
+       "name": "Joel Embiid",
+       "status": "Day-To-Day"
       }
      ]
     },
@@ -814,43 +820,13 @@
        "team": "OKC",
        "pos": "PG",
        "name": "Shai Gilgeous-Alexander",
-       "status": "Out"
+       "status": "Day-To-Day"
       },
       {
        "team": "OKC",
        "pos": "PF",
        "name": "Aday Mara",
-       "status": "Out"
-      }
-     ],
-     "next": [
-      {
-       "team": "OKC",
-       "pos": "PG",
-       "out": "Shai Gilgeous-Alexander",
-       "status": "Out",
-       "backup": "Bennett Stirtz",
-       "def": "IND",
-       "rank": 13,
-       "n": 30,
-       "v": 24.8,
-       "yds": null,
-       "unit": "pts",
-       "sleeper": false
-      },
-      {
-       "team": "OKC",
-       "pos": "PF",
-       "out": "Aday Mara",
-       "status": "Out",
-       "backup": "Kenrich Williams",
-       "def": "IND",
-       "rank": 26,
-       "n": 30,
-       "v": 24.4,
-       "yds": null,
-       "unit": "pts",
-       "sleeper": true
+       "status": "Day-To-Day"
       }
      ]
     },
@@ -1122,31 +1098,9 @@
      "changes": [
       {
        "team": "TOR",
-       "pos": "SF",
-       "name": "RJ Barrett",
-       "status": "Out"
-      },
-      {
-       "team": "TOR",
        "pos": "PF",
        "name": "Collin Murray-Boyles",
        "status": "Day-To-Day"
-      }
-     ],
-     "next": [
-      {
-       "team": "TOR",
-       "pos": "SF",
-       "out": "RJ Barrett",
-       "status": "Out",
-       "backup": "Jamison Battle",
-       "def": "MIL",
-       "rank": 24,
-       "n": 30,
-       "v": 22.8,
-       "yds": null,
-       "unit": "pts",
-       "sleeper": true
       }
      ]
     },
@@ -1399,31 +1353,7 @@
         }
        ]
       }
-     },
-     "changes": [
-      {
-       "team": "BKN",
-       "pos": "PG",
-       "name": "Nolan Traore",
-       "status": "Out"
-      }
-     ],
-     "next": [
-      {
-       "team": "BKN",
-       "pos": "PG",
-       "out": "Nolan Traore",
-       "status": "Out",
-       "backup": "Mikel Brown Jr.",
-       "def": "MIN",
-       "rank": 19,
-       "n": 30,
-       "v": 26.5,
-       "yds": null,
-       "unit": "pts",
-       "sleeper": false
-      }
-     ]
+     }
     },
     "CLE @ CHI": {
      "trend": {
@@ -2422,7 +2352,7 @@
        "kind": "mismatch",
        "team": "UTAH",
        "tone": "up",
-       "text": "Mo Bamba (UTAH, 6.9 reb): LAL allows 15.9 rebounds to C (+9% vs avg), game pace +1%."
+       "text": "Jaxson Hayes (UTAH, 6.4 reb): LAL allows 15.9 rebounds to C (+9% vs avg), game pace +1%."
       },
       {
        "kind": "mismatch",
@@ -2542,7 +2472,7 @@
        "team": "UTAH",
        "pos": "C",
        "name": "Jaxson Hayes",
-       "status": "Out"
+       "status": "Day-To-Day"
       },
       {
        "team": "LAL",
@@ -2552,20 +2482,6 @@
       }
      ],
      "next": [
-      {
-       "team": "UTAH",
-       "pos": "C",
-       "out": "Jaxson Hayes",
-       "status": "Out",
-       "backup": "Mo Bamba",
-       "def": "LAL",
-       "rank": 14,
-       "n": 30,
-       "v": 20.5,
-       "yds": null,
-       "unit": "pts",
-       "sleeper": false
-      },
       {
        "team": "LAL",
        "pos": "SG",
@@ -3841,18 +3757,10 @@
        "kind": "mismatch",
        "team": "CGY",
        "tone": "down",
-       "text": "Martin Pospisil (CGY, 10 pts in 24 gp): likely goalie Linus Ullmark 0.937 sv% (12 starts, lg 0.891), OTT allows 25.7 shots/gm (lg 27.4)."
+       "text": "Zayne Parekh (CGY, 10 pts in 24 gp): likely goalie Linus Ullmark 0.937 sv% (12 starts, lg 0.891), OTT allows 25.7 shots/gm (lg 27.4)."
       }
      ],
      "stories": [],
-     "changes": [
-      {
-       "team": "CGY",
-       "pos": "C",
-       "name": "Martin Pospisil",
-       "status": "Day-To-Day"
-      }
-     ],
      "grid": {
       "CGY": {
        "n": 32,
