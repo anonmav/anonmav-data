@@ -1,6 +1,6 @@
 {
- "pulled_az": "2026-11-22T07:01:09-07:00",
- "slate": "2026-11-22",
+ "pulled_az": "2026-11-23T07:02:04-07:00",
+ "slate": "2026-11-23",
  "tz": "Arizona (MST)",
  "card": "Deep Floor",
  "note": "Conservative listed thresholds. A pick needs a Floor Score of 90 or better. Floor Scores are estimates. Losses are listed with their dates. No Deep Floor card was posted November 10-13, 2026, while the board used model lines.",
@@ -21,8 +21,8 @@
   "yellow": 75
  },
  "summary": {
-  "wins": 66,
-  "losses": 13,
+  "wins": 71,
+  "losses": 14,
   "pending": 6,
   "void": 0
  },
@@ -1406,7 +1406,10 @@
    "label": "2+ assists",
    "line": 1.5,
    "score": 100,
-   "posted_az": "2026-11-22T07:01:09-07:00"
+   "posted_az": "2026-11-22T07:01:09-07:00",
+   "result": 5.0,
+   "grade": "win",
+   "graded_az": "2026-11-23T02:33:58-07:00"
   },
   {
    "id": "deep:2026-11-22:nba:4871145:assists",
@@ -1423,7 +1426,10 @@
    "label": "4+ assists",
    "line": 3.5,
    "score": 100,
-   "posted_az": "2026-11-22T07:01:09-07:00"
+   "posted_az": "2026-11-22T07:01:09-07:00",
+   "result": 22.0,
+   "grade": "win",
+   "graded_az": "2026-11-23T02:33:58-07:00"
   },
   {
    "id": "deep:2026-11-22:nba:4278039:totalRebounds",
@@ -1440,7 +1446,10 @@
    "label": "2+ rebounds",
    "line": 1.5,
    "score": 100,
-   "posted_az": "2026-11-22T07:01:09-07:00"
+   "posted_az": "2026-11-22T07:01:09-07:00",
+   "result": 2.0,
+   "grade": "win",
+   "graded_az": "2026-11-23T02:33:57-07:00"
   },
   {
    "id": "deep:2026-11-22:nfl:3042519:rushingYards",
@@ -1457,7 +1466,10 @@
    "label": "15+ rushing yards",
    "line": 14.5,
    "score": 97.0,
-   "posted_az": "2026-11-22T07:01:09-07:00"
+   "posted_az": "2026-11-22T07:01:09-07:00",
+   "result": 30.0,
+   "grade": "win",
+   "graded_az": "2026-11-23T02:34:38-07:00"
   },
   {
    "id": "deep:2026-11-22:nfl:4596448:rushingYards",
@@ -1474,7 +1486,10 @@
    "label": "40+ rushing yards",
    "line": 39.5,
    "score": 97.0,
-   "posted_az": "2026-11-22T07:01:09-07:00"
+   "posted_az": "2026-11-22T07:01:09-07:00",
+   "result": 68.0,
+   "grade": "win",
+   "graded_az": "2026-11-23T02:34:36-07:00"
   },
   {
    "id": "deep:2026-11-22:nfl:3117251:receivingYards",
@@ -1491,7 +1506,112 @@
    "label": "15+ receiving yards",
    "line": 14.5,
    "score": 97.0,
-   "posted_az": "2026-11-22T07:01:09-07:00"
+   "posted_az": "2026-11-22T07:01:09-07:00",
+   "result": 13.0,
+   "grade": "loss",
+   "graded_az": "2026-11-23T02:34:37-07:00"
+  },
+  {
+   "id": "deep:2026-11-23:nba:3908809:totalRebounds",
+   "slate": "2026-11-23",
+   "sport": "nba",
+   "event_id": "401910041",
+   "game": "CLE @ CHI",
+   "start_utc": "2026-11-24T01:00:00+00:00",
+   "start_az": "6:00 PM",
+   "athlete_id": "3908809",
+   "player": "Donovan Mitchell",
+   "team": "CLE",
+   "stat": "totalRebounds",
+   "label": "2+ rebounds",
+   "line": 1.5,
+   "score": 100,
+   "posted_az": "2026-11-23T07:02:04-07:00"
+  },
+  {
+   "id": "deep:2026-11-23:nba:3059318:totalRebounds",
+   "slate": "2026-11-23",
+   "sport": "nba",
+   "event_id": "401910037",
+   "game": "POR @ PHI",
+   "start_utc": "2026-11-24T00:00:00+00:00",
+   "start_az": "5:00 PM",
+   "athlete_id": "3059318",
+   "player": "Joel Embiid",
+   "team": "PHI",
+   "stat": "totalRebounds",
+   "label": "4+ rebounds",
+   "line": 3.5,
+   "score": 100,
+   "posted_az": "2026-11-23T07:02:04-07:00"
+  },
+  {
+   "id": "deep:2026-11-23:nba:4396971:totalRebounds",
+   "slate": "2026-11-23",
+   "sport": "nba",
+   "event_id": "401910036",
+   "game": "MEM @ CHA",
+   "start_utc": "2026-11-24T00:00:00+00:00",
+   "start_az": "5:00 PM",
+   "athlete_id": "4396971",
+   "player": "Naz Reid",
+   "team": "CHA",
+   "stat": "totalRebounds",
+   "label": "4+ rebounds",
+   "line": 3.5,
+   "score": 100,
+   "posted_az": "2026-11-23T07:02:04-07:00"
+  },
+  {
+   "id": "deep:2026-11-23:nfl:4362238:rushingYards",
+   "slate": "2026-11-23",
+   "sport": "nfl",
+   "event_id": "401873078",
+   "game": "CIN @ WSH",
+   "start_utc": "2026-11-24T01:15:00+00:00",
+   "start_az": "6:15 PM",
+   "athlete_id": "4362238",
+   "player": "Chase Brown",
+   "team": "CIN",
+   "stat": "rushingYards",
+   "label": "25+ rushing yards",
+   "line": 24.5,
+   "score": 92.0,
+   "posted_az": "2026-11-23T07:02:04-07:00"
+  },
+  {
+   "id": "deep:2026-11-23:nfl:3915511:passingTouchdowns",
+   "slate": "2026-11-23",
+   "sport": "nfl",
+   "event_id": "401873078",
+   "game": "CIN @ WSH",
+   "start_utc": "2026-11-24T01:15:00+00:00",
+   "start_az": "6:15 PM",
+   "athlete_id": "3915511",
+   "player": "Joe Burrow",
+   "team": "CIN",
+   "stat": "passingTouchdowns",
+   "label": "1+ passing TDs",
+   "line": 0.5,
+   "score": 97.0,
+   "posted_az": "2026-11-23T07:02:04-07:00"
+  },
+  {
+   "id": "deep:2026-11-23:nfl:2976212:receptions",
+   "slate": "2026-11-23",
+   "sport": "nfl",
+   "event_id": "401873078",
+   "game": "CIN @ WSH",
+   "start_utc": "2026-11-24T01:15:00+00:00",
+   "start_az": "6:15 PM",
+   "athlete_id": "2976212",
+   "player": "Stefon Diggs",
+   "team": "WSH",
+   "stat": "receptions",
+   "label": "3+ receptions",
+   "line": 2.5,
+   "score": 95.0,
+   "posted_az": "2026-11-23T07:02:04-07:00"
   }
  ]
 }

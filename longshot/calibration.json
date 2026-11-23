@@ -1,16 +1,16 @@
 {
- "pulled_az": "2026-11-22T07:00:01-07:00",
+ "pulled_az": "2026-11-23T07:00:01-07:00",
  "model_status": {
-  "beats_market": false,
-  "calibrated_logloss": 0.6649,
-  "market_logloss": 0.6643,
-  "n_train": 2712,
-  "text": "The market is still more accurate than our model on recent graded legs, so treat Edge as tracking only."
+  "beats_market": true,
+  "calibrated_logloss": 0.6694,
+  "market_logloss": 0.6702,
+  "n_train": 4104,
+  "text": "Model beats the market on recent graded legs."
  },
  "weights_version": "default-2026-11-09",
- "graded": 4734,
- "hits": 2188,
- "hit_rate": 0.462,
+ "graded": 5131,
+ "hits": 2381,
+ "hit_rate": 0.464,
  "bands": [
   {
    "band": "90+",
@@ -23,37 +23,37 @@
   },
   {
    "band": "80-89",
-   "legs": 20,
-   "hits": 15,
-   "hit_rate": 0.75,
-   "avg_model": 0.753,
-   "avg_market": 0.672,
+   "legs": 22,
+   "hits": 17,
+   "hit_rate": 0.773,
+   "avg_model": 0.746,
+   "avg_market": 0.67,
    "early": true
   },
   {
    "band": "70-79",
-   "legs": 192,
-   "hits": 125,
-   "hit_rate": 0.651,
-   "avg_model": 0.678,
-   "avg_market": 0.615,
+   "legs": 204,
+   "hits": 132,
+   "hit_rate": 0.647,
+   "avg_model": 0.675,
+   "avg_market": 0.613,
    "early": false
   },
   {
    "band": "60-69",
-   "legs": 531,
-   "hits": 289,
-   "hit_rate": 0.544,
-   "avg_model": 0.605,
-   "avg_market": 0.558,
+   "legs": 570,
+   "hits": 315,
+   "hit_rate": 0.553,
+   "avg_model": 0.602,
+   "avg_market": 0.557,
    "early": false
   },
   {
    "band": "<60",
-   "legs": 3991,
-   "hits": 1759,
-   "hit_rate": 0.441,
-   "avg_model": 0.43,
+   "legs": 4335,
+   "hits": 1917,
+   "hit_rate": 0.442,
+   "avg_model": 0.431,
    "avg_market": 0.447,
    "early": false
   }
@@ -81,7 +81,8 @@
   "2026-11-18",
   "2026-11-19",
   "2026-11-20",
-  "2026-11-21"
+  "2026-11-21",
+  "2026-11-22"
  ],
  "note": "Nov 3 to 8 are a back-fill: the players we rated those days, re-scored with our starting weights against that day's real consensus line, then graded from the box score."
 }

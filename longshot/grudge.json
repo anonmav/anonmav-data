@@ -1,6 +1,6 @@
 {
- "pulled_az": "2026-11-22T07:01:49-07:00",
- "slate": "2026-11-22",
+ "pulled_az": "2026-11-23T07:02:38-07:00",
+ "slate": "2026-11-23",
  "tz": "Arizona (MST)",
  "card": "Grudge",
  "note": "Quiet last game against a line the player usually clears. Season hit rate and Floor Score are estimates.",
@@ -28,84 +28,49 @@
  },
  "top": {
   "nba": [],
-  "nhl": [],
-  "nfl": [
+  "nhl": [
    {
-    "id": "2026-11-22:nfl:15847:receivingYards",
-    "sport": "nfl",
-    "event_id": "401873067",
-    "game": "ARI @ KC",
-    "start_utc": "2026-11-22T18:00:00+00:00",
-    "start_az": "11:00 AM",
-    "athlete_id": "15847",
-    "player": "Travis Kelce",
-    "team": "KC",
-    "stat": "receivingYards",
-    "label": "Over 41.5 receiving yards",
-    "line": 41.5,
-    "avg": 56.89,
-    "last": 30.0,
-    "l5": [
-     30.0,
-     72.0,
-     67.0,
-     44.0,
-     53.0
-    ],
-    "hit_season": 0.778,
-    "hit_l5": 0.8,
-    "games": 9,
-    "score": 63.8,
-    "cushion": 15.4,
-    "notes": [
-     "L10 7/9 over",
-     "L5 4/5 over",
-     "blowout risk",
-     "soft opponent defense"
-    ],
-    "market_pct": 50,
-    "first_seen": "2026-11-22T07:00:01-07:00"
-   },
-   {
-    "id": "2026-11-22:nfl:4373626:receptions",
-    "sport": "nfl",
-    "event_id": "401873067",
-    "game": "ARI @ KC",
-    "start_utc": "2026-11-22T18:00:00+00:00",
-    "start_az": "11:00 AM",
-    "athlete_id": "4373626",
-    "player": "Tyler Allgeier",
-    "team": "ARI",
-    "stat": "receptions",
-    "label": "Over 1.5 receptions",
-    "line": 1.5,
-    "avg": 2.3,
+    "id": "2026-11-23:nhl:4565262:points",
+    "sport": "nhl",
+    "event_id": "401892778",
+    "game": "ANA @ SEA",
+    "start_utc": "2026-11-24T02:40:00+00:00",
+    "start_az": "7:40 PM",
+    "athlete_id": "4565262",
+    "player": "Jackson LaCombe",
+    "team": "ANA",
+    "stat": "points",
+    "label": "Over 0.5 points",
+    "line": 0.5,
+    "avg": 1.04,
     "last": 0.0,
     "l5": [
      0.0,
-     2.0,
-     5.0,
+     0.0,
      3.0,
-     1.0
+     0.0,
+     0.0
     ],
-    "hit_season": 0.8,
-    "hit_l5": 0.6,
-    "games": 10,
-    "score": 53.9,
-    "cushion": 0.8,
+    "hit_season": 0.708,
+    "hit_l5": 0.2,
+    "games": 24,
+    "score": 52.0,
+    "cushion": 0.5,
     "notes": [
-     "L10 8/10 over",
-     "L5 3/5 over",
+     "L10 5/10 over",
+     "L5 1/5 over",
+     "usage L5 87% of season",
      "blowout risk",
-     "tough opponent defense"
+     "soft opponent defense"
     ],
-    "market_pct": 51,
-    "first_seen": "2026-11-22T07:00:01-07:00"
+    "market_pct": 57,
+    "first_seen": "2026-11-23T07:00:01-07:00"
    }
-  ]
+  ],
+  "nfl": []
  },
  "top_note": {
   "nba": "No Grudge legs on this slate.",
-  "nhl": "No Grudge legs on this slate."
+  "nfl": "No Grudge legs on this slate."
  }
 }

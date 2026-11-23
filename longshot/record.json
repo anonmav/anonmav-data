@@ -1,6 +1,6 @@
 {
- "pulled_az": "2026-11-22T07:00:01-07:00",
- "slate": "2026-11-22",
+ "pulled_az": "2026-11-23T07:00:01-07:00",
+ "slate": "2026-11-23",
  "tz": "Arizona (MST)",
  "sources": [
   {
@@ -22,25 +22,82 @@
  "note": "Legs are never swapped after posting. Starting November 16, NBA threes are left out of the live model card. The November 15 card included Devin Booker and Naz Reid Over 1.5 threes, and the November 16 card included Davion Mitchell Over 1.5 threes and Donovan Clingan Over 0.5 threes. They count.",
  "thresholds": {
   "model": "default-2026-11-09",
-  "calib": "calib-2026-11-16",
+  "calib": "calib-2026-11-23",
   "green_p": 0.6,
   "yellow_p": 0.5,
   "legacy_green": 90
  },
  "model_status": {
-  "beats_market": false,
-  "calibrated_logloss": 0.6649,
-  "market_logloss": 0.6643,
-  "n_train": 2712,
-  "text": "The market is still more accurate than our model on recent graded legs, so treat Edge as tracking only."
+  "beats_market": true,
+  "calibrated_logloss": 0.6694,
+  "market_logloss": 0.6702,
+  "n_train": 4104,
+  "text": "Model beats the market on recent graded legs."
  },
  "summary": {
-  "wins": 64,
-  "losses": 23,
-  "pending": 6,
+  "wins": 68,
+  "losses": 25,
+  "pending": 3,
   "void": 0
  },
  "picks": [
+  {
+   "id": "2026-11-23:nhl:5291933:points",
+   "slate": "2026-11-23",
+   "sport": "nhl",
+   "event_id": "401892776",
+   "game": "TOR @ NYI",
+   "start_utc": "2026-11-24T00:30:00+00:00",
+   "start_az": "5:30 PM",
+   "athlete_id": "5291933",
+   "player": "Matthew Schaefer",
+   "team": "NYI",
+   "stat": "points",
+   "label": "Over 0.5 points",
+   "line": 0.5,
+   "score": 79.7,
+   "tier": "green",
+   "model": "default-2026-11-09",
+   "posted_az": "2026-11-23T07:00:01-07:00"
+  },
+  {
+   "id": "2026-11-23:nhl:3942335:assists",
+   "slate": "2026-11-23",
+   "sport": "nhl",
+   "event_id": "401892779",
+   "game": "MIN @ SJ",
+   "start_utc": "2026-11-24T03:00:00+00:00",
+   "start_az": "8:00 PM",
+   "athlete_id": "3942335",
+   "player": "Kirill Kaprizov",
+   "team": "MIN",
+   "stat": "assists",
+   "label": "Over 0.5 assists",
+   "line": 0.5,
+   "score": 77.3,
+   "tier": "green",
+   "model": "default-2026-11-09",
+   "posted_az": "2026-11-23T07:00:01-07:00"
+  },
+  {
+   "id": "2026-11-23:nhl:5080145:points",
+   "slate": "2026-11-23",
+   "sport": "nhl",
+   "event_id": "401892778",
+   "game": "ANA @ SEA",
+   "start_utc": "2026-11-24T02:40:00+00:00",
+   "start_az": "7:40 PM",
+   "athlete_id": "5080145",
+   "player": "Cutter Gauthier",
+   "team": "ANA",
+   "stat": "points",
+   "label": "Over 0.5 points",
+   "line": 0.5,
+   "score": 78.9,
+   "tier": "green",
+   "model": "default-2026-11-09",
+   "posted_az": "2026-11-23T07:00:01-07:00"
+  },
   {
    "id": "2026-11-22:nhl:2563060:assists",
    "slate": "2026-11-22",
@@ -58,7 +115,10 @@
    "score": 71.3,
    "tier": "green",
    "model": "default-2026-11-09",
-   "posted_az": "2026-11-22T07:00:01-07:00"
+   "posted_az": "2026-11-22T07:00:01-07:00",
+   "result": 0.0,
+   "grade": "loss",
+   "graded_az": "2026-11-23T02:30:32-07:00"
   },
   {
    "id": "2026-11-22:nhl:3899938:points",
@@ -77,7 +137,10 @@
    "score": 80.3,
    "tier": "green",
    "model": "default-2026-11-09",
-   "posted_az": "2026-11-22T07:00:01-07:00"
+   "posted_az": "2026-11-22T07:00:01-07:00",
+   "result": 1.0,
+   "grade": "loss",
+   "graded_az": "2026-11-23T02:30:30-07:00"
   },
   {
    "id": "2026-11-22:nhl:3899979:points",
@@ -96,7 +159,10 @@
    "score": 80.8,
    "tier": "green",
    "model": "default-2026-11-09",
-   "posted_az": "2026-11-22T07:00:01-07:00"
+   "posted_az": "2026-11-22T07:00:01-07:00",
+   "result": 1.0,
+   "grade": "win",
+   "graded_az": "2026-11-23T02:30:29-07:00"
   },
   {
    "id": "2026-11-22:nfl:4361579:anytimeTD",
@@ -115,7 +181,10 @@
    "score": 77.9,
    "tier": "green",
    "model": "default-2026-11-09",
-   "posted_az": "2026-11-22T07:00:01-07:00"
+   "posted_az": "2026-11-22T07:00:01-07:00",
+   "result": 2.0,
+   "grade": "win",
+   "graded_az": "2026-11-23T02:30:49-07:00"
   },
   {
    "id": "2026-11-22:nfl:4379399:anytimeTD",
@@ -134,7 +203,10 @@
    "score": 75.7,
    "tier": "green",
    "model": "default-2026-11-09",
-   "posted_az": "2026-11-22T07:00:01-07:00"
+   "posted_az": "2026-11-22T07:00:01-07:00",
+   "result": 1.0,
+   "grade": "win",
+   "graded_az": "2026-11-23T02:30:50-07:00"
   },
   {
    "id": "2026-11-22:nfl:4429795:anytimeTD",
@@ -153,7 +225,10 @@
    "score": 81.1,
    "tier": "green",
    "model": "default-2026-11-09",
-   "posted_az": "2026-11-22T07:00:01-07:00"
+   "posted_az": "2026-11-22T07:00:01-07:00",
+   "result": 2.0,
+   "grade": "win",
+   "graded_az": "2026-11-23T02:30:49-07:00"
   },
   {
    "id": "2026-11-21:nhl:3114722:points",
