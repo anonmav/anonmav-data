@@ -1,5 +1,5 @@
 {
- "pulled_az": "2026-11-23T07:02:38-07:00",
+ "pulled_az": "2026-11-23T15:31:56-07:00",
  "slate": "2026-11-23",
  "tz": "Arizona (MST)",
  "note": "Public graded record by card and by leg type. Starting November 15, the featured parlay is Deep Floor, capped at 3 legs by Floor Score, with NBA threes left out. Its record before November 15 is a backtest: the rule applied to earlier posted cards. The November 14 model ticket is graded from the morning card; Jamal Murray Over 2.5 threes was a loss, and a later swap to rebounds is not counted. Sleeper flags: next-man-up backups tagged Sleeper, graded on a modest box-score floor once the game is final (NFL skill 25 rec / 30 rush yards, NBA 8+ points, NHL 1+ point). Contrarian tags: injury or rest news that cuts against the side with at least 10 points more of the traded action; a hit means that busy side lost. Floor Score, calibrated chance and these flags are estimates. Not betting advice. Sample sizes are still small.",
@@ -2638,23 +2638,23 @@
    "summary": {
     "wins": 12,
     "losses": 10,
-    "pending": 44,
+    "pending": 47,
     "void": 16,
     "n_graded": 22,
     "hit_rate": 54.5,
-    "record": "12-10 (44 pending)"
+    "record": "12-10 (47 pending)"
    },
    "by_slate": [
     {
      "wins": 0,
      "losses": 0,
-     "pending": 2,
+     "pending": 5,
      "void": 0,
      "n_graded": 0,
      "hit_rate": null,
-     "record": "0-0 (2 pending)",
+     "record": "0-0 (5 pending)",
      "slate": "2026-11-23",
-     "n": 2
+     "n": 5
     },
     {
      "wins": 2,
@@ -2769,11 +2769,11 @@
     {
      "wins": 0,
      "losses": 0,
-     "pending": 26,
+     "pending": 29,
      "void": 0,
      "n_graded": 0,
      "hit_rate": null,
-     "record": "0-0 (26 pending)",
+     "record": "0-0 (29 pending)",
      "key": "nba:other"
     },
     {
@@ -4078,6 +4078,48 @@
      "def": "IND",
      "rank": 24,
      "text": "Landry Shamet next up at PF if OG Anunoby sits; IND ranks 24 vs PF."
+    },
+    {
+     "kind": "sleeper",
+     "slate": "2026-11-23",
+     "sport": "nba",
+     "game": "OKC @ IND",
+     "team": "OKC",
+     "player": "Kenrich Williams",
+     "pos": "PF",
+     "out": "Aday Mara",
+     "status": "Out",
+     "def": "IND",
+     "rank": 26,
+     "text": "Kenrich Williams next up at PF if Aday Mara sits; IND ranks 26 vs PF."
+    },
+    {
+     "kind": "sleeper",
+     "slate": "2026-11-23",
+     "sport": "nba",
+     "game": "OKC @ IND",
+     "team": "IND",
+     "player": "Jarace Walker",
+     "pos": "SF",
+     "out": "Aaron Nesmith",
+     "status": "Out",
+     "def": "OKC",
+     "rank": 21,
+     "text": "Jarace Walker next up at SF if Aaron Nesmith sits; OKC ranks 21 vs SF."
+    },
+    {
+     "kind": "sleeper",
+     "slate": "2026-11-23",
+     "sport": "nba",
+     "game": "CLE @ CHI",
+     "team": "CHI",
+     "player": "Buddy Hield",
+     "pos": "SG",
+     "out": "Norman Powell",
+     "status": "Out",
+     "def": "CLE",
+     "rank": 24,
+     "text": "Buddy Hield next up at SG if Norman Powell sits; CLE ranks 24 vs SG."
     }
    ]
   },
@@ -4086,23 +4128,23 @@
    "summary": {
     "wins": 27,
     "losses": 13,
-    "pending": 71,
+    "pending": 76,
     "void": 0,
     "n_graded": 40,
     "hit_rate": 67.5,
-    "record": "27-13 (71 pending)"
+    "record": "27-13 (76 pending)"
    },
    "by_slate": [
     {
      "wins": 0,
      "losses": 0,
-     "pending": 3,
+     "pending": 8,
      "void": 0,
      "n_graded": 0,
      "hit_rate": null,
-     "record": "0-0 (3 pending)",
+     "record": "0-0 (8 pending)",
      "slate": "2026-11-23",
-     "n": 3
+     "n": 8
     },
     {
      "wins": 4,
@@ -4207,21 +4249,21 @@
     {
      "wins": 6,
      "losses": 4,
-     "pending": 19,
+     "pending": 21,
      "void": 0,
      "n_graded": 10,
      "hit_rate": 60.0,
-     "record": "6-4 (19 pending)",
+     "record": "6-4 (21 pending)",
      "key": "nhl:other"
     },
     {
      "wins": 0,
      "losses": 1,
-     "pending": 40,
+     "pending": 43,
      "void": 0,
      "n_graded": 1,
      "hit_rate": 0.0,
-     "record": "0-1 (40 pending)",
+     "record": "0-1 (43 pending)",
      "key": "nba:other"
     }
    ],
@@ -5567,6 +5609,61 @@
      "busy_team": "DAL",
      "action_share_gap": 64,
      "text": "Revenge spot: UTAH lost 112-100 to DAL on November 6."
+    },
+    {
+     "kind": "contrarian",
+     "slate": "2026-11-23",
+     "sport": "nba",
+     "game": "CLE @ CHI",
+     "team": "CHI",
+     "effect": "hurts",
+     "busy_team": "CHI",
+     "action_share_gap": 58,
+     "text": "CHI on the second night of a back-to-back, CLE rested 2 days."
+    },
+    {
+     "kind": "contrarian",
+     "slate": "2026-11-23",
+     "sport": "nba",
+     "game": "UTAH @ LAL",
+     "team": "UTAH",
+     "effect": "hurts",
+     "busy_team": "UTAH",
+     "action_share_gap": 36,
+     "text": "UTAH on the second night of a back-to-back, LAL rested 2 days."
+    },
+    {
+     "kind": "contrarian",
+     "slate": "2026-11-23",
+     "sport": "nba",
+     "game": "UTAH @ LAL",
+     "team": "LAL",
+     "effect": "helps",
+     "busy_team": "UTAH",
+     "action_share_gap": 36,
+     "text": "Revenge spot: LAL lost 109-97 to UTAH on November 18."
+    },
+    {
+     "kind": "contrarian",
+     "slate": "2026-11-23",
+     "sport": "nhl",
+     "game": "TOR @ NYI",
+     "team": "TOR",
+     "effect": "helps",
+     "busy_team": "NYI",
+     "action_share_gap": 16,
+     "text": "Revenge spot: TOR lost 4-1 to NYI on October 17."
+    },
+    {
+     "kind": "contrarian",
+     "slate": "2026-11-23",
+     "sport": "nhl",
+     "game": "MIN @ SJ",
+     "team": "SJ",
+     "effect": "helps",
+     "busy_team": "MIN",
+     "action_share_gap": 22,
+     "text": "Revenge spot: SJ lost 4-1 to MIN on November 6."
     }
    ]
   }
