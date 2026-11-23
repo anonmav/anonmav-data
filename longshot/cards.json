@@ -1,5 +1,5 @@
 {
- "updated_az": "2026-11-23T15:20:01-07:00",
+ "updated_az": "2026-11-23T16:50:01-07:00",
  "note": "Estimates from public scores, closing lines, play by play, depth charts, injury reports and our matchup engine. Not betting advice.",
  "sports": {
   "nba": {
@@ -549,6 +549,12 @@
        "team": "PHI",
        "pos": "SF",
        "name": "Jaylen Brown",
+       "status": "Day-To-Day"
+      },
+      {
+       "team": "PHI",
+       "pos": "PF",
+       "name": "Dean Wade",
        "status": "Day-To-Day"
       },
       {
