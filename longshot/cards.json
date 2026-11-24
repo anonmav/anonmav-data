@@ -1,5 +1,5 @@
 {
- "updated_az": "2026-11-24T07:20:02-07:00",
+ "updated_az": "2026-11-24T11:20:02-07:00",
  "note": "Estimates from public scores, closing lines, play by play, depth charts, injury reports and our matchup engine. Not betting advice.",
  "sports": {
   "nba": {
@@ -275,7 +275,7 @@
        "pos": "SF",
        "out": "Duncan Robinson",
        "status": "Out",
-       "backup": "Isaiah Joe",
+       "backup": "Kevin Huerter",
        "def": "ORL",
        "rank": 29,
        "n": 30,
@@ -1988,6 +1988,12 @@
       },
       {
        "team": "KC",
+       "pos": "RG",
+       "name": "Trey Smith",
+       "status": "Questionable"
+      },
+      {
+       "team": "KC",
        "pos": "RT",
        "name": "Jaylon Moore",
        "status": "Questionable"
@@ -2020,12 +2026,6 @@
        "team": "BUF",
        "pos": "LB",
        "name": "Greg Rousseau",
-       "status": "Questionable"
-      },
-      {
-       "team": "BUF",
-       "pos": "LB",
-       "name": "Dorian Williams",
        "status": "Questionable"
       }
      ],
@@ -2992,6 +2992,18 @@
        "name": "Anthony Richardson Sr.",
        "status": "New starter",
        "prev": "Daniel Jones"
+      },
+      {
+       "team": "IND",
+       "pos": "LT",
+       "name": "Bernhard Raimann",
+       "status": "Questionable"
+      },
+      {
+       "team": "IND",
+       "pos": "RT",
+       "name": "Jalen Travis",
+       "status": "Questionable"
       },
       {
        "team": "IND",
