@@ -1,5 +1,5 @@
 {
- "pulled_az": "2026-11-24T07:00:51-07:00",
+ "pulled_az": "2026-11-24T15:30:58-07:00",
  "slate": "2026-11-24",
  "tz": "Arizona (MST)",
  "note": "Public graded record by card and by leg type. Starting November 15, the featured parlay is Deep Floor, capped at 3 legs by Floor Score, with NBA threes left out. Its record before November 15 is a backtest: the rule applied to earlier posted cards. The November 14 model ticket is graded from the morning card; Jamal Murray Over 2.5 threes was a loss, and a later swap to rebounds is not counted. Sleeper flags: next-man-up backups tagged Sleeper, graded on a modest box-score floor once the game is final (NFL skill 25 rec / 30 rush yards, NBA 8+ points, NHL 1+ point). Contrarian tags: injury or rest news that cuts against the side with at least 10 points more of the traded action; a hit means that busy side lost. Floor Score, calibrated chance and these flags are estimates. Not betting advice. Sample sizes are still small.",
@@ -2718,23 +2718,23 @@
    "summary": {
     "wins": 12,
     "losses": 10,
-    "pending": 50,
+    "pending": 56,
     "void": 16,
     "n_graded": 22,
     "hit_rate": 54.5,
-    "record": "12-10 (50 pending)"
+    "record": "12-10 (56 pending)"
    },
    "by_slate": [
     {
      "wins": 0,
      "losses": 0,
-     "pending": 3,
+     "pending": 9,
      "void": 0,
      "n_graded": 0,
      "hit_rate": null,
-     "record": "0-0 (3 pending)",
+     "record": "0-0 (9 pending)",
      "slate": "2026-11-24",
-     "n": 3
+     "n": 9
     },
     {
      "wins": 0,
@@ -2860,21 +2860,21 @@
     {
      "wins": 0,
      "losses": 0,
-     "pending": 32,
+     "pending": 33,
      "void": 0,
      "n_graded": 0,
      "hit_rate": null,
-     "record": "0-0 (32 pending)",
+     "record": "0-0 (33 pending)",
      "key": "nba:other"
     },
     {
      "wins": 0,
      "losses": 0,
-     "pending": 18,
+     "pending": 23,
      "void": 16,
      "n_graded": 0,
      "hit_rate": null,
-     "record": "0-0 (18 pending)",
+     "record": "0-0 (23 pending)",
      "key": "nfl:other"
     }
    ],
@@ -4253,6 +4253,90 @@
      "def": "CLE",
      "rank": 24,
      "text": "Buddy Hield next up at SG if Norman Powell sits; CLE ranks 24 vs SG."
+    },
+    {
+     "kind": "sleeper",
+     "slate": "2026-11-24",
+     "sport": "nba",
+     "game": "DET @ ORL",
+     "team": "DET",
+     "player": "Kevin Huerter",
+     "pos": "SF",
+     "out": "Duncan Robinson",
+     "status": "Out",
+     "def": "ORL",
+     "rank": 29,
+     "text": "Kevin Huerter next up at SF if Duncan Robinson sits; ORL ranks 29 vs SF."
+    },
+    {
+     "kind": "sleeper",
+     "slate": "2026-11-24",
+     "sport": "nfl",
+     "game": "PHI @ DAL",
+     "team": "PHI",
+     "player": "Will Shipley",
+     "pos": "RB",
+     "out": "Saquon Barkley",
+     "status": "Questionable",
+     "def": "DAL",
+     "rank": 30,
+     "text": "Will Shipley next up at RB if Saquon Barkley sits; DAL ranks 30 vs RB."
+    },
+    {
+     "kind": "sleeper",
+     "slate": "2026-11-24",
+     "sport": "nfl",
+     "game": "KC @ BUF",
+     "team": "BUF",
+     "player": "Dawson Knox",
+     "pos": "TE",
+     "out": "Dalton Kincaid",
+     "status": "Questionable",
+     "def": "KC",
+     "rank": 27,
+     "text": "Dawson Knox next up at TE if Dalton Kincaid sits; KC ranks 27 vs TE."
+    },
+    {
+     "kind": "sleeper",
+     "slate": "2026-11-24",
+     "sport": "nfl",
+     "game": "NO @ CIN",
+     "team": "NO",
+     "player": "Noah Fant",
+     "pos": "TE",
+     "out": "Juwan Johnson",
+     "status": "Questionable",
+     "def": "CIN",
+     "rank": 23,
+     "text": "Noah Fant next up at TE if Juwan Johnson sits; CIN ranks 23 vs TE."
+    },
+    {
+     "kind": "sleeper",
+     "slate": "2026-11-24",
+     "sport": "nfl",
+     "game": "ATL @ MIN",
+     "team": "MIN",
+     "player": "Myles Price",
+     "pos": "WR",
+     "out": "Jordan Addison",
+     "status": "Doubtful",
+     "def": "ATL",
+     "rank": 26,
+     "text": "Myles Price next up at WR if Jordan Addison sits; ATL ranks 26 vs WR."
+    },
+    {
+     "kind": "sleeper",
+     "slate": "2026-11-24",
+     "sport": "nfl",
+     "game": "WSH @ ARI",
+     "team": "ARI",
+     "player": "Josh Johnson",
+     "pos": "QB",
+     "out": "Carson Beck",
+     "status": "Questionable",
+     "def": "WSH",
+     "rank": 27,
+     "text": "Josh Johnson next up at QB if Carson Beck sits; WSH ranks 27 vs QB."
     }
    ]
   },
@@ -4261,23 +4345,23 @@
    "summary": {
     "wins": 27,
     "losses": 13,
-    "pending": 81,
+    "pending": 85,
     "void": 0,
     "n_graded": 40,
     "hit_rate": 67.5,
-    "record": "27-13 (81 pending)"
+    "record": "27-13 (85 pending)"
    },
    "by_slate": [
     {
      "wins": 0,
      "losses": 0,
-     "pending": 5,
+     "pending": 9,
      "void": 0,
      "n_graded": 0,
      "hit_rate": null,
-     "record": "0-0 (5 pending)",
+     "record": "0-0 (9 pending)",
      "slate": "2026-11-24",
-     "n": 5
+     "n": 9
     },
     {
      "wins": 0,
@@ -4383,11 +4467,11 @@
     {
      "wins": 21,
      "losses": 8,
-     "pending": 12,
+     "pending": 16,
      "void": 0,
      "n_graded": 29,
      "hit_rate": 72.4,
-     "record": "21-8 (12 pending)",
+     "record": "21-8 (16 pending)",
      "key": "nfl:other"
     },
     {
@@ -5863,6 +5947,50 @@
      "busy_team": "MIN",
      "action_share_gap": 46,
      "text": "Revenge spot: SJ lost 4-1 to MIN on November 6."
+    },
+    {
+     "kind": "contrarian",
+     "slate": "2026-11-24",
+     "sport": "nfl",
+     "game": "CHI @ DET",
+     "team": "DET",
+     "effect": "hurts",
+     "busy_team": "DET",
+     "action_share_gap": 14,
+     "text": "DET on a short week (4 days since last game), CHI had 4."
+    },
+    {
+     "kind": "contrarian",
+     "slate": "2026-11-24",
+     "sport": "nfl",
+     "game": "PHI @ DAL",
+     "team": "PHI",
+     "effect": "hurts",
+     "busy_team": "PHI",
+     "action_share_gap": 54,
+     "text": "PHI on a short week (4 days since last game), DAL had 4."
+    },
+    {
+     "kind": "contrarian",
+     "slate": "2026-11-24",
+     "sport": "nfl",
+     "game": "KC @ BUF",
+     "team": "KC",
+     "effect": "hurts",
+     "busy_team": "KC",
+     "action_share_gap": 16,
+     "text": "KC on a short week (4 days since last game), BUF had 4."
+    },
+    {
+     "kind": "contrarian",
+     "slate": "2026-11-24",
+     "sport": "nfl",
+     "game": "DEN @ PIT",
+     "team": "DEN",
+     "effect": "hurts",
+     "busy_team": "DEN",
+     "action_share_gap": 58,
+     "text": "DEN on a short week (5 days since last game), PIT had 5."
     }
    ]
   }
