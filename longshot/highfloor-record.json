@@ -1,5 +1,5 @@
 {
- "pulled_az": "2026-11-23T16:46:50-07:00",
+ "pulled_az": "2026-11-24T02:33:40-07:00",
  "start": "2026-11-17",
  "note": "High Floor forward test. Started November 17, 2026 at 0-0. Singles only, locked at publish, graded daily.",
  "rule": [
@@ -12,37 +12,37 @@
  ],
  "summary": {
   "wins": 14,
-  "losses": 6,
+  "losses": 10,
   "void": 1,
-  "pending": 4,
-  "graded": 20,
+  "pending": 0,
+  "graded": 24,
   "target": 300,
-  "hit_rate": 70.0,
-  "market_avg_pct": 58.5,
-  "gap_pts": 11.5
+  "hit_rate": 58.3,
+  "market_avg_pct": 58.0,
+  "gap_pts": 0.3
  },
  "splits": {
   "soft_matchup": {
    "wins": 5,
-   "losses": 1,
+   "losses": 2,
    "void": 1,
-   "pending": 1,
-   "graded": 6,
+   "pending": 0,
+   "graded": 7,
    "target": 300,
-   "hit_rate": 83.3,
-   "market_avg_pct": 59.3,
-   "gap_pts": 24.0
+   "hit_rate": 71.4,
+   "market_avg_pct": 60.0,
+   "gap_pts": 11.4
   },
   "other_matchup": {
    "wins": 9,
-   "losses": 5,
+   "losses": 8,
    "void": 0,
-   "pending": 3,
-   "graded": 14,
+   "pending": 0,
+   "graded": 17,
    "target": 300,
-   "hit_rate": 64.3,
-   "market_avg_pct": 58.1,
-   "gap_pts": 6.2
+   "hit_rate": 52.9,
+   "market_avg_pct": 57.2,
+   "gap_pts": -4.3
   },
   "no_rank": {
    "wins": 0,
@@ -59,25 +59,25 @@
  "by_sport": {
   "nba": {
    "wins": 2,
-   "losses": 1,
+   "losses": 3,
    "void": 0,
-   "pending": 2,
-   "graded": 3,
+   "pending": 0,
+   "graded": 5,
    "target": 300,
-   "hit_rate": 66.7,
-   "market_avg_pct": 50.3,
-   "gap_pts": 16.4
+   "hit_rate": 40.0,
+   "market_avg_pct": 52.2,
+   "gap_pts": -12.2
   },
   "nhl": {
    "wins": 11,
-   "losses": 5,
+   "losses": 7,
    "void": 1,
-   "pending": 2,
-   "graded": 16,
+   "pending": 0,
+   "graded": 18,
    "target": 300,
-   "hit_rate": 68.8,
-   "market_avg_pct": 60.1,
-   "gap_pts": 8.7
+   "hit_rate": 61.1,
+   "market_avg_pct": 59.8,
+   "gap_pts": 1.3
   },
   "nfl": {
    "wins": 1,
@@ -144,9 +144,9 @@
    "slate": "2026-11-23",
    "legs": 4,
    "wins": 0,
-   "losses": 0,
+   "losses": 4,
    "void": 0,
-   "pending": 4
+   "pending": 0
   }
  ],
  "losses": [
@@ -197,6 +197,38 @@
    "result": 14.0,
    "sport": "nba",
    "game": "OKC @ MIA"
+  },
+  {
+   "slate": "2026-11-23",
+   "player": "Kent Johnson",
+   "label": "Over 0.5 points",
+   "result": 0.0,
+   "sport": "nhl",
+   "game": "CBJ @ NJ"
+  },
+  {
+   "slate": "2026-11-23",
+   "player": "Matthew Schaefer",
+   "label": "Over 0.5 points",
+   "result": 0.0,
+   "sport": "nhl",
+   "game": "TOR @ NYI"
+  },
+  {
+   "slate": "2026-11-23",
+   "player": "Rui Hachimura",
+   "label": "Over 4.5 rebounds",
+   "result": 3.0,
+   "sport": "nba",
+   "game": "LAC @ HOU"
+  },
+  {
+   "slate": "2026-11-23",
+   "player": "Matas Buzelis",
+   "label": "Over 1.5 assists",
+   "result": 0.0,
+   "sport": "nba",
+   "game": "CLE @ CHI"
   }
  ],
  "legs": [
@@ -1372,7 +1404,10 @@
     "soft": false,
     "text": "NJ goals allowed: 16 of 32 (32 = softest). Team level only, no NHL position rank."
    },
-   "def_logged_az": "2026-11-23T07:20:41-07:00"
+   "def_logged_az": "2026-11-23T07:20:41-07:00",
+   "grade": "loss",
+   "result": 0.0,
+   "graded_az": "2026-11-24T02:30:45-07:00"
   },
   {
    "id": "2026-11-23:nhl:5291933:points",
@@ -1426,7 +1461,10 @@
     "soft": true,
     "text": "TOR goals allowed: 27 of 32 (32 = softest). Team level only, no NHL position rank."
    },
-   "def_logged_az": "2026-11-23T07:20:41-07:00"
+   "def_logged_az": "2026-11-23T07:20:41-07:00",
+   "grade": "loss",
+   "result": 0.0,
+   "graded_az": "2026-11-24T02:30:39-07:00"
   },
   {
    "id": "2026-11-23:nba:4066648:totalRebounds",
@@ -1485,7 +1523,10 @@
     "soft": false,
     "text": "HOU defense vs SF 13 and PF 16 of 30 on points allowed (30 = softest)"
    },
-   "def_logged_az": "2026-11-23T07:20:42-07:00"
+   "def_logged_az": "2026-11-23T07:20:42-07:00",
+   "grade": "loss",
+   "result": 3.0,
+   "graded_az": "2026-11-24T02:30:11-07:00"
   },
   {
    "id": "2026-11-23:nba:4711294:assists",
@@ -1544,7 +1585,10 @@
     "soft": false,
     "text": "CLE defense vs SF 9 and PF 21 of 30 on points allowed (30 = softest)"
    },
-   "def_logged_az": "2026-11-23T07:20:42-07:00"
+   "def_logged_az": "2026-11-23T07:20:42-07:00",
+   "grade": "loss",
+   "result": 0.0,
+   "graded_az": "2026-11-24T02:30:04-07:00"
   }
  ],
  "split_note": "Soft matchup means the opponent ranks in the softest ten of the league at the position (team level for NHL). Ranks are estimates."
