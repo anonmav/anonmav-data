@@ -1,5 +1,5 @@
 {
- "updated_az": "2026-11-24T15:20:02-07:00",
+ "updated_az": "2026-11-24T16:50:02-07:00",
  "note": "Estimates from public scores, closing lines, play by play, depth charts, injury reports and our matchup engine. Not betting advice.",
  "sports": {
   "nba": {
@@ -152,6 +152,13 @@
      },
      "watch": [
       {
+       "kind": "story",
+       "team": "DET",
+       "effect": "hurts",
+       "tone": "down",
+       "text": "DET G Cade Cunningham listed Out on the injury report."
+      },
+      {
        "kind": "mismatch",
        "team": "ORL",
        "tone": "up",
@@ -164,7 +171,15 @@
        "text": "Desmond Bane (ORL, 18.5 pts): DET allows 21.2 points to PG/SG (-12% vs avg), game pace -1%."
       }
      ],
-     "stories": [],
+     "stories": [
+      {
+       "kind": "story",
+       "team": "DET",
+       "effect": "hurts",
+       "tone": "down",
+       "text": "DET G Cade Cunningham listed Out on the injury report."
+      }
+     ],
      "grid": {
       "DET": {
        "n": 30,
