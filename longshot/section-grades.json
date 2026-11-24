@@ -1,5 +1,5 @@
 {
- "pulled_az": "2026-11-23T16:46:39-07:00",
+ "pulled_az": "2026-11-24T02:33:33-07:00",
  "slate": "2026-11-23",
  "tz": "Arizona (MST)",
  "note": "Public graded record by card and by leg type. Starting November 15, the featured parlay is Deep Floor, capped at 3 legs by Floor Score, with NBA threes left out. Its record before November 15 is a backtest: the rule applied to earlier posted cards. The November 14 model ticket is graded from the morning card; Jamal Murray Over 2.5 threes was a loss, and a later swap to rebounds is not counted. Sleeper flags: next-man-up backups tagged Sleeper, graded on a modest box-score floor once the game is final (NFL skill 25 rec / 30 rush yards, NBA 8+ points, NHL 1+ point). Contrarian tags: injury or rest news that cuts against the side with at least 10 points more of the traded action; a hit means that busy side lost. Floor Score, calibrated chance and these flags are estimates. Not betting advice. Sample sizes are still small.",
@@ -18,23 +18,23 @@
   "model": {
    "card": "Model",
    "summary": {
-    "wins": 69,
-    "losses": 24,
-    "pending": 3,
+    "wins": 71,
+    "losses": 25,
+    "pending": 0,
     "void": 0,
-    "n_graded": 93,
-    "hit_rate": 74.2,
-    "record": "69-24 (3 pending)"
+    "n_graded": 96,
+    "hit_rate": 74.0,
+    "record": "71-25"
    },
    "by_slate": [
     {
-     "wins": 0,
-     "losses": 0,
-     "pending": 3,
+     "wins": 2,
+     "losses": 1,
+     "pending": 0,
      "void": 0,
-     "n_graded": 0,
-     "hit_rate": null,
-     "record": "0-0 (3 pending)",
+     "n_graded": 3,
+     "hit_rate": 66.7,
+     "record": "2-1",
      "slate": "2026-11-23",
      "n": 3
     },
@@ -250,13 +250,13 @@
    ],
    "by_leg_type": [
     {
-     "wins": 30,
-     "losses": 10,
-     "pending": 2,
+     "wins": 31,
+     "losses": 11,
+     "pending": 0,
      "void": 0,
-     "n_graded": 40,
-     "hit_rate": 75.0,
-     "record": "30-10 (2 pending)",
+     "n_graded": 42,
+     "hit_rate": 73.8,
+     "record": "31-11",
      "key": "nhl:1+ points"
     },
     {
@@ -311,6 +311,16 @@
     },
     {
      "wins": 3,
+     "losses": 1,
+     "pending": 0,
+     "void": 0,
+     "n_graded": 4,
+     "hit_rate": 75.0,
+     "record": "3-1",
+     "key": "nhl:assists"
+    },
+    {
+     "wins": 3,
      "losses": 0,
      "pending": 0,
      "void": 0,
@@ -331,16 +341,6 @@
     },
     {
      "wins": 2,
-     "losses": 1,
-     "pending": 1,
-     "void": 0,
-     "n_graded": 3,
-     "hit_rate": 66.7,
-     "record": "2-1 (1 pending)",
-     "key": "nhl:assists"
-    },
-    {
-     "wins": 2,
      "losses": 0,
      "pending": 0,
      "void": 0,
@@ -353,376 +353,11 @@
    "parlay": {
     "label": "model ticket as posted",
     "wins": 5,
-    "losses": 14,
-    "pending": 1,
-    "n_decided": 19,
-    "hit_rate": 26.3,
-    "record": "5-14 (1 pending)",
-    "killers_by_type": [
-     {
-      "key": "nhl:1+ points",
-      "slates_killed": 9
-     },
-     {
-      "key": "nba:threes",
-      "slates_killed": 7
-     },
-     {
-      "key": "nba:rebounds",
-      "slates_killed": 1
-     },
-     {
-      "key": "nba:points",
-      "slates_killed": 1
-     },
-     {
-      "key": "nfl:rushing_yards",
-      "slates_killed": 1
-     },
-     {
-      "key": "nfl:anytimetd",
-      "slates_killed": 1
-     },
-     {
-      "key": "nhl:assists",
-      "slates_killed": 1
-     }
-    ],
-    "slates": [
-     {
-      "slate": "2026-11-03",
-      "status": "win",
-      "wins": 3,
-      "losses": 0,
-      "n_graded": 3,
-      "n_pending": 0,
-      "killers": []
-     },
-     {
-      "slate": "2026-11-04",
-      "status": "win",
-      "wins": 4,
-      "losses": 0,
-      "n_graded": 4,
-      "n_pending": 0,
-      "killers": []
-     },
-     {
-      "slate": "2026-11-05",
-      "status": "loss",
-      "wins": 3,
-      "losses": 2,
-      "n_graded": 5,
-      "n_pending": 0,
-      "killers": [
-       {
-        "player": "Stephen Curry",
-        "label": "2+ rebounds",
-        "leg_type": "nba:rebounds"
-       },
-       {
-        "player": "Mitch Marner",
-        "label": "1+ points",
-        "leg_type": "nhl:1+ points"
-       }
-      ]
-     },
-     {
-      "slate": "2026-11-06",
-      "status": "win",
-      "wins": 5,
-      "losses": 0,
-      "n_graded": 5,
-      "n_pending": 0,
-      "killers": []
-     },
-     {
-      "slate": "2026-11-07",
-      "status": "loss",
-      "wins": 3,
-      "losses": 1,
-      "n_graded": 4,
-      "n_pending": 0,
-      "killers": [
-       {
-        "player": "Andrew Nembhard",
-        "label": "10+ points",
-        "leg_type": "nba:points"
-       }
-      ]
-     },
-     {
-      "slate": "2026-11-08",
-      "status": "win",
-      "wins": 6,
-      "losses": 0,
-      "n_graded": 6,
-      "n_pending": 0,
-      "killers": []
-     },
-     {
-      "slate": "2026-11-09",
-      "status": "loss",
-      "wins": 7,
-      "losses": 1,
-      "n_graded": 8,
-      "n_pending": 0,
-      "killers": [
-       {
-        "player": "Aaron Jones Sr.",
-        "label": "20+ rushing yards",
-        "leg_type": "nfl:rushing_yards"
-       }
-      ]
-     },
-     {
-      "slate": "2026-11-10",
-      "status": "loss",
-      "wins": 4,
-      "losses": 2,
-      "n_graded": 6,
-      "n_pending": 0,
-      "killers": [
-       {
-        "player": "Wendell Carter Jr.",
-        "label": "Over 0.5 threes",
-        "leg_type": "nba:threes"
-       },
-       {
-        "player": "Tim Stutzle",
-        "label": "Over 0.5 points",
-        "leg_type": "nhl:1+ points"
-       }
-      ]
-     },
-     {
-      "slate": "2026-11-11",
-      "status": "loss",
-      "wins": 4,
-      "losses": 2,
-      "n_graded": 6,
-      "n_pending": 0,
-      "killers": [
-       {
-        "player": "Shai Gilgeous-Alexander",
-        "label": "Over 1.5 threes",
-        "leg_type": "nba:threes"
-       },
-       {
-        "player": "Jackson LaCombe",
-        "label": "Over 0.5 points",
-        "leg_type": "nhl:1+ points"
-       }
-      ]
-     },
-     {
-      "slate": "2026-11-12",
-      "status": "loss",
-      "wins": 2,
-      "losses": 3,
-      "n_graded": 5,
-      "n_pending": 0,
-      "killers": [
-       {
-        "player": "P.J. Washington",
-        "label": "Over 1.5 threes",
-        "leg_type": "nba:threes"
-       },
-       {
-        "player": "Mikko Rantanen",
-        "label": "Over 0.5 points",
-        "leg_type": "nhl:1+ points"
-       },
-       {
-        "player": "Clayton Keller",
-        "label": "Over 0.5 points",
-        "leg_type": "nhl:1+ points"
-       }
-      ]
-     },
-     {
-      "slate": "2026-11-13",
-      "status": "loss",
-      "wins": 3,
-      "losses": 2,
-      "n_graded": 5,
-      "n_pending": 0,
-      "killers": [
-       {
-        "player": "Andrew Nembhard",
-        "label": "Over 1.5 threes",
-        "leg_type": "nba:threes"
-       },
-       {
-        "player": "Yaxel Lendeborg",
-        "label": "Over 1.5 threes",
-        "leg_type": "nba:threes"
-       }
-      ]
-     },
-     {
-      "slate": "2026-11-14",
-      "status": "loss",
-      "wins": 4,
-      "losses": 1,
-      "n_graded": 5,
-      "n_pending": 0,
-      "killers": [
-       {
-        "player": "Jamal Murray",
-        "label": "Over 2.5 threes",
-        "leg_type": "nba:threes"
-       }
-      ]
-     },
-     {
-      "slate": "2026-11-15",
-      "status": "loss",
-      "wins": 6,
-      "losses": 3,
-      "n_graded": 9,
-      "n_pending": 0,
-      "killers": [
-       {
-        "player": "Devin Booker",
-        "label": "Over 1.5 threes",
-        "leg_type": "nba:threes"
-       },
-       {
-        "player": "Roman Josi",
-        "label": "Over 0.5 points",
-        "leg_type": "nhl:1+ points"
-       },
-       {
-        "player": "Javonte Williams",
-        "label": "Anytime TD",
-        "leg_type": "nfl:anytimetd"
-       }
-      ]
-     },
-     {
-      "slate": "2026-11-16",
-      "status": "loss",
-      "wins": 1,
-      "losses": 3,
-      "n_graded": 4,
-      "n_pending": 0,
-      "killers": [
-       {
-        "player": "Davion Mitchell",
-        "label": "Over 1.5 threes",
-        "leg_type": "nba:threes"
-       },
-       {
-        "player": "Donovan Clingan",
-        "label": "Over 0.5 threes",
-        "leg_type": "nba:threes"
-       },
-       {
-        "player": "Cole Caufield",
-        "label": "Over 0.5 points",
-        "leg_type": "nhl:1+ points"
-       }
-      ]
-     },
-     {
-      "slate": "2026-11-17",
-      "status": "loss",
-      "wins": 2,
-      "losses": 1,
-      "n_graded": 3,
-      "n_pending": 0,
-      "killers": [
-       {
-        "player": "Mitch Marner",
-        "label": "Over 0.5 points",
-        "leg_type": "nhl:1+ points"
-       }
-      ]
-     },
-     {
-      "slate": "2026-11-18",
-      "status": "win",
-      "wins": 2,
-      "losses": 0,
-      "n_graded": 2,
-      "n_pending": 0,
-      "killers": []
-     },
-     {
-      "slate": "2026-11-19",
-      "status": "loss",
-      "wins": 3,
-      "losses": 1,
-      "n_graded": 4,
-      "n_pending": 0,
-      "killers": [
-       {
-        "player": "Cutter Gauthier",
-        "label": "Over 0.5 points",
-        "leg_type": "nhl:1+ points"
-       }
-      ]
-     },
-     {
-      "slate": "2026-11-21",
-      "status": "loss",
-      "wins": 2,
-      "losses": 1,
-      "n_graded": 3,
-      "n_pending": 0,
-      "killers": [
-       {
-        "player": "Matthew Tkachuk",
-        "label": "Over 0.5 points",
-        "leg_type": "nhl:1+ points"
-       }
-      ]
-     },
-     {
-      "slate": "2026-11-22",
-      "status": "loss",
-      "wins": 5,
-      "losses": 1,
-      "n_graded": 6,
-      "n_pending": 0,
-      "killers": [
-       {
-        "player": "Nikita Kucherov",
-        "label": "Over 0.5 assists",
-        "leg_type": "nhl:assists"
-       }
-      ]
-     },
-     {
-      "slate": "2026-11-23",
-      "status": "pending",
-      "wins": 0,
-      "losses": 0,
-      "n_graded": 0,
-      "n_pending": 3,
-      "killers": []
-     }
-    ]
-   },
-   "note": "Official model record. The November 14 morning ticket included Jamal Murray Over 2.5 threes, a loss. A later swap to rebounds is not counted.",
-   "site_reshuffle_summary": {
-    "wins": 68,
-    "losses": 25,
-    "pending": 3,
-    "void": 0,
-    "n_graded": 93,
-    "hit_rate": 73.1,
-    "record": "68-25 (3 pending)"
-   },
-   "site_reshuffle_parlay": {
-    "label": "model site ticket, later reshuffles, not official",
-    "wins": 5,
-    "losses": 14,
-    "pending": 1,
-    "n_decided": 19,
-    "hit_rate": 26.3,
-    "record": "5-14 (1 pending)",
+    "losses": 15,
+    "pending": 0,
+    "n_decided": 20,
+    "hit_rate": 25.0,
+    "record": "5-15",
     "killers_by_type": [
      {
       "key": "nhl:1+ points",
@@ -781,6 +416,377 @@
       "n_pending": 0,
       "killers": [
        {
+        "player": "Stephen Curry",
+        "label": "2+ rebounds",
+        "leg_type": "nba:rebounds"
+       },
+       {
+        "player": "Mitch Marner",
+        "label": "1+ points",
+        "leg_type": "nhl:1+ points"
+       }
+      ]
+     },
+     {
+      "slate": "2026-11-06",
+      "status": "win",
+      "wins": 5,
+      "losses": 0,
+      "n_graded": 5,
+      "n_pending": 0,
+      "killers": []
+     },
+     {
+      "slate": "2026-11-07",
+      "status": "loss",
+      "wins": 3,
+      "losses": 1,
+      "n_graded": 4,
+      "n_pending": 0,
+      "killers": [
+       {
+        "player": "Andrew Nembhard",
+        "label": "10+ points",
+        "leg_type": "nba:points"
+       }
+      ]
+     },
+     {
+      "slate": "2026-11-08",
+      "status": "win",
+      "wins": 6,
+      "losses": 0,
+      "n_graded": 6,
+      "n_pending": 0,
+      "killers": []
+     },
+     {
+      "slate": "2026-11-09",
+      "status": "loss",
+      "wins": 7,
+      "losses": 1,
+      "n_graded": 8,
+      "n_pending": 0,
+      "killers": [
+       {
+        "player": "Aaron Jones Sr.",
+        "label": "20+ rushing yards",
+        "leg_type": "nfl:rushing_yards"
+       }
+      ]
+     },
+     {
+      "slate": "2026-11-10",
+      "status": "loss",
+      "wins": 4,
+      "losses": 2,
+      "n_graded": 6,
+      "n_pending": 0,
+      "killers": [
+       {
+        "player": "Wendell Carter Jr.",
+        "label": "Over 0.5 threes",
+        "leg_type": "nba:threes"
+       },
+       {
+        "player": "Tim Stutzle",
+        "label": "Over 0.5 points",
+        "leg_type": "nhl:1+ points"
+       }
+      ]
+     },
+     {
+      "slate": "2026-11-11",
+      "status": "loss",
+      "wins": 4,
+      "losses": 2,
+      "n_graded": 6,
+      "n_pending": 0,
+      "killers": [
+       {
+        "player": "Shai Gilgeous-Alexander",
+        "label": "Over 1.5 threes",
+        "leg_type": "nba:threes"
+       },
+       {
+        "player": "Jackson LaCombe",
+        "label": "Over 0.5 points",
+        "leg_type": "nhl:1+ points"
+       }
+      ]
+     },
+     {
+      "slate": "2026-11-12",
+      "status": "loss",
+      "wins": 2,
+      "losses": 3,
+      "n_graded": 5,
+      "n_pending": 0,
+      "killers": [
+       {
+        "player": "P.J. Washington",
+        "label": "Over 1.5 threes",
+        "leg_type": "nba:threes"
+       },
+       {
+        "player": "Mikko Rantanen",
+        "label": "Over 0.5 points",
+        "leg_type": "nhl:1+ points"
+       },
+       {
+        "player": "Clayton Keller",
+        "label": "Over 0.5 points",
+        "leg_type": "nhl:1+ points"
+       }
+      ]
+     },
+     {
+      "slate": "2026-11-13",
+      "status": "loss",
+      "wins": 3,
+      "losses": 2,
+      "n_graded": 5,
+      "n_pending": 0,
+      "killers": [
+       {
+        "player": "Andrew Nembhard",
+        "label": "Over 1.5 threes",
+        "leg_type": "nba:threes"
+       },
+       {
+        "player": "Yaxel Lendeborg",
+        "label": "Over 1.5 threes",
+        "leg_type": "nba:threes"
+       }
+      ]
+     },
+     {
+      "slate": "2026-11-14",
+      "status": "loss",
+      "wins": 4,
+      "losses": 1,
+      "n_graded": 5,
+      "n_pending": 0,
+      "killers": [
+       {
+        "player": "Jamal Murray",
+        "label": "Over 2.5 threes",
+        "leg_type": "nba:threes"
+       }
+      ]
+     },
+     {
+      "slate": "2026-11-15",
+      "status": "loss",
+      "wins": 6,
+      "losses": 3,
+      "n_graded": 9,
+      "n_pending": 0,
+      "killers": [
+       {
+        "player": "Devin Booker",
+        "label": "Over 1.5 threes",
+        "leg_type": "nba:threes"
+       },
+       {
+        "player": "Roman Josi",
+        "label": "Over 0.5 points",
+        "leg_type": "nhl:1+ points"
+       },
+       {
+        "player": "Javonte Williams",
+        "label": "Anytime TD",
+        "leg_type": "nfl:anytimetd"
+       }
+      ]
+     },
+     {
+      "slate": "2026-11-16",
+      "status": "loss",
+      "wins": 1,
+      "losses": 3,
+      "n_graded": 4,
+      "n_pending": 0,
+      "killers": [
+       {
+        "player": "Davion Mitchell",
+        "label": "Over 1.5 threes",
+        "leg_type": "nba:threes"
+       },
+       {
+        "player": "Donovan Clingan",
+        "label": "Over 0.5 threes",
+        "leg_type": "nba:threes"
+       },
+       {
+        "player": "Cole Caufield",
+        "label": "Over 0.5 points",
+        "leg_type": "nhl:1+ points"
+       }
+      ]
+     },
+     {
+      "slate": "2026-11-17",
+      "status": "loss",
+      "wins": 2,
+      "losses": 1,
+      "n_graded": 3,
+      "n_pending": 0,
+      "killers": [
+       {
+        "player": "Mitch Marner",
+        "label": "Over 0.5 points",
+        "leg_type": "nhl:1+ points"
+       }
+      ]
+     },
+     {
+      "slate": "2026-11-18",
+      "status": "win",
+      "wins": 2,
+      "losses": 0,
+      "n_graded": 2,
+      "n_pending": 0,
+      "killers": []
+     },
+     {
+      "slate": "2026-11-19",
+      "status": "loss",
+      "wins": 3,
+      "losses": 1,
+      "n_graded": 4,
+      "n_pending": 0,
+      "killers": [
+       {
+        "player": "Cutter Gauthier",
+        "label": "Over 0.5 points",
+        "leg_type": "nhl:1+ points"
+       }
+      ]
+     },
+     {
+      "slate": "2026-11-21",
+      "status": "loss",
+      "wins": 2,
+      "losses": 1,
+      "n_graded": 3,
+      "n_pending": 0,
+      "killers": [
+       {
+        "player": "Matthew Tkachuk",
+        "label": "Over 0.5 points",
+        "leg_type": "nhl:1+ points"
+       }
+      ]
+     },
+     {
+      "slate": "2026-11-22",
+      "status": "loss",
+      "wins": 5,
+      "losses": 1,
+      "n_graded": 6,
+      "n_pending": 0,
+      "killers": [
+       {
+        "player": "Nikita Kucherov",
+        "label": "Over 0.5 assists",
+        "leg_type": "nhl:assists"
+       }
+      ]
+     },
+     {
+      "slate": "2026-11-23",
+      "status": "loss",
+      "wins": 2,
+      "losses": 1,
+      "n_graded": 3,
+      "n_pending": 0,
+      "killers": [
+       {
+        "player": "Matthew Schaefer",
+        "label": "Over 0.5 points",
+        "leg_type": "nhl:1+ points"
+       }
+      ]
+     }
+    ]
+   },
+   "note": "Official model record. The November 14 morning ticket included Jamal Murray Over 2.5 threes, a loss. A later swap to rebounds is not counted.",
+   "site_reshuffle_summary": {
+    "wins": 70,
+    "losses": 26,
+    "pending": 0,
+    "void": 0,
+    "n_graded": 96,
+    "hit_rate": 72.9,
+    "record": "70-26"
+   },
+   "site_reshuffle_parlay": {
+    "label": "model site ticket, later reshuffles, not official",
+    "wins": 5,
+    "losses": 15,
+    "pending": 0,
+    "n_decided": 20,
+    "hit_rate": 25.0,
+    "record": "5-15",
+    "killers_by_type": [
+     {
+      "key": "nhl:1+ points",
+      "slates_killed": 11
+     },
+     {
+      "key": "nba:threes",
+      "slates_killed": 7
+     },
+     {
+      "key": "nba:rebounds",
+      "slates_killed": 1
+     },
+     {
+      "key": "nba:points",
+      "slates_killed": 1
+     },
+     {
+      "key": "nfl:rushing_yards",
+      "slates_killed": 1
+     },
+     {
+      "key": "nfl:anytimetd",
+      "slates_killed": 1
+     },
+     {
+      "key": "nhl:assists",
+      "slates_killed": 1
+     }
+    ],
+    "slates": [
+     {
+      "slate": "2026-11-03",
+      "status": "win",
+      "wins": 3,
+      "losses": 0,
+      "n_graded": 3,
+      "n_pending": 0,
+      "killers": []
+     },
+     {
+      "slate": "2026-11-04",
+      "status": "win",
+      "wins": 4,
+      "losses": 0,
+      "n_graded": 4,
+      "n_pending": 0,
+      "killers": []
+     },
+     {
+      "slate": "2026-11-05",
+      "status": "loss",
+      "wins": 3,
+      "losses": 2,
+      "n_graded": 5,
+      "n_pending": 0,
+      "killers": [
+       {
         "player": "Mitch Marner",
         "label": "1+ points",
         "leg_type": "nhl:1+ points"
@@ -1066,24 +1072,30 @@
      },
      {
       "slate": "2026-11-23",
-      "status": "pending",
-      "wins": 0,
-      "losses": 0,
-      "n_graded": 0,
-      "n_pending": 3,
-      "killers": []
+      "status": "loss",
+      "wins": 2,
+      "losses": 1,
+      "n_graded": 3,
+      "n_pending": 0,
+      "killers": [
+       {
+        "player": "Matthew Schaefer",
+        "label": "Over 0.5 points",
+        "leg_type": "nhl:1+ points"
+       }
+      ]
      }
     ]
    },
    "site_reshuffle_by_leg_type": [
     {
-     "wins": 29,
-     "losses": 11,
-     "pending": 2,
+     "wins": 30,
+     "losses": 12,
+     "pending": 0,
      "void": 0,
-     "n_graded": 40,
-     "hit_rate": 72.5,
-     "record": "29-11 (2 pending)",
+     "n_graded": 42,
+     "hit_rate": 71.4,
+     "record": "30-12",
      "key": "nhl:1+ points"
     },
     {
@@ -1138,6 +1150,16 @@
     },
     {
      "wins": 3,
+     "losses": 1,
+     "pending": 0,
+     "void": 0,
+     "n_graded": 4,
+     "hit_rate": 75.0,
+     "record": "3-1",
+     "key": "nhl:assists"
+    },
+    {
+     "wins": 3,
      "losses": 0,
      "pending": 0,
      "void": 0,
@@ -1158,16 +1180,6 @@
     },
     {
      "wins": 2,
-     "losses": 1,
-     "pending": 1,
-     "void": 0,
-     "n_graded": 3,
-     "hit_rate": 66.7,
-     "record": "2-1 (1 pending)",
-     "key": "nhl:assists"
-    },
-    {
-     "wins": 2,
      "losses": 0,
      "pending": 0,
      "void": 0,
@@ -1178,26 +1190,26 @@
     }
    ],
    "model_era_summary": {
-    "wins": 38,
-    "losses": 20,
-    "pending": 3,
+    "wins": 40,
+    "losses": 21,
+    "pending": 0,
     "void": 0,
-    "n_graded": 58,
-    "hit_rate": 65.5,
-    "record": "38-20 (3 pending)"
+    "n_graded": 61,
+    "hit_rate": 65.6,
+    "record": "40-21"
    },
    "model_era_parlay": {
     "label": "model ticket as posted",
     "wins": 1,
-    "losses": 11,
-    "pending": 1,
-    "n_decided": 12,
-    "hit_rate": 8.3,
-    "record": "1-11 (1 pending)",
+    "losses": 12,
+    "pending": 0,
+    "n_decided": 13,
+    "hit_rate": 7.7,
+    "record": "1-12",
     "killers_by_type": [
      {
       "key": "nhl:1+ points",
-      "slates_killed": 8
+      "slates_killed": 9
      },
      {
       "key": "nba:threes",
@@ -1434,12 +1446,18 @@
      },
      {
       "slate": "2026-11-23",
-      "status": "pending",
-      "wins": 0,
-      "losses": 0,
-      "n_graded": 0,
-      "n_pending": 3,
-      "killers": []
+      "status": "loss",
+      "wins": 2,
+      "losses": 1,
+      "n_graded": 3,
+      "n_pending": 0,
+      "killers": [
+       {
+        "player": "Matthew Schaefer",
+        "label": "Over 0.5 points",
+        "leg_type": "nhl:1+ points"
+       }
+      ]
      }
     ]
    }
@@ -1447,23 +1465,23 @@
   "deep_floor": {
    "card": "Deep Floor",
    "summary": {
-    "wins": 71,
-    "losses": 14,
-    "pending": 6,
+    "wins": 75,
+    "losses": 15,
+    "pending": 1,
     "void": 0,
-    "n_graded": 85,
-    "hit_rate": 83.5,
-    "record": "71-14 (6 pending)"
+    "n_graded": 90,
+    "hit_rate": 83.3,
+    "record": "75-15 (1 pending)"
    },
    "by_slate": [
     {
-     "wins": 0,
-     "losses": 0,
-     "pending": 6,
+     "wins": 4,
+     "losses": 1,
+     "pending": 1,
      "void": 0,
-     "n_graded": 0,
-     "hit_rate": null,
-     "record": "0-0 (6 pending)",
+     "n_graded": 5,
+     "hit_rate": 80.0,
+     "record": "4-1 (1 pending)",
      "slate": "2026-11-23",
      "n": 6
     },
@@ -1656,13 +1674,13 @@
      "key": "nhl:1+ points"
     },
     {
-     "wins": 16,
+     "wins": 18,
      "losses": 3,
-     "pending": 3,
+     "pending": 1,
      "void": 0,
-     "n_graded": 19,
-     "hit_rate": 84.2,
-     "record": "16-3 (3 pending)",
+     "n_graded": 21,
+     "hit_rate": 85.7,
+     "record": "18-3 (1 pending)",
      "key": "nba:rebounds"
     },
     {
@@ -1674,6 +1692,16 @@
      "hit_rate": 100.0,
      "record": "14-0",
      "key": "nba:assists"
+    },
+    {
+     "wins": 5,
+     "losses": 3,
+     "pending": 0,
+     "void": 0,
+     "n_graded": 8,
+     "hit_rate": 62.5,
+     "record": "5-3",
+     "key": "nfl:rushing_yards"
     },
     {
      "wins": 6,
@@ -1696,16 +1724,6 @@
      "key": "nfl:receiving_yards"
     },
     {
-     "wins": 5,
-     "losses": 2,
-     "pending": 1,
-     "void": 0,
-     "n_graded": 7,
-     "hit_rate": 71.4,
-     "record": "5-2 (1 pending)",
-     "key": "nfl:rushing_yards"
-    },
-    {
      "wins": 4,
      "losses": 1,
      "pending": 0,
@@ -1716,23 +1734,23 @@
      "key": "nba:threes"
     },
     {
-     "wins": 1,
+     "wins": 2,
      "losses": 0,
-     "pending": 1,
+     "pending": 0,
      "void": 0,
-     "n_graded": 1,
+     "n_graded": 2,
      "hit_rate": 100.0,
-     "record": "1-0 (1 pending)",
+     "record": "2-0",
      "key": "nfl:receptions"
     },
     {
-     "wins": 0,
+     "wins": 1,
      "losses": 0,
-     "pending": 1,
+     "pending": 0,
      "void": 0,
-     "n_graded": 0,
-     "hit_rate": null,
-     "record": "0-0 (1 pending)",
+     "n_graded": 1,
+     "hit_rate": 100.0,
+     "record": "1-0",
      "key": "nfl:passing"
     }
    ],
@@ -1997,11 +2015,17 @@
      {
       "slate": "2026-11-23",
       "status": "pending",
-      "wins": 0,
-      "losses": 0,
-      "n_graded": 0,
-      "n_pending": 6,
-      "killers": []
+      "wins": 4,
+      "losses": 1,
+      "n_graded": 5,
+      "n_pending": 1,
+      "killers": [
+       {
+        "player": "Chase Brown",
+        "label": "25+ rushing yards",
+        "leg_type": "nfl:rushing_yards"
+       }
+      ]
      }
     ]
    },
@@ -2217,10 +2241,10 @@
      {
       "slate": "2026-11-23",
       "status": "pending",
-      "wins": 0,
+      "wins": 2,
       "losses": 0,
-      "n_graded": 0,
-      "n_pending": 3,
+      "n_graded": 2,
+      "n_pending": 1,
       "killers": []
      }
     ]
@@ -2231,24 +2255,13 @@
    "summary": {
     "wins": 24,
     "losses": 9,
-    "pending": 1,
+    "pending": 0,
     "void": 0,
     "n_graded": 33,
     "hit_rate": 72.7,
-    "record": "24-9 (1 pending)"
+    "record": "24-9"
    },
    "by_slate": [
-    {
-     "wins": 0,
-     "losses": 0,
-     "pending": 1,
-     "void": 0,
-     "n_graded": 0,
-     "hit_rate": null,
-     "record": "0-0 (1 pending)",
-     "slate": "2026-11-23",
-     "n": 1
-    },
     {
      "wins": 1,
      "losses": 1,
@@ -2364,11 +2377,11 @@
     {
      "wins": 7,
      "losses": 3,
-     "pending": 1,
+     "pending": 0,
      "void": 0,
      "n_graded": 10,
      "hit_rate": 70.0,
-     "record": "7-3 (1 pending)",
+     "record": "7-3",
      "key": "nhl:1+ points"
     },
     {
@@ -5880,10 +5893,10 @@
     {
      "slate": "2026-11-23",
      "status": "pending",
-     "wins": 0,
+     "wins": 2,
      "losses": 0,
-     "n_graded": 0,
-     "n_pending": 3,
+     "n_graded": 2,
+     "n_pending": 1,
      "killers": []
     }
    ]
@@ -6011,10 +6024,10 @@
     {
      "slate": "2026-11-23",
      "status": "pending",
-     "wins": 0,
+     "wins": 2,
      "losses": 0,
-     "n_graded": 0,
-     "n_pending": 3,
+     "n_graded": 2,
+     "n_pending": 1,
      "killers": []
     }
    ]
@@ -6385,26 +6398,32 @@
     {
      "slate": "2026-11-23",
      "status": "pending",
-     "wins": 0,
-     "losses": 0,
-     "n_graded": 0,
-     "n_pending": 6,
-     "killers": []
+     "wins": 4,
+     "losses": 1,
+     "n_graded": 5,
+     "n_pending": 1,
+     "killers": [
+      {
+       "player": "Chase Brown",
+       "label": "25+ rushing yards",
+       "leg_type": "nfl:rushing_yards"
+      }
+     ]
     }
    ]
   },
   "model_first_posted": {
    "label": "model ticket as posted",
    "wins": 1,
-   "losses": 11,
-   "pending": 1,
-   "n_decided": 12,
-   "hit_rate": 8.3,
-   "record": "1-11 (1 pending)",
+   "losses": 12,
+   "pending": 0,
+   "n_decided": 13,
+   "hit_rate": 7.7,
+   "record": "1-12",
    "killers_by_type": [
     {
      "key": "nhl:1+ points",
-     "slates_killed": 8
+     "slates_killed": 9
     },
     {
      "key": "nba:threes",
@@ -6641,27 +6660,33 @@
     },
     {
      "slate": "2026-11-23",
-     "status": "pending",
-     "wins": 0,
-     "losses": 0,
-     "n_graded": 0,
-     "n_pending": 3,
-     "killers": []
+     "status": "loss",
+     "wins": 2,
+     "losses": 1,
+     "n_graded": 3,
+     "n_pending": 0,
+     "killers": [
+      {
+       "player": "Matthew Schaefer",
+       "label": "Over 0.5 points",
+       "leg_type": "nhl:1+ points"
+      }
+     ]
     }
    ]
   },
   "model_site": {
    "label": "model site ticket, later reshuffles, not official",
    "wins": 5,
-   "losses": 14,
-   "pending": 1,
-   "n_decided": 19,
-   "hit_rate": 26.3,
-   "record": "5-14 (1 pending)",
+   "losses": 15,
+   "pending": 0,
+   "n_decided": 20,
+   "hit_rate": 25.0,
+   "record": "5-15",
    "killers_by_type": [
     {
      "key": "nhl:1+ points",
-     "slates_killed": 10
+     "slates_killed": 11
     },
     {
      "key": "nba:threes",
@@ -7001,12 +7026,18 @@
     },
     {
      "slate": "2026-11-23",
-     "status": "pending",
-     "wins": 0,
-     "losses": 0,
-     "n_graded": 0,
-     "n_pending": 3,
-     "killers": []
+     "status": "loss",
+     "wins": 2,
+     "losses": 1,
+     "n_graded": 3,
+     "n_pending": 0,
+     "killers": [
+      {
+       "player": "Matthew Schaefer",
+       "label": "Over 0.5 points",
+       "leg_type": "nhl:1+ points"
+      }
+     ]
     }
    ]
   }
@@ -7014,13 +7045,13 @@
  "leg_types": {
   "model_first_posted": [
    {
-    "wins": 30,
-    "losses": 10,
-    "pending": 2,
+    "wins": 31,
+    "losses": 11,
+    "pending": 0,
     "void": 0,
-    "n_graded": 40,
-    "hit_rate": 75.0,
-    "record": "30-10 (2 pending)",
+    "n_graded": 42,
+    "hit_rate": 73.8,
+    "record": "31-11",
     "key": "nhl:1+ points"
    },
    {
@@ -7075,6 +7106,16 @@
    },
    {
     "wins": 3,
+    "losses": 1,
+    "pending": 0,
+    "void": 0,
+    "n_graded": 4,
+    "hit_rate": 75.0,
+    "record": "3-1",
+    "key": "nhl:assists"
+   },
+   {
+    "wins": 3,
     "losses": 0,
     "pending": 0,
     "void": 0,
@@ -7095,16 +7136,6 @@
    },
    {
     "wins": 2,
-    "losses": 1,
-    "pending": 1,
-    "void": 0,
-    "n_graded": 3,
-    "hit_rate": 66.7,
-    "record": "2-1 (1 pending)",
-    "key": "nhl:assists"
-   },
-   {
-    "wins": 2,
     "losses": 0,
     "pending": 0,
     "void": 0,
@@ -7116,13 +7147,13 @@
   ],
   "model_era_first_posted": [
    {
-    "wins": 20,
-    "losses": 9,
-    "pending": 2,
+    "wins": 21,
+    "losses": 10,
+    "pending": 0,
     "void": 0,
-    "n_graded": 29,
-    "hit_rate": 69.0,
-    "record": "20-9 (2 pending)",
+    "n_graded": 31,
+    "hit_rate": 67.7,
+    "record": "21-10",
     "key": "nhl:1+ points"
    },
    {
@@ -7146,13 +7177,13 @@
     "key": "nfl:anytimetd"
    },
    {
-    "wins": 2,
+    "wins": 3,
     "losses": 1,
-    "pending": 1,
+    "pending": 0,
     "void": 0,
-    "n_graded": 3,
-    "hit_rate": 66.7,
-    "record": "2-1 (1 pending)",
+    "n_graded": 4,
+    "hit_rate": 75.0,
+    "record": "3-1",
     "key": "nhl:assists"
    },
    {
@@ -7178,13 +7209,13 @@
   ],
   "model_site": [
    {
-    "wins": 29,
-    "losses": 11,
-    "pending": 2,
+    "wins": 30,
+    "losses": 12,
+    "pending": 0,
     "void": 0,
-    "n_graded": 40,
-    "hit_rate": 72.5,
-    "record": "29-11 (2 pending)",
+    "n_graded": 42,
+    "hit_rate": 71.4,
+    "record": "30-12",
     "key": "nhl:1+ points"
    },
    {
@@ -7239,6 +7270,16 @@
    },
    {
     "wins": 3,
+    "losses": 1,
+    "pending": 0,
+    "void": 0,
+    "n_graded": 4,
+    "hit_rate": 75.0,
+    "record": "3-1",
+    "key": "nhl:assists"
+   },
+   {
+    "wins": 3,
     "losses": 0,
     "pending": 0,
     "void": 0,
@@ -7256,16 +7297,6 @@
     "hit_rate": 66.7,
     "record": "2-1",
     "key": "nfl:rushing_yards"
-   },
-   {
-    "wins": 2,
-    "losses": 1,
-    "pending": 1,
-    "void": 0,
-    "n_graded": 3,
-    "hit_rate": 66.7,
-    "record": "2-1 (1 pending)",
-    "key": "nhl:assists"
    },
    {
     "wins": 2,
@@ -7290,13 +7321,13 @@
     "key": "nhl:1+ points"
    },
    {
-    "wins": 16,
+    "wins": 18,
     "losses": 3,
-    "pending": 3,
+    "pending": 1,
     "void": 0,
-    "n_graded": 19,
-    "hit_rate": 84.2,
-    "record": "16-3 (3 pending)",
+    "n_graded": 21,
+    "hit_rate": 85.7,
+    "record": "18-3 (1 pending)",
     "key": "nba:rebounds"
    },
    {
@@ -7308,6 +7339,16 @@
     "hit_rate": 100.0,
     "record": "14-0",
     "key": "nba:assists"
+   },
+   {
+    "wins": 5,
+    "losses": 3,
+    "pending": 0,
+    "void": 0,
+    "n_graded": 8,
+    "hit_rate": 62.5,
+    "record": "5-3",
+    "key": "nfl:rushing_yards"
    },
    {
     "wins": 6,
@@ -7330,16 +7371,6 @@
     "key": "nfl:receiving_yards"
    },
    {
-    "wins": 5,
-    "losses": 2,
-    "pending": 1,
-    "void": 0,
-    "n_graded": 7,
-    "hit_rate": 71.4,
-    "record": "5-2 (1 pending)",
-    "key": "nfl:rushing_yards"
-   },
-   {
     "wins": 4,
     "losses": 1,
     "pending": 0,
@@ -7350,35 +7381,35 @@
     "key": "nba:threes"
    },
    {
-    "wins": 1,
+    "wins": 2,
     "losses": 0,
-    "pending": 1,
+    "pending": 0,
     "void": 0,
-    "n_graded": 1,
+    "n_graded": 2,
     "hit_rate": 100.0,
-    "record": "1-0 (1 pending)",
+    "record": "2-0",
     "key": "nfl:receptions"
    },
    {
-    "wins": 0,
+    "wins": 1,
     "losses": 0,
-    "pending": 1,
+    "pending": 0,
     "void": 0,
-    "n_graded": 0,
-    "hit_rate": null,
-    "record": "0-0 (1 pending)",
+    "n_graded": 1,
+    "hit_rate": 100.0,
+    "record": "1-0",
     "key": "nfl:passing"
    }
   ],
   "featured_parlay": [
    {
-    "wins": 16,
+    "wins": 18,
     "losses": 3,
-    "pending": 3,
+    "pending": 1,
     "void": 0,
-    "n_graded": 19,
-    "hit_rate": 84.2,
-    "record": "16-3 (3 pending)",
+    "n_graded": 21,
+    "hit_rate": 85.7,
+    "record": "18-3 (1 pending)",
     "key": "nba:rebounds"
    },
    {
@@ -7416,11 +7447,11 @@
    {
     "wins": 7,
     "losses": 3,
-    "pending": 1,
+    "pending": 0,
     "void": 0,
     "n_graded": 10,
     "hit_rate": 70.0,
-    "record": "7-3 (1 pending)",
+    "record": "7-3",
     "key": "nhl:1+ points"
    },
    {
