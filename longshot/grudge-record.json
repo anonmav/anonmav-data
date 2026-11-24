@@ -1,6 +1,6 @@
 {
- "pulled_az": "2026-11-23T07:02:38-07:00",
- "slate": "2026-11-23",
+ "pulled_az": "2026-11-24T07:00:51-07:00",
+ "slate": "2026-11-24",
  "tz": "Arizona (MST)",
  "card": "Grudge",
  "note": "Quiet last game against a line the player usually clears. Season hit rate and Floor Score are estimates. Most graded legs are from November 3-9, when listed lines were more conservative. On tighter lines from November 11-13 the featured card went 4-4, a small sample and low confidence. The last-game filter did not beat a plain high season-hit filter on the same history. Losses are listed with their dates. Model and Deep Floor picks are tracked separately.",
@@ -29,7 +29,7 @@
  "summary": {
   "wins": 24,
   "losses": 9,
-  "pending": 1,
+  "pending": 0,
   "void": 0
  },
  "picks": [
@@ -791,28 +791,6 @@
    "graded_az": "2026-11-14T02:30:44-07:00",
    "event_id": "401892706",
    "athlete_id": "4197146"
-  },
-  {
-   "slate": "2026-11-23",
-   "sport": "nhl",
-   "game": "ANA @ SEA",
-   "player": "Jackson LaCombe",
-   "team": "ANA",
-   "stat": "points",
-   "label": "Over 0.5 points",
-   "line": 0.5,
-   "score": 52.0,
-   "posted_az": "2026-11-23T07:02:38-07:00",
-   "result": null,
-   "grade": null,
-   "graded_az": null,
-   "athlete_id": "4565262",
-   "avg": 1.04,
-   "last": 0.0,
-   "hit_season": 0.708,
-   "hit_l5": 0.2,
-   "games": 24,
-   "cushion": 0.5
   }
  ]
 }

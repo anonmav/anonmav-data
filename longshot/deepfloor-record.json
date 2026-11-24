@@ -1,6 +1,6 @@
 {
- "pulled_az": "2026-11-23T07:02:04-07:00",
- "slate": "2026-11-23",
+ "pulled_az": "2026-11-24T07:00:42-07:00",
+ "slate": "2026-11-24",
  "tz": "Arizona (MST)",
  "card": "Deep Floor",
  "note": "Conservative listed thresholds. A pick needs a Floor Score of 90 or better. Floor Scores are estimates. Losses are listed with their dates. No Deep Floor card was posted November 10-13, 2026, while the board used model lines.",
@@ -21,9 +21,9 @@
   "yellow": 75
  },
  "summary": {
-  "wins": 71,
-  "losses": 14,
-  "pending": 6,
+  "wins": 75,
+  "losses": 15,
+  "pending": 2,
   "void": 0
  },
  "picks": [
@@ -1526,7 +1526,10 @@
    "label": "2+ rebounds",
    "line": 1.5,
    "score": 100,
-   "posted_az": "2026-11-23T07:02:04-07:00"
+   "posted_az": "2026-11-23T07:02:04-07:00",
+   "result": 3.0,
+   "grade": "win",
+   "graded_az": "2026-11-24T02:32:37-07:00"
   },
   {
    "id": "deep:2026-11-23:nba:3059318:totalRebounds",
@@ -1560,7 +1563,10 @@
    "label": "4+ rebounds",
    "line": 3.5,
    "score": 100,
-   "posted_az": "2026-11-23T07:02:04-07:00"
+   "posted_az": "2026-11-23T07:02:04-07:00",
+   "result": 6.0,
+   "grade": "win",
+   "graded_az": "2026-11-24T02:32:36-07:00"
   },
   {
    "id": "deep:2026-11-23:nfl:4362238:rushingYards",
@@ -1577,7 +1583,10 @@
    "label": "25+ rushing yards",
    "line": 24.5,
    "score": 92.0,
-   "posted_az": "2026-11-23T07:02:04-07:00"
+   "posted_az": "2026-11-23T07:02:04-07:00",
+   "result": 6.0,
+   "grade": "loss",
+   "graded_az": "2026-11-24T02:33:19-07:00"
   },
   {
    "id": "deep:2026-11-23:nfl:3915511:passingTouchdowns",
@@ -1594,7 +1603,10 @@
    "label": "1+ passing TDs",
    "line": 0.5,
    "score": 97.0,
-   "posted_az": "2026-11-23T07:02:04-07:00"
+   "posted_az": "2026-11-23T07:02:04-07:00",
+   "result": 2.0,
+   "grade": "win",
+   "graded_az": "2026-11-24T02:33:18-07:00"
   },
   {
    "id": "deep:2026-11-23:nfl:2976212:receptions",
@@ -1611,7 +1623,27 @@
    "label": "3+ receptions",
    "line": 2.5,
    "score": 95.0,
-   "posted_az": "2026-11-23T07:02:04-07:00"
+   "posted_az": "2026-11-23T07:02:04-07:00",
+   "result": 4.0,
+   "grade": "win",
+   "graded_az": "2026-11-24T02:33:19-07:00"
+  },
+  {
+   "id": "deep:2026-11-24:nhl:3895074:points",
+   "slate": "2026-11-24",
+   "sport": "nhl",
+   "event_id": "401892780",
+   "game": "VGK @ EDM",
+   "start_utc": "2026-11-25T01:00:00+00:00",
+   "start_az": "6:00 PM",
+   "athlete_id": "3895074",
+   "player": "Connor McDavid",
+   "team": "EDM",
+   "stat": "points",
+   "label": "1+ points",
+   "line": 0.5,
+   "score": 92.3,
+   "posted_az": "2026-11-24T07:00:42-07:00"
   }
  ]
 }
