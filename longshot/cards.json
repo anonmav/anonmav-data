@@ -1,5 +1,5 @@
 {
- "updated_az": "2026-11-24T11:20:02-07:00",
+ "updated_az": "2026-11-24T15:20:02-07:00",
  "note": "Estimates from public scores, closing lines, play by play, depth charts, injury reports and our matchup engine. Not betting advice.",
  "sports": {
   "nba": {
@@ -1624,7 +1624,7 @@
        "team": "DAL",
        "pos": "TE",
        "name": "Jake Ferguson",
-       "status": "Questionable"
+       "status": "Doubtful"
       },
       {
        "team": "DAL",
@@ -2980,12 +2980,6 @@
       }
      },
      "changes": [
-      {
-       "team": "NYG",
-       "pos": "CB",
-       "name": "Greg Newsome II",
-       "status": "Out"
-      },
       {
        "team": "IND",
        "pos": "QB",
