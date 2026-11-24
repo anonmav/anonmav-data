@@ -1,9 +1,9 @@
 {
- "pulled_az": "2026-11-24T06:30:53-07:00",
+ "pulled_az": "2026-11-24T07:01:02-07:00",
  "slate": "2026-11-24",
- "status": "waiting",
+ "status": "locked",
  "start": "2026-11-17",
- "locked_az": null,
+ "locked_az": "2026-11-24T07:00:01-07:00",
  "note": "High Floor forward test. Started November 17, 2026 at 0-0. Singles only, locked at publish, graded daily.",
  "rule": [
   "A test, not picks. Singles only: Over legs where the player cleared the line in at least 8 of the last 10 games and in at least 75% of this season's games, with a consensus line posted.",
@@ -13,6 +13,46 @@
   "It needs about 300 graded legs, roughly 8 to 9 weeks. It passes only if the hit rate beats the market chance by about 4 to 5 points. If it does not, we retire it.",
   "Floor scores, market chances and defense ranks are estimates. No stakes or profit are tracked. Not betting advice."
  ],
- "legs": [],
- "empty_note": "Legs lock at the 7 AM Arizona publish. The record starts at 0-0."
+ "legs": [
+  {
+   "id": "2026-11-24:nhl:3895074:assists",
+   "slate": "2026-11-24",
+   "sport": "nhl",
+   "event_id": "401892780",
+   "game": "VGK @ EDM",
+   "start_utc": "2026-11-25T01:00:00+00:00",
+   "start_az": "6:00 PM",
+   "athlete_id": "3895074",
+   "player": "Connor McDavid",
+   "team": "EDM",
+   "opp": "VGK",
+   "stat": "assists",
+   "label": "Over 0.5 assists",
+   "line": 0.5,
+   "l10_hits": 8,
+   "l10_n": 10,
+   "hit_season": 0.923,
+   "games": 26,
+   "avg": 1.73,
+   "consensus_odds": -235,
+   "market_pct": 66,
+   "score": 75.7,
+   "pos": null,
+   "injury": null,
+   "cushion": {
+    "threshold": 1,
+    "l10_min": 0.0,
+    "l10_p10": 0.0,
+    "exact_l5": 2,
+    "n": 10,
+    "thin": false,
+    "thin_reasons": []
+   },
+   "thin": false,
+   "posted_az": "2026-11-24T07:00:01-07:00",
+   "would_exclude": [],
+   "flags_checked_az": "2026-11-24T07:01:01-07:00"
+  }
+ ],
+ "empty_note": "No legs met the rule at lock time today. That is a valid result."
 }

@@ -1,5 +1,5 @@
 {
- "pulled_az": "2026-11-24T06:30:53-07:00",
+ "pulled_az": "2026-11-24T07:01:02-07:00",
  "start": "2026-11-17",
  "note": "High Floor forward test. Started November 17, 2026 at 0-0. Singles only, locked at publish, graded daily.",
  "rule": [
@@ -14,7 +14,7 @@
   "wins": 14,
   "losses": 10,
   "void": 1,
-  "pending": 0,
+  "pending": 1,
   "graded": 24,
   "target": 300,
   "hit_rate": 58.3,
@@ -48,7 +48,7 @@
    "wins": 0,
    "losses": 0,
    "void": 0,
-   "pending": 0,
+   "pending": 1,
    "graded": 0,
    "target": 300,
    "hit_rate": null,
@@ -72,7 +72,7 @@
    "wins": 11,
    "losses": 7,
    "void": 1,
-   "pending": 0,
+   "pending": 1,
    "graded": 18,
    "target": 300,
    "hit_rate": 61.1,
@@ -147,6 +147,14 @@
    "losses": 4,
    "void": 0,
    "pending": 0
+  },
+  {
+   "slate": "2026-11-24",
+   "legs": 1,
+   "wins": 0,
+   "losses": 0,
+   "void": 0,
+   "pending": 1
   }
  ],
  "losses": [
@@ -1589,6 +1597,45 @@
    "grade": "loss",
    "result": 0.0,
    "graded_az": "2026-11-24T02:30:04-07:00"
+  },
+  {
+   "id": "2026-11-24:nhl:3895074:assists",
+   "slate": "2026-11-24",
+   "sport": "nhl",
+   "event_id": "401892780",
+   "game": "VGK @ EDM",
+   "start_utc": "2026-11-25T01:00:00+00:00",
+   "start_az": "6:00 PM",
+   "athlete_id": "3895074",
+   "player": "Connor McDavid",
+   "team": "EDM",
+   "opp": "VGK",
+   "stat": "assists",
+   "label": "Over 0.5 assists",
+   "line": 0.5,
+   "l10_hits": 8,
+   "l10_n": 10,
+   "hit_season": 0.923,
+   "games": 26,
+   "avg": 1.73,
+   "consensus_odds": -235,
+   "market_pct": 66,
+   "score": 75.7,
+   "pos": null,
+   "injury": null,
+   "cushion": {
+    "threshold": 1,
+    "l10_min": 0.0,
+    "l10_p10": 0.0,
+    "exact_l5": 2,
+    "n": 10,
+    "thin": false,
+    "thin_reasons": []
+   },
+   "thin": false,
+   "posted_az": "2026-11-24T07:00:01-07:00",
+   "would_exclude": [],
+   "flags_checked_az": "2026-11-24T07:01:01-07:00"
   }
  ],
  "split_note": "Soft matchup means the opponent ranks in the softest ten of the league at the position (team level for NHL). Ranks are estimates."
