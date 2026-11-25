@@ -1,5 +1,5 @@
 {
- "pulled_az": "2026-11-25T07:01:58-07:00",
+ "pulled_az": "2026-11-25T15:32:21-07:00",
  "slate": "2026-11-25",
  "tz": "Arizona (MST)",
  "note": "Public graded record by card and by leg type. Starting November 15, the featured parlay is Deep Floor, capped at 3 legs by Floor Score, with NBA threes left out. Its record before November 15 is a backtest: the rule applied to earlier posted cards. The November 14 model ticket is graded from the morning card; Jamal Murray Over 2.5 threes was a loss, and a later swap to rebounds is not counted. Sleeper flags: next-man-up backups tagged Sleeper, graded on a modest box-score floor once the game is final (NFL skill 25 rec / 30 rush yards, NBA 8+ points, NHL 1+ point). Contrarian tags: injury or rest news that cuts against the side with at least 10 points more of the traded action; a hit means that busy side lost. Floor Score, calibrated chance and these flags are estimates. Not betting advice. Sample sizes are still small.",
@@ -2826,23 +2826,23 @@
    "summary": {
     "wins": 12,
     "losses": 10,
-    "pending": 62,
+    "pending": 65,
     "void": 16,
     "n_graded": 22,
     "hit_rate": 54.5,
-    "record": "12-10 (62 pending)"
+    "record": "12-10 (65 pending)"
    },
    "by_slate": [
     {
      "wins": 0,
      "losses": 0,
-     "pending": 6,
+     "pending": 9,
      "void": 0,
      "n_graded": 0,
      "hit_rate": null,
-     "record": "0-0 (6 pending)",
+     "record": "0-0 (9 pending)",
      "slate": "2026-11-25",
-     "n": 6
+     "n": 9
     },
     {
      "wins": 0,
@@ -2989,11 +2989,11 @@
     {
      "wins": 0,
      "losses": 0,
-     "pending": 28,
+     "pending": 31,
      "void": 16,
      "n_graded": 0,
      "hit_rate": null,
-     "record": "0-0 (28 pending)",
+     "record": "0-0 (31 pending)",
      "key": "nfl:other"
     }
    ],
@@ -4540,6 +4540,48 @@
      "def": "WSH",
      "rank": 27,
      "text": "Josh Johnson next up at QB if Carson Beck sits; WSH ranks 27 vs QB."
+    },
+    {
+     "kind": "sleeper",
+     "slate": "2026-11-25",
+     "sport": "nfl",
+     "game": "TEN @ JAX",
+     "team": "JAX",
+     "player": "Travis Hunter",
+     "pos": "WR",
+     "out": "Jakobi Meyers",
+     "status": "Questionable",
+     "def": "TEN",
+     "rank": 32,
+     "text": "Travis Hunter next up at WR if Jakobi Meyers sits; TEN ranks 32 vs WR."
+    },
+    {
+     "kind": "sleeper",
+     "slate": "2026-11-25",
+     "sport": "nfl",
+     "game": "NE @ LAC",
+     "team": "NE",
+     "player": "Efton Chism III",
+     "pos": "WR",
+     "out": "A.J. Brown",
+     "status": "Doubtful",
+     "def": "LAC",
+     "rank": 25,
+     "text": "Efton Chism III next up at WR if A.J. Brown sits; LAC ranks 25 vs WR."
+    },
+    {
+     "kind": "sleeper",
+     "slate": "2026-11-25",
+     "sport": "nfl",
+     "game": "LV @ CLE",
+     "team": "CLE",
+     "player": "Malachi Corley",
+     "pos": "WR",
+     "out": "Denzel Boston",
+     "status": "Questionable",
+     "def": "LV",
+     "rank": 23,
+     "text": "Malachi Corley next up at WR if Denzel Boston sits; LV ranks 23 vs WR."
     }
    ]
   },
@@ -4548,23 +4590,23 @@
    "summary": {
     "wins": 27,
     "losses": 13,
-    "pending": 88,
+    "pending": 99,
     "void": 0,
     "n_graded": 40,
     "hit_rate": 67.5,
-    "record": "27-13 (88 pending)"
+    "record": "27-13 (99 pending)"
    },
    "by_slate": [
     {
      "wins": 0,
      "losses": 0,
-     "pending": 3,
+     "pending": 14,
      "void": 0,
      "n_graded": 0,
      "hit_rate": null,
-     "record": "0-0 (3 pending)",
+     "record": "0-0 (14 pending)",
      "slate": "2026-11-25",
-     "n": 3
+     "n": 14
     },
     {
      "wins": 0,
@@ -4681,31 +4723,31 @@
     {
      "wins": 21,
      "losses": 8,
-     "pending": 19,
+     "pending": 25,
      "void": 0,
      "n_graded": 29,
      "hit_rate": 72.4,
-     "record": "21-8 (19 pending)",
+     "record": "21-8 (25 pending)",
      "key": "nfl:other"
     },
     {
      "wins": 6,
      "losses": 4,
-     "pending": 23,
+     "pending": 26,
      "void": 0,
      "n_graded": 10,
      "hit_rate": 60.0,
-     "record": "6-4 (23 pending)",
+     "record": "6-4 (26 pending)",
      "key": "nhl:other"
     },
     {
      "wins": 0,
      "losses": 1,
-     "pending": 46,
+     "pending": 48,
      "void": 0,
      "n_graded": 1,
      "hit_rate": 0.0,
-     "record": "0-1 (46 pending)",
+     "record": "0-1 (48 pending)",
      "key": "nba:other"
     }
    ],
@@ -6238,6 +6280,127 @@
      "busy_team": "DEN",
      "action_share_gap": 58,
      "text": "DEN on a short week (5 days since last game), PIT had 5."
+    },
+    {
+     "kind": "contrarian",
+     "slate": "2026-11-25",
+     "sport": "nba",
+     "game": "PHX @ HOU",
+     "team": "HOU",
+     "effect": "helps",
+     "busy_team": "PHX",
+     "action_share_gap": 24,
+     "text": "Revenge spot: HOU lost 102-99 to PHX on November 7."
+    },
+    {
+     "kind": "contrarian",
+     "slate": "2026-11-25",
+     "sport": "nba",
+     "game": "SA @ POR",
+     "team": "POR",
+     "effect": "helps",
+     "busy_team": "SA",
+     "action_share_gap": 30,
+     "text": "Revenge spot: POR lost 125-103 to SA on November 7."
+    },
+    {
+     "kind": "contrarian",
+     "slate": "2026-11-25",
+     "sport": "nfl",
+     "game": "NO @ CIN",
+     "team": "NO",
+     "effect": "hurts",
+     "busy_team": "NO",
+     "action_share_gap": 14,
+     "text": "NO TE Juwan Johnson listed Questionable on the injury report."
+    },
+    {
+     "kind": "contrarian",
+     "slate": "2026-11-25",
+     "sport": "nfl",
+     "game": "NYG @ IND",
+     "team": "NYG",
+     "effect": "hurts",
+     "busy_team": "NYG",
+     "action_share_gap": 34,
+     "text": "NYG TE Isaiah Likely listed Questionable on the injury report."
+    },
+    {
+     "kind": "contrarian",
+     "slate": "2026-11-25",
+     "sport": "nfl",
+     "game": "NYJ @ MIA",
+     "team": "NYJ",
+     "effect": "hurts",
+     "busy_team": "NYJ",
+     "action_share_gap": 20,
+     "text": "NYJ WR Isaiah Williams listed Questionable on the injury report."
+    },
+    {
+     "kind": "contrarian",
+     "slate": "2026-11-25",
+     "sport": "nfl",
+     "game": "BAL @ HOU",
+     "team": "BAL",
+     "effect": "hurts",
+     "busy_team": "BAL",
+     "action_share_gap": 56,
+     "text": "BAL RB Derrick Henry listed Questionable on the injury report."
+    },
+    {
+     "kind": "contrarian",
+     "slate": "2026-11-25",
+     "sport": "nfl",
+     "game": "LV @ CLE",
+     "team": "LV",
+     "effect": "hurts",
+     "busy_team": "LV",
+     "action_share_gap": 54,
+     "text": "LV TE Brock Bowers listed Questionable on the injury report."
+    },
+    {
+     "kind": "contrarian",
+     "slate": "2026-11-25",
+     "sport": "nfl",
+     "game": "CAR @ TB",
+     "team": "CAR",
+     "effect": "hurts",
+     "busy_team": "CAR",
+     "action_share_gap": 48,
+     "text": "CAR WR Tetairoa McMillan listed Questionable on the injury report."
+    },
+    {
+     "kind": "contrarian",
+     "slate": "2026-11-25",
+     "sport": "nhl",
+     "game": "PHI @ WSH",
+     "team": "PHI",
+     "effect": "helps",
+     "busy_team": "WSH",
+     "action_share_gap": 34,
+     "text": "Revenge spot: PHI lost 5-2 to WSH on October 28."
+    },
+    {
+     "kind": "contrarian",
+     "slate": "2026-11-25",
+     "sport": "nhl",
+     "game": "VAN @ DET",
+     "team": "VAN",
+     "effect": "helps",
+     "busy_team": "DET",
+     "action_share_gap": 30,
+     "text": "Revenge spot: VAN lost 5-2 to DET on October 22."
+    },
+    {
+     "kind": "contrarian",
+     "slate": "2026-11-25",
+     "sport": "nhl",
+     "game": "UTA @ MIN",
+     "team": "UTA",
+     "effect": "helps",
+     "busy_team": "MIN",
+     "action_share_gap": 74,
+     "text": "Revenge spot: UTA lost 3-1 to MIN on October 27."
     }
    ]
   }
