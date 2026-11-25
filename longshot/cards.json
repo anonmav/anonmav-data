@@ -1,5 +1,5 @@
 {
- "updated_az": "2026-11-25T11:20:02-07:00",
+ "updated_az": "2026-11-25T15:20:02-07:00",
  "note": "Estimates from public scores, closing lines, play by play, depth charts, injury reports and our matchup engine. Not betting advice.",
  "sports": {
   "nba": {
@@ -251,16 +251,26 @@
      },
      "changes": [
       {
-       "team": "MIA",
-       "pos": "PF",
-       "name": "Giannis Antetokounmpo",
-       "status": "Day-To-Day"
-      },
-      {
        "team": "PHI",
        "pos": "C",
        "name": "Joel Embiid",
-       "status": "Day-To-Day"
+       "status": "Out"
+      }
+     ],
+     "next": [
+      {
+       "team": "PHI",
+       "pos": "C",
+       "out": "Joel Embiid",
+       "status": "Out",
+       "backup": "Dominick Barlow",
+       "def": "MIA",
+       "rank": 9,
+       "n": 30,
+       "v": 19.4,
+       "yds": null,
+       "unit": "pts",
+       "sleeper": false
       }
      ]
     },
@@ -525,7 +535,7 @@
        "team": "CHI",
        "pos": "C",
        "name": "Jalen Smith",
-       "status": "Day-To-Day"
+       "status": "Out"
       },
       {
        "team": "CHA",
@@ -545,6 +555,20 @@
        "rank": 20,
        "n": 30,
        "v": 22.9,
+       "yds": null,
+       "unit": "pts",
+       "sleeper": false
+      },
+      {
+       "team": "CHI",
+       "pos": "C",
+       "out": "Jalen Smith",
+       "status": "Out",
+       "backup": "Nic Claxton",
+       "def": "CHA",
+       "rank": 6,
+       "n": 30,
+       "v": 19.1,
        "yds": null,
        "unit": "pts",
        "sleeper": false
@@ -2174,6 +2198,12 @@
      },
      "changes": [
       {
+       "team": "SAC",
+       "pos": "SG",
+       "name": "Zach LaVine",
+       "status": "Day-To-Day"
+      },
+      {
        "team": "GS",
        "pos": "SF",
        "name": "Yaxel Lendeborg",
@@ -3119,8 +3149,14 @@
       {
        "team": "CHI",
        "pos": "CB",
-       "name": "Kyler Gordon",
+       "name": "Tyrique Stevenson Sr.",
        "status": "Questionable"
+      },
+      {
+       "team": "CHI",
+       "pos": "CB",
+       "name": "Kyler Gordon",
+       "status": "Out"
       },
       {
        "team": "DET",
@@ -3462,7 +3498,7 @@
        "team": "DAL",
        "pos": "TE",
        "name": "Jake Ferguson",
-       "status": "Doubtful"
+       "status": "Out"
       },
       {
        "team": "DAL",
@@ -3472,14 +3508,8 @@
       },
       {
        "team": "DAL",
-       "pos": "LB",
-       "name": "Dee Winters",
-       "status": "Questionable"
-      },
-      {
-       "team": "DAL",
        "pos": "S",
-       "name": "P.J. Locke",
+       "name": "Jalen Thompson",
        "status": "Questionable"
       }
      ],
@@ -3488,7 +3518,7 @@
        "team": "DAL",
        "pos": "TE",
        "out": "Jake Ferguson",
-       "status": "Doubtful",
+       "status": "Out",
        "backup": "Brevyn Spann-Ford",
        "def": "PHI",
        "rank": 8,
@@ -4211,6 +4241,12 @@
        "pos": "LB",
        "name": "Alex Highsmith",
        "status": "Doubtful"
+      },
+      {
+       "team": "PIT",
+       "pos": "S",
+       "name": "DeShon Elliott",
+       "status": "Questionable"
       }
      ]
     },
@@ -4361,13 +4397,28 @@
      },
      "watch": [
       {
+       "kind": "story",
+       "team": "NO",
+       "effect": "hurts",
+       "tone": "down",
+       "text": "NO TE Juwan Johnson listed Questionable on the injury report."
+      },
+      {
        "kind": "mismatch",
        "team": "CIN",
        "tone": "up",
        "text": "Tee Higgins (CIN) draws Quincy Riley on 47% of routes. ACE 74 est., edge."
       }
      ],
-     "stories": [],
+     "stories": [
+      {
+       "kind": "story",
+       "team": "NO",
+       "effect": "hurts",
+       "tone": "down",
+       "text": "NO TE Juwan Johnson listed Questionable on the injury report."
+      }
+     ],
      "grid": {
       "NO": {
        "n": 32,
@@ -4499,6 +4550,12 @@
        "team": "NO",
        "pos": "TE",
        "name": "Juwan Johnson",
+       "status": "Questionable"
+      },
+      {
+       "team": "NO",
+       "pos": "LG",
+       "name": "David Edwards",
        "status": "Questionable"
       },
       {
@@ -4696,6 +4753,13 @@
      },
      "watch": [
       {
+       "kind": "story",
+       "team": "NYG",
+       "effect": "hurts",
+       "tone": "down",
+       "text": "NYG TE Isaiah Likely listed Questionable on the injury report."
+      },
+      {
        "kind": "mismatch",
        "team": "NYG",
        "tone": "up",
@@ -4708,7 +4772,15 @@
        "text": "Deion Burks (IND) draws Paulson Adebo on 52% of routes. ACE 28 est., tough draw."
       }
      ],
-     "stories": [],
+     "stories": [
+      {
+       "kind": "story",
+       "team": "NYG",
+       "effect": "hurts",
+       "tone": "down",
+       "text": "NYG TE Isaiah Likely listed Questionable on the injury report."
+      }
+     ],
      "grid": {
       "NYG": {
        "n": 32,
@@ -4837,6 +4909,36 @@
      },
      "changes": [
       {
+       "team": "NYG",
+       "pos": "TE",
+       "name": "Isaiah Likely",
+       "status": "Questionable"
+      },
+      {
+       "team": "NYG",
+       "pos": "DE",
+       "name": "Shelby Harris",
+       "status": "Questionable"
+      },
+      {
+       "team": "NYG",
+       "pos": "LB",
+       "name": "Arvell Reese",
+       "status": "Questionable"
+      },
+      {
+       "team": "NYG",
+       "pos": "LB",
+       "name": "Abdul Carter",
+       "status": "Questionable"
+      },
+      {
+       "team": "NYG",
+       "pos": "CB",
+       "name": "Dru Phillips",
+       "status": "Questionable"
+      },
+      {
        "team": "IND",
        "pos": "QB",
        "name": "Anthony Richardson Sr.",
@@ -4854,18 +4956,22 @@
        "pos": "RT",
        "name": "Jalen Travis",
        "status": "Questionable"
-      },
+      }
+     ],
+     "next": [
       {
-       "team": "IND",
-       "pos": "CB",
-       "name": "Sauce Gardner",
-       "status": "Questionable"
-      },
-      {
-       "team": "IND",
-       "pos": "CB",
-       "name": "Charvarius Ward",
-       "status": "Questionable"
+       "team": "NYG",
+       "pos": "TE",
+       "out": "Isaiah Likely",
+       "status": "Questionable",
+       "backup": "Theo Johnson",
+       "def": "IND",
+       "rank": 18,
+       "n": 32,
+       "v": 13.4,
+       "yds": 45.5,
+       "unit": "pts",
+       "sleeper": false
       }
      ]
     },
@@ -5192,8 +5298,14 @@
       },
       {
        "team": "NYJ",
-       "pos": "LB",
-       "name": "Trevin Wallace",
+       "pos": "LG",
+       "name": "Dylan Parham",
+       "status": "Questionable"
+      },
+      {
+       "team": "MIA",
+       "pos": "RT",
+       "name": "Austin Jackson",
        "status": "Questionable"
       },
       {
@@ -5373,6 +5485,13 @@
      },
      "watch": [
       {
+       "kind": "story",
+       "team": "ATL",
+       "effect": "hurts",
+       "tone": "down",
+       "text": "ATL WR Jahan Dotson listed Questionable on the injury report."
+      },
+      {
        "kind": "mismatch",
        "team": "ATL",
        "tone": "up",
@@ -5385,7 +5504,15 @@
        "text": "Michael Penix Jr. (ATL, QB): MIN pressure 25% of dropbacks, his line allows 9% (lg 16%)."
       }
      ],
-     "stories": [],
+     "stories": [
+      {
+       "kind": "story",
+       "team": "ATL",
+       "effect": "hurts",
+       "tone": "down",
+       "text": "ATL WR Jahan Dotson listed Questionable on the injury report."
+      }
+     ],
      "grid": {
       "ATL": {
        "n": 32,
@@ -5515,8 +5642,26 @@
      "changes": [
       {
        "team": "ATL",
+       "pos": "WR",
+       "name": "Jahan Dotson",
+       "status": "Questionable"
+      },
+      {
+       "team": "ATL",
+       "pos": "LG",
+       "name": "Matthew Bergeron",
+       "status": "Questionable"
+      },
+      {
+       "team": "ATL",
        "pos": "LB",
-       "name": "Divine Deablo",
+       "name": "James Pearce Jr.",
+       "status": "Questionable"
+      },
+      {
+       "team": "ATL",
+       "pos": "S",
+       "name": "DeMarcco Hellams",
        "status": "Questionable"
       },
       {
@@ -5533,6 +5678,20 @@
       }
      ],
      "next": [
+      {
+       "team": "ATL",
+       "pos": "WR",
+       "out": "Jahan Dotson",
+       "status": "Questionable",
+       "backup": "Beaux Collins",
+       "def": "MIN",
+       "rank": 5,
+       "n": 32,
+       "v": 27.7,
+       "yds": 136.2,
+       "unit": "pts",
+       "sleeper": false
+      },
       {
        "team": "MIN",
        "pos": "WR",
@@ -5725,6 +5884,13 @@
       },
       {
        "kind": "story",
+       "team": "JAX",
+       "effect": "hurts",
+       "tone": "down",
+       "text": "JAX WR Jakobi Meyers listed Questionable on the injury report."
+      },
+      {
+       "kind": "story",
        "team": "TEN",
        "effect": "helps",
        "tone": "up",
@@ -5866,14 +6032,20 @@
       },
       {
        "team": "TEN",
-       "pos": "S",
-       "name": "Tony Adams",
+       "pos": "DT",
+       "name": "John Franklin-Myers",
        "status": "Questionable"
       },
       {
        "team": "TEN",
        "pos": "CB",
        "name": "Cor'Dale Flott",
+       "status": "Questionable"
+      },
+      {
+       "team": "JAX",
+       "pos": "WR",
+       "name": "Jakobi Meyers",
        "status": "Questionable"
       },
       {
@@ -5896,12 +6068,26 @@
       },
       {
        "team": "JAX",
-       "pos": "CB",
-       "name": "Jarrian Jones",
+       "pos": "RT",
+       "name": "Cole Van Lanen",
        "status": "Questionable"
       }
      ],
      "next": [
+      {
+       "team": "JAX",
+       "pos": "WR",
+       "out": "Jakobi Meyers",
+       "status": "Questionable",
+       "backup": "Travis Hunter",
+       "def": "TEN",
+       "rank": 32,
+       "n": 32,
+       "v": 45.2,
+       "yds": 220.6,
+       "unit": "pts",
+       "sleeper": true
+      },
       {
        "team": "JAX",
        "pos": "RB",
@@ -6091,6 +6277,13 @@
        "effect": "hurts",
        "tone": "down",
        "text": "HOU RB Woody Marks listed Questionable on the injury report."
+      },
+      {
+       "kind": "story",
+       "team": "BAL",
+       "effect": "hurts",
+       "tone": "down",
+       "text": "BAL RB Derrick Henry listed Questionable on the injury report."
       }
      ],
      "grid": {
@@ -6222,6 +6415,12 @@
      "changes": [
       {
        "team": "BAL",
+       "pos": "RB",
+       "name": "Derrick Henry",
+       "status": "Questionable"
+      },
+      {
+       "team": "BAL",
        "pos": "DE",
        "name": "Nnamdi Madubuike",
        "status": "Questionable"
@@ -6261,15 +6460,23 @@
        "pos": "DT",
        "name": "Sheldon Rankins",
        "status": "Questionable"
-      },
-      {
-       "team": "HOU",
-       "pos": "DE",
-       "name": "Danielle Hunter",
-       "status": "Questionable"
       }
      ],
      "next": [
+      {
+       "team": "BAL",
+       "pos": "RB",
+       "out": "Derrick Henry",
+       "status": "Questionable",
+       "backup": "Justice Hill",
+       "def": "HOU",
+       "rank": 15,
+       "n": 32,
+       "v": 21.4,
+       "yds": 110.3,
+       "unit": "pts",
+       "sleeper": false
+      },
       {
        "team": "HOU",
        "pos": "WR",
@@ -6809,6 +7016,13 @@
      },
      "watch": [
       {
+       "kind": "story",
+       "team": "WSH",
+       "effect": "hurts",
+       "tone": "down",
+       "text": "WSH WR Stefon Diggs listed Questionable on the injury report."
+      },
+      {
        "kind": "mismatch",
        "team": "ARI",
        "tone": "up",
@@ -6821,7 +7035,15 @@
        "text": "Simi Fehoko (ARI) draws Rasul Douglas on 57% of routes. ACE 31 est., tough draw."
       }
      ],
-     "stories": [],
+     "stories": [
+      {
+       "kind": "story",
+       "team": "WSH",
+       "effect": "hurts",
+       "tone": "down",
+       "text": "WSH WR Stefon Diggs listed Questionable on the injury report."
+      }
+     ],
      "grid": {
       "WSH": {
        "n": 32,
@@ -6951,6 +7173,12 @@
      "changes": [
       {
        "team": "WSH",
+       "pos": "WR",
+       "name": "Stefon Diggs",
+       "status": "Questionable"
+      },
+      {
+       "team": "WSH",
        "pos": "CB",
        "name": "Amik Robertson",
        "status": "Questionable"
@@ -6970,6 +7198,20 @@
       }
      ],
      "next": [
+      {
+       "team": "WSH",
+       "pos": "WR",
+       "out": "Stefon Diggs",
+       "status": "Questionable",
+       "backup": "Van Jefferson",
+       "def": "ARI",
+       "rank": 16,
+       "n": 32,
+       "v": 32.0,
+       "yds": 147.8,
+       "unit": "pts",
+       "sleeper": false
+      },
       {
        "team": "ARI",
        "pos": "QB",
@@ -7134,10 +7376,10 @@
      "watch": [
       {
        "kind": "story",
-       "team": "SEA",
-       "effect": "helps",
-       "tone": "up",
-       "text": "Revenge spot: SEA lost 32-29 to SF on October 11."
+       "team": "SF",
+       "effect": "hurts",
+       "tone": "down",
+       "text": "SF WR Mike Evans listed Questionable on the injury report."
       },
       {
        "kind": "mismatch",
@@ -7153,6 +7395,20 @@
       }
      ],
      "stories": [
+      {
+       "kind": "story",
+       "team": "SF",
+       "effect": "hurts",
+       "tone": "down",
+       "text": "SF WR Mike Evans listed Questionable on the injury report."
+      },
+      {
+       "kind": "story",
+       "team": "SF",
+       "effect": "hurts",
+       "tone": "down",
+       "text": "SF QB Brock Purdy listed Questionable on the injury report."
+      },
       {
        "kind": "story",
        "team": "SEA",
@@ -7311,13 +7567,13 @@
        "team": "SEA",
        "pos": "LG",
        "name": "Quenton Nelson",
-       "status": "Doubtful"
+       "status": "Out"
       },
       {
        "team": "SEA",
        "pos": "RT",
        "name": "Abraham Lucas",
-       "status": "Questionable"
+       "status": "Out"
       },
       {
        "team": "SEA",
@@ -7333,8 +7589,8 @@
       },
       {
        "team": "SF",
-       "pos": "LB",
-       "name": "Dre Greenlaw",
+       "pos": "WR",
+       "name": "Mike Evans",
        "status": "Questionable"
       }
      ],
@@ -7350,6 +7606,20 @@
        "n": 32,
        "v": 16.1,
        "yds": 244.5,
+       "unit": "pts",
+       "sleeper": false
+      },
+      {
+       "team": "SF",
+       "pos": "WR",
+       "out": "Mike Evans",
+       "status": "Questionable",
+       "backup": "Jordan Watkins",
+       "def": "SEA",
+       "rank": 1,
+       "n": 32,
+       "v": 21.8,
+       "yds": 97.5,
        "unit": "pts",
        "sleeper": false
       }
@@ -7690,6 +7960,12 @@
       },
       {
        "team": "CLE",
+       "pos": "TE",
+       "name": "Harold Fannin Jr.",
+       "status": "Questionable"
+      },
+      {
+       "team": "CLE",
        "pos": "S",
        "name": "Ronnie Hickman",
        "status": "Questionable"
@@ -7875,9 +8151,9 @@
       {
        "kind": "story",
        "team": "CAR",
-       "effect": "helps",
-       "tone": "up",
-       "text": "Revenge spot: CAR lost 43-13 to TB on October 25."
+       "effect": "hurts",
+       "tone": "down",
+       "text": "CAR WR Tetairoa McMillan listed Questionable on the injury report."
       },
       {
        "kind": "mismatch",
@@ -7893,6 +8169,13 @@
       }
      ],
      "stories": [
+      {
+       "kind": "story",
+       "team": "CAR",
+       "effect": "hurts",
+       "tone": "down",
+       "text": "CAR WR Tetairoa McMillan listed Questionable on the injury report."
+      },
       {
        "kind": "story",
        "team": "CAR",
@@ -8030,6 +8313,12 @@
      "changes": [
       {
        "team": "CAR",
+       "pos": "WR",
+       "name": "Tetairoa McMillan",
+       "status": "Questionable"
+      },
+      {
+       "team": "CAR",
        "pos": "LB",
        "name": "Bobby Okereke",
        "status": "Questionable"
@@ -8045,6 +8334,22 @@
        "pos": "CB",
        "name": "Jacob Parrish",
        "status": "Questionable"
+      }
+     ],
+     "next": [
+      {
+       "team": "CAR",
+       "pos": "WR",
+       "out": "Tetairoa McMillan",
+       "status": "Questionable",
+       "backup": "Brycen Tremayne",
+       "def": "TB",
+       "rank": 12,
+       "n": 32,
+       "v": 30.4,
+       "yds": 139.2,
+       "unit": "pts",
+       "sleeper": false
       }
      ]
     }
@@ -9123,18 +9428,10 @@
        "kind": "mismatch",
        "team": "STL",
        "tone": "down",
-       "text": "Pavel Buchnevich (STL, 11 pts in 23 gp): likely goalie Ilya Sorokin 0.917 sv% (16 starts, lg 0.891), NYI allows 28.6 shots/gm (lg 27.4)."
+       "text": "Dalibor Dvorsky (STL, 8 pts in 24 gp): likely goalie Ilya Sorokin 0.917 sv% (16 starts, lg 0.891), NYI allows 28.6 shots/gm (lg 27.4)."
       }
      ],
      "stories": [],
-     "changes": [
-      {
-       "team": "STL",
-       "pos": "LW",
-       "name": "Pavel Buchnevich",
-       "status": "Day-To-Day"
-      }
-     ],
      "grid": {
       "STL": {
        "n": 32,
