@@ -1,5 +1,5 @@
 {
- "pulled_az": "2026-11-24T15:31:09-07:00",
+ "pulled_az": "2026-11-25T02:32:06-07:00",
  "start": "2026-11-17",
  "note": "High Floor forward test. Started November 17, 2026 at 0-0. Singles only, locked at publish, graded daily.",
  "rule": [
@@ -12,14 +12,14 @@
  ],
  "summary": {
   "wins": 14,
-  "losses": 10,
+  "losses": 11,
   "void": 1,
-  "pending": 1,
-  "graded": 24,
+  "pending": 0,
+  "graded": 25,
   "target": 300,
-  "hit_rate": 58.3,
-  "market_avg_pct": 58.0,
-  "gap_pts": 0.3
+  "hit_rate": 56.0,
+  "market_avg_pct": 58.4,
+  "gap_pts": -2.4
  },
  "splits": {
   "soft_matchup": {
@@ -35,14 +35,14 @@
   },
   "other_matchup": {
    "wins": 9,
-   "losses": 8,
+   "losses": 9,
    "void": 0,
-   "pending": 1,
-   "graded": 17,
+   "pending": 0,
+   "graded": 18,
    "target": 300,
-   "hit_rate": 52.9,
-   "market_avg_pct": 57.2,
-   "gap_pts": -4.3
+   "hit_rate": 50.0,
+   "market_avg_pct": 57.7,
+   "gap_pts": -7.7
   },
   "no_rank": {
    "wins": 0,
@@ -70,14 +70,14 @@
   },
   "nhl": {
    "wins": 11,
-   "losses": 7,
+   "losses": 8,
    "void": 1,
-   "pending": 1,
-   "graded": 18,
+   "pending": 0,
+   "graded": 19,
    "target": 300,
-   "hit_rate": 61.1,
-   "market_avg_pct": 59.8,
-   "gap_pts": 1.3
+   "hit_rate": 57.9,
+   "market_avg_pct": 60.1,
+   "gap_pts": -2.2
   },
   "nfl": {
    "wins": 1,
@@ -152,9 +152,9 @@
    "slate": "2026-11-24",
    "legs": 1,
    "wins": 0,
-   "losses": 0,
+   "losses": 1,
    "void": 0,
-   "pending": 1
+   "pending": 0
   }
  ],
  "losses": [
@@ -237,6 +237,14 @@
    "result": 0.0,
    "sport": "nba",
    "game": "CLE @ CHI"
+  },
+  {
+   "slate": "2026-11-24",
+   "player": "Connor McDavid",
+   "label": "Over 0.5 assists",
+   "result": 0.0,
+   "sport": "nhl",
+   "game": "VGK @ EDM"
   }
  ],
  "legs": [
@@ -1650,7 +1658,10 @@
     "soft": false,
     "text": "VGK goals allowed: 10 of 32 (32 = softest). Team level only, no NHL position rank."
    },
-   "def_logged_az": "2026-11-24T07:20:35-07:00"
+   "def_logged_az": "2026-11-24T07:20:35-07:00",
+   "grade": "loss",
+   "result": 0.0,
+   "graded_az": "2026-11-25T02:30:16-07:00"
   }
  ],
  "split_note": "Soft matchup means the opponent ranks in the softest ten of the league at the position (team level for NHL). Ranks are estimates."
