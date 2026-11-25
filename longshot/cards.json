@@ -1,5 +1,5 @@
 {
- "updated_az": "2026-11-25T07:20:02-07:00",
+ "updated_az": "2026-11-25T11:20:02-07:00",
  "note": "Estimates from public scores, closing lines, play by play, depth charts, injury reports and our matchup engine. Not betting advice.",
  "sports": {
   "nba": {
@@ -822,6 +822,12 @@
        "pos": "PF",
        "name": "Evan Mobley",
        "status": "Out"
+      },
+      {
+       "team": "NY",
+       "pos": "PG",
+       "name": "Jalen Brunson",
+       "status": "Day-To-Day"
       },
       {
        "team": "NY",
@@ -3450,13 +3456,7 @@
        "team": "PHI",
        "pos": "CB",
        "name": "Jonathan Jones",
-       "status": "Questionable"
-      },
-      {
-       "team": "PHI",
-       "pos": "CB",
-       "name": "Quinyon Mitchell",
-       "status": "Questionable"
+       "status": "Out"
       },
       {
        "team": "DAL",
@@ -3820,19 +3820,13 @@
        "team": "KC",
        "pos": "RB",
        "name": "Kenneth Walker III",
-       "status": "Questionable"
-      },
-      {
-       "team": "KC",
-       "pos": "RG",
-       "name": "Trey Smith",
-       "status": "Questionable"
+       "status": "Out"
       },
       {
        "team": "KC",
        "pos": "RT",
        "name": "Jaylon Moore",
-       "status": "Questionable"
+       "status": "Out"
       },
       {
        "team": "BUF",
@@ -3870,7 +3864,7 @@
        "team": "KC",
        "pos": "RB",
        "out": "Kenneth Walker III",
-       "status": "Questionable",
+       "status": "Out",
        "backup": "Emmett Johnson",
        "def": "BUF",
        "rank": 21,
@@ -10062,14 +10056,6 @@
        "effect": "helps",
        "tone": "up",
        "text": "Revenge spot: VAN lost 5-2 to DET on October 22."
-      }
-     ],
-     "changes": [
-      {
-       "team": "VAN",
-       "pos": "C",
-       "name": "Elias Pettersson",
-       "status": "Day-To-Day"
       }
      ],
      "grid": {
