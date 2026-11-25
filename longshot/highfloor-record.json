@@ -1,5 +1,5 @@
 {
- "pulled_az": "2026-11-25T07:02:15-07:00",
+ "pulled_az": "2026-11-25T07:21:20-07:00",
  "start": "2026-11-17",
  "note": "High Floor forward test. Started November 17, 2026 at 0-0. Singles only, locked at publish, graded daily.",
  "rule": [
@@ -37,7 +37,7 @@
    "wins": 9,
    "losses": 9,
    "void": 0,
-   "pending": 1,
+   "pending": 5,
    "graded": 18,
    "target": 300,
    "hit_rate": 50.0,
@@ -48,7 +48,7 @@
    "wins": 0,
    "losses": 0,
    "void": 0,
-   "pending": 4,
+   "pending": 0,
    "graded": 0,
    "target": 300,
    "hit_rate": null,
@@ -1708,7 +1708,22 @@
    "thin": false,
    "posted_az": "2026-11-25T07:00:01-07:00",
    "would_exclude": [],
-   "flags_checked_az": "2026-11-25T07:02:14-07:00"
+   "flags_checked_az": "2026-11-25T07:02:14-07:00",
+   "def": {
+    "level": "team",
+    "opp": "DET",
+    "n": 32,
+    "cells": [
+     {
+      "k": "Goals",
+      "rank": 15,
+      "tier": "yellow"
+     }
+    ],
+    "soft": false,
+    "text": "DET goals allowed: 15 of 32 (32 = softest). Team level only, no NHL position rank."
+   },
+   "def_logged_az": "2026-11-25T07:21:19-07:00"
   },
   {
    "id": "2026-11-25:nhl:4024854:points",
@@ -1747,7 +1762,22 @@
    "thin": false,
    "posted_az": "2026-11-25T07:00:01-07:00",
    "would_exclude": [],
-   "flags_checked_az": "2026-11-25T07:02:14-07:00"
+   "flags_checked_az": "2026-11-25T07:02:14-07:00",
+   "def": {
+    "level": "team",
+    "opp": "OTT",
+    "n": 32,
+    "cells": [
+     {
+      "k": "Goals",
+      "rank": 7,
+      "tier": "red"
+     }
+    ],
+    "soft": false,
+    "text": "OTT goals allowed: 7 of 32 (32 = softest). Team level only, no NHL position rank."
+   },
+   "def_logged_az": "2026-11-25T07:21:19-07:00"
   },
   {
    "id": "2026-11-25:nfl:4036378:passingTouchdowns",
@@ -1840,7 +1870,22 @@
    "thin": false,
    "posted_az": "2026-11-25T07:00:01-07:00",
    "would_exclude": [],
-   "flags_checked_az": "2026-11-25T07:02:14-07:00"
+   "flags_checked_az": "2026-11-25T07:02:14-07:00",
+   "def": {
+    "level": "team",
+    "opp": "MIN",
+    "n": 32,
+    "cells": [
+     {
+      "k": "Goals",
+      "rank": 1,
+      "tier": "red"
+     }
+    ],
+    "soft": false,
+    "text": "MIN goals allowed: 1 of 32 (32 = softest). Team level only, no NHL position rank."
+   },
+   "def_logged_az": "2026-11-25T07:21:19-07:00"
   },
   {
    "id": "2026-11-25:nhl:5037:points",
@@ -1879,7 +1924,22 @@
    "thin": false,
    "posted_az": "2026-11-25T07:00:01-07:00",
    "would_exclude": [],
-   "flags_checked_az": "2026-11-25T07:02:14-07:00"
+   "flags_checked_az": "2026-11-25T07:02:14-07:00",
+   "def": {
+    "level": "team",
+    "opp": "DAL",
+    "n": 32,
+    "cells": [
+     {
+      "k": "Goals",
+      "rank": 3,
+      "tier": "red"
+     }
+    ],
+    "soft": false,
+    "text": "DAL goals allowed: 3 of 32 (32 = softest). Team level only, no NHL position rank."
+   },
+   "def_logged_az": "2026-11-25T07:21:19-07:00"
   }
  ],
  "split_note": "Soft matchup means the opponent ranks in the softest ten of the league at the position (team level for NHL). Ranks are estimates."
