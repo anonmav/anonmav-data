@@ -1,279 +1,10 @@
 {
- "updated_az": "2026-11-25T15:20:02-07:00",
+ "updated_az": "2026-11-25T16:50:02-07:00",
  "note": "Estimates from public scores, closing lines, play by play, depth charts, injury reports and our matchup engine. Not betting advice.",
  "sports": {
   "nba": {
    "day": "2026-11-25",
    "games": {
-    "MIA @ PHI": {
-     "trend": {
-      "MIA": {
-       "games": [
-        {
-         "d": "2026-11-14",
-         "opp": "CLE",
-         "home": true,
-         "w": true,
-         "s": "133-121",
-         "line": -2.5,
-         "role": "fav",
-         "cov": "c"
-        },
-        {
-         "d": "2026-11-15",
-         "opp": "DET",
-         "home": true,
-         "w": true,
-         "s": "137-117",
-         "line": 4.5,
-         "role": "dog",
-         "cov": "c"
-        },
-        {
-         "d": "2026-11-17",
-         "opp": "HOU",
-         "home": true,
-         "w": true,
-         "s": "128-110",
-         "line": 1.5,
-         "role": "dog",
-         "cov": "c"
-        },
-        {
-         "d": "2026-11-19",
-         "opp": "MIL",
-         "home": true,
-         "w": true,
-         "s": "137-130",
-         "line": -11.5,
-         "role": "fav",
-         "cov": "n"
-        },
-        {
-         "d": "2026-11-22",
-         "opp": "OKC",
-         "home": true,
-         "w": true,
-         "s": "123-113",
-         "line": -4.5,
-         "role": "fav",
-         "cov": "c"
-        }
-       ],
-       "wl": [
-        5,
-        0
-       ],
-       "ats": [
-        4,
-        1,
-        0
-       ],
-       "fav": [
-        3,
-        0
-       ],
-       "dog": [
-        2,
-        0
-       ]
-      },
-      "PHI": {
-       "games": [
-        {
-         "d": "2026-11-15",
-         "opp": "IND",
-         "home": true,
-         "w": true,
-         "s": "131-124",
-         "line": -7.5,
-         "role": "fav",
-         "cov": "n"
-        },
-        {
-         "d": "2026-11-17",
-         "opp": "BKN",
-         "home": false,
-         "w": true,
-         "s": "135-123",
-         "line": -5.5,
-         "role": "fav",
-         "cov": "c"
-        },
-        {
-         "d": "2026-11-19",
-         "opp": "ORL",
-         "home": false,
-         "w": true,
-         "s": "121-116",
-         "line": 4.5,
-         "role": "dog",
-         "cov": "c"
-        },
-        {
-         "d": "2026-11-21",
-         "opp": "MIL",
-         "home": true,
-         "w": true,
-         "s": "132-129",
-         "line": -11.5,
-         "role": "fav",
-         "cov": "n"
-        },
-        {
-         "d": "2026-11-24",
-         "opp": "POR",
-         "home": true,
-         "w": false,
-         "s": "111-128",
-         "line": 1.5,
-         "role": "dog",
-         "cov": "n"
-        }
-       ],
-       "wl": [
-        4,
-        1
-       ],
-       "ats": [
-        2,
-        3,
-        0
-       ],
-       "fav": [
-        3,
-        0
-       ],
-       "dog": [
-        1,
-        1
-       ]
-      }
-     },
-     "watch": [
-      {
-       "kind": "mismatch",
-       "team": "PHI",
-       "tone": "up",
-       "text": "LeBron James (PHI, 6.5 ast): MIA allows 5.2 assists to SF/PF (+23% vs avg), game pace +1%."
-      }
-     ],
-     "stories": [],
-     "grid": {
-      "MIA": {
-       "n": 30,
-       "unit": "pts",
-       "cells": [
-        {
-         "k": "PG",
-         "v": 29.7,
-         "rank": 29,
-         "tier": "green"
-        },
-        {
-         "k": "SG",
-         "v": 25.7,
-         "rank": 30,
-         "tier": "green"
-        },
-        {
-         "k": "SF",
-         "v": 20.2,
-         "rank": 12,
-         "tier": "yellow"
-        },
-        {
-         "k": "PF",
-         "v": 21.6,
-         "rank": 9,
-         "tier": "red"
-        },
-        {
-         "k": "C",
-         "v": 19.4,
-         "rank": 9,
-         "tier": "red"
-        }
-       ],
-       "units": [
-        {
-         "k": "Pace",
-         "v": "105.9 possessions (4th fastest)",
-         "rank": null,
-         "tier": ""
-        }
-       ]
-      },
-      "PHI": {
-       "n": 30,
-       "unit": "pts",
-       "cells": [
-        {
-         "k": "PG",
-         "v": 23.9,
-         "rank": 10,
-         "tier": "red"
-        },
-        {
-         "k": "SG",
-         "v": 23.1,
-         "rank": 22,
-         "tier": "green"
-        },
-        {
-         "k": "SF",
-         "v": 23.0,
-         "rank": 24,
-         "tier": "green"
-        },
-        {
-         "k": "PF",
-         "v": 24.0,
-         "rank": 24,
-         "tier": "green"
-        },
-        {
-         "k": "C",
-         "v": 17.3,
-         "rank": 2,
-         "tier": "red"
-        }
-       ],
-       "units": [
-        {
-         "k": "Pace",
-         "v": "102.3 possessions (21st fastest)",
-         "rank": null,
-         "tier": ""
-        }
-       ]
-      }
-     },
-     "changes": [
-      {
-       "team": "PHI",
-       "pos": "C",
-       "name": "Joel Embiid",
-       "status": "Out"
-      }
-     ],
-     "next": [
-      {
-       "team": "PHI",
-       "pos": "C",
-       "out": "Joel Embiid",
-       "status": "Out",
-       "backup": "Dominick Barlow",
-       "def": "MIA",
-       "rank": 9,
-       "n": 30,
-       "v": 19.4,
-       "yds": null,
-       "unit": "pts",
-       "sleeper": false
-      }
-     ]
-    },
     "CHI @ CHA": {
      "trend": {
       "CHI": {
@@ -2100,9 +1831,9 @@
       },
       {
        "kind": "mismatch",
-       "team": "SAC",
+       "team": "GS",
        "tone": "down",
-       "text": "Zach LaVine (SAC, 20.3 pts): GS allows 22.5 points to PG/SG (-6% vs avg), game pace -1%."
+       "text": "Draymond Green (GS, 6.3 ast): SAC allows 4.1 assists to SF/PF (-4% vs avg), game pace -1%."
       }
      ],
      "stories": [],
@@ -5486,10 +5217,10 @@
      "watch": [
       {
        "kind": "story",
-       "team": "ATL",
+       "team": "MIN",
        "effect": "hurts",
        "tone": "down",
-       "text": "ATL WR Jahan Dotson listed Questionable on the injury report."
+       "text": "MIN WR Tai Felton listed Questionable on the injury report."
       },
       {
        "kind": "mismatch",
@@ -5505,6 +5236,13 @@
       }
      ],
      "stories": [
+      {
+       "kind": "story",
+       "team": "MIN",
+       "effect": "hurts",
+       "tone": "down",
+       "text": "MIN WR Tai Felton listed Questionable on the injury report."
+      },
       {
        "kind": "story",
        "team": "ATL",
@@ -6283,6 +6021,20 @@
        "team": "BAL",
        "effect": "hurts",
        "tone": "down",
+       "text": "BAL WR Rashod Bateman listed Questionable on the injury report."
+      },
+      {
+       "kind": "story",
+       "team": "BAL",
+       "effect": "hurts",
+       "tone": "down",
+       "text": "BAL WR Zay Flowers listed Questionable on the injury report."
+      },
+      {
+       "kind": "story",
+       "team": "BAL",
+       "effect": "hurts",
+       "tone": "down",
        "text": "BAL RB Derrick Henry listed Questionable on the injury report."
       }
      ],
@@ -7020,7 +6772,7 @@
        "team": "WSH",
        "effect": "hurts",
        "tone": "down",
-       "text": "WSH WR Stefon Diggs listed Questionable on the injury report."
+       "text": "WSH WR Treylon Burks listed Questionable on the injury report."
       },
       {
        "kind": "mismatch",
@@ -7036,6 +6788,13 @@
       }
      ],
      "stories": [
+      {
+       "kind": "story",
+       "team": "WSH",
+       "effect": "hurts",
+       "tone": "down",
+       "text": "WSH WR Treylon Burks listed Questionable on the injury report."
+      },
       {
        "kind": "story",
        "team": "WSH",
@@ -7412,6 +7171,13 @@
       {
        "kind": "story",
        "team": "SEA",
+       "effect": "hurts",
+       "tone": "down",
+       "text": "SEA WR Jaxon Smith-Njigba listed Questionable on the injury report."
+      },
+      {
+       "kind": "story",
+       "team": "SEA",
        "effect": "helps",
        "tone": "up",
        "text": "Revenge spot: SEA lost 32-29 to SF on October 11."
@@ -7773,10 +7539,10 @@
      "watch": [
       {
        "kind": "story",
-       "team": "CLE",
+       "team": "LV",
        "effect": "hurts",
        "tone": "down",
-       "text": "CLE WR Denzel Boston listed Questionable on the injury report."
+       "text": "LV TE Brock Bowers listed Questionable on the injury report."
       },
       {
        "kind": "mismatch",
@@ -7792,13 +7558,6 @@
       }
      ],
      "stories": [
-      {
-       "kind": "story",
-       "team": "CLE",
-       "effect": "hurts",
-       "tone": "down",
-       "text": "CLE WR Denzel Boston listed Questionable on the injury report."
-      },
       {
        "kind": "story",
        "team": "LV",
@@ -8968,13 +8727,36 @@
      },
      "watch": [
       {
+       "kind": "story",
+       "team": "TB",
+       "effect": "hurts",
+       "tone": "down",
+       "text": "TB D Erik Cernak listed Out on the injury report."
+      },
+      {
        "kind": "mismatch",
        "team": "TB",
        "tone": "down",
        "text": "Nikita Kucherov (TB, 32 pts in 23 gp): likely goalie Pyotr Kochetkov 0.911 sv% (15 starts, lg 0.891), CAR allows 21.6 shots/gm (lg 27.4)."
       }
      ],
-     "stories": [],
+     "stories": [
+      {
+       "kind": "story",
+       "team": "TB",
+       "effect": "hurts",
+       "tone": "down",
+       "text": "TB D Erik Cernak listed Out on the injury report."
+      }
+     ],
+     "changes": [
+      {
+       "team": "TB",
+       "pos": "D",
+       "name": "Erik Cernak",
+       "status": "Out"
+      }
+     ],
      "grid": {
       "CAR": {
        "n": 32,
