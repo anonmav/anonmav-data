@@ -1,5 +1,5 @@
 {
- "pulled_az": "2026-11-26T07:01:12-07:00",
+ "pulled_az": "2026-11-26T07:21:19-07:00",
  "start": "2026-11-17",
  "note": "High Floor forward test. Started November 17, 2026 at 0-0. Singles only, locked at publish, graded daily.",
  "rule": [
@@ -37,7 +37,7 @@
    "wins": 10,
    "losses": 13,
    "void": 0,
-   "pending": 0,
+   "pending": 2,
    "graded": 23,
    "target": 300,
    "hit_rate": 43.5,
@@ -48,7 +48,7 @@
    "wins": 0,
    "losses": 0,
    "void": 0,
-   "pending": 2,
+   "pending": 0,
    "graded": 0,
    "target": 300,
    "hit_rate": null,
@@ -2033,7 +2033,22 @@
    "thin": false,
    "posted_az": "2026-11-26T07:00:01-07:00",
    "would_exclude": [],
-   "flags_checked_az": "2026-11-26T07:01:12-07:00"
+   "flags_checked_az": "2026-11-26T07:01:12-07:00",
+   "def": {
+    "level": "position",
+    "opp": "CHI",
+    "n": 32,
+    "cells": [
+     {
+      "k": "RB",
+      "rank": 11,
+      "tier": "yellow"
+     }
+    ],
+    "soft": false,
+    "text": "CHI defense vs RB: 11 of 32 on fantasy points allowed (32 = softest)"
+   },
+   "def_logged_az": "2026-11-26T07:21:19-07:00"
   },
   {
    "id": "2026-11-26:nfl:4379399:anytimeTD",
@@ -2072,7 +2087,22 @@
    "thin": false,
    "posted_az": "2026-11-26T07:00:01-07:00",
    "would_exclude": [],
-   "flags_checked_az": "2026-11-26T07:01:12-07:00"
+   "flags_checked_az": "2026-11-26T07:01:12-07:00",
+   "def": {
+    "level": "position",
+    "opp": "KC",
+    "n": 32,
+    "cells": [
+     {
+      "k": "RB",
+      "rank": 7,
+      "tier": "red"
+     }
+    ],
+    "soft": false,
+    "text": "KC defense vs RB: 7 of 32 on fantasy points allowed (32 = softest)"
+   },
+   "def_logged_az": "2026-11-26T07:21:19-07:00"
   }
  ],
  "split_note": "Soft matchup means the opponent ranks in the softest ten of the league at the position (team level for NHL). Ranks are estimates."
