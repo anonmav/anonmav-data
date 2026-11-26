@@ -1,5 +1,5 @@
 {
- "updated_az": "2026-11-26T11:20:02-07:00",
+ "updated_az": "2026-11-26T15:20:02-07:00",
  "note": "Estimates from public scores, closing lines, play by play, depth charts, injury reports and our matchup engine. Not betting advice.",
  "sports": {
   "nba": {
@@ -256,6 +256,18 @@
       }
      },
      "changes": [
+      {
+       "team": "MIA",
+       "pos": "SF",
+       "name": "Andrew Wiggins",
+       "status": "Day-To-Day"
+      },
+      {
+       "team": "MIA",
+       "pos": "PF",
+       "name": "Giannis Antetokounmpo",
+       "status": "Day-To-Day"
+      },
       {
        "team": "NY",
        "pos": "PF",
@@ -709,19 +721,33 @@
      "watch": [
       {
        "kind": "story",
-       "team": "IND",
-       "effect": "helps",
-       "tone": "up",
-       "text": "Revenge spot: IND lost 131-124 to PHI on November 15."
+       "team": "PHI",
+       "effect": "hurts",
+       "tone": "down",
+       "text": "PHI G Jaylen Brown listed Out on the injury report."
       },
       {
        "kind": "mismatch",
        "team": "PHI",
        "tone": "up",
        "text": "Joel Embiid (PHI, 8.9 reb): IND allows 16.9 rebounds to C (+16% vs avg)."
+      },
+      {
+       "kind": "story",
+       "team": "IND",
+       "effect": "helps",
+       "tone": "up",
+       "text": "Revenge spot: IND lost 131-124 to PHI on November 15."
       }
      ],
      "stories": [
+      {
+       "kind": "story",
+       "team": "PHI",
+       "effect": "hurts",
+       "tone": "down",
+       "text": "PHI G Jaylen Brown listed Out on the injury report."
+      },
       {
        "kind": "story",
        "team": "IND",
@@ -825,7 +851,7 @@
        "team": "PHI",
        "pos": "SF",
        "name": "Jaylen Brown",
-       "status": "Day-To-Day"
+       "status": "Out"
       },
       {
        "team": "PHI",
@@ -838,6 +864,22 @@
        "pos": "SF",
        "name": "Aaron Nesmith",
        "status": "Day-To-Day"
+      }
+     ],
+     "next": [
+      {
+       "team": "PHI",
+       "pos": "SF",
+       "out": "Jaylen Brown",
+       "status": "Out",
+       "backup": "Jabari Walker",
+       "def": "IND",
+       "rank": 6,
+       "n": 30,
+       "v": 18.7,
+       "yds": null,
+       "unit": "pts",
+       "sleeper": false
       }
      ]
     },
@@ -2929,16 +2971,6 @@
       "CHI": {
        "games": [
         {
-         "d": "2026-10-18",
-         "opp": "ATL",
-         "home": false,
-         "w": true,
-         "s": "31-23",
-         "line": -1.5,
-         "role": "fav",
-         "cov": "c"
-        },
-        {
          "d": "2026-10-23",
          "opp": "NE",
          "home": true,
@@ -2977,6 +3009,16 @@
          "line": -12.5,
          "role": "fav",
          "cov": "n"
+        },
+        {
+         "d": "2026-11-26",
+         "opp": "DET",
+         "home": false,
+         "w": true,
+         "s": "39-35",
+         "line": -1.5,
+         "role": "fav",
+         "cov": "c"
         }
        ],
        "wl": [
@@ -2999,16 +3041,6 @@
       },
       "DET": {
        "games": [
-        {
-         "d": "2026-10-25",
-         "opp": "GB",
-         "home": true,
-         "w": true,
-         "s": "20-17",
-         "line": -3.5,
-         "role": "fav",
-         "cov": "n"
-        },
         {
          "d": "2026-11-01",
          "opp": "MIN",
@@ -3048,11 +3080,21 @@
          "line": -4.5,
          "role": "fav",
          "cov": "c"
+        },
+        {
+         "d": "2026-11-26",
+         "opp": "CHI",
+         "home": true,
+         "w": false,
+         "s": "35-39",
+         "line": 1.5,
+         "role": "dog",
+         "cov": "n"
         }
        ],
        "wl": [
-        5,
-        0
+        4,
+        1
        ],
        "ats": [
         4,
@@ -3060,12 +3102,12 @@
         0
        ],
        "fav": [
-        5,
+        4,
         0
        ],
        "dog": [
         0,
-        0
+        1
        ]
       }
      },
@@ -3075,19 +3117,21 @@
        "team": "CHI",
        "effect": "hurts",
        "tone": "down",
-       "text": "CHI on a short week (4 days since last game), DET had 4."
+       "text": "CHI on a short week (0 days since last game)."
       },
       {
-       "kind": "mismatch",
+       "kind": "story",
        "team": "DET",
-       "tone": "up",
-       "text": "Amon-Ra St. Brown (DET) draws Clark Phillips III on 47% of routes. ACE 76 est., edge."
+       "effect": "hurts",
+       "tone": "down",
+       "text": "DET on a short week (0 days since last game)."
       },
       {
-       "kind": "history",
+       "kind": "story",
        "team": "DET",
+       "effect": "helps",
        "tone": "up",
-       "text": "Amon-Ra St. Brown (DET) vs this defense: 2 games, 254 yds, 3 TD (127 yds per game)."
+       "text": "Revenge spot: DET lost 39-35 to CHI on November 26."
       }
      ],
      "stories": [
@@ -3096,14 +3140,21 @@
        "team": "CHI",
        "effect": "hurts",
        "tone": "down",
-       "text": "CHI on a short week (4 days since last game), DET had 4."
+       "text": "CHI on a short week (0 days since last game)."
       },
       {
        "kind": "story",
        "team": "DET",
        "effect": "hurts",
        "tone": "down",
-       "text": "DET on a short week (4 days since last game), CHI had 4."
+       "text": "DET on a short week (0 days since last game)."
+      },
+      {
+       "kind": "story",
+       "team": "DET",
+       "effect": "helps",
+       "tone": "up",
+       "text": "Revenge spot: DET lost 39-35 to CHI on November 26."
       }
      ],
      "grid": {
@@ -3235,6 +3286,18 @@
      "changes": [
       {
        "team": "CHI",
+       "pos": "QB",
+       "name": "Caleb Williams",
+       "status": "Questionable"
+      },
+      {
+       "team": "CHI",
+       "pos": "TE",
+       "name": "Colston Loveland",
+       "status": "Questionable"
+      },
+      {
+       "team": "CHI",
        "pos": "CB",
        "name": "Kyler Gordon",
        "status": "Out"
@@ -3250,6 +3313,36 @@
        "pos": "S",
        "name": "Chuck Clark",
        "status": "Out"
+      }
+     ],
+     "next": [
+      {
+       "team": "CHI",
+       "pos": "QB",
+       "out": "Caleb Williams",
+       "status": "Questionable",
+       "backup": "Tyson Bagent",
+       "def": "DET",
+       "rank": 30,
+       "n": 32,
+       "v": 20.8,
+       "yds": 280.9,
+       "unit": "pts",
+       "sleeper": true
+      },
+      {
+       "team": "CHI",
+       "pos": "TE",
+       "out": "Colston Loveland",
+       "status": "Questionable",
+       "backup": "Sam Roush",
+       "def": "DET",
+       "rank": 32,
+       "n": 32,
+       "v": 20.8,
+       "yds": 74.0,
+       "unit": "pts",
+       "sleeper": true
       }
      ]
     },
@@ -3576,6 +3669,12 @@
        "status": "Out"
       },
       {
+       "team": "PHI",
+       "pos": "CB",
+       "name": "Cooper DeJean",
+       "status": "Questionable"
+      },
+      {
        "team": "DAL",
        "pos": "TE",
        "name": "Jake Ferguson",
@@ -3586,12 +3685,6 @@
        "pos": "RG",
        "name": "Tyler Booker",
        "status": "Out"
-      },
-      {
-       "team": "DAL",
-       "pos": "S",
-       "name": "Jalen Thompson",
-       "status": "Questionable"
       }
      ],
      "next": [
@@ -4315,13 +4408,7 @@
        "team": "PIT",
        "pos": "LB",
        "name": "Alex Highsmith",
-       "status": "Doubtful"
-      },
-      {
-       "team": "PIT",
-       "pos": "S",
-       "name": "DeShon Elliott",
-       "status": "Questionable"
+       "status": "Out"
       }
      ]
     },
@@ -4631,12 +4718,6 @@
        "team": "NO",
        "pos": "LG",
        "name": "David Edwards",
-       "status": "Questionable"
-      },
-      {
-       "team": "NO",
-       "pos": "C",
-       "name": "Erik McCoy",
        "status": "Questionable"
       },
       {
@@ -5199,9 +5280,9 @@
       {
        "kind": "story",
        "team": "NYJ",
-       "effect": "hurts",
-       "tone": "down",
-       "text": "NYJ WR Isaiah Williams listed Questionable on the injury report."
+       "effect": "helps",
+       "tone": "up",
+       "text": "Revenge spot: NYJ lost 28-25 to MIA on October 25."
       },
       {
        "kind": "mismatch",
@@ -5217,13 +5298,6 @@
       }
      ],
      "stories": [
-      {
-       "kind": "story",
-       "team": "NYJ",
-       "effect": "hurts",
-       "tone": "down",
-       "text": "NYJ WR Isaiah Williams listed Questionable on the injury report."
-      },
       {
        "kind": "story",
        "team": "NYJ",
@@ -5359,12 +5433,6 @@
       }
      },
      "changes": [
-      {
-       "team": "NYJ",
-       "pos": "WR",
-       "name": "Isaiah Williams",
-       "status": "Questionable"
-      },
       {
        "team": "NYJ",
        "pos": "WR",
@@ -5730,19 +5798,19 @@
       {
        "team": "ATL",
        "pos": "LB",
-       "name": "James Pearce Jr.",
+       "name": "Cameron Thomas",
+       "status": "Questionable"
+      },
+      {
+       "team": "ATL",
+       "pos": "LB",
+       "name": "Kendal Daniels",
        "status": "Questionable"
       },
       {
        "team": "ATL",
        "pos": "S",
        "name": "DeMarcco Hellams",
-       "status": "Questionable"
-      },
-      {
-       "team": "MIN",
-       "pos": "WR",
-       "name": "Tai Felton",
        "status": "Questionable"
       },
       {
@@ -5974,6 +6042,13 @@
        "team": "JAX",
        "effect": "hurts",
        "tone": "down",
+       "text": "JAX WR Parker Washington listed Questionable on the injury report."
+      },
+      {
+       "kind": "story",
+       "team": "JAX",
+       "effect": "hurts",
+       "tone": "down",
        "text": "JAX WR Jakobi Meyers listed Questionable on the injury report."
       },
       {
@@ -6119,14 +6194,14 @@
       },
       {
        "team": "TEN",
-       "pos": "DT",
-       "name": "John Franklin-Myers",
+       "pos": "CB",
+       "name": "Cor'Dale Flott",
        "status": "Questionable"
       },
       {
-       "team": "TEN",
-       "pos": "CB",
-       "name": "Cor'Dale Flott",
+       "team": "JAX",
+       "pos": "WR",
+       "name": "Parker Washington",
        "status": "Questionable"
       },
       {
@@ -6164,9 +6239,9 @@
       {
        "team": "JAX",
        "pos": "WR",
-       "out": "Jakobi Meyers",
+       "out": "Parker Washington",
        "status": "Questionable",
-       "backup": "Travis Hunter",
+       "backup": "Josh Cameron",
        "def": "TEN",
        "rank": 32,
        "n": 32,
@@ -6177,17 +6252,17 @@
       },
       {
        "team": "JAX",
-       "pos": "RB",
-       "out": "Bhayshul Tuten",
+       "pos": "WR",
+       "out": "Jakobi Meyers",
        "status": "Questionable",
-       "backup": "Chris Rodriguez Jr.",
+       "backup": "Travis Hunter",
        "def": "TEN",
-       "rank": 19,
+       "rank": 32,
        "n": 32,
-       "v": 22.6,
-       "yds": 132.5,
+       "v": 45.2,
+       "yds": 220.6,
        "unit": "pts",
-       "sleeper": false
+       "sleeper": true
       }
      ]
     },
@@ -6342,7 +6417,7 @@
        "team": "HOU",
        "effect": "hurts",
        "tone": "down",
-       "text": "HOU RB Woody Marks listed Questionable on the injury report."
+       "text": "HOU TE Dalton Schultz listed Questionable on the injury report."
       },
       {
        "kind": "mismatch",
@@ -6363,6 +6438,13 @@
        "team": "HOU",
        "effect": "hurts",
        "tone": "down",
+       "text": "HOU TE Dalton Schultz listed Questionable on the injury report."
+      },
+      {
+       "kind": "story",
+       "team": "HOU",
+       "effect": "hurts",
+       "tone": "down",
        "text": "HOU RB Woody Marks listed Questionable on the injury report."
       },
       {
@@ -6370,14 +6452,7 @@
        "team": "BAL",
        "effect": "hurts",
        "tone": "down",
-       "text": "BAL WR Rashod Bateman listed Questionable on the injury report."
-      },
-      {
-       "kind": "story",
-       "team": "BAL",
-       "effect": "hurts",
-       "tone": "down",
-       "text": "BAL WR Zay Flowers listed Questionable on the injury report."
+       "text": "BAL RB Derrick Henry listed Questionable on the injury report."
       }
      ],
      "grid": {
@@ -6509,38 +6584,20 @@
      "changes": [
       {
        "team": "BAL",
-       "pos": "WR",
-       "name": "Zay Flowers",
-       "status": "Questionable"
-      },
-      {
-       "team": "BAL",
-       "pos": "WR",
-       "name": "Rashod Bateman",
-       "status": "Questionable"
-      },
-      {
-       "team": "BAL",
        "pos": "RB",
        "name": "Derrick Henry",
        "status": "Questionable"
       },
       {
        "team": "BAL",
-       "pos": "LG",
-       "name": "John Simpson",
+       "pos": "RG",
+       "name": "Olaivavega Ioane",
        "status": "Questionable"
       },
       {
        "team": "BAL",
        "pos": "DE",
        "name": "Nnamdi Madubuike",
-       "status": "Questionable"
-      },
-      {
-       "team": "BAL",
-       "pos": "LB",
-       "name": "Mike Green",
        "status": "Questionable"
       },
       {
@@ -6554,36 +6611,54 @@
        "pos": "WR",
        "name": "Kayshon Boutte",
        "status": "Questionable"
+      },
+      {
+       "team": "HOU",
+       "pos": "TE",
+       "name": "Dalton Schultz",
+       "status": "Questionable"
+      },
+      {
+       "team": "HOU",
+       "pos": "RB",
+       "name": "Woody Marks",
+       "status": "Questionable"
+      },
+      {
+       "team": "HOU",
+       "pos": "LG",
+       "name": "Keylan Rutledge",
+       "status": "Questionable"
       }
      ],
      "next": [
       {
        "team": "BAL",
-       "pos": "WR",
-       "out": "Zay Flowers",
+       "pos": "RB",
+       "out": "Derrick Henry",
        "status": "Questionable",
-       "backup": "Devontez Walker",
+       "backup": "Justice Hill",
        "def": "HOU",
-       "rank": 28,
+       "rank": 15,
        "n": 32,
-       "v": 35.6,
-       "yds": 175.9,
+       "v": 21.4,
+       "yds": 110.3,
        "unit": "pts",
-       "sleeper": true
+       "sleeper": false
       },
       {
-       "team": "BAL",
+       "team": "HOU",
        "pos": "WR",
-       "out": "Rashod Bateman",
+       "out": "Kayshon Boutte",
        "status": "Questionable",
-       "backup": "Elijah Sarratt",
-       "def": "HOU",
-       "rank": 28,
+       "backup": "Nikko Remigio",
+       "def": "BAL",
+       "rank": 18,
        "n": 32,
-       "v": 35.6,
-       "yds": 175.9,
+       "v": 32.4,
+       "yds": 163.9,
        "unit": "pts",
-       "sleeper": true
+       "sleeper": false
       }
      ]
     },
@@ -6734,6 +6809,13 @@
      },
      "watch": [
       {
+       "kind": "story",
+       "team": "LAC",
+       "effect": "hurts",
+       "tone": "down",
+       "text": "LAC QB Justin Herbert listed Questionable on the injury report."
+      },
+      {
        "kind": "mismatch",
        "team": "NE",
        "tone": "up",
@@ -6746,7 +6828,15 @@
        "text": "Justin Herbert (LAC, QB): NE pressure 16% of dropbacks, his line allows 20% (lg 16%)."
       }
      ],
-     "stories": [],
+     "stories": [
+      {
+       "kind": "story",
+       "team": "LAC",
+       "effect": "hurts",
+       "tone": "down",
+       "text": "LAC QB Justin Herbert listed Questionable on the injury report."
+      }
+     ],
      "grid": {
       "NE": {
        "n": 32,
@@ -7127,13 +7217,6 @@
        "effect": "hurts",
        "tone": "down",
        "text": "WSH WR Treylon Burks listed Questionable on the injury report."
-      },
-      {
-       "kind": "story",
-       "team": "WSH",
-       "effect": "hurts",
-       "tone": "down",
-       "text": "WSH WR Stefon Diggs listed Questionable on the injury report."
       }
      ],
      "grid": {
@@ -7266,12 +7349,6 @@
       {
        "team": "WSH",
        "pos": "WR",
-       "name": "Stefon Diggs",
-       "status": "Questionable"
-      },
-      {
-       "team": "WSH",
-       "pos": "WR",
        "name": "Treylon Burks",
        "status": "Questionable"
       },
@@ -7302,20 +7379,6 @@
       }
      ],
      "next": [
-      {
-       "team": "WSH",
-       "pos": "WR",
-       "out": "Stefon Diggs",
-       "status": "Questionable",
-       "backup": "Van Jefferson",
-       "def": "ARI",
-       "rank": 16,
-       "n": 32,
-       "v": 32.0,
-       "yds": 147.8,
-       "unit": "pts",
-       "sleeper": false
-      },
       {
        "team": "ARI",
        "pos": "QB",
@@ -7480,10 +7543,10 @@
      "watch": [
       {
        "kind": "story",
-       "team": "SEA",
+       "team": "SF",
        "effect": "hurts",
        "tone": "down",
-       "text": "SEA QB Drew Lock listed Questionable on the injury report."
+       "text": "SF WR Mike Evans listed Questionable on the injury report."
       },
       {
        "kind": "mismatch",
@@ -7499,6 +7562,20 @@
       }
      ],
      "stories": [
+      {
+       "kind": "story",
+       "team": "SF",
+       "effect": "hurts",
+       "tone": "down",
+       "text": "SF WR Mike Evans listed Questionable on the injury report."
+      },
+      {
+       "kind": "story",
+       "team": "SF",
+       "effect": "hurts",
+       "tone": "down",
+       "text": "SF QB Brock Purdy listed Questionable on the injury report."
+      },
       {
        "kind": "story",
        "team": "SEA",
@@ -8255,7 +8332,7 @@
        "team": "CAR",
        "effect": "hurts",
        "tone": "down",
-       "text": "CAR WR Tetairoa McMillan listed Questionable on the injury report."
+       "text": "CAR TE Darren Waller listed Questionable on the injury report."
       },
       {
        "kind": "mismatch",
@@ -8276,7 +8353,7 @@
        "team": "CAR",
        "effect": "hurts",
        "tone": "down",
-       "text": "CAR WR Tetairoa McMillan listed Questionable on the injury report."
+       "text": "CAR TE Darren Waller listed Questionable on the injury report."
       },
       {
        "kind": "story",
@@ -8421,20 +8498,44 @@
       },
       {
        "team": "CAR",
+       "pos": "TE",
+       "name": "Tommy Tremble",
+       "status": "Questionable"
+      },
+      {
+       "team": "CAR",
+       "pos": "TE",
+       "name": "Darren Waller",
+       "status": "Questionable"
+      },
+      {
+       "team": "CAR",
+       "pos": "LB",
+       "name": "Patrick Jones II",
+       "status": "Questionable"
+      },
+      {
+       "team": "CAR",
        "pos": "LB",
        "name": "Bobby Okereke",
+       "status": "Questionable"
+      },
+      {
+       "team": "CAR",
+       "pos": "LB",
+       "name": "Jaelan Phillips",
+       "status": "Questionable"
+      },
+      {
+       "team": "TB",
+       "pos": "LB",
+       "name": "Josiah Trotter",
        "status": "Questionable"
       },
       {
        "team": "TB",
        "pos": "S",
        "name": "Antoine Winfield Jr.",
-       "status": "Questionable"
-      },
-      {
-       "team": "TB",
-       "pos": "CB",
-       "name": "Jacob Parrish",
        "status": "Questionable"
       }
      ],
@@ -8452,6 +8553,20 @@
        "yds": 139.2,
        "unit": "pts",
        "sleeper": false
+      },
+      {
+       "team": "CAR",
+       "pos": "TE",
+       "out": "Tommy Tremble",
+       "status": "Questionable",
+       "backup": "Darren Waller",
+       "def": "TB",
+       "rank": 24,
+       "n": 32,
+       "v": 15.0,
+       "yds": 65.1,
+       "unit": "pts",
+       "sleeper": true
       }
      ]
     }
@@ -11104,17 +11219,10 @@
      },
      "watch": [
       {
-       "kind": "story",
-       "team": "NYR",
-       "effect": "hurts",
-       "tone": "down",
-       "text": "NYR RW Gabe Perreault listed Out on the injury report."
-      },
-      {
        "kind": "mismatch",
        "team": "NYR",
        "tone": "up",
-       "text": "Gabe Perreault (NYR, 11 pts in 24 gp): likely goalie Spencer Knight 0.891 sv% (20 starts, lg 0.891), CHI allows 30.6 shots/gm (lg 27.4)."
+       "text": "Noah Laba (NYR, 6 pts in 24 gp): likely goalie Spencer Knight 0.891 sv% (20 starts, lg 0.891), CHI allows 30.6 shots/gm (lg 27.4)."
       },
       {
        "kind": "mismatch",
@@ -11123,23 +11231,7 @@
        "text": "Ryan Greene (CHI, 4 pts in 25 gp): likely goalie Dylan Garand 0.909 sv% (14 starts, lg 0.891), NYR allows 27.2 shots/gm (lg 27.4)."
       }
      ],
-     "stories": [
-      {
-       "kind": "story",
-       "team": "NYR",
-       "effect": "hurts",
-       "tone": "down",
-       "text": "NYR RW Gabe Perreault listed Out on the injury report."
-      }
-     ],
-     "changes": [
-      {
-       "team": "NYR",
-       "pos": "RW",
-       "name": "Gabe Perreault",
-       "status": "Out"
-      }
-     ],
+     "stories": [],
      "grid": {
       "NYR": {
        "n": 32,
