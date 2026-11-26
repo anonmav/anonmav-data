@@ -1,5 +1,5 @@
 {
- "pulled_az": "2026-11-25T15:32:34-07:00",
+ "pulled_az": "2026-11-26T02:35:13-07:00",
  "start": "2026-11-17",
  "note": "High Floor forward test. Started November 17, 2026 at 0-0. Singles only, locked at publish, graded daily.",
  "rule": [
@@ -11,15 +11,15 @@
   "Floor scores, market chances and defense ranks are estimates. No stakes or profit are tracked. Not betting advice."
  ],
  "summary": {
-  "wins": 14,
-  "losses": 11,
+  "wins": 15,
+  "losses": 15,
   "void": 1,
-  "pending": 5,
-  "graded": 25,
+  "pending": 0,
+  "graded": 30,
   "target": 300,
-  "hit_rate": 56.0,
-  "market_avg_pct": 58.4,
-  "gap_pts": -2.4
+  "hit_rate": 50.0,
+  "market_avg_pct": 58.0,
+  "gap_pts": -8.0
  },
  "splits": {
   "soft_matchup": {
@@ -34,15 +34,15 @@
    "gap_pts": 11.4
   },
   "other_matchup": {
-   "wins": 9,
-   "losses": 9,
+   "wins": 10,
+   "losses": 13,
    "void": 0,
-   "pending": 5,
-   "graded": 18,
+   "pending": 0,
+   "graded": 23,
    "target": 300,
-   "hit_rate": 50.0,
-   "market_avg_pct": 57.7,
-   "gap_pts": -7.7
+   "hit_rate": 43.5,
+   "market_avg_pct": 57.4,
+   "gap_pts": -13.9
   },
   "no_rank": {
    "wins": 0,
@@ -69,26 +69,26 @@
    "gap_pts": -12.2
   },
   "nhl": {
-   "wins": 11,
-   "losses": 8,
+   "wins": 12,
+   "losses": 11,
    "void": 1,
-   "pending": 4,
-   "graded": 19,
+   "pending": 0,
+   "graded": 23,
    "target": 300,
-   "hit_rate": 57.9,
-   "market_avg_pct": 60.1,
-   "gap_pts": -2.2
+   "hit_rate": 52.2,
+   "market_avg_pct": 59.7,
+   "gap_pts": -7.5
   },
   "nfl": {
    "wins": 1,
-   "losses": 0,
+   "losses": 1,
    "void": 0,
-   "pending": 1,
-   "graded": 1,
+   "pending": 0,
+   "graded": 2,
    "target": 300,
-   "hit_rate": 100.0,
-   "market_avg_pct": 56.0,
-   "gap_pts": 44.0
+   "hit_rate": 50.0,
+   "market_avg_pct": 53.0,
+   "gap_pts": -3.0
   }
  },
  "days": [
@@ -159,10 +159,10 @@
   {
    "slate": "2026-11-25",
    "legs": 5,
-   "wins": 0,
-   "losses": 0,
+   "wins": 1,
+   "losses": 4,
    "void": 0,
-   "pending": 5
+   "pending": 0
   }
  ],
  "losses": [
@@ -253,6 +253,38 @@
    "result": 0.0,
    "sport": "nhl",
    "game": "VGK @ EDM"
+  },
+  {
+   "slate": "2026-11-25",
+   "player": "Brock Boeser",
+   "label": "Over 0.5 points",
+   "result": 0.0,
+   "sport": "nhl",
+   "game": "VAN @ DET"
+  },
+  {
+   "slate": "2026-11-25",
+   "player": "Jordan Love",
+   "label": "Over 1.5 passing TDs",
+   "result": 1.0,
+   "sport": "nfl",
+   "game": "GB @ LAR"
+  },
+  {
+   "slate": "2026-11-25",
+   "player": "Clayton Keller",
+   "label": "Over 0.5 points",
+   "result": 0.0,
+   "sport": "nhl",
+   "game": "UTA @ MIN"
+  },
+  {
+   "slate": "2026-11-25",
+   "player": "Steven Stamkos",
+   "label": "Over 0.5 points",
+   "result": 0.0,
+   "sport": "nhl",
+   "game": "NSH @ DAL"
   }
  ],
  "legs": [
@@ -1723,7 +1755,10 @@
     "soft": false,
     "text": "DET goals allowed: 15 of 32 (32 = softest). Team level only, no NHL position rank."
    },
-   "def_logged_az": "2026-11-25T07:21:19-07:00"
+   "def_logged_az": "2026-11-25T07:21:19-07:00",
+   "grade": "loss",
+   "result": 0.0,
+   "graded_az": "2026-11-26T02:30:51-07:00"
   },
   {
    "id": "2026-11-25:nhl:4024854:points",
@@ -1777,7 +1812,10 @@
     "soft": false,
     "text": "OTT goals allowed: 7 of 32 (32 = softest). Team level only, no NHL position rank."
    },
-   "def_logged_az": "2026-11-25T07:21:19-07:00"
+   "def_logged_az": "2026-11-25T07:21:19-07:00",
+   "grade": "win",
+   "result": 1.0,
+   "graded_az": "2026-11-26T02:30:52-07:00"
   },
   {
    "id": "2026-11-25:nfl:4036378:passingTouchdowns",
@@ -1831,7 +1869,10 @@
    },
    "def_logged_az": "2026-11-25T07:02:13-07:00",
    "would_exclude": [],
-   "flags_checked_az": "2026-11-25T07:02:14-07:00"
+   "flags_checked_az": "2026-11-25T07:02:14-07:00",
+   "grade": "loss",
+   "result": 1.0,
+   "graded_az": "2026-11-26T02:31:46-07:00"
   },
   {
    "id": "2026-11-25:nhl:4024857:points",
@@ -1885,7 +1926,10 @@
     "soft": false,
     "text": "MIN goals allowed: 1 of 32 (32 = softest). Team level only, no NHL position rank."
    },
-   "def_logged_az": "2026-11-25T07:21:19-07:00"
+   "def_logged_az": "2026-11-25T07:21:19-07:00",
+   "grade": "loss",
+   "result": 0.0,
+   "graded_az": "2026-11-26T02:30:54-07:00"
   },
   {
    "id": "2026-11-25:nhl:5037:points",
@@ -1939,7 +1983,10 @@
     "soft": false,
     "text": "DAL goals allowed: 3 of 32 (32 = softest). Team level only, no NHL position rank."
    },
-   "def_logged_az": "2026-11-25T07:21:19-07:00"
+   "def_logged_az": "2026-11-25T07:21:19-07:00",
+   "grade": "loss",
+   "result": 0.0,
+   "graded_az": "2026-11-26T02:31:15-07:00"
   }
  ],
  "split_note": "Soft matchup means the opponent ranks in the softest ten of the league at the position (team level for NHL). Ranks are estimates."
