@@ -1,5 +1,5 @@
 {
- "updated_az": "2026-11-26T07:20:01-07:00",
+ "updated_az": "2026-11-26T11:20:02-07:00",
  "note": "Estimates from public scores, closing lines, play by play, depth charts, injury reports and our matchup engine. Not betting advice.",
  "sports": {
   "nba": {
@@ -425,7 +425,20 @@
        ]
       }
      },
-     "watch": [],
+     "watch": [
+      {
+       "kind": "mismatch",
+       "team": "MIL",
+       "tone": "up",
+       "text": "Kyle Kuzma (MIL, 5.1 reb): DET allows 10.8 rebounds to SF/PF (+18% vs avg)."
+      },
+      {
+       "kind": "mismatch",
+       "team": "MIL",
+       "tone": "down",
+       "text": "Tyler Herro (MIL, 22.3 pts): DET allows 20.7 points to PG/SG (-13% vs avg)."
+      }
+     ],
      "stories": [],
      "grid": {
       "MIL": {
@@ -973,7 +986,20 @@
        ]
       }
      },
-     "watch": [],
+     "watch": [
+      {
+       "kind": "mismatch",
+       "team": "TOR",
+       "tone": "up",
+       "text": "Scottie Barnes (TOR, 24.8 pts): BKN allows 24.2 points to SF/PF (+12% vs avg)."
+      },
+      {
+       "kind": "mismatch",
+       "team": "TOR",
+       "tone": "down",
+       "text": "Jakob Poeltl (TOR, 7.0 reb): BKN allows 11.9 rebounds to C (-19% vs avg)."
+      }
+     ],
      "stories": [],
      "grid": {
       "BKN": {
@@ -1469,6 +1495,12 @@
        "effect": "helps",
        "tone": "up",
        "text": "Revenge spot: MEM lost 104-95 to MIN on November 21."
+      },
+      {
+       "kind": "mismatch",
+       "team": "MIN",
+       "tone": "down",
+       "text": "LaMelo Ball (MIN, 5.7 ast): MEM allows 6.0 assists to PG/SG (-11% vs avg), game pace +1%."
       }
      ],
      "stories": [
@@ -1730,7 +1762,20 @@
        ]
       }
      },
-     "watch": [],
+     "watch": [
+      {
+       "kind": "mismatch",
+       "team": "PHX",
+       "tone": "up",
+       "text": "Collin Gillespie (PHX, 3.7 ast): DAL allows 7.2 assists to PG/SG (+7% vs avg)."
+      },
+      {
+       "kind": "mismatch",
+       "team": "DAL",
+       "tone": "down",
+       "text": "P.J. Washington (DAL, 6.6 reb): PHX allows 8.8 rebounds to SF/PF (-4% vs avg)."
+      }
+     ],
      "stories": [],
      "grid": {
       "DAL": {
@@ -2515,6 +2560,12 @@
        "effect": "helps",
        "tone": "up",
        "text": "Revenge spot: NO lost 139-123 to LAC on November 8."
+      },
+      {
+       "kind": "mismatch",
+       "team": "LAC",
+       "tone": "up",
+       "text": "Brook Lopez (LAC, 14.4 pts): NO allows 23.3 points to C (+12% vs avg), game pace +2%."
       }
      ],
      "stories": [
@@ -2762,7 +2813,20 @@
        ]
       }
      },
-     "watch": [],
+     "watch": [
+      {
+       "kind": "mismatch",
+       "team": "POR",
+       "tone": "up",
+       "text": "Jrue Holiday (POR, 4.6 ast): GS allows 7.2 assists to PG/SG (+8% vs avg)."
+      },
+      {
+       "kind": "mismatch",
+       "team": "GS",
+       "tone": "down",
+       "text": "De'Anthony Melton (GS, 2.9 ast): POR allows 5.3 assists to PG/SG (-21% vs avg)."
+      }
+     ],
      "stories": [],
      "grid": {
       "GS": {
@@ -3172,12 +3236,6 @@
       {
        "team": "CHI",
        "pos": "CB",
-       "name": "Tyrique Stevenson Sr.",
-       "status": "Questionable"
-      },
-      {
-       "team": "CHI",
-       "pos": "CB",
        "name": "Kyler Gordon",
        "status": "Out"
       },
@@ -3185,13 +3243,13 @@
        "team": "DET",
        "pos": "DE",
        "name": "DJ Wonnum",
-       "status": "Questionable"
+       "status": "Out"
       },
       {
        "team": "DET",
        "pos": "S",
        "name": "Chuck Clark",
-       "status": "Questionable"
+       "status": "Out"
       }
      ]
     },
@@ -9221,7 +9279,7 @@
        "kind": "mismatch",
        "team": "STL",
        "tone": "down",
-       "text": "Dalibor Dvorsky (STL, 8 pts in 25 gp): likely goalie Jake Oettinger 0.912 sv% (19 starts, lg 0.891), DAL allows 24.4 shots/gm (lg 27.4)."
+       "text": "Pavel Buchnevich (STL, 11 pts in 23 gp): likely goalie Jake Oettinger 0.912 sv% (19 starts, lg 0.891), DAL allows 24.4 shots/gm (lg 27.4)."
       }
      ],
      "stories": [
@@ -9231,6 +9289,14 @@
        "effect": "helps",
        "tone": "up",
        "text": "Revenge spot: DAL lost 4-0 to STL on October 2."
+      }
+     ],
+     "changes": [
+      {
+       "team": "STL",
+       "pos": "LW",
+       "name": "Pavel Buchnevich",
+       "status": "Day-To-Day"
       }
      ],
      "grid": {
@@ -9454,6 +9520,14 @@
       }
      ],
      "stories": [],
+     "changes": [
+      {
+       "team": "TB",
+       "pos": "D",
+       "name": "Erik Cernak",
+       "status": "Day-To-Day"
+      }
+     ],
      "grid": {
       "OTT": {
        "n": 32,
@@ -11030,6 +11104,13 @@
      },
      "watch": [
       {
+       "kind": "story",
+       "team": "NYR",
+       "effect": "hurts",
+       "tone": "down",
+       "text": "NYR RW Gabe Perreault listed Out on the injury report."
+      },
+      {
        "kind": "mismatch",
        "team": "NYR",
        "tone": "up",
@@ -11042,7 +11123,23 @@
        "text": "Ryan Greene (CHI, 4 pts in 25 gp): likely goalie Dylan Garand 0.909 sv% (14 starts, lg 0.891), NYR allows 27.2 shots/gm (lg 27.4)."
       }
      ],
-     "stories": [],
+     "stories": [
+      {
+       "kind": "story",
+       "team": "NYR",
+       "effect": "hurts",
+       "tone": "down",
+       "text": "NYR RW Gabe Perreault listed Out on the injury report."
+      }
+     ],
+     "changes": [
+      {
+       "team": "NYR",
+       "pos": "RW",
+       "name": "Gabe Perreault",
+       "status": "Out"
+      }
+     ],
      "grid": {
       "NYR": {
        "n": 32,
