@@ -1,5 +1,5 @@
 {
- "updated_az": "2026-11-27T11:20:02-07:00",
+ "updated_az": "2026-11-27T15:20:01-07:00",
  "note": "Estimates from public scores, closing lines, play by play, depth charts, injury reports and our matchup engine. Not betting advice.",
  "sports": {
   "nba": {
@@ -1528,7 +1528,7 @@
        "kind": "mismatch",
        "team": "MIN",
        "tone": "down",
-       "text": "LaMelo Ball (MIN, 5.7 ast): MEM allows 6.0 assists to PG/SG (-11% vs avg), game pace +1%."
+       "text": "Rudy Gobert (MIN, 10.4 reb): MEM allows 13.4 rebounds to C (-8% vs avg), game pace +1%."
       }
      ],
      "stories": [
@@ -1641,7 +1641,23 @@
        "team": "MIN",
        "pos": "PG",
        "name": "LaMelo Ball",
-       "status": "Day-To-Day"
+       "status": "Out"
+      }
+     ],
+     "next": [
+      {
+       "team": "MIN",
+       "pos": "PG",
+       "out": "LaMelo Ball",
+       "status": "Out",
+       "backup": "Bones Hyland",
+       "def": "MEM",
+       "rank": 18,
+       "n": 30,
+       "v": 26.4,
+       "yds": null,
+       "unit": "pts",
+       "sleeper": false
       }
      ]
     },
@@ -1894,7 +1910,15 @@
         }
        ]
       }
-     }
+     },
+     "changes": [
+      {
+       "team": "DAL",
+       "pos": "PG",
+       "name": "Kyrie Irving",
+       "status": "Day-To-Day"
+      }
+     ]
     },
     "LAL @ SA": {
      "trend": {
@@ -2148,32 +2172,10 @@
      },
      "changes": [
       {
-       "team": "LAL",
-       "pos": "SG",
-       "name": "Austin Reaves",
-       "status": "Out"
-      },
-      {
        "team": "SA",
        "pos": "PG",
        "name": "De'Aaron Fox",
        "status": "Day-To-Day"
-      }
-     ],
-     "next": [
-      {
-       "team": "LAL",
-       "pos": "SG",
-       "out": "Austin Reaves",
-       "status": "Out",
-       "backup": "Quentin Grimes",
-       "def": "SA",
-       "rank": 2,
-       "n": 30,
-       "v": 19.6,
-       "yds": null,
-       "unit": "pts",
-       "sleeper": false
       }
      ]
     },
@@ -2951,7 +2953,31 @@
         }
        ]
       }
-     }
+     },
+     "changes": [
+      {
+       "team": "POR",
+       "pos": "PG",
+       "name": "Damian Lillard",
+       "status": "Out"
+      }
+     ],
+     "next": [
+      {
+       "team": "POR",
+       "pos": "PG",
+       "out": "Damian Lillard",
+       "status": "Out",
+       "backup": "Jrue Holiday",
+       "def": "GS",
+       "rank": 7,
+       "n": 30,
+       "v": 23.1,
+       "yds": null,
+       "unit": "pts",
+       "sleeper": false
+      }
+     ]
     }
    }
   },
@@ -3112,16 +3138,11 @@
        "text": "DEN on a short week (5 days since last game), PIT had 5."
       },
       {
-       "kind": "mismatch",
-       "team": "DEN",
-       "tone": "up",
-       "text": "Bo Nix (DEN, QB): PIT pressure 15% of dropbacks, his line allows 9% (lg 16%)."
-      },
-      {
-       "kind": "mismatch",
+       "kind": "story",
        "team": "PIT",
+       "effect": "hurts",
        "tone": "down",
-       "text": "Aaron Rodgers (PIT, QB): DEN pressure 21% of dropbacks, his line allows 15% (lg 16%)."
+       "text": "PIT on a short week (5 days since last game), DEN had 5."
       }
      ],
      "stories": [
@@ -3430,10 +3451,10 @@
      "watch": [
       {
        "kind": "story",
-       "team": "NO",
+       "team": "CIN",
        "effect": "hurts",
        "tone": "down",
-       "text": "NO TE Juwan Johnson listed Questionable on the injury report."
+       "text": "CIN WR Tee Higgins listed Questionable on the injury report."
       },
       {
        "kind": "mismatch",
@@ -3445,10 +3466,10 @@
      "stories": [
       {
        "kind": "story",
-       "team": "NO",
+       "team": "CIN",
        "effect": "hurts",
        "tone": "down",
-       "text": "NO TE Juwan Johnson listed Questionable on the injury report."
+       "text": "CIN WR Tee Higgins listed Questionable on the injury report."
       }
      ],
      "grid": {
@@ -3582,13 +3603,7 @@
        "team": "NO",
        "pos": "TE",
        "name": "Juwan Johnson",
-       "status": "Questionable"
-      },
-      {
-       "team": "NO",
-       "pos": "LG",
-       "name": "David Edwards",
-       "status": "Questionable"
+       "status": "Out"
       },
       {
        "team": "NO",
@@ -3597,22 +3612,16 @@
        "status": "Questionable"
       },
       {
-       "team": "NO",
-       "pos": "LB",
-       "name": "Pete Werner",
-       "status": "Questionable"
-      },
-      {
-       "team": "NO",
-       "pos": "CB",
-       "name": "Martin Emerson Jr.",
+       "team": "CIN",
+       "pos": "WR",
+       "name": "Tee Higgins",
        "status": "Questionable"
       },
       {
        "team": "CIN",
        "pos": "RG",
        "name": "Dalton Risner",
-       "status": "Questionable"
+       "status": "Out"
       }
      ],
      "next": [
@@ -3620,7 +3629,7 @@
        "team": "NO",
        "pos": "TE",
        "out": "Juwan Johnson",
-       "status": "Questionable",
+       "status": "Out",
        "backup": "Noah Fant",
        "def": "CIN",
        "rank": 23,
@@ -3629,6 +3638,20 @@
        "yds": 75.2,
        "unit": "pts",
        "sleeper": true
+      },
+      {
+       "team": "CIN",
+       "pos": "WR",
+       "out": "Tee Higgins",
+       "status": "Questionable",
+       "backup": "Mitchell Tinsley",
+       "def": "NO",
+       "rank": 8,
+       "n": 32,
+       "v": 28.6,
+       "yds": 144.3,
+       "unit": "pts",
+       "sleeper": false
       }
      ]
     },
@@ -3779,13 +3802,6 @@
      },
      "watch": [
       {
-       "kind": "story",
-       "team": "NYG",
-       "effect": "hurts",
-       "tone": "down",
-       "text": "NYG TE Isaiah Likely listed Questionable on the injury report."
-      },
-      {
        "kind": "mismatch",
        "team": "NYG",
        "tone": "up",
@@ -3798,15 +3814,7 @@
        "text": "Deion Burks (IND) draws Paulson Adebo on 52% of routes. ACE 28 est., tough draw."
       }
      ],
-     "stories": [
-      {
-       "kind": "story",
-       "team": "NYG",
-       "effect": "hurts",
-       "tone": "down",
-       "text": "NYG TE Isaiah Likely listed Questionable on the injury report."
-      }
-     ],
+     "stories": [],
      "grid": {
       "NYG": {
        "n": 32,
@@ -3936,33 +3944,9 @@
      "changes": [
       {
        "team": "NYG",
-       "pos": "TE",
-       "name": "Isaiah Likely",
-       "status": "Questionable"
-      },
-      {
-       "team": "NYG",
        "pos": "DE",
        "name": "Shelby Harris",
-       "status": "Questionable"
-      },
-      {
-       "team": "NYG",
-       "pos": "LB",
-       "name": "Arvell Reese",
-       "status": "Questionable"
-      },
-      {
-       "team": "NYG",
-       "pos": "LB",
-       "name": "Abdul Carter",
-       "status": "Questionable"
-      },
-      {
-       "team": "NYG",
-       "pos": "CB",
-       "name": "Dru Phillips",
-       "status": "Questionable"
+       "status": "Out"
       },
       {
        "team": "IND",
@@ -3973,31 +3957,15 @@
       },
       {
        "team": "IND",
-       "pos": "LT",
-       "name": "Bernhard Raimann",
-       "status": "Questionable"
+       "pos": "RT",
+       "name": "Jalen Travis",
+       "status": "Out"
       },
       {
        "team": "IND",
-       "pos": "RT",
-       "name": "Jalen Travis",
-       "status": "Questionable"
-      }
-     ],
-     "next": [
-      {
-       "team": "NYG",
-       "pos": "TE",
-       "out": "Isaiah Likely",
-       "status": "Questionable",
-       "backup": "Theo Johnson",
-       "def": "IND",
-       "rank": 18,
-       "n": 32,
-       "v": 13.4,
-       "yds": 45.5,
-       "unit": "pts",
-       "sleeper": false
+       "pos": "CB",
+       "name": "Charvarius Ward",
+       "status": "Out"
       }
      ]
     },
@@ -4310,24 +4278,6 @@
        "status": "Out"
       },
       {
-       "team": "NYJ",
-       "pos": "LG",
-       "name": "Dylan Parham",
-       "status": "Questionable"
-      },
-      {
-       "team": "MIA",
-       "pos": "RT",
-       "name": "Austin Jackson",
-       "status": "Questionable"
-      },
-      {
-       "team": "MIA",
-       "pos": "S",
-       "name": "Dante Trader Jr.",
-       "status": "Questionable"
-      },
-      {
        "team": "MIA",
        "pos": "CB",
        "name": "JuJu Brents",
@@ -4498,13 +4448,6 @@
      },
      "watch": [
       {
-       "kind": "story",
-       "team": "ATL",
-       "effect": "hurts",
-       "tone": "down",
-       "text": "ATL WR Jahan Dotson listed Questionable on the injury report."
-      },
-      {
        "kind": "mismatch",
        "team": "ATL",
        "tone": "up",
@@ -4517,15 +4460,7 @@
        "text": "Michael Penix Jr. (ATL, QB): MIN pressure 25% of dropbacks, his line allows 9% (lg 16%)."
       }
      ],
-     "stories": [
-      {
-       "kind": "story",
-       "team": "ATL",
-       "effect": "hurts",
-       "tone": "down",
-       "text": "ATL WR Jahan Dotson listed Questionable on the injury report."
-      }
-     ],
+     "stories": [],
      "grid": {
       "ATL": {
        "n": 32,
@@ -4657,48 +4592,42 @@
        "team": "ATL",
        "pos": "WR",
        "name": "Jahan Dotson",
-       "status": "Questionable"
+       "status": "Out"
       },
       {
        "team": "ATL",
        "pos": "LG",
        "name": "Matthew Bergeron",
-       "status": "Questionable"
-      },
-      {
-       "team": "ATL",
-       "pos": "LB",
-       "name": "Cameron Thomas",
-       "status": "Questionable"
-      },
-      {
-       "team": "ATL",
-       "pos": "LB",
-       "name": "Kendal Daniels",
-       "status": "Questionable"
+       "status": "Out"
       },
       {
        "team": "ATL",
        "pos": "S",
        "name": "DeMarcco Hellams",
-       "status": "Questionable"
+       "status": "Out"
       },
       {
        "team": "MIN",
        "pos": "WR",
        "name": "Jordan Addison",
-       "status": "Doubtful"
+       "status": "Out"
       },
       {
        "team": "MIN",
        "pos": "LT",
        "name": "Christian Darrisaw",
-       "status": "Questionable"
+       "status": "Out"
       },
       {
        "team": "MIN",
-       "pos": "DE",
-       "name": "Jalen Redmond",
+       "pos": "CB",
+       "name": "Isaiah Rodgers",
+       "status": "Out"
+      },
+      {
+       "team": "MIN",
+       "pos": "S",
+       "name": "Harrison Smith",
        "status": "Questionable"
       }
      ],
@@ -4707,7 +4636,7 @@
        "team": "ATL",
        "pos": "WR",
        "out": "Jahan Dotson",
-       "status": "Questionable",
+       "status": "Out",
        "backup": "Beaux Collins",
        "def": "MIN",
        "rank": 5,
@@ -4721,7 +4650,7 @@
        "team": "MIN",
        "pos": "WR",
        "out": "Jordan Addison",
-       "status": "Doubtful",
+       "status": "Out",
        "backup": "Myles Price",
        "def": "ATL",
        "rank": 27,
@@ -4881,10 +4810,10 @@
      "watch": [
       {
        "kind": "story",
-       "team": "JAX",
-       "effect": "hurts",
-       "tone": "down",
-       "text": "JAX RB Bhayshul Tuten listed Questionable on the injury report."
+       "team": "TEN",
+       "effect": "helps",
+       "tone": "up",
+       "text": "Revenge spot: TEN lost 40-23 to JAX on November 15."
       },
       {
        "kind": "mismatch",
@@ -4900,20 +4829,6 @@
       }
      ],
      "stories": [
-      {
-       "kind": "story",
-       "team": "JAX",
-       "effect": "hurts",
-       "tone": "down",
-       "text": "JAX RB Bhayshul Tuten listed Questionable on the injury report."
-      },
-      {
-       "kind": "story",
-       "team": "JAX",
-       "effect": "hurts",
-       "tone": "down",
-       "text": "JAX WR Jakobi Meyers listed Questionable on the injury report."
-      },
       {
        "kind": "story",
        "team": "TEN",
@@ -5069,32 +4984,14 @@
       },
       {
        "team": "JAX",
-       "pos": "WR",
-       "name": "Jakobi Meyers",
-       "status": "Questionable"
-      },
-      {
-       "team": "JAX",
        "pos": "RB",
        "name": "Bhayshul Tuten",
-       "status": "Questionable"
-      },
-      {
-       "team": "JAX",
-       "pos": "LT",
-       "name": "Walker Little",
-       "status": "Questionable"
+       "status": "Out"
       },
       {
        "team": "JAX",
        "pos": "C",
        "name": "Robert Hainsey",
-       "status": "Questionable"
-      },
-      {
-       "team": "JAX",
-       "pos": "RT",
-       "name": "Cole Van Lanen",
        "status": "Questionable"
       }
      ],
@@ -5115,17 +5012,17 @@
       },
       {
        "team": "JAX",
-       "pos": "WR",
-       "out": "Jakobi Meyers",
-       "status": "Questionable",
-       "backup": "Travis Hunter",
+       "pos": "RB",
+       "out": "Bhayshul Tuten",
+       "status": "Out",
+       "backup": "Chris Rodriguez Jr.",
        "def": "TEN",
-       "rank": 32,
+       "rank": 18,
        "n": 32,
-       "v": 45.2,
-       "yds": 220.6,
+       "v": 22.6,
+       "yds": 132.5,
        "unit": "pts",
-       "sleeper": true
+       "sleeper": false
       }
      ]
     },
@@ -5276,13 +5173,6 @@
      },
      "watch": [
       {
-       "kind": "story",
-       "team": "HOU",
-       "effect": "hurts",
-       "tone": "down",
-       "text": "HOU TE Dalton Schultz listed Questionable on the injury report."
-      },
-      {
        "kind": "mismatch",
        "team": "HOU",
        "tone": "up",
@@ -5295,29 +5185,7 @@
        "text": "Jacoby Brissett (BAL, QB): HOU pressure 17% of dropbacks, his line allows 17% (lg 16%)."
       }
      ],
-     "stories": [
-      {
-       "kind": "story",
-       "team": "HOU",
-       "effect": "hurts",
-       "tone": "down",
-       "text": "HOU TE Dalton Schultz listed Questionable on the injury report."
-      },
-      {
-       "kind": "story",
-       "team": "HOU",
-       "effect": "hurts",
-       "tone": "down",
-       "text": "HOU RB Woody Marks listed Questionable on the injury report."
-      },
-      {
-       "kind": "story",
-       "team": "BAL",
-       "effect": "hurts",
-       "tone": "down",
-       "text": "BAL RB Derrick Henry listed Questionable on the injury report."
-      }
-     ],
+     "stories": [],
      "grid": {
       "BAL": {
        "n": 32,
@@ -5447,73 +5315,47 @@
      "changes": [
       {
        "team": "BAL",
-       "pos": "RB",
-       "name": "Derrick Henry",
-       "status": "Questionable"
-      },
-      {
-       "team": "BAL",
        "pos": "RG",
        "name": "Olaivavega Ioane",
-       "status": "Questionable"
+       "status": "Out"
       },
       {
        "team": "BAL",
        "pos": "DE",
        "name": "Nnamdi Madubuike",
-       "status": "Questionable"
+       "status": "Out"
       },
       {
        "team": "BAL",
        "pos": "S",
        "name": "Jaylinn Hawkins",
-       "status": "Questionable"
+       "status": "Out"
       },
       {
        "team": "HOU",
        "pos": "WR",
        "name": "Kayshon Boutte",
-       "status": "Questionable"
-      },
-      {
-       "team": "HOU",
-       "pos": "TE",
-       "name": "Dalton Schultz",
-       "status": "Questionable"
-      },
-      {
-       "team": "HOU",
-       "pos": "RB",
-       "name": "Woody Marks",
-       "status": "Questionable"
+       "status": "Out"
       },
       {
        "team": "HOU",
        "pos": "LG",
        "name": "Keylan Rutledge",
-       "status": "Questionable"
+       "status": "Out"
+      },
+      {
+       "team": "HOU",
+       "pos": "DE",
+       "name": "Danielle Hunter",
+       "status": "Out"
       }
      ],
      "next": [
       {
-       "team": "BAL",
-       "pos": "RB",
-       "out": "Derrick Henry",
-       "status": "Questionable",
-       "backup": "Justice Hill",
-       "def": "HOU",
-       "rank": 13,
-       "n": 32,
-       "v": 21.4,
-       "yds": 110.3,
-       "unit": "pts",
-       "sleeper": false
-      },
-      {
        "team": "HOU",
        "pos": "WR",
        "out": "Kayshon Boutte",
-       "status": "Questionable",
+       "status": "Out",
        "backup": "Nikko Remigio",
        "def": "BAL",
        "rank": 19,
@@ -5836,12 +5678,6 @@
       {
        "team": "NE",
        "pos": "LB",
-       "name": "Robert Spillane",
-       "status": "Questionable"
-      },
-      {
-       "team": "NE",
-       "pos": "LB",
        "name": "Dre'Mont Jones",
        "status": "Questionable"
       },
@@ -5849,13 +5685,13 @@
        "team": "NE",
        "pos": "CB",
        "name": "Carlton Davis III",
-       "status": "Questionable"
+       "status": "Out"
       },
       {
        "team": "LAC",
        "pos": "QB",
        "name": "Justin Herbert",
-       "status": "Questionable"
+       "status": "Out"
       },
       {
        "team": "LAC",
@@ -5867,7 +5703,7 @@
        "team": "LAC",
        "pos": "LB",
        "name": "Daiyan Henley",
-       "status": "Questionable"
+       "status": "Out"
       },
       {
        "team": "LAC",
@@ -5895,7 +5731,7 @@
        "team": "LAC",
        "pos": "QB",
        "out": "Justin Herbert",
-       "status": "Questionable",
+       "status": "Out",
        "backup": "DJ Uiagalelei",
        "def": "NE",
        "rank": 21,
@@ -6054,13 +5890,6 @@
      },
      "watch": [
       {
-       "kind": "story",
-       "team": "WSH",
-       "effect": "hurts",
-       "tone": "down",
-       "text": "WSH WR Treylon Burks listed Questionable on the injury report."
-      },
-      {
        "kind": "mismatch",
        "team": "ARI",
        "tone": "up",
@@ -6073,15 +5902,7 @@
        "text": "Simi Fehoko (ARI) draws Rasul Douglas on 57% of routes. ACE 30 est., tough draw."
       }
      ],
-     "stories": [
-      {
-       "kind": "story",
-       "team": "WSH",
-       "effect": "hurts",
-       "tone": "down",
-       "text": "WSH WR Treylon Burks listed Questionable on the injury report."
-      }
-     ],
+     "stories": [],
      "grid": {
       "WSH": {
        "n": 32,
@@ -6211,21 +6032,9 @@
      "changes": [
       {
        "team": "WSH",
-       "pos": "WR",
-       "name": "Treylon Burks",
-       "status": "Questionable"
-      },
-      {
-       "team": "WSH",
-       "pos": "DE",
-       "name": "Charles Omenihu",
-       "status": "Questionable"
-      },
-      {
-       "team": "WSH",
        "pos": "CB",
        "name": "Amik Robertson",
-       "status": "Questionable"
+       "status": "Out"
       },
       {
        "team": "ARI",
@@ -6409,7 +6218,7 @@
        "team": "SF",
        "effect": "hurts",
        "tone": "down",
-       "text": "SF WR Mike Evans listed Questionable on the injury report."
+       "text": "SF QB Brock Purdy listed Questionable on the injury report."
       },
       {
        "kind": "mismatch",
@@ -6430,14 +6239,14 @@
        "team": "SF",
        "effect": "hurts",
        "tone": "down",
-       "text": "SF WR Mike Evans listed Questionable on the injury report."
+       "text": "SF QB Brock Purdy listed Questionable on the injury report."
       },
       {
        "kind": "story",
        "team": "SF",
        "effect": "hurts",
        "tone": "down",
-       "text": "SF QB Brock Purdy listed Questionable on the injury report."
+       "text": "SF WR Mike Evans listed Questionable on the injury report."
       },
       {
        "kind": "story",
@@ -6449,9 +6258,9 @@
       {
        "kind": "story",
        "team": "SEA",
-       "effect": "hurts",
-       "tone": "down",
-       "text": "SEA WR Jaxon Smith-Njigba listed Questionable on the injury report."
+       "effect": "helps",
+       "tone": "up",
+       "text": "Revenge spot: SEA lost 32-29 to SF on October 11."
       }
      ],
      "grid": {
@@ -6590,12 +6399,6 @@
       },
       {
        "team": "SEA",
-       "pos": "WR",
-       "name": "Jaxon Smith-Njigba",
-       "status": "Questionable"
-      },
-      {
-       "team": "SEA",
        "pos": "QB",
        "name": "Drew Lock",
        "status": "Questionable"
@@ -6629,23 +6432,15 @@
        "pos": "LB",
        "name": "DeMarcus Lawrence",
        "status": "Questionable"
+      },
+      {
+       "team": "SEA",
+       "pos": "LB",
+       "name": "Ernest Jones IV",
+       "status": "Questionable"
       }
      ],
      "next": [
-      {
-       "team": "SEA",
-       "pos": "WR",
-       "out": "Jaxon Smith-Njigba",
-       "status": "Questionable",
-       "backup": "Tory Horton",
-       "def": "SF",
-       "rank": 25,
-       "n": 32,
-       "v": 34.2,
-       "yds": 149.9,
-       "unit": "pts",
-       "sleeper": true
-      },
       {
        "team": "SF",
        "pos": "WR",
@@ -6657,6 +6452,20 @@
        "n": 32,
        "v": 21.8,
        "yds": 97.5,
+       "unit": "pts",
+       "sleeper": false
+      },
+      {
+       "team": "SF",
+       "pos": "QB",
+       "out": "Brock Purdy",
+       "status": "Questionable",
+       "backup": "Mac Jones",
+       "def": "SEA",
+       "rank": 2,
+       "n": 32,
+       "v": 10.8,
+       "yds": 182.2,
        "unit": "pts",
        "sleeper": false
       }
@@ -6835,13 +6644,6 @@
        "effect": "hurts",
        "tone": "down",
        "text": "CLE WR Denzel Boston listed Questionable on the injury report."
-      },
-      {
-       "kind": "story",
-       "team": "LV",
-       "effect": "hurts",
-       "tone": "down",
-       "text": "LV TE Brock Bowers listed Questionable on the injury report."
       }
      ],
      "grid": {
@@ -6981,13 +6783,13 @@
        "team": "LV",
        "pos": "NT",
        "name": "Adam Butler",
-       "status": "Questionable"
+       "status": "Out"
       },
       {
        "team": "LV",
        "pos": "DE",
        "name": "Tonka Hemingway",
-       "status": "Questionable"
+       "status": "Out"
       },
       {
        "team": "CLE",
@@ -6997,26 +6799,8 @@
       },
       {
        "team": "CLE",
-       "pos": "C",
-       "name": "Elgton Jenkins",
-       "status": "Questionable"
-      },
-      {
-       "team": "CLE",
        "pos": "RG",
        "name": "Austin Barber",
-       "status": "Questionable"
-      },
-      {
-       "team": "CLE",
-       "pos": "DE",
-       "name": "Isaiah McGuire",
-       "status": "Questionable"
-      },
-      {
-       "team": "CLE",
-       "pos": "LB",
-       "name": "Quincy Williams",
        "status": "Questionable"
       }
      ],
@@ -7199,10 +6983,10 @@
      "watch": [
       {
        "kind": "story",
-       "team": "CAR",
+       "team": "TB",
        "effect": "hurts",
        "tone": "down",
-       "text": "CAR TE Darren Waller listed Questionable on the injury report."
+       "text": "TB WR Tez Johnson listed Questionable on the injury report."
       },
       {
        "kind": "mismatch",
@@ -7220,10 +7004,24 @@
      "stories": [
       {
        "kind": "story",
+       "team": "TB",
+       "effect": "hurts",
+       "tone": "down",
+       "text": "TB WR Tez Johnson listed Questionable on the injury report."
+      },
+      {
+       "kind": "story",
        "team": "CAR",
        "effect": "hurts",
        "tone": "down",
        "text": "CAR TE Darren Waller listed Questionable on the injury report."
+      },
+      {
+       "kind": "story",
+       "team": "CAR",
+       "effect": "hurts",
+       "tone": "down",
+       "text": "CAR WR Tetairoa McMillan listed Questionable on the injury report."
       },
       {
        "kind": "story",
@@ -7398,14 +7196,14 @@
       },
       {
        "team": "TB",
-       "pos": "LB",
-       "name": "Josiah Trotter",
+       "pos": "WR",
+       "name": "Tez Johnson",
        "status": "Questionable"
       },
       {
        "team": "TB",
-       "pos": "S",
-       "name": "Antoine Winfield Jr.",
+       "pos": "LB",
+       "name": "Josiah Trotter",
        "status": "Questionable"
       }
      ],
@@ -7450,16 +7248,6 @@
       "TOR": {
        "games": [
         {
-         "d": "2026-11-15",
-         "opp": "EDM",
-         "home": true,
-         "w": false,
-         "s": "0-1",
-         "line": 1.5,
-         "role": "dog",
-         "cov": "c"
-        },
-        {
          "d": "2026-11-18",
          "opp": "CHI",
          "home": false,
@@ -7498,11 +7286,21 @@
          "line": 1.5,
          "role": "dog",
          "cov": "c"
+        },
+        {
+         "d": "2026-11-27",
+         "opp": "BOS",
+         "home": false,
+         "w": true,
+         "s": "3-1",
+         "line": 1.5,
+         "role": "dog",
+         "cov": "c"
         }
        ],
        "wl": [
-        1,
-        4
+        2,
+        3
        ],
        "ats": [
         2,
@@ -7514,22 +7312,12 @@
         3
        ],
        "dog": [
-        1,
-        1
+        2,
+        0
        ]
       },
       "BOS": {
        "games": [
-        {
-         "d": "2026-11-15",
-         "opp": "MIN",
-         "home": true,
-         "w": false,
-         "s": "2-6",
-         "line": 1.5,
-         "role": "dog",
-         "cov": "n"
-        },
         {
          "d": "2026-11-18",
          "opp": "LA",
@@ -7569,6 +7357,16 @@
          "line": -1.5,
          "role": "fav",
          "cov": "n"
+        },
+        {
+         "d": "2026-11-27",
+         "opp": "TOR",
+         "home": true,
+         "w": false,
+         "s": "1-3",
+         "line": -1.5,
+         "role": "fav",
+         "cov": "n"
         }
        ],
        "wl": [
@@ -7582,23 +7380,32 @@
        ],
        "fav": [
         1,
-        2
+        3
        ],
        "dog": [
         1,
-        1
+        0
        ]
       }
      },
      "watch": [
       {
-       "kind": "mismatch",
+       "kind": "story",
        "team": "BOS",
+       "effect": "helps",
        "tone": "up",
-       "text": "Fraser Minten (BOS, 15 pts in 24 gp): likely goalie Sergei Bobrovsky 0.874 sv% (14 starts, lg 0.891), TOR allows 28.8 shots/gm (lg 27.4)."
+       "text": "Revenge spot: BOS lost 3-1 to TOR on November 27."
       }
      ],
-     "stories": [],
+     "stories": [
+      {
+       "kind": "story",
+       "team": "BOS",
+       "effect": "helps",
+       "tone": "up",
+       "text": "Revenge spot: BOS lost 3-1 to TOR on November 27."
+      }
+     ],
      "grid": {
       "TOR": {
        "n": 32,
@@ -7671,16 +7478,6 @@
       "CGY": {
        "games": [
         {
-         "d": "2026-11-18",
-         "opp": "SJ",
-         "home": false,
-         "w": true,
-         "s": "5-2",
-         "line": 1.5,
-         "role": "dog",
-         "cov": "c"
-        },
-        {
          "d": "2026-11-20",
          "opp": "MIN",
          "home": true,
@@ -7719,15 +7516,25 @@
          "line": 1.5,
          "role": "dog",
          "cov": "c"
+        },
+        {
+         "d": "2026-11-27",
+         "opp": "NJ",
+         "home": false,
+         "w": false,
+         "s": "3-5",
+         "line": 1.5,
+         "role": "dog",
+         "cov": "n"
         }
        ],
        "wl": [
-        2,
-        3
+        1,
+        4
        ],
        "ats": [
-        3,
         2,
+        3,
         0
        ],
        "fav": [
@@ -7735,22 +7542,12 @@
         1
        ],
        "dog": [
-        2,
-        2
+        1,
+        3
        ]
       },
       "NJ": {
        "games": [
-        {
-         "d": "2026-11-15",
-         "opp": "WSH",
-         "home": false,
-         "w": true,
-         "s": "7-4",
-         "line": -1.5,
-         "role": "fav",
-         "cov": "c"
-        },
         {
          "d": "2026-11-19",
          "opp": "MTL",
@@ -7790,6 +7587,16 @@
          "line": -1.5,
          "role": "fav",
          "cov": "n"
+        },
+        {
+         "d": "2026-11-27",
+         "opp": "CGY",
+         "home": true,
+         "w": true,
+         "s": "5-3",
+         "line": -1.5,
+         "role": "fav",
+         "cov": "c"
         }
        ],
        "wl": [
@@ -7813,19 +7620,22 @@
      },
      "watch": [
       {
-       "kind": "mismatch",
-       "team": "NJ",
-       "tone": "up",
-       "text": "Jack Hughes (NJ, 10 goals): likely goalie Dustin Wolf 0.878 sv% (14 starts, lg 0.891), CGY allows 29.5 shots/gm (lg 27.4)."
-      },
-      {
-       "kind": "mismatch",
+       "kind": "story",
        "team": "CGY",
-       "tone": "down",
-       "text": "Zayne Parekh (CGY, 11 pts in 26 gp): likely goalie Connor Hellebuyck 0.899 sv% (11 starts, lg 0.891), NJ allows 25.6 shots/gm (lg 27.4)."
+       "effect": "helps",
+       "tone": "up",
+       "text": "Revenge spot: CGY lost 5-3 to NJ on November 27."
       }
      ],
-     "stories": [],
+     "stories": [
+      {
+       "kind": "story",
+       "team": "CGY",
+       "effect": "helps",
+       "tone": "up",
+       "text": "Revenge spot: CGY lost 5-3 to NJ on November 27."
+      }
+     ],
      "grid": {
       "CGY": {
        "n": 32,
@@ -7898,16 +7708,6 @@
       "UTA": {
        "games": [
         {
-         "d": "2026-11-17",
-         "opp": "VAN",
-         "home": true,
-         "w": false,
-         "s": "2-3",
-         "line": -1.5,
-         "role": "fav",
-         "cov": "n"
-        },
-        {
          "d": "2026-11-19",
          "opp": "COL",
          "home": true,
@@ -7946,11 +7746,21 @@
          "line": 1.5,
          "role": "dog",
          "cov": "c"
+        },
+        {
+         "d": "2026-11-27",
+         "opp": "NSH",
+         "home": false,
+         "w": true,
+         "s": "6-5",
+         "line": -1.5,
+         "role": "fav",
+         "cov": "n"
         }
        ],
        "wl": [
-        3,
-        2
+        4,
+        1
        ],
        "ats": [
         2,
@@ -7958,8 +7768,8 @@
         0
        ],
        "fav": [
-        2,
-        2
+        3,
+        1
        ],
        "dog": [
         1,
@@ -7968,16 +7778,6 @@
       },
       "NSH": {
        "games": [
-        {
-         "d": "2026-11-14",
-         "opp": "VGK",
-         "home": false,
-         "w": true,
-         "s": "3-2",
-         "line": 1.5,
-         "role": "dog",
-         "cov": "c"
-        },
         {
          "d": "2026-11-16",
          "opp": "SJ",
@@ -8017,11 +7817,21 @@
          "line": 1.5,
          "role": "dog",
          "cov": "c"
+        },
+        {
+         "d": "2026-11-27",
+         "opp": "UTA",
+         "home": true,
+         "w": false,
+         "s": "5-6",
+         "line": 1.5,
+         "role": "dog",
+         "cov": "c"
         }
        ],
        "wl": [
-        3,
-        2
+        2,
+        3
        ],
        "ats": [
         2,
@@ -8033,13 +7843,29 @@
         1
        ],
        "dog": [
-        2,
-        1
+        1,
+        2
        ]
       }
      },
-     "watch": [],
-     "stories": [],
+     "watch": [
+      {
+       "kind": "story",
+       "team": "NSH",
+       "effect": "helps",
+       "tone": "up",
+       "text": "Revenge spot: NSH lost 6-5 to UTA on November 27."
+      }
+     ],
+     "stories": [
+      {
+       "kind": "story",
+       "team": "NSH",
+       "effect": "helps",
+       "tone": "up",
+       "text": "Revenge spot: NSH lost 6-5 to UTA on November 27."
+      }
+     ],
      "grid": {
       "UTA": {
        "n": 32,
@@ -8112,16 +7938,6 @@
       "DAL": {
        "games": [
         {
-         "d": "2026-11-16",
-         "opp": "FLA",
-         "home": true,
-         "w": true,
-         "s": "2-1",
-         "line": -1.5,
-         "role": "fav",
-         "cov": "n"
-        },
-        {
          "d": "2026-11-18",
          "opp": "VGK",
          "home": false,
@@ -8160,11 +7976,21 @@
          "line": -1.5,
          "role": "fav",
          "cov": "n"
+        },
+        {
+         "d": "2026-11-27",
+         "opp": "STL",
+         "home": false,
+         "w": false,
+         "s": "3-5",
+         "line": -1.5,
+         "role": "fav",
+         "cov": "n"
         }
        ],
        "wl": [
-        4,
-        1
+        3,
+        2
        ],
        "ats": [
         2,
@@ -8172,8 +7998,8 @@
         0
        ],
        "fav": [
-        2,
-        1
+        1,
+        2
        ],
        "dog": [
         2,
@@ -8182,16 +8008,6 @@
       },
       "STL": {
        "games": [
-        {
-         "d": "2026-11-18",
-         "opp": "ANA",
-         "home": true,
-         "w": true,
-         "s": "8-6",
-         "line": -1.5,
-         "role": "fav",
-         "cov": "c"
-        },
         {
          "d": "2026-11-20",
          "opp": "PIT",
@@ -8231,6 +8047,16 @@
          "line": 1.5,
          "role": "dog",
          "cov": "c"
+        },
+        {
+         "d": "2026-11-27",
+         "opp": "DAL",
+         "home": true,
+         "w": true,
+         "s": "5-3",
+         "line": 1.5,
+         "role": "dog",
+         "cov": "c"
         }
        ],
        "wl": [
@@ -8243,11 +8069,11 @@
         0
        ],
        "fav": [
-        3,
+        2,
         0
        ],
        "dog": [
-        1,
+        2,
         1
        ]
       }
@@ -8258,13 +8084,7 @@
        "team": "DAL",
        "effect": "helps",
        "tone": "up",
-       "text": "Revenge spot: DAL lost 4-0 to STL on October 2."
-      },
-      {
-       "kind": "mismatch",
-       "team": "STL",
-       "tone": "down",
-       "text": "Pavel Buchnevich (STL, 11 pts in 23 gp): likely goalie Jake Oettinger 0.912 sv% (19 starts, lg 0.891), DAL allows 24.4 shots/gm (lg 27.4)."
+       "text": "Revenge spot: DAL lost 5-3 to STL on November 27."
       }
      ],
      "stories": [
@@ -8273,7 +8093,7 @@
        "team": "DAL",
        "effect": "helps",
        "tone": "up",
-       "text": "Revenge spot: DAL lost 4-0 to STL on October 2."
+       "text": "Revenge spot: DAL lost 5-3 to STL on November 27."
       }
      ],
      "grid": {
@@ -8488,23 +8308,8 @@
        ]
       }
      },
-     "watch": [
-      {
-       "kind": "mismatch",
-       "team": "TB",
-       "tone": "down",
-       "text": "Nikita Kucherov (TB, 33 pts in 24 gp): likely goalie Linus Ullmark 0.935 sv% (14 starts, lg 0.891), OTT allows 26.3 shots/gm (lg 27.4)."
-      }
-     ],
+     "watch": [],
      "stories": [],
-     "changes": [
-      {
-       "team": "TB",
-       "pos": "D",
-       "name": "Erik Cernak",
-       "status": "Day-To-Day"
-      }
-     ],
      "grid": {
       "OTT": {
        "n": 32,
@@ -8724,12 +8529,6 @@
        "effect": "helps",
        "tone": "up",
        "text": "Revenge spot: VAN lost 3-1 to PHI on November 9."
-      },
-      {
-       "kind": "mismatch",
-       "team": "PHI",
-       "tone": "up",
-       "text": "Denver Barkey (PHI, 13 pts in 23 gp): likely goalie Leevi Merilainen 0.885 sv% (17 starts, lg 0.891), VAN allows 31.0 shots/gm (lg 27.4)."
       }
      ],
      "stories": [
@@ -8960,12 +8759,6 @@
        "effect": "helps",
        "tone": "up",
        "text": "Revenge spot: FLA lost 4-3 to WSH on November 7."
-      },
-      {
-       "kind": "mismatch",
-       "team": "WSH",
-       "tone": "down",
-       "text": "Jakob Chychrun (WSH, 16 pts in 22 gp): likely goalie Jacob Markstrom 0.894 sv% (14 starts, lg 0.891), FLA allows 25.4 shots/gm (lg 27.4)."
       }
      ],
      "stories": [
@@ -9189,14 +8982,7 @@
        ]
       }
      },
-     "watch": [
-      {
-       "kind": "mismatch",
-       "team": "CBJ",
-       "tone": "up",
-       "text": "Cole Sillinger (CBJ, 10 pts in 23 gp): likely goalie John Gibson 0.862 sv% (14 starts, lg 0.891), DET allows 26.2 shots/gm (lg 27.4)."
-      }
-     ],
+     "watch": [],
      "stories": [],
      "grid": {
       "DET": {
@@ -9410,14 +9196,7 @@
        ]
       }
      },
-     "watch": [
-      {
-       "kind": "mismatch",
-       "team": "COL",
-       "tone": "down",
-       "text": "Gabriel Landeskog (COL, 15 pts in 24 gp): likely goalie Jesper Wallstedt 0.920 sv% (23 starts, lg 0.891), MIN allows 25.9 shots/gm (lg 27.4)."
-      }
-     ],
+     "watch": [],
      "stories": [],
      "grid": {
       "COL": {
@@ -9631,14 +9410,7 @@
        ]
       }
      },
-     "watch": [
-      {
-       "kind": "mismatch",
-       "team": "LA",
-       "tone": "up",
-       "text": "Quinton Byfield (LA, 9 pts in 20 gp): likely goalie Lukas Dostal 0.857 sv% (13 starts, lg 0.891), ANA allows 25.7 shots/gm (lg 27.4)."
-      }
-     ],
+     "watch": [],
      "stories": [],
      "grid": {
       "LA": {
@@ -9852,20 +9624,7 @@
        ]
       }
      },
-     "watch": [
-      {
-       "kind": "mismatch",
-       "team": "VGK",
-       "tone": "up",
-       "text": "Victor Olofsson (VGK, 13 pts in 13 gp): likely goalie Yaroslav Askarov 0.889 sv% (17 starts, lg 0.891), SJ allows 30.6 shots/gm (lg 27.4)."
-      },
-      {
-       "kind": "mismatch",
-       "team": "SJ",
-       "tone": "down",
-       "text": "Macklin Celebrini (SJ, 31 pts in 25 gp): likely goalie Carter Hart 0.885 sv% (14 starts, lg 0.891), VGK allows 25.6 shots/gm (lg 27.4)."
-      }
-     ],
+     "watch": [],
      "stories": [],
      "grid": {
       "VGK": {
