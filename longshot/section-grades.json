@@ -1,5 +1,5 @@
 {
- "pulled_az": "2026-11-27T07:02:17-07:00",
+ "pulled_az": "2026-11-27T15:31:54-07:00",
  "slate": "2026-11-27",
  "tz": "Arizona (MST)",
  "note": "Public graded record by card and by leg type. Starting November 15, the featured parlay is Deep Floor, capped at 3 legs by Floor Score, with NBA threes left out. Its record before November 15 is a backtest: the rule applied to earlier posted cards. The November 14 model ticket is graded from the morning card; Jamal Murray Over 2.5 threes was a loss, and a later swap to rebounds is not counted. Sleeper flags: next-man-up backups tagged Sleeper, graded on a modest box-score floor once the game is final (NFL skill 25 rec / 30 rush yards, NBA 8+ points, NHL 1+ point). Contrarian tags: injury or rest news that cuts against the side with at least 10 points more of the traded action; a hit means that busy side lost. Floor Score, calibrated chance and these flags are estimates. Not betting advice. Sample sizes are still small.",
@@ -5148,24 +5148,24 @@
    "card": "Contrarian tags",
    "summary": {
     "wins": 36,
-    "losses": 17,
-    "pending": 133,
+    "losses": 18,
+    "pending": 134,
     "void": 0,
-    "n_graded": 53,
-    "hit_rate": 67.9,
-    "record": "36-17 (133 pending)"
+    "n_graded": 54,
+    "hit_rate": 66.7,
+    "record": "36-18 (134 pending)"
    },
    "by_slate": [
     {
      "wins": 0,
-     "losses": 0,
-     "pending": 14,
+     "losses": 1,
+     "pending": 15,
      "void": 0,
-     "n_graded": 0,
-     "hit_rate": null,
-     "record": "0-0 (14 pending)",
+     "n_graded": 1,
+     "hit_rate": 0.0,
+     "record": "0-1 (15 pending)",
      "slate": "2026-11-27",
-     "n": 14
+     "n": 16
     },
     {
      "wins": 4,
@@ -5304,21 +5304,21 @@
     {
      "wins": 22,
      "losses": 8,
-     "pending": 55,
+     "pending": 56,
      "void": 0,
      "n_graded": 30,
      "hit_rate": 73.3,
-     "record": "22-8 (55 pending)",
+     "record": "22-8 (56 pending)",
      "key": "nfl:other"
     },
     {
      "wins": 10,
-     "losses": 8,
+     "losses": 9,
      "pending": 27,
      "void": 0,
-     "n_graded": 18,
-     "hit_rate": 55.6,
-     "record": "10-8 (27 pending)",
+     "n_graded": 19,
+     "hit_rate": 52.6,
+     "record": "10-9 (27 pending)",
      "key": "nhl:other"
     },
     {
@@ -7538,6 +7538,31 @@
      "busy_team": "EDM",
      "action_share_gap": 92,
      "text": "Revenge spot: SEA lost 3-1 to EDM on October 3."
+    },
+    {
+     "kind": "contrarian",
+     "slate": "2026-11-27",
+     "sport": "nfl",
+     "game": "CAR @ TB",
+     "team": "CAR",
+     "effect": "hurts",
+     "busy_team": "CAR",
+     "action_share_gap": 56,
+     "text": "CAR WR Tetairoa McMillan listed Questionable on the injury report."
+    },
+    {
+     "kind": "contrarian",
+     "slate": "2026-11-27",
+     "sport": "nhl",
+     "game": "UTA @ NSH",
+     "team": "NSH",
+     "effect": "helps",
+     "busy_team": "UTA",
+     "action_share_gap": 78,
+     "text": "Revenge spot: NSH lost 6-5 to UTA on November 27.",
+     "grade": "loss",
+     "result": "UTA",
+     "graded_az": "2026-11-27T15:32:05-07:00"
     }
    ]
   }
