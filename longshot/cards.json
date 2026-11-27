@@ -1,5 +1,5 @@
 {
- "updated_az": "2026-11-27T07:20:01-07:00",
+ "updated_az": "2026-11-27T11:20:02-07:00",
  "note": "Estimates from public scores, closing lines, play by play, depth charts, injury reports and our matchup engine. Not betting advice.",
  "sports": {
   "nba": {
@@ -258,12 +258,6 @@
      "changes": [
       {
        "team": "MIA",
-       "pos": "SF",
-       "name": "Andrew Wiggins",
-       "status": "Day-To-Day"
-      },
-      {
-       "team": "MIA",
        "pos": "PF",
        "name": "Giannis Antetokounmpo",
        "status": "Day-To-Day"
@@ -273,6 +267,12 @@
        "pos": "PF",
        "name": "OG Anunoby",
        "status": "Out"
+      },
+      {
+       "team": "NY",
+       "pos": "C",
+       "name": "Karl-Anthony Towns",
+       "status": "Day-To-Day"
       }
      ],
      "next": [
@@ -2433,6 +2433,12 @@
        "pos": "C",
        "name": "Jaxson Hayes",
        "status": "Day-To-Day"
+      },
+      {
+       "team": "UTAH",
+       "pos": "C",
+       "name": "Mo Bamba",
+       "status": "Day-To-Day"
       }
      ]
     },
@@ -4301,7 +4307,7 @@
        "team": "NYJ",
        "pos": "WR",
        "name": "Omar Cooper Jr.",
-       "status": "Questionable"
+       "status": "Out"
       },
       {
        "team": "NYJ",
@@ -4325,7 +4331,7 @@
        "team": "MIA",
        "pos": "CB",
        "name": "JuJu Brents",
-       "status": "Questionable"
+       "status": "Out"
       }
      ],
      "next": [
@@ -4333,7 +4339,7 @@
        "team": "NYJ",
        "pos": "WR",
        "out": "Omar Cooper Jr.",
-       "status": "Questionable",
+       "status": "Out",
        "backup": "Malik McClain",
        "def": "MIA",
        "rank": 4,
@@ -4890,7 +4896,7 @@
        "kind": "history",
        "team": "JAX",
        "tone": "up",
-       "text": "Parker Washington (JAX) vs this defense: 3 games, 265 yds, 2 TD (88 yds per game)."
+       "text": "Brenton Strange (JAX) vs this defense: 3 games, 106 yds, 3 TD (35 yds per game)."
       }
      ],
      "stories": [
@@ -4900,13 +4906,6 @@
        "effect": "hurts",
        "tone": "down",
        "text": "JAX RB Bhayshul Tuten listed Questionable on the injury report."
-      },
-      {
-       "kind": "story",
-       "team": "JAX",
-       "effect": "hurts",
-       "tone": "down",
-       "text": "JAX WR Parker Washington listed Questionable on the injury report."
       },
       {
        "kind": "story",
@@ -5060,13 +5059,13 @@
        "team": "TEN",
        "pos": "CB",
        "name": "Cor'Dale Flott",
-       "status": "Questionable"
+       "status": "Out"
       },
       {
        "team": "JAX",
        "pos": "WR",
        "name": "Parker Washington",
-       "status": "Questionable"
+       "status": "Out"
       },
       {
        "team": "JAX",
@@ -5104,7 +5103,7 @@
        "team": "JAX",
        "pos": "WR",
        "out": "Parker Washington",
-       "status": "Questionable",
+       "status": "Out",
        "backup": "Josh Cameron",
        "def": "TEN",
        "rank": 32,
@@ -5832,7 +5831,7 @@
        "team": "NE",
        "pos": "WR",
        "name": "A.J. Brown",
-       "status": "Doubtful"
+       "status": "Out"
       },
       {
        "team": "NE",
@@ -5882,7 +5881,7 @@
        "team": "NE",
        "pos": "WR",
        "out": "A.J. Brown",
-       "status": "Doubtful",
+       "status": "Out",
        "backup": "Efton Chism III",
        "def": "LAC",
        "rank": 26,
@@ -6239,7 +6238,7 @@
        "team": "ARI",
        "pos": "QB",
        "name": "Carson Beck",
-       "status": "Questionable"
+       "status": "Out"
       }
      ],
      "next": [
@@ -6247,7 +6246,7 @@
        "team": "ARI",
        "pos": "QB",
        "out": "Carson Beck",
-       "status": "Questionable",
+       "status": "Out",
        "backup": "Josh Johnson",
        "def": "WSH",
        "rank": 27,
@@ -8275,14 +8274,6 @@
        "effect": "helps",
        "tone": "up",
        "text": "Revenge spot: DAL lost 4-0 to STL on October 2."
-      }
-     ],
-     "changes": [
-      {
-       "team": "STL",
-       "pos": "LW",
-       "name": "Pavel Buchnevich",
-       "status": "Day-To-Day"
       }
      ],
      "grid": {
@@ -10556,7 +10547,7 @@
        "kind": "mismatch",
        "team": "BUF",
        "tone": "up",
-       "text": "Zach Benson (BUF, 23 pts in 25 gp): likely goalie Arturs Silovs 0.874 sv% (15 starts, lg 0.891), PIT allows 28.1 shots/gm (lg 27.4)."
+       "text": "Peyton Krebs (BUF, 13 pts in 25 gp): likely goalie Arturs Silovs 0.874 sv% (15 starts, lg 0.891), PIT allows 28.1 shots/gm (lg 27.4)."
       }
      ],
      "stories": [],
