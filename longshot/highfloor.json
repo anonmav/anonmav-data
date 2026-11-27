@@ -1,9 +1,9 @@
 {
- "pulled_az": "2026-11-26T16:45:59-07:00",
- "slate": "2026-11-26",
- "status": "locked",
+ "pulled_az": "2026-11-27T02:31:17-07:00",
+ "slate": "2026-11-27",
+ "status": "waiting",
  "start": "2026-11-17",
- "locked_az": "2026-11-26T07:00:01-07:00",
+ "locked_az": null,
  "note": "High Floor forward test. Started November 17, 2026 at 0-0. Singles only, locked at publish, graded daily.",
  "rule": [
   "A test, not picks. Singles only: Over legs where the player cleared the line in at least 8 of the last 10 games and in at least 75% of this season's games, with a consensus line posted.",
@@ -13,115 +13,6 @@
   "It needs about 300 graded legs, roughly 8 to 9 weeks. It passes only if the hit rate beats the market chance by about 4 to 5 points. If it does not, we retire it.",
   "Floor scores, market chances and defense ranks are estimates. No stakes or profit are tracked. Not betting advice."
  ],
- "legs": [
-  {
-   "id": "2026-11-26:nfl:4429795:anytimeTD",
-   "slate": "2026-11-26",
-   "sport": "nfl",
-   "event_id": "401873081",
-   "game": "CHI @ DET",
-   "start_utc": "2026-11-26T18:00:00+00:00",
-   "start_az": "11:00 AM",
-   "athlete_id": "4429795",
-   "player": "Jahmyr Gibbs",
-   "team": "DET",
-   "opp": "CHI",
-   "stat": "anytimeTD",
-   "label": "Anytime TD",
-   "line": 0.5,
-   "l10_hits": 9,
-   "l10_n": 10,
-   "hit_season": 0.9,
-   "games": 10,
-   "avg": 1.5,
-   "consensus_odds": -275,
-   "market_pct": 68,
-   "score": 84.2,
-   "pos": "RB",
-   "injury": null,
-   "cushion": {
-    "threshold": 1,
-    "l10_min": 0,
-    "l10_p10": 0.9,
-    "exact_l5": 2,
-    "n": 10,
-    "thin": false,
-    "thin_reasons": []
-   },
-   "thin": false,
-   "posted_az": "2026-11-26T07:00:01-07:00",
-   "would_exclude": [],
-   "flags_checked_az": "2026-11-26T07:01:12-07:00",
-   "def": {
-    "level": "position",
-    "opp": "CHI",
-    "n": 32,
-    "cells": [
-     {
-      "k": "RB",
-      "rank": 11,
-      "tier": "yellow"
-     }
-    ],
-    "soft": false,
-    "text": "CHI defense vs RB: 11 of 32 on fantasy points allowed (32 = softest)"
-   },
-   "def_logged_az": "2026-11-26T07:21:19-07:00"
-  },
-  {
-   "id": "2026-11-26:nfl:4379399:anytimeTD",
-   "slate": "2026-11-26",
-   "sport": "nfl",
-   "event_id": "401873082",
-   "game": "KC @ BUF",
-   "start_utc": "2026-11-27T01:20:00+00:00",
-   "start_az": "6:20 PM",
-   "athlete_id": "4379399",
-   "player": "James Cook III",
-   "team": "BUF",
-   "opp": "KC",
-   "stat": "anytimeTD",
-   "label": "Anytime TD",
-   "line": 0.5,
-   "l10_hits": 9,
-   "l10_n": 10,
-   "hit_season": 0.9,
-   "games": 10,
-   "avg": 1.0,
-   "consensus_odds": -105,
-   "market_pct": 48,
-   "score": 61.9,
-   "pos": "RB",
-   "injury": null,
-   "cushion": {
-    "threshold": 1,
-    "l10_min": 0,
-    "l10_p10": 0.9,
-    "exact_l5": 5,
-    "n": 10,
-    "thin": false,
-    "thin_reasons": []
-   },
-   "thin": false,
-   "posted_az": "2026-11-26T07:00:01-07:00",
-   "would_exclude": [],
-   "flags_checked_az": "2026-11-26T07:01:12-07:00",
-   "def": {
-    "level": "position",
-    "opp": "KC",
-    "n": 32,
-    "cells": [
-     {
-      "k": "RB",
-      "rank": 7,
-      "tier": "red"
-     }
-    ],
-    "soft": false,
-    "text": "KC defense vs RB: 7 of 32 on fantasy points allowed (32 = softest)"
-   },
-   "def_logged_az": "2026-11-26T07:21:19-07:00"
-  }
- ],
- "empty_note": "No legs met the rule at lock time today. That is a valid result."
+ "legs": [],
+ "empty_note": "Legs lock at the 7 AM Arizona publish. The record starts at 0-0."
 }

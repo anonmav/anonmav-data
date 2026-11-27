@@ -1,5 +1,5 @@
 {
- "pulled_az": "2026-11-26T16:45:59-07:00",
+ "pulled_az": "2026-11-27T02:31:17-07:00",
  "start": "2026-11-17",
  "note": "High Floor forward test. Started November 17, 2026 at 0-0. Singles only, locked at publish, graded daily.",
  "rule": [
@@ -11,15 +11,15 @@
   "Floor scores, market chances and defense ranks are estimates. No stakes or profit are tracked. Not betting advice."
  ],
  "summary": {
-  "wins": 15,
+  "wins": 17,
   "losses": 15,
   "void": 1,
-  "pending": 2,
-  "graded": 30,
+  "pending": 0,
+  "graded": 32,
   "target": 300,
-  "hit_rate": 50.0,
+  "hit_rate": 53.1,
   "market_avg_pct": 58.0,
-  "gap_pts": -8.0
+  "gap_pts": -4.9
  },
  "splits": {
   "soft_matchup": {
@@ -34,15 +34,15 @@
    "gap_pts": 11.4
   },
   "other_matchup": {
-   "wins": 10,
+   "wins": 12,
    "losses": 13,
    "void": 0,
-   "pending": 2,
-   "graded": 23,
+   "pending": 0,
+   "graded": 25,
    "target": 300,
-   "hit_rate": 43.5,
-   "market_avg_pct": 57.4,
-   "gap_pts": -13.9
+   "hit_rate": 48.0,
+   "market_avg_pct": 57.5,
+   "gap_pts": -9.5
   },
   "no_rank": {
    "wins": 0,
@@ -80,15 +80,15 @@
    "gap_pts": -7.5
   },
   "nfl": {
-   "wins": 1,
+   "wins": 3,
    "losses": 1,
    "void": 0,
-   "pending": 2,
-   "graded": 2,
+   "pending": 0,
+   "graded": 4,
    "target": 300,
-   "hit_rate": 50.0,
-   "market_avg_pct": 53.0,
-   "gap_pts": -3.0
+   "hit_rate": 75.0,
+   "market_avg_pct": 55.5,
+   "gap_pts": 19.5
   }
  },
  "days": [
@@ -167,10 +167,10 @@
   {
    "slate": "2026-11-26",
    "legs": 2,
-   "wins": 0,
+   "wins": 2,
    "losses": 0,
    "void": 0,
-   "pending": 2
+   "pending": 0
   }
  ],
  "losses": [
@@ -2048,7 +2048,10 @@
     "soft": false,
     "text": "CHI defense vs RB: 11 of 32 on fantasy points allowed (32 = softest)"
    },
-   "def_logged_az": "2026-11-26T07:21:19-07:00"
+   "def_logged_az": "2026-11-26T07:21:19-07:00",
+   "grade": "win",
+   "result": 3.0,
+   "graded_az": "2026-11-27T02:30:02-07:00"
   },
   {
    "id": "2026-11-26:nfl:4379399:anytimeTD",
@@ -2102,7 +2105,10 @@
     "soft": false,
     "text": "KC defense vs RB: 7 of 32 on fantasy points allowed (32 = softest)"
    },
-   "def_logged_az": "2026-11-26T07:21:19-07:00"
+   "def_logged_az": "2026-11-26T07:21:19-07:00",
+   "grade": "win",
+   "result": 1.0,
+   "graded_az": "2026-11-27T02:30:06-07:00"
   }
  ],
  "split_note": "Soft matchup means the opponent ranks in the softest ten of the league at the position (team level for NHL). Ranks are estimates."
