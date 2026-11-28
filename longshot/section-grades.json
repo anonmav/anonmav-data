@@ -1,5 +1,5 @@
 {
- "pulled_az": "2026-11-27T15:31:54-07:00",
+ "pulled_az": "2026-11-28T02:35:36-07:00",
  "slate": "2026-11-27",
  "tz": "Arizona (MST)",
  "note": "Public graded record by card and by leg type. Starting November 15, the featured parlay is Deep Floor, capped at 3 legs by Floor Score, with NBA threes left out. Its record before November 15 is a backtest: the rule applied to earlier posted cards. The November 14 model ticket is graded from the morning card; Jamal Murray Over 2.5 threes was a loss, and a later swap to rebounds is not counted. Sleeper flags: next-man-up backups tagged Sleeper, graded on a modest box-score floor once the game is final (NFL skill 25 rec / 30 rush yards, NBA 8+ points, NHL 1+ point). Contrarian tags: injury or rest news that cuts against the side with at least 10 points more of the traded action; a hit means that busy side lost. Floor Score, calibrated chance and these flags are estimates. Not betting advice. Sample sizes are still small.",
@@ -11,30 +11,30 @@
   "featured": true,
   "note": "Past results apply this rule to earlier posted cards. Featured live from November 15.",
   "live_from": "2026-11-15",
-  "live": "7-4 (2 pending)",
+  "live": "8-4 (1 pending)",
   "backtest": "6-2"
  },
  "sections": {
   "model": {
    "card": "Model",
    "summary": {
-    "wins": 78,
-    "losses": 26,
-    "pending": 5,
+    "wins": 82,
+    "losses": 27,
+    "pending": 0,
     "void": 0,
-    "n_graded": 104,
-    "hit_rate": 75.0,
-    "record": "78-26 (5 pending)"
+    "n_graded": 109,
+    "hit_rate": 75.2,
+    "record": "82-27"
    },
    "by_slate": [
     {
-     "wins": 0,
-     "losses": 0,
-     "pending": 5,
+     "wins": 4,
+     "losses": 1,
+     "pending": 0,
      "void": 0,
-     "n_graded": 0,
-     "hit_rate": null,
-     "record": "0-0 (5 pending)",
+     "n_graded": 5,
+     "hit_rate": 80.0,
+     "record": "4-1",
      "slate": "2026-11-27",
      "n": 5
     },
@@ -294,13 +294,13 @@
    ],
    "by_leg_type": [
     {
-     "wins": 33,
-     "losses": 12,
-     "pending": 3,
+     "wins": 35,
+     "losses": 13,
+     "pending": 0,
      "void": 0,
-     "n_graded": 45,
-     "hit_rate": 73.3,
-     "record": "33-12 (3 pending)",
+     "n_graded": 48,
+     "hit_rate": 72.9,
+     "record": "35-13",
      "key": "nhl:1+ points"
     },
     {
@@ -314,13 +314,13 @@
      "key": "nba:threes"
     },
     {
-     "wins": 11,
+     "wins": 13,
      "losses": 0,
-     "pending": 2,
+     "pending": 0,
      "void": 0,
-     "n_graded": 11,
+     "n_graded": 13,
      "hit_rate": 100.0,
-     "record": "11-0 (2 pending)",
+     "record": "13-0",
      "key": "nba:assists"
     },
     {
@@ -407,15 +407,15 @@
    "parlay": {
     "label": "model ticket as posted",
     "wins": 7,
-    "losses": 16,
-    "pending": 1,
-    "n_decided": 23,
-    "hit_rate": 30.4,
-    "record": "7-16 (1 pending)",
+    "losses": 17,
+    "pending": 0,
+    "n_decided": 24,
+    "hit_rate": 29.2,
+    "record": "7-17",
     "killers_by_type": [
      {
       "key": "nhl:1+ points",
-      "slates_killed": 11
+      "slates_killed": 12
      },
      {
       "key": "nba:threes",
@@ -798,41 +798,51 @@
      },
      {
       "slate": "2026-11-27",
-      "status": "pending",
-      "wins": 0,
-      "losses": 0,
-      "n_graded": 0,
-      "n_pending": 5,
-      "killers": []
+      "status": "loss",
+      "wins": 4,
+      "losses": 1,
+      "n_graded": 5,
+      "n_pending": 0,
+      "killers": [
+       {
+        "player": "Cutter Gauthier",
+        "label": "Over 0.5 points",
+        "leg_type": "nhl:1+ points"
+       }
+      ]
      }
     ]
    },
    "note": "Official model record. The November 14 morning ticket included Jamal Murray Over 2.5 threes, a loss. A later swap to rebounds is not counted.",
    "site_reshuffle_summary": {
-    "wins": 76,
-    "losses": 28,
-    "pending": 5,
+    "wins": 79,
+    "losses": 30,
+    "pending": 0,
     "void": 0,
-    "n_graded": 104,
-    "hit_rate": 73.1,
-    "record": "76-28 (5 pending)"
+    "n_graded": 109,
+    "hit_rate": 72.5,
+    "record": "79-30"
    },
    "site_reshuffle_parlay": {
     "label": "model site ticket, later reshuffles, not official",
     "wins": 7,
-    "losses": 16,
-    "pending": 1,
-    "n_decided": 23,
-    "hit_rate": 30.4,
-    "record": "7-16 (1 pending)",
+    "losses": 17,
+    "pending": 0,
+    "n_decided": 24,
+    "hit_rate": 29.2,
+    "record": "7-17",
     "killers_by_type": [
      {
       "key": "nhl:1+ points",
-      "slates_killed": 12
+      "slates_killed": 13
      },
      {
       "key": "nba:threes",
       "slates_killed": 7
+     },
+     {
+      "key": "nba:assists",
+      "slates_killed": 2
      },
      {
       "key": "nba:rebounds",
@@ -852,10 +862,6 @@
      },
      {
       "key": "nhl:assists",
-      "slates_killed": 1
-     },
-     {
-      "key": "nba:assists",
       "slates_killed": 1
      }
     ],
@@ -1225,24 +1231,35 @@
      },
      {
       "slate": "2026-11-27",
-      "status": "pending",
-      "wins": 0,
-      "losses": 0,
-      "n_graded": 0,
-      "n_pending": 5,
-      "killers": []
+      "status": "loss",
+      "wins": 3,
+      "losses": 2,
+      "n_graded": 5,
+      "n_pending": 0,
+      "killers": [
+       {
+        "player": "Cutter Gauthier",
+        "label": "Over 0.5 points",
+        "leg_type": "nhl:1+ points"
+       },
+       {
+        "player": "Donovan Clingan",
+        "label": "Over 1.5 assists",
+        "leg_type": "nba:assists"
+       }
+      ]
      }
     ]
    },
    "site_reshuffle_by_leg_type": [
     {
-     "wins": 32,
-     "losses": 13,
-     "pending": 3,
+     "wins": 34,
+     "losses": 14,
+     "pending": 0,
      "void": 0,
-     "n_graded": 45,
-     "hit_rate": 71.1,
-     "record": "32-13 (3 pending)",
+     "n_graded": 48,
+     "hit_rate": 70.8,
+     "record": "34-14",
      "key": "nhl:1+ points"
     },
     {
@@ -1256,13 +1273,13 @@
      "key": "nba:threes"
     },
     {
-     "wins": 10,
-     "losses": 1,
-     "pending": 2,
+     "wins": 11,
+     "losses": 2,
+     "pending": 0,
      "void": 0,
-     "n_graded": 11,
-     "hit_rate": 90.9,
-     "record": "10-1 (2 pending)",
+     "n_graded": 13,
+     "hit_rate": 84.6,
+     "record": "11-2",
      "key": "nba:assists"
     },
     {
@@ -1347,26 +1364,26 @@
     }
    ],
    "model_era_summary": {
-    "wins": 47,
-    "losses": 22,
-    "pending": 5,
+    "wins": 51,
+    "losses": 23,
+    "pending": 0,
     "void": 0,
-    "n_graded": 69,
-    "hit_rate": 68.1,
-    "record": "47-22 (5 pending)"
+    "n_graded": 74,
+    "hit_rate": 68.9,
+    "record": "51-23"
    },
    "model_era_parlay": {
     "label": "model ticket as posted",
     "wins": 3,
-    "losses": 13,
-    "pending": 1,
-    "n_decided": 16,
-    "hit_rate": 18.8,
-    "record": "3-13 (1 pending)",
+    "losses": 14,
+    "pending": 0,
+    "n_decided": 17,
+    "hit_rate": 17.6,
+    "record": "3-14",
     "killers_by_type": [
      {
       "key": "nhl:1+ points",
-      "slates_killed": 10
+      "slates_killed": 11
      },
      {
       "key": "nba:threes",
@@ -1651,12 +1668,18 @@
      },
      {
       "slate": "2026-11-27",
-      "status": "pending",
-      "wins": 0,
-      "losses": 0,
-      "n_graded": 0,
-      "n_pending": 5,
-      "killers": []
+      "status": "loss",
+      "wins": 4,
+      "losses": 1,
+      "n_graded": 5,
+      "n_pending": 0,
+      "killers": [
+       {
+        "player": "Cutter Gauthier",
+        "label": "Over 0.5 points",
+        "leg_type": "nhl:1+ points"
+       }
+      ]
      }
     ]
    }
@@ -1664,23 +1687,23 @@
   "deep_floor": {
    "card": "Deep Floor",
    "summary": {
-    "wins": 84,
+    "wins": 85,
     "losses": 17,
-    "pending": 2,
+    "pending": 1,
     "void": 0,
-    "n_graded": 101,
-    "hit_rate": 83.2,
-    "record": "84-17 (2 pending)"
+    "n_graded": 102,
+    "hit_rate": 83.3,
+    "record": "85-17 (1 pending)"
    },
    "by_slate": [
     {
-     "wins": 0,
+     "wins": 1,
      "losses": 0,
-     "pending": 1,
+     "pending": 0,
      "void": 0,
-     "n_graded": 0,
-     "hit_rate": null,
-     "record": "0-0 (1 pending)",
+     "n_graded": 1,
+     "hit_rate": 100.0,
+     "record": "1-0",
      "slate": "2026-11-27",
      "n": 1
     },
@@ -1907,13 +1930,13 @@
    ],
    "by_leg_type": [
     {
-     "wins": 22,
+     "wins": 23,
      "losses": 5,
-     "pending": 1,
+     "pending": 0,
      "void": 0,
-     "n_graded": 27,
-     "hit_rate": 81.5,
-     "record": "22-5 (1 pending)",
+     "n_graded": 28,
+     "hit_rate": 82.1,
+     "record": "23-5",
      "key": "nhl:1+ points"
     },
     {
@@ -1999,12 +2022,12 @@
    ],
    "parlay": {
     "label": "Deep Floor card",
-    "wins": 9,
+    "wins": 10,
     "losses": 10,
-    "pending": 2,
-    "n_decided": 19,
-    "hit_rate": 47.4,
-    "record": "9-10 (2 pending)",
+    "pending": 1,
+    "n_decided": 20,
+    "hit_rate": 50.0,
+    "record": "10-10 (1 pending)",
     "killers_by_type": [
      {
       "key": "nhl:1+ points",
@@ -2314,11 +2337,11 @@
      },
      {
       "slate": "2026-11-27",
-      "status": "pending",
-      "wins": 0,
+      "status": "win",
+      "wins": 1,
       "losses": 0,
-      "n_graded": 0,
-      "n_pending": 1,
+      "n_graded": 1,
+      "n_pending": 0,
       "killers": []
      }
     ]
@@ -2326,12 +2349,12 @@
    "note": "Conservative listed thresholds. A pick needs a Floor Score of 90 or better.",
    "featured_parlay": {
     "label": "featured parlay, Deep Floor, max 3 legs",
-    "wins": 13,
+    "wins": 14,
     "losses": 6,
-    "pending": 2,
-    "n_decided": 19,
-    "hit_rate": 68.4,
-    "record": "13-6 (2 pending)",
+    "pending": 1,
+    "n_decided": 20,
+    "hit_rate": 70.0,
+    "record": "14-6 (1 pending)",
     "killers_by_type": [
      {
       "key": "nba:rebounds",
@@ -2570,11 +2593,11 @@
      },
      {
       "slate": "2026-11-27",
-      "status": "pending",
-      "wins": 0,
+      "status": "win",
+      "wins": 1,
       "losses": 0,
-      "n_graded": 0,
-      "n_pending": 1,
+      "n_graded": 1,
+      "n_pending": 0,
       "killers": []
      }
     ]
@@ -2585,24 +2608,13 @@
    "summary": {
     "wins": 24,
     "losses": 9,
-    "pending": 10,
+    "pending": 0,
     "void": 0,
     "n_graded": 33,
     "hit_rate": 72.7,
-    "record": "24-9 (10 pending)"
+    "record": "24-9"
    },
    "by_slate": [
-    {
-     "wins": 0,
-     "losses": 0,
-     "pending": 10,
-     "void": 0,
-     "n_graded": 0,
-     "hit_rate": null,
-     "record": "0-0 (10 pending)",
-     "slate": "2026-11-27",
-     "n": 10
-    },
     {
      "wins": 1,
      "losses": 1,
@@ -2718,11 +2730,11 @@
     {
      "wins": 7,
      "losses": 3,
-     "pending": 6,
+     "pending": 0,
      "void": 0,
      "n_graded": 10,
      "hit_rate": 70.0,
-     "record": "7-3 (6 pending)",
+     "record": "7-3",
      "key": "nhl:1+ points"
     },
     {
@@ -2758,11 +2770,11 @@
     {
      "wins": 0,
      "losses": 2,
-     "pending": 1,
+     "pending": 0,
      "void": 0,
      "n_graded": 2,
      "hit_rate": 0.0,
-     "record": "0-2 (1 pending)",
+     "record": "0-2",
      "key": "nfl:receiving_yards"
     },
     {
@@ -2778,11 +2790,11 @@
     {
      "wins": 2,
      "losses": 0,
-     "pending": 1,
+     "pending": 0,
      "void": 0,
      "n_graded": 2,
      "hit_rate": 100.0,
-     "record": "2-0 (1 pending)",
+     "record": "2-0",
      "key": "nhl:assists"
     },
     {
@@ -2798,11 +2810,11 @@
     {
      "wins": 0,
      "losses": 1,
-     "pending": 2,
+     "pending": 0,
      "void": 0,
      "n_graded": 1,
      "hit_rate": 0.0,
-     "record": "0-1 (2 pending)",
+     "record": "0-1",
      "key": "nhl:shots"
     }
    ],
@@ -5147,56 +5159,56 @@
   "contrarian_tags": {
    "card": "Contrarian tags",
    "summary": {
-    "wins": 36,
+    "wins": 40,
     "losses": 18,
-    "pending": 134,
+    "pending": 131,
     "void": 0,
-    "n_graded": 54,
-    "hit_rate": 66.7,
-    "record": "36-18 (134 pending)"
+    "n_graded": 58,
+    "hit_rate": 69.0,
+    "record": "40-18 (131 pending)"
    },
    "by_slate": [
     {
-     "wins": 0,
+     "wins": 1,
      "losses": 1,
      "pending": 15,
      "void": 0,
-     "n_graded": 1,
-     "hit_rate": 0.0,
-     "record": "0-1 (15 pending)",
+     "n_graded": 2,
+     "hit_rate": 50.0,
+     "record": "1-1 (15 pending)",
      "slate": "2026-11-27",
-     "n": 16
+     "n": 17
     },
     {
-     "wins": 4,
+     "wins": 5,
      "losses": 2,
-     "pending": 21,
+     "pending": 20,
      "void": 0,
-     "n_graded": 6,
-     "hit_rate": 66.7,
-     "record": "4-2 (21 pending)",
+     "n_graded": 7,
+     "hit_rate": 71.4,
+     "record": "5-2 (20 pending)",
      "slate": "2026-11-26",
      "n": 27
     },
     {
-     "wins": 4,
+     "wins": 5,
      "losses": 2,
-     "pending": 14,
+     "pending": 13,
      "void": 0,
-     "n_graded": 6,
-     "hit_rate": 66.7,
-     "record": "4-2 (14 pending)",
+     "n_graded": 7,
+     "hit_rate": 71.4,
+     "record": "5-2 (13 pending)",
      "slate": "2026-11-25",
      "n": 20
     },
     {
-     "wins": 1,
+     "wins": 2,
      "losses": 0,
-     "pending": 8,
+     "pending": 7,
      "void": 0,
-     "n_graded": 1,
+     "n_graded": 2,
      "hit_rate": 100.0,
-     "record": "1-0 (8 pending)",
+     "record": "2-0 (7 pending)",
      "slate": "2026-11-24",
      "n": 9
     },
@@ -5302,13 +5314,13 @@
    ],
    "by_leg_type": [
     {
-     "wins": 22,
+     "wins": 26,
      "losses": 8,
-     "pending": 56,
+     "pending": 52,
      "void": 0,
-     "n_graded": 30,
-     "hit_rate": 73.3,
-     "record": "22-8 (56 pending)",
+     "n_graded": 34,
+     "hit_rate": 76.5,
+     "record": "26-8 (52 pending)",
      "key": "nfl:other"
     },
     {
@@ -5324,11 +5336,11 @@
     {
      "wins": 4,
      "losses": 1,
-     "pending": 51,
+     "pending": 52,
      "void": 0,
      "n_graded": 5,
      "hit_rate": 80.0,
-     "record": "4-1 (51 pending)",
+     "record": "4-1 (52 pending)",
      "key": "nba:other"
     }
    ],
@@ -6830,7 +6842,10 @@
      "effect": "hurts",
      "busy_team": "DEN",
      "action_share_gap": 58,
-     "text": "DEN on a short week (5 days since last game), PIT had 5."
+     "text": "DEN on a short week (5 days since last game), PIT had 5.",
+     "grade": "win",
+     "result": "PIT",
+     "graded_az": "2026-11-28T02:35:44-07:00"
     },
     {
      "kind": "contrarian",
@@ -6863,7 +6878,10 @@
      "effect": "hurts",
      "busy_team": "DEN",
      "action_share_gap": 58,
-     "text": "DEN on a short week (5 days since last game), PIT had 5."
+     "text": "DEN on a short week (5 days since last game), PIT had 5.",
+     "grade": "win",
+     "result": "PIT",
+     "graded_az": "2026-11-28T02:35:45-07:00"
     },
     {
      "kind": "contrarian",
@@ -7140,7 +7158,10 @@
      "effect": "hurts",
      "busy_team": "DEN",
      "action_share_gap": 70,
-     "text": "DEN on a short week (5 days since last game), PIT had 5."
+     "text": "DEN on a short week (5 days since last game), PIT had 5.",
+     "grade": "win",
+     "result": "PIT",
+     "graded_az": "2026-11-28T02:35:46-07:00"
     },
     {
      "kind": "contrarian",
@@ -7427,7 +7448,10 @@
      "effect": "hurts",
      "busy_team": "DEN",
      "action_share_gap": 74,
-     "text": "DEN on a short week (5 days since last game), PIT had 5."
+     "text": "DEN on a short week (5 days since last game), PIT had 5.",
+     "grade": "win",
+     "result": "PIT",
+     "graded_az": "2026-11-28T02:35:47-07:00"
     },
     {
      "kind": "contrarian",
@@ -7563,6 +7587,17 @@
      "grade": "loss",
      "result": "UTA",
      "graded_az": "2026-11-27T15:32:05-07:00"
+    },
+    {
+     "kind": "contrarian",
+     "slate": "2026-11-27",
+     "sport": "nba",
+     "game": "PHI @ IND",
+     "team": "PHI",
+     "effect": "hurts",
+     "busy_team": "PHI",
+     "action_share_gap": 60,
+     "text": "PHI F Dean Wade listed Out on the injury report."
     }
    ]
   }
@@ -7570,12 +7605,12 @@
  "parlay": {
   "featured": {
    "label": "featured parlay, Deep Floor, max 3 legs",
-   "wins": 13,
+   "wins": 14,
    "losses": 6,
-   "pending": 2,
-   "n_decided": 19,
-   "hit_rate": 68.4,
-   "record": "13-6 (2 pending)",
+   "pending": 1,
+   "n_decided": 20,
+   "hit_rate": 70.0,
+   "record": "14-6 (1 pending)",
    "killers_by_type": [
     {
      "key": "nba:rebounds",
@@ -7814,23 +7849,23 @@
     },
     {
      "slate": "2026-11-27",
-     "status": "pending",
-     "wins": 0,
+     "status": "win",
+     "wins": 1,
      "losses": 0,
-     "n_graded": 0,
-     "n_pending": 1,
+     "n_graded": 1,
+     "n_pending": 0,
      "killers": []
     }
    ]
   },
   "featured_live": {
    "label": "featured parlay, live from November 15",
-   "wins": 7,
+   "wins": 8,
    "losses": 4,
-   "pending": 2,
-   "n_decided": 11,
-   "hit_rate": 63.6,
-   "record": "7-4 (2 pending)",
+   "pending": 1,
+   "n_decided": 12,
+   "hit_rate": 66.7,
+   "record": "8-4 (1 pending)",
    "killers_by_type": [
     {
      "key": "nba:rebounds",
@@ -7981,11 +8016,11 @@
     },
     {
      "slate": "2026-11-27",
-     "status": "pending",
-     "wins": 0,
+     "status": "win",
+     "wins": 1,
      "losses": 0,
-     "n_graded": 0,
-     "n_pending": 1,
+     "n_graded": 1,
+     "n_pending": 0,
      "killers": []
     }
    ]
@@ -8097,12 +8132,12 @@
   },
   "deep_floor_card": {
    "label": "Deep Floor card",
-   "wins": 9,
+   "wins": 10,
    "losses": 10,
-   "pending": 2,
-   "n_decided": 19,
-   "hit_rate": 47.4,
-   "record": "9-10 (2 pending)",
+   "pending": 1,
+   "n_decided": 20,
+   "hit_rate": 50.0,
+   "record": "10-10 (1 pending)",
    "killers_by_type": [
     {
      "key": "nhl:1+ points",
@@ -8412,11 +8447,11 @@
     },
     {
      "slate": "2026-11-27",
-     "status": "pending",
-     "wins": 0,
+     "status": "win",
+     "wins": 1,
      "losses": 0,
-     "n_graded": 0,
-     "n_pending": 1,
+     "n_graded": 1,
+     "n_pending": 0,
      "killers": []
     }
    ]
@@ -8424,15 +8459,15 @@
   "model_first_posted": {
    "label": "model ticket as posted",
    "wins": 3,
-   "losses": 13,
-   "pending": 1,
-   "n_decided": 16,
-   "hit_rate": 18.8,
-   "record": "3-13 (1 pending)",
+   "losses": 14,
+   "pending": 0,
+   "n_decided": 17,
+   "hit_rate": 17.6,
+   "record": "3-14",
    "killers_by_type": [
     {
      "key": "nhl:1+ points",
-     "slates_killed": 10
+     "slates_killed": 11
     },
     {
      "key": "nba:threes",
@@ -8717,31 +8752,41 @@
     },
     {
      "slate": "2026-11-27",
-     "status": "pending",
-     "wins": 0,
-     "losses": 0,
-     "n_graded": 0,
-     "n_pending": 5,
-     "killers": []
+     "status": "loss",
+     "wins": 4,
+     "losses": 1,
+     "n_graded": 5,
+     "n_pending": 0,
+     "killers": [
+      {
+       "player": "Cutter Gauthier",
+       "label": "Over 0.5 points",
+       "leg_type": "nhl:1+ points"
+      }
+     ]
     }
    ]
   },
   "model_site": {
    "label": "model site ticket, later reshuffles, not official",
    "wins": 7,
-   "losses": 16,
-   "pending": 1,
-   "n_decided": 23,
-   "hit_rate": 30.4,
-   "record": "7-16 (1 pending)",
+   "losses": 17,
+   "pending": 0,
+   "n_decided": 24,
+   "hit_rate": 29.2,
+   "record": "7-17",
    "killers_by_type": [
     {
      "key": "nhl:1+ points",
-     "slates_killed": 12
+     "slates_killed": 13
     },
     {
      "key": "nba:threes",
      "slates_killed": 7
+    },
+    {
+     "key": "nba:assists",
+     "slates_killed": 2
     },
     {
      "key": "nba:rebounds",
@@ -8761,10 +8806,6 @@
     },
     {
      "key": "nhl:assists",
-     "slates_killed": 1
-    },
-    {
-     "key": "nba:assists",
      "slates_killed": 1
     }
    ],
@@ -9134,12 +9175,23 @@
     },
     {
      "slate": "2026-11-27",
-     "status": "pending",
-     "wins": 0,
-     "losses": 0,
-     "n_graded": 0,
-     "n_pending": 5,
-     "killers": []
+     "status": "loss",
+     "wins": 3,
+     "losses": 2,
+     "n_graded": 5,
+     "n_pending": 0,
+     "killers": [
+      {
+       "player": "Cutter Gauthier",
+       "label": "Over 0.5 points",
+       "leg_type": "nhl:1+ points"
+      },
+      {
+       "player": "Donovan Clingan",
+       "label": "Over 1.5 assists",
+       "leg_type": "nba:assists"
+      }
+     ]
     }
    ]
   }
@@ -9147,13 +9199,13 @@
  "leg_types": {
   "model_first_posted": [
    {
-    "wins": 33,
-    "losses": 12,
-    "pending": 3,
+    "wins": 35,
+    "losses": 13,
+    "pending": 0,
     "void": 0,
-    "n_graded": 45,
-    "hit_rate": 73.3,
-    "record": "33-12 (3 pending)",
+    "n_graded": 48,
+    "hit_rate": 72.9,
+    "record": "35-13",
     "key": "nhl:1+ points"
    },
    {
@@ -9167,13 +9219,13 @@
     "key": "nba:threes"
    },
    {
-    "wins": 11,
+    "wins": 13,
     "losses": 0,
-    "pending": 2,
+    "pending": 0,
     "void": 0,
-    "n_graded": 11,
+    "n_graded": 13,
     "hit_rate": 100.0,
-    "record": "11-0 (2 pending)",
+    "record": "13-0",
     "key": "nba:assists"
    },
    {
@@ -9259,13 +9311,13 @@
   ],
   "model_era_first_posted": [
    {
-    "wins": 23,
-    "losses": 11,
-    "pending": 3,
+    "wins": 25,
+    "losses": 12,
+    "pending": 0,
     "void": 0,
-    "n_graded": 34,
+    "n_graded": 37,
     "hit_rate": 67.6,
-    "record": "23-11 (3 pending)",
+    "record": "25-12",
     "key": "nhl:1+ points"
    },
    {
@@ -9289,13 +9341,13 @@
     "key": "nfl:anytimetd"
    },
    {
-    "wins": 4,
+    "wins": 6,
     "losses": 0,
-    "pending": 2,
+    "pending": 0,
     "void": 0,
-    "n_graded": 4,
+    "n_graded": 6,
     "hit_rate": 100.0,
-    "record": "4-0 (2 pending)",
+    "record": "6-0",
     "key": "nba:assists"
    },
    {
@@ -9331,13 +9383,13 @@
   ],
   "model_site": [
    {
-    "wins": 32,
-    "losses": 13,
-    "pending": 3,
+    "wins": 34,
+    "losses": 14,
+    "pending": 0,
     "void": 0,
-    "n_graded": 45,
-    "hit_rate": 71.1,
-    "record": "32-13 (3 pending)",
+    "n_graded": 48,
+    "hit_rate": 70.8,
+    "record": "34-14",
     "key": "nhl:1+ points"
    },
    {
@@ -9351,13 +9403,13 @@
     "key": "nba:threes"
    },
    {
-    "wins": 10,
-    "losses": 1,
-    "pending": 2,
+    "wins": 11,
+    "losses": 2,
+    "pending": 0,
     "void": 0,
-    "n_graded": 11,
-    "hit_rate": 90.9,
-    "record": "10-1 (2 pending)",
+    "n_graded": 13,
+    "hit_rate": 84.6,
+    "record": "11-2",
     "key": "nba:assists"
    },
    {
@@ -9443,13 +9495,13 @@
   ],
   "deep_floor": [
    {
-    "wins": 22,
+    "wins": 23,
     "losses": 5,
-    "pending": 1,
+    "pending": 0,
     "void": 0,
-    "n_graded": 27,
-    "hit_rate": 81.5,
-    "record": "22-5 (1 pending)",
+    "n_graded": 28,
+    "hit_rate": 82.1,
+    "record": "23-5",
     "key": "nhl:1+ points"
    },
    {
@@ -9555,13 +9607,13 @@
     "key": "nba:assists"
    },
    {
-    "wins": 7,
+    "wins": 8,
     "losses": 3,
-    "pending": 1,
+    "pending": 0,
     "void": 0,
-    "n_graded": 10,
-    "hit_rate": 70.0,
-    "record": "7-3 (1 pending)",
+    "n_graded": 11,
+    "hit_rate": 72.7,
+    "record": "8-3",
     "key": "nhl:1+ points"
    },
    {
@@ -9599,11 +9651,11 @@
    {
     "wins": 7,
     "losses": 3,
-    "pending": 6,
+    "pending": 0,
     "void": 0,
     "n_graded": 10,
     "hit_rate": 70.0,
-    "record": "7-3 (6 pending)",
+    "record": "7-3",
     "key": "nhl:1+ points"
    },
    {
@@ -9639,11 +9691,11 @@
    {
     "wins": 0,
     "losses": 2,
-    "pending": 1,
+    "pending": 0,
     "void": 0,
     "n_graded": 2,
     "hit_rate": 0.0,
-    "record": "0-2 (1 pending)",
+    "record": "0-2",
     "key": "nfl:receiving_yards"
    },
    {
@@ -9659,11 +9711,11 @@
    {
     "wins": 2,
     "losses": 0,
-    "pending": 1,
+    "pending": 0,
     "void": 0,
     "n_graded": 2,
     "hit_rate": 100.0,
-    "record": "2-0 (1 pending)",
+    "record": "2-0",
     "key": "nhl:assists"
    },
    {
@@ -9679,11 +9731,11 @@
    {
     "wins": 0,
     "losses": 1,
-    "pending": 2,
+    "pending": 0,
     "void": 0,
     "n_graded": 1,
     "hit_rate": 0.0,
-    "record": "0-1 (2 pending)",
+    "record": "0-1",
     "key": "nhl:shots"
    }
   ],
