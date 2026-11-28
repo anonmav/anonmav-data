@@ -1,5 +1,5 @@
 {
- "pulled_az": "2026-11-27T15:32:08-07:00",
+ "pulled_az": "2026-11-28T02:35:50-07:00",
  "start": "2026-11-17",
  "note": "High Floor forward test. Started November 17, 2026 at 0-0. Singles only, locked at publish, graded daily.",
  "rule": [
@@ -11,38 +11,38 @@
   "Floor scores, market chances and defense ranks are estimates. No stakes or profit are tracked. Not betting advice."
  ],
  "summary": {
-  "wins": 17,
-  "losses": 15,
+  "wins": 18,
+  "losses": 18,
   "void": 1,
-  "pending": 4,
-  "graded": 32,
+  "pending": 0,
+  "graded": 36,
   "target": 300,
-  "hit_rate": 53.1,
+  "hit_rate": 50.0,
   "market_avg_pct": 58.0,
-  "gap_pts": -4.9
+  "gap_pts": -8.0
  },
  "splits": {
   "soft_matchup": {
-   "wins": 5,
+   "wins": 6,
    "losses": 2,
    "void": 1,
-   "pending": 1,
-   "graded": 7,
+   "pending": 0,
+   "graded": 8,
    "target": 300,
-   "hit_rate": 71.4,
-   "market_avg_pct": 60.0,
-   "gap_pts": 11.4
+   "hit_rate": 75.0,
+   "market_avg_pct": 59.9,
+   "gap_pts": 15.1
   },
   "other_matchup": {
    "wins": 12,
-   "losses": 13,
+   "losses": 16,
    "void": 0,
-   "pending": 3,
-   "graded": 25,
+   "pending": 0,
+   "graded": 28,
    "target": 300,
-   "hit_rate": 48.0,
-   "market_avg_pct": 57.5,
-   "gap_pts": -9.5
+   "hit_rate": 42.9,
+   "market_avg_pct": 57.4,
+   "gap_pts": -14.5
   },
   "no_rank": {
    "wins": 0,
@@ -59,25 +59,25 @@
  "by_sport": {
   "nba": {
    "wins": 2,
-   "losses": 3,
+   "losses": 4,
    "void": 0,
-   "pending": 1,
-   "graded": 5,
+   "pending": 0,
+   "graded": 6,
    "target": 300,
-   "hit_rate": 40.0,
-   "market_avg_pct": 52.2,
-   "gap_pts": -12.2
+   "hit_rate": 33.3,
+   "market_avg_pct": 51.7,
+   "gap_pts": -18.4
   },
   "nhl": {
-   "wins": 12,
-   "losses": 11,
+   "wins": 13,
+   "losses": 13,
    "void": 1,
-   "pending": 3,
-   "graded": 23,
+   "pending": 0,
+   "graded": 26,
    "target": 300,
-   "hit_rate": 52.2,
-   "market_avg_pct": 59.7,
-   "gap_pts": -7.5
+   "hit_rate": 50.0,
+   "market_avg_pct": 59.8,
+   "gap_pts": -9.8
   },
   "nfl": {
    "wins": 3,
@@ -175,10 +175,10 @@
   {
    "slate": "2026-11-27",
    "legs": 4,
-   "wins": 0,
-   "losses": 0,
+   "wins": 1,
+   "losses": 3,
    "void": 0,
-   "pending": 4
+   "pending": 0
   }
  ],
  "losses": [
@@ -301,6 +301,30 @@
    "result": 0.0,
    "sport": "nhl",
    "game": "NSH @ DAL"
+  },
+  {
+   "slate": "2026-11-27",
+   "player": "Kent Johnson",
+   "label": "Over 0.5 points",
+   "result": 0.0,
+   "sport": "nhl",
+   "game": "DET @ CBJ"
+  },
+  {
+   "slate": "2026-11-27",
+   "player": "Auston Matthews",
+   "label": "Over 0.5 points",
+   "result": 0.0,
+   "sport": "nhl",
+   "game": "TOR @ BOS"
+  },
+  {
+   "slate": "2026-11-27",
+   "player": "Davion Mitchell",
+   "label": "Over 14.5 points",
+   "result": 12.0,
+   "sport": "nba",
+   "game": "MIA @ NY"
   }
  ],
  "legs": [
@@ -2170,7 +2194,10 @@
    },
    "def_logged_az": "2026-11-27T07:02:33-07:00",
    "would_exclude": [],
-   "flags_checked_az": "2026-11-27T07:02:34-07:00"
+   "flags_checked_az": "2026-11-27T07:02:34-07:00",
+   "grade": "win",
+   "result": 2.0,
+   "graded_az": "2026-11-28T02:30:57-07:00"
   },
   {
    "id": "2026-11-27:nhl:4781553:points",
@@ -2224,7 +2251,10 @@
    },
    "def_logged_az": "2026-11-27T07:02:33-07:00",
    "would_exclude": [],
-   "flags_checked_az": "2026-11-27T07:02:34-07:00"
+   "flags_checked_az": "2026-11-27T07:02:34-07:00",
+   "grade": "loss",
+   "result": 0.0,
+   "graded_az": "2026-11-28T02:31:04-07:00"
   },
   {
    "id": "2026-11-27:nhl:4024123:points",
@@ -2278,7 +2308,10 @@
    },
    "def_logged_az": "2026-11-27T07:02:33-07:00",
    "would_exclude": [],
-   "flags_checked_az": "2026-11-27T07:02:34-07:00"
+   "flags_checked_az": "2026-11-27T07:02:34-07:00",
+   "grade": "loss",
+   "result": 0.0,
+   "graded_az": "2026-11-28T02:31:05-07:00"
   },
   {
    "id": "2026-11-27:nba:4278053:points",
@@ -2337,7 +2370,10 @@
    },
    "def_logged_az": "2026-11-27T07:02:33-07:00",
    "would_exclude": [],
-   "flags_checked_az": "2026-11-27T07:02:34-07:00"
+   "flags_checked_az": "2026-11-27T07:02:34-07:00",
+   "grade": "loss",
+   "result": 12.0,
+   "graded_az": "2026-11-28T02:30:22-07:00"
   }
  ],
  "split_note": "Soft matchup means the opponent ranks in the softest ten of the league at the position (team level for NHL). Ranks are estimates."
